@@ -23,7 +23,7 @@ theme: "lantana"
 
 visible_search : true
 #WSOFT共通フッターを読み込んでいるため非表示
-config.disable_footer : true
+disable_footer : true
 
 plugins:
     - search:
