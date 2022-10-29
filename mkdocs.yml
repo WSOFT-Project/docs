@@ -1,5 +1,5 @@
 site_name: Docs
-copyright : 'Copyright &copy; 2022 WSOFT All Rights Reserved.'
+copyright : 'Copyright &copy; 2022 WSOFT All Rights reserved.'
 
 docs_dir : 'docs'
 
@@ -11,10 +11,10 @@ edit_uri_template: 'blob/master/docs/{path}'
 extra_javascript:
   - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+  - https://wsoft.ws/main.js
 
 favicon : https://wsoft.ws/favicon.ico
 favicon_svg : https://wsoft.ws/favicon.svg
-image : https://wsoft.ws/favicon.svg
 language : ja
 
 

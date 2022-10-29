@@ -1,6 +1,6 @@
 ---
-title: ƒz[ƒ€
-summary: WSOFT‚ÌƒI[ƒvƒ“ƒ\[ƒXƒhƒLƒ…ƒƒ“ƒgAWSOFTDocs‚Ö‚æ‚¤‚±‚»B
+title: ãƒ›ãƒ¼ãƒ 
+summary: WSOFTã®ã‚ªãƒ¼ãƒ—ãƒ³ã‚½ãƒ¼ã‚¹ãƒ‰ã‚­ãƒ¥ãƒ¡ãƒ³ãƒˆã€WSOFTDocsã¸ã‚ˆã†ã“ãã€‚
 author : Taiseiue
 author_url : https://github.com/taiseiue
 disable_tol: true
