@@ -9,11 +9,13 @@ author_url : https://github.com/taiseiue
 この記事では、WebSailingの起動時に使用される設定ファイル(app.wsconf)を編集して、WebSailingの起動をカスタマイズする方法について説明します。
 ## 起動時の設定の概要
 WebSailing101以降のすべてのバージョンでWebSailingの起動をカスタマイズするには、ConfigEditorを使用できます。app.wsconfは、WebSailingの実行ファイルと同じディレクトリに配置されていて、WSOFTConfig形式で保存されています。この設定ファイルには次の項目が保存されています。
+
 * WebSailingのユーザーデータの保存先
 * WebSailingの起動時の挙動（セーフモードなど）
 * ログファイルの保存先
 
 それぞれの設定へのパスと、設定内容は次の通りです。
+
 |パス|値の種類|内容|
 |:----|:----:|:----|
 |/Application/Startup/UserData/Directory|文字列型|ユーザーごとの作業フォルダとして使用されるディレクトリのパス
