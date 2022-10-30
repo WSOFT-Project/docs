@@ -26,7 +26,7 @@ AliceSisterは、WSOFTによるもう一つのAliceModelの実装です。AliceS
 
 !!! info
     AliceSisterは、AliceScriptの開発に追従して、[AliceModel](../saim)の実装に加え、できるだけAliceScriptと同じ機能が提供されます。
-    現在のところAliceSisterは引き続き開発され、それが終了する予定はありません。すでに開発されているAliceSister専用アプリは移行する必要はありませんが、新規開発においてはできるだけ[AliceModel](../saim.md)の各実装に依存しないコードを使うとともに、ターゲットの限定が必要な場合はAliceScriptをご使用されることをお勧めします。
+    現在のところAliceSisterは引き続き開発され、それが終了する予定はありません。すでに開発されているAliceSister専用アプリは移行する必要はありませんが、新規開発においてはできるだけ[AliceModel](../saim)の各実装に依存しないコードを使うとともに、ターゲットの限定が必要な場合はAliceScriptをご使用されることをお勧めします。
 通常版には、AliceScriptパッケージファイル(.ice)や、AliceScriptソースファイル(.Alice)を実行するために必要なファイルが含まれています。
 
 ADK版には、それ単体でファイルを実行したり開発したりする前に必要なスクリプト等が含まれています。AliceScriptで何かを開発する予定がある方はこちらを選択してください。AliceScriptADKについて詳しくは[AliceScriptADK](../alice-adk)を参照してください。
