@@ -1,0 +1,1 @@
+document.getElementById("nav-docs").classList.add("active");
