@@ -11,8 +11,8 @@ disable_tools : true
 !!! note "ダウンロード"
     ---
     
-    * [WebSailing NX(ベータ版)](https://download.wsoft.ws/WebSailing/NX)
-    * [WebSailing GL(開発終了)](https://download.wsoft.ws/WebSailing/GL)
+    <a href="https://download.wsoft.ws/WebSailing/NX" class="btn btn-primary btn-lg">WebSailingNXのダウンロード</a>
+    <a href="https://download.wsoft.ws/WebSailing/NX" class="btn btn-secondary btn-lg">WebSailingGLのダウンロード</a>
 
 !!! note "更新履歴"
     ---
