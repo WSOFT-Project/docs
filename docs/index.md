@@ -52,7 +52,7 @@ disable_tools : true
     </a>
 </div>
 <div class="card col-sm-6 col-md-4 col-xl-3">
-    <a href="alice/" class="row g-0 text-reset text-decoration-none">
+    <a href="script/" class="row g-0 text-reset text-decoration-none">
         <img src="https://wsoft.ws/products/WSOFTScript.png" class="card-img-top" alt="WSOFTScript" loading="lazy">
             <div class="card-body">
                 <h5 class="card-title">WSOFTScript</h5>
@@ -63,7 +63,7 @@ disable_tools : true
     </a>
 </div>
 <div class="card col-sm-6 col-md-4 col-xl-3">
-    <a href="alice/" class="row g-0 text-reset text-decoration-none">
+    <a href="amiuha/" class="row g-0 text-reset text-decoration-none">
         <img src="https://wsoft.ws/products/Amiuha.png" class="card-img-top" alt="あみうは" loading="lazy">
             <div class="card-body">
                 <h5 class="card-title">あみうは</h5>
