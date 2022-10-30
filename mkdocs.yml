@@ -14,7 +14,7 @@ extra_javascript:
   # WSOFT共通ヘッダーフッターをロード
   - https://wsoft.ws/main.js
 
-image : /image.png
+image : https://wsoft.ws/docs.png
 favicon_svg : https://wsoft.ws/favicon.svg
 language : ja
 
