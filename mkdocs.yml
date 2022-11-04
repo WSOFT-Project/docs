@@ -13,8 +13,9 @@ extra_javascript:
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
   # WSOFT共通ヘッダーフッターをロード
   - https://wsoft.ws/main.js
+  - /site.js
 
-
+image : https://wsoft.ws/docs.png
 favicon_svg : https://wsoft.ws/favicon.svg
 language : ja
 

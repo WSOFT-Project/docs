@@ -6,7 +6,7 @@ author : Taiseiue
 author_url : https://github.com/taiseiue
 ---
 
-## AliceScriptへようこそ
+## AliceScript Docsへようこそ
 WSOFTDocsのAliceScriptのサイトへようこそ。このサイトでは、AliceScriptやAliceProjectの情報を掲載しています。
 
 !!! note "AliceScriptの基礎"
