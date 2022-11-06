@@ -11,7 +11,11 @@ WSOFTDocsは以下のプロジェクトを使用しており、実行の際に�
 
 - [Lantana](https://github.com/WSOFT-Project/lantana)
 
-Lantanaはpipでインストールできます。
+LantanaはPyPIでインストールできます。実行にはPython3が必要です。
+
+```shell
+pip install lantana
+```
 
 ## 入門
 オープンソースへの貢献は、単にコンテンツの更新を提供するだけでなく、問題が発生したときに共有することでもあります。次のセクションを確認して、次のいずれの方法が適切か判断してください。
