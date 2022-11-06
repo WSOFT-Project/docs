@@ -7,5 +7,5 @@ disable_tools : true
 ---
 ## WebSailing 4
 --8<--
-docs/websailing/changelog/1061.md
+docs/websailing/changelog/1070.md
 --8<--
