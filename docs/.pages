@@ -2,5 +2,5 @@ nav:
     - index.md
     - search.md
     - termsofuse.md
-    - ../legal/WSOFT-EULA.md
+    - legal|**/WSOFT-EULA.md
     - ...
