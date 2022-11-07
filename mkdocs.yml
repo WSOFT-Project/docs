@@ -9,6 +9,8 @@ repo_url : 'https://github.com/WSOFT-Project/docs/'
 edit_uri: 'blob/master/docs/'
 edit_uri_template: 'blob/master/docs/{path}'
 
+#google_analytics : 'G-9GQ0FRW2FZ'
+
 extra_javascript:
   - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
