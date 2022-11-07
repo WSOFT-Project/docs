@@ -12,7 +12,7 @@ disable_edit : true
 
 このファイルは、WSOFTエンドユーザーライセンス契約（以下、本契約といいます。）に基づいてライセンスされます。あなたがこのファイルを使用するためには、本契約に従わなければなりません。本契約の複製は下記の場所から入手できます。
 
-[https://wsoft.gq/legal/wsoft-eula.html](https://wsoft.gq/legal/wsoft-eula.html)
+https://taiseiue.docs-6wz.pages.dev/legal/WSOFT-EULA/
 
 適用される法律または別の契約によって命じられない限り、本契約に基づいて頒布されるファイルは、現状のまま頒布されます。本契約で享受できる権利と課される制限を規定した文言については、本契約を参照してください。
 
