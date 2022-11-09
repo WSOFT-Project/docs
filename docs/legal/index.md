@@ -14,3 +14,4 @@ WSOFTの法律関連資料については、以下のリンクを参照してく
 - [AliceScript/AliceSister再頒布可能パッケージ エンドユーザーライセンス契約(AliceEULA-R)](Alice-EULA-R)
 - [WSOFTダウンロードセンター利用規約](dc-termsofuse)
 - [WSOFTDocs使用条件](docs-termsofuse)
+- [あみうは利用規約](amiuha-termsofuse)
