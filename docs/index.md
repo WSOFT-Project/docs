@@ -27,7 +27,10 @@ disable_tools : true
     2022-11-01
   </div>
 </div>
-
+---
+<a class="btn btn-primary btn-lg" href="https://wsoft.ws/"><i class="bi bi-newspaper"></i>&nbsp;WSOFTのサイトへ</a>
+<a class="btn btn-secondary btn-lg" href="https://github.com/WSOFT-Project/docs"><i class="bi bi-github"></i>&nbsp;WSOFTDocsのリポジトリへ</a>
+---
 <div class="row">
 <div class="card col-sm-6 col-md-4 col-xl-3">
     <a href="websailing/" class="row g-0 text-reset text-decoration-none">
