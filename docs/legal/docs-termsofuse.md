@@ -6,6 +6,8 @@ author : WSOFT
 author_url : https://github.com/WSOFT-Project
 disable_edit : true
 ---
+**Copylight (c) 2022 WSOFT All rights reserved.**
+
 最終更新日:2022年11月1日
 
 以下の使用条件（以下、「使用条件」といいます）は、WSOFTDocs [Webサイト](https://docs.wsoft.ws/) およびそれに関連するサービスの使用に適用されます。
