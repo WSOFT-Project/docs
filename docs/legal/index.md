@@ -10,8 +10,4 @@ disable_tools : true
 
 WSOFTの法律関連資料については、以下のリンクを参照してください。
 
-- [WSOFTエンドユーザーライセンス契約](WSOFT-EULA)
-- [AliceScript/AliceSister再頒布可能パッケージ エンドユーザーライセンス契約(AliceEULA-R)](Alice-EULA-R)
-- [WSOFTダウンロードセンター利用規約](dc-termsofuse)
-- [WSOFTDocs使用条件](docs-termsofuse)
-- [あみうは利用規約](amiuha-termsofuse)
+{{ print_thumbnail('legal')　}}
