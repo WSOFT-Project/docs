@@ -5,7 +5,7 @@ author : Taiseiue
 author_url : https://github.com/taiseiue
 disable_tools : true
 ---
-## WebSailing 4
+## WebSailingNX 107.1
 --8<--
-docs/websailing/changelog/1070.md
+docs/websailing/changelog/1071.md
 --8<--
