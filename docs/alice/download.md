@@ -1,5 +1,5 @@
 ---
-title: AliceScriptのダウンロード
+title: ダウンロード
 summary: この記事では、AliceScriptのダウンロード方法について説明します
 date : 2021-12-25
 author : Taiseiue
