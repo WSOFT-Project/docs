@@ -36,4 +36,4 @@ WSOFTDocsは、現在進行中の継続的な作業ですから、まだまだ�
 WSOFTDocsのユーザーエクスペリエンスの大部分は、[Lantana](https://lantana.wsoft.ws/)によって提供されています。Webページのユーザーエクスペリエンスについてご意見がある場合は、[Lantanaのリポジトリ](https://github.com/WSOFT-Project/lantana)へお願いします。
 また、ドキュメントの生成システムは、[MkDocs](https://www.mkdocs.org)によって提供されています。MkDocsについても、[MkDocsのリポジトリ](https://github.com/mkdocs/mkdocs)へお願いします。
 
-WSOFTDocsの提供にご協力いただき、ありがとうございます。
+WSOFTDocsの改善にご協力いただき、ありがとうございます。
