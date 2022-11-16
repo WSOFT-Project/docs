@@ -24,3 +24,16 @@ WSOFTのドキュメントは、すべてオープンソースでGitHub上でホ
 4. 編集が完了したら、ページの下部までスクロールします。「変更の提案」領域に変更のタイトルと、必要に応じて説明を入力します。タイトルはコミットメッセージの最初の行になります。「変更の提案」をクリックして変更をコミットします。![変更の提案](media/3.jpg)
 5. 変更の提案が済んだため、その変更をリポジトリに"Pull"するよう、そのリポジトリの所有者に依頼し、コミットする必要があります。これを完了するには、"PullRequest"と呼ばれる作業を実行します。「Propose changes」をクリックしてPullRequestを作成します。GitHubを初めてお使いの場合、詳細については[pull requestについて](https://docs.github.com/ja/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests)を参照してください。
 6. これで完了です。WSOFTのメンバーが、PRをレビューし、承認されたらそれをマージします。変更をお願いするフィードバックを受け取る可能性があります。
+
+### オープン中のpull requestをレビューする
+pull requestsタブを確認することで、新しい記事やその変更を公開前に確認できます。それらをレビューしてコメントを追加することで、コミュニティにフィードバックできます。
+
+### 記事に関するIssueを作成する
+WSOFTDocsは、現在進行中の継続的な作業ですから、まだまだ改善の余地があります。それらの改善点は、私一人ですべてを発見するのは困難です。
+適切なIssueの投稿は、WSODFTDocsを改善するために役立ちます。提供していただく情報が詳細かつ具体的なほど、Issueは役立つものとなります。お探しだった情報を教えてください。ご使用になった検索語句をおしえてください。ガイドやドキュメントがわかりづらかった場合、どのようにするのが望ましいかお教えください。
+
+### LantanaやMkDocsの開発に参加する
+WSOFTDocsのユーザーエクスペリエンスの大部分は、[Lantana](https://lantana.wsoft.ws/)によって提供されています。Webページのユーザーエクスペリエンスについてご意見がある場合は、[Lantanaのリポジトリ](https://github.com/WSOFT-Project/lantana)へお願いします。
+また、ドキュメントの生成システムは、[MkDocs](https://www.mkdocs.org)によって提供されています。MkDocsについても、[MkDocsのリポジトリ](https://github.com/mkdocs/mkdocs)へお願いします。
+
+WSOFTDocsの改善にご協力いただき、ありがとうございます。
