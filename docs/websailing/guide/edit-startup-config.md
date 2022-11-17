@@ -1,5 +1,5 @@
 ---
-title: WebSailingの起動時に使用される設定を構成する
+title: 起動時に使用される設定を構成する
 summary: この記事では、WebSailingの起動時に使用される設定ファイル(app.wsconf)を編集して、WebSailingの起動をカスタマイズする方法について説明します。
 date : 2022-10-29
 author : Taiseiue
