@@ -1,3 +1,5 @@
+#!/bin/bash
+
 echo "Welcome to WSOFTDocs!"
 echo "Copyright © 2022 WSOFT All Rights Reserved."
 echo;
