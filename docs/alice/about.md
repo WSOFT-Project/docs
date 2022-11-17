@@ -23,7 +23,7 @@ AliceScriptのロゴ並びにWSOFTのロゴはWSOFTの著作物です。
 AliceScript/AliceSisterの実装の一部には、vassilych氏のCSCSを含んでいます。
 
 > CSCS: Customized Scripting in C#
-> Copyright (c) 2017 Vassili Kaplan, vassilik@gmail.com Releaced under the MIT Licence
+> Copyright３ (c) 2017 Vassili Kaplan, vassilik@gmail.com Releaced under the MIT Licence
 AliceScript/AliceSisterの実装の一部には、hnx8氏のReadJEncを含んでいます。
 
 > ReadJEnc 文字コード自動判別処理本体(Rev.20180421)
