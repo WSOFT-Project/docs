@@ -13,10 +13,10 @@ WSOFTDocsのAliceScriptのサイトへようこそ。このサイトでは、Ali
     ---
     
     * [AliceScriptのツアー](welcome)
-    * [初めてのAliceScript](begining-alice)
+    * [初めてのAliceScript](tutorial/begining-alice)
 
 !!! note "つながる"
     ---
 
-    * [AliceScript公式アンバサダー](alice)
+    * [AliceScript公式アンバサダー](general/alice)
     * [Aliceプロジェクト公式コミュニティ](https://a.wsoft.ws/discord)
