@@ -15,6 +15,7 @@ fi
 if !(type "mkdocs" > /dev/null 2>&1); then
     echo "MkDocs Doesn't exist! Install now."
     pip3 install --no-cache-dir lantana
+    pip3 install --no-cache-dir mkdocs-git-authors-plugin
 fi
 
 echo "Building the WSOFTDocs..."
