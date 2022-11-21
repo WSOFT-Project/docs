@@ -35,6 +35,11 @@ plugins:
         min_search_length: 2
     - macros
     - awesome-pages
+    - git-authors:
+        show_email_address: true
+        count_empty_lines: true
+        fallback_to_empty: false
+        enabled: true
 
 markdown_extensions:
     #- lantana.extensions.mdx_embedly
