@@ -1,6 +1,6 @@
 ---
-title: print
-summary: 文字列または、指定されたオブジェクトの文字列表現を標準出力に書き込み、続けて現在の行終端記号を書き込みます。
+title: write
+summary: 文字列または、指定されたオブジェクトの文字列表現を標準出力に書き込みます。
 date : 2021-11-09
 ---
 ### 定義
@@ -12,7 +12,7 @@ date : 2021-11-09
 
 ```cs title="AliceScript"
 namespace Alice;
-void print(variable value);
+void write(variable value);
 ```
 
 |引数| |
@@ -23,7 +23,7 @@ void print(variable value);
 
 ```cs title="AliceScript"
 namespace Alice;
-void print(string text);
+void write(string text);
 ```
 
 |引数| |
@@ -34,7 +34,7 @@ void print(string text);
 
 ```cs title="AliceScript"
 namespace Alice;
-void print(string format,params variable args);
+void write(string format,params variable args);
 ```
 
 |引数| |
@@ -46,13 +46,7 @@ void print(string format,params variable args);
 次の例は、Print関数を使用してHello,Worldを表示するコードです。
 
 ```cs title="AliceScript"
-print("Hello,World");
-```
-
-関数の区切りの空白をサポートしていますから、丸括弧の代わりに空白を使用して記述することも可能です。
-
-```cs title="AliceScript"
-print "Hello,World";
+write("Hello,World");
 ```
 
 次の例は、aとbの加算の結果を表示するコードです。
@@ -60,7 +54,7 @@ print "Hello,World";
 ```cs title="AliceScript"
 a = 1;
 b = 2;
-print("a+b="+(a+b));
+write("a+b="+(a+b));
 
 //出力:a+b=3
 ```
@@ -71,5 +65,5 @@ print("a+b="+(a+b));
 a = 1;
 b = 2;
 
-print("a+b={0}",a+b);
+write("a+b={0}",a+b);
 ```

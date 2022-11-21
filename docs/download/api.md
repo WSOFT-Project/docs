@@ -2,8 +2,6 @@
 title: API
 summary: WSOFTダウンロードセンターAPIは、WSOFTダウンロードセンターから提供されるリソースを他のプログラム等から呼び出し、ダウンロードや情報の取得をするためのAPIを提供します。 この記事は、WSOFTダウンロードセンターAPIを使用しようとしている技術者やソフトウェア開発者をターゲットにしています。
 date : 2022-7-6
-author : Taiseiue
-author_url : https://github.com/taiseiue
 ---
 ### はじめに
 WSOFTダウンロードセンターAPIは、WSOFTダウンロードセンター内のコンテンツやその情報を取得、検索する機能を提供するWebサービスです。APIの使用には、利用規約への同意が必要です。

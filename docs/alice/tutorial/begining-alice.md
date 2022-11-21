@@ -2,8 +2,6 @@
 title: 初めてのAliceScript
 summary: この記事では、AliceScriptの動作環境を構築し、お使いの任意のエディタとAliceScriptADKを使用してAliceScriptコンソールアプリケーションを作成して実行する方法を示します
 date : 2021-12-25
-author : Taiseiue
-author_url : https://github.com/taiseiue
 ---
 ### はじめに
 AliceScriptは、軽量な.NETエコシステム上で動作するインタプリンタ型のプログラミング言語です。AliceScriptはC#やPythonをルーツとしているため、C、C#、JavaScript、Pyhton、PHPのプログラマーであればすぐに使いこなすことができます。

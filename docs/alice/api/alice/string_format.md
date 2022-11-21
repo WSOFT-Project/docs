@@ -2,8 +2,6 @@
 title: string_format
 summary: 文字列を複合書式指定子を使用して整形して出力します。
 date : 2021-12-05
-author : Taiseiue
-author_url : https://github.com/taiseiue
 ---
 ### 定義
 名前空間:Alice / アセンブリ: AliceScript.dll / サポート: AliceScriptRC2

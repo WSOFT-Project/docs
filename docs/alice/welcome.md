@@ -2,8 +2,6 @@
 title: AliceScriptのツアー
 summary: AliceScriptとAliceProjectへようこそ
 date : 2021-12-25
-author : Taiseiue
-author_url : https://github.com/taiseiue
 ---
 ### はじめに
 AliceScript(アリススクリプトと読みます)は、軽量な.NETエコシステム上で動作するインタプリンタ型のプログラミング言語です。

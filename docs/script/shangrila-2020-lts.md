@@ -2,8 +2,6 @@
 title: Shangri-la 2020 LTS
 summary: Shangri-la 2020 LTSを公開しました
 date : 2022-10-29
-author : Taiseiue
-author_url : https://github.com/taiseiue
 ---
 ### LTSサポート
 このWSOFTScript.Shangrilaは2022年までサポート予定です(予告なく変更される可能性があります) ですので、長時間連続稼働や、長期的な開発に使うことが可能です

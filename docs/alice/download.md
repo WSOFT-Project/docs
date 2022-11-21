@@ -2,8 +2,6 @@
 title: ダウンロード
 summary: この記事では、AliceScriptのダウンロード方法について説明します
 date : 2021-12-25
-author : Taiseiue
-author_url : https://github.com/taiseiue
 ---
 # AliceScriptのダウンロード
 AliceScriptには、開発環境を含めたADK版と通常版の二種類が存在します。
