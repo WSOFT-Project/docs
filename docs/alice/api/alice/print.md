@@ -12,7 +12,7 @@ author_url : https://github.com/taiseiue
 
 与えられた変数`value`の文字列表現を出力します。
 
-```js title="AliceScript"
+```cs title="AliceScript"
 namespace Alice;
 void print(variable value);
 ```
@@ -23,7 +23,7 @@ void print(variable value);
 
 与えられた文字列`text`を出力します。
 
-```js title="AliceScript"
+```cs title="AliceScript"
 namespace Alice;
 void print(string text);
 ```
@@ -34,7 +34,7 @@ void print(string text);
 
 与えられた複合書式指定子`format`を使用して後続の変数を成形し、その結果を出力します。
 
-```js title="AliceScript"
+```cs title="AliceScript"
 namespace Alice;
 void print(string format,params variable args);
 ```
@@ -47,19 +47,19 @@ void print(string format,params variable args);
 ### 例
 次の例は、Print関数を使用してHello,Worldを表示するコードです。
 
-```js title="AliceScript"
+```cs title="AliceScript"
 print("Hello,World");
 ```
 
 関数の区切りの空白をサポートしていますから、丸括弧の代わりに空白を使用して記述することも可能です。
 
-```js title="AliceScript"
+```cs title="AliceScript"
 print "Hello,World";
 ```
 
 次の例は、aとbの加算の結果を表示するコードです。
 
-```js title="AliceScript"
+```cs title="AliceScript"
 a = 1;
 b = 2;
 print("a+b="+(a+b));
@@ -69,7 +69,7 @@ print("a+b="+(a+b));
 
 上記の例は、複合書式指定子を使用して、次のように記述することも可能です。
 
-```js title="AliceScript"
+```cs title="AliceScript"
 a = 1;
 b = 2;
 
