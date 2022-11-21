@@ -2,8 +2,6 @@
 title: delegate
 summary: デリゲートを生成します。
 date : 2022-02-15
-author : Taiseiue
-author_url : https://github.com/taiseiue
 ---
 ### 定義
 名前空間:Alice / アセンブリ: AliceScript.dll / サポート: AliceScript1

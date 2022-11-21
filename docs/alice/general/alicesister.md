@@ -2,8 +2,6 @@
 title: AliceSister
 summary: AliceSisterは、.NETFramework上で動作するWindows向けのAliceModelの実装です。
 date : 2021-12-25
-author : Taiseiue
-author_url : https://github.com/taiseiue
 ---
 AliceSisterは、[AliceModel](../saim)を対象とするアプリケーションを管理する実行環境と、プログラマがアプリ開発のあらゆる場面で簡単に使用できるAlice.Runtime、Windows固有の機能を実装するAlice.Windowsから構成されています。
 

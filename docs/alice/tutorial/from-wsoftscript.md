@@ -2,8 +2,6 @@
 title: WSOFTScriptからの移行
 summary: この記事では、AliceScriptによる開発と従来のWSOFTScriptによる開発の類似点と相違点について説明します。
 date : 2021-12-25
-author : Taiseiue
-author_url : https://github.com/taiseiue
 ---
 
 !!! warning

@@ -2,8 +2,6 @@
 title: WebSailingプロンプトを極める！その１ API を極める
 summary: この記事では、WebSailing GLプロンプトの使用方法について説明します。
 date : 2019-03-25
-author : Taiseiue
-author_url : https://github.com/taiseiue
 ---
 !!! warning "サポート終了"
     WebSailing GLシリーズのサポートはすでに終了しています。WSOFTはこのソフトウェアを実行して起こったいかなる事象についても責任を負いかねます。

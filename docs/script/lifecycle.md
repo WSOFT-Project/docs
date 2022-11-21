@@ -2,8 +2,6 @@
 title: WSOFTScriptのライフサイクル
 summary: この記事では、WSOFTScriptのサポート予定などのライフサイクルを説明します。
 date : 2022-6-18
-author : Taiseiue
-author_url : https://github.com/taiseiue
 ---
 WSOFTScriptは、次のライフサイクルポリシーに従います。
 

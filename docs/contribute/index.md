@@ -2,8 +2,6 @@
 title: 概要
 summary: WSOFTDocsで専門知識をほかのユーザーと共有することで、すべてのユーザーがより多くのことを達成するのに役立ちます。みなさんはこのガイドの情報を使用して、WSOFTDocsに新しい記事を公開するか、既存の記事を更新することができます。
 date : 2022-11-01
-author : Taiseiue
-author_url : https://github.com/taiseiue
 ---
 WSOFTDocs 共同作成ガイドへようこそ。
 

@@ -2,8 +2,6 @@
 title: 数値型の計算誤差
 summary: AliceScriptの数値型は、倍精度浮動小数点数数値型と定められており、この規格はIEEE754として標準化されています。 しかしこの数値型で小数の計算をしているとき、その計算結果が期待通りでないことがあります。この記事では、その理由について説明します。
 date : 2022-04-12
-author : Taiseiue
-author_url : https://github.com/taiseiue
 ---
 
 ### 計算誤差の例

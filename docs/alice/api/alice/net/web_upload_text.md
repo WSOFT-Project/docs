@@ -2,8 +2,6 @@
 title: web_upload_text
 summary: 指定したURIを持つリソースへ文字列をアップロードして応答を受け取ります。
 date : 2021-08-26
-author : Taiseiue
-author_url : https://github.com/taiseiue
 ---
 ### 定義
 名前空間:Alice.Net / アセンブリ: AliceScript.dll / サポート: AliceScript1

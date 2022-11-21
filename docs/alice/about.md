@@ -2,8 +2,6 @@
 title: AliceScriptについて
 summary: このサイトにある記事はすべてWSOFTまたはZenによって執筆されました
 date : 2021-12-25
-author : Taiseiue
-author_url : https://github.com/taiseiue
 ---
 ![AliceScript Logo](media/AliceScript_logo.png)
 

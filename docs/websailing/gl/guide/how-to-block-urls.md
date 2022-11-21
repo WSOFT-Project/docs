@@ -2,8 +2,6 @@
 title: WebSailingGLで特定のUrlをブロックする方法
 summary: この記事では、WebSailingGLシリーズで特定のUrlを表示させない方法について説明します。
 date : 2019-06-10
-author : Taiseiue
-author_url : https://github.com/taiseiue
 ---
 !!! warning "サポート終了"
     WebSailing GLシリーズのサポートはすでに終了しています。WSOFTはこのソフトウェアを実行して起こったいかなる事象についても責任を負いかねます。

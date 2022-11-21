@@ -2,8 +2,6 @@
 title: AliceScript
 summary: AliceScriptとAliceProjectへようこそ
 date : 2021-12-25
-author : Taiseiue
-author_url : https://github.com/taiseiue
 ---
 
 ## AliceScript Docsへようこそ

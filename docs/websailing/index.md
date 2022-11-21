@@ -2,8 +2,6 @@
 title: WebSailing
 summary: ドキュメント、チュートリアル、サンプルでWebSailingの使用方法について説明します。ユーザー、開発者、管理者向けの情報が含まれます。
 date : 2021-8-10
-author : Taiseiue
-author_url : https://github.com/taiseiue
 disable_tol: true
 disable_tools : true
 ---

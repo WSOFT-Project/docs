@@ -2,8 +2,6 @@
 title: AliceModel
 summary: この記事では、標準AliceScript実装モデルについて説明します
 date : 2021-12-25
-author : Taiseiue
-author_url : https://github.com/taiseiue
 ---
 **AliceModel**または**標準AliceScript実装モデル**(***SAIM*** :Standard AliceScript Implementation Model )は、複数のAliceModel実装間で使用されるAliceScriptのインタプリタとそれに付属するAPIの正式な仕様です。
 

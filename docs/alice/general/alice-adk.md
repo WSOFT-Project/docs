@@ -2,8 +2,6 @@
 title: AliceScript ADK
 summary: AliceScript Assessment Development Kitは、AliceScriptのSDK(Software Development Kit)に相当するキットです。
 date : 2021-12-25
-author : Taiseiue
-author_url : https://github.com/taiseiue
 ---
 ## はじめに
 AliceScript評価および開発キット(AliceScriptADK)には、AliceScriptのシステム、ライブラリ、パッケージや

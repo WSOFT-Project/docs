@@ -2,8 +2,6 @@
 title: AlicePackage
 summary: この記事では、AlicePackageの仕様について説明します
 date : 2021-12-25
-author : Taiseiue
-author_url : https://github.com/taiseiue
 ---
 AlicePackageは、プログラムのスクリプト、リソース、ライブラリやパッケージを含むAliceModelで実行できるアプリパッケージ形式です。
 

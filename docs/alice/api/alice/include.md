@@ -2,8 +2,6 @@
 title: include
 summary: スクリプトファイルを読み込み、実行します。
 date : 2021-11-09
-author : Taiseiue
-author_url : https://github.com/taiseiue
 ---
 ### 定義
 名前空間:Alice / アセンブリ: AliceScript.dll / サポート: AliceScript1

@@ -2,8 +2,6 @@
 title: function
 summary: 関数を定義します。
 date : 2022-01-15
-author : Taiseiue
-author_url : https://github.com/taiseiue
 ---
 ### 定義
 名前空間:Alice / アセンブリ: AliceScript.dll / サポート: AliceScript1

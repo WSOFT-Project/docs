@@ -1,8 +1,6 @@
 ---
 title: WSOFT Docs
 summary: とりあえず読んでみる。世界が広がる。
-author : Taiseiue
-author_url : https://github.com/taiseiue
 disable_tol: true
 disable_tools : true
 ---

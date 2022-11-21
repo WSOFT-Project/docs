@@ -2,8 +2,6 @@
 title: WebSailingを更新する方法
 summary: この記事では、WebSailingGLシリーズで、更新する方法について説明します。
 date : 2018-11-24
-author : Taiseiue
-author_url : https://github.com/taiseiue
 ---
 
 !!! warning "サポート終了"

@@ -2,8 +2,6 @@
 title: APIブラウザー
 summary: AliceScriptAPIブラウザーへようこそ。このサイト内にはAliceScriptやAlice.Runtimeで標準で提供されている関数について解説する記事がたくさんあります。
 date : 2022-01-31
-author : Taiseiue
-author_url : https://github.com/taiseiue
 ---
 ### 定義
 名前空間:Alice / アセンブリ: AliceScript.dll / サポート: AliceScript1

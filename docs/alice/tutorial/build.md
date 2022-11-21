@@ -2,8 +2,6 @@
 title: パッケージのビルド
 summary: この記事では、AlicePackageをビルドする方法について説明します
 date : 2021-12-25
-author : Taiseiue
-author_url : https://github.com/taiseiue
 ---
 あなたが作成したスクリプトをAlicePackage形式のアプリケーションとして展開するには、AlicePackage形式にビルドする必要があります。 AlicePackageは、さまざまなスクリプトやリソース、パッケージ、ライブラリをまとめた書庫と考えることができます。詳しく知るには[AlicePackageの記事](../alice-package)を参照してください。パッケージをビルドするには、次の方法のいずれかを取ることができます。
 

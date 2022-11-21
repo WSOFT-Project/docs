@@ -2,8 +2,6 @@
 title: web_htmldecode
 summary: HTMLでエンコードされた文字列をでコードされた文字列に変換します。
 date : 2021-08-26
-author : Taiseiue
-author_url : https://github.com/taiseiue
 ---
 ### 定義
 名前空間:Alice.Net / アセンブリ: AliceScript.dll / サポート: AliceScript1

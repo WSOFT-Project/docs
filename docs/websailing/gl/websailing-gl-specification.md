@@ -2,8 +2,6 @@
 title: WebSailingの仕様について（GL系のみ）
 summary: この記事では、WebSailingGLシリーズで共通の仕様について説明します。
 date : 2018-10-16
-author : Taiseiue
-author_url : https://github.com/taiseiue
 ---
 WebSailingはほかのブラウザよりは遅れをとっているものの、高速なブラウザです。
 

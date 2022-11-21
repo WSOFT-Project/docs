@@ -2,8 +2,6 @@
 title: WSOFTScript Pocket 2020 Beta
 summary: WSOFTScript Pocketを公開しました
 date : 2022-10-29
-author : Taiseiue
-author_url : https://github.com/taiseiue
 ---
 ### 概要
 WSOFTScript PocketはAndroid上で、WSOFTScript.X環境(WSOFTScript互換)を実行するためのアプリケーションです

@@ -2,8 +2,6 @@
 title: print
 summary: 文字列または、指定されたオブジェクトの文字列表現を標準出力に書き込み、続けて現在の行終端記号を書き込みます。
 date : 2021-11-09
-author : Taiseiue
-author_url : https://github.com/taiseiue
 ---
 ### 定義
 名前空間:Alice / アセンブリ: AliceScript.dll / サポート: AliceScript1
