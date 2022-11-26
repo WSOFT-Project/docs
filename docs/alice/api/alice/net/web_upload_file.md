@@ -1,5 +1,5 @@
 ---
-title: web_upload_data
+title: web_upload_file
 summary: 指定したURIを持つリソースへローカルファイルをアップロードして応答を受け取ります。
 date : 2021-08-26
 ---
