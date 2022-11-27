@@ -1,33 +1,24 @@
 ---
 title: WSOFT Docs
-summary: とりあえず読んでみる。世界が広がる。
+summary: WSOFT documentation is here.
 disable_tol: true
 disable_tools : true
 ---
 
-**WSOFTDocs**は[あみうは](https://amiuha2103.amebaownd.com/)、[WebSailing-Net](https://websailing.localinfo.jp/)、および[AliceScriptWiki](https://alice.wsoft.ws/index.php?title=%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%9A%E3%83%BC%E3%82%B8)で公開していた記事を一つにまとめた、新しいサイトです。
-
-<form class="input-group mb-3" action="/search">
-  <input type="text" class="form-control" placeholder="WSOFTDocsの検索" aria-label="WSOFTDocsの検索" aria-describedby="search-btn" name="q">
-  <button class="btn btn-outline-primary" type="send" id="search-btn">検索</button>
-</form>
-
-<div class="card">
-  <div class="card-header">
-    ブログ
-  </div>
-  <div class="card-body">
-    <h5 class="card-title">WSOFTDocs へようこそ</h5>
-    <p class="card-text">本日、WSOFTの新しいサイトであるWSOFTDocsを公開しました。このサイトでは、WSOFTの様々な製品に役立つ情報を提供します。</p>
-    <a href="/blog/introducing-wsoft-docs" class="btn btn-primary">読んでみる</a>
-  </div>
-  <div class="card-footer text-muted">
-    2022-11-01
-  </div>
-</div>
+<div class="d-flex justify-content-between">
+      <div></div>
+      <div>
+        <div>
+          <a href="https://wsoft.ws"><small>WSOFT</small></a>
+          <span>|</span>
+          <span>{{ today() }}</span>
+          <a class="btn print-hide" href="https://github.com/WSOFT-Project/docs"><i class="bi bi-github"></i>&nbsp;GitHubリポジトリへ</a>
+        </div>
+      </div>
+    </div>
 ---
-<a class="btn btn-primary btn-lg" href="https://wsoft.ws/"><i class="bi bi-newspaper"></i>&nbsp;WSOFTのサイトへ</a>
-<a class="btn btn-secondary btn-lg" href="https://github.com/WSOFT-Project/docs"><i class="bi bi-github"></i>&nbsp;WSOFTDocsのリポジトリへ</a>
+[WebSailing](/websailing)、[AliceScript](/alice)、[WSOFTScript](/script)などの製品のドキュメントや[WSOFTのブログ](/blog)、[あみうは](/amiuha)をご覧いただけます。
+
 ---
 <div class="row">
 <div class="card col-sm-6 col-md-4 col-xl-3">
@@ -48,17 +39,6 @@ disable_tools : true
                 <h5 class="card-title">AliceScript</h5>
                 <p class="card-text">
                 汎用性のあるスクリプト言語
-                </p>
-            </div>
-    </a>
-</div>
-<div class="card col-sm-6 col-md-4 col-xl-3">
-    <a href="script/" class="row g-0 text-reset text-decoration-none">
-        <img src="https://wsoft.ws/products/WSOFTScript.png" class="card-img-top" alt="WSOFTScript" loading="lazy">
-            <div class="card-body">
-                <h5 class="card-title">WSOFTScript</h5>
-                <p class="card-text">
-                簡単・便利・軽量なスクリプト言語
                 </p>
             </div>
     </a>

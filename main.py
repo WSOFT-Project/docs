@@ -2,6 +2,7 @@ import glob
 import os
 import sys
 import re
+import datetime
 
 COL_NUM = 3
 
@@ -52,6 +53,9 @@ def declare_variables(variables, macro):
     @macro
     def print_thumbnail(dir):
       return get_thumbnail_element(dir)
+    @macro
+    def today():
+        return datetime.datetime.now().strftime('%Y-%m-%d')
 
 if __name__ == '__main__':
     dir = sys.argv[1]
