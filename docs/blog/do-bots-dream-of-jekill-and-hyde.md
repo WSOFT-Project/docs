@@ -30,11 +30,11 @@ Alice in Discord は下の図のような構造をとることで、当初掲げ
 
 <div class="mermaid">
 graph LR
-ユーザー-->AliceBot
-AliceBot-->Hyper-Alice
-Hyper-Alice-->Bot1
-Hyper-Alice-->Bot2
-Hyper-Alice-->Bot3
+  ユーザー-->AliceBot
+  AliceBot-->Hyper-Alice
+  Hyper-Alice-->Bot1
+  Hyper-Alice-->Bot2
+  Hyper-Alice-->Bot3
 </div>
 
 また、プログラムは簡単に記述でき、かつ、必要な機能は一通り備えている必要があります。そこで、人格のAlice in Discord内での振る舞い（つまり、Botの動作そのものを意味します）を定義するために`AliceScript`を開発しました。AliceScriptでプログラミングした人格は、その立ち振る舞いと、それに必要なデータや人格の基本設定などを一つにまとめて、人格ファイル（*.identity)となり、Hyper-Aliceで実行できるようになります。
@@ -53,26 +53,6 @@ Hyper-Aliceは、一般的なコンピュータのOSに似ていて、Alice in D
 - **人格を破壊する**　通常の処理で終了しようとしても終了しない人格は、Hyper-Aliceによって強制終了されます。
 - **人格を交代させる**　人格によってリクエストがあった場合に、その人格に処理を交代します。しかし、いつでも交代できるわけではなく、Hyper-Aliceがその必要性を判断したうえで交代させます。それに従わない人格は**破壊**されます。
 
-人格が起動してから終了するまでの簡単な流れは下記のとおりです。
-<div class="mermaid">
-sequenceDiagram
-    participant Botを使う人
-    participant Alice in Discord
-    Botを使う人 ->> Alice in Discord : Bobをプログラミング
-    Note right of Botを使う人: ここでのBobは召喚したい人格（機能）を表す
-    Botを使う人->>Alice in Discord: Bobを使いたい！
-    Alice in Discord-->>Hyper-Alice: Bobを実行せよ
-    Note right of Alice in Discord:たくさんの人格の中から実行したい<br/>ものを選択するのはHyper-Alice
-    Hyper-Alice-->>Bob:実行
-    Bob->>Alice in Discord:Hello,World!
-    Alice in Discord->>Botを使う人:「Hello,World!」を表示
-    Botを使う人->>Alice in Discord: Bobを終了したい
-    Alice in Discord-->>Hyper-Alice: Bobを終了せよ
-    Hyper-Alice-->>Bob:終了
-    Bob-->>Hyper-Alice:Bobが終了したことを確認
-    Hyper-Alice->>Botを使う人:Bobを終了しました
-    Botを使う人->>Alice in Discord:Bobを廃棄
-</div>
 これらの様々な機能を複雑に実装することで、Alice in Discordは安定して動作する設計となりました。
                                                   
 ### クラスメイトからみた「Alice in Discord」
