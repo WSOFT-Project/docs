@@ -44,7 +44,7 @@ def get_card_element(title, dir,summary,date,author,dir_title):
     card += f'        <p class="card-text">{summary}</p>\n'
     card += f'        <a href="/{dir}/" class="btn btn-primary"><i class="bi bi-file-earmark-richtext"></i>この記事を読む</a>\n'
     card += f'      </div>\n'
-    card += f'    <div class="card-footer text-muted">{author} / {date}</div>'
+    card += f'    <div class="card-footer text-muted">{author}  {date}</div>'
 
     return card
 
