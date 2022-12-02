@@ -3,6 +3,14 @@ title: ダウンロード
 summary: この記事では、AliceScriptのダウンロード方法について説明します
 date : 2021-12-25
 ---
+# Losettaのダウンロード
+Losettaは、.NET6.0で書き直されたAliceScriptの実装です。AliceScriptADKと同等の機能を持ち、きわめて高い移植性をも持っています。
+
+---
+<a href="https://download.wsoft.ws/WS00138" class="btn btn-primary btn-lg"><i class="bi bi-download"></i>&nbsp;ダウンロード</a>
+
+---
+
 # AliceScriptのダウンロード
 AliceScriptには、開発環境を含めたADK版と通常版の二種類が存在します。
 
@@ -15,7 +23,8 @@ ADK版には、それ単体でファイルを実行したり開発したりす�
 *新機能については[AliceScriptの新機能](../features)を参照してください。
 *このソフトウェアに含まれるソフトウェアの著作権情報については[著作権情報](../about)を参照してください。
 
-* **[AliceScriptADK GM(最新版・安定版)のダウンロード](https://download.wsoft.ws/WS00003)**
+
+*  **[AliceScriptADK GM(安定版)のダウンロード](https://download.wsoft.ws/WS00003)**
 * [AliceScriptADK RC2(以前のバージョン)のダウンロード](https://download.wsoft.ws/WS00005)
 * [AliceScriptADK RC1(以前のバージョン)のダウンロード](https://download.wsoft.ws/WS00007)
 
