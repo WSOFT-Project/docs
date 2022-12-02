@@ -1,5 +1,5 @@
-/websailing/* /products/websailing/*
-/alice/* /products/alice/*
+/websailing/* /products/websailing/:splat
+/alice/* /products/alice/:splat
 
 /products/websailing/changelog /websailing/changelog/1072 301
 /products/websailing/gl/changelog /websailing/gl/changelog/4000 301
