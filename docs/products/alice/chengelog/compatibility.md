@@ -31,6 +31,16 @@ AliceScriptRC1以前のバージョンでは、定義されていない変数に
 a = 12345;
 ```
 
+### ラムダ式の導入
+<span class="badge bg-success">承認</span>
+
+Alice2.0では、ラムダ式が導入されました。ラムダ式を使うと、デリゲートを簡潔に記述することができます。たとえば、以下のような形式です。
+
+```cs title="AliceScript"
+var del =(x)=>x**x;
+```
+
+
 AliceScriptRC2以降でこれと同じ動作を行うことができる唯一の方法は次の通りです。
 
 ```js title="AliceScript"
