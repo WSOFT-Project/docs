@@ -19,7 +19,7 @@ AliceScriptによってライブラリが、.NET相互運用ライブラリで�
 
 プロジェクトに、次のクラスを追加します。
 
-```csharp title="MyLibrary.cs" linenums="1"
+```csharp title="MyLibrary.cs"
 using AliceScript;
 using AliceScript.Interop;
 
@@ -45,7 +45,7 @@ AliceScriptの関数は.NET側から見るとすべて`AliceScript.FunctionBase`
 
 初めに関数のクラスを定義します。
 
-```csharp title="MyLibrary.cs" linenums="1"
+```csharp title="MyLibrary.cs"
 using AliceScript;
 
 namespace MyLibrary
@@ -87,7 +87,7 @@ namespace MyLibrary
 名前空間は、関数やクラスをまとめておく、いわば箱のようなものです。
 これに登録することによって、AliceScriptから`import "MyLibrary"`と実行するだけであなたの作った関数が使用可能な状態になります。
 
-```csharp title="MyLibrary.cs" linenums="1"
+```csharp title="MyLibrary.cs"
 public void Main()
 {
     NameSpace mylib = new NameSpace("MyLibrary");
@@ -128,7 +128,7 @@ import "MyLibrary";
 さて、最期に先ほど作成した関数を呼び出してみましょう。
 
 ```js title="AliceScript"
-greet("Alice");//出力例:Alice,Hello
+greet("Alice");//出力例:Hello,Alice
 ```
 
 これでチュートリアルは完了です。
