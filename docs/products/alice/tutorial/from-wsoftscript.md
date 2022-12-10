@@ -19,15 +19,10 @@ AliceScriptが登場し、従来のWSOFTScriptはAliceScriptへと進化しま�
 この記事では、まず最初にAliceScriptで開発を始めるために必要な作業を確認します。(すでにAliceScriptを使用している場合はこのセクションを飛ばしても構いません)。次に、AliceScriptを使って簡単なコンソールアプリケーションを例として作成し、WSOFTScriptとAliceScriptの機能の類似点や相違点を実際に見てみます。
 
 ### AliceScriptを使用するための準備
-AliceScriptを使用したアプリケーションの開発についての説明の前に、まず、AliceScriptを実行できるコンピュータを用意する必要があります。.NETCore3.1がインストールされているコンピュータが必要です。そのようなコンピュータを用意できない場合は、WSOFTScriptと同じ要件で操作するAliceSisterを使用する必要があります。AliceSisterはAliceScriptとほぼ同じ動作をするAliceScriptの別の実装です。
+AliceScriptを使用したアプリケーションの開発についての説明の前に、まず、Losettaを実行できるコンピュータを用意する必要があります。Losettaを実行するために追加で必要なランタイムなどはありません。Losettaのランタイムは自己完結型で機能します。
 
 自分のコンピュータでAliceScriptを実行する場合は、次のソフトウェアをインストールする必要があります。
 
-- .NETCore v3.1以上
-- AliceScript
-- .NETCoreのインストールについては、Microsoftの公式ガイドを参照してください。
-
-[Windowsに.NETをインストールする](https://docs.microsoft.com/ja-jp/dotnet/core/install/windows?tabs=net50%7CWindows%E3%81%AB.NET%E3%82%92%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB%E3%81%99%E3%82%8B)
 .NETCoreに加えて、AliceScriptもコンピュータにインストールする必要があります。するには、[AliceScriptのダウンロード](../download)を参照してください。
 
 ### 初めてのAliceScriptアプリケーションの作成

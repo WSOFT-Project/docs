@@ -4,7 +4,7 @@ summary: 文字列を複合書式指定子を使用して整形して出力し�
 date : 2021-12-05
 ---
 ### 定義
-名前空間:Alice / アセンブリ: AliceScript.dll / サポート: AliceScriptRC2
+名前空間:Alice / アセンブリ : Losetta.Runtime.dll / サポート: AliceScriptRC2
 
 属性: 関数
 

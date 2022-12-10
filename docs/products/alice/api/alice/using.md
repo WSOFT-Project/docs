@@ -3,7 +3,7 @@ title: using
 summary: 現在のスコープで指定された名前空間への参照を追加します。
 ---
 ### 定義
-名前空間:Alice / アセンブリ: AliceScript.dll / サポート: AliceScript1
+名前空間:Alice / アセンブリ : Losetta.Runtime.dll / サポート: AliceScript1
 
 属性: 関数の区切りの空白をサポート
 
