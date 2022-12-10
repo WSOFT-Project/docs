@@ -4,7 +4,7 @@ summary: AliceScriptAPIブラウザーへようこそ。このサイト内には
 date : 2022-01-31
 ---
 ### 定義
-名前空間:Alice / アセンブリ: AliceScript.dll / サポート: AliceScript1
+名前空間:Alice / アセンブリ : Losetta.Runtime.dll / サポート: AliceScript1
 
 属性: 言語構造
 

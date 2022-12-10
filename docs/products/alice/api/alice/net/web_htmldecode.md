@@ -4,7 +4,7 @@ summary: HTMLでエンコードされた文字列をでコードされた文字�
 date : 2021-08-26
 ---
 ### 定義
-名前空間:Alice.Net / アセンブリ: AliceScript.dll / サポート: AliceScript1
+名前空間:Alice.Net / アセンブリ : Losetta.Runtime.dll / サポート: AliceScript1
 
 属性: 関数
 
@@ -27,7 +27,7 @@ string web_htmldecode(string text);
 次の例では、[web_htmlencode](../web_htmlencode)関数を使用して文字列をHTMLエンコードし、その後[web_htmldecode](../web_htmldecode)関数を使用してHTMLデコードしたものを表示します。
 
 ```cs title="AliceScript"
-import "Alice.Net";
+using Alice.Net;
 
 var text = "<div class=\"row\">";
 

@@ -1,6 +1,6 @@
 ---
 title: web_download_file
-summary: 指定したURIを持つリソースをローカルファイルにダウンロードします
+summary: 指定したURIを持つリソースをダウンロードします
 date : 2021-08-26
 ---
 ### 定義
@@ -8,17 +8,20 @@ date : 2021-08-26
 
 属性: 関数
 
-指定したURIを持つリソースをローカルファイルにダウンロードします。
+指定したURIを持つリソースをダウンロードします。
 
 ```cs title="AliceScript"
 namespace Alice.Net;
-void web_download_file(string uri,string filename);
+byte[] web_download_data(string uri);
 ```
 
 |引数| |
 |-|-|
 |`uri`| データのダウンロード元のURL|
-|`filename`| ダウンロード先のファイルパス|
+
+|戻り値| |
+|-|-|
+|`byte[]`| リソースからの応答の本文|
 
 ### 例
 次の例では、`http://localhost/download`にあるリソースを`download.bin`に保存します。
@@ -27,5 +30,6 @@ void web_download_file(string uri,string filename);
 using Alice.Net;
 using Alice.IO;
 
-web_download_file("http://localhost/download","download.bin");
+var data = web_download_data("http://localhost/download");
+file_write_data("download.bin",data);
 ```

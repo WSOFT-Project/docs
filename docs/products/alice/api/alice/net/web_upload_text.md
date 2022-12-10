@@ -4,7 +4,7 @@ summary: 指定したURIを持つリソースへ文字列をアップロード�
 date : 2021-08-26
 ---
 ### 定義
-名前空間:Alice.Net / アセンブリ: AliceScript.dll / サポート: AliceScript1
+名前空間:Alice.Net / アセンブリ : Losetta.Runtime.dll / サポート: AliceScript1
 
 属性: 関数
 
@@ -28,8 +28,8 @@ string web_upload_text(string uri,string data);
 次の例では、`Hello,Server`を`http://localhost/upload`にアップロードし、サーバーからの応答を表示します。
 
 ```cs title="AliceScript"
-import "Alice.Net";
-import "Alice.IO";
+using Alice.Net;
+using Alice.IO;
 
 //アップロード先のURL
 string upload_uri = "http://localhost/upload";

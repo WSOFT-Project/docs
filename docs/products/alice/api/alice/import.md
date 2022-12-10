@@ -3,7 +3,7 @@ title: import
 summary: 指定されたファイル名のライブラリを読み込みます。
 ---
 ### 定義
-名前空間:Alice / アセンブリ: AliceScript.dll / サポート: AliceScript1
+名前空間:Alice / アセンブリ : Losetta.Runtime.dll / サポート: AliceScript1
 
 属性: 関数の区切りの空白をサポート
 

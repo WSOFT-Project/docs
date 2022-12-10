@@ -4,7 +4,7 @@ summary: 関数を定義します。
 date : 2022-01-15
 ---
 ### 定義
-名前空間:Alice / アセンブリ: AliceScript.dll / サポート: AliceScript1
+名前空間:Alice / アセンブリ : Losetta.Runtime.dll / サポート: AliceScript1
 
 属性: 関数の区切りの空白をサポート、言語構造
 

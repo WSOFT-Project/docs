@@ -4,7 +4,7 @@ summary: 文字列をURLエンコードされた文字列に変換します。
 date : 2021-08-26
 ---
 ### 定義
-名前空間:Alice.Net / アセンブリ: AliceScript.dll / サポート: AliceScript1
+名前空間:Alice.Net / アセンブリ : Losetta.Runtime.dll / サポート: AliceScript1
 
 属性: 関数
 
@@ -27,7 +27,7 @@ string web_urlencode(string text);
 次の例では、[web_urlencode](../web_urlencode)関数を使用して文字列をHTMLエンコードし、その後[web_urldecode](../web_urldecode)関数を使用してURLデコードしたものを表示します。
 
 ```cs title="AliceScript"
-import "Alice.Net";
+using Alice.Net;
 
 var text = "<div class=\"row\">";
 
