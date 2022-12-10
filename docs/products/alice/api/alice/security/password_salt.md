@@ -1,0 +1,37 @@
+---
+title: password_salt
+summary: ハッシュ関数のソルトとして使用できる、安全な乱数データを取得します
+---
+### 定義
+名前空間:Alice.Security / アセンブリ : Losetta.Runtime.dll / サポート: AliceScript1
+
+属性: 関数
+
+ハッシュ関数のソルトとして使用できる、安全な乱数データを取得します
+
+```cs title="AliceScript"
+namespace Alice.Net;
+byte[] password_salt(int size=32);
+```
+
+|引数| |
+|-|-|
+|`size`|出力されるソルトの長さ。|
+
+|戻り値| |
+|-|-|
+|`byte[]`|生成されたソルト。このとき、`return.length=size`となります。|
+
+### 例
+次の例では、文字列をハッシュ化し保存します。
+
+```cs title="AliceScript"
+using Alice.Security;
+using Alice.IO;
+
+byte[] salt = password_salt();
+byte[] hash = password_hash("password",salt);
+
+file_write_data("password_salt.bin",salt);
+file_write_data("password_hash.bin",hash);
+```
