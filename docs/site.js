@@ -1,6 +1,2 @@
 document.getElementById("nav-docs").classList.add("active");
-window.dataLayer = window.dataLayer || [];
-function gtag(){dataLayer.push(arguments);}
-gtag('js', new Date());
-
-gtag('config', 'G-33M7VJN24C');
+setLegalLink('https://docs.wsoft.ws/legal/docs-termsofuse','使用条件');

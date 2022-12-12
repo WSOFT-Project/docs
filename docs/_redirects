@@ -1,0 +1,7 @@
+/websailing/* /products/websailing/:splat
+/alice/* /products/alice/:splat
+/script/* /products/script/:splat
+/download/* /products/download/:splat
+
+/products/websailing/changelog /websailing/changelog/1072 301
+/products/websailing/gl/changelog /websailing/gl/changelog/4000 301

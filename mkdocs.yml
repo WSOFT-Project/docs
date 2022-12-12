@@ -2,11 +2,14 @@ site_name: Docs
 copyright : 'Copyright &copy; 2022 WSOFT All Rights reserved.'
 
 docs_dir : 'docs'
+site_url : 'https://docs.wsoft.ws/'
 
 repo_name : 'GitHub'
 repo_url : 'https://github.com/WSOFT-Project/docs/'
 edit_uri: 'blob/master/docs/'
 edit_uri_template: 'blob/master/docs/{path}'
+
+#google_analytics : 'G-9GQ0FRW2FZ'
 
 extra_javascript:
   - https://polyfill.io/v3/polyfill.min.js?features=es6
@@ -15,7 +18,7 @@ extra_javascript:
   - https://wsoft.ws/main.js
   - /site.js
 
-image : https://wsoft.ws/docs.png
+image : https://wsoft.ws/favicon.ico
 favicon_svg : https://wsoft.ws/favicon.svg
 language : ja
 
@@ -30,7 +33,15 @@ plugins:
     - search:
         lang : 'ja'
         min_search_length: 2
+    - mermaid2
+    - git-revision-date
+    - macros
     - awesome-pages
+    - git-authors:
+        show_email_address: true
+        count_empty_lines: true
+        fallback_to_empty: false
+        enabled: true
 
 markdown_extensions:
     #- lantana.extensions.mdx_embedly
@@ -47,7 +58,7 @@ markdown_extensions:
         custom_fences:
           - name: mermaid
             class: mermaid
-            format: !!python/name:pymdownx.superfences.fence_code_format
+            format: !!python/name:mermaid2.fence_mermaid
     - pymdownx.snippets
     - pymdownx.critic
     - pymdownx.caret
