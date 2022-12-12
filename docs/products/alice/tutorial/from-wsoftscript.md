@@ -21,9 +21,7 @@ AliceScriptが登場し、従来のWSOFTScriptはAliceScriptへと進化しま�
 ### AliceScriptを使用するための準備
 AliceScriptを使用したアプリケーションの開発についての説明の前に、まず、Losettaを実行できるコンピュータを用意する必要があります。Losettaを実行するために追加で必要なランタイムなどはありません。Losettaのランタイムは自己完結型で機能します。
 
-自分のコンピュータでAliceScriptを実行する場合は、次のソフトウェアをインストールする必要があります。
-
-.NETCoreに加えて、AliceScriptもコンピュータにインストールする必要があります。するには、[AliceScriptのダウンロード](../download)を参照してください。
+自分のコンピュータでAliceScriptを実行する場合は、AliceScriptをコンピュータにインストールする必要があります。するには、[AliceScriptのダウンロード](../download)を参照してください。
 
 ### 初めてのAliceScriptアプリケーションの作成
 AliceScriptアプリケーションは、WSOFTScriptアプリケーションと同じように、任意のテキストエディタで作成できます。
@@ -47,7 +45,7 @@ Hello,World!と表示されれば成功です。
 AliceScriptのライブラリには、AliceScript.dllに加えて、Alice.Runitime.dllがあります。これは、AliceScript.dllと同じディレクトリに配置されているときにデフォルトで読み込まれる、AliceScriptのライブラリ群です。ここに、ファイル操作などのよく使う関数やクラスが実装されています。Alice.Runtimeに実装されている関数のうち、名前空間がAlice(名前空間)でないものは関数の使用前に次のようなコードが必要です。
 
 ```js title="main.alice"
-import “{読み込みたい名前空間の名前}”;
+using {読み込みたい名前空間の名前};
 ```
 
 次の例では、まずWSOFTScriptを使用してHello,Worldをテキストファイルに書き込みます。
@@ -59,7 +57,7 @@ file_write_text(“test.txt”,”Hello,World”);
 このコードと同じ動作をするAliceScriptのコードは以下の通りです。
 
 ```js title="write_helloworkd.alice"
-import “Alice.IO”;
+using Alice.IO;
 file_write_text(“test.txt”,”Hello,World”);
 ```
 
@@ -69,21 +67,20 @@ file_write_text(“test.txt”,”Hello,World”);
 ところで、AliceScriptにはWSOFTScriptに実装されているようなフラグ機能はありません。インタプリタに事前に報告すべき情報がある場合は、Alice.Interpreter名前空間にある関数を呼び出して代用します。例えば、次のフラグの機能を、AliceScriptで表現することを考えます。
 
 ```js title="load.wss"
-import “Alice.IO”;
+import("WSOFTScript.IO");
 [DllImport:”Library.dll”]
 ```
 
 このフラグは、AliceScriptで特定の.NETライブラリを読み込むフラグです。これをAliceScriptで表現するには次のコードに置き換えます。
 
 ```js title="load.alice"
-import “Alice.IO”;
-Dllimport(“Library.dll”);
+import(“Library.dll”,true);
 ```
 
 また、標準出力から発生する出力を抑制したいとき、WSOFTScriptではCanPrintフラグを使用していました。これと同じように動作するコードをAliceScriptで表現すると、次のようになります。
 
 ```js title="disable_output.alice"
-import “Alice.Interpreter”;
+using Alice.Interpreter;
 Interpreter_AllowOutput(false);
 ```
 
