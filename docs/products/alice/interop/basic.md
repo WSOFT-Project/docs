@@ -10,12 +10,14 @@ VisualStudio等で、クラスライブラリプロジェクトを作成して�
 
 |AliceScriptの実装|.NETバージョン|
 |---|---|
-|AliceScript|.NetFramework 4.5|
-|AliceSister|.NetStandard2.0|
+|AliceScript|.NET Core3.1|
+|AliceSister|.NetFramework 4.5|
 |Losetta|.NET6.0|
 
 ### ライブラリエントリポイントの作成
 AliceScriptによってライブラリが、.NET相互運用ライブラリであると認識されるためには、`public`かつ`AliceScript.Interop.ILibrary`が実装されている事が必要です。
+
+初めに、それぞれの実装に応じたライブラリを参照する必要があります。例えば、AliceScriptで実装しているならAliceScript.dllの参照が必要です。
 
 プロジェクトに、次のクラスを追加します。
 
