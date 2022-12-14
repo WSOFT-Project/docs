@@ -6,7 +6,7 @@ summary : この記事では、WSTodonに寄せられるよくある質問とそ
 ### 登録前後の質問
 
 #### Q.AndroidやiPadのためのアプリはありますか？
-A.**あります。**　iPhoneやiPadのために[Mastodon for iPhone and iPad](https://apps.apple.com/us/app/mastodon-for-iphone/id1571998974)アプリが、Androidのために[Mastodon](https://play.google.com/store/apps/details?id=org.joinmastodon.android&pli=1)アプリが公式から頒布されています。他にも、サードパーティーのアプリを使うこともできます。
+**あります。**　iPhoneやiPadのために[Mastodon for iPhone and iPad](https://apps.apple.com/us/app/mastodon-for-iphone/id1571998974)アプリが、Androidのために[Mastodon](https://play.google.com/store/apps/details?id=org.joinmastodon.android&pli=1)アプリが公式から頒布されています。他にも、サードパーティーのアプリを使うこともできます。
 
 #### Q.PCまたはブラウザからアカウントを作る方法を教えてください。
 PCから、[WSTodon登録フォーム](https://don.wsoft.ws/auth/sign_up)にアクセスします。
@@ -36,8 +36,14 @@ PCから、[WSTodon登録フォーム](https://don.wsoft.ws/auth/sign_up)にア�
 #### Q.メールアドレスがなくても登録できますか？
 **はい。** 実験的にですが、メールアドレスのない方に***-don@wsoft.ws***のメールアドレスを付与しています。これに参加し、メールアドレスなしでの登録を希望される方は、[WSTodon用メールアドレス作成フォーム](https://forms.gle/A9roF4ceBqqZMoK57)でご連絡ください。
 
+#### Q.登録にお金はかかりますか？
+**いいえ。** 登録から運用まですべての費用はWSOFTが負担します。そのため、費用はかかりません。
+
 ### アカウントを作ってからの質問
-#### 自分のアカウントを非公開アカウント（いわゆる鍵垢）にできますか？
+#### Q.自分のアカウントを非公開アカウント（いわゆる鍵垢）にできますか？
 **はい。** **ユーザー設定**  > **承認制アカウントにする**という設定項目があります。設定は[プロフィールの設定](https://don.wsoft.ws/settings/profile)から行なえます。
 
 ![](media/4.jpg)
+
+#### サーバーごとにアカウントを作らないといけないのですか？違うサーバーの人とやり取りしたい時は相手と同じサーバーでないといけないのですか？
+**いいえ。** 違うサーバーのユーザー同士でもリプライ、フォロー、お気に入りなど一通りの機能は使用可能です
