@@ -32,7 +32,7 @@ summary: アイコンメーカーは様々な形式の画像ファイルをア�
 * WS00127 更新
 * 2022年12月02日 リリース
 
-<a href="https://download.wsoft.ws/WS00127" class="btn btn-primary btn-lg"><i class="bi bi-download"></i>&nbsp;ダウンロード</a>
+[ ダウンロード](https://download.wsoft.ws/WS00127){: .btn .btn-primary .btn-lg .bi .bi-download }
 
 
 ##### 変更内容
@@ -47,4 +47,4 @@ summary: アイコンメーカーは様々な形式の画像ファイルをア�
 * WS00079 更新
 * 2021年12月03日 リリース
 
-<a href="https://download.wsoft.ws/WS0079" class="btn btn-primary btn-lg"><i class="bi bi-download"></i>&nbsp;ダウンロード</a>
+[ ダウンロード](https://download.wsoft.ws/WS00079){: .btn .btn-primary .btn-lg .bi .bi-download }
