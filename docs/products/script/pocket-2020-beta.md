@@ -8,4 +8,4 @@ WSOFTScript PocketはAndroid上で、WSOFTScript.X環境(WSOFTScript互換)を�
 ### 仕様
 WSOFTScriptVM(WSOFTScriptエンジン)はWSOFTScript.X 2020 LTSです
 
-[ダウンロードするにはここをクリックしてください](https://download.wsoft.ws/WS00065)
+[ ダウンロード](https://download.wsoft.ws/WS00065){: .btn .btn-primary .btn-lg .bi .bi-download }

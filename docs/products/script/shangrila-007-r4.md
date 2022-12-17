@@ -5,4 +5,4 @@ date : 2022-10-29
 ---
 WSOFTScript0.07R4でビルドした、WSOFTScript.Shangrilaを公開します
 
-[ダウンロードするにはここをクリックしてください](https://download.wsoft.ws/WS00063)
+[ ダウンロード](https://download.wsoft.ws/WS00063){: .btn .btn-primary .btn-lg .bi .bi-download }

@@ -7,8 +7,7 @@ date : 2021-12-25
 Losettaは、.NET6.0で書き直されたAliceScriptの実装です。AliceScriptADKと同等の機能を持ち、きわめて高い移植性をも持っています。
 
 ---
-<a href="https://download.wsoft.ws/WS00138" class="btn btn-primary btn-lg"><i class="bi bi-download"></i>&nbsp;ダウンロード</a>
-
+[ ダウンロード](https://download.wsoft.ws/WS00138){: .btn .btn-primary .btn-lg .bi .bi-download }
 ---
 
 # AliceScriptのダウンロード
