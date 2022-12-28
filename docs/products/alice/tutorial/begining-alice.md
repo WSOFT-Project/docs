@@ -27,7 +27,13 @@ AliceScriptを使用したアプリケーションの開発についての説明
 
 名称変更したらそのファイルを適当な場所に移動します。このとき、移動先のファイルパスを控えておきます。
 
-[チュートリアル:AlicePackageの関連付け](./ice-to-association.md)を参考に、AlicePackageをコンピュータに関連付けます。これで環境構築は完了です。
+[チュートリアル:AlicePackageの関連付け](./ice-to-association.md)を参考に、AlicePackageをコンピュータに関連付けます。
+
+`alice -v`コマンドを実行し、以下のように出力されれば環境構築は完了です。
+
+```bash title="出力"
+AliceScript バージョン <SAIM_Version> (Losetta <IMPL_Version> on Win32NT)
+```
 
 #### LinuxとmacOS環境にLosettaを導入する
 この場合も初めに、Losettaをダウンロードする必要があります。`curl`コマンドを使って必要なファイルを導入できます。
@@ -51,14 +57,22 @@ curl -OL https://download.wsoft.ws/<Download_ID>/Download
 curl -OL https://download.wsoft.ws/WS144/Download
 ```
 
+!!!note "ダウンロードの検証"
+    ダウンロードが壊れておらず、正当なものであるかを確かめるためにチェックサムを取得して検証することができます。
+    `https://api.wsoft.ws/download/detail?id=<Download_ID>`を取得し、そのHash値がダウンロードしたファイルのSHA256ハッシュと同じかどうかを確かめます。
+
 次に以下のコマンドを順に実行します。実効には管理者権限が必要です。
 
 ```bash title="シェル"
 sudo chmod +x Download
 sudo mv Download /bin/alice
+alice -v
 ```
-これで環境構築は完了です。
+`alice -v`コマンドを実行し、以下のように出力されれば環境構築は完了です。
 
+```bash title="出力"
+AliceScript バージョン <SAIM_Version> (Losetta <IMPL_Version> on Unix)
+```
 
 ### 初めてのAliceScriptの実行
 `alice`コマンドを実行して、対話実行モードに入ります。次に、以下のようなコマンドを入力します。
