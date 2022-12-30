@@ -7,7 +7,7 @@ Losettaは、不具合の修正やAliceScriptの更新に応じて新しいプ�
 
 ### 更新スクリプトのダウンロード
 更新用スクリプトは次のリンクかUrlからダウンロードできます。
-[ ダウンロード](media/update){: .btn .btn-primary .btn-lg .bi .bi-download }
+[ ダウンロード](./media/update){: .btn .btn-primary .btn-lg .bi .bi-download }
 
 ```sh title="シェル"
 curl -OL https://docs.wsoft.ws/products/alice/tutorial/media/update
@@ -18,12 +18,16 @@ curl -OL https://docs.wsoft.ws/products/alice/tutorial/media/update
 
 ```js title="update"
 // 実行ファイルのファイル名
-// Windowsの場合は"{0}alice.exe"をアンコメントしてください
+// Windowsの場合は"{0}alice.exe"をアンコメント
 const target_filename = "{0}alice";
 // const target_filename = "{0}alice.exe";
 
 // アップデートの公開先
 const download_id =144;
+
+// アップデート後に実行されるコマンド。Windowsの場合はコメントアウト
+cmd  = "chmod";
+cmd_arg = "+x {0}";
 ```
 
 アップデートの公開先は、環境に応じて次の値を使用してください。
@@ -43,7 +47,7 @@ const download_id =144;
 編集済みのスクリプトを実行すると、必要な場合は更新が実行されます。
 
 ```bash title="シェル"
->alice -r update.txt
+>alice -r update
 https://api.wsoft.ws/download/detail?id=148&feature=version から最新バージョンを取得しています...
 最新バージョン : 0.9.11.0
 この実装よりも新しい実装が公開されています。
