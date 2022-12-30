@@ -39,11 +39,6 @@ const download_id =144;
 |WS150|Windows-ARM64|
 |WS151|Windows-ARM|
 
-Linuxの場合は更新後に実行権限を与える必要があります。これを更新後に自動的に実行するためにシェルスクリプトを使用します。
-
-```sh title="シェル"
-curl -OL https://docs.wsoft.ws/products/alice/tutorial/media/alice-update
-```
 
 ### 更新実行
 編集済みのスクリプトを実行すると、必要な場合は更新が実行されます。
@@ -58,8 +53,8 @@ https://download.wsoft.ws/148/Download から最新バイナリをダウンロ�
 0.9.11.0に更新しました。
 ```
 
-Linuxの場合は次のコマンドを実行します。
+Linuxの場合は更新後に実行権限を与えます。
 
 ```sh title="シェル"
-sudo alice-update
+sudo chmod +x /usr/local/bin/alice
 ```
