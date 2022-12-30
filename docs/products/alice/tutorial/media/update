@@ -1,6 +1,3 @@
-var  cmd = null;
-var  cmd_arg = null;
-
 // 実行ファイルのファイル名
 // Windowsの場合は"{0}alice.exe"をアンコメント
 const target_filename = "{0}alice";
