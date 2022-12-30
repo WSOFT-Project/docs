@@ -69,7 +69,7 @@ curl -OL https://download.wsoft.ws/WS144/Download
 
 ```bash title="シェル"
 sudo chmod +x Download
-sudo mv Download /bin/alice
+sudo mv Download /usr/bin/alice
 alice -v
 ```
 `alice -v`コマンドを実行し、以下のように出力されれば環境構築は完了です。

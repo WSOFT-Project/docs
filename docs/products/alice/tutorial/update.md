@@ -24,10 +24,6 @@ const target_filename = "{0}alice";
 
 // アップデートの公開先
 const download_id =144;
-
-// アップデート後に実行されるコマンド。Windowsの場合はコメントアウト
-cmd  = "chmod";
-cmd_arg = "+x {0}";
 ```
 
 アップデートの公開先は、環境に応じて次の値を使用してください。
@@ -43,6 +39,12 @@ cmd_arg = "+x {0}";
 |WS150|Windows-ARM64|
 |WS151|Windows-ARM|
 
+Linuxの場合は更新後に実行権限を与える必要があります。これを更新後に自動的に実行するためにシェルスクリプトを使用します。
+
+```sh title="シェル"
+curl -OL https://docs.wsoft.ws/products/alice/tutorial/media/alice-update
+```
+
 ### 更新実行
 編集済みのスクリプトを実行すると、必要な場合は更新が実行されます。
 
@@ -54,4 +56,10 @@ https://api.wsoft.ws/download/detail?id=148&feature=version から最新バー�
 K:\LocalFiles\Docments\WSOFT\Losetta\alice\bin\Debug\net6.0\alice.exe
 https://download.wsoft.ws/148/Download から最新バイナリをダウンロードしています...
 0.9.11.0に更新しました。
+```
+
+Linuxの場合は次のコマンドを実行します。
+
+```sh title="シェル"
+sudo alice-update
 ```

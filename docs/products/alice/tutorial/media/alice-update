@@ -1,0 +1,4 @@
+#!bin/sh
+alice -r update
+# 必要に応じてパスを変更してください
+chmod +x /usr/local/bin/alice
