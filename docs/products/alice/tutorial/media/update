@@ -9,15 +9,10 @@ const target_filename = "{0}alice";
 // アップデートの公開先
 const download_id =144;
 
-// アップデート後に実行されるコマンド。Windowsの場合はコメントアウト
-cmd  = "chmod";
-cmd_arg = "+x {0}";
-
 using Alice.IO;
 using Alice.Net;
 using Alice.Security;
 using Alice.Environment;
-using Alice.Diagnostics;
 
 const version_get_api = "https://api.wsoft.ws/download/detail?id={0}&feature=version";
 const download_url = "https://download.wsoft.ws/{0}/Download";
@@ -38,10 +33,5 @@ file_move(path,tmp);
 var url = download_url.format(download_id);
 print("{0} から最新バイナリをダウンロードしています...",url);
 web_download_file(url,path);
-print("ダウンロードが完了しました。");
-if(cmd != null)
-{
-process_start(cmd,cmd_arg.format(path));
-}
 print("{0} に更新しました",new_version);
 }
