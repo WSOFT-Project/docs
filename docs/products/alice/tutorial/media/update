@@ -1,0 +1,34 @@
+// 実行ファイルのファイル名
+// Windowsの場合は"{0}alice.exe"をアンコメントしてください
+const target_filename = "{0}alice";
+// const target_filename = "{0}alice.exe";
+
+// アップデートの公開先
+const download_id =144;
+
+using Alice.IO;
+using Alice.Net;
+using Alice.Security;
+using Alice.Environment;
+
+const version_get_api = "https://api.wsoft.ws/download/detail?id={0}&feature=version";
+const download_url = "https://download.wsoft.ws/{0}/Download";
+
+
+var version_url = version_get_api.format(download_id);
+print("{0} から最新バージョンを取得しています...",version_url);
+var new_version = web_download_text(version_url);
+print("最新バージョン : {0}",new_version);
+if(new_version != env_impl_version()){
+print("この実装よりも新しい実装が公開されています。");
+var path=target_filename.format(env_impl_location());
+var tmp =path+".old";
+file_delete(tmp);
+print(path);
+file_move(path,tmp);
+
+var url = download_url.format(download_id);
+print("{0} から最新バイナリをダウンロードしています...",url);
+web_download_file(url,path);
+print("{0} に更新しました",new_version);
+}

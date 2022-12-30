@@ -50,6 +50,10 @@ curl -OL https://download.wsoft.ws/<Download_ID>/Download
 |WS145|Linux-arm|
 |WS146|Linux-arm64|
 |WS147|macOS-x64|
+|WS148|Windows-x64|
+|WS149|Windows-x86|
+|WS150|Windows-ARM64|
+|WS151|Windows-ARM|
 
 例えば、64ビット環境のLinuxにLosettaを導入するには、次のようなコマンドを実行します。
 

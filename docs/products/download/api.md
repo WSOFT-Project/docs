@@ -89,6 +89,8 @@ https://api.wsoft.ws/download/detail
 |パラメータ|説明|
 |---|---|
 |id|取得したいコンテンツのダウンロードID|
+|key|取得したいコンテンツのダウンロードキー。この値は省略できます。|
+|feature|取得したいコンテンツのパラメータ。この値は省略できます。|
 
 #### 戻り値
 取得したコンテンツの情報がJSON形式で次のように返却されます。
@@ -136,10 +138,16 @@ https://api.wsoft.ws/download/detail
 |Support_Preview|要求したコンテンツがファイルのプレビューをサポートするか否かを表す値。サポートする場合はtrue、それ以外の場合はfalse。|
 
 #### 使用例
-次の例では、ダウンロードIDがWS0000のコンテンツの情報を取得します。
+次の例では、ダウンロードIDがWS0123のコンテンツの情報を取得します。
 
 ```url title="Url"
-https://api.wsoft.ws/download/detail?id=0
+https://api.wsoft.ws/download/detail?id=123
+```
+
+次の例では、ダウンロードIDがWS0123のコンテンツのタイトルを取得します。
+
+```url title="Url"
+https://api.wsoft.ws/download/detail?id=123&feature=title
 ```
 
 ### コンテンツの検索
