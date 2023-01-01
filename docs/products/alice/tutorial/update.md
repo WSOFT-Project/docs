@@ -6,11 +6,9 @@ summary : この記事では、Losettaの実装を更新する方法について
 Losettaは、不具合の修正やAliceScriptの更新に応じて新しいプログラムが配信されます。ユーザーのみなさんは、できるだけ最新のLosettaを使用することが求められています。
 
 ### 更新スクリプトのダウンロード
-更新用スクリプトは次のリンクかUrlからダウンロードできます。
-[ ダウンロード](./media/update){: .btn .btn-primary .btn-lg .bi .bi-download }
-
+更新用スクリプトはAliceScriptがインストールされていれば次のコマンドで導入できます。
 ```sh title="シェル"
-curl -OL https://docs.wsoft.ws/products/alice/tutorial/media/update
+alice install --args https://docs.wsoft.ws/products/alice/tutorial/media/update
 ```
 
 ### 更新スクリプトの編集
