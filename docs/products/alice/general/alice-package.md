@@ -70,4 +70,4 @@ Script属性は、このパッケージのエントリポイントを表しま�
 Script属性の指定には、インラインスクリプトを使用する方法と、有効なスクリプトへのリンクを使う方法の二通りがあります。例えば、別のスクリプトファイルである`main.alice`をエントリポイントとして使用するには、次のように指定します。
 
 ```xml title="manifest.xml（抜粋）"
-<script path=“main.alice” />
+<script path="main.alice" />

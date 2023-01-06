@@ -104,12 +104,12 @@ PrintAllArgs();
 ```cs title="AliceScript"
 virtual function SayHello()
  {
-    print(“Hello,World”);
+    print("Hello,World");
  }
 SayHello();//出力例:Hello,World
 override function SayHello()
  {
-    print(“Hello,Bonjur”);
+    print("Hello,Bonjur");
  }
 SayHello();//出力例:Hello,Bonjur
 ```
@@ -121,7 +121,7 @@ function RegisterGlobalFunction()
  {
      global function SayHello()
       {
-          print(“Hello,World”);
+          print("Hello,World");
       }
  }
 RegisterGlobalFunction();
@@ -137,9 +137,9 @@ SayHello();//出力例:Hello,World
 ```cs title="AliceScript"
 global function WordCount(this string str)
  {
-    return str.Split(“ ”).Length;
+    return str.Split(" ").Length;
  }
-var text = “Hello Extension Methods”;
+var text = "Hello Extension Methods";
 print(text.WordCount());//出力例:3
 ```
 
@@ -151,7 +151,7 @@ print(text.WordCount());//出力例:3
 ```cs title="AliceScript"
 function SayHello()
  {
-    print(“Hello,World”);
+    print("Hello,World");
  }
 var hello=SayHello;//helloは、DELEGATE型を表します
 hello();//出力:Hello,World

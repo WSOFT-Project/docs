@@ -12,6 +12,15 @@ WSOFTDocsのAliceScriptのサイトへようこそ。このサイトでは、Ali
     
     * [AliceScriptのツアー](welcome)
     * [初めてのAliceScript](tutorial/begining-alice)
+    * [APIブラウザ](./api/index.md)
+
+!!! note "主要な機能"
+    ---
+
+    * [式](./general/expression.md)
+    * [変数](./general/variable.md)
+    * [関数](./api/alice/function.md)
+    * [例外](./general/exception.md)
 
 !!! note "つながる"
     ---
