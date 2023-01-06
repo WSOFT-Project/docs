@@ -3,7 +3,7 @@ title: delegate
 summary: この記事ではdelegateキーワードまたはラムダ式によって提供される機能、delegate型に実装される機能を説明します。
 date : 2022-02-15
 ---
-デリゲートは、AliceScriptにおける”匿名関数”のメカニズムです。デリゲートは匿名関数として、その場ですぐに実行したり、変数に代入したり、関数に引数として渡すことができます。
+デリゲートは、AliceScriptにおける"匿名関数"のメカニズムです。デリゲートは匿名関数として、その場ですぐに実行したり、変数に代入したり、関数に引数として渡すことができます。
 
 例えば、蔵書検索アプリケーションを作成することを考えてみましょう。この検索の条件は、それと完全に一致する、それを含む、それを含まない、の3つが用意されています。いずれの場合も、Seartch()関数が行うことは基本的に同じです。つまり、なんらかの条件に基づいて一連の蔵書から項目を検索します。しかし、条件に基づいて検索するコードはそれぞれの条件によって異なります。
 
@@ -109,7 +109,7 @@ powoutput(2);//出力例:4
 ```cs title="AliceScript"
 function SayHello()
  {
-    print(“Hello,World”);
+    print("Hello,World");
  }
 var hello=SayHello;//helloは、DELEGATE型を表します
 hello();//出力:Hello,World
@@ -131,7 +131,7 @@ hello();//出力:Hello,World
 ```cs title="AliceScript"
 var SayBonjur = delegate()
  {
-    print(“Bonjur”);
+    print("Bonjur");
  }
 var Say = SayHello+SayBonjur;
 Say();
@@ -155,14 +155,14 @@ var OnKeyDown;
 //OnKeyDownに次のコードをイベントハンドラとして登録します
 OnKeyDown+=(key)=>
  {
-    if(key==“e”)
+    if(key=="e")
      {
          exit;
      }
  }
  while(true)
   {
-     print(“Hello,World”);
+     print("Hello,World");
      delay(1000);
   }
 ```
