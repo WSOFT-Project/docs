@@ -1,5 +1,5 @@
 ---
-title : WSTUbe ユーザーガイド
+title : WSTube ユーザーガイド
 summary : この記事では、WSTubeの使用方法について説明します。
 date : 2019-04-21
 ---
