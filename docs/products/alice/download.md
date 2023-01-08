@@ -7,7 +7,7 @@ date : 2021-12-25
 Losettaは、.NET6.0で書き直されたAliceScriptの実装です。AliceScriptADKと同等の機能を持ち、きわめて高い移植性をも持っています。
 
 ---
-[ ダウンロード](https://download.wsoft.ws/WS00138){: .btn .btn-primary .btn-lg .bi .bi-download }
+[ ダウンロード](https://download.wsoft.ws/WS00154){: .btn .btn-primary .btn-lg .bi .bi-download }
 ---
 
 # AliceScriptのダウンロード
@@ -22,8 +22,8 @@ ADK版には、それ単体でファイルを実行したり開発したりす�
 *新機能については[AliceScriptの新機能](../features)を参照してください。
 *このソフトウェアに含まれるソフトウェアの著作権情報については[著作権情報](../about)を参照してください。
 
-
-*  **[AliceScriptADK 2.0(最新版,安定版)のダウンロード](https://download.wsoft.ws/WS00139)**
+*  **[AliceScriptADK 2.0(最新版,安定版)のダウンロード](https://download.wsoft.ws/WS00152)**
+*  [AliceScriptADK 2.0(最新版,安定版)のダウンロード](https://download.wsoft.ws/WS00139)
 *  [AliceScriptADK GM(安定版)のダウンロード](https://download.wsoft.ws/WS00003)
 * [AliceScriptADK RC2(以前のバージョン)のダウンロード](https://download.wsoft.ws/WS00005)
 * [AliceScriptADK RC1(以前のバージョン)のダウンロード](https://download.wsoft.ws/WS00007)
@@ -43,8 +43,8 @@ ADK版には、それ単体でファイルを実行したり開発したりす�
 * 新機能については[AliceScriptの新機能](../features)を参照してください。
 * このソフトウェアに含まれるソフトウェアの著作権情報については[著作権情報](../about)を参照してください。
 
-
-*  **[AliceSisterADK 2.0(最新版,安定版)のダウンロード](https://download.wsoft.ws/WS00140)**
+*  **[AliceSisterADK 2.1(最新版,安定版)のダウンロード](https://download.wsoft.ws/WS00153)**
+*  [AliceSisterADK 2.0(最新版,安定版)のダウンロード](https://download.wsoft.ws/WS00140)
 * [AliceSisterADK GM(最新版・安定版)のダウンロード](https://download.wsoft.ws/WS00004)
 * [AliceSistertADK RC2(以前のバージョン)のダウンロード](https://download.wsoft.ws/WS00006)
 * [AliceSistertADK RC1(以前のバージョン)のダウンロード](https://download.wsoft.ws/WS00008)
