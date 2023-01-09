@@ -41,10 +41,11 @@ WSTubeの開発に際して、WSOFTは、自前でサーバーを用意し、そ
 WSOFTScriptの更新情報などをお知らせしていた[WSOFTScriptのサイト](https://wsoft.ws/script)の[WSOFTDocs](https://docs.wsoft.ws/script)への移行はすでに完了しました。
 
 #### WebSailingNet
-状況:<span class="badge bg-warning text-dark">進行中</span>
+状況:<span class="badge bg-success">完了</span>
 
-WebSailingNetと一口に言っても、それに分類されるサイトは[WebSailing-Netのメインサイト](https://websailing.localinfo.jp)や[WebSailingDeveloper](https://developer-websailing.localinfo.jp)、[WSPluginライブラリ](https://plugin-websailing.localinfo.jp)、[WebSailingNXサポート](https://suport-websailing.localinfo.jp)や[WSEガイド](https://wseguide-websailing.localinfo.jp)の各記事をWSOFTDocsに移行する必要があり、
-現在、それらの記事の移行の計画をしています。準備が整った記事から順に[WebSailingDocs](https://docs.wsoft.ws/websailing)で公開していきます。
+WebSailingNetと一口に言っても、それに分類されるサイトは[WebSailing-Netのメインサイト](https://websailing.localinfo.jp)や[WebSailingDeveloper](https://developer-websailing.localinfo.jp)、[WSPluginライブラリ](https://plugin-websailing.localinfo.jp)、[WebSailingNXサポート](https://suport-websailing.localinfo.jp)や[WSEガイド](https://wseguide-websailing.localinfo.jp)などさまざまです。
+
+それらすべてのサイトの記事のWSOFTDocsへの移行は完了しました。それらの記事は[WebSailingDocs](../products/websailing/index.md)で公開しています。
 
 #### AliceScriptWiki
 状況:<span class="badge bg-warning text-dark">進行中</span>
