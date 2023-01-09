@@ -13,19 +13,28 @@ date : 2021-12-25
 
 AliceScript/AliceSisterならびにその他WSOFTによるAliceScriptの実装はいずれもWSOFTによって開発された、WSOFTの著作物です。
 
-> AliceScript/AliceSister/Alice.Runtime
-> Copylight (c) 2021 - 2022 WSOFT, All rights reserved.
-> Released under the AliceEULA-R.
+```txt title="ライセンス"
+AliceScript/AliceSister/Alice.Runtime
+Copylight (c) 2021 - 2022 WSOFT, All rights reserved.
+Released under the AliceEULA-R.
+```
+
 AliceScriptのロゴ並びにWSOFTのロゴはWSOFTの著作物です。
 
 AliceScript/AliceSisterの実装の一部には、vassilych氏のCSCSを含んでいます。
 
-> CSCS: Customized Scripting in C#
-> Copyright３ (c) 2017 Vassili Kaplan, vassilik@gmail.com Releaced under the MIT Licence
+```txt title="ライセンス"
+CSCS: Customized Scripting in C#
+Copyright３ (c) 2017 Vassili Kaplan, vassilik@gmail.com Releaced under the MIT Licence
+```
+
 AliceScript/AliceSisterの実装の一部には、hnx8氏のReadJEncを含んでいます。
 
-> ReadJEnc 文字コード自動判別処理本体(Rev.20180421)
-> Copyright (C) 2014-2018 hnx8(H.Takahashi) Releaced under the MIT Licence
+```txt title="ライセンス"
+ReadJEnc 文字コード自動判別処理本体(Rev.20180421)
+Copyright (C) 2014-2018 hnx8(H.Takahashi) Releaced under the MIT Licence
+```
+
 ## 謝辞
 このプロジェクトの遂行にあたり終始支援し、温かく見守ってくださったすべての方々に感謝いたします。
 
