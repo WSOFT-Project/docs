@@ -9,13 +9,8 @@ summary: その変数の種類を表すオブジェクトを取得します
 
 ```cs title="AliceScript"
 namespace Alice;
-type Type {get;}
+readonly type Type;
 ```
-
-|戻り値| |
-|-|-|
-|`type`| そその変数の種類を表す`type`|
-
 
 ### 例
 以下は、`a`が`number`型であるかどうかを検証します。
