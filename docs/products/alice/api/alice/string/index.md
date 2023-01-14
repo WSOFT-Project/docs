@@ -108,7 +108,7 @@ var str ="""Hello,
 |AliceSister|[Unicode標準、バージョン6.3.0](https://www.unicode.org/versions/Unicode6.3.0/)|
 |Losetta|[Unicode標準、バージョン13.0.0](https://www.unicode.org/versions/Unicode13.0.0/)|
 
-### メソッドとプロパティ
+### プロパティ
 |名前|説明|
 |---|---|
 |[Length](../array/length.md)|その変数の持つデータ長を表します|
