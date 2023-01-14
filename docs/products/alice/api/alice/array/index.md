@@ -14,12 +14,20 @@ namespace Alice;
 global class array;
 ```
 
-### メソッドとプロパティ
+### 説明
+配列は、0個以上の変数を格納することができるオブジェクトとみなすことができます。CやC++のようなアドレス指定可能な連続メモリ領域ではありません。
+また、配列には別の配列を含むこともできます。このような配列は多次元配列やジャグ配列と呼ばれます。
+
+### プロパティ
 |名前|説明|
 |---|---|
 |[Length](../array/length.md)|その変数の持つデータ長を表します|
 |[First](../array/first.md)|現在の配列の最初の要素を表します|
 |[Last](../array/last.md)|現在の配列の最後の要素を表します|
+
+### メソッド
+|名前|説明|
+|---|---|
 |[Add(params variable item)](../array/add.md)|現在の配列の末尾に値を追加します|
 |[AddRange(params array items)](../array/addrange.md)|現在の配列の末尾にその配列に含まれるすべての要素を追加します|
 |[Contains(variable item)](../array/contains.md)|現在の配列内に指定された値が存在するかを示す値を取得します|

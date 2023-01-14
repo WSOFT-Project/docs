@@ -16,8 +16,12 @@ namespace Alice;
 global class bytes
 ```
 
-### メソッドとプロパティ
+### プロパティ
 |名前|説明|
 |---|---|
 |[Length](../array/length.md)|その変数の持つデータ長を表します|
+
+### メソッド
+|名前|説明|
+|---|---|
 |[Size()](../array/size.md)|その変数の持つデータ長を取得します|

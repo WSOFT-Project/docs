@@ -14,6 +14,48 @@ namespace Alice;
 global class string;
 ```
 
+### プロパティ
+|名前|説明|
+|---|---|
+|[IsNormalized](./isnormalized.md)|現在の文字列が共通の正規化された形式であるかを示す値を取得します|
+|[Length](../array/length.md)|その変数の持つデータ長を表します|
+
+### メソッド
+|名前|説明|
+|---|---|
+|[CompareTo(string item)](./compareto.md)|この文字列と指定した文字列を比較して、文字列を並べ替えたときにこの文字列が前にくるか、後ろにくるか、または同じであるかを表す整数を取得します|
+|[Contains(string item)](./contains.md)|現在の文字列内に指定された文字列が存在するかを示す値を取得します|
+|[EndsWith(string item)](./endswith.md)|現在の文字列が指定した文字列で終わるかどうかを判定します|
+|[Format(params variable item)](./format.md)|指定された値を使用して現在の文字列を複合書式指定子としてフォーマットした文字列を取得します|
+|[IndexOf(string item,number startIndex=0)](./indexof.md)|指定された文字列が現在の文字列内で最初に見つかった位置のインデックスを返します|
+|[Insert(number index,string item)](./insert.md)|現在の文字列内の指定したインデックスにその値を挿入した文字列を取得します|
+|[IsEmptyOrNull()](./isemptyornull.md)|現在の文字列が空か、あるいはnullであるかどうかを示す値を取得します|
+|[IsEmptyOrWhite()](./isemptyorwhite.md)|現在の文字列が空か、あるいは空白文字のみであるかどうかを示す値を取得します|
+|[Join(string split,params string item)](./join.md)|指定された区切り文字を使用して文字を連結します|
+|[LastIndexOf(string item,number startIndex=0)](./lastindexof.md)|指定された文字列が現在の文字列内で最後に見つかった位置のインデックスを返します|
+|[Normalize()](./normalize.md)|同じ文字を表すコードポイントのすべての並びを共通の正規化された形式に文字列を変換した新しい文字列を取得します|
+|[PadLeft(number totalWidth,string padding=" ")](./padleft.md)|指定された文字数になるまで左側に指定された文字列を埋め込むことで、この文字列を右寄せした新しい文字列を取得します|
+|[PadRight(number totalWidth,string padding=" ")](./padright.md)|指定された文字数になるまで右側に指定された文字列を埋め込むことで、この文字列を左寄せした新しい文字列を取得します|
+|[Remove(params string item)](./remove.md)|現在の文字列から指定された値を削除した文字列を取得します|
+|[RemoveAt(number index)](./removeat.md)|現在の文字列の指定したインデックスにある値を削除した文字列を取得します|
+|[Replace(string oldValue,string newValue)](./replace.md)|現在の文字列内に出現する特定の文字列をすべて指定した文字列に置き換えます|
+|[Split()](./split.md)|現在の文字列を一文字ずつに分割します|
+|[Split(string split)](./split.md)|現在の文字列を指定した区切り文字列で分割した配列を取得します|
+|[StartsWith(string item)](./startswith.md)|現在の文字列が指定した文字列で始まるかどうかを判定します|
+|[SubString(number start)](./substring.md)|現在の文字列から指定した範囲の文字列を取得します|
+|[SubString(number start,number length)](./substring.md)|現在の文字列から指定した範囲の文字列を取得します|
+|[Size()](../array/size.md)|その変数の持つデータ長を取得します|
+|[ToLower()](./tolower.md)|現在の文字列内の文字をすべて小文字に置換します|
+|[ToLowerInvariant()](./tolowerinvariant.md)|インバリアント カルチャの大文字と小文字の規則を使用して、現在の文字列内の文字をすべて小文字に置換します|
+|[ToUpper()](./toupper.md)|現在の文字列内の文字をすべて大文字に置換します|
+|[ToUpperInvariant()](./toupperinvariant.md)|インバリアント カルチャの大文字と小文字の規則を使用して、現在の文字列内の文字をすべて大文字に置換します|
+|[Trim()](./trim.md)|現在の文字列から先頭および末尾にある空白文字をすべて削除した文字列を取得します|
+|[Trim(params string item)](./trim.md)|現在の文字列から指定した文字列が先頭および末尾に現れる箇所をすべて削除した文字列を取得します|
+|[TrimEnd()](./trimend.md)|現在の文字列から末尾にある空白文字をすべて削除した文字列を取得します|
+|[TrimEnd(params string item)](./trimend.md)|現在の文字列から指定した文字列が末尾に現れる箇所をすべて削除した文字列を取得します|
+|[TrimStart()](./trimstart.md)|現在の文字列から先頭にある空白文字をすべて削除した文字列を取得します|
+|[TrimStart(params string item)]|現在の文字列から指定した文字列が先頭に現れる箇所をすべて削除した文字列を取得します|
+
 ### 説明
 文字列は、テキストを表すために使用される文字の配列とみなすことができます。メモリ内の`string`型の最大サイズは2GB、つまりおよそ10億文字です。
 
@@ -107,8 +149,3 @@ var str ="""Hello,
 |AliceScript|[Unicode標準、バージョン11.0.0](https://www.unicode.org/versions/Unicode11.0.0/)|
 |AliceSister|[Unicode標準、バージョン6.3.0](https://www.unicode.org/versions/Unicode6.3.0/)|
 |Losetta|[Unicode標準、バージョン13.0.0](https://www.unicode.org/versions/Unicode13.0.0/)|
-
-### メソッドとプロパティ
-|名前|説明|
-|---|---|
-|[Length](../array/length.md)|その変数の持つデータ長を表します|

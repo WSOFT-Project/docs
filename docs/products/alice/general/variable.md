@@ -50,9 +50,9 @@ print(a);//出力:123
 定数は、変数とは異なり、一度宣言すると再度代入したり値を変更することができません。これは、プログラム上で変更されたくない値(トークンなど)を定義する際に役立ちます。定数にもスコープが存在し、ローカル定数とグローバル定数があります。定数を定義するには`var`キーワードの代わりに`const`キーワードを使用します。
 
 ```cs title="AliceScript"
-const KEY = “ABCD”;
+const KEY = "ABCD";
 print(KEY);//出力例:ABCD
-KEY = “EFGH”;//例外発生
+KEY = "EFGH";//例外発生
 ```
 
 ### 型
@@ -67,13 +67,13 @@ AliceScriptに組み込まれている型の一覧を示します。
 |キーワード|型の名前|説明|
 |---|---|---|
 |[bool](../api/alice/bool/index.md)|真理値型|`true`と`false`の二値を表します|
-|bytes|バイナリ型|バイナリデータ配列を表します|
+|[bytes](../api/alice/bytes/index.md)|バイナリ型|バイナリデータ配列を表します|
 |[number](../api/alice/number/index.md)|数値型|倍精度浮動小数点数型を表します|
-|string|文字列型|テキストの一連のUTF-16コードの配列を表します|
-|array|配列型|何らかの型の配列を表します|
-|delegate|デリゲート型|匿名関数のような一連のステートメントのまとまりを表します|
+|[string](../api/alice/string/index.md)|文字列型|テキストの一連のUTF-16コードの配列を表します|
+|[array](../api/alice/array/index.md)|配列型|何らかの型の配列を表します|
+|[delegate](../api/alice/delegate/index.md)|デリゲート型|匿名関数のような一連のステートメントのまとまりを表します|
 |object|オブジェクト型|カスタムクラスや.NETのオブジェクトを表します|
 |pointer|ポインタ型|変数を指し示すポインタを表します|
-|none|none型|`null`の変数を表します|
+|[none](../api/alice/none/index.md)|none型|`null`の変数を表します|
 |continue|continue型|`continue`キーワードを表す型です|
 |break|break型|`break`キーワードを表す型です|
