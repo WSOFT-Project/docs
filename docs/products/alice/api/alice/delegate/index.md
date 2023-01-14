@@ -113,7 +113,7 @@ powoutput(2);//出力例:4
 ```cs title="AliceScript"
 function SayHello()
  {
-    print(“Hello,World”);
+    print("Hello,World");
  }
 var hello=SayHello;//helloは、DELEGATE型を表します
 hello();//出力:Hello,World
