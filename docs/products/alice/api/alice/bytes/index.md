@@ -13,7 +13,7 @@ bytes型への暗黙的な変換は存在しません。また、文字列型、
 
 ```cs title="AliceScript"
 namespace Alice;
-global class bytes
+public class bytes
 ```
 
 ### プロパティ

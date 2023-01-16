@@ -9,5 +9,5 @@ none型は、その値が`null`であることを表します。none型の有効
 
 ```cs title="AliceScript"
 namespace Alice;
-global class null;
+public class null;
 ```

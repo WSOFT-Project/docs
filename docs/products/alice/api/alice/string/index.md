@@ -11,7 +11,7 @@ summary: 配列型は、インデックスを使用してアクセスできる�
 
 ```cs title="AliceScript"
 namespace Alice;
-global class string;
+public class string;
 ```
 
 ### プロパティ

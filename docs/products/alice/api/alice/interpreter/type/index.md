@@ -10,7 +10,7 @@ Typeクラスは、変数の型を表します
 
 ```cs title="AliceScript"
 namespace Alice.Interpreter;
-global class Type;
+public class Type;
 ```
 
 ### 説明

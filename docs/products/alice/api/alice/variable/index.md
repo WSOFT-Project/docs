@@ -9,7 +9,7 @@ variable型は、すべての変数の値を表します。variable型は等値�
 
 ```cs title="AliceScript"
 namespace Alice;
-global class variable;
+public class variable;
 ```
 
 ### 説明

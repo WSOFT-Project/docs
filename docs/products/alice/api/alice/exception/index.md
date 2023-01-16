@@ -10,7 +10,7 @@ Exceptionクラスは、実行中に発生した例外を表します
 
 ```cs title="AliceScript"
 namespace Alice;
-global class Exception;
+public class Exception;
 ```
 
 ### 説明
