@@ -33,7 +33,7 @@ AliceScript2以前のバージョンでは、同一の.NETライブラリを複�
 #### 属性定義をキーワード定義へと移行
 <span class="badge bg-success">承認</span>
 
-AliceScript2以前のバージョンでは、関数や変数の定義時に`function`や`var`キーワードの後に`global`などの属性キーワードを記述していました。これは、FunctionCreatorやAssignmentFunctionが独自にこの機能を実装していたためです。AliceScript2.1では、前置詞的キーワードをインタプリタレベルでサポートすることで、記述の一貫性を担保できるうえ、キーワードの概念を他の関数でも使用できるようになるため、変更は承認されました。
+AliceScript2以前のバージョンでは、関数や変数の定義時に`function`や`var`キーワードの後に`public`などの属性キーワードを記述していました。これは、FunctionCreatorやAssignmentFunctionが独自にこの機能を実装していたためです。AliceScript2.1では、前置詞的キーワードをインタプリタレベルでサポートすることで、記述の一貫性を担保できるうえ、キーワードの概念を他の関数でも使用できるようになるため、変更は承認されました。
 
 #### #から始まる行のコメントに対応
 <span class="badge bg-success">承認</span>

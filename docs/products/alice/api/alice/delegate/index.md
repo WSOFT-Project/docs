@@ -11,7 +11,7 @@ summary: デリゲート型は、匿名関数のように一連のステート�
 
 ```cs title="AliceScript"
 namespace Alice;
-global class delegate
+public class delegate
 ```
 
 ### プロパティ

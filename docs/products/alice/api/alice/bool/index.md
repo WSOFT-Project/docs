@@ -12,7 +12,7 @@ bool型の有効な値はtrueかfalseのいずれかです。 それぞれの値
 
 ```cs title="AliceScript"
 namespace Alice;
-global class bool;
+public class bool;
 ```
 
 ### 説明

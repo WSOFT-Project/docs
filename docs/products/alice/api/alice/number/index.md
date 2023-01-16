@@ -17,7 +17,7 @@ AliceScriptの数値型では小数点以下の計算が予想通りにいかな
 
 ```cs title="AliceScript"
 namespace Alice;
-global class number;
+public class number;
 ```
 
 ### 説明

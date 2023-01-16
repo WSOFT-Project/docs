@@ -114,12 +114,12 @@ override function SayHello()
 SayHello();//出力例:Hello,Bonjur
 ```
 
-その関数を、現在のスコープの範囲外で使用できるようにするには、その関数にglobal修飾子を使用することそれをグローバル関数として宣言する必要があります。次に例を示します。
+その関数を、現在のスコープの範囲外で使用できるようにするには、その関数にpublic修飾子を使用することそれをグローバル関数として宣言する必要があります。次に例を示します。
 
 ```cs title="AliceScript"
 function RegisterGlobalFunction()
  {
-     global function SayHello()
+     public function SayHello()
       {
           print("Hello,World");
       }
@@ -135,7 +135,7 @@ SayHello();//出力例:Hello,World
 次の例は、現在の文字列の語数を数える(正確には、スペースで区切られた語の数を数える)`WorldCount`メソッドを`string`型に登録します。
 
 ```cs title="AliceScript"
-global function WordCount(this string str)
+public function WordCount(this string str)
  {
     return str.Split(" ").Length;
  }
@@ -175,4 +175,4 @@ AliceScriptではさまざまな機能や構造が関数で設計されている
 |言語構造|指定不可|言語構造です。さまざまな形で使用できるため引数の自動チェックや最適化が実行されません。|
 |オーバーライド可能|virtual|オーバーライド可能な関数です。|
 |オーバーライド|override|既存の関数をオーバーライドします。この関数をオーバーライドすることもできます。|
-|グローバル関数|global|すべてのスコープで使用可能な関数です。|
+|グローバル関数|public|すべてのスコープで使用可能な関数です。|

@@ -114,17 +114,17 @@ Func("A","B","C");//出力:["A","B","C"]
 ### 変数
 変数に関する重要な変更についても注意が必要です。まず、WSOFTScriptとは違い、AliceScriptでは、未定義の変数を宣言するときにvarキーワードが必須になりました。また、一度宣言された変数にvarキーワードを使うことはできません。
 
-スコープは、その変数が有効な範囲です。WSOFTScriptでは、すべての変数はグローバル変数として定義されていました。AliceScriptでは、通常の変数(これをローカル変数と呼ぶことにします)は、そのスコープとそれ以下のスコープの範囲に限られます。AliceScriptでグローバル変数を宣言するには、varキーワードの後にglobal修飾子をつけます。次に例を示します。
+スコープは、その変数が有効な範囲です。WSOFTScriptでは、すべての変数はグローバル変数として定義されていました。AliceScriptでは、通常の変数(これをローカル変数と呼ぶことにします)は、そのスコープとそれ以下のスコープの範囲に限られます。AliceScriptでグローバル変数を宣言するには、varキーワードの後にpublic修飾子をつけます。次に例を示します。
 
 ```js title="define_variable.alice"
-var global abc = "ABC";
+var public abc = "ABC";
 ```
 
 定数は、AliceScriptで導入された新しい機能です。定数は、一度のみ宣言でき、一度定義するとそれに再度代入することはできません。宣言するにはvarキーワードの代わりにconstキーワードを使用します。定数にもやはりローカル定数とグローバル定数が存在します。次の例では、ローカル定数lconstとgconstをそれぞれ定義します。
 
 ```js title="define_const.alice"
 const lconst a = 1;
-const global gconst b = 2;
+const public gconst b = 2;
 ```
 
 変数について詳しく知るには、変数を参照してください。
