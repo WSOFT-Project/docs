@@ -1,13 +1,13 @@
 ---
-title: thread_queue
-summary: ThreadPool 上で実行する指定された作業をキューに配置します。
+title: task_run
+summary: 指定された処理内容を別スレッドで実行します。
 ---
 ### 定義
 名前空間:Alice.Threading / アセンブリ : Losetta.Runtime.dll / サポート: AliceScript1
 
 属性: 関数
 
-ThreadPool 上で実行する指定された作業をキューに配置します。つまり、別スレッドでコードを実行します。
+指定された処理内容を別スレッドで実行します。
 
 ```cs title="AliceScript"
 namespace Alice.Net;
