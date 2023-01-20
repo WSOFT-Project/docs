@@ -2,6 +2,7 @@
 title: delegate
 summary: デリゲート型は、匿名関数のように一連のステートメントのまとまりを表します。
 ---
+## delegate型
 ### 定義
 名前空間:Alice / アセンブリ : Losetta.dll / サポート: AliceScript1
 
@@ -26,7 +27,40 @@ public class delegate
 |[Invoke(params variable args)](./invoke.md)|現在のデリゲートに指定された引数を渡して実行し、その戻り値を返します|
 |[Size()](../array/size.md)|その変数の持つデータ長を取得します|
 
-### 説明
+## delegate関数
+名前空間:Alice / アセンブリ : Losetta.Runtime.dll / サポート: AliceScript1
+
+属性: 関数の区切りの空白をサポート、言語構造
+
+指定された引数と処理を含むデリゲートを生成します。
+
+```cs title="AliceScript
+public delegate delegate(params type args);
+```
+
+```cs title="AliceScript
+public delegate _(params type args);
+```
+
+!!!warning "サポート終了"
+  delegate関数の省略表現である`_`は、デリゲートの定義を簡潔に記述するためにWSOFTScript0.7R4で導入されました。しかしAliceScriptでは、後述するラムダ式が使用可能になったため、Alice2.2以降のバージョンではサポートされなくなりました。既存の`delegate`関数への影響はありません。
+
+|引数| |
+|-|-|
+|`params type args`| 定義する関数に付与する引数と型（必要な場合）|
+
+|戻り値| |
+|-|-|
+|`delegate`| 生成されたデリゲート|
+
+### 使用例
+以下は、Helloを表示する`sayHello`デリゲートを定義します。
+
+```cs title="AliceScript
+var sayHello=delegate(){print("Hello");}
+```
+
+## 説明
 デリゲートは、AliceScriptにおける"匿名関数"のメカニズムです。デリゲート型は匿名関数として、その場ですぐに実行したり、変数に代入したり、関数に引数として渡すことができます。
 
 例えば、蔵書検索アプリケーションを作成することを考えてみましょう。この検索の条件は、それと完全に一致する、それを含む、それを含まない、の3つが用意されています。いずれの場合も、Search関数が行うことは基本的に同じです。つまり、何らかの条件に基づいて一連の蔵書から項目を検索します。しかし、条件に基づいて検索するコードはそれぞれの条件によって異なります。
@@ -69,7 +103,7 @@ SayHello();//出力例:Hello,World!
 式形式のラムダは、次の形式をとります。
 
 ```txt title="AliceScript"
-(input-parameters) => expression
+input-parameters => expression
 ```
 
 式形式のラムダは、呼び出された時にその式の値を返します。 例えば、次のような関数が定義されていたとします。この関数は、与えられた数numを二乗した結果を返します。
@@ -85,7 +119,7 @@ print(pow(2));//出力例:4
 次の例は、この関数と等価な結果を返すデリゲートをラムダ式で定義する例です。
 
 ```cs title="AliceScript"
-var pow = (number num) => num ** 2;
+var pow= number num => num ** 2;
 print(pow(2));//出力例:4
 ```
 
@@ -93,13 +127,13 @@ print(pow(2));//出力例:4
 ステートメント形式のラムダは、次のような形をとります。
 
 ```txt title="AliceScript"
-(input-parameters) => { <sequence-of-statements> }
+input-parameters => { <sequence-of-statements> }
 ```
 
 式形式のラムダとの違いは、ステートメント形式のラムダの本体が任意の数のステートメントで構成できる点と、returnキーワードを使用することでのみ値を返すことができることです。次の例では、xを二乗した値を出力するデリゲートをpowoutputという名前で宣言します。
 
 ```cs title="AliceScript"
-var powoutput = (x) =>
+var powoutput= x =>
  {
    var powed = x*x;
    print(x);
