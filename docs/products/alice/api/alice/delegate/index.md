@@ -34,16 +34,16 @@ public class delegate
 
 指定された引数と処理を含むデリゲートを生成します。
 
-```cs title="AliceScript
+```cs title="AliceScript"
 public delegate delegate(params type args);
 ```
 
-```cs title="AliceScript
+```cs title="AliceScript"
 public delegate _(params type args);
 ```
 
 !!!warning "サポート終了"
-  delegate関数の省略表現である`_`は、デリゲートの定義を簡潔に記述するためにWSOFTScript0.7R4で導入されました。しかしAliceScriptでは、後述するラムダ式が使用可能になったため、Alice2.2以降のバージョンではサポートされなくなりました。既存の`delegate`関数への影響はありません。
+   delegate関数の省略表現である`_`は、デリゲートの定義を簡潔に記述するためにWSOFTScript0.7R4で導入されました。しかしAliceScriptでは、後述するラムダ式が使用可能になったため、Alice2.2以降のバージョンではサポートされなくなりました。既存の`delegate`関数への影響はありません。
 
 |引数| |
 |-|-|
