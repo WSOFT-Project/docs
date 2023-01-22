@@ -54,6 +54,23 @@ disable_tools : true
 
 <!-- Newsカード -->
 <div class="card mb-3">
+    <a href="products/" class="row g-0 text-reset text-decoration-none">
+    <div class="col-md-3 d-flex justify-content-center">
+            <i class="bi bi-github" style="font-size: 700%;"></i>
+    </div>
+    <div class="col-md">
+        <div class="card-body">
+            <h5 class="card-title">共同作成ガイド</h5>
+            <div class="card-text">
+                <p>WSOFTDocsに貢献する方法とWSOFTのオープンソースに対する考え方に関する記事を閲覧できます。</p>
+            </div>
+        </div>
+    </div>
+    </a>
+</div>
+
+<!-- Newsカード -->
+<div class="card mb-3">
     <a href="legal/" class="row g-0 text-reset text-decoration-none">
     <div class="col-md-3 d-flex justify-content-center">
             <i class="bi bi-building" style="font-size: 700%;"></i>
