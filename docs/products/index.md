@@ -40,12 +40,36 @@ disable_tools : true
     </a>
 </div>
 <div class="card col-sm-6 col-md-4 col-xl-3">
-    <a href="download/" class="row g-0 text-reset text-decoration-none">
+    <a href="download/api" class="row g-0 text-reset text-decoration-none">
         <img src="https://wsoft.ws/products/WSOFTDownloadCenter.svg" class="card-img-top bg-white" alt="WSOFTScript" loading="lazy">
             <div class="card-body">
                 <h5 class="card-title">ダウンロードセンター</h5>
                 <p class="card-text">
                 ダウンロードセンターが提供するAPI等の記事
+                </p>
+            </div>
+    </a>
+</div>
+
+<div class="card col-sm-6 col-md-4 col-xl-3">
+    <a href="https://lantana.wsoft.ws/" class="row g-0 text-reset text-decoration-none">
+        <img src="https://wsoft.ws/products/lantana.png" class="card-img-top bg-white" alt="WSOFTScript" loading="lazy">
+            <div class="card-body">
+                <h5 class="card-title">Lantana</h5>
+                <p class="card-text">
+                Lantanaのサイトに移動します
+                </p>
+            </div>
+    </a>
+</div>
+
+<div class="card col-sm-6 col-md-4 col-xl-3">
+    <a href="wstodon/" class="row g-0 text-reset text-decoration-none">
+        <img src="https://wsoft.ws/products/WSTodon.svg" class="card-img-top bg-white" alt="WSOFTScript" loading="lazy">
+            <div class="card-body">
+                <h5 class="card-title">WSTodon</h5>
+                <p class="card-text">
+                WSOFTの運営するMastodonインスタンスについて説明します。よくある質問もあります。
                 </p>
             </div>
     </a>
