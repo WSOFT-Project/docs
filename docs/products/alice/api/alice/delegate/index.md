@@ -38,6 +38,19 @@ public class delegate
 public delegate delegate(params type args);
 ```
 
+|引数| |
+|-|-|
+|`params type args`| 定義する関数に付与する引数と型（必要な場合）|
+
+|戻り値| |
+|-|-|
+|`delegate`| 生成されたデリゲート|
+
+名前空間:Alice / アセンブリ : Losetta.Runtime.dll / サポート: AliceScript1-2.1
+
+属性: 関数の区切りの空白をサポート、言語構造
+
+指定された引数と処理を含むデリゲートを生成します。
 ```cs title="AliceScript"
 public delegate _(params type args);
 ```
