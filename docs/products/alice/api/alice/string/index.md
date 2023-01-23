@@ -54,7 +54,7 @@ public class string;
 |[TrimEnd()](./trimend.md)|現在の文字列から末尾にある空白文字をすべて削除した文字列を取得します|
 |[TrimEnd(params string item)](./trimend.md)|現在の文字列から指定した文字列が末尾に現れる箇所をすべて削除した文字列を取得します|
 |[TrimStart()](./trimstart.md)|現在の文字列から先頭にある空白文字をすべて削除した文字列を取得します|
-|[TrimStart(params string item)]|現在の文字列から指定した文字列が先頭に現れる箇所をすべて削除した文字列を取得します|
+|[TrimStart(params string item)](./trimstart.md)|現在の文字列から指定した文字列が先頭に現れる箇所をすべて削除した文字列を取得します|
 
 ### 説明
 文字列は、テキストを表すために使用される文字の配列とみなすことができます。メモリ内の`string`型の最大サイズは2GB、つまりおよそ10億文字です。
