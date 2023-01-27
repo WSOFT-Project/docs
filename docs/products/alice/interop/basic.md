@@ -118,13 +118,13 @@ public void Main()
 初めに、次のように入力してビルドされたライブラリを読み込みます。（ファイル名は適時読み替えてください。）
 
 ```js title="AliceScript"
-dllimport("MyLibrary.dll");
+import("MyLibrary.dll");
 ```
 
 次に、名前空間を読み込みます。
 
 ```js title="AliceScript"
-import "MyLibrary";
+using MyLibrary;
 ```
 
 さて、最期に先ほど作成した関数を呼び出してみましょう。
