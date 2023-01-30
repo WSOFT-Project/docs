@@ -54,7 +54,7 @@ disable_tools : true
 
 <!-- Newsカード -->
 <div class="card mb-3">
-    <a href="products/" class="row g-0 text-reset text-decoration-none">
+    <a href="contribute/" class="row g-0 text-reset text-decoration-none">
     <div class="col-md-3 d-flex justify-content-center">
             <i class="bi bi-github" style="font-size: 700%;"></i>
     </div>
