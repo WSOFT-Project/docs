@@ -17,6 +17,8 @@ author_url : https://twitter.com/matsuzen_VR
 </div>
 </details>
 
+![Alice](media/alice.jpg)
+
 ---
 [ VRMモデルのダウンロード](https://download.wsoft.ws/WS00086/){: .btn .btn-primary .btn-lg .bi .bi-download }
 
@@ -63,6 +65,11 @@ AliceScript及びAliceProjectのマスコットキャラクター兼公式アン
 
 ### Aliceからみんなに一言
 「ハローワールド！AliceProject公式アンバサダーのAliceだよ！これからみんなと楽しくクリエイティブなプログラミングライフを送っていきたいです！応援よろしくね！あと私で抜こうとしてるそこのキモオタ君！そんなことして恥ずかしくないのかな？~~とってもキモイよ☆（ド直球）~~」
+
+### 支援イラスト
+友人から支援イラストを頂きました。ありがとうございます。
+
+![present from you](media/support-illust.jpg)
 
 ### 関連項目
 [Shangri-la](./tutorial/migration-from-wsoftscript.md)

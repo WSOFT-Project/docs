@@ -21,9 +21,9 @@ AliceScriptを使用したアプリケーションの開発についての説明
 !!!note "サポートされるプラットフォーム"
     Losettaは、次のプラットフォームをサポートします。
     
-    * Windows 32ビット、64ビット、ARM、ARM64
-    * Linux 64ビット、ARM、ARM64
-    * macOS 64ビット
+    * Windows x86、x64、ARM、ARM64
+    * Linux x64、ARM、ARM64
+    * macOS x64
 
 名称変更したらそのファイルを適当な場所に移動します。このとき、移動先のファイルパスを控えておきます。
 
@@ -63,13 +63,13 @@ curl -OL https://download.wsoft.ws/WS144/Download
 
 !!!note "ダウンロードの検証"
     ダウンロードが壊れておらず、正当なものであるかを確かめるためにチェックサムを取得して検証することができます。
-    `https://api.wsoft.ws/download/detail?id=<Download_ID>`を取得し、そのHash値がダウンロードしたファイルのSHA256ハッシュと同じかどうかを確かめます。
+    `https://api.wsoft.ws/download/detail?id=<Download_ID>`を取得し、そのHash値がダウンロードしたファイルのSHA512ハッシュと同じかどうかを確かめます。
 
-次に以下のコマンドを順に実行します。実効には管理者権限が必要です。
+次に以下のコマンドを順に実行します。実行には管理者権限が必要です。
 
 ```bash title="シェル"
 sudo chmod +x Download
-sudo mv Download /usr/bin/alice
+sudo mv Download /usr/local/bin/alice
 alice -v
 ```
 `alice -v`コマンドを実行し、以下のように出力されれば環境構築は完了です。
