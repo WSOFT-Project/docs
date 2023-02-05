@@ -57,9 +57,3 @@ K:\LocalFiles\Docments\WSOFT\Losetta\alice\bin\Debug\net6.0\alice.exe
 https://download.wsoft.ws/148/Download から最新バイナリをダウンロードしています...
 0.9.11.0に更新しました。
 ```
-
-Linuxの場合は更新後に実行権限を与えます。
-
-```sh title="シェル"
-sudo chmod +x /usr/local/bin/alice
-```

@@ -20,7 +20,7 @@ Output("Hello,World");//出力例:Hello,World
 
 ```cs title="AliceScript"
 var Output = new Delegate();
-Output += (v) => print(v);
+Output += v => print(v);
 
 Output("Hello,World");//出力例:Hello,World
 ```
