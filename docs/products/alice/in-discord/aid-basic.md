@@ -1,7 +1,6 @@
 ---
 title : Alice in Discordの基礎
-summary : この記事では、AliceScriptの重要な機能と、Discordから使用できるAliceの機能の詳細について説明します。
-AliceScriptはDiscord外でも使用できますが、ここではAlice in Discordを使用する機能のみを扱います。
+summary : この記事では、AliceScriptの重要な機能と、Discordから使用できるAliceの機能の詳細について説明します。AliceScriptはDiscord外でも使用できますが、ここではAlice in Discordを使用する機能のみを扱います。
 date : 2021-08-16
 ---
 
