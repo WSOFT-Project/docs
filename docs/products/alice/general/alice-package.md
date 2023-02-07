@@ -36,7 +36,7 @@ AlicePackageのファイルフォーマットを以下に示します。
 |7|(未使用)|
 |8|(未使用)|
 ## 制御コード
-AlicePackageのヘッダに含まれる16バイトの領域は制御コードと呼ばれ、この領域を直接[AliceModel](../saim)が使用することはありません。しかし、[AliceModel](../saim)を実装するそれぞれのインタプリタによって使用される場合があります。この領域の標準的な使用方法はどの[AliceModel](../saim)の実装を使用しているかを識別するのに使用されます。
+AlicePackageのヘッダーに含まれる16バイトの領域は制御コードと呼ばれ、この領域を直接[AliceModel](../saim)が使用することはありません。しかし、[AliceModel](../saim)を実装するそれぞれのインタプリタによって使用される場合があります。この領域の標準的な使用方法はどの[AliceModel](../saim)の実装を使用しているかを識別するのに使用されます。
 ## 署名
 AlicePackageにデジタル署名を添付することで、そのパッケージファイルが改竄されておらず、正しい提供元から提供されていることを確認することができます。署名されたAlicePackageは、未書名のパッケージファイルに比べて実行されるまで時間がかかります。署名済みAlicePackageのファイルスイッチには1が立ちます。
 
@@ -73,6 +73,19 @@ Script属性の指定には、インラインスクリプトを使用する方�
 ```xml title="manifest.xml"
 <?xml version="1.0" encoding="utf-8"?>
 <package>
+    <name>Hello,Package</name>
     <script path="main.alice" />
+</package>
+```
+
+インラインスクリプトは次のような形式になります。
+
+```xml title="manifest.xml"
+<?xml version="1.0" encoding="utf-8"?>
+<package>
+    <name>Hello,Package</name>
+    <script>
+      print("Hello,World!");
+    </script>
 </package>
 ```
