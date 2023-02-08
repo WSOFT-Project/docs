@@ -1,5 +1,6 @@
 ---
 title: InsertRange
+long_title : array.InsertRange
 summary: 現在の配列内の指定したインデックスに配列に含まれるすべての要素を追加します
 ---
 ### 定義

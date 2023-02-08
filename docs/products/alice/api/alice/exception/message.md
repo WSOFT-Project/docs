@@ -1,5 +1,6 @@
 ---
 title: Message
+long_title : exception.Message
 summary: 現在の例外を説明するメッセージを表します
 ---
 ### 定義

@@ -1,5 +1,6 @@
 ---
 title: ToString
+long_title : exception.ToString
 summary: 現在の例外を説明する文字列表現を取得します
 ---
 ### 定義

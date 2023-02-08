@@ -1,5 +1,6 @@
 ---
 title: RemoveRange
+long_title : array.RemoveRange
 summary: 現在の配列から指定された配列に含まれるすべての値を削除します
 ---
 ### 定義

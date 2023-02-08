@@ -1,5 +1,6 @@
 ---
 title: First
+long_title : array.First
 summary: 現在の配列の最初の要素を表します
 ---
 ### 定義

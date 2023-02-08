@@ -1,5 +1,6 @@
 ---
 title: ErrorCode
+long_title : exception.ErrorCode
 summary: 現在の例外の種類を表すエラーコードを示す値を取得します
 ---
 ### 定義

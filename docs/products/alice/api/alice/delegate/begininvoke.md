@@ -1,5 +1,6 @@
 ---
 title: BeginInvoke
+long_title : delegate.BeginInvoke
 summary: 現在のデリゲートに指定された引数を渡して非同期で実行します
 ---
 ### 定義

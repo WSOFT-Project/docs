@@ -1,5 +1,6 @@
 ---
 title: Insert
+long_title : array.Insert
 summary: 現在の配列内の指定したインデックスにその値を挿入します
 ---
 ### 定義

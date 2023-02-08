@@ -1,5 +1,6 @@
 ---
 title: Size
+long_title : array.Size
 summary: 現在の配列にある要素の数を取得します
 ---
 ### 定義

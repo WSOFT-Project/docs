@@ -1,5 +1,6 @@
 ---
 title: Remove
+long_title : array.Remove
 summary: 現在の配列から指定された値を削除します
 ---
 ### 定義
