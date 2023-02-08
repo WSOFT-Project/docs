@@ -1,5 +1,6 @@
 ---
 title: Length
+long_title : array.Length
 summary: 現在の配列にある要素の数を表します
 ---
 ### 定義

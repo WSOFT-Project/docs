@@ -1,5 +1,6 @@
 ---
 title: Reverse
+long_title : array.Reverse
 summary: 現在の配列の要素の順序を反転させます
 ---
 ### 定義

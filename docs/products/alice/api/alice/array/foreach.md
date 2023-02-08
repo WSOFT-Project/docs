@@ -1,5 +1,6 @@
 ---
 title: Foreach
+long_title : array.Foreach
 summary: 現在の配列からひとつずつ要素を取り出し、与えられたデリゲートを実行します
 ---
 ### 定義

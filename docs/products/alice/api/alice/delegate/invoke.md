@@ -1,5 +1,6 @@
 ---
 title: Invoke
+long_title : delegate.Invoke
 summary: 現在のデリゲートに指定された引数を渡して実行し、その戻り値を返します
 ---
 ### 定義

@@ -1,5 +1,6 @@
 ---
 title: AddRange
+long_title : array.AddRange
 summary: 現在の配列の末尾にその配列に含まれるすべての要素を追加します
 ---
 ### 定義

@@ -1,5 +1,6 @@
 ---
 title: Merge
+long_title : array.Merge
 summary: 現在の配列の末尾に値を追加した新しい配列を返します
 ---
 ### 定義

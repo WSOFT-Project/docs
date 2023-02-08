@@ -1,5 +1,6 @@
 ---
 title: Last
+long_title : array.Last
 summary: 現在の配列の最後の要素を表します
 ---
 ### 定義

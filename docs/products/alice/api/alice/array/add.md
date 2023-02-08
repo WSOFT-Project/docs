@@ -1,5 +1,6 @@
 ---
 title: Add
+long_title : array.Add
 summary: 現在の配列の末尾に値を追加します
 ---
 ### 定義

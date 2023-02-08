@@ -1,5 +1,6 @@
 ---
 title: Contains
+long_title : array.Contains
 summary: 現在の配列内に指定された値が存在するかを示す値を取得します
 ---
 ### 定義
