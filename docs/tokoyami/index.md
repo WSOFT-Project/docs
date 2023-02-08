@@ -20,8 +20,3 @@ WSOFTDocsの生存報告のサイトへようこそ。
 ### 22年度2,3学期
 
 {{ print_thumbnail('tokoyami/4')　}}
-
-
-### 22年度1学期
-
-{{ print_thumbnail('tokoyami/3')　}}
