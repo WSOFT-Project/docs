@@ -9,7 +9,7 @@ disable_tools : true
       <div></div>
       <div>
         <div>
-          <a href="https://wsoft.ws"><small>WSOFT</small></a>
+          <a href="/statics"><small>WSOFT</small></a>
           <span>|</span>
           <span>{{ today() }}</span>
           <a class="btn print-hide" href="https://github.com/WSOFT-Project/docs"><i class="bi bi-github"></i>&nbsp;GitHubリポジトリへ</a>
