@@ -187,7 +187,7 @@ print(result);
 var ary1 = [0,1,"2",4,2];
 var ary2 = [5,"3",5,"6"];
 
-var result = ary1.Select(item=>item.Convert(number)).Union(item=>item.Convert(number));
+var result = ary1.Select(item=>item as number).Union(ary2.Select(item=>item as number));
 ```
 
 ちなみに、分解して解説すると次のようになります。
@@ -197,8 +197,8 @@ var ary1 = [0,1,"2",4,2];
 var ary2 = [5,"3",5,"6"];
 
 // それぞれの配列のすべての要素を数値型に変換
-var num_ary1 = ary1.Select(item=>item.Convert(number));
-var num_ary2 = ary2.Select(item=>item.Convert(number));
+var num_ary1 = ary1.Select(item=>item as number);
+var num_ary2 = ary2.Select(item=>item as number);
 
 // 二つの配列の和集合を求める(重複は含まれない)
 var result = num_ary1.Union(num_ary2);
