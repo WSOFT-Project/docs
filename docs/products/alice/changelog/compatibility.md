@@ -6,10 +6,23 @@ AliceScriptの歴史を通じて、AliceScriptのバージョン間および異�
 Alice2.0（およびSAIM2.0）以降のバージョンは、AliceScriptGMと比較すると新しい技術とみなすことができますが、念のためこの一覧にまとめています。
 多くの開発者は、AliceScriptの異なる実装間の互換性とともに、AliceScriptの特定の実装のバージョン間についても高いレベルの互換性を期待します。 特に、以前のバージョンのAliceScript用に書かれたコードは、AliceScriptの新しいバージョンでもシームレスに動作することを期待します。 実際、多くの開発者は、新しくリリースされたAlice.RuntimeにあるAPIが、それらのAPIが導入された初めのバージョンとも互換性があると期待します。
 
-この記事では、AliceScriptまたはAlice.RuntimeまたはAlicePackageに対して行われた変更の詳細と、それがアプリケーションの互換性に与える影響について説明します。変更は<span class="badge bg-success">承認</span>されているか<span class="badge bg-danger">非承認</span>であるか、動作の予測や期待通りの動作の維持が不十分であると判断され、<span class="badge bg-warning text-dark">見送り</span>されているかのいずれかです。
+この記事では、AliceScriptまたはAlice.RuntimeまたはAlicePackageに対して行われた変更の詳細と、それがアプリケーションの互換性に与える影響について説明します。変更は<span class="badge bg-success">承認</span>されているか<span class="badge bg-danger">非承認</span>であるか、動作の予測や期待通りの動作の維持が不十分であると判断され、<span class="badge bg-warning text-dark">見送り</span>されているか<span class="badge bg-warning text-dark">検討</span>されているかのいずれかです。
 
 !!! note
     この記事は、AliceScriptの変更履歴として使用できるだけでなく、ライブラリ開発者はこれらの基準を使用して、複数のAliceScript実装やバージョンをターゲットとするライブラリの変更の目安になります。
+
+### Alice2.2での変更
+Alice2.2の概要については[AliceScript2.2の新機能](./2-2.md)を参照してください。
+
+#### `global`キーワードを`public`キーワードに変更
+<span class="badge bg-warning text-dark">検討</span>
+
+AliceScript2.1以前のバージョンでは、他のスクリプトにまたがって使用できる変数や関数を定義するために`global`キーワードを使用していましたが、`public`キーワードに変更されました。シンボルの定義などでこの影響が最小限に留まるよう検討しています。変更は一時的に承認されています。
+
+#### デリゲート宣言省略文字`_`を廃止
+<span class="badge bg-success">承認</span>
+
+AliceScript2.1以前のバージョンでは、デリゲートを宣言するときに`delegate`関数のエイリアスとして`_`が使用できていました。これはWSOFTScriptとの互換性を向上するためにおかれた措置で、ラムダ式の機能が発展した現在では残しておく意味はありません。変更は承認されました。
 
 ### Alice2.1での変更
 Alice2.1の概要については[AliceScript2.1の新機能](./2-1.md)を参照してください。
