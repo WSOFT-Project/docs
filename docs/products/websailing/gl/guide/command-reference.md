@@ -1,5 +1,5 @@
 ---
-title : WebSailingプロンプトリファレンス
+title : WebSailingGLプロンプトリファレンス
 summary : この記事では、WebSailingGLに搭載されていたWebSailingプロンプトで使用できるコマンドについて説明します。
 date : 2019-7-11
 ---
