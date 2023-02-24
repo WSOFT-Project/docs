@@ -1,4 +1,6 @@
 # WSOFTDocs
+![WSOFTDocs](./media/WSOFT-Docs.svg)
+
 [WSOFT Docs](https://docs.wsoft.ws/)へようこそ。このREADMEを確認して、WSOFTDocsにどのように貢献できるかをご理解ください。
 
 ## 実行方法
