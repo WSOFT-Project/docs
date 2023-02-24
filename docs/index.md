@@ -17,6 +17,10 @@ disable_tools : true
       </div>
 </div>
 
+<img class="img-fluid text-center" src="./media/WSOFT-Docs.svg"></img>
+
+<p>WSOFTDocsでは、ドキュメント、チュートリアル、サンプルでWSOFTの製品の使用方法について説明します。これにはユーザー、開発者、管理者向けの情報が含まれます。</p>
+
 <!-- Newsカード -->
 <div class="card mb-3">
     <a href="blog/" class="row g-0 text-reset text-decoration-none">
@@ -33,6 +37,20 @@ disable_tools : true
         </div>
     </div>
     </a>
+    <div class="accordion" id="accordion1">
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-headingOne1">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne1" aria-expanded="false" aria-controls="panelsStayOpen-collapseOne1">
+                    記事一覧
+                </button>
+            </h2>
+            <div id="panelsStayOpen-collapseOne1" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingOne1">
+                <div class="accordion-body">
+                    {{ print_thumbnail('blog')　}}
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 
 <!-- Newsカード -->
@@ -67,6 +85,20 @@ disable_tools : true
         </div>
     </div>
     </a>
+    <div class="accordion" id="accordion2">
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-headingOne2">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne2" aria-expanded="false" aria-controls="panelsStayOpen-collapseOne2">
+                    記事一覧
+                </button>
+            </h2>
+            <div id="panelsStayOpen-collapseOne2" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingOne2">
+                <div class="accordion-body">
+                    {{ print_thumbnail('contribute')　}}
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 
 <!-- Newsカード -->
@@ -84,6 +116,20 @@ disable_tools : true
         </div>
     </div>
     </a>
+    <div class="accordion" id="accordion3">
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-headingOne3">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne3" aria-expanded="false" aria-controls="panelsStayOpen-collapseOne3">
+                    記事一覧
+                </button>
+            </h2>
+            <div id="panelsStayOpen-collapseOne3" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingOne3">
+                <div class="accordion-body">
+                    {{ print_thumbnail('legal')　}}
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 
 <!-- Newsカード -->
