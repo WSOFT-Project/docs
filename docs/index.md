@@ -116,7 +116,7 @@ disable_tools : true
         </div>
     </div>
     </a>
-    <div class="accordion" id="accordion3">
+    <div class="accordion">
         <div class="accordion-item">
             <h2 class="accordion-header" id="panelsStayOpen-headingOne3">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne3" aria-expanded="false" aria-controls="panelsStayOpen-collapseOne3">
@@ -148,4 +148,18 @@ disable_tools : true
         </div>
     </div>
     </a>
+    <div class="accordion">
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-headingOne4">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne4" aria-expanded="false" aria-controls="panelsStayOpen-collapseOne4">
+                    記事一覧
+                </button>
+            </h2>
+            <div id="panelsStayOpen-collapseOne4" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingOne3">
+                <div class="accordion-body">
+                    {{ print_thumbnail('amiuha')　}}
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
