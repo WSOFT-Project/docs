@@ -33,6 +33,9 @@ date : 2023-02-25
 |[WebSailing](../products/websailing/gl/changelog/index.md)|WebBrowser2|brows||
 |[WebSailing NX](../products/websailing/legacy/index.md)|雁|Beta||
 |[WebSailing NX by Chromium](../products/websailing/index.md)|比叡|Hiei||
+|WebSailing PE|プレインストール環境|wspe|WebSailing NX|
+|WebSailing QuickInstaller|WSインストーラー|wsinstall|WebSailing NX|
+|WebSailing TextBrowser|WSテキストブラウザ|ws-text-browser|WebSailing NX|
 |WiiRemote|WSWii|wiimote||
 |WSNETServer|wstube-net|wstube-net|WSNET|
 |WSNETClient|wstube-net-cl|wstube-net|WSNET|
