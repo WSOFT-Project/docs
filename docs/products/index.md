@@ -5,72 +5,122 @@ disable_tol: true
 disable_tools : true
 ---
 
-<div class="row">
-<div class="card col-sm-6 col-md-4 col-xl-3">
-    <a href="websailing/" class="row g-0 text-reset text-decoration-none">
-        <img src="https://wsoft.ws/products/WebSailing.svg" class="card-img-top bg-white" alt="WebSailing" loading="lazy">
-            <div class="card-body">
-                <h5 class="card-title">WebSailing</h5>
-                <p class="card-text">
-                シンプルなブラウザ
-                </p>
+<div class="card mb-3">
+    <a href="account" class="row g-0 text-reset text-decoration-none">
+    <div class="col-md-3 d-flex justify-content-center">
+            <i class="bi bi-person-circle" style="font-size: 700%;"></i>
+    </div>
+    <div class="col-md">
+        <div class="card-body">
+            <h5 class="card-title">WSOFTアカウント</h5>
+            <div class="card-text">
+                <p>かつて提供していたWSOFTアカウントについて説明します。</p>
             </div>
+        </div>
+    </div>
     </a>
-</div>
-<div class="card col-sm-6 col-md-4 col-xl-3">
-    <a href="alice/" class="row g-0 text-reset text-decoration-none">
-        <img src="https://wsoft.ws/products/AliceScript.svg" class="card-img-top bg-white" alt="AliceScript" loading="lazy">
-            <div class="card-body">
-                <h5 class="card-title">AliceScript</h5>
-                <p class="card-text">
-                汎用性のあるスクリプト言語
-                </p>
+    <div class="accordion">
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-headingOne3">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne3" aria-expanded="false" aria-controls="panelsStayOpen-collapseOne3">
+                    記事一覧
+                </button>
+            </h2>
+            <div id="panelsStayOpen-collapseOne3" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingOne3">
+                <div class="accordion-body">
+                    {{ print_thumbnail('products/account')　}}
+                </div>
             </div>
-    </a>
-</div>
-<div class="card col-sm-6 col-md-4 col-xl-3">
-    <a href="script/" class="row g-0 text-reset text-decoration-none">
-        <img src="https://wsoft.ws/products/WSOFTScript.png" class="card-img-top bg-white" alt="WSOFTScript" loading="lazy">
-            <div class="card-body">
-                <h5 class="card-title">WSOFTScript</h5>
-                <p class="card-text">
-                簡単・便利・軽量なスクリプト言語
-                </p>
-            </div>
-    </a>
-</div>
-<div class="card col-sm-6 col-md-4 col-xl-3">
-    <a href="download/api" class="row g-0 text-reset text-decoration-none">
-        <img src="https://wsoft.ws/products/WSOFTDownloadCenter.svg" class="card-img-top bg-white" alt="WSOFTScript" loading="lazy">
-            <div class="card-body">
-                <h5 class="card-title">ダウンロードセンター</h5>
-                <p class="card-text">
-                ダウンロードセンターが提供するAPI等の記事
-                </p>
-            </div>
-    </a>
+        </div>
+    </div>
 </div>
 
-<div class="card col-sm-6 col-md-4 col-xl-3">
-    <a href="https://lantana.wsoft.ws/" class="row g-0 text-reset text-decoration-none">
-        <img src="https://wsoft.ws/products/lantana.png" class="card-img-top bg-white" alt="WSOFTScript" loading="lazy">
-            <div class="card-body">
-                <h5 class="card-title">Lantana</h5>
-                <p class="card-text">
-                Lantanaのサイトに移動します
-                </p>
+<div class="card mb-3">
+    <a href="account" class="row g-0 text-reset text-decoration-none">
+    <div class="col-md-3 d-flex justify-content-center">
+            <img src="https://wsoft.ws/products/AliceScript.svg" class="card-img-top bg-white" alt="AliceScript">
+    </div>
+    <div class="col-md">
+        <div class="card-body">
+            <h5 class="card-title">AliceScript</h5>
+            <div class="card-text">
+                <p>汎用性のあるスクリプト言語であるAliceScriptについてドキュメント、チュートリアル、サンプルを使って説明します。</p>
             </div>
+        </div>
+    </div>
     </a>
+    <div class="accordion">
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-headingOne4">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne4" aria-expanded="false" aria-controls="panelsStayOpen-collapseOne4">
+                    記事一覧
+                </button>
+            </h2>
+            <div id="panelsStayOpen-collapseOne4" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingOne4">
+                <div class="accordion-body">
+                    {{ print_thumbnail('products/alice')　}}
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 
-<div class="card col-sm-6 col-md-4 col-xl-3">
-    <a href="wstodon/" class="row g-0 text-reset text-decoration-none">
-        <img src="https://wsoft.ws/products/WSTodon.svg" class="card-img-top bg-white" alt="WSOFTScript" loading="lazy">
-            <div class="card-body">
-                <h5 class="card-title">WSTodon</h5>
-                <p class="card-text">
-                WSOFTの運営するMastodonインスタンスについて説明します。よくある質問もあります。
-                </p>
+<div class="card mb-3">
+    <a href="account" class="row g-0 text-reset text-decoration-none">
+    <div class="col-md-3 d-flex justify-content-center">
+            <img src="https://wsoft.ws/products/WSOFTDownloadCenter.svg" class="card-img-top bg-white" alt="AliceScript">
+    </div>
+    <div class="col-md">
+        <div class="card-body">
+            <h5 class="card-title">WSOFTダウンロードセンター</h5>
+            <div class="card-text">
+                <p>ダウンロードセンターが提供するAPI等の記事</p>
             </div>
+        </div>
+    </div>
     </a>
+    <div class="accordion">
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-headingOne5">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne5" aria-expanded="false" aria-controls="panelsStayOpen-collapseOne5">
+                    記事一覧
+                </button>
+            </h2>
+            <div id="panelsStayOpen-collapseOne5" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingOne5">
+                <div class="accordion-body">
+                    {{ print_thumbnail('products/download')　}}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="card mb-3">
+    <a href="account" class="row g-0 text-reset text-decoration-none">
+    <div class="col-md-3 d-flex justify-content-center">
+            <img src="https://wsoft.ws/products/WSOFTScript.png" class="card-img-top bg-white" alt="AliceScript">
+    </div>
+    <div class="col-md">
+        <div class="card-body">
+            <h5 class="card-title">WSOFTScript</h5>
+            <div class="card-text">
+                <p>WSOFTの提供していたスクリプト言語である、WSOFTScriptについて説明します。</p>
+            </div>
+        </div>
+    </div>
+    </a>
+    <div class="accordion">
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-headingOne6">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne6" aria-expanded="false" aria-controls="panelsStayOpen-collapseOne6">
+                    記事一覧
+                </button>
+            </h2>
+            <div id="panelsStayOpen-collapseOne6" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingOne6">
+                <div class="accordion-body">
+                    {{ print_thumbnail('products/script')　}}
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
