@@ -18,7 +18,7 @@ WSOFTScriptは、次のライフサイクルポリシーに従います。
 * 2020 LTS
 
 !!! warning
-    WSOFTScriptバージョン2020LTS及び0.07R4以降、新たなバージョンのWSOFTScriptの開発は行われません。WSOFTは、2022年6月1日に、全てのWSOFTScriptおよびWSOFTScript.XならびにWSOFTScript.Pocketの各バージョンのサポートを終了します。
+    WSOFTScriptバージョン2020LTSおよび0.07R4以降、新たなバージョンのWSOFTScriptの開発は行われません。WSOFTは、2022年6月1日に、すべてのWSOFTScriptおよびWSOFTScript.XならびにWSOFTScript.Pocketの各バージョンのサポートを終了します。
 
 <h3>WSOFTScript 2020 LTSは、サポートを終了しました</h3>
 

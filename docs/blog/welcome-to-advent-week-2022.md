@@ -4,7 +4,7 @@ summary: WSOFTAdventWeek2022へようこそ。この記事には、AdventWeek初
 date : 2022-12-19
 ---
 
-<video class="img-fluid" src="../media/advent-2022.mp4" controls></video>
+<video class="img-fluid" src="../media/advent-2022.mp4" controls alt="AdventWeek2022の紹介"></video>
 
 WSOFT AdventWeek 2022へようこそ。WSOFT AdventWeekとは、クリスマスまでの日数をカウントダウンするアドベントカレンダーの慣習にちなんで12月19日から25日までの7日間、一日2つから3つ、新しいソフトウェアやサービス、またそれらの更新が配信されるイベントです。
 
