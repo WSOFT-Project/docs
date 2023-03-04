@@ -18,6 +18,7 @@ date : 2023-02-25
 |[AliceScript](../products/alice/index.md)|ありす|Losetta NX||
 |AliceScript Mobile|Alice Mobile|XamarinLosetta|AliceScript|
 |[AliceSister](../products/alice/general/alice-sister.md)|AliceScript.X|Losetta NX.X|AliceScript|
+|[AliceScriptWeb環境](https://try.alice.wsoft.ws/)|AliceScript.WASM|Losetta NX.WASM|AliceScript|
 |Alicia|Alice Doit|Losetta Doit|AliceScript|
 |[AliceScript Wiki](https://alice.wsoft.ws/)|AliceWiki|alice.wsoft.ws|AliceScript|
 |AliceScript Mobile|Alice Mobile|XamarinLosetta|AliceScript|
@@ -27,14 +28,17 @@ date : 2023-02-25
 |[Lantana](https://lantana.wsoft.ws/)|たぴおか|tapioca|WSOFTDocs|
 |[Losetta](../products/alice/general/../changelog/losetta/index.md)|WSOFTScript|losetta|AliceScript|
 |MicroAlice|Alice-SE|minialice|AliceScript|
+|MediaViewPlugin|Shangri-la Media|mp4pl|Shangri-la Studio|
 |OpenSailing|比叡OSS|ws-hiei-oss|WebSailingNX|
 |Shangri-la|WinScript|shangrila|WSOFTScript|
 |Shangri-la Studio|WSEdit|shangrila-edit|WSProgramer|
 |[WebSailing](../products/websailing/gl/changelog/index.md)|WebBrowser2|brows||
 |[WebSailing NX](../products/websailing/legacy/index.md)|雁|Beta||
 |[WebSailing NX by Chromium](../products/websailing/index.md)|比叡|Hiei||
+|WebSailing MediaCenter|WebSailing MC|ws-md|WebSailing|
 |WebSailing PE|プレインストール環境|wspe|WebSailing NX|
 |WebSailing QuickInstaller|WSインストーラー|wsinstall|WebSailing NX|
+|WebSailing Script|Glitnir|ws-ws|WebSailing|
 |WebSailing TextBrowser|WSテキストブラウザ|ws-text-browser|WebSailing NX|
 |WiiRemote|WSWii|wiimote||
 |WSNETServer|wstube-net|wstube-net|WSNET|
@@ -46,19 +50,28 @@ date : 2023-02-25
 |WSTube (Mod)|wst-mode|WinTubeMOD|WSTube|
 |WSTube (CMD)|wst-cmd|WinTube|WSTube|
 |WSTube Go|WSTubeGo|WinTubeGo|WSTube|
+|WSTV|YTTV|yt-tv|WSTube|
 |WSTube簡単ダウンロード+|WinTube+|WinTubeX|WSTube|
 |[WSTube NEXT](../products/wstube/index.md)|Procyon|wsnext|WSTube|
 |[WSOFTDownloadCenter](../products/download/index.md)|ちはや|chihaya||
 |[WSOFTDownloadCenter.API](../products/download/api.md)|ちはや|chihaya||
 |[WSOFTDownloadCenter 管理端末](../products/download/manager/index.md)|ゆうき|chihayaⅡ||
 |WSOFT RapidLoad|迅速読込展開|SlideMovieMaker|
+|[WSOFTScript](../products/script/index.md)|Losetta|wscript||
+|WSOFTScript.X|Losetta.X|wscriptX|WSOFTScript|
+|WSOFTScript Mobile|Losetta.Xamarin|wscriptX|WSOFTScript|
+|WSOFTアカウント|AL|wsid||
+|WSOFTアカウント WebLogin|AL|wsid-web|WSOFTアカウント|
+|WSOFTオンライン手続き|AL|wsid-al|WSOFTアカウント|
 |WSProgramer|WSEdit|cs-edit||
 |WSProgramer NX|WSEditNX|cs-edit||
 |WSProgramer 2020|WSEdit20|cs-edit||
+|[WSMine](https://wsoft.ws/mine)|京都工学院マインスイーパー|mine||
 |WSVBSエディタ|WSEdit|vbs-edit||
 |[統合WSOFTネットワーク](../products/wsnet/index.md)|WSNET|WSNET||
 |[広域WSOFTネットワーク](../products/wsnet/index.md)|WSWAN|WSWAN|WSNET|
 |セキュリティが強化されたWSOFTイメージング環境|wsi|wsimg|WebSailing|
+|[管理者向けWebSailing設定](../products/websailing/gl/guide/how-to-block-urls.md)|WebSailingAdminCenter|wsadmin|WebSailing|
 
 ### 紅組の製品
 |製品名|識別名|コードネーム|親プロジェクト|
@@ -78,6 +91,8 @@ date : 2023-02-25
 
 |製品名|識別名|コードネーム|親プロジェクト|
 |---|---|---|---|
+|H-NOW|一行ニュース|hownow||
+|[Unidet](../products/unidet/index.md)|Unidet|unidet||
 |[WSTube](../products/wstube/index.md)|WTube|yt||
 |PowerSlide|新歓PP|psp||
 |SlideMovieMaker|思い出ビデオメーカー|2-3オート動画||
