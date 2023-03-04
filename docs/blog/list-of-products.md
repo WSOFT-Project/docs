@@ -30,15 +30,30 @@ date : 2023-02-25
 |MicroAlice|Alice-SE|minialice|AliceScript|
 |MediaViewPlugin|Shangri-la Media|mp4pl|Shangri-la Studio|
 |OpenSailing|比叡OSS|ws-hiei-oss|WebSailingNX|
+|PackSpy|Spy++|wspspy|WSOFTScript|
+|PipeConnection|SEAlice|pipi|Alice in Discord|
+|PulsoidRecorder|WSOFTHeartBeat|ws-bpm||
 |Shangri-la|WinScript|shangrila|WSOFTScript|
 |Shangri-la Studio|WSEdit|shangrila-edit|WSProgramer|
+|TrainNet|鉄道情報Bot|hownow||
 |[WebSailing](../products/websailing/gl/changelog/index.md)|WebBrowser2|brows||
+|WebSailing for Android|AndroSailing|wsdroid|WebSailing|
+|WebSailing for OSX|OSXSailing|wsox|WebSailing|
+|WebSailing for iOS|iOSailing|wsios|WebSailing|
+|WebSailing Mobile|MobileSailing|wsmobile|WebSailing|
 |[WebSailing NX](../products/websailing/legacy/index.md)|雁|Beta||
 |[WebSailing NX by Chromium](../products/websailing/index.md)|比叡|Hiei||
+|WebSailing NX PF|雁|Beta||
+|WebSailing NX ZEN Edition|善|Zen||
+|WebSailing NX RE|雁|Beta||
+|WebSailing NX Orange|蜜柑|Orange||
 |WebSailing MediaCenter|WebSailing MC|ws-md|WebSailing|
 |WebSailing PE|プレインストール環境|wspe|WebSailing NX|
 |WebSailing QuickInstaller|WSインストーラー|wsinstall|WebSailing NX|
 |WebSailing Script|Glitnir|ws-ws|WebSailing|
+|[WebSailing 20Edition](../products/websailing/gl/changelog/4000.md)|WS20|ws-20|WebSailing|
+|WebSailing Helper|WSHelp|wshelp|WebSailing NX|
+|WebSailing Script|WSCRIPT|wscript||
 |WebSailing TextBrowser|WSテキストブラウザ|ws-text-browser|WebSailing NX|
 |WiiRemote|WSWii|wiimote||
 |WSNETServer|wstube-net|wstube-net|WSNET|
@@ -53,6 +68,9 @@ date : 2023-02-25
 |WSTV|YTTV|yt-tv|WSTube|
 |WSTube簡単ダウンロード+|WinTube+|WinTubeX|WSTube|
 |[WSTube NEXT](../products/wstube/index.md)|Procyon|wsnext|WSTube|
+|[WSOFTConfig](https://github.com/WSOFT-Project/WSOFTConfig)|WSOFTCF|wsconf||
+|WSOFTConfig.Framework|WSOFTCF.Framework|wsconf.fw||
+|[WSOFTDocs](https://docs.wsoft.ws/)|Orange|wsoftWiki||
 |[WSOFTDownloadCenter](../products/download/index.md)|ちはや|chihaya||
 |[WSOFTDownloadCenter.API](../products/download/api.md)|ちはや|chihaya||
 |[WSOFTDownloadCenter 管理端末](../products/download/manager/index.md)|ゆうき|chihayaⅡ||
