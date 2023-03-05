@@ -23,6 +23,9 @@ number math_acosh(number value);
 |-|-|
 |`number`|弧度法で$0\leqq\theta\leqq\pi$の範囲の角度$\theta$|
 
+!!!warning "実装の非互換性"
+    この関数はAliceSisterでは実装されていません。LosettaやAliceScriptを使用することを検討してください。
+
 ### 説明
 `math_acosh()`関数は、引数として与えられた数値の逆双曲線余弦（ハイパーポリックコサイン）をラジアン単位で返します。
 

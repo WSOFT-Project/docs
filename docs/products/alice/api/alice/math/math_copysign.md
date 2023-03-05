@@ -23,3 +23,6 @@ number math_copysign(number value,number sign);
 |戻り値| |
 |-|-|
 |`number`|`value`の絶対値と符号`sign`の値。|
+
+!!!warning "実装の非互換性"
+    この関数はAliceSisterでは実装されていません。LosettaやAliceScriptを使用することを検討してください。

@@ -23,6 +23,9 @@ number math_cbrt(number value);
 |-|-|
 |`number`|`value`の立方根。|
 
+!!!warning "実装の非互換性"
+    この関数はAliceSisterでは実装されていません。LosettaやAliceScriptを使用することを検討してください。
+
 ### 例
 次の例では、$3^3$の値を取得します。
 
