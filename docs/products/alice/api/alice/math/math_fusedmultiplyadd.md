@@ -24,3 +24,6 @@ number math_fusedmultiplyadd(number x,number y,number z);
 |戻り値| |
 |-|-|
 |`number`|一つの三項演算として丸められた、(x*y)+z。|
+
+!!!warning "実装の非互換性"
+    この関数はAliceSisterでは実装されていません。LosettaやAliceScriptを使用することを検討してください。

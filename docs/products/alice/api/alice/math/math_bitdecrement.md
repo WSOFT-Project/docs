@@ -23,6 +23,9 @@ number math_bitdecrement(number value);
 |-|-|
 |`number`|`value`の次に小さい値。|
 
+!!!warning "実装の非互換性"
+    この関数はAliceSisterでは実装されていません。LosettaやAliceScriptを使用することを検討してください。
+
 ### 説明
 `value`または`-value`が`NegativeInfinity`と等しい場合は`NegativeInfinity`を返します。
 

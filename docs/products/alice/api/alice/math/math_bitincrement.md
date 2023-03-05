@@ -23,6 +23,9 @@ number math_bitincrement(number value);
 |-|-|
 |`number`|`value`の次に大きい値。|
 
+!!!warning "実装の非互換性"
+    この関数はAliceSisterでは実装されていません。LosettaやAliceScriptを使用することを検討してください。
+
 ### 説明
 `value`または`-value`が`PositiveInfinity`と等しい場合は`PositiveInfinity`を返します。
 

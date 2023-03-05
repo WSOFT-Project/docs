@@ -24,3 +24,6 @@ number math_clamp(number value,number min,number max);
 |戻り値| |
 |-|-|
 |`number`|`min`≤`value`≤`max`の場合は`value`が、どちらかの範囲に逸脱する場合はその範囲の最大最小値が返されます。|
+
+!!!warning "実装の非互換性"
+    この関数はAliceSisterでは実装されていません。LosettaやAliceScriptを使用することを検討してください。
