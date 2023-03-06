@@ -9,7 +9,7 @@ date : 2022-11-10
 ### AmebaOwandからWSOFTCMS、さらにWSOFTDocsへ
 2018年、WebbSailingのサポート記事提供の場として、WebSailing-Netが誕生しました。WebSailingが、NX系に移行するまでの間、21の記事がAmebaOwandによってホストされました。
 
-WSTubeの開発に際して、WSOFTは、自前でサーバーを用意し、そこで記事を提供する方式が導入されました。そこで、WSOFTはWSTubeで設計したUIを流用し、WSOFTCMSを開発しました。現在でも、WSOFTScriptのサイトで体験することができます。WSOFTは、この方式を3年以上にわたって使用し続け、その結果、200を超える記事がWSOFTCMSを通じて提供されました。
+WSTubeの開発に際して、WSOFTは、自前でサーバーを用意し、そこで記事を提供する方式が導入されました。そこで、WSOFTはWSTubeで設計したUIを流用し、HelpEngineを開発しました。現在では、これは[オープンソース](https://github.com/taiseiue/helpengine)化されています。WSOFTは、この方式を3年以上にわたって使用し続け、その結果、200を超える記事がHelpEngineを通じて提供されました。
 
 ![旧バージョンのWSOFTのサイトでの「WSOFTのドキュメントの WSOFT Docs への移行に関する情報」の表示](media/7.jpg)
 
