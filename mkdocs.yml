@@ -1,4 +1,5 @@
 site_name: WSOFTDocs
+header_name : Docs
 copyright : 'Copyright &copy; 2022 WSOFT All Rights reserved.'
 
 docs_dir : 'docs'
