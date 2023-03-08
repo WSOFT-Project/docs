@@ -10,8 +10,8 @@ author : あみうは
 ## あみうは Docsへようこそ
 WSOFTDocsのあみうはのサイトへようこそ。このサイトでは、従来[あみうはのブログ](https://amiuha2103.amebaownd.com/)で掲載されていた記事を掲載しています。これらの記事の更新は、もう行われません。
 
-{{ print_thumbnail('amiuha')　}}
+="amiuha"=
 
 ### お知らせ
 
-{{ print_thumbnail('amiuha/info')　}}
+="amiuha/info"=

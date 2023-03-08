@@ -8,4 +8,4 @@ AliceScriptは、セキュリティと信頼性に関するバグを修正する
 
 この記事では、AliceScriptの各バージョンにおける新機能と機能強化について説明します。この記事は、それぞれの新機能の情報を詳しく説明するものではありません。AliceScriptの各機能についてはそれぞれの記事をご覧ください。ダウンロードとインストール手順について詳しくは[AliceScriptのダウンロード](../download.md)を参照してください。また、互換性に影響を与える恐れがある変更点については[互換性に影響を与える変更点](./compatibility.md)も参照してください。
 
-{{ print_thumbnail('products/alice/changelog')　}}
+="products/alice/changelog"=

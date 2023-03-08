@@ -4,4 +4,4 @@ summary: WSNET（統合WSOFTネットワーク）は、WSOFTのメンバーが�
 ---
 ### チュートリアル
 
-{{ print_thumbnail('products/wsnet/tutorial')　}}
+="products/wsnet/tutorial"=

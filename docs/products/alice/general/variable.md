@@ -66,12 +66,12 @@ AliceScriptに組み込まれている型の一覧を示します。
 
 |キーワード|型の名前|説明|
 |---|---|---|
-|[bool](../api/alice/bool/index.md)|真理値型|`true`と`false`の二値を表します|
-|[bytes](../api/alice/bytes/index.md)|バイナリ型|バイナリデータ配列を表します|
-|[number](../api/alice/number/index.md)|数値型|倍精度浮動小数点数型を表します|
-|[string](../api/alice/string/index.md)|文字列型|テキストの一連のUTF-16コードの配列を表します|
-|[array](../api/alice/array/index.md)|配列型|何らかの型の配列を表します|
-|[delegate](../api/alice/delegate/index.md)|デリゲート型|匿名関数のような一連のステートメントのまとまりを表します|
+|[bool](../api/bool/index.md)|真理値型|`true`と`false`の二値を表します|
+|[bytes](../api/bytes/index.md)|バイナリ型|バイナリデータ配列を表します|
+|[number](../api/number/index.md)|数値型|倍精度浮動小数点数型を表します|
+|[string](../api/string/index.md)|文字列型|テキストの一連のUTF-16コードの配列を表します|
+|[array](../api/array/index.md)|配列型|何らかの型の配列を表します|
+|[delegate](../api/delegate/index.md)|デリゲート型|匿名関数のような一連のステートメントのまとまりを表します|
 |object|オブジェクト型|カスタムクラスや.NETのオブジェクトを表します|
 |pointer|ポインタ型|変数を指し示すポインタを表します|
 |[none](../api/alice/none/index.md)|none型|`null`の変数を表します|

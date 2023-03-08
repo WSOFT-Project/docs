@@ -6,4 +6,4 @@ author : あみうは
 ---
 ### お知らせの一覧
 
-{{ print_thumbnail('amiuha/info')　}}
+="amiuha/info"=

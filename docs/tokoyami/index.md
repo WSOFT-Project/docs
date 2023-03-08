@@ -19,4 +19,4 @@ WSOFTDocsの生存報告のサイトへようこそ。
 
 ### 22年度2,3学期
 
-{{ print_thumbnail('tokoyami/4')　}}
+="tokoyami/4"=

@@ -6,4 +6,4 @@ disable_tools : true
 ---
  このセクションの大部分は、AliceScriptおよび一般的なプログラミングの概念について、既にある程度の知識を持っているユーザーを対象としています。
 
-{{ print_thumbnail('products/alice/tutorial')　}}
+="products/alice/tutorial"=

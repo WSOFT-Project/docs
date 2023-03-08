@@ -4,4 +4,4 @@ summary: WSNET（統合WSOFTネットワーク）は、WSOFTのメンバーが�
 ---
 ### ニュース
 
-{{ print_thumbnail('products/wsnet/news')　}}
+="products/wsnet/news"=

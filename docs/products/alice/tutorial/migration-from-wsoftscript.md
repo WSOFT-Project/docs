@@ -204,7 +204,7 @@ var num_ary2 = ary2.Select(item=>item as number);
 var result = num_ary1.Union(num_ary2);
 ```
 
-ここでは、[array.Select](../api/alice/array/select.md)メソッドと[array.Union](../api/alice/array/union.md)メソッドを使用しました。もっと詳しく知るにはそれぞれの説明を参照してください。
+ここでは、[array.Select](../api/array/select.md)メソッドと[array.Union](../api/array/union.md)メソッドを使用しました。もっと詳しく知るにはそれぞれの説明を参照してください。
 
 AliceScriptでは終了条件までループするuntil文は廃止されました。しかし、while(!bool)で代用することができます。
 

@@ -37,4 +37,4 @@ disable_tools : true
 ### チュートリアル
 ---
 
-{{ print_thumbnail('products/websailing/tutorial')　}}
+="products/websailing/tutorial"=

@@ -46,7 +46,7 @@ disable_tools : true
             </h2>
             <div id="panelsStayOpen-collapseOne1" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingOne1">
                 <div class="accordion-body">
-                    {{ print_thumbnail('blog')　}}
+                    ="blog"=
                 </div>
             </div>
         </div>
@@ -94,7 +94,7 @@ disable_tools : true
             </h2>
             <div id="panelsStayOpen-collapseOne2" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingOne2">
                 <div class="accordion-body">
-                    {{ print_thumbnail('contribute')　}}
+                    ="contribute"=
                 </div>
             </div>
         </div>
@@ -125,7 +125,7 @@ disable_tools : true
             </h2>
             <div id="panelsStayOpen-collapseOne3" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingOne3">
                 <div class="accordion-body">
-                    {{ print_thumbnail('legal')　}}
+                    ="legal"=
                 </div>
             </div>
         </div>
@@ -157,7 +157,7 @@ disable_tools : true
             </h2>
             <div id="panelsStayOpen-collapseOne4" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingOne3">
                 <div class="accordion-body">
-                    {{ print_thumbnail('amiuha')　}}
+                    ="amiuha"=
                 </div>
             </div>
         </div>

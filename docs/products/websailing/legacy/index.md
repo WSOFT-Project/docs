@@ -4,8 +4,8 @@ summary: ドキュメント、チュートリアル、サンプルでWebSailingN
 ---
 ### ガイド記事の一覧
 
-{{ print_thumbnail('products/websailing/legacy/guide')　}}
+="products/websailing/legacy/guide"=
 
 ### 開発者向け情報
 
-{{ print_thumbnail('products/websailing/legacy/developper')　}}
+="products/websailing/legacy/developper"=
