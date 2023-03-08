@@ -25,7 +25,7 @@ WSOFTDocsのAliceScriptのサイトへようこそ。このサイトでは、Ali
     * [式](./general/expression.md)
     * [変数](./general/variable.md)
     * [関数](./api/alice/function.md)
-    * [デリゲート](./api/alice/delegate/index.md)
+    * [デリゲート](./api/delegate/index.md)
     * [例外](./general/exception.md)
     * [前処理指令](./general/preprocessor-directive.md)
     * [標準Alice実装モデル](./general/saim.md)
