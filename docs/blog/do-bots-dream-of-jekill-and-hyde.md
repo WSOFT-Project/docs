@@ -3,6 +3,7 @@ title: DiscordのBotは多重人格の夢を見るか？
 summary: 高1の時間の大部分を溶かしたAlice in Discordとは結局なんだったのか説明します。
 date : 2022-11-22
 image : https://wsoft.ws/products/Alice.jpg
+order : 5
 ---
 ### はじめに
 ブログ記事ではお初にお目にかかります、[たい](https://twitter.com/WSOFT7)と申します。WebSailingやAliceScriptなどを開発している高校2年生の`自称プログラマー`で同人サークル「WSOFT」の団長もしています。

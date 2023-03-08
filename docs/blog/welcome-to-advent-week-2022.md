@@ -2,6 +2,7 @@
 title: WSOFT AdventWeekへようこそ
 summary: WSOFTAdventWeek2022へようこそ。この記事には、AdventWeek初日の発表を含みます。
 date : 2022-12-19
+order : 6
 ---
 
 <video class="img-fluid" src="../media/advent-2022.mp4" controls alt="AdventWeek2022の紹介"></video>

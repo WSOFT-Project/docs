@@ -2,6 +2,7 @@
 title : WSOFTのロゴ変更に関する情報
 summary : WSOFTのロゴが新しくなりました。
 date : 2022-04-04
+order : 1
 ---
 
 <video class="img-fluid" src="./media/switch-logo.mp4" controls alt="ロゴ変更"></video>
