@@ -3,6 +3,7 @@ title: ブログ
 summary: WSOFTDocsとWSOFTのチームブログです。
 disable_tol : true
 disable_tools : true
+order : 0
 ---
 WSOFTDocs Blogへようこそ。ここでは、メンバーが投稿したブログ記事などがあります。
 
