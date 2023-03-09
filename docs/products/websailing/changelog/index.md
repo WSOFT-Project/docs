@@ -7,4 +7,4 @@ WebSailingNX 52以前のバージョンの更新情報については[NX(レガ�
 
 ### 更新情報の一覧
 
-{{ print_thumbnail('products/websailing/changelog')　}}
+="products/websailing/changelog"=

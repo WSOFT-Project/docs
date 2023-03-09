@@ -4,4 +4,4 @@ summary: WSOFTダウンロードセンター管理端末の更新情報をお知
 ---
 ### 更新情報の一覧
 
-{{ print_thumbnail('products/download/manager/changelog')　}}
+="products/download/manager/changelog"=

@@ -12,8 +12,8 @@ WSWANは現在、公開テストを行っていません。WSNETとWSWANにつ�
 
 ### ニュース
 
-{{ print_thumbnail('products/wsnet/news')　}}
+="products/wsnet/news"=
 
 ### チュートリアル
 
-{{ print_thumbnail('products/wsnet/tutorial')　}}
+="products/wsnet/tutorial"=

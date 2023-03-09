@@ -33,4 +33,4 @@ WSOFTDocsに関するお知らせは[ブログ](../../blog/index.md)にあるぞ
 
 ---
 
-{{ print_thumbnail('tokoyami/3')　}}
+="tokoyami/3"=

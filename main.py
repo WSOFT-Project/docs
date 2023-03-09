@@ -3,13 +3,16 @@ import os
 import sys
 import re
 import datetime
+from natsort import natsorted
+
+
 
 COL_NUM = 3
 
 def get_thumbnail_element(dir, index_filename='index.md',pages_filename='.pages'):
     html = '<div class="container-fluid">\n'
     dir_title=read_property(f'docs/{dir}/{pages_filename}','title')
-    filenames = glob.glob(f'docs/{dir}/*.md')
+    filenames = natsorted(glob.glob(f'docs/{dir}/*.md'))
     for i, filename in enumerate(filenames):
         if not filename.endswith(index_filename):
             title = read_property(filename,'title')
@@ -25,7 +28,7 @@ def get_thumbnail_element(dir, index_filename='index.md',pages_filename='.pages'
 
     return html
 
-def read_property(filename,key):
+def read_property(filename,key,default=""):
     """記事や.pagesファイルからプロパティを読みだす関数
     
     filename=ファイル名、key=プロパティの名前
@@ -34,6 +37,8 @@ def read_property(filename,key):
         search=re.search(key+'\ *:\ *(.+)*\n*', f.read())
         if search != None:
             return search.group(1)
+        else:
+            return default;
     return ''
 
 def get_card_element(title, dir,summary,date,author,dir_title):

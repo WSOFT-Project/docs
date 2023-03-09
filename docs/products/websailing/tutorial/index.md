@@ -5,4 +5,4 @@ disable_tol : true
 disable_tools : true
 ---
 
-{{ print_thumbnail('products/websailing/tutorial')　}}
+="products/websailing/tutorial"=

@@ -2,6 +2,7 @@
 title : wsoft.wsへのドメイン移行に関する情報
 summary : WSOFTのサイトURLが新しくなりました。
 date : 2022-09-25
+order : 2
 ---
 
 WSOFTのサイトのURLが、`wsoft.gq`から、`wsoft.ws`へ代わりました。

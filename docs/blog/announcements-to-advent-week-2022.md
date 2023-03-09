@@ -1,6 +1,8 @@
 ---
 title :  WSOFT AdventWeek 2022のお知らせ
 summary : WSOFTAdventWeek2022で配信したソフトやサービスのまとめ記事です。
+date : 2022-12-25
+order : 7
 ---
 
 WSOFTAdventWeek2022が終了しました。

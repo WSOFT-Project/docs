@@ -28,7 +28,7 @@ disable_tools : true
             </h2>
             <div id="panelsStayOpen-collapseOne3" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingOne3">
                 <div class="accordion-body">
-                    {{ print_thumbnail('products/account')　}}
+                    ="products/account"=
                 </div>
             </div>
         </div>
@@ -58,7 +58,7 @@ disable_tools : true
             </h2>
             <div id="panelsStayOpen-collapseOne4" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingOne4">
                 <div class="accordion-body">
-                    {{ print_thumbnail('products/alice')　}}
+                    ="products/alice"=
                 </div>
             </div>
         </div>
@@ -88,7 +88,7 @@ disable_tools : true
             </h2>
             <div id="panelsStayOpen-collapseOne5" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingOne5">
                 <div class="accordion-body">
-                    {{ print_thumbnail('products/download')　}}
+                    ="products/download"=
                 </div>
             </div>
         </div>
@@ -118,7 +118,7 @@ disable_tools : true
             </h2>
             <div id="panelsStayOpen-collapseOne6" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingOne6">
                 <div class="accordion-body">
-                    {{ print_thumbnail('products/script')　}}
+                    ="products/script"=
                 </div>
             </div>
         </div>

@@ -10,4 +10,4 @@ disable_tools : true
 
 WSOFTの法律関連資料については、以下のリンクを参照してください。
 
-{{ print_thumbnail('legal')　}}
+="legal"=

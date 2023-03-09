@@ -2,6 +2,7 @@
 title : Raspberry Pi初代やZeroでAliceScriptを実行する
 summary : 初代ラズパイやZeroなどのarmv6CPU環境でAliceScriptを実行する方法についてメモします。
 date : 2023-03-05
+order : 10
 ---
 
 ### 読者前提

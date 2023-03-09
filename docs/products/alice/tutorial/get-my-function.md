@@ -4,7 +4,7 @@ summary : この記事では、StackTraceを使用して自分自身の関数を
 ---
 
 ### 概要
-AliceScript2.3から、StackTrace機能が導入されました。この機能を上手く使用すると、自分自身の関数を[デリゲート](../api/alice/delegate/index.md)として取得できます。
+AliceScript2.3から、StackTrace機能が導入されました。この機能を上手く使用すると、自分自身の関数を[デリゲート](../api/delegate/index.md)として取得できます。
 
 次の例では、`myFunction()`自身の関数名を取得し、出力します。
 
