@@ -1,5 +1,5 @@
 ---
-title : AliceScriptWikiの概要
+title : Wikiの概要
 summary : この記事では、AliceScriptWikiについて説明するとともに、編集者用ページの内容を示します。
 date : 2022-02-13
 ---
@@ -21,7 +21,7 @@ AliceScriptDocsをホストしているWSOFTDocsで同様の操作をするこ�
 - WSOFTDocsの[統計](https://docs.wsoft.ws/statics)はここにまとめられています。
 
 ### テンプレート
-AliceScriptWikiでは、テンプレートを使うことでWiki内で共通のコントロールを簡単に使用できます。
+AliceScriptWikiでは、テンプレートを使うことによってWiki内で共通のコントロールを簡単に使用できます。
 
 #### Alert
 
