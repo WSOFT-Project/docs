@@ -18,9 +18,6 @@ extra_javascript:
   # WSOFT共通ヘッダーフッターをロード
   - https://wsoft.ws/main.js
   - /site.js
-  # GoogleAdsense
-  - https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9064519472074433
-
 image : https://wsoft.ws/favicon.ico
 favicon_svg : https://wsoft.ws/favicon.svg
 language : ja
