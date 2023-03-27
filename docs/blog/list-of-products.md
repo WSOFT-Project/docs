@@ -94,6 +94,7 @@ date : 2023-02-25
 ### 紅組の製品
 |製品名|識別名|コードネーム|親プロジェクト|
 |---|---|---|---|
+|世の理とは少し違う|yono-koto|(参加)||
 |[光芒](https://www.youtube.com/watch?v=JtNf5gQXLYI)|present from you|present-from-you||
 
 ### T-SOFTの製品
