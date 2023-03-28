@@ -16,14 +16,17 @@ AliceScriptを使用したアプリケーションの開発についての説明
 #### Windows環境にLosettaを導入する
 初めに、Losettaをダウンロードする必要があります。[GitHubリポジトリ](https://github.com/WSOFT-Project/Losetta/releases)から、最新のものをダウンロードするか、[WSOFTダウンロードセンター](https://download.wsoft.ws/AliceScript)から安定板をダウンロードできます。
 
-どちらの場合でも、`alice-win-xxx.exe`といったファイルがあるかと思います。自身のコンピュータに合った形式のものを`alice.exe`に名前変更します。
+どちらの場合でも、`alice-win-xxx.exe`といったファイルを用意し、自身のコンピュータに合った形式のものを`alice.exe`に名前変更します。
+
+!!!tip "環境の判別"
+    あなたが使用しているOSがWindowsで、IntelやAMD製のプロセッサを使用している(これはコンピュータに貼ってあるステッカーで判別できます)場合、64ビットであればwin-x64を、32ビット(これはよく古いコンピュータで採用されています)であればwin-x86を選択します。また、Windows10ARMを使用している場合はwin-arm64を選択します。
 
 !!!note "サポートされるプラットフォーム"
     Losettaは、次のプラットフォームをサポートします。
     
     * Windows x86、x64、ARM、ARM64
     * Linux x64、ARM、ARM64
-    * macOS x64
+    * macOS x64 (RosettaによるAppleM1プロセッサのサポートを含む)
 
 名称変更したらそのファイルを適当な場所に移動します。このとき、移動先のファイルパスを控えておきます。
 
@@ -70,9 +73,9 @@ curl -OL https://download.wsoft.ws/WS144/Download
 ```bash title="シェル"
 sudo chmod +x Download
 sudo mv Download /usr/local/bin/alice
-alice -v
+alice version
 ```
-`alice -v`コマンドを実行し、以下のように出力されれば環境構築は完了です。
+`alice version`コマンドを実行し、以下のように出力されれば環境構築は完了です。
 
 ```bash title="出力"
 AliceScript バージョン <SAIM_Version> (Losetta <IMPL_Version> on Unix)
@@ -95,7 +98,7 @@ Hello,World!
 次のようなコマンドを実行して、スクリプトファイルを実行できます。
 
 ```bash title="シェル"
-alice -r script.txt
+alice script.txt
 ```
 
 以上で基礎的なチュートリアルは終了です。
