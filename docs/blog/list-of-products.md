@@ -74,7 +74,7 @@ order : 11
 |[WSOFTDocs](https://docs.wsoft.ws/)|Orange|wsoftWiki||
 |[WSOFTDownloadCenter](../products/download/index.md)|ちはや|chihaya||
 |[WSOFTDownloadCenter.API](../products/download/api.md)|ちはや|chihaya||
-|[WSOFTDownloadCenter 管理端末](../products/download/manager/index.md)|ゆうき|chihayaⅡ||
+|[WSOFTDownloadCenter 管理端末](../products/download/manager/index.md)|ゆうき|yuuki||
 |WSOFT RapidLoad|迅速読込展開|SlideMovieMaker|
 |[WSOFTScript](../products/script/index.md)|Losetta|wscript||
 |WSOFTScript.X|Losetta.X|wscriptX|WSOFTScript|
@@ -95,7 +95,7 @@ order : 11
 ### 紅組の製品
 |製品名|識別名|コードネーム|親プロジェクト|
 |---|---|---|---|
-|世の理とは少し違う|yono-koto|(参加)||
+|世の理とは少し違う|yono-koto||(参加)|
 |[光芒](https://www.youtube.com/watch?v=JtNf5gQXLYI)|present from you|present-from-you||
 
 ### T-SOFTの製品
