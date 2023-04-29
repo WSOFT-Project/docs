@@ -22,7 +22,7 @@ ADK版には、それ単体でファイルを実行したり開発したりす�
 *新機能については[AliceScriptの新機能](../features)を参照してください。
 *このソフトウェアに含まれるソフトウェアの著作権情報については[著作権情報](../about)を参照してください。
 
-*  **[AliceScriptADK 2.0(最新版,安定版)のダウンロード](https://download.wsoft.ws/WS00152)**
+*  **[AliceScriptADK 2.2.1(最新版,安定版)のダウンロード](https://download.wsoft.ws/WS00178)**
 *  [AliceScriptADK 2.0(最新版,安定版)のダウンロード](https://download.wsoft.ws/WS00139)
 *  [AliceScriptADK GM(安定版)のダウンロード](https://download.wsoft.ws/WS00003)
 * [AliceScriptADK RC2(以前のバージョン)のダウンロード](https://download.wsoft.ws/WS00005)
