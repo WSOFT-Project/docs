@@ -2,6 +2,7 @@
 title: WSOFTのドキュメントの WSOFT Docs への移行に関する情報
 summary: この記事では、WSOFTの提供している、あるいは提供していた記事群のWSOFTDocsへの移行に関する情報をお知らせします。
 date : 2022-11-10
+order : 3
 ---
 本日は、あみうは、WebSailing-NetとAliceScriptWikiのコンテンツのWSOFTDocsへの移行に関する重要な更新情報をお知らせします。
 この記事では、コンテンツの構造、形式、および基盤となるインフラストラクチャを徹底的に見直し、WSOFTの提供するコンテンツを1つのサイトに一元化する全プロジェクト共通の取り組みの最後の数ステップについて説明します。
@@ -9,7 +10,7 @@ date : 2022-11-10
 ### AmebaOwandからWSOFTCMS、さらにWSOFTDocsへ
 2018年、WebbSailingのサポート記事提供の場として、WebSailing-Netが誕生しました。WebSailingが、NX系に移行するまでの間、21の記事がAmebaOwandによってホストされました。
 
-WSTubeの開発に際して、WSOFTは、自前でサーバーを用意し、そこで記事を提供する方式が導入されました。そこで、WSOFTはWSTubeで設計したUIを流用し、WSOFTCMSを開発しました。現在でも、WSOFTScriptのサイトで体験することができます。WSOFTは、この方式を3年以上にわたって使用し続け、その結果、200を超える記事がWSOFTCMSを通じて提供されました。
+WSTubeの開発に際して、WSOFTは、自前でサーバーを用意し、そこで記事を提供する方式が導入されました。そこで、WSOFTはWSTubeで設計したUIを流用し、HelpEngineを開発しました。現在では、これは[オープンソース](https://github.com/taiseiue/helpengine)化されています。WSOFTは、この方式を3年以上にわたって使用し続け、その結果、200を超える記事がHelpEngineを通じて提供されました。
 
 ![旧バージョンのWSOFTのサイトでの「WSOFTのドキュメントの WSOFT Docs への移行に関する情報」の表示](media/7.jpg)
 
@@ -41,16 +42,17 @@ WSTubeの開発に際して、WSOFTは、自前でサーバーを用意し、そ
 WSOFTScriptの更新情報などをお知らせしていた[WSOFTScriptのサイト](https://wsoft.ws/script)の[WSOFTDocs](https://docs.wsoft.ws/script)への移行はすでに完了しました。
 
 #### WebSailingNet
-状況:<span class="badge bg-warning text-dark">進行中</span>
+状況:<span class="badge bg-success">完了</span>
 
-WebSailingNetと一口に言っても、それに分類されるサイトは[WebSailing-Netのメインサイト](https://websailing.localinfo.jp)や[WebSailingDeveloper](https://developer-websailing.localinfo.jp)、[WSPluginライブラリ](https://plugin-websailing.localinfo.jp)、[WebSailingNXサポート](https://suport-websailing.localinfo.jp)や[WSEガイド](https://wseguide-websailing.localinfo.jp)の各記事をWSOFTDocsに移行する必要があり、
-現在、それらの記事の移行の計画をしています。準備が整った記事から順に[WebSailingDocs](https://docs.wsoft.ws/websailing)で公開していきます。
+WebSailingNetと一口に言っても、それに分類されるサイトは[WebSailing-Netのメインサイト](https://websailing.localinfo.jp)や[WebSailingDeveloper](https://developer-websailing.localinfo.jp)、[WSPluginライブラリ](https://plugin-websailing.localinfo.jp)、[WebSailingNXサポート](https://suport-websailing.localinfo.jp)や[WSEガイド](https://wseguide-websailing.localinfo.jp)などさまざまです。
+
+それらすべてのサイトの記事のWSOFTDocsへの移行は完了しました。それらの記事は[WebSailingDocs](../products/websailing/index.md)で公開しています。
 
 #### AliceScriptWiki
 状況:<span class="badge bg-warning text-dark">進行中</span>
 
 [AliceScriptWiki](https://alice.wsoft.ws/)では現在に至るまで、APIリファレンスを含め50を超える記事が公開されてきました。APIリファレンスでは、できる限り同じようなエクスペリエンスを提供する必要があるため、特別な設計が必要になります。
-現在、少しずつではありますが記事を移行しています。準備が整った記事から順に[AliceScriptDocs](https://docs.wsoft.ws/alice)で公開していきます。
+現在、163件の記事がWSOFTDocsへ移行されました。準備が整った記事から順に[AliceScriptDocs](https://docs.wsoft.ws/alice)で公開していきます。
 
 #### 生存報告
 状況:<span class="badge bg-warning text-dark">進行中</span>

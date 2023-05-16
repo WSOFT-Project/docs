@@ -6,11 +6,12 @@ date : 2022-01-31
 ### 定義
 名前空間:Alice / アセンブリ : Losetta.Runtime.dll / サポート: AliceScript1
 
-属性: 言語構造
+属性: 関数の種類
 
 関数の説明
 
-```js
+```js title="AliceScript"
+namespace 名前空間;
 戻り値 関数名(引数の型 引数名,引数名=規定値,params 引数名);
 ```
 
@@ -28,7 +29,7 @@ date : 2022-01-31
 ### 例
 この項目では、その関数の具体的な使用例を示します。次に例を示します。
 
-```js
+```cs title="AliceScript"
 var a = 5;
 var b = 5;
 var c = a + b;

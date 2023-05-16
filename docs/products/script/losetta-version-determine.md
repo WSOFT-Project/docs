@@ -3,7 +3,7 @@ title : 使用されているLosettaのバージョンを確認する
 summary : WSOFTScriptやAliceScriptはLosettaの技術が使用されています。それらのアプリを開発する場合、どのバージョンのWSOFTScriptやAliceScriptがどのバージョンのLosettaの技術を採用しているかを確認しなければならない場合があります。この記事では、それぞれのバージョンとLosettaのバージョンとの対応について説明します。
 ---
 
-Losettaはその歴史を通して、WSOFTScriptやAliceScript等様々な名前とバージョンへと変化していきました。そのため、それぞれのバージョンの対応関係を見出すことが困難でもありました。
+Losettaはその歴史を通して、WSOFTScriptやAliceScript等さまざまな名前とバージョンへと変化していきました。そのため、それぞれのバージョンの対応関係を見出すことが難しくなりました。
 
 ### 使用されているWSOFTScriptのバージョンを確認する
 WSOFTScriptは簡単なクエリを実行することで、稼働中のバージョンを識別することができます。バージョンは文字列形式で返却されます。
@@ -34,7 +34,7 @@ WSOFTScriptやAliceScriptのバージョンとLosettaのバージョンは一対
 |WSOFTScript 0.07 R2|Losetta 0.7.2|
 |WSOFTScript 0.07 R3|Losetta 0.7.3|
 |WSOFTScript 0.07 R4|Losetta 0.7.4|
-|WSOFTScript 2020 LTS|Losetta 0.7.5|
+|**WSOFTScript 2020 LTS**|Losetta 0.7.5|
 |AliceScript NightyBuild 818|Losetta 0.8.0|
 |AliceScript NightyBuild 922|Losetta 0.8.1|
 |AliceScript NightyBuild 925|Losetta 0.8.2|
@@ -59,7 +59,7 @@ WSOFTScriptやAliceScriptのバージョンとLosettaのバージョンは一対
 |AliceScript NightyBuild 1123|Losetta 0.8.24|
 |AliceScript NightyBuild 1127|Losetta 0.8.25|
 |AliceScript NightyBuild 1204|Losetta 0.8.26|
-|AliceScript Release Candidate 2|Losetta 0.8.30|
+|**AliceScript Release Candidate 2**|Losetta 0.8.30|
 |AliceScript NightyBuild 1208|Losetta 0.8.31|
 |AliceScript NightyBuild 1210|Losetta 0.8.32|
 |AliceScript NightyBuild 1211|Losetta 0.8.33|
@@ -68,7 +68,10 @@ WSOFTScriptやAliceScriptのバージョンとLosettaのバージョンは一対
 |AliceScript NightyBuild 1222|Losetta 0.8.36|
 |AliceScript NightyBuild 1223|Losetta 0.8.37|
 |AliceScript NightyBuild 1224|Losetta 0.8.38|
-|AliceScript GoldenMaster|Losetta 0.8.50|
+|**AliceScript GoldenMaster**|Losetta 0.8.50|
 |AliceScript NightyBuild 1202|Losetta 0.9.1|
 |AliceScript NightyBuild 1205|Losetta 0.9.2|
-|AliceScript 2.0|Losetta 0.9.10|
+|**AliceScript 2.0**|Losetta 0.9.10|
+|AliceScript 2.1|Losetta 0.9.15|
+|AliceScript 2.2|Losetta 0.9.18|
+|AliceScript 2.2.1|Losetta 0.9.19|

@@ -36,35 +36,35 @@ IceBuildのコマンドライン引数について詳しく知るにはIceBuild�
 using Alice.IO;
 using Alice.Packaging;
 
-const SourcePath = "{ソースディレクトリのパス}”;
-const TargetPath = "{出力ファイルのパス}”;
+const SourcePath = "{ソースディレクトリのパス}";
+const TargetPath = "{出力ファイルのパス}";
 　
 //パッケージマニフェストファイルのパス 
-var manifestPath = Path_Combine(SourcePath,”manifest.xml”);
+var manifestPath = Path_Combine(SourcePath,"manifest.xml");
 
 //ソースディレクトリとパッケージマニフェストファイルの存在を確認
 if(!(Directory_exists(SourcePath) && File_Exists(manifestPath)))
   {
-     throw("エラー:ソースディレクトリが存在しないか、パッケージマニフェストファイルが存在しません”);
+     throw("エラー:ソースディレクトリが存在しないか、パッケージマニフェストファイルが存在しません");
      return;
   }
 //パッケージマニフェストファイルの簡易チェック
 if(Package_GetManifestFromFile(manifestPath) == null)
   {
-     throw("エラー:パッケージマニフェストファイルが不正な形式です”);
+     throw("エラー:パッケージマニフェストファイルが不正な形式です");
      return;
   }
 
 //Zipファイルの出力に使用する一時的なファイルパス
 var tempPath = Path_GetTempFileName(true);
 
-print("圧縮: {0} -> {1}”,SourcePath,tempPath);
+print("圧縮: {0} -> {1}",SourcePath,tempPath);
 //ソースディレクトリをZip形式で圧縮
 Zip_CreateFromDirectory(SourcePath,tempPath);
 
-print("変換: {0} -> {1}”,tempPath,TargetPath);
+print("変換: {0} -> {1}",tempPath,TargetPath);
 //圧縮したZipファイルからAlicePackageファイルを生成
 Package_CreateFromZipFile(tempPath,TargetPath);
 
-print("パッケージのビルドが成功しました”);
+print("パッケージのビルドが成功しました");
 ```

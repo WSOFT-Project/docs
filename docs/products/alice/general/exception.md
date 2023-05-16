@@ -70,6 +70,6 @@ AliceScriptの例外処理機能は、プログラムの実行時に発生する
 |0x03c|NOT_COMPATIBLE_PACKAGES|互換性のないパッケージです。|
 |0x03d|CANT_ASSIGN_VALUE_TO_CONSTANT|定数に値を代入することはできません。|
 |0x03e|VARIABLE_ALREADY_DEFINED|変数は既に定義されています。|
-|0x03f|FUNCTION_NOT_GLOBAL|関数はグローバル関数ではありません。|
+|0x03f|FUNCTION_NOT_public|関数はグローバル関数ではありません。|
 |0x040|LIBRARY_EXCEPTION|ライブラリで発生した例外です。|
 |0x041|TOO_MANY_ARGUREMENTS|引数が指定された個数よりも多いです。|
