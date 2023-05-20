@@ -16,4 +16,4 @@ WSOFTScript 2020 LTSと併用することでWindowsFormsの開発が可能にな
 
 [WSOFTScriptの更新については、こちらをご覧ください。](./2020-lts)
 
-[ダウンロードするにはここをクリックしてください](https://download.wsoft.ws/WS00063)
+[ ダウンロード](https://download.wsoft.ws/WS00063){: .btn .btn-primary .btn-lg .bi .bi-download }

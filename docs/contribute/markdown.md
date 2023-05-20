@@ -7,7 +7,7 @@ date : 2022-12-01
 
 ### 普通のテキスト
 そのまま記述可能です。
-```markdown title="例"
+```markdown title="Markdown"
 Lantanaは、シンプルで軽量なMKDocsのテーマです。
 HTMLの知識がなくても簡単にサイトを作成できます。
 
@@ -22,7 +22,7 @@ HTMLの知識がなくても簡単にサイトを作成できます。
 
 ### エスケープ
 マークダウンで意味のある文字（たとえば、\*や\#など）をテキストとして表示するには、エスケープが必要です。
-```markdown title="例"
+```markdown title="Markdown"
 \*\#\!\`\\
 ```
 !!! quote "結果"
@@ -30,13 +30,13 @@ HTMLの知識がなくても簡単にサイトを作成できます。
 
 ### 明示的な空行
 二行以上にわたって改行したい場合など、一部の場合ではHTMLの`<br/>`タグを使用します。
-```html title="例"
+```html title="Markdown"
 <br/>
 ```
 
 ### コメント
 記事にコメントを記述する方法はHTMLと同じです。ビルド時に削除されます。
-```html title="例"
+```html title="Markdown"
 <!-- this is a comment. -->
 ```
 
@@ -44,7 +44,7 @@ HTMLの知識がなくても簡単にサイトを作成できます。
 Hタグを生成します。記事にタイトルが指定されていない場合、自動的に記事の一番最初の見出しがタイトルになります。
 
 また、見出しは目次にも表示されます。
-```markdown title="例"
+```markdown title="Markdown"
 # これはH1タグになります
 ## これはH2タグになります
 ###### これはH6タグになります
@@ -57,7 +57,7 @@ Hタグを生成します。記事にタイトルが指定されていない場�
 
 ### テキストの装飾
 文章を様々に装飾する方法をまとめて紹介します。
-```markdown title="例"
+```markdown title="Markdown"
 _ か * で囲むとHTMLのemタグになり、 *このように* 表示されます。
 
 __ か ** で囲むとHTMLのstrongタグになり、**このように** 表示されます。
@@ -99,9 +99,11 @@ __ か \*\* で囲むとHTMLのstrongタグになり、**このように** 表�
 
 また、`print("Hello,World!");`と記述することでコードをインライン表示できます。
 
+テキストの装飾について詳しく知るには、[テキストの書式設定に関する指針](./text-formatting-guidelines.md)を参照してください。
+
 ### コードブロック
 ```` ``` ```` で囲むことでコードとして認識され、初めを```` ```言語名 ```` とすることでシンタックスハイライトがつきます。`title="タイトル"`とすることでファイル名なども表現できます。また、`linenums="1"`とすると行番号を表示できます。
-```markdown title="例"
+```markdown title="Markdown"
 ``` csharp title="Program.cs" linenums="1"
 using System;
 
@@ -132,7 +134,7 @@ public class Program
 
 ### 数式
 `\$\$`で囲むことでTeX記法を用いて数式を記述できます。
-```markdown title="例"
+```markdown title="Markdown"
 $$
 \operatorname{ker} f=\{g\in G:f(g)=e_{H}\}{\mbox{.}}
 $$
@@ -144,7 +146,7 @@ $$
 $$
 
 `$`または`\(...\)`で囲むことで、数式を文中に埋め込むこともできます。
-```markdown title="例"
+```markdown title="Markdown"
 ディッフィー・ヘルマン鍵共有プロトコルでは、まず大きな素数 ${\displaystyle p}p$ と、
 ${\displaystyle p-1}p-1$ を割り切る大きな素数 ${\displaystyle q}q$ を用意します。
 また、 ${\displaystyle g}g$ を
@@ -158,7 +160,7 @@ ${\displaystyle ({\mathbb {Z} }/p{\mathbb {Z} })^{\ast }}{\displaystyle ({\mathb
 
 ### 順序なしリスト
 リストの上には空行が必要です。
-```markdown title="例"
+```markdown title="Markdown"
 * 文頭に"*"、"+"、"-"のいずれかを入れると順序なしリストになります
 + 記号のあとには**スペースが必要**です
 - 同じリストでは同じ記号を使うことを推奨します。
@@ -171,7 +173,7 @@ ${\displaystyle ({\mathbb {Z} }/p{\mathbb {Z} })^{\ast }}{\displaystyle ({\mathb
 
 ### 番号付きリスト
 リストの上には空行が必要です。
-```markdown title="例"
+```markdown title="Markdown"
 1. 文頭に"数字."を入れると番号付きリストになります。
 1. "数字."のあとには**スペースが必要**です
 1. すべての数字を1にすると、自動的に番号が付きます。
@@ -185,7 +187,7 @@ ${\displaystyle ({\mathbb {Z} }/p{\mathbb {Z} })^{\ast }}{\displaystyle ({\mathb
 ### タスクリスト
 順序なしリストの記述の後ろに[ ]を入れるとチェックボックスが生成されます。
 また、チェックが入った状態のボックスを生成する場合は[x]を入力します。
-```markdown title="例"
+```markdown title="Markdown"
 - [ ] タスク1
 - [x] タスク2
 ```
@@ -195,7 +197,7 @@ ${\displaystyle ({\mathbb {Z} }/p{\mathbb {Z} })^{\ast }}{\displaystyle ({\mathb
 - [x] タスク2
 
 ### 水平線
-```markdown title="例"
+```markdown title="Markdown"
 ---
 ```
 結果
@@ -203,7 +205,7 @@ ${\displaystyle ({\mathbb {Z} }/p{\mathbb {Z} })^{\ast }}{\displaystyle ({\mathb
 
 ### URL
 Urlやメールアドレスを書くだけで、自動的にリンクになります。
-```markdown title="例"
+```markdown title="Markdown"
 https://lantana.wsoft.ws
 
 info@wsoft.ws
@@ -215,16 +217,18 @@ https://lantana.wsoft.ws
 info@wsoft.ws
 
 ### リンク
-```markdown title="例"
+```markdown title="Markdown"
 [リンク](about:blank)
 ```
 結果
 
 [リンク](about:blank)
 
+WSOFTDocsでのリンクのお作法については、[リンクの使い方](./how-to-write-links.md)を参照してください。
+
 ### タイトル付きリンク
 タイトルはリンクをホバーした時に表示されます。
-```markdown title="例"
+```markdown title="Markdown"
 [リンク](about:blank "タイトル")
 ```
 結果
@@ -232,7 +236,7 @@ info@wsoft.ws
 [リンク](about:blank "タイトル")
 
 ### リンクの使いまわし
-```markdown title="例"
+```markdown title="Markdown"
 [link]: about:blank
 [ここ][link]と[ここ][link]は同じになります。
 ```
@@ -243,10 +247,36 @@ info@wsoft.ws
 
 また、[link]という書き方もできます。
 
+### ボタン
+ボタンを使えば、ユーザーにとって注意を引きやすいリンクを作ることができます。ボタンはBootstrapによって提供されているため、クラスを指定するだけで使用できます。次に例を示します。
+
+```markdown title="Markdown"
+[ボタン](#){: .btn .btn-primary }
+[ボタン](#){: .btn .btn-secondary }
+[ボタン](#){: .btn .btn-success }
+[ボタン](#){: .btn .btn-danger }
+[ボタン](#){: .btn .btn-warning }
+[ボタン](#){: .btn .btn-info }
+[ボタン](#){: .btn .btn-light }
+[ボタン](#){: .btn .btn-dark }
+[ボタン](#){: .btn .btn-link }
+```
+
+結果
+
+[ボタン](#){: .btn .btn-primary }
+[ボタン](#){: .btn .btn-secondary }
+[ボタン](#){: .btn .btn-success }
+[ボタン](#){: .btn .btn-danger }
+[ボタン](#){: .btn .btn-warning }
+[ボタン](#){: .btn .btn-info }
+[ボタン](#){: .btn .btn-light }
+[ボタン](#){: .btn .btn-dark }
+[ボタン](#){: .btn .btn-link }
 
 ### 画像
-```markdown title="例"
-![代替テキスト](/logo.png)
+```markdown title="Markdown"
+![代替テキスト](/favicon.png)
 ```
 
 結果
@@ -257,7 +287,7 @@ info@wsoft.ws
 ### 表
 Bootstrapの制約により、ヘッダーでは左右中央揃えが適用されません
 
-```markdown title="例"
+```markdown title="Markdown"
 | Left align | Right align | Center align |
 |:-----------|------------:|:------------:|
 | This       | This        | This         |
@@ -280,7 +310,7 @@ Bootstrapの制約により、ヘッダーでは左右中央揃えが適用さ�
 | aligned    | aligned     | aligned      |
 
 ### 引用
-```markdown title="例"
+```markdown title="Markdown"
 > 文頭に>を置くことで引用になります。
 > 複数行にまたがる場合、改行のたびにこの記号を置く必要があります。
 > 
@@ -298,7 +328,7 @@ Bootstrapの制約により、ヘッダーでは左右中央揃えが適用さ�
 
 ### 図形
 Lantanaは規定でmermaid.jsをサポートします。mermaid.jsを使うと、複雑な図形を簡単に挿入できます。
-```markdown title="例"
+```markdown title="Markdown"
 ```mermaid
 graph LR;
     A-->B;
@@ -320,7 +350,7 @@ graph LR;
 ### アラート
 目を引く形で説明したい場合、`!!! 種類 "タイトル"`で囲みます。
 
-```markdown title="例"
+```markdown title="Markdown"
 !!! note "メモ"
     `note`で使用できる装飾です。[リンク](#)は自動的に適切な色になります。
 ```
@@ -361,16 +391,26 @@ graph LR;
 !!! quote
     `quote`で使用できる装飾です。[リンク](#)は自動的に適切な色になります。
 
+### 記事一覧
+` = "<ディレクトリ名>" =`で囲むと、そのディレクトリの記事一覧を出力します。これはHTMLコード中でも使用できます。
+
+```markdown title="例"
+= "blog" =
+```
+
+!!!note "メモ"
+    この機能がLantanaに実装されたことで従来WSOFTDocsに独自に実装されていた、`{{ print_thumbnails('') }}`関数は使用されなくなりました。これにより、ビルド時間が150%高速化しました。
+
 ### スニペットの埋め込み
 `--8<--`で囲い、その中にファイル名を書き込むと、そのファイルを埋め込みます。
-```markdown title="例"
+```markdown title="Markdown"
 ;--8<--
 snippet.md
 ;--8<--
 ```
 ### HTMLの埋め込み
 HTMLコードは、そのまま記述することで埋め込むことができます。
-```html title="例"
+```html title="Markdown"
 <h4>これはHTMLのH4タグです</h4>
 ```
 結果
@@ -378,7 +418,7 @@ HTMLコードは、そのまま記述することで埋め込むことができ�
 
 ### 属性の追加
 `{: 属性名}`とするとマークダウンで生成される要素に特定の属性を追加することができます。
-```markdown title="例"
+```markdown title="Markdown"
 ### この要素にはqueryというIdがつきます {: #query }
 ```
 結果

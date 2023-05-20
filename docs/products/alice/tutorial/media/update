@@ -1,0 +1,50 @@
+// 実行ファイルのファイル名
+// Windowsの場合は"{0}alice.exe"をアンコメント
+const target_filename = "{0}alice";
+// const target_filename = "{0}alice.exe";
+
+// アップデートの公開先
+const download_id =144;
+
+// アップデート後に実行されるコマンド。Windowsの場合はコメントアウト
+cmd  = "notepad";
+cmd_arg = "{0}";
+
+using Alice.IO;
+using Alice.Net;
+using Alice.Security;
+using Alice.Environment;
+using Alice.Diagnostics;
+
+const version_get_api = "https://api.wsoft.ws/download/detail?id={0}&feature=version";
+const download_url = "https://download.wsoft.ws/{0}/Download";
+
+
+var version_url = version_get_api.format(download_id);
+print("{0} から最新バージョンを取得しています...",version_url);
+var new_version = web_download_text(version_url);
+print("最新バージョン : {0}",new_version);
+var force=env_commandLineArgs().Contains("force");
+var check=env_commandLineArgs().Contains("check");
+if(check)
+{
+     print("この実装のバージョン : {0}",env_impl_version());
+    if(new_version != env_impl_version())
+     {
+      print("AliceScriptの実装の更新があります");
+      }
+     exit;
+}
+if(new_version != env_impl_version() || force){
+print("この実装よりも新しい実装が公開されています。");
+var path=target_filename.format(env_impl_location());
+var tmp =path+".old";
+file_delete(tmp);
+file_move(path,tmp);
+
+var url = download_url.format(download_id);
+print("{0} から最新バイナリをダウンロードしています...",url);
+web_download_file(url,path);
+print("ダウンロードが完了しました。");
+print("{0} に更新しました",new_version);
+}

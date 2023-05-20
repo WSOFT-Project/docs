@@ -7,8 +7,7 @@ date : 2021-12-25
 Losettaは、.NET6.0で書き直されたAliceScriptの実装です。AliceScriptADKと同等の機能を持ち、きわめて高い移植性をも持っています。
 
 ---
-<a href="https://download.wsoft.ws/WS00138" class="btn btn-primary btn-lg"><i class="bi bi-download"></i>&nbsp;ダウンロード</a>
-
+[ ダウンロード](https://download.wsoft.ws/WS00154){: .btn .btn-primary .btn-lg .bi .bi-download }
 ---
 
 # AliceScriptのダウンロード
@@ -23,8 +22,9 @@ ADK版には、それ単体でファイルを実行したり開発したりす�
 *新機能については[AliceScriptの新機能](../features)を参照してください。
 *このソフトウェアに含まれるソフトウェアの著作権情報については[著作権情報](../about)を参照してください。
 
-
-*  **[AliceScriptADK GM(安定版)のダウンロード](https://download.wsoft.ws/WS00003)**
+*  **[AliceScriptADK 2.2.1(最新版,安定版)のダウンロード](https://download.wsoft.ws/WS00178)**
+*  [AliceScriptADK 2.0(最新版,安定版)のダウンロード](https://download.wsoft.ws/WS00139)
+*  [AliceScriptADK GM(安定版)のダウンロード](https://download.wsoft.ws/WS00003)
 * [AliceScriptADK RC2(以前のバージョン)のダウンロード](https://download.wsoft.ws/WS00005)
 * [AliceScriptADK RC1(以前のバージョン)のダウンロード](https://download.wsoft.ws/WS00007)
 
@@ -43,11 +43,28 @@ ADK版には、それ単体でファイルを実行したり開発したりす�
 * 新機能については[AliceScriptの新機能](../features)を参照してください。
 * このソフトウェアに含まれるソフトウェアの著作権情報については[著作権情報](../about)を参照してください。
 
-* **[AliceSisterADK GM(最新版・安定版)のダウンロード](https://download.wsoft.ws/WS00004)**
+*  **[AliceSisterADK 2.1(最新版,安定版)のダウンロード](https://download.wsoft.ws/WS00153)**
+*  [AliceSisterADK 2.0(最新版,安定版)のダウンロード](https://download.wsoft.ws/WS00140)
+* [AliceSisterADK GM(最新版・安定版)のダウンロード](https://download.wsoft.ws/WS00004)
 * [AliceSistertADK RC2(以前のバージョン)のダウンロード](https://download.wsoft.ws/WS00006)
 * [AliceSistertADK RC1(以前のバージョン)のダウンロード](https://download.wsoft.ws/WS00008)
+
+### Losettaのダウンロード
+Losettaは、.NET6.0上で開発されている比較的新しいAliceModelの実装です。クロスプラットフォーム上で動作し、.NETなどがコンピュータに導入されていなくても単体で動作できます。
+Losettaは、GitHub上でリリースされているほか、最新のビルドはWSOFTダウンロードセンターからもダウンロードできます。
+
+- **[Losetta -Releases](https://github.com/WSOFT-Project/Losetta/releases)**
+- [Losetta Linux-x64](https://download.wsoft.ws/WS144)
+- [Losetta Linux-ARM](https://download.wsoft.ws/WS145)
+- [Losetta Linux-ARM64](https://download.wsoft.ws/WS146)
+- [Losetta macOS-x64](https://download.wsoft.ws/WS147)
+- [Losetta Windows-x64](https://download.wsoft.ws/WS148)
+- [Losetta Windows-x86](https://download.wsoft.ws/WS149)
+- [Losetta Windows-ARM64](https://download.wsoft.ws/WS150)
+- [Losetta Windows-ARM](https://download.wsoft.ws/WS151)
 
 ### その他のファイルのダウンロード
 いずれのファイルに関する著作権情報についても[著作権情報](../about)と、ファイルに同梱されている場合は、その情報も確認してください。AliceScriptに関連するすべてのダウンロードは[WSOFTダウンロードセンター](https://download.wsoft.ws/AliceScript)を参照してください。
 
 * [AliceScript公式アンバサダーのVRMモデル](https://download.wsoft.ws/WS00086)
+* [AlicePackage関連付け支援ツール](https://download.wsoft.ws/WS00143)

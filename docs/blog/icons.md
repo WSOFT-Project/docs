@@ -1,0 +1,58 @@
+---
+title :  WSOFTのアイコンを入手する
+summary : この記事では、トレーニング資料やドキュメントなどに使用できるWSOFTの公式アイコンの入手方法について説明します。
+date : 2023-03-04
+order : 9
+---
+
+### 利用条件
+WSOFTは、トレーニング資料やドキュメントなどで、これらのアイコンを使用することを許可しています。この用途以外でアイコンをコピー、配付、および表示することはWSOFTが明示的に許可した場合を除いて許可されません。WSOFTは、このアイコンについての権利をすべて留保します。
+
+### ガイドライン
+
+このアイコンを使用してしてよいこととしてはいけないことは、通常以下のように大別されます。
+
+#### してよいこと
+
+- アイコンを使用して、製品の使用方法を説明する。
+- 製品名の代わりあるいは補助として使用する。
+
+#### してはいけないこと
+
+- アイコンを切り取ったり、裏返したり、あるいは回転させたりしない。
+- アイコンの形をゆがめたり変更したりしない。
+- 自身やその製品またはサービスを表すために、このアイコンを使用しない。
+
+#### アイコンの一覧
+
+#### WSOFTプレスキット(v1)
+
+![v1の主なロゴ](./media/WSOFT-Transppernennt.png)
+
+2022年4月4日以前に使用されていたWSOFTのアイコンを含むWSOFTプレスキットバージョン1です。これには、各サイズのロゴとデスクトップ壁紙が含まれます。
+
+[ ダウンロード](https://download.wsoft.ws/WS00173){: .btn .btn-primary .btn-lg .bi .bi-download }
+
+#### WSOFTプレスキット(v2)
+
+![v2の主なロゴ](./media/WSOFT-logo.png)
+
+2022年4月4日以降使用されているWSOFTのアイコンを含むWSOFTプレスキットバージョン2です。これには、各サイズ・タイプのロゴとエンブレム、壁紙が含まれます。
+
+[ ダウンロード](https://download.wsoft.ws/WS00174){: .btn .btn-primary .btn-lg .bi .bi-download }
+
+#### Aliceプロジェクト プレスキット
+
+![Aliceの主なロゴ](./media/AID.png)
+
+Aliceプロジェクトのロゴやムービーを含むAliceプロジェクトのプレスキットです。
+
+[ ダウンロード](https://download.wsoft.ws/WS00175){: .btn .btn-primary .btn-lg .bi .bi-download }
+
+#### WSOFTScript プレスキット
+
+![WSOFTScriptの主なロゴ](./media/WSOFTScript%E5%8E%9F%E6%9C%AC.png)
+
+WSOFTScriptのロゴを含むWSOFTScriptプレスキットです。
+
+[ ダウンロード](https://download.wsoft.ws/WS00176){: .btn .btn-primary .btn-lg .bi .bi-download }
