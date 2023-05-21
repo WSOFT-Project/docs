@@ -44,11 +44,11 @@ plugins:
         enabled: true
 
 markdown_extensions:
-    #- lantana.extensions.mdx_embedly
-    #- lantana.extensions.mdx_wsid
+    - lantana.extensions.mdx_embedly
+    - lantana.extensions.mdx_wsid
     - attr_list
     #暫定対応
-   # - mdx_cards
+    - mdx_cards
     - pymdownx.highlight:
        anchor_linenums: true
     - admonition
