@@ -10,6 +10,8 @@ repo_url : 'https://github.com/WSOFT-Project/docs/'
 edit_uri: 'blob/master/docs/'
 edit_uri_template: 'blob/master/docs/{path}'
 
+disable_header_when_printing : true
+
 #google_analytics : 'G-9GQ0FRW2FZ'
 
 extra_javascript:
