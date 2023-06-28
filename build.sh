@@ -19,4 +19,10 @@ fi
 
 echo "Building the WSOFTDocs..."
 mkdocs build
+
+echo "Replacing WSOFT Common Tags..."
+
+chmod +x cei
+./cei site
+
 echo "Build completed. Please check /site directory."
