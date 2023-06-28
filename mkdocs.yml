@@ -25,7 +25,9 @@ favicon_svg : https://wsoft.ws/favicon.svg
 language : ja
 
 
-theme: "lantana"
+theme: 
+    name : "lantana"
+    custom_dir : theme_ext/
 
 visible_search : true
 #WSOFT共通フッターを読み込んでいるため非表示
