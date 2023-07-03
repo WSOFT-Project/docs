@@ -25,6 +25,6 @@ echo "Replacing WSOFT Common Tags..."
 
 curl -OL https://wsoft.ws/cei
 chmod +x cei
-./cei common/layout.html --target:https://wsoft.ws/common/layout.html --min site
+./cei https://wsoft.ws/common/layout.html --min site
 
 echo "Build completed. Please check /site directory."
