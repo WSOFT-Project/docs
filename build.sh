@@ -24,6 +24,6 @@ mkdocs build
 echo "Replacing WSOFT Common Tags..."
 
 chmod +x cei
-./cei site
+./cei common/layout.html --target:https://wsoft.ws/common/layout.html --min site
 
 echo "Build completed. Please check /site directory."
