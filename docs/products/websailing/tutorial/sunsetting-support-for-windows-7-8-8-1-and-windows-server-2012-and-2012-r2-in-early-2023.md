@@ -1,6 +1,7 @@
 ---
 title : WebSailingのWindows7/8.1 Server2012/R2のサポート終了に関するお知らせ
 summary : この記事では、WebSailingがWindows10以前のバージョンをサポート終了することについてお知らせします
+date : 2023-01-27
 ---
 WebSailingNXは、Chromiumをベースに構築されています。
 2022年10月25日、Chromiumサポートブログからサポート終了に関するお知らせが発表されました。このため、WebSailingNXはChromiumと同じライフサイクルとなります。
