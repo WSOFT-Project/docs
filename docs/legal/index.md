@@ -1,8 +1,8 @@
 ---
 title: 法的資料
 summary: WSOFTに関する法律関連資料については、これらのページを参照してください。
-author : 常闇より出る深淵
-author_url : https://twitter.com/tokoyami_lv1
+author : WSOFT
+author_url : https://github.com/WSOFT-Project
 disable_tools : true
 ---
 !!! warning "注意"
