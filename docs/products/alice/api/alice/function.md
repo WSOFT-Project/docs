@@ -33,6 +33,16 @@ command void function string funcName(params type args);
 function SayHello(){
     print("Hello,World");
 }
+SayHello();//出力例:Hello,World
+```
+
+関数は、定義されるまで使用できません。次の例を参照してください。
+
+```cs title="AliceScript" hl_line="1"
+SayHello();//例外発生:0x01
+function SayHello(){
+    print("Hello,World");
+}
 ```
 
 ### 戻り値
@@ -47,7 +57,7 @@ print(ReturnHello());
 //出力:Hello,World!
 ```
 
-また、`return`キーワードは、関数の実行を中止します。任意の場面で関数の実行を中止したい場合、 値を持たないreturnキーワードを使用することができます。次に例を示します。
+また、`return`キーワードは、関数の実行をその時点で終了します。任意の場面で関数の実行を中止したい場合、 値を持たないreturnキーワードを使用することができます。次に例を示します。
 
 ```cs title="AliceScript"
 function ShowHello()
