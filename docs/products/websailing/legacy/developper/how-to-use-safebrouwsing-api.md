@@ -9,9 +9,6 @@ date : 2020-02-16
 ### 使用法
 WSPluginBase内の任意の場所で、次のように記述します。
 
-!!!warning "注意"
-    下記の例では`this.Host`が`null`でない前提で記述されています。`this.Host`は、WebSailingによってプラグインが初期化されるまで`null`のままです。
-
 ```cs title="Plugin.cs"
-bool isSafety = (bool)this.Host.Plugin.SendMessage(this,"SafeBrowsing","<評価するUrl>");
+bool isSafety = (bool)this.Host?.Plugin.SendMessage(this,"SafeBrowsing","<評価するUrl>");
 ```

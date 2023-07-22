@@ -1,6 +1,6 @@
 ---
-title : WSTubeの紹介
-summary : この記事では、WSOFTがかつて提供していたWebサービスである、WSTubeを紹介します。
+title : WSTubeの概要
+summary : この記事では、WSOFTがかつて提供していたWebサービスである、WSTubeについて説明します。
 ---
 
 WSTubeは、私が中学生のころに開発し運用していた強力なYouTube視聴環境です。WSTubeは某校パソコン部における学術目的のための研究プロジェクトとして開発された製品です。
