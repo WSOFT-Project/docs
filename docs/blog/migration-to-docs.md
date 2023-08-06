@@ -52,7 +52,7 @@ WebSailingNetと一口に言っても、それに分類されるサイトは[Web
 状況:<span class="badge bg-warning text-dark">進行中</span>
 
 [AliceScriptWiki](https://alice.wsoft.ws/)では現在に至るまで、APIリファレンスを含め50を超える記事が公開されてきました。APIリファレンスでは、できる限り同じようなエクスペリエンスを提供する必要があるため、特別な設計が必要になります。
-現在、163件の記事をWSOFTDocsへ移行しました。いくつかの記事は、Docsへの転送が始まっています。準備が整った記事から順に[AliceScriptDocs](https://docs.wsoft.ws/alice)で公開していきます。
+現在、163件の記事をWSOFTDocsへ移行しました。いくつかの記事は、Docsへの転送が始まっています。準備が整った記事から順に[AliceScriptDocs](https://docs.wsoft.ws/alice)で公開してゆきます。
 
 #### 生存報告
 状況:<span class="badge bg-warning text-dark">進行中</span>
