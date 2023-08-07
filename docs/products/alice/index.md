@@ -22,6 +22,7 @@ WSOFTDocsのAliceScriptのサイトへようこそ。このサイトでは、Ali
 !!! note "主要な概念"
     ---
 
+    * [文](./general/statement.md)
     * [式](./general/expression.md)
     * [変数](./general/variable.md)
     * [関数](./api/alice/function.md)
