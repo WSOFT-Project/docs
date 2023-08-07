@@ -75,5 +75,5 @@ AliceScriptに組み込まれている型の一覧を示します。
 |object|オブジェクト型|カスタムクラスや.NETのオブジェクトを表します|
 |pointer|ポインタ型|変数を指し示すポインタを表します|
 |[none](../api/alice/none/index.md)|none型|`null`の変数を表します|
-|continue|continue型|`continue`キーワードを表す型です|
-|break|break型|`break`キーワードを表す型です|
+|[continue](../api/alice/continue.md)|continue型|`continue`キーワードを表す型です|
+|[break](../api/alice/break.md)|break型|`break`キーワードを表す型です|
