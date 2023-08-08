@@ -36,7 +36,7 @@ disable_tools : true
 </div>
 
 <div class="card mb-3">
-    <a href="account" class="row g-0 text-reset text-decoration-none">
+    <a href="alice" class="row g-0 text-reset text-decoration-none">
     <div class="col-md-3 d-flex justify-content-center">
             <img src="https://wsoft.ws/products/AliceScript.svg" class="card-img-top bg-white" alt="AliceScript">
     </div>
@@ -66,7 +66,7 @@ disable_tools : true
 </div>
 
 <div class="card mb-3">
-    <a href="account" class="row g-0 text-reset text-decoration-none">
+    <a href="download" class="row g-0 text-reset text-decoration-none">
     <div class="col-md-3 d-flex justify-content-center">
             <img src="https://wsoft.ws/products/WSOFTDownloadCenter.svg" class="card-img-top bg-white" alt="AliceScript">
     </div>
@@ -96,7 +96,7 @@ disable_tools : true
 </div>
 
 <div class="card mb-3">
-    <a href="account" class="row g-0 text-reset text-decoration-none">
+    <a href="script" class="row g-0 text-reset text-decoration-none">
     <div class="col-md-3 d-flex justify-content-center">
             <img src="https://wsoft.ws/products/WSOFTScript.png" class="card-img-top bg-white" alt="AliceScript">
     </div>

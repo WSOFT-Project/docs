@@ -49,10 +49,13 @@ WebSailingNetと一口に言っても、それに分類されるサイトは[Web
 それらすべてのサイトの記事のWSOFTDocsへの移行は完了しました。それらの記事は[WebSailingDocs](../products/websailing/index.md)で公開しています。
 
 #### AliceScriptWiki
-状況:<span class="badge bg-warning text-dark">進行中</span>
+状況:<span class="badge bg-success">完了</span>
 
 [AliceScriptWiki](https://alice.wsoft.ws/)では現在に至るまで、APIリファレンスを含め50を超える記事が公開されてきました。APIリファレンスでは、できる限り同じようなエクスペリエンスを提供する必要があるため、特別な設計が必要になります。
-現在、163件の記事をWSOFTDocsへ移行しました。いくつかの記事は、Docsへの転送が始まっています。準備が整った記事から順に[AliceScriptDocs](https://docs.wsoft.ws/alice)で公開してゆきます。
+
+この移行では、200件を超えるMediaWikiで記述された記事を、Markdownに書き直し、エクスペリエンスを保つために追加のページを作成することが必要でした。従来AliceScriptWikiで公開していたすべての記事は[AliceScriptDocs](../products/alice/index.md)へ移行を完了しました。
+
+また、当面の間AliceScriptWikiのサイトを残す方針が決まりました。現在のAliceScriptWikiのサイトは、読み取り専用となり、今後情報の更新はされません。
 
 #### 生存報告
 状況:<span class="badge bg-warning text-dark">進行中</span>
