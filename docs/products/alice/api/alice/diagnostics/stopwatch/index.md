@@ -37,12 +37,12 @@ print("処理にかかった時間：{0}ミリ秒",stw.ElapsedMilliseconds);
 ### プロパティ
 |名前|説明|
 |---|---|
-|[Elapsed](./elapsed.md)|現在の型の継承元のクラス名を取得します|
-|[ElapsedMilliSeconds](./elapsedmilliseconds.md)|現在の型がオブジェクトであるかどうかを表す値を取得します|
-|[ElapsedTicks](./elapsedticks.md)|現在の型が所属する名前空間を取得します|
-|[IsRunning](./isrunning.md)|現在の型が所属する名前空間を取得します|
-|[IsHighResolution](./ishighresolution.md)|現在の型が所属する名前空間を取得します|
-|[Frequency](./frequency.md)|現在の型が所属する名前空間を取得します|
+|[Elapsed](./elapsed.md)|現在のインスタンスで計測された経過時間の合計を取得します。|
+|[ElapsedMilliSeconds](./elapsedmilliseconds.md)|現在のインスタンスで計測された経過時間の合計をミリ秒単位で取得します。|
+|[ElapsedTicks](./elapsedticks.md)|現在のインスタンスで計測された経過時間の合計を[Frequency](./frequency.md)単位で取得します。|
+|[IsRunning](./isrunning.md)|現在のストップウォッチが時間を計測中かどうかを表す値を取得します。|
+|[IsHighResolution](./ishighresolution.md)|現在のストップウォッチが高精度のパフォーマンスカウンターに基づいているかどうかを表す値を取得します。|
+|[Frequency](./frequency.md)|現在のストップウォッチの精度を取得します。|
 
 ### メソッド
 |名前|説明|
