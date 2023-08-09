@@ -9,7 +9,7 @@ summary: 現在の配列と指定された配列の積集合を取得します
 現在の配列と指定された配列の積集合を取得します
 
 ```cs title="AliceScript"
-namespace Alice;
+class Alice.Array;
 array Intersect(array other);
 ```
 

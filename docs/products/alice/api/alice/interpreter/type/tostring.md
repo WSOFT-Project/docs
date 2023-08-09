@@ -1,14 +1,15 @@
 ---
 title: ToString
+long_title : type.ToString
 summary: 現在の型を説明する文字列表現を取得します
 ---
 ### 定義
-名前空間:Alice / アセンブリ : Losetta.dll / サポート: AliceScript1
+名前空間:Alice.Interpreter / アセンブリ : Losetta.dll / サポート: AliceScript1
 
 現在の型を説明する文字列表現を取得します
 
 ```cs title="AliceScript"
-namespace Alice;
+class Alice.Interpreter.Type;
 override string ToString();
 ```
 

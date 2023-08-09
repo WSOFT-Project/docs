@@ -9,7 +9,7 @@ summary: 現在の配列から指定された配列に含まれるすべての�
 現在の配列から指定された配列に含まれるすべての値を削除します
 
 ```cs title="AliceScript"
-namespace Alice;
+class Alice.Array;
 void RemoveRange(array items);
 ```
 

@@ -9,7 +9,7 @@ summary: 現在の配列から指定された型の要素のみを取り出し�
 現在の配列から指定された型の要素のみを取り出します
 
 ```cs title="AliceScript"
-namespace Alice;
+class Alice.Array;
 array OfType(type target);
 ```
 

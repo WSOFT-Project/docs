@@ -4,7 +4,7 @@ long_title : Type クラス
 summary: Typeクラスは、変数の型を表します
 ---
 ### 定義
-名前空間:Alice / アセンブリ : Losetta.dll / サポート: AliceScript2.1
+名前空間:Alice.Interpreter / アセンブリ : Losetta.dll / サポート: AliceScript2.1
 
 Typeクラスは、変数の型を表します
 

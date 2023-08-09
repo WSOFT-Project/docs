@@ -9,7 +9,7 @@ summary: 現在の配列内にある配列型の要素を、現在の配列が�
 現在の配列内にある配列型の要素を、現在の配列が存在する場所に置き換え、配列を平坦化します
 
 ```cs title="AliceScript"
-namespace Alice;
+class Alice.Array;
 void Flatten();
 ```
 

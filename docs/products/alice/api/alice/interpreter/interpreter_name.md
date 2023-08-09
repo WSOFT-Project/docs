@@ -11,7 +11,7 @@ date : 2021-11-19
 実行中のインタプリタの名前を取得します。
 
 ```cs title="AliceScript"
-namespace Alice.Net;
+namespace Alice.Interpreter;
 string interpreter_name();
 ```
 

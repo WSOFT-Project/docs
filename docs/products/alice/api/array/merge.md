@@ -9,7 +9,7 @@ summary: 現在の配列の末尾に値を追加した新しい配列を返し�
 現在の配列の末尾に値を追加した新しい配列を返します
 
 ```cs title="AliceScript"
-namespace Alice;
+class Alice.Array;
 array Merge(params variable item);
 ```
 
@@ -24,7 +24,7 @@ array Merge(params variable item);
 現在の配列の末尾に配列を結合した新しい配列を返します。
 
 ```cs title="AliceScript"
-namespace Alice;
+class Alice.Array;
 array Merge(params array ary);
 ```
 

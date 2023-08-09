@@ -9,7 +9,7 @@ summary: 現在の配列に含まれるいずれかの要素が条件を満た�
 現在の配列に含まれるいずれかの要素が条件を満たしているかどうか判定します
 
 ```cs title="AliceScript"
-namespace Alice;
+class Alice.Array;
 bool Any(delegate condition);
 ```
 

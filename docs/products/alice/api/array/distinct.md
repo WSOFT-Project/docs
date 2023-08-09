@@ -9,7 +9,7 @@ summary: 現在の配列内から重複する要素を除いた新しい配列�
 現在の配列内から重複する要素を除いた新しい配列を取得します
 
 ```cs title="AliceScript"
-namespace Alice;
+class Alice.Array;
 array Distinct();
 ```
 

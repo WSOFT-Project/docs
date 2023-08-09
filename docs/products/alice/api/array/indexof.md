@@ -9,7 +9,7 @@ summary: 指定された値が現在の配列内で最初に見つかった位�
 指定された値が現在の配列内で最初に見つかった位置のインデックスを返します。検索は、指定されたインデックスから開始され、見つからなかった場合は`-1`を返します。
 
 ```cs title="AliceScript"
-namespace Alice;
+class Alice.Array;
 void IndexOf(variable item,number startIndex=0);
 ```
 

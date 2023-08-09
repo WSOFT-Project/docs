@@ -9,7 +9,7 @@ summary: 現在の配列から指定された値を削除します
 現在の配列から指定された値を削除します
 
 ```cs title="AliceScript"
-namespace Alice;
+class Alice.Array;
 void Remove(params variable item);
 ```
 

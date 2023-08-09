@@ -1,14 +1,15 @@
 ---
 title: ToNativeProperty
+long_title : type.ToNativeProperty
 summary: 現在の型をネイティブ型を表すオブジェクトに変換します
 ---
 ### 定義
-名前空間:Alice / アセンブリ : Losetta.dll / サポート: AliceScript2.1
+名前空間:Alice.Interpreter / アセンブリ : Losetta.dll / サポート: AliceScript2.1
 
 現在の型をネイティブ型を表すオブジェクトに変換します
 
 ```cs title="AliceScript"
-namespace Alice.Interpreter;
+class Alice.Interpreter.Type;
 Type ToNativeProperty();
 ```
 

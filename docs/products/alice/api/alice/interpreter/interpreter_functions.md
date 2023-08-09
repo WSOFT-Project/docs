@@ -11,7 +11,7 @@ date : 2021-11-19
 現在のインタプリタに登録されているグローバル関数名を列挙します。
 
 ```cs title="AliceScript"
-namespace Alice.Net;
+namespace Alice.Interpreter;
 string[] interpreter_namespaces();
 ```
 
@@ -22,7 +22,7 @@ string[] interpreter_namespaces();
 特定の名前空間に所属する関数名を列挙します。
 
 ```cs title="AliceScript"
-namespace Alice.Net;
+namespace Alice.Interpreter;
 string[] interpreter_namespaces(string spaceName);
 ```
 

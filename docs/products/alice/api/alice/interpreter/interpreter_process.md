@@ -14,7 +14,7 @@ date : 2021-11-19
 指定された文字列をトップレベルのスクリプトとして実行・評価します。
 
 ```cs title="AliceScript"
-namespace Alice.Net;
+namespace Alice.Interpreter;
 variable interpreter_process(string script,string filename="",bool mainFile=false);
 ```
 

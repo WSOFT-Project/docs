@@ -9,7 +9,7 @@ summary: 現在の配列の各要素を新しい配列に射影します
 現在の配列の各要素を新しい配列に射影します
 
 ```cs title="AliceScript"
-namespace Alice;
+class Alice.Array;
 array Select(delegate selector);
 ```
 

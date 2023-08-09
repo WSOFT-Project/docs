@@ -9,7 +9,7 @@ summary: 現在の配列内の先頭から指定された条件を満たす間�
 現在の配列内の先頭から指定された条件を満たす間の要素を取得します
 
 ```cs title="AliceScript"
-namespace Alice;
+class Alice.Array;
 array TakeWhile(delegate condition);
 ```
 

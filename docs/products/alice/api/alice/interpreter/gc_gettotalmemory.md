@@ -11,7 +11,7 @@ date : 2021-07-28
 現在プロセスに割り当てられられていると思われるメモリのバイト数を取得します。
 
 ```cs title="AliceScript"
-namespace Alice.Net;
+namespace Alice.Interpreter;
 number gc_getTotalMemory(bool forceFullCollection);
 ```
 

@@ -9,7 +9,7 @@ summary: 現在の配列にある要素の数を表します
 現在の配列にある要素の数を表します
 
 ```cs title="AliceScript"
-namespace Alice;
+class Alice.Array;
 readonly number Length;
 ```
 

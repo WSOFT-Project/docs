@@ -9,7 +9,7 @@ summary: 現在の配列内の先頭から指定された個数の要素を取�
 現在の配列内の先頭から指定された個数の要素を取得します
 
 ```cs title="AliceScript"
-namespace Alice;
+class Alice.Array;
 array Take(number count);
 ```
 |引数| |
