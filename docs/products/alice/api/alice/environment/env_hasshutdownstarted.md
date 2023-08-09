@@ -1,5 +1,5 @@
 ---
-title: env_hasshutdownstarted
+title: env_hasShutdownStarted
 summary: 現在のアプリケーションドメインがアンロード中か、またはシステムがシャットダウン中かどうかを表す値を取得します。
 ---
 ### 定義
@@ -11,7 +11,7 @@ summary: 現在のアプリケーションドメインがアンロード中か�
 
 ```cs title="AliceScript"
 namespace Alice.Environment;
-bool env_hasshutdownstarted();
+bool env_hasShutdownStarted();
 ```
 
 |戻り値| |

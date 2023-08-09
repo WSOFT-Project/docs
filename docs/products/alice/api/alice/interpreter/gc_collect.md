@@ -11,7 +11,7 @@ date : 2021-09-12
 現在の処理系に対し強制的にすべてのガページコレクションを実行するよう要請します。
 
 ```cs title="AliceScript"
-namespace Alice.Net;
+namespace Alice.Interpreter;
 void gc_collect();
 ```
 

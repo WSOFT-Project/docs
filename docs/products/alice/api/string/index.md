@@ -76,7 +76,7 @@ str += "!";
 print(str);
 ```
 
-- [複合書式指定](../string_format.md)を使用するか、`ToString`メソッドを呼び出して変数を文字列に変換する。次の例では、数値型に対して`ToString()`メソッドを呼び出すことで文字列を生成しています。
+- [複合書式指定](../alice/string_format.md)を使用するか、`ToString`メソッドを呼び出して変数を文字列に変換する。次の例では、数値型に対して`ToString()`メソッドを呼び出すことで文字列を生成しています。
 
 ```cs title="AliceScript"
 var a = 1;

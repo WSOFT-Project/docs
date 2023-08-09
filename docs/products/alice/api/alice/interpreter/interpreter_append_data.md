@@ -11,7 +11,7 @@ date : 2022-01-16
 指定したオブジェクトの文字列表現を標準データ出力に書き込みます。
 
 ```cs title="AliceScript"
-namespace Alice.Net;
+namespace Alice.Interpreter;
 bool interpreter_append_data(variable item,bool isNewLine=false);
 ```
 

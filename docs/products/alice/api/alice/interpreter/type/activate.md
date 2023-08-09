@@ -1,14 +1,15 @@
 ---
 title: Activate
+long_title : type.Activate
 summary: 指定した引数を使用して、現在の型をインスタンス化します
 ---
 ### 定義
-名前空間:Alice / アセンブリ : Losetta.dll / サポート: AliceScript2.1
+名前空間:Alice.Interpreter / アセンブリ : Losetta.dll / サポート: AliceScript2.1
 
 指定した引数を使用して、現在の型をインスタンス化します
 
 ```cs title="AliceScript"
-namespace Alice.Interpreter;
+class Alice.Interpreter.Type;
 variable Activate(params variable arg);
 ```
 

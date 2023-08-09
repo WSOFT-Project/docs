@@ -9,7 +9,7 @@ summary: 現在の配列内の指定したインデックスに配列に含ま�
 現在の配列内の指定したインデックス配列に含まれるすべての要素を追加します
 
 ```cs title="AliceScript"
-namespace Alice;
+class Alice.Array;
 void InsertRange(number index,array items);
 ```
 

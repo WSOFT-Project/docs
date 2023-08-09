@@ -11,7 +11,7 @@ date : 2021-11-19
 現在のインタプリタに登録されている名前空間名を列挙します。
 
 ```cs title="AliceScript"
-namespace Alice.Net;
+namespace Alice.Interpreter;
 string[] interpreter_namespaces();
 ```
 

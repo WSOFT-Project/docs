@@ -11,7 +11,7 @@ date : 2021-09-12
 現在インタプリタに定義されているすべてのグローバル変数の定義を解除します。
 
 ```cs title="AliceScript"
-namespace Alice.Net;
+namespace Alice.Interpreter;
 void interpreter_reset_variables();
 ```
 

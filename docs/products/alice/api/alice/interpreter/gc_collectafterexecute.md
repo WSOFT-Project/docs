@@ -11,7 +11,7 @@ date : 2021-07-28
 スクリプトの評価が終了するたびにガページコレクションを実行するかどうかの値を取得します。
 
 ```cs title="AliceScript"
-namespace Alice.Net;
+namespace Alice.Interpreter;
 bool gc_collectAfterExecute();
 ```
 
@@ -22,7 +22,7 @@ bool gc_collectAfterExecute();
 スクリプトの評価が終了するたびにガページコレクションを実行するかどうかの値を取得または設定します。
 
 ```cs title="AliceScript"
-namespace Alice.Net;
+namespace Alice.Interpreter;
 bool gc_collectAfterExecute(bool collectAfterExecute);
 ```
 
