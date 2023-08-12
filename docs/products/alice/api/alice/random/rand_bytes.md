@@ -14,6 +14,7 @@ date : 2023-08-10
 namespace Alice.Random;
 bytes rand_bytes(number length);
 ```
+
 |引数| |
 |-|-|
 |`length`|生成されるバイト列の長さ。この値は`0`以上である必要があります。|

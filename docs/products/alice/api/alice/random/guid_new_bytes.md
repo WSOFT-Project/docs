@@ -14,6 +14,7 @@ date : 2021-08-10
 namespace Alice.Random;
 bytes guid_new_bytes();
 ```
+
 |戻り値| |
 |-|-|
 |`bytes`|新しいGUIDの値を格納する16バイトのバイト配列。|
