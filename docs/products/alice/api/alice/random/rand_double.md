@@ -14,6 +14,7 @@ date : 2021-08-10
 namespace Alice.Random;
 number rand_double();
 ```
+
 |戻り値| |
 |-|-|
 |`number`|`0.0`以上`1.0`未満の倍精度浮動小数点数。|

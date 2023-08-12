@@ -14,6 +14,7 @@ date : 2021-08-10
 namespace Alice.Random;
 string guid_new_text();
 ```
+
 |戻り値| |
 |-|-|
 |`string`|新しいGUIDの文字列表現。|
