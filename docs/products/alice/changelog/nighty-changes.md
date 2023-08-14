@@ -2,6 +2,7 @@
 title : Nightyビルドの変更履歴
 summary : この記事は、Nightyビルドのビルド履歴を示します。
 date : 2021-12-23
+order : 1
 ---
 
 AliceScriptGMまでのバージョンの開発は、Nightyビルドとして一部のメンバーなどに配布されていました。Nightyビルドのビルド番号はビルドした月日を表しています。ビルド番号の月日はすべて2021年中のものです。
@@ -66,7 +67,7 @@ AliceScriptGMまでのバージョンの開発は、Nightyビルドとして一�
 ## AliceScript RC2まで
 ### AliceScript1023の変更点
 
-- if文およびDelegate文で可変長個の引数を指定できるparmsパラメータの導入
+- if文およびDelegate文で可変長個の引数を指定できるparmsパラメーターの導入
 - 複合書式指定で{0:x}のような記法をサポート
 - 複合書式指定を用いて文字列を成形するstring_format関数の実装
 

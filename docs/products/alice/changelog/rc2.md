@@ -2,12 +2,13 @@
 title : AliceScript RC2の新機能
 summary : この記事では、AliceScript RC2の変更点と新機能について説明します
 date : 2021-12-13
+order : 2
 ---
 AliceScriptRC2は、RC1に続くAliceScriptの次のテストリリースです。AliceScriptRC2によって、AliceScriptに次の機能と機能強化が追加されています。 最新のAliceScriptADKは[AliceScriptのダウンロード](../download.md)でダウンロードできます。
 
 ### 新機能
-#### paramsパラメータ
-AliceScriptRC2では、paramsパラメータが導入されています。引数にparamsキーワードを使用すると、可変長個の引数を受け取る引数を指定できます。paramsの型は常にARRAYとなります。 一つの関数内では、paramsキーワードより後に引数を指定することができません。次に例を示します。
+#### paramsパラメーター
+AliceScriptRC2では、paramsパラメーターが導入されています。引数にparamsキーワードを使用すると、可変長個の引数を受け取る引数を指定できます。paramsの型は常にARRAYとなります。 ひとつの関数内では、paramsキーワードより後に引数を指定することができません。次に例を示します。
 
 ```cs title="AliceScript"
 function PrintAllArgs(params args)
@@ -46,7 +47,7 @@ SayHello.Invoke();//出力例:Hello,World
 ```
 
 #### ユーザ定義定数
-ユーザ定義定数では、constキーワードを使ってその値が一度のみ定義され変更することができない定数を宣言することができます。次に例を示します。
+ユーザ定義定数では、constキーワードを使ってその値が一度のみ定義され変更することができない定数を宣言できます。次に例を示します。
 
 ```cs title="AliceScript"
 const Message="Hello,World";
@@ -55,7 +56,7 @@ Message="Bonjur";//例外発生
 ```
 
 #### デバッグ出力
-デバッグ出力によって、コードのデバッグのための新しい出力が提供されます。今まで、デバッグのためにprintを用いて出力していたものをdebug_printで 代用することができます。これらの関数はAlice.Interpreter名前空間にあります。例えば、次の例では、デバッグ用の出力と標準出力に別な内容が出力されます。
+デバッグ出力によって、コードのデバッグのための新しい出力が提供されます。今まで、デバッグのためにprintを用いて出力していたものをdebug_printで代用できます。これらの関数はAlice.Interpreter名前空間にあります。たとえば、次の例では、デバッグ用の出力と標準出力に別な内容が出力されます。
 
 ```cs title="AliceScript"
 import "Alice.Interpreter";
