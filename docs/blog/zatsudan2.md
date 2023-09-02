@@ -1,5 +1,5 @@
 ---
-title         : たわいもない話2
+title         : たわいもない話２
 summary       : たわいのない話
 
 author        : matsuzen
