@@ -24,6 +24,8 @@ image : https://wsoft.ws/favicon.ico
 favicon_svg : https://wsoft.ws/favicon.svg
 language : ja
 
+share:
+    twitter_params : '&via=WSOFT7&related=WSOFT7&hashtags=WSOFTDocs'
 
 theme: 
     name : "lantana"
