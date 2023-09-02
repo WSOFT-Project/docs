@@ -9,7 +9,7 @@ summary: 現在の配列内に指定された値が存在するかを示す値�
 現在の配列内に指定された値が存在するかを示す値を取得します
 
 ```cs title="AliceScript"
-namespace Alice;
+class Alice.Array;
 bool Contains(variable item);
 ```
 

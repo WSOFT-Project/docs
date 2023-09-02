@@ -1,6 +1,6 @@
 ---
-title: web_download_file
-summary: 指定したURIを持つリソースをダウンロードします
+title: web_download_data
+summary: 指定したURIを持つリソースを取得します
 date : 2021-08-26
 ---
 ### 定義
@@ -8,11 +8,11 @@ date : 2021-08-26
 
 属性: 関数
 
-指定したURIを持つリソースをダウンロードします。
+指定したURIを持つリソースを取得します。
 
 ```cs title="AliceScript"
 namespace Alice.Net;
-byte[] web_download_data(string uri);
+bytes web_download_data(string uri);
 ```
 
 |引数| |
@@ -21,7 +21,7 @@ byte[] web_download_data(string uri);
 
 |戻り値| |
 |-|-|
-|`byte[]`| リソースからの応答の本文|
+|`bytes`| リソースからの応答の本文|
 
 ### 例
 次の例では、`http://localhost/download`にあるリソースを`download.bin`に保存します。

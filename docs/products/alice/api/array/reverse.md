@@ -9,14 +9,14 @@ summary: 現在の配列の要素の順序を反転させます
 現在の配列の要素の順序を反転させます
 
 ```cs title="AliceScript"
-namespace Alice;
+class Alice.Array;
 void Reverse();
 ```
 
 現在の配列内の指定した範囲の要素の順序を反転させます
 
 ```cs title="AliceScript"
-namespace Alice;
+class Alice.Array;
 void Reverse(number index,number count);
 ```
 

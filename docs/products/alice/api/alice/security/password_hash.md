@@ -10,8 +10,8 @@ summary: 指定した文字列と対になるハッシュ値を計算します
 指定した文字列と対になるハッシュ値を計算します
 
 ```cs title="AliceScript"
-namespace Alice.Net;
-byte[] password_hash(string password,byte[] salt,int hash_size=32,int stretch_count=1000);
+namespace Alice.Security;
+bytes password_hash(string password,byte[] salt,int hash_size=32,int stretch_count=1000);
 ```
 
 |引数| |
@@ -23,7 +23,7 @@ byte[] password_hash(string password,byte[] salt,int hash_size=32,int stretch_co
 
 |戻り値| |
 |-|-|
-|`byte[]`|ハッシュ化されたデータ|
+|`bytes`|ハッシュ化されたデータ|
 
 ### 例
 次の例では、文字列をハッシュ化し保存します。

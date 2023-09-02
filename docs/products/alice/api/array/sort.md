@@ -9,7 +9,7 @@ summary: 現在の配列を規定の方法で並び替えます
 現在の配列を規定の方法で並び替えます
 
 ```cs title="AliceScript"
-namespace Alice;
+class Alice.Array;
 void Sort();
 ```
 

@@ -17,6 +17,14 @@ if !(type "mkdocs" > /dev/null 2>&1); then
     pip3 install --no-cache-dir lantana
 fi
 
+
 echo "Building the WSOFTDocs..."
 mkdocs build
+
+echo "Replacing WSOFT Common Tags..."
+
+curl -OL https://wsoft.ws/cei
+chmod +x cei
+./cei https://wsoft.ws/common/layout.html --min site
+
 echo "Build completed. Please check /site directory."

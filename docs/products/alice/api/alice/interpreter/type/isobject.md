@@ -1,14 +1,15 @@
 ---
 title: IsObject
+long_title : type.IsObject
 summary: 現在の型がオブジェクトであるかどうかを表す値を取得します
 ---
 ### 定義
-名前空間:Alice / アセンブリ : Losetta.dll / サポート: AliceScript2.1
+名前空間:Alice.Interpreter / アセンブリ : Losetta.dll / サポート: AliceScript2.1
 
 現在の型がオブジェクトであるかどうかを表す値を取得します
 
 ```cs title="AliceScript"
-namespace Alice;
+class Alice.Interpreter.Type;
 readonly bool IsObject;
 ```
 

@@ -33,10 +33,20 @@ command void function string funcName(params type args);
 function SayHello(){
     print("Hello,World");
 }
+SayHello();//出力例:Hello,World
+```
+
+関数は、定義されるまで使用できません。次の例を参照してください。
+
+```cs title="AliceScript" hl_line="1"
+SayHello();//例外発生:0x01
+function SayHello(){
+    print("Hello,World");
+}
 ```
 
 ### 戻り値
-関数は、呼び出し元に`return`キーワードを使用して値を返すことができます。関数の戻り値は呼び出し元でそのまま値として使用できます。次に例を示します。
+関数は、呼び出し元に[return](./return.md)キーワードを使用して値を返すことができます。関数の戻り値は呼び出し元でそのまま値として使用できます。次に例を示します。
 
 ```cs title="AliceScript"
 function ReturnHello()
@@ -47,7 +57,7 @@ print(ReturnHello());
 //出力:Hello,World!
 ```
 
-また、`return`キーワードは、関数の実行を中止します。任意の場面で関数の実行を中止したい場合、 値を持たないreturnキーワードを使用することができます。次に例を示します。
+また、`return`キーワードは、関数の実行をその時点で終了します。任意の場面で関数の実行を中止したい場合、 値を持たない`return`キーワードを使用することができます。次に例を示します。
 
 ```cs title="AliceScript"
 function ShowHello()
@@ -146,7 +156,7 @@ print(text.WordCount());//出力例:3
 登録したい引数の型指定修飾子を`this`キーワードの後に記述します。これを省略すると、`variable`型に登録されます。複数の`this`キーワードを使用することはできません。拡張メソッドには`virtual`属性および`override`属性を付与することもできます。標準の型メソッドのオーバーライド可否については[変数](../../general/variable.md)を参照してください。
 
 ### デリゲートへの暗黙的な変換
-ほとんどのネイティブ関数とユーザー定義関数は、[デリゲート](./delegate/index.md)型の変数へと暗黙的に変換できます。ユーザー定義関数を丸括弧なしで呼び出すと、それはその関数をデリゲート型に変換されたオペランドと認識されます。次に例を示します。
+ほとんどのネイティブ関数とユーザー定義関数は、[デリゲート](../delegate/index.md)型の変数へと暗黙的に変換できます。ユーザー定義関数を丸括弧なしで呼び出すと、それはその関数をデリゲート型に変換されたオペランドと認識されます。次に例を示します。
 
 ```cs title="AliceScript"
 function SayHello()

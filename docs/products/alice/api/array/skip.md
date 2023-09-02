@@ -9,7 +9,7 @@ summary: 現在の配列内の先頭から指定された数の要素を取り�
 現在の配列内の先頭から指定された数の要素を取り除いた配列を取得します
 
 ```cs title="AliceScript"
-namespace Alice;
+class Alice.Array;
 array Skip(number count);
 ```
 |引数| |

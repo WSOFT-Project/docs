@@ -14,7 +14,7 @@ disable_tools : true
         <div class="card-body">
             <h5 class="card-title">WSOFTアカウント</h5>
             <div class="card-text">
-                <p>かつて提供していたWSOFTアカウントについて説明します。</p>
+                <p>かつて提供していたWSOFTアカウントについて説明します。これは、WSNETアカウントとは異なります。</p>
             </div>
         </div>
     </div>
@@ -36,7 +36,7 @@ disable_tools : true
 </div>
 
 <div class="card mb-3">
-    <a href="account" class="row g-0 text-reset text-decoration-none">
+    <a href="alice" class="row g-0 text-reset text-decoration-none">
     <div class="col-md-3 d-flex justify-content-center">
             <img src="https://wsoft.ws/products/AliceScript.svg" class="card-img-top bg-white" alt="AliceScript">
     </div>
@@ -66,7 +66,7 @@ disable_tools : true
 </div>
 
 <div class="card mb-3">
-    <a href="account" class="row g-0 text-reset text-decoration-none">
+    <a href="download" class="row g-0 text-reset text-decoration-none">
     <div class="col-md-3 d-flex justify-content-center">
             <img src="https://wsoft.ws/products/WSOFTDownloadCenter.svg" class="card-img-top bg-white" alt="AliceScript">
     </div>
@@ -96,7 +96,7 @@ disable_tools : true
 </div>
 
 <div class="card mb-3">
-    <a href="account" class="row g-0 text-reset text-decoration-none">
+    <a href="script" class="row g-0 text-reset text-decoration-none">
     <div class="col-md-3 d-flex justify-content-center">
             <img src="https://wsoft.ws/products/WSOFTScript.png" class="card-img-top bg-white" alt="AliceScript">
     </div>
@@ -119,6 +119,66 @@ disable_tools : true
             <div id="panelsStayOpen-collapseOne6" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingOne6">
                 <div class="accordion-body">
                     ="products/script"=
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="card mb-3">
+    <a href="websailing" class="row g-0 text-reset text-decoration-none">
+    <div class="col-md-3 d-flex justify-content-center">
+            <img src="https://wsoft.ws/products/WebSailing.svg" class="card-img-top bg-white" alt="WebSailing">
+    </div>
+    <div class="col-md">
+        <div class="card-body">
+            <h5 class="card-title">WebSailing NX</h5>
+            <div class="card-text">
+                <p>ドキュメント、チュートリアル、サンプルでWebSailingの使用方法について説明します。ユーザー、開発者、管理者向けの情報が含まれます。</p>
+            </div>
+        </div>
+    </div>
+    </a>
+    <div class="accordion">
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-headingOne7">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne6" aria-expanded="false" aria-controls="panelsStayOpen-collapseOne6">
+                    記事一覧
+                </button>
+            </h2>
+            <div id="panelsStayOpen-collapseOne6" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingOne7">
+                <div class="accordion-body">
+                    ="products/websailing/tutorial"=
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="card mb-3">
+    <a href="websailing/gl" class="row g-0 text-reset text-decoration-none">
+    <div class="col-md-3 d-flex justify-content-center">
+            <img src="https://wsoft.ws/products/WebSailing-GL.svg" class="card-img-top bg-white" alt="WebSailing GL">
+    </div>
+    <div class="col-md">
+        <div class="card-body">
+            <h5 class="card-title">WebSailing GL</h5>
+            <div class="card-text">
+                <p>ドキュメント、チュートリアル、サンプルでWebSailingGLの使用方法について説明します。ユーザー、開発者、管理者向けの情報が含まれます。</p>
+            </div>
+        </div>
+    </div>
+    </a>
+    <div class="accordion">
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-headingOne8">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne6" aria-expanded="false" aria-controls="panelsStayOpen-collapseOne6">
+                    記事一覧
+                </button>
+            </h2>
+            <div id="panelsStayOpen-collapseOne6" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingOne8">
+                <div class="accordion-body">
+                    ="products/websailing/gl/guide"=
                 </div>
             </div>
         </div>

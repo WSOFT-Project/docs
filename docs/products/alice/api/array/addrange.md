@@ -9,7 +9,7 @@ summary: 現在の配列の末尾にその配列に含まれるすべての要�
 現在の配列の末尾に値を追加します
 
 ```cs title="AliceScript"
-namespace Alice;
+class Alice.Array;
 void AddRange(params array items);
 ```
 

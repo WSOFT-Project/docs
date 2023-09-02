@@ -9,7 +9,7 @@ summary: 現在の配列ともう一方の配列の要素が等しいかどう�
 現在の配列ともう一方の配列の要素が等しいかどうかを判定します
 
 ```cs title="AliceScript"
-namespace Alice;
+class Alice.Array;
 bool SequenceEqual(array other);
 ```
 

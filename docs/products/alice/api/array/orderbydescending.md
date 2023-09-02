@@ -9,7 +9,7 @@ summary: 現在の配列の要素を降順で並べ替えます
 現在の配列の要素を降順で並べ替えます
 
 ```cs title="AliceScript"
-namespace Alice;
+class Alice.Array;
 array OrderByDescending();
 ```
 

@@ -9,7 +9,7 @@ summary: 現在の配列から指定された条件に一致する要素のみ�
 現在の配列から指定された条件に一致する要素のみを取り出します
 
 ```cs title="AliceScript"
-namespace Alice;
+class Alice.Array;
 array Where(delegate condition);
 ```
 

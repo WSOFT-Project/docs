@@ -1,6 +1,6 @@
 ---
 title: print
-summary: 文字列または、指定されたオブジェクトの文字列表現を標準出力に書き込み、続けて現在の行終端記号を書き込みます。
+summary: 指定された文字列または、オブジェクトの文字列表現を標準出力に書き込み、続けて現在の環境で使用されている改行文字を書き込みます。
 date : 2021-11-09
 ---
 ### 定義
@@ -8,39 +8,46 @@ date : 2021-11-09
 
 属性: 関数の区切りの空白をサポート
 
-与えられた変数`value`の文字列表現を出力します。
+現在の環境で使用されている改行文字を書き込みます。
 
 ```cs title="AliceScript"
 namespace Alice;
-void print(variable value);
+void print();
 ```
 
-|引数| |
-|-|-|
-|`value`| 出力したい変数|
-
-与えられた文字列`text`を出力します。
+指定された文字列の文字列表現を標準出力に書き込み、続けて現在の環境で使用されている改行文字を書き込みます。
 
 ```cs title="AliceScript"
 namespace Alice;
-void print(string text);
+command void print(string text);
 ```
 
 |引数| |
 |-|-|
 |`text`| 出力したい文字列|
 
+指定されたオブジェクトの文字列表現を標準出力に書き込み、続けて現在の環境で使用されている改行文字を書き込みます。
+
+```cs title="AliceScript"
+namespace Alice;
+command void print(variable value);
+```
+
+|引数| |
+|-|-|
+|`value`| 出力したい変数|
+
 与えられた複合書式指定子`format`を使用して後続の変数を成形し、その結果を出力します。
 
 ```cs title="AliceScript"
 namespace Alice;
-void print(string format,params variable args);
+command void print(string format,params variable args);
 ```
 
 |引数| |
 |-|-|
 |`format`| 出力の成形に用いる複合書式指定子|
-|`params args`| 出力に使用する変数|
+|`params args`| `format`を使用して書き込む変数。|
 
 ### 例
 次の例は、Print関数を使用してHello,Worldを表示するコードです。

@@ -9,7 +9,7 @@ summary: 現在の配列の最後の要素を表します
 現在の配列の最後の要素を表します
 
 ```cs title="AliceScript"
-namespace Alice;
+class Alice.Array;
 readonly variable Last;
 ```
 
