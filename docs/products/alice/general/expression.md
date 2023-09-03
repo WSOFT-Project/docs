@@ -256,12 +256,12 @@ if(str is string)
 ```
 
 ## 型変換演算子
-型変換演算子`as`は、左辺の値を右辺の表す型に変換します。右辺は[Typeオブジェクト](../api/alice/)である必要があり、型変換に失敗した場合は`null`を返します。次に例を示します。
+型変換演算子`as`は、左辺の値を右辺の表す型に変換します。右辺は[Typeオブジェクト](../api/alice/interpreter/type/index.md)である必要があり、型変換に失敗した場合は`null`を返します。次に例を示します。
 
 ```js title="AliceScript"
 number num = 12345;
 print(num.type);//出力:NUMBER
-var str = (num as string);
+var str = num as string;
 print(str.type);//出力:STRING
 ```
 ## 条件演算子
