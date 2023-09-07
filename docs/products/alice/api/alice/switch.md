@@ -37,23 +37,27 @@ switch(input)
     case 0:
     {
         print("零");
+        break;
     }
     case 1:
     {
         print("一");
+        break;
     }
     case 2:
     {
         print("二");
+        break;
     }
     default:
     {
         print("不明");
+        break;
     }
 }
 ```
 
-`switch`文では、`case`が一致する最初のセクションを実行後、`switch`文を終了します。
+`switch`文では、`case`が一致する最初のセクションを実行後、`break`または`return`ステートメントを使って`switch`文を終了する必要があります。
 よって、次の例では、`0-2`と`0-3`は表示されません。
 
 ```cs title="AliceScript"
@@ -64,14 +68,44 @@ switch(input)
     case 0:
     {
         print("0-1");
+        break;
     }
     case 0:
     {
         print("0-2");
+        break;
     }
     default:
     {
         print("0-3");
+        return;
+    }
+}
+```
+
+ただし、コード中に`#fall_through enable`を記述し、`case`文を`break`で抜けない場合フォールスルーが起こり、一致箇所より下のコードがすべて実行されます。このため、次の例では、`1-1`、`1-2`、`1-3`のすべてが表示されます。
+
+```cs title="AliceScript"
+#fall_through enable
+
+var input = 0;
+
+switch(input)
+{
+    case 0:
+    {
+        print("1-1");
+        break;
+    }
+    case 0:
+    {
+        print("1-2");
+        break;
+    }
+    default:
+    {
+        print("1-3");
+        return;
     }
 }
 ```
@@ -81,7 +115,7 @@ switch(input)
 
 ```cs title="AliceScript"
 namespace Alice;
-command void case(variable value);
+.command void case(variable value);
 ```
 
 |引数| |
@@ -95,7 +129,7 @@ command void case(variable value);
 
 ```cs title="AliceScript"
 namespace Alice;
-command void default();
+.command void default();
 ```
 
 `switch`文中で、他のどの`case`とも一致せず、かつ`default`ケースもない場合は、なにも実行されません。

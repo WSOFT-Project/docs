@@ -12,12 +12,12 @@ date : 2022-01-15
 
 ```cs title="AliceScript"
 namespace Alice;
-command void function string funcName(params type args);
+.command void function string funcName(params type args);
 ```
 
 |引数| |
 |-|-|
-|`funcName`| 定義する関数の名前。|
+|`funcName`| 定義する関数の識別子。|
 |`params type args`| 定義する関数に付与する引数と型（必要な場合）|
 
 ### 基本
@@ -45,6 +45,7 @@ function SayHello(){
 }
 ```
 
+AliceScriptでは関数の名前を、識別子と呼びます。識別子の名前付けルールなどについては、[識別子](./identifier.md)を参照してください。
 ### 戻り値
 関数は、呼び出し元に[return](./return.md)キーワードを使用して値を返すことができます。関数の戻り値は呼び出し元でそのまま値として使用できます。次に例を示します。
 
