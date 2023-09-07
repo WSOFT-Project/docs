@@ -12,7 +12,7 @@ date : 2022-01-15
 
 ```cs title="AliceScript"
 namespace Alice;
-command void function string funcName(params type args);
+.command void function string funcName(params type args);
 ```
 
 |引数| |
