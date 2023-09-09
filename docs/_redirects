@@ -3,5 +3,5 @@
 /script/* /products/script/:splat
 /download/* /products/download/:splat
 
-/products/websailing/changelog /websailing/changelog/1141 301
+/products/websailing/changelog /websailing/changelog/1160 301
 /products/websailing/gl/changelog /websailing/gl/changelog/4000 301
