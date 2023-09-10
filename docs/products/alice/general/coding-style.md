@@ -59,3 +59,9 @@ const FULL_VERSION = "1.0(falcon)";
 ### コーディングベストプラクティス
 不要な比較をスキップして比較のパフォーマンスを向上させるには、`&`の代わりに`&&`演算子を、`|`の代わりに`||`演算子を使用します。
 
+```cs title="AliceScript"
+bool b = false;
+bool b2 = true;
+
+bool result = b || b2;
+```
