@@ -4,6 +4,6 @@ summary: ここでは、AliceScriptの重要な機能に関する詳細と、Ali
 disable_tol : true
 disable_tools : true
 ---
- このセクションの大部分は、AliceScriptおよび一般的なプログラミングの概念について、既にある程度の知識を持っているユーザーを対象としています。
+ このセクションの大部分は、AliceScriptおよび一般的なプログラミングの概念について、ある程度の知識を持っているユーザーを対象としています。
 
 ="products/alice/tutorial"=

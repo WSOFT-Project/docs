@@ -220,7 +220,7 @@ print(condition.type);//出力例:BOOLEAN
 ```
 
 #### Type型
-AliceScriptには変数の型を表現するtype型が存在します。全ての変数はTypeプロパティを実装していて、その変数の型を表す値を取得することができます。これはWSOFTScriptのTypeプロパティに似ています。しかし、WSOFTScriptのTypeプロパティはtype型ではなくstring型でその値を表す文字列表現を返します。string、number、boolキーワードなどはそれぞれの型の値を表す定数です。また、型変換演算子asを使用することでその型に変数を明示的に変換することができます。次に例を示します。
+AliceScriptには変数の型を表現するtype型が存在します。全ての変数はTypeプロパティを実装していて、その変数の型を表す値を取得できます。これはWSOFTScriptのTypeプロパティに似ています。しかし、WSOFTScriptのTypeプロパティはtype型ではなくstring型でその値を表す文字列表現を返します。string、number、boolキーワードなどはそれぞれの型の値を表す定数です。また、型変換演算子asを使用することでその型に変数を明示的に変換できます。次に例を示します。
 ```js title="sample_type.alice"
 var num = 123;
 print(num.type);//出力例:NUMBER

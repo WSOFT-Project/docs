@@ -15,6 +15,8 @@ AliceScriptの変数名や関数名、クラス名などの**識別子**は、�
 ```
 この仕様は、[Unicode® Standard Annex #31](https://unicode.org/reports/tr31/)におおむね準拠しています。
 
+また、識別子に空の文字列を使用することはできません。
+
 ## 例
 ```cs title="AliceScript"
 var hoge = 0;//OK
