@@ -29,7 +29,7 @@ bool? condition = null;
 ```cs title="AliceScript"
 variable v = "This is string";
 v = 1;
-``
+```
 
 通常、変数に代入されるのは常にその値です。つまり、ある変数に式の値を代入するとその値への参照が代入されます。 通常、変数を定義する際は次の形で宣言します。
 
