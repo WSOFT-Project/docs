@@ -44,7 +44,7 @@ ADK版には、それ単体でファイルを実行したり開発したりす�
 * 新機能については[AliceScriptの新機能](../features)を参照してください。
 * このソフトウェアに含まれるソフトウェアの著作権情報については[著作権情報](../about)を参照してください。
 
-*  **[AliceSisterADK 2.3(最新版,安定版)のダウンロード](https://download.wsoft.ws/WS00269)**
+*  **[AliceSisterADK 2.3(最新版,安定版)のダウンロード](https://download.wsoft.ws/WS00270)**
 *  [AliceSisterADK 2.1(安定版)のダウンロード](https://download.wsoft.ws/WS00153)
 *  [AliceSisterADK 2.0(最新版,安定版)のダウンロード](https://download.wsoft.ws/WS00140)
 * [AliceSisterADK GM(最新版・安定版)のダウンロード](https://download.wsoft.ws/WS00004)
