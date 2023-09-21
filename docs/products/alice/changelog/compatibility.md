@@ -76,7 +76,7 @@ AliceScriptRC1以前のバージョンでは、Typeプロパティはその値�
 
 AliceScriptRC1以前のバージョンでは、定義されていない変数にもvarキーワードを使用しないで変数を定義することができました。これは未アクセスの変数に対して値が存在するか確認できないという潜在的な欠陥が存在しているため使用できなくなります。次は未定義の変数aに12345を代入し定義するコードです。AliceScriptRC1以前では動作していましたが今は動作しません。
 
-```js title="AliceScript"
+```cs title="AliceScript"
 a = 12345;
 ```
 
@@ -92,7 +92,7 @@ var del = x=>x**x;
 
 AliceScriptRC2以降でこれと同じ動作を行うことができる唯一の方法は次の通りです。
 
-```js title="AliceScript"
+```cs title="AliceScript"
 var a = 12345;
 ```
 

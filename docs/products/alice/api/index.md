@@ -10,7 +10,7 @@ date : 2022-01-31
 
 関数の説明
 
-```js title="AliceScript"
+```cs title="AliceScript"
 namespace 名前空間;
 戻り値 関数名(引数の型 引数名,引数名=規定値,params 引数名);
 ```

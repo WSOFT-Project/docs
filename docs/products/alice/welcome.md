@@ -27,7 +27,7 @@ Alice.Interpreterはさまざまなライブラリやファイルをプログラ
 ### Hello,World
 "Hello, World" は、プログラミング言語を紹介するために伝統的に使用されているプログラムです。 これをAliceScriptで記述すると次のようになります。
 
-```js title="AliceScript"
+```cs title="AliceScript"
 print("Hello,World");
 ```
 
