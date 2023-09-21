@@ -3,7 +3,7 @@ title: APIブラウザー
 summary: WSOFTScriptAPIブラウザーへようこそ。このサイト内にはWSOFTScriptで標準で提供されている関数について解説する記事がたくさんあります。
 ---
 ### 定義
-名前空間:Alice / アセンブリ : Losetta.Runtime.dll / サポート: AliceScript1
+名前空間:WSOFTScript / アセンブリ : WSOFTScript.dll / サポート: WSOFTScript
 
 属性: 関数の種類
 
