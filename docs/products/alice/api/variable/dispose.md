@@ -1,17 +1,16 @@
 ---
 title: Dispose
-summary: その変数の持つ値をクリアし、値をnullにします。
+summary: 変数の値を破棄し、nullにします。
 ---
 ### 定義
 名前空間:Alice / アセンブリ : Losetta.dll / サポート: AliceScript1
 
-その変数の持つ値をクリアし、値を`null`にします。
+変数の値を破棄し、`null`にします。
 
 ```cs title="AliceScript"
 namespace Alice;
-virtual void Dispose();
+void Dispose();
 ```
-
 
 ### 例
 以下は、一度定義した変数`a`を`null`にする例です。
