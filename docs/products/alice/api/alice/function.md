@@ -46,6 +46,7 @@ function SayHello(){
 ```
 
 AliceScriptでは関数の名前を、識別子と呼びます。識別子の名前付けルールなどについては、[識別子](./identifier.md)を参照してください。
+
 ### 戻り値
 関数は、呼び出し元に[return](./return.md)キーワードを使用して値を返すことができます。関数の戻り値は呼び出し元でそのまま値として使用できます。次に例を示します。
 
@@ -58,7 +59,7 @@ print(ReturnHello());
 //出力:Hello,World!
 ```
 
-また、`return`キーワードは、関数の実行をその時点で終了します。任意の場面で関数の実行を中止したい場合、 値を持たない`return`キーワードを使用することができます。次に例を示します。
+また、`return`キーワードは、関数の実行をその時点で終了します。任意の場面で関数の実行を中止したい場合、 値を持たない`return`キーワードを使用できます。次に例を示します。
 
 ```cs title="AliceScript"
 function ShowHello()
@@ -68,6 +69,17 @@ function ShowHello()
    print("Hello,(again)");//この行は、returnキーワードよりも後にあるため実行されません
  }
 //出力:Hello
+```
+
+<span class="badge bg-success">対応バージョン>=Alice3.0</span>
+
+次の例のように、戻り値の型を指定すると、関数がその型以外の値を返した場合にエラーが発生します。
+
+```cs title="AliceScript"
+void function ShowHello()
+{
+    print("Hello");
+}
 ```
 
 ### 引数
@@ -92,7 +104,7 @@ Add(1,2);//戻り値:3
 Add("1","2");//例外発生
 ```
 
-さらに、引数に`params`キーワードを使用すると、可変長個の引数を受け取る引数を指定できます。`params`の型は常に`ARRAY`となります。 一つの関数内では、`params`キーワードより後に引数を指定することができません。次に例を示します。
+さらに、引数に`params`キーワードを使用すると、可変長個の引数を受け取る引数を指定できます。`params`の型は常に`ARRAY`となります。 ひとつの関数内では、`params`キーワードより後に引数を指定することができません。次に例を示します。
 
 ```cs title="AliceScript"
 function PrintAllArgs(params args)
@@ -155,6 +167,31 @@ print(text.WordCount());//出力例:3
 ```
 
 登録したい引数の型指定修飾子を`this`キーワードの後に記述します。これを省略すると、`variable`型に登録されます。複数の`this`キーワードを使用することはできません。拡張メソッドには`virtual`属性および`override`属性を付与することもできます。標準の型メソッドのオーバーライド可否については[変数](../../general/variable.md)を参照してください。
+
+### 関数の外部実装
+
+<span class="badge bg-success">対応バージョン>=Alice3.0</span>
+
+関数の宣言時に`extern`キーワードを使用すると、外部で実装されている関数を宣言できます。
+`extern`は主に、相互運用機能を使用して.NETやそれ以外のコードを呼び出すときに、`#libimport`や`#netimport`指令と使用します。
+
+次の例では、.NETで定義されている[System.Console.WriteLine](https://learn.microsoft.com/en-us/dotnet/api/system.console.writeline)メソッドを使用してコンソールにメッセージを表示します。
+
+```cs title="AliceScript"
+#netimport "System.Console","System.Console"
+extern void WriteLine(string value);
+
+WriteLine("Hello,World!");
+```
+
+また、次の例では、Win32APIで定義されている[MessageBox](https://learn.microsoft.com/en-us/windows/win32/api/winuser/nf-winuser-messagebox)関数を使用してメッセージボックスを表示します。
+
+```cs title="AliceScript"
+#libimport "user32.dll"
+extern int MessageBox(HWND hwnd,LPCTSTR lpText,LPCTSTR lpCaption,UINT uType);
+
+MessageBox(0,"Hello,World!","TestMessage",0);
+```
 
 ### デリゲートへの暗黙的な変換
 ほとんどのネイティブ関数とユーザー定義関数は、[デリゲート](../delegate/index.md)型の変数へと暗黙的に変換できます。ユーザー定義関数を丸括弧なしで呼び出すと、それはその関数をデリゲート型に変換されたオペランドと認識されます。次に例を示します。
