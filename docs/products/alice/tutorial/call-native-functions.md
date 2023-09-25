@@ -16,3 +16,20 @@ extern int MessageBox(HWND hwnd,LPCTSTR lpText,LPCTSTR lpCaption,UINT uType);
 // 定義した関数を呼び出す
 MessageBox(0,"Hello,World!","TestMessage",0);
 ```
+
+この例は簡単ながら、ネイティブ関数を呼び出すために必要な要素をすべて含んでいます。
+
+- `#libimport`指令を使用して、インタプリタに実際に関数が定義されているライブラリを読み込むよう指示します。
+- `extern`から始まる関数定義では、ネイティブ関数名と**正確に同じ**名前と引数を持つ関数を定義しています。
+- `MessageBox(...);`では、AliceScriptの関数と同じように関数を呼び出しています。
+
+Linuxの場合でも同様です。次の例では、`getpid()`関数を呼び出して、現在のプロセスのIDを取得しています。
+
+```cs title="AliceScript"
+// 呼び出したい機能を含むライブラリと関数
+#libimport "libc.so.6"
+extern int getpid();
+
+// 定義した関数を呼び出す
+print(getpid());
+```
