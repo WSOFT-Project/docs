@@ -40,16 +40,16 @@ Markdownで太字を表現するには、対象の文字列を`**`で囲みま�
 * **正**:AliceScriptでは、`print(string text);`という関数を使用して標準出力にテキストを書き込みます。
 * **正**:AliceScriptでは、*print(string text);*という関数を使用して標準出力にテキストを書き込みます。
 
-* **正**:AliceScriptでは`password_salt`関数で簡単にソルトを生成できます。
+* **正**:AliceScriptでは`password_getSalt`関数で簡単にソルトを生成できます。
 
 ```markdown title="Markdown"
 ```cs
 using Alice.Security;
 
-byte[] salt = password_salt();
+byte[] salt = password_getSalt();
 ```
 
-* **誤**:`byte[] salt = Alice.Security.password_salt();`のように実行するだけで簡単にソルトを生成できます。
+* **誤**:`byte[] salt = Alice.Security.password_getSalt();`のように実行するだけで簡単にソルトを生成できます。
 
 ### プレースホルダー
 入力文字列の一部をユーザーが任意の値で置換する必要がある場合は、山かっこ（`<>`）で囲こみその中に説明を記述します。

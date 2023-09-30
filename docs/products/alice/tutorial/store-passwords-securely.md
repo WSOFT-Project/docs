@@ -62,12 +62,12 @@ $$
 ええ、実際にはもっと難しいアルゴリズムがあります。たとえば$a$には、ものすごく大きい素数$p$を代入していたりします。それはさておき、このように、パスワードとハッシュ関数、ソルトを用いてパスワードを安全に保存することに成功しました。
 
 ### ソルトの生成
-安全にパスワードを保存するためには、ソルトの値も安全である必要があります。安全な値というのは簡単に人間の頭で思いついては困りますから、コンピューターに計算させましょう。AliceScriptでは`password_salt`関数で簡単にソルトを生成できます。
+安全にパスワードを保存するためには、ソルトの値も安全である必要があります。安全な値というのは簡単に人間の頭で思いついては困りますから、コンピューターに計算させましょう。AliceScriptでは`password_getSalt`関数で簡単にソルトを生成できます。
 
 ```cs title="AliceScript"
 using Alice.Security;
 
-byte[] salt = password_salt();
+byte[] salt = password_getSalt();
 ```
 ### パスワードのハッシュ化
 ソルトができたら、実際にパスワードをハッシュ化してみましょう。`password_hash`関数でパスワードをハッシュ化できます。`password`はもちろん、推測されにくいパスワードを使ってください。
@@ -108,7 +108,7 @@ function changePassword()
     print("新しいパスワードを入力してください。");
     var passwd = console_readline();
 
-    var salt = password_salt();
+    var salt = password_getSalt();
     var hash = password_hash(passwd,salt);
     
     file_write_data(HASH_FILE_NAME,hash);
