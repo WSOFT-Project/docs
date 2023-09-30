@@ -151,6 +151,49 @@ RegisterGlobalFunction();
 SayHello();//出力例:Hello,World
 ```
 
+### 関数の上書き
+AliceScriptでは、通常同じ名前を持つ関数を複数回定義したり、処理内容を再定義することはできません。
+
+そこで、再定義される可能性のある関数を`virtual`キーワードを使用して仮想関数とすることで、関数が上書きされることを宣言でき、
+実際に関数を上書きするには`override`キーワードを使用します。
+
+次の例では、`Hoge`関数を定義したあとそれを上書きしています。
+```cs title="AliceScript"
+virtual void Hoge()
+{
+    print("Hoge!");
+}
+
+Hoge();//出力:Hoge!
+
+if(true)
+{
+    override void Hoge()
+    {
+        print("Hoge!Overrided!!");
+    }
+    Hoge();//出力:Hoge!Overrided!!
+}
+
+// ここは上書きスコープの外
+Hoge();//出力:Hoge!
+```
+
+また、仮想関数は定義時に処理内容を定義する必要がありません。
+処理内容が定義されていない関数を呼び出すには、必ず関数を上書きして処理内容を定義する必要があります。
+次の例を参照してください。
+
+```cs title="AliceScript"
+virtual void Hoge2();
+
+Hoge();//これはエラー
+
+override void Hoge2()
+{
+  print("Hoge2!");
+}
+```
+
 ### 拡張メソッド
 
 拡張メソッドを使用すると、新規に型を作成することなく既存の型にメソッドを追加できます。拡張メソッドに使用する関数はグローバル関数である必要があり、現在の型の変数が代入される引数に`this`キーワードを使用します。
