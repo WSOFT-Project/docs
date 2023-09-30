@@ -33,7 +33,7 @@ byte[] password_verify(string password,byte[] hash,byte[] salt,int hash_size=32,
 using Alice.Security;
 using Alice.IO;
 
-byte[] salt = password_salt();
+byte[] salt = password_getSalt();
 byte[] hash = password_hash("password",salt);
 
 return password_verify("password",hash,salt);

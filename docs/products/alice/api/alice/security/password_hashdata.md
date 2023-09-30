@@ -1,5 +1,5 @@
 ---
-title: password_hash_data
+title: password_hashData
 summary: 指定したデータと対になるハッシュ値を計算します
 ---
 ### 定義
@@ -11,7 +11,7 @@ summary: 指定したデータと対になるハッシュ値を計算します
 
 ```cs title="AliceScript"
 namespace Alice.Security;
-bytes password_hash(bytes password,bytes salt,int hash_size=32,int stretch_count=1000);
+bytes password_hashData(bytes password,bytes salt,int hash_size=32,int stretch_count=1000);
 ```
 
 |引数| |
@@ -32,9 +32,9 @@ bytes password_hash(bytes password,bytes salt,int hash_size=32,int stretch_count
 using Alice.Security;
 using Alice.IO;
 
-var salt = password_salt();
+var salt = password_getSalt();
 var hash = password_hash_data(salt,salt);
 
-file_write_data("password_salt.bin",salt);
+file_write_data("password_getSalt.bin",salt);
 file_write_data("password_hash.bin",hash);
 ```

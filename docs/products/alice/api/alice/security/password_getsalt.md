@@ -1,5 +1,5 @@
 ---
-title: password_salt
+title: password_getSalt
 summary: ハッシュ関数のソルトとして使用できる、安全な乱数データを取得します
 ---
 ### 定義
@@ -11,7 +11,7 @@ summary: ハッシュ関数のソルトとして使用できる、安全な乱�
 
 ```cs title="AliceScript"
 namespace Alice.Net;
-byte[] password_salt(int size=32);
+byte[] password_getSalt(int size=32);
 ```
 
 |引数| |
@@ -29,9 +29,9 @@ byte[] password_salt(int size=32);
 using Alice.Security;
 using Alice.IO;
 
-byte[] salt = password_salt();
+byte[] salt = password_getSalt();
 byte[] hash = password_hash("password",salt);
 
-file_write_data("password_salt.bin",salt);
+file_write_data("password_getSalt.bin",salt);
 file_write_data("password_hash.bin",hash);
 ```
