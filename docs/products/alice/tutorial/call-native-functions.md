@@ -58,5 +58,5 @@ C言語は、AliceScriptとは異なる型システムを持っているため�
 |`BOOL`|`bool`|`System.Boolean`|Win32の`BOOL`型(実体は`INT`)|
 |`LPSTR`、`LPTSTR`、`LPCSTR`、`LPCTSTR`、`LPCWSTR`、`STRING`|`string`|`System.String`|`char*`または`char16_t*`(文字コードによる)|
 
-- **†** 小数部は切り捨て
+- **†1** 小数部は切り捨て
 - **†2** 0以上の値のみ。それ未満はエラー
