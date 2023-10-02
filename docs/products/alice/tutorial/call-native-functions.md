@@ -42,7 +42,7 @@ C言語は、AliceScriptとは異なる型システムを持っているため�
 
 |型キーワード|AliceScriptの型|C#の型|ネイティブ型|
 |--|--|--|--|
-|`void`|該当なし|`System.Void`|`void`|
+|`void`|該当なし|`System.Void`|Win32の`VOID`型|
 |`HDC`、`HWND`、`HANDLE`、`IntPtr`|`number`|`System.IntPtr`|`intptr_t`|
 |`UIntPtr`|`number`|`System.UIntPtr`|`uintptr_t`|
 |`INT8`、`SCHAR`、`BOOLEAN`|`number`|`System.SByte`|`int8_t`|
@@ -53,6 +53,7 @@ C言語は、AliceScriptとは異なる型システムを持っているため�
 |`UINT32`、`UINT`、`ULONG32`、`DWORD`|`number`|`System.UInt32`|`uint32_t`|
 |`INT64`、`LONG`、`LONG64`、`LONGLONG`|`number`|`System.Int64`|`int64_t`|
 |`UINT64`、`ULONG`、`ULONG64`、`ULONGLONG`|`number`|`System.UInt64`|`uint64_t`|
-|`FLOAT`、`SINGLE`|`number`|`System.Short`|`
+|`FLOAT`、`SINGLE`|`number`|`System.Short`|Win32の`SINGLE`型|
+|`DOUBLE`|`number`|`System.Double`|Win32の`DOUBLE`型|
 |`BOOL`|`bool`|`System.Boolean`|Win32の`BOOL`型(実体は`INT`)|
 |`LPSTR`、`LPTSTR`、`LPCSTR`、`LPCTSTR`、`LPCWSTR`、`STRING`|`string`|`System.String`|`char*`または`char16_t*`(文字コードによる)|
