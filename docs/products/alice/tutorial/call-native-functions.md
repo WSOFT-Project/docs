@@ -5,7 +5,7 @@ date : 2023-09-25
 ---
 <span class="badge bg-success">対応バージョン>=Alice3.0</span>
 
-AliceScriptからネイティブ関数を呼び出すことで、AliceScriptで使用できる範囲のAPIを超えてさまざまなAPIを呼び出すことができます。
+AliceScriptからネイティブ関数(C-Style関数)を呼び出すことで、AliceScriptで使用できる範囲のAPIを超えてさまざまなAPIを呼び出すことができます。
 まずは簡単な例をご覧ください。次の例では、Win32APIで定義されている[MessageBox](https://learn.microsoft.com/en-us/windows/win32/api/winuser/nf-winuser-messagebox)関数を使用してメッセージボックスを表示します。
 
 ```cs title="AliceScript"
@@ -33,3 +33,26 @@ extern int getpid();
 // 定義した関数を呼び出す
 print(getpid());
 ```
+
+### 型変換
+C言語は、AliceScriptとは異なる型システムを持っているため、AliceScripとネイティブ関数の間で値のやり取りが必要になる場合は型変換が行われます。
+ネイティブ関数の定義では`int`や`HWND`などの見慣れない型キーワードが使用されていますが、これはそのためです。
+
+以下に、AliceScriptの型と、対応する型キーワード、対応するネイティブ型を示します。
+
+|型キーワード|AliceScriptの型|C#の型|ネイティブ型|
+|--|--|--|--|
+|`void`|該当なし|`System.Void`|`void`|
+|`HDC`、`HWND`、`HANDLE`、`IntPtr`|`number`|`System.IntPtr`|`intptr_t`|
+|`UIntPtr`|`number`|`System.UIntPtr`|`uintptr_t`|
+|`INT8`、`SCHAR`、`BOOLEAN`|`number`|`System.SByte`|`int8_t`|
+|`UCHAR`、`CHAR`、`BYTE`|`number`|`System.Byte`|`uint8_t`|
+|`INT16`、`SHORT`|`number`|`System.Int16`|`int16_t`|
+|`UINT16`、`USHORT`、`WORD`|`number`|`System.UInt16`|`uint16_t`|
+|`INT32`、`INT`、`LONG32`|`number`|`System.Int32`|`int32_t`|
+|`UINT32`、`UINT`、`ULONG32`、`DWORD`|`number`|`System.UInt32`|`uint32_t`|
+|`INT64`、`LONG`、`LONG64`、`LONGLONG`|`number`|`System.Int64`|`int64_t`|
+|`UINT64`、`ULONG`、`ULONG64`、`ULONGLONG`|`number`|`System.UInt64`|`uint64_t`|
+|`FLOAT`、`SINGLE`|`number`|`System.Short`|`
+|`BOOL`|`bool`|`System.Boolean`|Win32の`BOOL`型(実体は`INT`)|
+|`LPSTR`、`LPTSTR`、`LPCSTR`、`LPCTSTR`、`LPCWSTR`、`STRING`|`string`|`System.String`|`char*`または`char16_t*`(文字コードによる)|
