@@ -37,7 +37,7 @@ print(getpid());
 ```
 
 ### 別名での定義
-エントリポイントを使用することで、別名でネイティブ関数をインポートできます。
+エントリポイントを使用することで、別名でネイティブ関数を定義できます。
 次の例では、Win32APIの`MessageBox`関数を、AliceScriptの`MsgBox`関数として定義しています。
 
 ```cs title="AliceScript"
@@ -51,12 +51,12 @@ MsgBox(0,"Hello,World!","TestMessage",0);
 ### 文字コードの指定
 AliceScriptからネイティブ関数に文字列をやり取りするとき、次に示すように一部のAPIではANSI(ナロー)形式とUnicode(ワイド)形式を受取る2種類の関数を公開しています。
 
-- ANSI形式
+#### ANSI形式
   - `char*`型に変換される(C++の1バイト文字列)
   - ASCII互換の文字コードを使用(たとえば、日本語ならShift-JIS)
   - `MessageBoxA`など、エントリポイント名の末尾が**A**になっていることが多い
   - 指定するには`#libimport`の第三引数に`false`を渡す
-- Unicode形式
+#### Unicode形式
   - `wchar_t*`型に変換される(C++の2バイト文字列)
   - 文字コードにはUTF-16を使用
   - `MessageBoxW`など、エントリポイント名の末尾が**W**になっていることが多い
