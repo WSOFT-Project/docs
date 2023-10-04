@@ -54,12 +54,12 @@ AliceScriptからネイティブ関数に文字列をやり取りするとき、
 #### ANSI形式
   - `char*`型に変換される(C++の1バイト文字列)
   - ASCII互換の文字コードを使用(たとえば、日本語ならShift-JIS)
-  - `MessageBoxA`など、エントリポイント名の末尾が**A**になっていることが多い
+  - WindowsAPIでは`MessageBoxA`など、エントリポイント名の末尾が**A**になっていることが多い
   - 指定するには`#libimport`の第三引数に`false`を渡す
 #### Unicode形式
   - `wchar_t*`型に変換される(C++の2バイト文字列)
   - 文字コードにはUTF-16を使用
-  - `MessageBoxW`など、エントリポイント名の末尾が**W**になっていることが多い
+  - WindowsAPIでは`MessageBoxW`など、エントリポイント名の末尾が**W**になっていることが多い
   - 指定するには`#libimport`の第三引数に`true`を渡す
 
 AliceScriptでは規定では、プラットフォームに応じて適切な文字コードを自動選択します。
@@ -68,11 +68,17 @@ AliceScriptでは規定では、プラットフォームに応じて適切な文
 次の例では、ANSI形式を使用する`MessageBoxA`関数とUnicode形式を使用する`MessageBoxW`関数をそれぞれAliceScriptで定義しています。
 
 ```cs title="AliceScript"
+// ANSI形式の関数の定義
 #libimport "user32.dll" , null , false
 extern int MessageBoxA(HWND hwnd,LPCTSTR lpText,LPCTSTR lpCaption,UINT uType);
 
+// Unicode形式の関数の定義
 #libimport "user32.dll" , null , true
 extern int MessageBoxW(HWND hwnd,LPCWSTR lpText,LPCWSTR lpCaption,UINT uType);
+
+// プラットフォームに応じて自動選択
+#libimport "user32.dll" , null , null
+extern int MessageBox(HWND hwnd,LPCTSTR lpText,LPCTSTR lpCaption,UINT uType);
 ```
 
 ### 型変換
