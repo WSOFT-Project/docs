@@ -36,6 +36,15 @@ extern int getpid();
 print(getpid());
 ```
 
+### 変数名の省略
+ネイティブ関数を呼び出すとき、本質的に変数名は不要な情報です。
+そのため、変数名はなんでもよく、変数名を省略して型名のみを定義することでもネイティブ関数を定義できます。この場合でも、関数名と引数・戻り値の型、引数の個数は呼び出したい関数と一致する必要がある点に注意してください。次に例を示します。
+
+```cs title="AliceScript"
+#libimport "kernel32.dll"
+extern bool Beep(DWORD,DWORD);
+```
+
 ### 別名での定義
 エントリポイントを使用することで、別名でネイティブ関数を定義できます。
 次の例では、Win32APIの`MessageBox`関数を、AliceScriptの`MsgBox`関数として定義しています。
@@ -86,3 +95,19 @@ C言語は、AliceScriptとは異なる型システムを持っているため�
 ネイティブ関数の定義では`int`や`HWND`などの見慣れない型キーワードが使用されていますが、これはそのためです。
 
 AliceScriptの型との相互変換について詳しく知るには、[マーシャリング](./marshaling.md)を参照してください。
+
+### ネイティブ関数の動的定義
+`Interop_GetInvoker`関数を使用することで、ネイティブ関数をデリゲートの形式で動的に定義し、使用できます。次の例を参照してください。
+
+```cs title="AliceScript"
+using Alice.Interop;
+
+// ネイティブ関数からデリゲートを作成
+var beep = Interop_GetInvoker("Beep","kernel32.dll","bool",["dword","dword"]);
+
+// ドの音を鳴らしてみる
+beep(262,1000);
+
+// もちろんメソッドでも呼び出し可能
+beep.Invoke(262,1000);
+```
