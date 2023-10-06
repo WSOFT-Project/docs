@@ -5,7 +5,7 @@ summary: このチュートリアルでは、簡単なAliceScriptライブラリ
 <span class="badge bg-success">対応バージョン>=Alice3.0</span>
 
 ### はじめに
-VisualStudio等で、クラスライブラリプロジェクトを作成してください。
+Visual Studio等で、クラスライブラリプロジェクトを作成してください。
 
 次の表を参照して、ターゲットとなるAliceScriptの実装とライブラリのバージョンを合わせてください。
 
