@@ -1,6 +1,7 @@
 ---
 title: PadLeft
 summary: 指定された文字数になるまで左側に指定された文字列を埋め込むことで、この文字列を右寄せした新しい文字列を取得します
+date : 2021-12-09
 ---
 ### 定義
 名前空間:Alice / アセンブリ : Losetta.dll / サポート: AliceScript1

@@ -1,6 +1,7 @@
 ---
 title: Replace
 summary: 現在の文字列内に出現する特定の文字列をすべて指定した文字列に置き換えた新しい文字列を取得します。
+date : 2021-12-09
 ---
 ### 定義
 名前空間:Alice / アセンブリ : Losetta.dll / サポート: AliceScript1
