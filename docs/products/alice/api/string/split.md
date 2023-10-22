@@ -1,6 +1,7 @@
 ---
 title: Split
 summary: 現在の文字列を指定した区切り文字列で分割した配列を取得します
+date : 2021-12-09
 ---
 ### 定義
 名前空間:Alice / アセンブリ : Losetta.dll / サポート: AliceScript1
@@ -20,12 +21,12 @@ array Split();
 
 ```cs title="AliceScript"
 namespace Alice;
-array Split(string split);
+array Split(string separator);
 ```
 
 |引数| |
 |-|-|
-|`oldValue`|置換する場所の文字列|
+|`separator`|分割に使用する区切り文字列|
 
 |戻り値| |
 |-|-|
