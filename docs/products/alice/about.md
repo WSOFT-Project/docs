@@ -1,7 +1,7 @@
 ---
 title: 謝辞
 summary: AliceScriptとAliceProjectにご協力いただきありがとうございます。
-date : 2021-12-25
+date : 2021-12-10
 ---
 ![AliceScript Logo](media/AliceScript_logo.png)
 
