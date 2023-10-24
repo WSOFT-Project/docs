@@ -4,22 +4,22 @@ summary: この記事では、AliceScriptの動作環境を構築し、お使い
 date : 2021-12-25
 ---
 ### はじめに
-AliceScriptは、軽量な.NETエコシステム上で動作するインタプリンタ型のプログラミング言語です。AliceScriptはC#やPythonをルーツとしているため、C、C#、JavaScript、Pyhton、PHPのプログラマーであればすぐに使いこなすことができます。
+AliceScriptは、軽量な.NETエコシステム上で動作するインタプリタ型のプログラミング言語です。AliceScriptはC#やPythonをルーツとしているため、C、C#、JavaScript、Pyhton、PHPのプログラマーであればすぐに使いこなすことができます。
 AliceScriptについて詳しく知るには、[AliceScriptのツアー](../welcome)を参照してください。
 
 この記事では、まず最初にAliceScriptで開発を始めるために必要な作業を確認します。(すでにAliceScriptを使用している場合はこのセクションを飛ばしても構いません)。
 次に、AliceScriptを使って簡単なコンソールアプリケーションを例として作成し、AliceScriptの基本的な事項を解説します。
 
 ### 動作環境の構築
-AliceScriptを使用したアプリケーションの開発についての説明の前に、まず、AliceScriptを実行できるコンピュータを用意する必要があります。AliceScriptが導入されている環境とは、AliceScript.dllか、AliceSister、Losettaがインストールされている環境のことです。
+AliceScriptを使用したアプリケーションの開発についての説明の前に、まず、AliceScriptを実行できるコンピューター用意する必要があります。AliceScriptが導入されている環境とは、AliceScript.dllか、AliceSister、Losettaがインストールされている環境のことです。
 
 #### Windows環境にLosettaを導入する
 初めに、Losettaをダウンロードする必要があります。[GitHubリポジトリ](https://github.com/WSOFT-Project/Losetta/releases)から、最新のものをダウンロードするか、[WSOFTダウンロードセンター](https://download.wsoft.ws/AliceScript)から安定板をダウンロードできます。
 
-どちらの場合でも、`alice-win-xxx.exe`といったファイルを用意し、自身のコンピュータに合った形式のものを`alice.exe`に名前変更します。
+どちらの場合でも、`alice-win-xxx.exe`といったファイルを用意し、自身のコンピューター合った形式のものを`alice.exe`に名前変更します。
 
 !!!tip "環境の判別"
-    あなたが使用しているOSがWindowsで、IntelやAMD製のプロセッサを使用している(これはコンピュータに貼ってあるステッカーで判別できます)場合、64ビットであればwin-x64を、32ビット(これはよく古いコンピュータで採用されています)であればwin-x86を選択します。また、Windows10ARMを使用している場合はwin-arm64を選択します。
+    あなたが使用しているOSがWindowsで、IntelやAMD製のプロセッサを使用している(これはコンピューター貼ってあるステッカーで判別できます)場合、64ビットであればwin-x64を、32ビット(これはよく古いコンピューター採用されています)であればwin-x86を選択します。また、Windows10ARMを使用している場合はwin-arm64を選択します。
 
 !!!note "サポートされるプラットフォーム"
     Losettaは、次のプラットフォームをサポートします。
@@ -30,7 +30,7 @@ AliceScriptを使用したアプリケーションの開発についての説明
 
 名称変更したらそのファイルを適当な場所に移動します。このとき、移動先のファイルパスを控えておきます。
 
-[チュートリアル:AlicePackageの関連付け](./ice-to-association.md)を参考に、AlicePackageをコンピュータに関連付けます。
+[チュートリアル:AlicePackageの関連付け](./ice-to-association.md)を参考に、AlicePackageをコンピューター関連付けます。
 
 `alice -v`コマンドを実行し、以下のように出力されれば環境構築は完了です。
 
@@ -65,7 +65,7 @@ curl -OL https://download.wsoft.ws/WS144/Download
 ```
 
 !!!note "ダウンロードの検証"
-    ダウンロードが壊れておらず、正当なものであるかを確かめるためにチェックサムを取得して検証することができます。
+    ダウンロードが壊れておらず、正当なものであるかを確かめるためにチェックサムを取得して検証できます。
     `https://api.wsoft.ws/download/detail?id=<Download_ID>`を取得し、そのHash値がダウンロードしたファイルのSHA512ハッシュと同じかどうかを確かめます。
 
 次に以下のコマンドを順に実行します。実行には管理者権限が必要です。

@@ -6,14 +6,14 @@ summary : WSOFTScriptやAliceScriptはLosettaの技術が使用されていま�
 Losettaはその歴史を通して、WSOFTScriptやAliceScript等さまざまな名前とバージョンへと変化していきました。そのため、それぞれのバージョンの対応関係を見出すことが難しくなりました。
 
 ### 使用されているWSOFTScriptのバージョンを確認する
-WSOFTScriptは簡単なクエリを実行することで、稼働中のバージョンを識別することができます。バージョンは文字列形式で返却されます。
+WSOFTScriptは簡単なクエリを実行することで、稼働中のバージョンを識別できます。バージョンは文字列形式で返却されます。
 
 ```js title="WSOFTScript"
 print(wsver);//出力例:WSOFTScript バージョン0.7
 ```
 
 ### 使用されているAliceScriptのバージョンを確認する
-AliceScriptはWSOFTScript同様、簡単なクエリを実行することで、稼働中のバージョンを識別することができます。バージョンは規則的な文字列形式で返却されます。
+AliceScriptはWSOFTScript同様、簡単なクエリを実行することで、稼働中のバージョンを識別できます。バージョンは規則的な文字列形式で返却されます。
 
 ```js title="AliceScript"
 print(wsver);//出力例:2.0

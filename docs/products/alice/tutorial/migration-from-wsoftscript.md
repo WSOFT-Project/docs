@@ -5,7 +5,7 @@ date : 2021-12-25
 ---
 
 !!! warning
-    WSOFTScriptバージョン2020LTS及び0.07R4以降、新たなバージョンのWSOFTScriptの開発は行われません。WSOFTは、2022年6月18日に、全てのWSOFTScriptおよびWSOFTScript.XならびにWSOFTScript.Pocketの各バージョンのサポートを終了します。
+    WSOFTScriptバージョン2020LTSおよび0.07R4以降、新たなバージョンのWSOFTScriptの開発は行われません。WSOFTは、2022年6月18日に、全てのWSOFTScriptおよびWSOFTScript.XならびにWSOFTScript.Pocketの各バージョンのサポートを終了します。
 
 今後のWSOFTScriptのサポートについては[WSOFTScriptのライフサイクル](../../script/lifecycle)を参照してください。
 
@@ -19,9 +19,9 @@ AliceScriptが登場し、従来のWSOFTScriptはAliceScriptへと進化しま�
 この記事では、まず最初にAliceScriptで開発を始めるために必要な作業を確認します。(すでにAliceScriptを使用している場合はこのセクションを飛ばしても構いません)。次に、AliceScriptを使って簡単なコンソールアプリケーションを例として作成し、WSOFTScriptとAliceScriptの機能の類似点や相違点を実際に見てみます。
 
 ### AliceScriptを使用するための準備
-AliceScriptを使用したアプリケーションの開発についての説明の前に、まず、Losettaを実行できるコンピュータを用意する必要があります。Losettaを実行するために追加で必要なランタイムなどはありません。Losettaのランタイムは自己完結型で機能します。
+AliceScriptを使用したアプリケーションの開発についての説明の前に、まず、Losettaを実行できるコンピューター用意する必要があります。Losettaを実行するために追加で必要なランタイムなどはありません。Losettaのランタイムは自己完結型で機能します。
 
-自分のコンピュータでAliceScriptを実行する場合は、AliceScriptをコンピュータにインストールする必要があります。AliceScriptをインストールする方法については[初めてのAliceScript](./begining-alice.md)を参照してください。
+自分のコンピューターAliceScriptを実行する場合は、AliceScriptをコンピューターインストールする必要があります。AliceScriptをインストールする方法については[初めてのAliceScript](./begining-alice.md)を参照してください。
 
 ### 初めてのAliceScriptアプリケーションの作成
 AliceScriptアプリケーションは、WSOFTScriptアプリケーションと同じように、任意のテキストエディタで作成できます。
@@ -206,7 +206,7 @@ var result = num_ary1.Union(num_ary2);
 
 ここでは、[array.Select](../api/array/select.md)メソッドと[array.Union](../api/array/union.md)メソッドを使用しました。もっと詳しく知るにはそれぞれの説明を参照してください。
 
-AliceScriptでは終了条件までループするuntil文は廃止されました。しかし、while(!bool)で代用することができます。
+AliceScriptでは終了条件までループするuntil文は廃止されました。しかし、while(!bool)で代用できます。
 
 ### 型の違い
 AliceScriptではWSOFTScriptからいくつかの型が追加または変更されました。次にそれらの型を示します。

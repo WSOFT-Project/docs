@@ -1,6 +1,6 @@
 ---
 title: WSOFTDocs へようこそ
-summary: 本日、WSOFTの新しいサイトであるWSOFTDocsを公開しました。このサイトでは、WSOFTの様々な製品に役立つ情報を提供します。
+summary: 本日、WSOFTの新しいサイトであるWSOFTDocsを公開しました。このサイトでは、WSOFTのさまざまな製品に役立つ情報を提供します。
 date : 2022-11-01
 order : 4
 ---

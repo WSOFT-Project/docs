@@ -23,9 +23,9 @@ alice.txtを編集することでAliceScriptの開発を行うことができま
 (※alice.txtはMITライセンスです。自己責任で自由に改変等を行っていただいて構いません。)
 
 ## AliceScript/SisterADKは以下の環境で動作します
-AliceScriptADKを使用する場合は.NETCore3.1がインストールされたx64、AMD64、ARM64、x86アーキテクチャを搭載したコンピュータ。
+AliceScriptADKを使用する場合は.NETCore3.1がインストールされたx64、AMD64、ARM64、x86アーキテクチャを搭載したコンピューター
 
-AliceSisterADKを使用する場合は.NETFrameworkがインストールされたx64、AMD64、x86アーキテクチャを搭載したWindowsコンピュータ。
+AliceSisterADKを使用する場合は.NETFrameworkがインストールされたx64、AMD64、x86アーキテクチャを搭載したWindowsコンピューター
 
 ただし、Windows11/WindowsServer2022ではx86アーキテクチャはサポートされません。
 

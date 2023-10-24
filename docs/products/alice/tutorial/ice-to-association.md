@@ -15,7 +15,7 @@ AlicePackage関連付け支援ツールは、この問題を簡単に解決す�
 [ ダウンロード](https://download.wsoft.ws/WS00143){: .btn .btn-primary .btn-lg .bi .bi-download }
 
 ### 使用法
-このツール実行には管理者権限が必要です。コンピュータの管理者が一度実行してしまえば他のユーザーでの実行は不要です。
+このツール実行には管理者権限が必要です。コンピューター管理者が一度実行してしまえば他のユーザーでの実行は不要です。
 
 !!!tip "alice.exeの配置場所"
     AlicePackage関連付け支援ツールは、事前にどこかのディレクトリに`alice.exe`が配置されていることを前提としています。[ダウンロードセンター](https://download.wsoft.ws/AliceScript)から必要なAliceScript実装をダウンロードし、他のユーザーでも使用する場合はそのユーザーでもアクセスできる場所（たとえば、`C:\Program Files`）などに保存してください。
