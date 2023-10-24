@@ -4,7 +4,7 @@ summary : この記事では、AndroidやiOS端末などのOpenVPNクライア�
 ---
 
 ### はじめに
-AndroidやiOS、macOSやLinux、Windowsなど、OpenVPNは様々なプラットフォームでサポートされています。特にSoftEtherがサポートされていないAndroidやiOSなどの環境ではOpenVPNを使用して接続することが必要です。Windows環境では[SoftEtherを使用してWSWANに接続する](./connect-from-softether.md)ことをおすすめします。
+AndroidやiOS、macOSやLinux、Windowsなど、OpenVPNはさまざまなプラットフォームでサポートされています。特にSoftEtherがサポートされていないAndroidやiOSなどの環境ではOpenVPNを使用して接続することが必要です。Windows環境では[SoftEtherを使用してWSWANに接続する](./connect-from-softether.md)ことをおすすめします。
 
 初めに各プラットフォームのOpenVPNクライアントを端末にインストールしてください。
 

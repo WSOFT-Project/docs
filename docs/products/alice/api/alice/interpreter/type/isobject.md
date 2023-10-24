@@ -14,7 +14,7 @@ readonly bool IsObject;
 ```
 
 ### 例
-以下は、[String](../../string/index.md)型がオブジェクトでないことを確認します
+以下は、[String](../../../string/index.md)型がオブジェクトでないことを確認します
 
 ```cs title="AliceScript"
 print(string.IsObject); // 出力例 : false

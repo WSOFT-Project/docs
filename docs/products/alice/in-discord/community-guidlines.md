@@ -1,6 +1,6 @@
 ---
 title : Alice in Discord コミュニティガイドライン
-summary : Alice in Discordを使って様々なBotを作成することができますが、人に迷惑をかけるようなBotの作成は禁止です。
+summary : Alice in Discordを使ってさまざまなBotを作成できますが、人に迷惑をかけるようなBotの作成は禁止です。
 date : 2021-08-22
 ---
 ### はじめに

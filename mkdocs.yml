@@ -1,6 +1,6 @@
 site_name: WSOFTDocs
 header_name : Docs
-copyright : 'Copyright &copy; 2022 WSOFT All Rights reserved.'
+copyright : 'Copyright &copy; 2017 WSOFT All Rights reserved.'
 
 docs_dir : 'docs'
 site_url : 'https://docs.wsoft.ws/'
@@ -10,15 +10,19 @@ repo_url : 'https://github.com/WSOFT-Project/docs/'
 edit_uri: 'blob/master/docs/'
 edit_uri_template: 'blob/master/docs/{path}'
 
+
+# Docs内での検索を有効化
+visible_search : true
+
+# 印刷時にヘッダーを非表示に
 disable_header_when_printing : true
 
-#google_analytics : 'G-9GQ0FRW2FZ'
+# WSOFT共通フッターを読み込んでいるため非表示
+disable_footer : true
 
 extra_javascript:
   - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
-  # WSOFT共通ヘッダーフッターをロード
-  #- https://wsoft.ws/main.js
   - /site.js
 image : https://wsoft.ws/favicon.ico
 favicon_svg : https://wsoft.ws/favicon.svg
@@ -31,9 +35,6 @@ theme:
     name : "lantana"
     custom_dir : theme_ext/
 
-visible_search : true
-#WSOFT共通フッターを読み込んでいるため非表示
-disable_footer : true
 
 plugins:
     - search:
@@ -41,7 +42,6 @@ plugins:
         min_search_length: 2
     - mermaid2
     - git-revision-date
-    #- macros
     - awesome-pages
     - git-authors:
         show_email_address: true

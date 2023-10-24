@@ -59,4 +59,4 @@ for(;;)
 }
 ```
 
-要素の過不足があった場合には、[0x029](../../general/exception.md)エラーが、「for文はfor(init; condition; loopStatement;)の形である必要があります」というメッセージで発生します。
+要素の過不足があった場合には、[0x029](../../general/exceptions/index.md)エラーが、「for文はfor(init; condition; loopStatement;)の形である必要があります」というメッセージで発生します。

@@ -4,7 +4,7 @@ summary : この記事では、WindowsやLinux、macOS端末のSoftEtherからWS
 ---
 
 ### はじめに
-Windows環境では、SoftEtherを使用してWSNET/WANに接続することができます。Windows環境では**SoftEtherを使用してWSWANに接続する**ことをおすすめします。
+Windows環境では、SoftEtherを使用してWSNET/WANに接続できます。Windows環境では**SoftEtherを使用してWSWANに接続する**ことをおすすめします。
 AndroidやiOSなど、SoftEtherがサポートされない環境では[OpenVPNを使用してWSWANに接続する](./connetct-from-openvpn.md)こともできます。
 
 初めにSoftEtherダウンロードセンターから各プラットフォームのSoftEther VPNClientをダウンロードしてください。
@@ -34,7 +34,7 @@ SoftEtherVPNClientがインストールされている環境で**SoftEtherVPN �
 
 **ユーザー認証**は、標準パスワード認証を使用できます。WSWANのユーザー名とパスワードを指定してください。
 
-**IPアドレスメッセージを非表示**にすることができます。
+**IPアドレスメッセージを非表示**にできます。
 
 ### 接続
 完成した接続設定を右クリックし、**接続**を押して接続できます。

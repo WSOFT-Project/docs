@@ -141,7 +141,7 @@ disable_tools : true
         <div class="card-body">
             <h5 class="card-title">あみうは</h5>
             <div class="card-text">
-                <p>ライフハックからガジェットまで様々なことをつぶやくブログです。</p>
+                <p>ライフハックからガジェットまでさまざまなことをつぶやくブログです。</p>
                 <p>従来あみうはのブログで掲載されていた記事を閲覧できます。</p>
             </div>
         </div>
