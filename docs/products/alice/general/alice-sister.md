@@ -13,7 +13,7 @@ ALiceSisterはアプリケーションに次の機能を提供します。
 
 !!!note "注意"
     AliceSisterは、AliceScriptの開発に追従して、AliceModelの実装に加え、できるだけAliceScriptと同じ機能が提供されます。
-    現在のところAliceSisterは引き続き開発され、それが終了する予定はありません。すでに開発されているAliceSister専用アプリは移行する必要はありませんが、新規開発においてはできるだけAliceModelの各実装に依存しないコードを使うとともに、ターゲットの限定が必要な場合はAliceScriptをご使用されることをお勧めします。
+    現在のところAliceSisterは引き続き開発され、それが終了する予定はありません。すでに開発されているAliceSister専用アプリは移行する必要はありませんが、新規開発においてはできるだけAliceModelの各実装に依存しないコードを使うとともに、ターゲットの限定が必要な場合はAliceScriptをご使用されることをオススメします。
 
 ### ユーザーにとってのAliceSister
 AliceScriptアプリを開発しなくても、それを使用するユーザーはAliceSisterやその操作に関する知識を持つ必要はありません。ほとんどの場合、AliceSisterはユーザーにとっては完全に透過的に機能します。
@@ -21,7 +21,7 @@ AliceScriptアプリを開発しなくても、それを使用するユーザー
 ユーザーの皆さんがこのページに辿り着いたほとんどの理由は、コンピューターAliceSisterのインストールが必要などと言われているからでしょう。このセクションでは、AliceSisterを導入して、AliceSisterが必要なアプリケーションを動作させる方法を解説します。
 
 #### .NETFrameworkの導入
-まず、あなたのコンピューターAliceSisterを導入する前に、コンピューター.NETFramework4.5.2以降がインストールされている必要があります。これは、Windows10以降でデフォルト、Windowws7以降でWindowsUpdateを介して導入されているようですが、もしインストールされていない場合は手動でインストールする必要があるかもしれません。.NETFrameworkの導入に関する質問は、WSOFTで対応することができません。次のMicrosoftのガイドを参照してください。
+まず、あなたのコンピューターAliceSisterを導入する前に、コンピューター.NETFramework4.5.2以降がインストールされている必要があります。これは、Windows 10以降でデフォルト、Windows 7以降でWindowsUpdateを介して導入されているようですが、もしインストールされていない場合は手動でインストールする必要があるかもしれません。.NETFrameworkの導入に関する質問は、WSOFTで対応することができません。次のMicrosoftのガイドを参照してください。
 
 - [.NETFramework インストールガイド](https://learn.microsoft.com/ja-jp/dotnet/framework/install/)
 - [インストールされている .NET Framework バージョンを確認する](https://learn.microsoft.com/ja-jp/dotnet/framework/migration-guide/how-to-determine-which-versions-are-installed)

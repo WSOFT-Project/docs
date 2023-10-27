@@ -1,13 +1,13 @@
 ---
 title: 初めてのAliceScript
 summary: この記事では、AliceScriptの動作環境を構築し、お使いの任意のエディタとAliceScriptADKを使用してAliceScriptコンソールアプリケーションを作成して実行する方法を示します
-date : 2021-12-25
+date : 2021-11-19
 ---
 ### はじめに
 AliceScriptは、軽量な.NETエコシステム上で動作するインタプリタ型のプログラミング言語です。AliceScriptはC#やPythonをルーツとしているため、C、C#、JavaScript、Pyhton、PHPのプログラマーであればすぐに使いこなすことができます。
 AliceScriptについて詳しく知るには、[AliceScriptのツアー](../welcome)を参照してください。
 
-この記事では、まず最初にAliceScriptで開発を始めるために必要な作業を確認します。(すでにAliceScriptを使用している場合はこのセクションを飛ばしても構いません)。
+この記事では、はじめににAliceScriptで開発を始めるために必要な作業を確認します。(すでにAliceScriptを使用している場合はこのセクションを飛ばしても構いません)。
 次に、AliceScriptを使って簡単なコンソールアプリケーションを例として作成し、AliceScriptの基本的な事項を解説します。
 
 ### 動作環境の構築
@@ -19,7 +19,7 @@ AliceScriptを使用したアプリケーションの開発についての説明
 どちらの場合でも、`alice-win-xxx.exe`といったファイルを用意し、自身のコンピューター合った形式のものを`alice.exe`に名前変更します。
 
 !!!tip "環境の判別"
-    あなたが使用しているOSがWindowsで、IntelやAMD製のプロセッサを使用している(これはコンピューター貼ってあるステッカーで判別できます)場合、64ビットであればwin-x64を、32ビット(これはよく古いコンピューター採用されています)であればwin-x86を選択します。また、Windows10ARMを使用している場合はwin-arm64を選択します。
+    あなたが使用しているOSがWindowsで、IntelやAMD製のプロセッサを使用している(これはコンピューター貼ってあるステッカーで判別できます)場合、64ビットであればwin-x64を、32ビット(これはよく古いコンピューター採用されています)であればwin-x86を選択します。また、Windows 10/11 ARMを使用している場合はwin-arm64を選択します。
 
 !!!note "サポートされるプラットフォーム"
     Losettaは、次のプラットフォームをサポートします。
@@ -58,7 +58,7 @@ curl -OL https://download.wsoft.ws/<Download_ID>/Download
 |WS150|Windows-ARM64|
 |WS151|Windows-ARM|
 
-例えば、64ビット環境のLinuxにLosettaを導入するには、次のようなコマンドを実行します。
+たとえば、64ビット環境のLinuxにLosettaを導入するには、次のようなコマンドを実行します。
 
 ```bash title="シェル"
 curl -OL https://download.wsoft.ws/WS144/Download
@@ -81,7 +81,7 @@ alice version
 AliceScript バージョン <SAIM_Version> (Losetta <IMPL_Version> on Unix)
 ```
 
-### 初めてのAliceScriptの実行
+### はじめてのAliceScriptの実行
 `alice`コマンドを実行して、対話実行モードに入ります。次に、以下のようなコマンドを入力します。
 
 ```cs title="AliceScript"

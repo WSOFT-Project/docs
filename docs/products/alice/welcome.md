@@ -1,7 +1,7 @@
 ---
 title: AliceScriptのツアー
 summary: AliceScriptとAliceProjectへようこそ
-date : 2021-12-25
+date : 2021-07-24
 ---
 ### はじめに
 AliceScript(アリススクリプトと読みます)は、軽量な.NETエコシステム上で動作するインタプリタ型のプログラミング言語です。

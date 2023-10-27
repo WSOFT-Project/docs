@@ -1,11 +1,11 @@
 ---
 title: WSOFTScriptからの移行
 summary: この記事では、AliceScriptによる開発と従来のWSOFTScriptによる開発の類似点と相違点について説明します。
-date : 2021-12-25
+date : 2021-11-15
 ---
 
 !!! warning
-    WSOFTScriptバージョン2020LTSおよび0.07R4以降、新たなバージョンのWSOFTScriptの開発は行われません。WSOFTは、2022年6月18日に、全てのWSOFTScriptおよびWSOFTScript.XならびにWSOFTScript.Pocketの各バージョンのサポートを終了します。
+    WSOFTScriptバージョン2020LTSおよび0.07R4以降、新たなバージョンのWSOFTScriptの開発は行われません。WSOFTは、2022年6月18日に、すべてのWSOFTScriptまたはWSOFTScript.XならびにWSOFTScript.Pocketの各バージョンのサポートを終了します。
 
 今後のWSOFTScriptのサポートについては[WSOFTScriptのライフサイクル](../../script/lifecycle)を参照してください。
 
@@ -16,17 +16,17 @@ AliceScriptが登場するまで、簡易的なコンソールアプリケーシ
 
 AliceScriptが登場し、従来のWSOFTScriptはAliceScriptへと進化しました。AliceScriptのさまざまな改良により、ライブラリは小さくまとまり、組み込みの例外処理やデバッグ支援機能も実装され、信頼性の高いアプリケーションを開発することができるようになりました。しかしその一方で、WSOFTScriptに実装されていた一部の機能は実装されていなかったり、多くの組み込み機能を使用するためにAlice.Runtime.dllが必要になるなど、設計思想に起因するいくつかの根本的な違いも残っています。
 
-この記事では、まず最初にAliceScriptで開発を始めるために必要な作業を確認します。(すでにAliceScriptを使用している場合はこのセクションを飛ばしても構いません)。次に、AliceScriptを使って簡単なコンソールアプリケーションを例として作成し、WSOFTScriptとAliceScriptの機能の類似点や相違点を実際に見てみます。
+この記事では、はじめににAliceScriptで開発を始めるために必要な作業を確認します。(すでにAliceScriptを使用している場合はこのセクションを飛ばしても構いません)。次に、AliceScriptを使って簡単なコンソールアプリケーションを例として作成し、WSOFTScriptとAliceScriptの機能の類似点や相違点を実際に見てみます。
 
 ### AliceScriptを使用するための準備
 AliceScriptを使用したアプリケーションの開発についての説明の前に、まず、Losettaを実行できるコンピューター用意する必要があります。Losettaを実行するために追加で必要なランタイムなどはありません。Losettaのランタイムは自己完結型で機能します。
 
 自分のコンピューターAliceScriptを実行する場合は、AliceScriptをコンピューターインストールする必要があります。AliceScriptをインストールする方法については[初めてのAliceScript](./begining-alice.md)を参照してください。
 
-### 初めてのAliceScriptアプリケーションの作成
-AliceScriptアプリケーションは、WSOFTScriptアプリケーションと同じように、任意のテキストエディタで作成できます。
+### はじめてのAliceScriptアプリケーションの作成
+AliceScriptアプリケーションは、WSOFTScriptアプリケーションと同じように、任意のテキストエディターで作成できます。
 
-それでは早速、簡単なコンソールアプリケーションをAliceScriptで作成して、AliceScriptアプリケーションの作成方法のWSOFTScriptとの違いについて実際に見てみましょう。任意のテキストエディタで次のコードを入力してください。
+それでは早速、簡単なコンソールアプリケーションをAliceScriptで作成して、AliceScriptアプリケーションの作成方法のWSOFTScriptとの違いについて実際に見てみましょう。任意のテキストエディターで次のコードを入力してください。
 
 ```js title="main.alice"
 print("Hello,World!");
@@ -61,10 +61,10 @@ using Alice.IO;
 file_write_text("test.txt","Hello,World");
 ```
 
-注目すべき唯一の違いは、関数の呼出前に`using`関数が呼び出されていることです。`using`関数は特別な関数で、指定した名前空間から関数群を読み込むことを事前に宣言します。これが、WSOFTScriptでも関数表現`import("WSOFTScript.Shangrila");`や、フラグ表現`[Import:"WSOFTScript.Shangrila"]`と決定的に異なる点は、`using`がファイルを読み込むのではなく、すでに読み込まれたライブラリから名前空間を使用可能なように読み込む点です。AliceScriptでも、ファイルを読み込む際には`import("ファイル名");`が必要です。
+注目すべき唯一の違いは、関数の呼出前に`using`関数が呼び出されていることです。`using`関数は特別な関数で、指定した名前空間から関数群を読み込むことを事前に宣言します。これが、WSOFTScriptでも関数表現`import("WSOFTScript.Shangrila");`や、フラグ表現`[Import:"WSOFTScript.Shangrila"]`と決定的に異なる点は`using`がファイルを読み込むのではなく、すでに読み込まれたライブラリから名前空間を使用可能なように読み込む点です。AliceScriptでも、ファイルを読み込む際には`import("ファイル名");`が必要です。
 
 ### 関数とフラグ
-ところで、AliceScriptにはWSOFTScriptに実装されているようなフラグ機能はありません。インタプリタに事前に報告すべき情報がある場合は、[前処理指令](../general/preprocessor-directive.md)を使用します。例えば、次のフラグの機能を、AliceScriptで表現することを考えます。
+ところで、AliceScriptにはWSOFTScriptに実装されているようなフラグ機能はありません。インタプリタに事前に報告すべき情報がある場合は、[前処理指令](../general/preprocessor-directive.md)を使用します。たとえば、次のフラグの機能を、AliceScriptで表現することを考えます。
 
 ```js title="load.wss"
 print("Hello,World!");
@@ -101,7 +101,7 @@ function override Func()
 Func();//出力:World
 ```
 
-また、AliceScriptの関数は可変長個の引数を受け取ることができる、`params`パラメータをサポートしています。これは、その関数に幾つでも引数を渡すことが可能であることを表しています。次に例を示します。
+また、AliceScriptの関数は可変長個の引数を受け取ることができる、`params`パラメーターをサポートしています。これは、その関数に幾つでも引数を渡すことが可能であることを表しています。次に例を示します。
 
 ```js title="override_sample.alice"
 function Func(parms args)
@@ -132,7 +132,7 @@ public const gconst b = 2;
 変数について詳しく知るには、変数を参照してください。
 
 ### 繰り返し構造の違い
-AliceScriptでは、WSOFTScriptとは異なり完全なfor文とforeach文の分離が図られました。AliceScriptでは配列から一つ一つ取り出して実行するためにfor文を使用することはできません。また、foreach(item as array)や、foreach(item : array)の形は使用できなくなりました。foreach(item in array)を使用することを検討してください。また、array.Foreach(delegate(item));の形も使用できます。次の例を参照してください。
+AliceScriptでは、WSOFTScriptとは異なり完全なfor文とforeach文の分離が図られました。AliceScriptでは配列からひとつひとつ取り出して実行するためにfor文を使用することはできません。また、`foreach(item as array)`や、`foreach(item : array)`の形は使用できなくなりました。代わりに`foreach(item in array)`を使用してください。`array.Foreach(delegate(item));`の形も使用できます。次の例を参照してください。
 
 ```js title="sample_loop.alice"
 var ary = ["a","b","c"];
@@ -145,7 +145,7 @@ ary.Foreach(item=>
  //    c
 ```
 
-さらに、Alice2.2からは高度な配列操作が導入されました。例えば、重複している可能性のある数値に変換できる文字列と数字を含む2つの配列を一つにまとめ、なおかつ重複を除くには以下のような複雑なコードが必要でした。
+さらに、Alice2.2からは高度な配列操作が導入されました。たとえば、重複している可能性のある数値に変換できる文字列と数字を含む2つの配列をひとつにまとめ、なおかつ重複を除くには以下のような複雑なコードが必要でした。
 
 ```js title="sample_array.wss"
 import("WSOFTScript.IO");
@@ -220,7 +220,7 @@ print(condition.type);//出力例:BOOLEAN
 ```
 
 #### Type型
-AliceScriptには変数の型を表現するtype型が存在します。全ての変数はTypeプロパティを実装していて、その変数の型を表す値を取得できます。これはWSOFTScriptのTypeプロパティに似ています。しかし、WSOFTScriptのTypeプロパティはtype型ではなくstring型でその値を表す文字列表現を返します。string、number、boolキーワードなどはそれぞれの型の値を表す定数です。また、型変換演算子asを使用することでその型に変数を明示的に変換できます。次に例を示します。
+AliceScriptには変数の型を表現するtype型が存在します。すべての変数はTypeプロパティを実装していて、その変数の型を表す値を取得できます。これはWSOFTScriptのTypeプロパティに似ています。しかし、WSOFTScriptのTypeプロパティはtype型ではなくstring型でその値を表す文字列表現を返します。string、number、boolキーワードなどはそれぞれの型の値を表す定数です。また、型変換演算子asを使用することでその型に変数を明示的に変換できます。次に例を示します。
 ```js title="sample_type.alice"
 var num = 123;
 print(num.type);//出力例:NUMBER
