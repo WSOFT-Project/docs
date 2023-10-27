@@ -1,6 +1,6 @@
 ---
 title: math_fusedmultiplyadd
-summary: 一つの三項演算として丸められた、(x*y)+zを返します。
+summary: ひとつの三項演算として丸められた、(x*y)+zを返します。
 ---
 
 ### 定義
@@ -8,7 +8,7 @@ summary: 一つの三項演算として丸められた、(x*y)+zを返します�
 
 属性: 関数
 
-一つの三項演算として丸められた、(x*y)+zを返します。
+ひとつの三項演算として丸められた、(x*y)+zを返します。
 
 ```cs title="AliceScript"
 namespace Alice.Math;
@@ -23,7 +23,7 @@ number math_fusedmultiplyadd(number x,number y,number z);
 
 |戻り値| |
 |-|-|
-|`number`|一つの三項演算として丸められた、(x*y)+z。|
+|`number`|ひとつの三項演算として丸められた、(x*y)+z。|
 
 !!!warning "実装の非互換性"
     この関数はAliceSisterでは実装されていません。LosettaやAliceScriptを使用することを検討してください。

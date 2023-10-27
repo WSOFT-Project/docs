@@ -20,7 +20,7 @@ AlicePackage関連付け支援ツールは、この問題を簡単に解決す�
 !!!tip "alice.exeの配置場所"
     AlicePackage関連付け支援ツールは、事前にどこかのディレクトリに`alice.exe`が配置されていることを前提としています。[ダウンロードセンター](https://download.wsoft.ws/AliceScript)から必要なAliceScript実装をダウンロードし、他のユーザーでも使用する場合はそのユーザーでもアクセスできる場所（たとえば、`C:\Program Files`）などに保存してください。
 
-ダブルクリックして実行した後、画面のガイドに従って操作すれば、ファイルを関連付けることができます。
+ダブルクリックして実行した後、画面のガイドにしたがって操作すれば、ファイルを関連付けることができます。
 
 ```cmd title="RegistAliceCMD.exe"
 AlicePackageファイル関連付け支援ツール

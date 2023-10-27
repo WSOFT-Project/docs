@@ -12,7 +12,7 @@ AliceScriptGMまでのバージョンの開発は、Nightyビルドとして一�
 ## AliceScript RC1まで
 ### AliceScript925の変更点
 
-- 配列から一つずつ取り出して処理するforeach文が導入されました。
+- 配列からひとつずつ取り出して処理するforeach文が導入されました。
 - for文で配列を扱うことはできなくなりました。代わりにforeach文を使用することを検討してください。
 - foreach(var : ary)またはforeach(var of ary)の形は使用できなくなりました。同じ方法をとるとき、複数の方法が存在するのは好ましくありません。代わりにforeach(var in ary)の形を使用することを検討してください。
 - 一部の例外の文言表現を改良しました。

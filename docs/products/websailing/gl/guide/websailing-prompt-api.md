@@ -6,7 +6,7 @@ date : 2019-03-25
 !!! warning "サポート終了"
     WebSailing GLシリーズのサポートはすでに終了しています。WSOFTはこのソフトウェアを実行して起こったいかなる事象についても責任を負いかねます。
 
-WebSailingプロンプトはあまり使われていない機能の一つだと思いますが、実は2.1アップデートで大きく機能性が拡充されました。今回はそんなWebSailingプロンプトのコマンドを見ていきましょう。
+WebSailingプロンプトはあまり使われていない機能のひとつだと思いますが、実は2.1アップデートで大きく機能性が拡充されました。今回はそんなWebSailingプロンプトのコマンドを見ていきましょう。
 
 ```js title="WebSailingプロンプト"
 api get （ダウンロードしたいAPI名）
@@ -14,7 +14,7 @@ api get （ダウンロードしたいAPI名）
 
 まず初めに紹介するのはapiコマンドです。このコマンドはWebSailingのサーバーから拡張コマンド（以下API）をダウンロードするときに使います。
 
-例えば、
+たとえば、
 
 ```js title="WebSailingプロンプト"
 api get hello
@@ -42,7 +42,7 @@ api get admins
 admins （管理者権限で実行したいAPPI名）
 ```
 
-です。例えばadminsについてくる管理者権限確認ツールのadminkを実行してみましょう
+です。たとえばadminsについてくる管理者権限確認ツールのadminkを実行してみましょう
 
 ```js title="WebSailingプロンプト"
 admins admink

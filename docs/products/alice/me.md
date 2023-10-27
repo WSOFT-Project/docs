@@ -3,6 +3,7 @@ title : Alice(キャラクター)
 summary : Alice(ありす)はAliceProjectおよびその関連プロジェクトの公式アンバサダーである。
 author : matsuzen
 author_url : https://matsuzen.wsoft.ws/
+date : 2021-11-13
 ---
 
 <details>
