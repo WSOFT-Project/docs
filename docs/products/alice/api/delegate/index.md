@@ -15,70 +15,12 @@ namespace Alice;
 public class delegate
 ```
 
-### プロパティ
-|名前|説明|
-|---|---|
-|[Length](../array/length.md)|その変数の持つデータ長を表します|
-
-### メソッド
-|名前|説明|
-|---|---|
-|[BeginInvoke(params variable args)](./begininvoke.md)|現在のデリゲートに指定された引数を渡して非同期で実行します|
-|[Invoke(params variable args)](./invoke.md)|現在のデリゲートに指定された引数を渡して実行し、その戻り値を返します|
-|[Size()](../array/size.md)|その変数の持つデータ長を取得します|
-
-## delegate関数
-名前空間:Alice / アセンブリ : Losetta.Runtime.dll / サポート: AliceScript1
-
-属性: 関数の区切りの空白をサポート、言語構造
-
-指定された引数と処理を含むデリゲートを生成します。
-
-```cs title="AliceScript"
-public delegate delegate(params type args);
-```
-
-|引数| |
-|-|-|
-|`params type args`| 定義する関数に付与する引数と型（必要な場合）|
-
-|戻り値| |
-|-|-|
-|`delegate`| 生成されたデリゲート|
-
-名前空間:Alice / アセンブリ : Losetta.Runtime.dll / サポート: AliceScript1-2.1
-
-属性: 関数の区切りの空白をサポート、言語構造
-
-指定された引数と処理を含むデリゲートを生成します。
-```cs title="AliceScript"
-public delegate _(params type args);
-```
-
-!!!warning "サポート終了"
-    delegate関数の省略表現である`_`は、デリゲートの定義を簡潔に記述するためにWSOFTScript0.7R4で導入されました。しかしAliceScriptでは、後述するラムダ式が使用可能になったため、Alice2.2以降のバージョンではサポートされなくなりました。既存の`delegate`関数への影響はありません。
-
-|引数| |
-|-|-|
-|`params type args`| 定義する関数に付与する引数と型（必要な場合）|
-
-|戻り値| |
-|-|-|
-|`delegate`| 生成されたデリゲート|
-
-### 使用例
-以下は、Helloを表示する`sayHello`デリゲートを定義します。
-
-```cs title="AliceScript"
-var sayHello=delegate(){print("Hello");}
-```
-
 ## 説明
 デリゲートは、AliceScriptにおける"匿名関数"のメカニズムです。デリゲート型は匿名関数として、その場ですぐに実行したり、変数に代入したり、関数に引数として渡すことができます。
 
 あなたがもし、C言語やC++言語のプログラマーであれば、「デリゲートは関数ポインターと似たようなものである」と説明できます。
 
-たとえば、蔵書検索アプリケーションを作成することを考えてみましょう。この検索の条件は、それと完全に一致する、それを含む、それを含まない、の3つが用意されています。いずれの場合も、Search関数が行うことは基本的に同じです。つまり、何らかの条件に基づいて一連の蔵書から項目を検索します。しかし、条件に基づいて検索するコードはそれぞれの条件によって異なります。
+たとえば、蔵書検索アプリケーションを作成することを考えてみましょう。この検索の条件は、それと完全に一致するかそれを含む、それを含まない、の3つが用意されています。いずれの場合も、Search関数が行うことは基本的に同じです。つまり、何らかの条件に基づいて一連の蔵書から項目を検索します。しかし、条件に基づいて検索するコードはそれぞれの条件によって異なります。
 
 そのような場面でデリゲートを使うと、変数のように値を変更することでプログラムの実行中に処理内容を切り替えることができます。Search関数に関連づけられていいるデリゲートを変更すればよいのです。
 
@@ -244,4 +186,63 @@ Hello,World
 Hello,World
 Hello,World
 eキーを押下すると終了します
+```
+
+
+### プロパティ
+|名前|説明|
+|---|---|
+|[Length](../array/length.md)|その変数の持つデータ長を表します|
+
+### メソッド
+|名前|説明|
+|---|---|
+|[BeginInvoke(params variable args)](./begininvoke.md)|現在のデリゲートに指定された引数を渡して非同期で実行します|
+|[Invoke(params variable args)](./invoke.md)|現在のデリゲートに指定された引数を渡して実行し、その戻り値を返します|
+|[Size()](../array/size.md)|その変数の持つデータ長を取得します|
+
+## delegate関数
+名前空間:Alice / アセンブリ : Losetta.Runtime.dll / サポート: AliceScript1
+
+属性: 関数の区切りの空白をサポート、言語構造
+
+指定された引数と処理を含むデリゲートを生成します。
+
+```cs title="AliceScript"
+public delegate delegate(params type args);
+```
+
+|引数| |
+|-|-|
+|`params type args`| 定義する関数に付与する引数と型（必要な場合）|
+
+|戻り値| |
+|-|-|
+|`delegate`| 生成されたデリゲート|
+
+名前空間:Alice / アセンブリ : Losetta.Runtime.dll / サポート: AliceScript1-2.1
+
+属性: 関数の区切りの空白をサポート、言語構造
+
+指定された引数と処理を含むデリゲートを生成します。
+```cs title="AliceScript"
+public delegate _(params type args);
+```
+
+!!!warning "サポート終了"
+    delegate関数の省略表現である`_`は、デリゲートの定義を簡潔に記述するためにWSOFTScript0.7R4で導入されました。しかしAliceScriptでは、後述するラムダ式が使用可能になったため、Alice2.2以降のバージョンではサポートされなくなりました。既存の`delegate`関数への影響はありません。
+
+|引数| |
+|-|-|
+|`params type args`| 定義する関数に付与する引数と型（必要な場合）|
+
+|戻り値| |
+|-|-|
+|`delegate`| 生成されたデリゲート|
+
+### 使用例
+以下は、Helloを表示する`sayHello`デリゲートを定義します。
+
+```cs title="AliceScript"
+var sayHello=delegate(){print("Hello");}
 ```
