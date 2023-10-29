@@ -15,7 +15,7 @@ AliceScript/AliceSisterならびにその他WSOFTによるAliceScriptの実装�
 
 ```txt title="ライセンス"
 AliceScript/AliceSister/Alice.Runtime
-Copylight (c) 2021 - 2022 WSOFT, All rights reserved.
+Copyright (c) 2021 - 2022 WSOFT, All rights reserved.
 Released under the AliceEULA-R.
 ```
 
