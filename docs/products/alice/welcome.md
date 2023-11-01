@@ -45,9 +45,19 @@ AliceScriptを使用する上でもっとも優れている点は、初心者に
 ### 変数と型
 AliceScriptは、動的型付け言語です。さまざまな変数はその型によってその変数の持つ値や動作が決定されます。
 
-AliceScriptの型には数値を表す[number](./api/number/index.md)型、Unicode文字列を表す[string](./api/string/index.md)>型、真偽のどちらかを表す[bool](./api/bool/index.md)型、バイト配列を表す[bytes](./api/bytes/index.md)型、任意の型による変数を持つ配列を表す[array](./api/array/index.md)型、空の変数であることを表す[none](./api/none/index.md)型、列挙型<code>enum E{…}</code>、[delegate](./api/delegate/index.md)型、ユーザー定義によるクラスを表す<code>object</code>型があります。
+以下は、AliceScriptに標準で備わっている型の概要です。
 
-型システムについて詳しく知るには変数の型の記事を参照してください。
+|型名|概要|
+|---|---|
+|[number](./api/number/index.md)|整数や小数などの実数を表します|
+|[bool](./api/bool/index.md)|`true`か`false`のどちらかの値を表します|
+|[string](./api/string/index.md)|テキストを表します|
+|[bytes](./api/bytes/index.md)|バイナリデータ配列を表します|
+|[array](./api/array/index.md)|任意の型で構成される変数のリストを表します|
+|[none](./api/none/index.md)|空の値であることを表します|
+|[delegate](./api/delegate/index.md)|関数や処理のまとまりを表します|
+
+型システムと変数の使用についての詳細については、[変数](./general/variable.md)の記事を参照してください。
 
 ### デプロイモデル
 AliceScriptアプリは、次の2つの異なる形式で公開できます。
