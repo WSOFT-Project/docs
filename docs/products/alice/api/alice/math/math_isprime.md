@@ -22,3 +22,18 @@ bool math_isprime(number value);
 |戻り値| |
 |-|-|
 |`number`|`value`が素数であれば`true`、それ以外の場合は`false`。|
+
+### 例
+次の例では、一桁の自然数のうち、素数のものを表示しています。
+
+```cs title="AliceScript"
+using Alice.Math;
+
+for(number n = 0;n < 10; n++)
+{
+    if(math_isPrime(n))
+    {
+        print(n);
+    }
+}
+```

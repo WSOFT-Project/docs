@@ -29,5 +29,5 @@ bool math_isPositiveInfinity(number value);
 ```cs title="AliceScript"
 using Alice.Math;
 
-print("{0} / {1} == {2}",3,0,math_isPositiveInfinity(3/0));
+print($"{3} / {0} == {math_isPositiveInfinity(3/0)}"):
 ```
