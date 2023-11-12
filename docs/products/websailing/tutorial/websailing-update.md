@@ -8,7 +8,7 @@ WebSailingを常に最新版に保つことは、セキュリティの向上と�
 
 WebSailing NX 119以降のWebSailingには、WebSailing Updateが搭載されています。WebSailing Updateを使用すると、簡単な操作でWebSailingを最新版にアップデートできます。
 
-WebSailing NX 120以降のWebSailingでは、以下のように最新版のWebSailingが使用可能になった際にホーム画面でお知らせが表示されます。
+WebSailing NX 120以降のWebSailingでは、以下のように最新版のWebSailingが使用可能になった際にホーム画面でお知らせが表示されるか、バックグラウンドで自動的に更新が始まります。
 
 ![お知らせ](./media/6.png)
 
