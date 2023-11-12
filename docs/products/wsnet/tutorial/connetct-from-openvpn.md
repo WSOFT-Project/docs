@@ -4,7 +4,7 @@ summary : この記事では、AndroidやiOS端末などのOpenVPNクライア�
 ---
 
 ### はじめに
-AndroidやiOS、macOSやLinux、Windowsなど、OpenVPNはさまざまなプラットフォームでサポートされています。特にSoftEtherがサポートされていないAndroidやiOSなどの環境ではOpenVPNを使用して接続することが必要です。Windows環境では[SoftEtherを使用してWSWANに接続する](./connect-from-softether.md)ことをおすすめします。
+AndroidやiOS、macOSやLinux、Windowsなど、OpenVPNはさまざまなプラットフォームでサポートされています。とくにSoftEtherがサポートされていないAndroidやiOSなどの環境ではOpenVPNを使用して接続することが必要です。Windows環境では[SoftEtherを使用してWSWANに接続する](./connect-from-softether.md)ことをオススメします。
 
 初めに各プラットフォームのOpenVPNクライアントを端末にインストールしてください。
 
@@ -25,7 +25,7 @@ AndroidやiOS、macOSやLinux、Windowsなど、OpenVPNはさまざまなプラ�
 一般の方は、設定ファイルの編集は不要です。次のセクションに進んでください。
 
 #### 設定ファイルの編集
-上級ユーザーに向けて、設定ファイルの編集方法を説明します。まずダウンロードした設定ファイルを任意のエディタで開きます。
+上級ユーザーに向けて、設定ファイルの編集方法を説明します。まずダウンロードした設定ファイルを任意のエディターで開きます。
 
 ##### VPNレイヤーの変更
 設定ファイル7行目に以下の記述があります。
