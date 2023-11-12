@@ -59,7 +59,7 @@ using Alice.Diagnostics;
 
 var a = 1;
 var b = 2;
-debug_print(“a+b=”+(a+b));
+debug_print("a+b="+(a+b));
 
 //出力:a+b=3
 ```
@@ -72,5 +72,5 @@ using Alice.Diagnostics;
 var a = 1;
 var b = 2;
 
-debug_print(“a+b={0}”,a+b);
+debug_print("a+b={0}",a+b);
 ```
