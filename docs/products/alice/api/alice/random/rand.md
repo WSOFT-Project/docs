@@ -56,10 +56,29 @@ number rand(number min,number max);
 暗号学的に安全な乱数が必要な場合は、[random_int](./random_int.md)か[random_bytes](./random_bytes.md)関数が、便利で安全です。しかし、それらの方法はこの関数を使用した方法と比較すると非常に低速になります。
 
 ### 例
-次の例では、乱数を表示しています。
+次の例では、乱数を生成し表示しています。
 
 ```cs title="AliceScript"
 using Alice.Random;
 
-print(rand());
+number r = rand();
+print(r);
+```
+
+次の例では、`30`以下の乱数を生成し表示しています。
+
+```cs title="AliceScript"
+using Alice.Random;
+
+number r = rand(30);
+print(r);
+```
+
+次の例では、`10`以上`30`以下の乱数を生成し表示しています。
+
+```cs title="AliceScript"
+using Alice.Random;
+
+number r = rand(10,30);
+print(r);
 ```

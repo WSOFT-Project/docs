@@ -27,7 +27,7 @@ order : 11
 |Glitnir|グリトニル|ws-js||
 |[GLTerminal](../products/websailing/gl/guide/command-reference.md)|WebSailingプロンプト|ws-cmd|WebSailing|
 |[Lantana](https://lantana.wsoft.ws/)|たぴおか|tapioca|WSOFTDocs|
-|[Losetta](../products/alice/general/../changelog/losetta/index.md)|WSOFTScript|losetta|AliceScript|
+|[Losetta](https://github.com/WSOFT-Project/Losetta)|WSOFTScript|losetta|AliceScript|
 |MicroAlice|Alice-SE|minialice|AliceScript|
 |MediaViewPlugin|Shangri-la Media|mp4pl|Shangri-la Studio|
 |OpenSailing|比叡OSS|ws-hiei-oss|WebSailingNX|
@@ -86,7 +86,7 @@ order : 11
 |WSProgramer NX|WSEditNX|cs-edit||
 |WSProgramer 2020|WSEdit20|cs-edit||
 |[WSMine](https://wsoft.ws/mine)|京都工学院マインスイーパー|mine||
-|WSVBSエディタ|WSEdit|vbs-edit||
+|WSVBSエディター|WSEdit|vbs-edit||
 |[統合WSOFTネットワーク](../products/wsnet/index.md)|WSNET|WSNET||
 |[広域WSOFTネットワーク](../products/wsnet/index.md)|WSWAN|WSWAN|WSNET|
 |セキュリティが強化されたWSOFTイメージング環境|wsi|wsimg|WebSailing|

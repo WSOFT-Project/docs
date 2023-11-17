@@ -7,7 +7,7 @@ author_url : https://github.com/WSOFT-Project
 disable_edit : true
 order : 999
 ---
-**Copylight (c) 2022 WSOFT All rights reserved.**
+**Copyright (c) 2022 WSOFT All rights reserved.**
 
 最終更新日:2022年6月26日
 

@@ -23,7 +23,7 @@ variable interpreter_getVariable(string name);
 |-|-|
 |`variable`|名前が`name`の変数または定数の値。|
 
-`name`という名前の変数または定数が現在のスクリプトかグローバルに存在しない場合は[0x004](../../../general/exception.md)例外が発生します。
+`name`という名前の変数または定数が現在のスクリプトかグローバルに存在しない場合は[0x004](../../../general/exceptions/index.md)例外が発生します。
 
 ### 例
 次の例では、`a`という名前の変数を定義し、その値を名前を指定して取得します。

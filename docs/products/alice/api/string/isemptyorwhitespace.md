@@ -1,6 +1,7 @@
 ---
-title: IsEmptyOrWhite
+title: IsEmptyOrWhiteSpace
 summary: 現在の文字列が空か、あるいは空白文字のみであるかどうかを示す値を取得します
+date : 2021-12-09
 ---
 ### 定義
 名前空間:Alice / アセンブリ : Losetta.dll / サポート: AliceScript1
@@ -9,7 +10,7 @@ summary: 現在の文字列が空か、あるいは空白文字のみである�
 
 ```cs title="AliceScript"
 namespace Alice;
-bool IsEmptyOrWhite();
+bool IsEmptyOrWhiteSpace();
 ```
 
 |戻り値| |
@@ -21,5 +22,5 @@ bool IsEmptyOrWhite();
 
 ```cs title="AliceScript"
 var a = "Hello,World";
-print(a.IsEmptyOrNull()); 
+print(a.IsEmptyOrWhiteSpace()); 
 ```

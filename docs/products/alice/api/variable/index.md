@@ -31,5 +31,5 @@ AliceScriptのすべてのオブジェクトは`variable`から派生してい�
 |[Clone()](./clone.md)|その変数の簡易コピー（シャローコピー）を取得します|
 |[Convert(variable type)](./convert.md)|その変数を指定された型に明示的に変換します。変換に失敗した場合は`null`を返します|
 |[DeepClone()](./deepclone.md)|その変数の厳格コピー（ディープコピー）を取得します|
-|[Equals(variable other)](./equals.md)|その変数ともう一つの変数が等しいかどうかを判断します|
+|[Equals(variable other)](./equals.md)|その変数ともうひとつの変数が等しいかどうかを判断します|
 |[ToString()](./tostring.md)|その変数の文字列表現を取得します|

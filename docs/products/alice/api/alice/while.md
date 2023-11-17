@@ -13,7 +13,7 @@ date : 2023-08-07
 
 ```cs title="AliceScript"
 namespace Alice;
-void while(Exception condition);
+void while(Expression condition);
 ```
 
 |引数| |
@@ -22,9 +22,10 @@ void while(Exception condition);
 
 ### 基本
 `while`文は、指定された条件式が`true`と評価されている間、本文を実行します。
-ループ前に条件式を評価するため、`while`文は0回以上実行されます。
-`while`文は、1回以上実行される[do](./do.md)文とは異なります。
+ループ前に条件式を評価するため、`while`文は実行されない可能性があります。
+このため、`while`文は、1回以上実行される[do](./do.md)文とは異なります。
 
+### 例
 次の例では、`while`文を使用して`0`から`4`までをカウントします。
 
 ```cs title="AliceScript"
@@ -35,4 +36,13 @@ while (n < 5)
     n++;
 }
 //出力例:01234
+```
+
+次の例は、無限に`Hello,World`が出力されます。
+
+```cs title="AliceScript"
+while(true)
+{
+    print("Hello,World");
+}
 ```

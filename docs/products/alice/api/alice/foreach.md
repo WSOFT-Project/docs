@@ -33,4 +33,4 @@ foreach(var element in fibNumbers)
 //出力例:0,1,1,2,3,5,8,13
 ```
 
-要素の過不足があった場合には、[0x029](../../general/exception.md)エラーが、「foreach文はforeach(variable in array)の形をとるべきです」というメッセージで発生します。
+要素の過不足があった場合には、[0x029](../../general/exceptions/index.md)エラーが、「foreach文はforeach(variable in array)の形をとるべきです」というメッセージで発生します。

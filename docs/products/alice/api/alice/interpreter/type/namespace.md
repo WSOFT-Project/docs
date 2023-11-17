@@ -14,7 +14,7 @@ readonly string Namespace;
 ```
 
 ### 例
-以下は、[String](../../string/index.md)型の所属する名前空間を取得します。
+以下は、[String](../../../string/index.md)型の所属する名前空間を取得します。
 
 ```cs title="AliceScript"
 print(string.Namespace); // 出力例 : 

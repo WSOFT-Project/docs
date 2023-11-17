@@ -35,6 +35,6 @@ $cos(0^\circ)$の値は`1`と定義されています。
 ```cs title="AliceScript"
 using Alice.Math;
 
-var v=0;
-print(math_acos(v)); // 出力例 : 1
+number cosValue = 0;
+print(math_acos(cosValue)); // 出力例 : 1
 ```

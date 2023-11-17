@@ -4,7 +4,7 @@ summary : この記事では、WebSailingNXのWebSailingGL互換機能でNXツ�
 date : 2020-01-17
 ---
 
-WebSailing GL in WebSailing NX（WebSailingGL互換機能）をホストするタブではNXツールを使用することができます。
+WebSailing GL in WebSailing NX（WebSailingGL互換機能）をホストするタブではNXツールを使用できます。
 
 ### 使用法
 既定の状態ではメニューボタンが表示されていません。++ctrl+m++を押してメニューボタン（左下＾のマーク）を表示させます。

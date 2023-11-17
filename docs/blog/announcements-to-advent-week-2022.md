@@ -21,7 +21,7 @@ WSOFTAdventWeek2022が終了しました。
 |[WSTodon](https://docs.wsoft.ws/products/wstodon/)|最近流行りのWeb3です。ちょっとだけ盛りました。WSOFTの運営するMastodonインスタンスで、つまるところSNSです。[メールアドレスなしでも登録](https://docs.google.com/forms/d/e/1FAIpQLSeTz3ieknBBoGW2zu_hDyr5uq-gtZbk3tdWjzCCW922kCeg7w/viewform)できたりします。|
 |[Losetta](https://github.com/WSOFT-Project/Losetta)|WindowsでもLinuxでもmacOSでも、とにかくいろいろな環境で動作するAliceScriptの実装です。オープンソースです。綴り間違えました。|
 |[AliceScript Web環境](https://try.alice.wsoft.ws/)|ブラウザでもAliceScriptは動作します。ちょっとだけ試してみたいあなたに。|
-|[UTF8-EveryThings](https://github.com/taiseiue/UTF8-EveryThings)|様々な文字コードのファイルをUTF-8に変換します。文字化けに悩む必要はもうないのかもしれません。|
+|[UTF8-EveryThings](https://github.com/taiseiue/UTF8-EveryThings)|さまざまな文字コードのファイルをUTF-8に変換します。文字化けに悩む必要はもうないのかもしれません。|
 |[Lantana 2.0](https://github.com/WSOFT-Project/lantana)|簡単にそこそこのクオリティのホームページを作成できます。もちろんオープンソースです。|
 |[AlicePackage関連付け支援ツール](/products/alice/tutorial/ice-to-association.md)|WindowsならAlicePackageをダブルクリックで実行できます。|
 

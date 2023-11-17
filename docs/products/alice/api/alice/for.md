@@ -50,7 +50,7 @@ for(;i < 0; i++)
 //出力例:012
 ```
 
-多くのプログラミング言語と異なり、すべての要素を省略した場合本文は**1度だけ**実行されます。
+ほかの多くのプログラミング言語と異なり、すべての要素を省略した場合本文は**1度だけ**実行されます。
 
 ```cs title="AliceScript"
 for(;;)
@@ -59,4 +59,4 @@ for(;;)
 }
 ```
 
-要素の過不足があった場合には、[0x029](../../general/exception.md)エラーが、「for文はfor(init; condition; loopStatement;)の形である必要があります」というメッセージで発生します。
+要素の過不足があった場合には、[0x029](../../general/exceptions/index.md)エラーが、「for文はfor(init; condition; loopStatement;)の形である必要があります」というメッセージで発生します。

@@ -1,11 +1,11 @@
 ---
 title: Equals
-summary: その変数ともう一つの変数が等しいかどうかを判断します
+summary: その変数ともうひとつの変数が等しいかどうかを判断します
 ---
 ### 定義
 名前空間:Alice / アセンブリ : Losetta.dll / サポート: AliceScript1
 
-その変数ともう一つの変数が等しいかどうかを判断します
+その変数ともうひとつの変数が等しいかどうかを判断します
 
 ```cs title="AliceScript"
 namespace Alice;

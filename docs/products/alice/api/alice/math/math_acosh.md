@@ -31,4 +31,12 @@ number math_acosh(number value);
 
 取得した弧度法でのラジアンを角度に変換するには、戻り値に`180/math_pi`を乗算します。
 
-逆双曲線余弦について作者はよくわかっていないので、使用例は割愛します。
+### 例
+次の例では、`2.0`の逆双曲線余弦を計算しています。
+
+```cs title="AliceScript"
+using Alice.Math;
+
+number inputValue  = 2.0;
+print(math_acosh(inputValue )); // 出力例 : 1.3169578969248166
+```

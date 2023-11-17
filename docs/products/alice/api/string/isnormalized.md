@@ -1,6 +1,7 @@
 ---
 title: IsNormalized
 summary: 現在の文字列が共通の正規化された形式であるかを示す値を取得します
+date : 2021-12-09
 ---
 ### 定義
 名前空間:Alice / アセンブリ : Losetta.dll / サポート: AliceScript1

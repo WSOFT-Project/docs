@@ -1,7 +1,7 @@
 ---
 title: API
 summary: WSOFTダウンロードセンターAPIは、WSOFTダウンロードセンターから提供されるリソースを他のプログラム等から呼び出し、ダウンロードや情報の取得をするためのAPIを提供します。 この記事は、WSOFTダウンロードセンターAPIを使用しようとしている技術者やソフトウェア開発者をターゲットにしています。
-date : 2022-7-6
+date : 2022-07-06
 ---
 ### はじめに
 WSOFTダウンロードセンターAPIは、WSOFTダウンロードセンター内のコンテンツやその情報を取得、検索する機能を提供するWebサービスです。APIの使用には、利用規約への同意が必要です。
@@ -22,7 +22,7 @@ https://api.wsoft.ws/download
 ```
 
 ### バージョンの取得
-次のリソースを開くと、WSOFTダウンロードセンターのバージョンまたはそのAPIのバージョンが取得できます。このメソッドにパラメータはありません。
+次のリソースを開くと、WSOFTダウンロードセンターのバージョンまたはそのAPIのバージョンが取得できます。このメソッドにパラメーターはありません。
 
 ```url title="Url"
 https://api.wsoft.ws/download/version.json
@@ -44,7 +44,7 @@ https://download.wsoft.ws/version.json
 }
 ```
 
-|パラメータ|説明|
+|パラメーター|説明|
 |---|---|
 |Product|プロダクト名。WSOFTダウンロードセンターの場合はWSOFTDownloadCenterが、WSOFTダウンロードセンターAPIの場合はWSOFTDownloadCenter.APIが返却されます。|
 |CodeName|コード名。現在、WSOFTダウンロードセンターの場合はchihayaが、WSOFTダウンロードセンターAPIの場合はchihayaⅡが返却されます。|
@@ -61,7 +61,7 @@ GETまたはPOSTメソッドを使用して、WSOFTダウンロードセンタ�
 https://api.wsoft.ws/download/resource
 ```
 
-|パラメータ|説明|
+|パラメーター|説明|
 |---|---|
 |id|取得したいコンテンツのダウンロードID|
 |key|取得したいコンテンツのダウンロードキー。この値は省略できます。|
@@ -86,11 +86,11 @@ GETまたはPOSTメソッドを使用して、WSOFTダウンロードセンタ�
 https://api.wsoft.ws/download/detail
 ```
 
-|パラメータ|説明|
+|パラメーター|説明|
 |---|---|
 |id|取得したいコンテンツのダウンロードID|
 |key|取得したいコンテンツのダウンロードキー。この値は省略できます。|
-|feature|取得したいコンテンツのパラメータ。この値は省略できます。|
+|feature|取得したいコンテンツのパラメーター。この値は省略できます。|
 
 #### 戻り値
 取得したコンテンツの情報がJSON形式で次のように返却されます。
@@ -117,7 +117,7 @@ https://api.wsoft.ws/download/detail
 }
 ```
 
-|パラメータ|説明|
+|パラメーター|説明|
 |---|---|
 |Status|取得に成功すればFoundが、ダウンロードIDが見つからない場合はNotFoundが、ダウンロードキーが異なる場合はWrong_DownloadKeyが、その他の例外が発生した場合はService_Unavailableが返却されます。|
 |Request_ID|要求したダウンロードID|
@@ -157,7 +157,7 @@ GETまたはPOSTメソッドを使用して、WSOFTダウンロードセンタ�
 https://api.wsoft.ws/download/seartch
 ```
 
-|パラメータ|説明|
+|パラメーター|説明|
 |---|---|
 |query|検索するクエリ|
 
@@ -173,7 +173,7 @@ https://api.wsoft.ws/download/seartch
 }
 ```
 
-|パラメータ|説明|
+|パラメーター|説明|
 |---|---|
 |Status|クエリに適合するコンテンツが見つかった場合はFoundが、見つからない場合はNotFoundが、ダウンロードキーが異なる場合はWrong_DownloadKeyが、その他の例外が発生した場合はService_Unavailableが返却されます。|
 |Request_Query|要求したクエリ|
@@ -201,7 +201,7 @@ https://api.wsoft.ws/download/seartch?query=*
 !!! note
     NotFoundエラーが発生した場合はHTTPステータスコード404が、それ以外の場合は200が返却されます。
 
-|パラメータ|説明|
+|パラメーター|説明|
 |---|---|
 |Status|エラーの内容。ダウンロードIDが見つからない場合はNotFoundが、ダウンロードキーが異なる場合はWrong_DownloadKeyが、その他の例外が発生した場合はService_Unavailableが返却されます。|
 |Request_ID|要求したダウンロードID|

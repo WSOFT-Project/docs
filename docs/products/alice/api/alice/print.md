@@ -19,7 +19,7 @@ void print();
 
 ```cs title="AliceScript"
 namespace Alice;
-command void print(string text);
+.command void print(string text);
 ```
 
 |引数| |
@@ -30,7 +30,7 @@ command void print(string text);
 
 ```cs title="AliceScript"
 namespace Alice;
-command void print(variable value);
+.command void print(variable value);
 ```
 
 |引数| |
@@ -41,7 +41,7 @@ command void print(variable value);
 
 ```cs title="AliceScript"
 namespace Alice;
-command void print(string format,params variable args);
+.command void print(string format,params variable args);
 ```
 
 |引数| |

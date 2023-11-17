@@ -32,6 +32,6 @@ number math_abs(number value);
 ```cs title="AliceScript"
 using Alice.Math;
 
-var v=-1;
-print(math_abs(v)); // 出力例 : 1
+number k = -1;
+print(math_abs(k)); // 出力例 : 1
 ```

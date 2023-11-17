@@ -32,9 +32,9 @@ bytes password_hash(string password,byte[] salt,int hash_size=32,int stretch_cou
 using Alice.Security;
 using Alice.IO;
 
-byte[] salt = password_salt();
+byte[] salt = password_getSalt();
 byte[] hash = password_hash("password",salt);
 
-file_write_data("password_salt.bin",salt);
+file_write_data("password_getSalt.bin",salt);
 file_write_data("password_hash.bin",hash);
 ```

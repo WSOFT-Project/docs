@@ -1,5 +1,5 @@
 ---
-title: password_verify_data
+title: password_verifyData
 summary: 指定されたデータが正しいかどうかをハッシュ値と照合し検証します。
 ---
 ### 定義
@@ -11,7 +11,7 @@ summary: 指定されたデータが正しいかどうかをハッシュ値と�
 
 ```cs title="AliceScript"
 namespace Alice.Net;
-byte[] password_verify_data(byte[] password,byte[] hash,byte[] salt,int hash_size=32,int stretch_count=1000);
+byte[] password_verifyData(byte[] password,byte[] hash,byte[] salt,int hash_size=32,int stretch_count=1000);
 ```
 
 |引数| |
@@ -33,7 +33,7 @@ byte[] password_verify_data(byte[] password,byte[] hash,byte[] salt,int hash_siz
 using Alice.Security;
 using Alice.IO;
 
-byte[] salt = password_salt();
+byte[] salt = password_getSalt();
 byte[] hash = password_hash("password",salt);
 
 return password_verify("password",hash,salt);

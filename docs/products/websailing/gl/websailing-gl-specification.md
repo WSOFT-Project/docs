@@ -11,10 +11,10 @@ WebSailingはほかのブラウザよりは遅れをとっているものの、�
 |---|---|
 |モデル|Microsoft InternetExplorer 7.0|
 |JavaScript|IE7.0の仕様の通り使用可能|
-|JAVA|お使いのコンピュータに依存|
-|AdobeFrash|お使いのコンピュータに依存|
-|MS-Silverlight|お使いのコンピュータに依存|
-|Cookie|お使いのコンピュータの"インターネットオプション"に準拠|
+|JAVA|お使いのコンピューター依存|
+|AdobeFrash|お使いのコンピューター依存|
+|MS-Silverlight|お使いのコンピューター依存|
+|Cookie|お使いのコンピューター"インターネットオプション"に準拠|
 |検索エンジン|Google|
 
 ### 動作確認済みサイト

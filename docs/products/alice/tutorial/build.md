@@ -1,6 +1,7 @@
 ---
 title : パッケージのビルド
 summary: この記事では、AlicePackageをビルドする方法について説明します
+date : 2022-01-13
 ---
 あなたが作成したスクリプトをAlicePackage形式のアプリケーションとして展開するには、AlicePackage形式にビルドする必要があります。 AlicePackageは、さまざまなスクリプトやリソース、パッケージ、ライブラリをまとめた書庫と考えることができます。詳しく知るには[AlicePackageの記事](../alice-package)を参照してください。パッケージをビルドするには、次の方法のいずれかを取ることができます。
 
@@ -12,9 +13,9 @@ summary: この記事では、AlicePackageをビルドする方法について�
 ### IceBuild
 AlicePackage Build Environmentは、[AlicePackage](../alice-package)形式のアプリケーションをビルドするためのプラットフォームです。IceBuildとも呼ばれるこのエンジンは、パッケージを処理およびビルドする方法を制御する方法を提供します。 ディレクトリに対して`icebuild.ice`を実行するとAlicePackageを簡単に出力できます。 IceBuildは、[AliceScriptのダウンロードの記事](../download)からダウンロードできます。
 
-IceBuildは、ビルドする前にパッケージマニフェストファイルを確認し、適切なエントリポイントが指定されているか、埋め込まれたリソースファイルが存在するかなどの基本的な事項を確認した後パッケージのビルドを開始します。ビルドスクリプトの使用が特に必要な場合を除いて、基本的にAlicePackageのビルドにはIceBuildを使用することを推奨します。
+IceBuildは、ビルドする前にパッケージマニフェストファイルを確認し、適切なエントリポイントが指定されているか、埋め込まれたリソースファイルが存在するかなどの基本的な事項を確認した後パッケージのビルドを開始します。ビルドスクリプトの使用がとくに必要な場合を除いて、基本的にAlicePackageのビルドにはIceBuildを使用することを推奨します。
 
-IceBuildを使用するには、適切なコマンドライン引数とともに、適切なディレクトリ名をicebuild.iceに渡します。例えば、ディレクトリTestPkgからTestPkg.iceをビルドするには、次のコマンドを使用します。
+IceBuildを使用するには、適切なコマンドライン引数とともに、適切なディレクトリ名をicebuild.iceに渡します。たとえば、ディレクトリTestPkgからTestPkg.iceをビルドするには、次のコマンドを使用します。
 
 ```shell title="コマンドライン"
 icebuild.ice TestPkg -out:TestPkg.ice
