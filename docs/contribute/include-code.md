@@ -57,7 +57,7 @@ WSOFTDocsで公開されている記事にコードを埋め込むには、次�
 コードブロックのタイトルは必ずつけてください。タイトルは`title=`の後で指定できます。
 
 マークダウン表記
-```md
+```md title="Markdown"
 ```json title="Jsonの例"
 {
   "name": "John Doe",
