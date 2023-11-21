@@ -1,25 +1,77 @@
 ---
 title: function
-summary: 関数を定義します。
-date : 2022-01-15
+summary: この記事では、AliceScriptでの関数について説明します。
+date : 2023-11-22
 ---
-### 定義
-名前空間:Alice / アセンブリ : Losetta.Runtime.dll / サポート: AliceScript1
 
-属性: 関数の区切りの空白をサポート、言語構造
+<span class="badge bg-success">対応バージョン>=Alice3.0</span>
 
-指定された引数と処理を含む関数を定義します。
+### 概要
+**関数**とは、特定の操作やタスクを実行するためにまとまった処理のかたまりのことです。
+関数を使用すると、何度も同じ処理を行う部分を再利用することができるうえ、コードを構造化し、保守性を向上させるのに役立ちます。
+
+!!!tip "推奨事項"
+    AliceScriptを用いたプログラミングでは、何度も使用する処理でなくても、特定の処理単位で関数にすることをオススメしています。
+
+この記事では、AliceScript 3.0以降を対象に説明しています。Alice2.3以前を使用されている場合は、「[function](../general/function.md)」をご覧ください。
+### 関数の定義
+関数は、コード中でキーワードとともに、関数の名前および引数を指定して定義します。
+まずは次の例を参照してください。この関数は`a`と`b`の和を求めます。
 
 ```cs title="AliceScript"
-namespace Alice;
-.command void function string funcName(params type args);
+number Add(number a,number b)
+{
+   var c = a + b;
+   return c;
+}
 ```
 
-|引数| |
-|-|-|
-|`funcName`| 定義する関数の識別子。|
-|`params type args`| 定義する関数に付与する引数と型（必要な場合）|
+この例では、1行目の先頭から関数の出力する値(=戻り値)の種類、関数の名前、関数に入力する値(=引数)を定義しています。この例にある関数の場合関数の戻り値の種類は`number`、関数の名前は`Add`、関数に入力する値は`number a`(種類は`number`)と`number b`(こっちも`number`)です。
 
+関数名には、アルファベットや漢字、ひらがななどの文字と、`_`(アンダーバー)、数字や一部の記号(先頭以外で使用可能)が使用できます。詳細については、[識別子](../../general/identifier.md)を参照してください。
+
+関数が行う処理は、`{ }`の中に書きます。また、関数の出力にしたい値(=戻り値)は、[return](../alice/return.md)の後に書きます。
+
+※Alice2.3以前のバージョンでは、以下のように`function`関数を使って記述することで関数を定義します。
+
+```cs title="AliceScript"
+function Add(number a,number b)
+{
+   var c = a + b;
+   return c;
+}
+```
+
+この方法はAlice3.0以降でも使用できますが、なるべく最新の記述方法を使用することをオススメします。
+### 関数の呼び出し
+定義した関数の処理を実際に実行する(=呼び出す)には、`変数 = 関数名(入力)`のように記述します。次の例を参照してください。
+
+```cs title="AliceScript"
+var x = 1;
+var y = 2;
+
+var result = Add(x,y);
+
+print(result);
+// 出力 : 3
+```
+
+関数は、定義されるより前に呼び出すことはできません。
+たとえば、次の例ではエラーが発生します。
+
+```cs title="AliceScript"
+var x = 2;
+var y = 1;
+
+var result = Sub(x,y);//まだ定義されていないためエラー
+
+number Sub(number x,number y)
+{
+  return x - y;
+}
+```
+
+また関数は、定義されたときと同じスコープ
 ### 基本
 関数は、クラスやスコープ内で修飾子（overrideやvirtualなど）とともに、関数の名前および引数を指定して宣言されます。
 
@@ -68,6 +120,17 @@ function ShowHello()
    print("Hello,(again)");//この行は、returnキーワードよりも後にあるため実行されません
  }
 //出力:Hello
+```
+
+<span class="badge bg-success">対応バージョン>=Alice3.0</span>
+
+次の例のように、戻り値の型を指定すると、関数がその型以外の値を返した場合にエラーが発生します。
+
+```cs title="AliceScript"
+void function ShowHello()
+{
+    print("Hello");
+}
 ```
 
 ### 引数
@@ -139,6 +202,49 @@ RegisterGlobalFunction();
 SayHello();//出力例:Hello,World
 ```
 
+### 関数の上書き
+AliceScriptでは、通常同じ名前を持つ関数を複数回定義したり、処理内容を再定義することはできません。
+
+そこで、再定義される可能性のある関数を`virtual`キーワードを使用して仮想関数とすることで、関数が上書きされることを宣言でき、
+実際に関数を上書きするには`override`キーワードを使用します。
+
+次の例では、`Hoge`関数を定義したあとそれを上書きしています。
+```cs title="AliceScript"
+virtual void Hoge()
+{
+    print("Hoge!");
+}
+
+Hoge();//出力:Hoge!
+
+if(true)
+{
+    override void Hoge()
+    {
+        print("Hoge!Overrided!!");
+    }
+    Hoge();//出力:Hoge!Overrided!!
+}
+
+// ここは上書きスコープの外
+Hoge();//出力:Hoge!
+```
+
+また、仮想関数は定義時に処理内容を定義する必要がありません。
+処理内容が定義されていない関数を呼び出すには、必ず関数を上書きして処理内容を定義する必要があります。
+次の例を参照してください。
+
+```cs title="AliceScript"
+virtual void Hoge2();
+
+Hoge();//これはエラー
+
+override void Hoge2()
+{
+  print("Hoge2!");
+}
+```
+
 ### 拡張メソッド
 
 拡張メソッドを使用すると、新規に型を作成することなく既存の型にメソッドを追加できます。拡張メソッドに使用する関数はグローバル関数である必要があり、現在の型の変数が代入される引数に`this`キーワードを使用します。
@@ -155,6 +261,31 @@ print(text.WordCount());//出力例:3
 ```
 
 登録したい引数の型指定修飾子を`this`キーワードの後に記述します。これを省略すると、`variable`型に登録されます。複数の`this`キーワードを使用することはできません。拡張メソッドには`virtual`属性および`override`属性を付与することもできます。標準の型メソッドのオーバーライド可否については[変数](../../general/variable.md)を参照してください。
+
+### 関数の外部実装
+
+<span class="badge bg-success">対応バージョン>=Alice3.0</span>
+
+関数の宣言時に`extern`キーワードを使用すると、外部で実装されている関数を宣言できます。
+`extern`は主に、相互運用機能を使用して.NETやそれ以外のコードを呼び出すときに、`#libimport`や`#netimport`指令と使用します。
+
+次の例では、.NETで定義されている[System.Console.WriteLine](https://learn.microsoft.com/en-us/dotnet/api/system.console.writeline)メソッドを使用してコンソールにメッセージを表示します。
+
+```cs title="AliceScript"
+#netimport "System.Console","System.Console"
+extern void WriteLine(string value);
+
+WriteLine("Hello,World!");
+```
+
+また、次の例では、Win32APIで定義されている[MessageBox](https://learn.microsoft.com/en-us/windows/win32/api/winuser/nf-winuser-messagebox)関数を使用してメッセージボックスを表示します。
+
+```cs title="AliceScript"
+#libimport "user32.dll"
+extern int MessageBox(HWND hwnd,LPCTSTR lpText,LPCTSTR lpCaption,UINT uType);
+
+MessageBox(0,"Hello,World!","TestMessage",0);
+```
 
 ### デリゲートへの暗黙的な変換
 ほとんどのネイティブ関数とユーザー定義関数は、[デリゲート](../delegate/index.md)型の変数へと暗黙的に変換できます。ユーザー定義関数を丸括弧なしで呼び出すと、それはその関数をデリゲート型に変換されたオペランドと認識されます。次に例を示します。
