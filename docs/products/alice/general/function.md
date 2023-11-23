@@ -1,9 +1,8 @@
 ---
-title: function
+title: 関数
 summary: この記事では、AliceScriptでの関数について説明します。
 date : 2023-11-22
 ---
-
 
 ## 概要
 **関数**とは、特定の操作やタスクを実行するためにまとまった処理のかたまりのことです。
@@ -12,7 +11,7 @@ date : 2023-11-22
 !!!tip "推奨事項"
     AliceScriptを用いたプログラミングでは、何度も使用する処理でなくても、特定の処理単位で関数にすることをオススメしています。
 
-この記事では、AliceScript 3.0以降を対象に説明しています。Alice2.3以前を使用されている場合は、「[function](../general/function.md)」をご覧ください。
+この記事では、AliceScript 3.0以降を対象に説明しています。Alice2.3以前を使用されている場合は、「[function](../api/alice/function.md)」をご覧ください。
 
 ## 関数の定義
 関数は、コード中でキーワードとともに、関数の名前および引数を指定して定義します。
@@ -203,6 +202,7 @@ number Max(params items)
     {
         max = n;
     }
+
   }
   return max;
 }
@@ -279,7 +279,7 @@ number ReadingTime(string str)
 {
   // 一秒間に1.2単語読めると仮定
   // GTECでこういうの測れるよね
-  const WPS = 70;
+  const WPS = 1.2;
 
   // 要は、文中の空白の数を数えている
   var words = str.Split(' ');
@@ -299,7 +299,7 @@ WordCount(text); // 結果 : 14.1666666667
 number ReadingTime(this string str)
 {
   // 一秒間に1.2単語読めると仮定
-  const WPS = 70;
+  const WPS = 1.2;
 
   // 要は、文中の空白の数を数えている
   var words = str.Split(' ');
@@ -314,7 +314,7 @@ text.ReadingTime(); // 結果 : 14.1666666667
 拡張メソッドを定義するには、次のように**第一引数に`this`キーワード**をつけます。このとき、`this`キーワードがついた引数を**レシーバー**といいます。
 
 ```cs title="AliceScript"
-number WordCount(this string str)
+number ReadingTime(this string str)
 ```
 
 これまでの例では、`this`キーワードの後に型キーワードをつけてきましたが、省略するとすべての型で拡張メソッドが呼び出せるようになります。逆に、型キーワードをつけると、その型の変数からのみ呼び出せます。
@@ -341,9 +341,9 @@ WordCount(text);  //通常の呼び出し方
 text.WordCount(); //拡張メソッドとして呼び出し
 ```
 
-この性質が逆にあだとなる場合があります。たとえば、`string`型に`Add`メソッドを追加したとすると、その`Add`という名前の関数が通常の方法でも呼び出せてしまいます。この問題を回避するために、関数の定義時に`extension`キーワードをつけると、拡張メソッド専用の関数になります。次の例をご覧ください。
+この性質が逆にあだとなる場合があります。たとえば、`string`型に`Add`メソッドを追加したとすると、その`Add`という名前の関数が通常の方法でも呼び出せてしまいます。この問題を回避するために、関数の定義時に`extension`キーワードをつけると、拡張メソッド専用の関数になり、通常の呼び出し方法では呼び出せなくなります。次の例をご覧ください。
 
-```cs
+```cs title="AliceScript"
 extension number WordCount(this string str)
 {
   // 要は、文中の空白の数を数えている
@@ -356,6 +356,9 @@ string text = "This is a pen.";
 text.WordCount(); //これはできる
 WordCount(text);  //これはエラー
 ```
+
+拡張メソッドは、そのオブジェクトのメソッドがない場合にのみ呼び出されます。拡張メソッドの呼び出しは通常の関数の呼び出し規則と同じです。W
+
 ## 戻り値
 関数は、呼び出し元に[return](./return.md)キーワードを使用して値を返すことができます。関数の戻り値は呼び出し元でそのまま値として使用できます。次に例を示します。
 
