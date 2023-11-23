@@ -272,34 +272,43 @@ print($"a = {a}");
 ### 拡張メソッド
 拡張メソッドは、関数をオブジェクトのメソッドと同じ形式で呼び出せるようにするものです。
 
-たとえば、英文中の単語の数を数える簡易的な関数を作成することを考えましょう。次の例をご覧ください。
+たとえば、英文を読むのにかかる時間を簡易的に推測する関数を作成することを考えましょう。次の例をご覧ください。
 
 ```cs title="AliceScript"
-number WordCount(string str)
+number ReadingTime(string str)
 {
+  // 一秒間に1.2単語読めると仮定
+  // GTECでこういうの測れるよね
+  const WPS = 70;
+
   // 要は、文中の空白の数を数えている
   var words = str.Split(' ');
-  return words.Length;
+  return words.Length / WPS;
 }
 
 string text = "Feugiat dolores in duo sanctus clita et blandit accusam ea luptatum ea no eleifend eirmod duo in erat.";
 
-WordCount(text); // 結果 : 17
+WordCount(text); // 結果 : 14.1666666667
 ```
+
+私が`text`を読むのにはだいたい14秒かかるみたいです。
 
 これを拡張メソッドを使用すると、次のように呼び出すことができます。
 
 ```cs title="AliceScript"
-number WordCount(this string str)
+number ReadingTime(this string str)
 {
+  // 一秒間に1.2単語読めると仮定
+  const WPS = 70;
+
   // 要は、文中の空白の数を数えている
   var words = str.Split(' ');
-  return words.Length;
+  return words.Length / WPS;
 }
 
 string text = "Feugiat dolores in duo sanctus clita et blandit accusam ea luptatum ea no eleifend eirmod duo in erat.";
 
-text.WordCount(); // 結果 : 17
+text.ReadingTime(); // 結果 : 14.1666666667
 ```
 
 拡張メソッドを定義するには、次のように**第一引数に`this`キーワード**をつけます。このとき、`this`キーワードがついた引数を**レシーバー**といいます。
@@ -319,7 +328,7 @@ void Output(this v) //this variableと同じ意味
 
 また、先ほどの参照渡しを拡張メソッドに使うことはできません。
 
-```cs
+```cs title="AliceScript"
 void Assign(ref this value,variable other) //これはエラー
 ```
 
