@@ -272,6 +272,81 @@ print($"a = {a}");
 ### 拡張メソッド
 拡張メソッドは、関数をオブジェクトのメソッドと同じ形式で呼び出せるようにするものです。
 
+たとえば、英文中の単語の数を数える簡易的な関数を作成することを考えましょう。次の例をご覧ください。
+
+```cs title="AliceScript"
+number WordCount(string str)
+{
+  // 要は、文中の空白の数を数えている
+  var words = str.Split(' ');
+  return words.Length;
+}
+
+string text = "Feugiat dolores in duo sanctus clita et blandit accusam ea luptatum ea no eleifend eirmod duo in erat.";
+
+WordCount(text); // 結果 : 17
+```
+
+これを拡張メソッドを使用すると、次のように呼び出すことができます。
+
+```cs title="AliceScript"
+number WordCount(this string str)
+{
+  // 要は、文中の空白の数を数えている
+  var words = str.Split(' ');
+  return words.Length;
+}
+
+string text = "Feugiat dolores in duo sanctus clita et blandit accusam ea luptatum ea no eleifend eirmod duo in erat.";
+
+text.WordCount(); // 結果 : 17
+```
+
+拡張メソッドを定義するには、次のように**第一引数に`this`キーワード**をつけます。このとき、`this`キーワードがついた引数を**レシーバー**といいます。
+
+```cs title="AliceScript"
+number WordCount(this string str)
+```
+
+これまでの例では、`this`キーワードの後に型キーワードをつけてきましたが、省略するとすべての型で拡張メソッドが呼び出せるようになります。逆に、型キーワードをつけると、その型の変数からのみ呼び出せます。
+
+```cs title="AliceScript"
+void Output(this v) //this variableと同じ意味
+{
+  print(v);
+}
+```
+
+また、先ほどの参照渡しを拡張メソッドに使うことはできません。
+
+```cs
+void Assign(ref this value,variable other) //これはエラー
+```
+
+このようにして定義した関数は、通常通り関数として呼び出すこともできますし、オブジェクトのメソッドのように呼び出すこともできます。
+
+```cs title="AliceScript"
+string text = "This is a pen.";
+
+WordCount(text);  //通常の呼び出し方
+text.WordCount(); //拡張メソッドとして呼び出し
+```
+
+この性質が逆にあだとなる場合があります。たとえば、`string`型に`Add`メソッドを追加したとすると、その`Add`という名前の関数が通常の方法でも呼び出せてしまいます。この問題を回避するために、関数の定義時に`extension`キーワードをつけると、拡張メソッド専用の関数になります。次の例をご覧ください。
+
+```cs
+extension number WordCount(this string str)
+{
+  // 要は、文中の空白の数を数えている
+  var words = str.Split(' ');
+  return words.Length;
+}
+
+string text = "This is a pen.";
+
+text.WordCount(); //これはできる
+WordCount(text);  //これはエラー
+```
 ## 戻り値
 関数は、呼び出し元に[return](./return.md)キーワードを使用して値を返すことができます。関数の戻り値は呼び出し元でそのまま値として使用できます。次に例を示します。
 
