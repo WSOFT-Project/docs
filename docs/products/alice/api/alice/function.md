@@ -46,7 +46,6 @@ function SayHello(){
 ```
 
 AliceScriptでは関数の名前を、識別子と呼びます。識別子の名前付けルールなどについては、[識別子](./identifier.md)を参照してください。
-
 ### 戻り値
 関数は、呼び出し元に[return](./return.md)キーワードを使用して値を返すことができます。関数の戻り値は呼び出し元でそのまま値として使用できます。次に例を示します。
 
@@ -69,17 +68,6 @@ function ShowHello()
    print("Hello,(again)");//この行は、returnキーワードよりも後にあるため実行されません
  }
 //出力:Hello
-```
-
-<span class="badge bg-success">対応バージョン>=Alice3.0</span>
-
-次の例のように、戻り値の型を指定すると、関数がその型以外の値を返した場合にエラーが発生します。
-
-```cs title="AliceScript"
-void function ShowHello()
-{
-    print("Hello");
-}
 ```
 
 ### 引数
@@ -151,49 +139,6 @@ RegisterGlobalFunction();
 SayHello();//出力例:Hello,World
 ```
 
-### 関数の上書き
-AliceScriptでは、通常同じ名前を持つ関数を複数回定義したり、処理内容を再定義することはできません。
-
-そこで、再定義される可能性のある関数を`virtual`キーワードを使用して仮想関数とすることで、関数が上書きされることを宣言でき、
-実際に関数を上書きするには`override`キーワードを使用します。
-
-次の例では、`Hoge`関数を定義したあとそれを上書きしています。
-```cs title="AliceScript"
-virtual void Hoge()
-{
-    print("Hoge!");
-}
-
-Hoge();//出力:Hoge!
-
-if(true)
-{
-    override void Hoge()
-    {
-        print("Hoge!Overrided!!");
-    }
-    Hoge();//出力:Hoge!Overrided!!
-}
-
-// ここは上書きスコープの外
-Hoge();//出力:Hoge!
-```
-
-また、仮想関数は定義時に処理内容を定義する必要がありません。
-処理内容が定義されていない関数を呼び出すには、必ず関数を上書きして処理内容を定義する必要があります。
-次の例を参照してください。
-
-```cs title="AliceScript"
-virtual void Hoge2();
-
-Hoge();//これはエラー
-
-override void Hoge2()
-{
-  print("Hoge2!");
-}
-```
-
 ### 拡張メソッド
 
 拡張メソッドを使用すると、新規に型を作成することなく既存の型にメソッドを追加できます。拡張メソッドに使用する関数はグローバル関数である必要があり、現在の型の変数が代入される引数に`this`キーワードを使用します。
@@ -210,31 +155,6 @@ print(text.WordCount());//出力例:3
 ```
 
 登録したい引数の型指定修飾子を`this`キーワードの後に記述します。これを省略すると、`variable`型に登録されます。複数の`this`キーワードを使用することはできません。拡張メソッドには`virtual`属性および`override`属性を付与することもできます。標準の型メソッドのオーバーライド可否については[変数](../../general/variable.md)を参照してください。
-
-### 関数の外部実装
-
-<span class="badge bg-success">対応バージョン>=Alice3.0</span>
-
-関数の宣言時に`extern`キーワードを使用すると、外部で実装されている関数を宣言できます。
-`extern`は主に、相互運用機能を使用して.NETやそれ以外のコードを呼び出すときに、`#libimport`や`#netimport`指令と使用します。
-
-次の例では、.NETで定義されている[System.Console.WriteLine](https://learn.microsoft.com/en-us/dotnet/api/system.console.writeline)メソッドを使用してコンソールにメッセージを表示します。
-
-```cs title="AliceScript"
-#netimport "System.Console","System.Console"
-extern void WriteLine(string value);
-
-WriteLine("Hello,World!");
-```
-
-また、次の例では、Win32APIで定義されている[MessageBox](https://learn.microsoft.com/en-us/windows/win32/api/winuser/nf-winuser-messagebox)関数を使用してメッセージボックスを表示します。
-
-```cs title="AliceScript"
-#libimport "user32.dll"
-extern int MessageBox(HWND hwnd,LPCTSTR lpText,LPCTSTR lpCaption,UINT uType);
-
-MessageBox(0,"Hello,World!","TestMessage",0);
-```
 
 ### デリゲートへの暗黙的な変換
 ほとんどのネイティブ関数とユーザー定義関数は、[デリゲート](../delegate/index.md)型の変数へと暗黙的に変換できます。ユーザー定義関数を丸括弧なしで呼び出すと、それはその関数をデリゲート型に変換されたオペランドと認識されます。次に例を示します。
