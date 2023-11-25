@@ -27,7 +27,7 @@ date : 2021-07-24
 またAliceScriptは、はじめて使用するプログラミング言語としても適しています。
 AliceScriptは、C#やJavaScriptの構文を参考に設計しているため、この言語での学びは、他の言語にも活かすことができます。
 AliceScriptには他の言語にあるような、`class Program`や`static void Main(string[] args)`のような「おまじない」は必要ありません。
-一方で、名前空間や[関数](./api/alice/function.md)を使えば、しっかりと構造化できます。
+一方で、名前空間や[関数](./general/function.md)を使えば、しっかりと構造化できます。
 もし使用したければクラスも使えるようにします。([#97](https://github.com/WSOFT-Project/Losetta/issues/97))
 
 「はじめに」でも述べた通り、AliceScriptを使って開発を行うためにソフトをインストールする必要はありません。[ダウンロード](./download.md)から実行ファイルをダウンロードして、あとはメモ帳などでコードを書くだけです。そういう意味でも、初心者向けの言語といえます。

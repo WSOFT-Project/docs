@@ -48,3 +48,47 @@ WSOFTDocsで公開されている記事にコードを埋め込むには、次�
 - コードをコピーできない
 - 検索エンジンに認識されない
 - 読み上げ機能などユーザー補助機能が使用できない
+
+### コードブロック
+記事ファイル内のテキストがプログラムコードであることを表すには、バッククォート3つを使用してフェンスを作成します。
+
+コードブロック内で使用されているプログラミング言語を指定するには、開始時のバッククォートの後に言語名を記述します。
+
+コードブロックのタイトルは必ずつけてください。タイトルは`title=`の後で指定できます。
+
+マークダウン表記
+```md title="Markdown"
+```json title="Jsonの例"
+{
+  "name": "John Doe",
+  "age": 30,
+  "city": "New York",
+  "isStudent": false,
+  "grades": [85, 90, 78],
+  "address": {
+    "street": "123 Main St",
+    "zipCode": "10001"
+  }
+}
+```
+```
+
+表示
+```json title="Jsonの例"
+{
+  "name": "John Doe",
+  "age": 30,
+  "city": "New York",
+  "isStudent": false,
+  "grades": [85, 90, 78],
+  "address": {
+    "street": "123 Main St",
+    "zipCode": "10001"
+  }
+}
+```
+
+使用できる言語と言語名の詳細については、「[Language names and aliases](https://github.com/highlightjs/highlight.js/blob/main/SUPPORTED_LANGUAGES.md)」を参照してください。
+
+!!!warning "注意"
+    Word文章やiPadのメモ帳などからコードをコピーして貼り付ける場合は、コード内に`”`や`“`などの無効なクォーテーションが含まれていないことを確認してください。そのような文字はすべて`'`や`"`に戻しましょう。
