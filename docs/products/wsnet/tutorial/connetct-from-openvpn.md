@@ -23,7 +23,12 @@ AndroidやiOS、macOSやLinux、Windowsなど、OpenVPNはさまざまなプラ�
 [ ダウンロード](https://download.wsoft.ws/WS00129){: .btn .btn-primary .bi .bi-download }
 ---
 
-一般の方は、設定ファイルの編集は不要です。次のセクションに進んでください。
+### OpenVPNアプリで設定
+ダウンロードした設定ファイル(*.ovpn)をOpenVPN Connectアプリで開きます。
+
+ユーザー名にWSWANのユーザー名を設定し、SavePasswordにチェックを入れ、WSWANのパスワードを指定します。
+
+設定を保存したら、接続します。これでOpenVPNクライアントからWSWANに接続できました。
 
 #### 設定ファイルの編集
 上級ユーザーに向けて、設定ファイルの編集方法を説明します。まずダウンロードした設定ファイルを任意のエディターで開きます。
@@ -95,10 +100,3 @@ remote net.wsoft.ws 443 # ここを変更
 ```
 
 `http-proxy`をコメントアウトし、サーバーとポート番号を指定すると、接続にそのプロキシサーバーを経由するようになります。
-
-### OpenVPNアプリで設定
-iOSでも、AndroidでもmacOS、Windowsでも、ダウンロードして設定ファイル(*.ovpn)をOpenVPN Connectアプリで開きます。
-
-ユーザー名にWSWANのユーザー名を設定し、SavePasswordにチェックを入れ、WSWANのパスワードを指定します。
-
-設定を保存したら、接続してみてください。これでOpenVPNクライアントからWSWANに接続できました。
