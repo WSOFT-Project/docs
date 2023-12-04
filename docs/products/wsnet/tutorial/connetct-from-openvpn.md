@@ -1,6 +1,7 @@
 ---
 title : OpenVPNを使用してWSWANに接続する
 summary : この記事では、AndroidやiOS端末などのOpenVPNクライアントからWSWANに接続する方法について説明します
+date : 2022-10-15
 ---
 
 ### はじめに

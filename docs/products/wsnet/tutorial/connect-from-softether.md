@@ -1,6 +1,7 @@
 ---
 title : SoftEtherを使用してWSWANに接続する
 summary : この記事では、WindowsやLinux、macOS端末のSoftEtherからWSWANに接続する方法について説明します
+date : 2022-10-05
 ---
 
 ### はじめに
