@@ -16,8 +16,8 @@ void package_set(string location);
 |`location`| パッケージマネージャーが参照するアドレス|
 
 ### 例
-以下は、`http://wsoft.gq/script/package`を参照先アドレスに設定します。
+以下は、`http://wsoft.ws/script/package`を参照先アドレスに設定します。
 
 ```cs title="WSOFTScript"
-package_set("http://wsoft.gq/script/package");
+package_set("http://wsoft.ws/script/package");
 ```
