@@ -1,5 +1,6 @@
 ---
 title: 概要
+long_title : WSOFTDocs 共同作成ガイドの概要
 summary: この記事では、WSOFTDocsにある製品についての情報や記事への改善案をフィートバックする方法を説明します。
 date : 2022-11-01
 ---
