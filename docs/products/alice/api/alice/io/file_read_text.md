@@ -47,13 +47,13 @@ public string file_read_text(string path,bool fromPackage);
 
 ```cs title="AliceScript"
 namespace Alice.IO;
-public string file_read_text(string path,string charcode,bool fromPackage = false);
+public string file_read_text(string path,string charCode,bool fromPackage = false);
 ```
 
 |引数| |
 |-|-|
 |`path`|読み取るファイルへのパス|
-|`charcode`|結果を解釈する文字コードを表す文字列|
+|`charCode`|結果を解釈する文字コードを表す文字列|
 |`fromPackage`|ファイルを現在のパッケージから読み取る場合は`true`、ファイルシステムから読み取る場合は`false`|
 
 |戻り値| |
@@ -67,27 +67,56 @@ public string file_read_text(string path,string charcode,bool fromPackage = fals
 
 ```cs title="AliceScript"
 namespace Alice.IO;
-public string file_read_text(string path,number codepage,bool fromPackage = false);
+public string file_read_text(string path,number codePage,bool fromPackage = false);
 ```
 
 |引数| |
 |-|-|
 |`path`|読み取るファイルへのパス|
-|`codepage`|結果を解釈する文字コードを表すコード番号|
+|`codePage`|結果を解釈する文字コードを表すコード番号|
 |`fromPackage`|ファイルを現在のパッケージから読み取る場合は`true`、ファイルシステムから読み取る場合は`false`|
 
 |戻り値| |
 |-|-|
 |`string`|ファイル内のすべての文字列|
 ### 説明
-この関数は、ファイルを開き、ファイル内のデータをすべて読み取った後ファイルを閉じて結果を返します。
-
-この関数は、文字コードが指定されなかった場合、[ReadJEnc](https://github.com/hnx8/ReadJEnc)を使用してファイルで使用されている文字コードを自動的に検出します。
 
 `source`や`destination`には、相対パスと絶対パスのどちらを指定することもできます。
 相対パスを指定した場合、カレントディレクトリからの相対パスとして解釈します。
 
 関数内で例外が発生した場合でも、ファイルは適切に閉じられます。
+
+この関数は、ファイルを開き、ファイル内のデータをすべて読み取った後ファイルを閉じて結果を返します。
+
+この関数は、文字コードが指定されなかった場合、[ReadJEnc](https://github.com/hnx8/ReadJEnc)を使用してファイルで使用されている文字コードを自動的に検出します。ファイルが適当な文字コードでデコード可能な場合、以下の文字コードのいずれかを用いてデータをテキストに変換します。
+
+- UTF-8(BOMあり)
+- UTF-8(BOMなし)
+- UTF-16(BOMありリトルエンディアン)
+- UTF-16(BOMありビッグエンディアン)
+- UTF-16(BOMなしリトルエンディアン)
+- UTF-16(BOMなしビッグエンディアン)
+- UTF-32(リトルエンディアン)
+- UTF-32(BOMありビッグエンディアン)
+- ASCII
+- ANSI(西欧諸語)
+- Shift-JIS(日本語)
+- EUC-JP(日本語)
+- CP50221(ISO-2022-JP拡張 日本語)
+- CP50222(ISO-2022-JP拡張 SO/SI 日本語)
+- BIG5(繁体字中国語)
+- EUC-TW(繁体字中国語)
+- GB18030(簡体字中国語)
+- EUC-KR(韓国語)
+- CP1250(中央ヨーロッパ諸語)
+- CP1251(ロシア語等)
+- CP1253(ギリシャ語)
+- CP1254(トルコ語)
+- CP1225(ヘブライ語)
+- CP1256(アラビア語)
+- CP1257(バルト諸語)
+- CP1258(ベトナム語)
+- TIS-620(タイ語)
 
 ### 例
 次の例では、`test.txt`を読み取り、コンソールに出力します、
