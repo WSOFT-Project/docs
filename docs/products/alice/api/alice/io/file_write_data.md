@@ -1,0 +1,40 @@
+---
+title: file_write_data
+summary: 指定したファイルに、指定されたデータを書き込みます。
+date : 2021-07-28
+---
+### 定義
+名前空間:Alice.IO / アセンブリ : Losetta.Runtime.dll / サポート: AliceScript1
+
+属性: 関数
+
+新しいファイルを作成し、指定されたデータを書き込みます。
+ファイルがすでに存在する場合は先頭から上書きします。
+
+```cs title="AliceScript"
+namespace Alice.IO;
+public void file_write_data(string path,bytes content);
+```
+
+|引数| |
+|-|-|
+|`path`|書き込むファイルへのパス|
+|`content`|ファイルに書き込む内容|
+
+### 説明
+
+`path`やには、相対パスと絶対パスのどちらを指定することもできます。
+相対パスを指定した場合、カレントディレクトリからの相対パスとして解釈します。
+
+この関数は、`path`が存在しない場合新しいファイルを作成し、存在する場合はそれを上書きします。
+
+この関数では、対象ファイルが存在しない場合はファイルを作成しますが、新しいディレクトリは作成しません。したがって、`path`には少なくとも有効なディレクトリまでのパスが含まれる必要があります。
+### 例
+次の例では、`test.txt`を読み取り、`test2.txt`に読み取った内容を書き込みます。
+
+```cs title="AliceScript"
+using Alice.IO;
+
+var content = file_read_data("test.txt");
+file_write_data("test2.txt",content);
+```
