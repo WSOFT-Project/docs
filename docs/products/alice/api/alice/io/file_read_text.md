@@ -83,6 +83,7 @@ public string file_read_text(string path,number codePage,bool fromPackage = fals
 
 `source`や`destination`には、相対パスと絶対パスのどちらを指定することもできます。
 相対パスを指定した場合、カレントディレクトリからの相対パスとして解釈します。
+パスの大文字と小文字の区別は、環境およびファイルシステムに依存します。たとえば、NTFSでは大文字と小文字は区別されませんが、LFSでは大文字と小文字が区別されます。
 
 関数内で例外が発生した場合でも、ファイルは適切に閉じられます。
 

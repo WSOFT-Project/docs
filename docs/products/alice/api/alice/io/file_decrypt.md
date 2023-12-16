@@ -29,8 +29,11 @@ public void file_decrypt(string source, string destination, string password);
 ### 説明
 `source`や`destination`には、相対パスと絶対パスのどちらを指定することもできます。
 相対パスを指定した場合、カレントディレクトリからの相対パスとして解釈します。
+パスの大文字と小文字の区別は、環境およびファイルシステムに依存します。たとえば、NTFSでは大文字と小文字は区別されませんが、LFSでは大文字と小文字が区別されます。
 
 コピー元のファイルの属性は、コピー先には引き継がれません。
+
+[file_encrypt](./file_encrypt.md)を使って暗号化したファイルは、この関数を使って復号できます。
 ### 例
 次の例では、`test2.txt`の復号化されたコピーを`test3.txt`にコピーします。
 
