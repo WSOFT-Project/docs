@@ -39,6 +39,7 @@ public void file_replace(string source,string destination,string backup,bool ign
 
 この操作では、`source`と`destination`両方のファイルが存在する必要があります。
 また、`source`と`destination`、`backup`はすべて同じディスクおよびボリュームに存在する必要があります。
+パスの大文字と小文字の区別は、環境およびファイルシステムに依存します。たとえば、NTFSでは大文字と小文字は区別されませんが、LFSでは大文字と小文字が区別されます。
 
 `backup`にすでにファイルが存在する場合、`destination`の内容で上書きされます。
 
