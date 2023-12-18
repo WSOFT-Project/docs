@@ -46,6 +46,7 @@ function Add(number a,number b)
 
 この方法はAlice3.0以降でも使用できますが、なるべく最新の記述方法を使用することをオススメします。
 </details>
+<br/>
 
 ## 関数の呼び出し
 定義した関数の処理を実際に実行する(=呼び出す)には、`変数 = 関数名(入力)`のように記述します。また、AliceScriptでは関数名に大文字小文字の区別はありません。
@@ -392,9 +393,9 @@ function ShowHello()
 次の例のように、戻り値の型を指定すると、関数がその型以外の値を返した場合にエラーが発生します。
 
 ```cs title="AliceScript"
-void function ShowHello()
+string GetUserName()
 {
-    print("Hello");
+  return 1; // 文字列ではなく数値を返したためエラー
 }
 ```
 
