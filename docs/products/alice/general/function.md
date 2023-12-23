@@ -404,11 +404,9 @@ void ShowHello()
   print("Hello");
 }
 ```
-また、戻り値のない関数では必ずしも`return`を書く必要はなく、`return`の後ろに何も値を書いてはいけません。
-### 早期リターン
-これまで、関数の最後に`return`を書いてきましたが、AliceScriptでは関数の途中に`return`を書くこともできます。関数の実行は、`return`がきた時点で終了するため、`return`より後の処理は実行されません。
 
-また、`return`キーワードは、関数の実行をその時点で終了します。任意の場面で関数の実行を中止したい場合、 値を持たない`return`キーワードを使用できます。次に例を示します。
+戻り値のない関数では、`return`は関数の実行を中断することを意味します。
+次に例を示します。
 
 ```cs title="AliceScript"
 void ShowHello()
@@ -426,31 +424,39 @@ ShowHello();
 関数は、変数と同じように、そのスコープ内で一意な名前である必要があります。スコープの範囲内では、基本的に同じ名前の関数を宣言することはできませんし、反対にスコープの外に出ると、その範囲内で定義した関数は使用できません。しかし、すでに定義された関数がオーバーライド可能属性を持っている場合は、`override`修飾子を使ってその関数を上書きできます。次に例を示します。
 
 ```cs title="AliceScript"
-virtual function SayHello()
- {
-    print("Hello,World");
- }
-SayHello();//出力例:Hello,World
-override function SayHello()
- {
-    print("Hello,Bonjur");
- }
-SayHello();//出力例:Hello,Bonjur
+virtual void SayHello()
+{
+  print("Hello,World");
+}
+SayHello(); //出力 : Hello,World
+
+if(true)
+{
+  override void SayHello()
+  {
+    print("Bonjour,World");
+  }
+  SayHello(); //出力 : Bonjour,World
+}
+
+SayHello(); //出力 : Hello,World
 ```
 
-その関数を、現在のスコープの範囲外で使用できるようにするには、その関数にpublic修飾子を使用することそれをグローバル関数として宣言する必要があります。次に例を示します。
+関数を現在のスコープの範囲外で使用できるようにするには、名前空間を通じて外部に公開する必要があります。次の例では、`Calc`名前空間に`Pow`関数を公開することで、外部から関数を呼び出せるようにします。
 
 ```cs title="AliceScript"
-function RegisterGlobalFunction()
- {
-     public function SayHello()
-      {
-          print("Hello,World");
-      }
- }
-RegisterGlobalFunction();
-SayHello();//出力例:Hello,World
+namespace Calc
+{
+  public number Pow(number a)
+  {
+    return a * a;
+  }
+}
+
+var num = Calc.Pow(2);
+print(num); //出力 : 4
 ```
+
 
 ### 関数の上書き
 AliceScriptでは、通常同じ名前を持つ関数を複数回定義したり、処理内容を再定義することはできません。
@@ -494,23 +500,6 @@ override void Hoge2()
   print("Hoge2!");
 }
 ```
-
-### 拡張メソッド
-
-拡張メソッドを使用すると、新規に型を作成することなく既存の型にメソッドを追加できます。拡張メソッドに使用する関数はグローバル関数である必要があり、現在の型の変数が代入される引数に`this`キーワードを使用します。
-
-次の例は、現在の文字列の語数を数える(正確には、スペースで区切られた語の数を数える)`WorldCount`メソッドを`string`型に登録します。
-
-```cs title="AliceScript"
-public function WordCount(this string str)
- {
-    return str.Split(" ").Length;
- }
-var text = "Hello Extension Methods";
-print(text.WordCount());//出力例:3
-```
-
-登録したい引数の型指定修飾子を`this`キーワードの後に記述します。これを省略すると、`variable`型に登録されます。複数の`this`キーワードを使用することはできません。拡張メソッドには`virtual`属性および`override`属性を付与することもできます。標準の型メソッドのオーバーライド可否については[変数](../../general/variable.md)を参照してください。
 
 ### 関数の外部実装
 
