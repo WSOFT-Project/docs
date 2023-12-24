@@ -24,6 +24,10 @@ public void file_write_encrypt(string path, bool fromPackage, string password, n
 |`iterations`|ハッシュ値の計算のストレッチ回数。この値が大きいほど安全性が向上し、パフォーマンスが低下します。規定値は`1024`です。|
 |`useSHA512`|ハッシュ値の計算に`SHA512`方式を使用する場合は`true`、`SHA256`方式を使用する場合は`false`。規定値は`false`です。|
 
+!!!note "実装に関する注意"
+    この関数はAliceSisterでは仕様が異なります。
+    詳しくは**説明**をご覧ください。
+
 ### 説明
 
 `source`や`destination`には、相対パスと絶対パスのどちらを指定することもできます。
@@ -38,7 +42,10 @@ public void file_write_encrypt(string path, bool fromPackage, string password, n
 `keySize`には、暗号化時に使用されていた鍵長を指定します。たとえば、`256`を指定した場合は、`AES-256-CBC`方式で暗号化してことになります。
 また、`useSHA512`を`true`にするとハッシュ値の計算に`SHA512`を使用します。`true`を指定した場合は、`AES-256-SHA-512`方式で暗号化したことに、`false`を指定した場合は`AES-256-SHA-256`のように表現できます。
 
-これらの引数は、通常[file_write_encrypt](./file_write_encrypt.md)で使用したものを使用します。
+この関数は、通常[file_write_encrypt](./file_write_encrypt.md)で暗号化したファイルを復号するのに使用します。
+
+AliceSisterでは、`useSHA512`の値によらずハッシュアルゴリズムは`SHA1`が使用されます。
+このため、AliceSisterとその他の実装の間で、この関数の出力するバイナリの互換性はありません。
 
 ### 例
 次の例では、入力したファイルをAES-256-SHA512方式で復号しコピーを作成する関数を作成し、`test1.txt`の復号されたコピーを`test2.txt`に作成します。

@@ -35,6 +35,9 @@ public void file_move(string source,string destination,bool overwrite);
 |`destination`|移動先のファイルへのパス|
 |`overwrite`|移動先にファイルが存在する場合に置き換える場合は`true`、それ以外の場合は`false`|
 
+!!!note "実装に関する注意"
+    このオーバーロードはAliceSisterでは実装されていません。
+
 ### 説明
 この関数を使用して、ファイルの名前を変更できます。
 
