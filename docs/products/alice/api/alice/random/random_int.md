@@ -34,6 +34,9 @@ number random_int(number max);
 |-|-|
 |`number`|`-2147483648`以上`max`未満の整数。|
 
+!!!note "実装に関する注意"
+    このオーバーロードはAliceSisterでは実装されていません。
+
 暗号学的に安全な方法で、指定された範囲内のランダムな整数を返します。
 
 ```cs title="AliceScript"
@@ -49,6 +52,9 @@ number random_int(number min,number max);
 |戻り値| |
 |-|-|
 |`number`|`min`以上`max`未満の整数。つまり、戻り値の範囲に`min`は含まれますが`max`は含まれません。`min`が`max`と等しい場合は、`min`が返されます。|
+
+!!!note "実装に関する注意"
+    このオーバーロードはAliceSisterでは実装されていません。
 
 ### 説明
 乱数を生成するには、この関数を使用することをオススメします。

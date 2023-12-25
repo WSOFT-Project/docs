@@ -21,6 +21,9 @@ public void directory_create_symbolicLink(string path, string target);
 |`path`|作成するシンボリックリンクのパス|
 |`path`|シンボリックリンクの宛先へのパス|
 
+!!!note "実装に関する注意"
+    この関数はAliceScript、AliceSisterでは実装されていません。
+
 ### 説明
 `path`には、相対パスと絶対パスのどちらを指定することもできます。
 相対パスを指定した場合、カレントディレクトリからの相対パスとして解釈します。
