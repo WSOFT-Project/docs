@@ -16,11 +16,10 @@ date : 2021-12-25
     <a href="https://download.wsoft.ws/WS00280" class="btn btn-primary">ダウンロード</a>
   </div>
   <div class="card-footer text-body-secondary">
-    AliceScript ADK 3.0
+    <a href="https://docs.wsoft.ws/products/alice/changelog/3-0/">AliceScript 3.0の新機能</a>
   </div>
 </div>
 
-# AliceScriptのダウンロード
 AliceScriptには、開発環境を含めたADK版と通常版の二種類が存在します。
 
 通常版には、AliceScriptパッケージファイル(.ice)や、AliceScriptソースファイル(.Alice)を実行するために必要なファイルが含まれています。
