@@ -3,12 +3,22 @@ title: ダウンロード
 summary: この記事では、AliceScriptのダウンロード方法について説明します
 date : 2021-12-25
 ---
-# Losettaのダウンロード
-Losettaは、.NET6.0で書き直されたAliceScriptの実装です。AliceScriptADKと同等の機能を持ち、きわめて高い移植性をも持っています。
 
----
-[ ダウンロード](https://download.wsoft.ws/WS00268){: .btn .btn-primary .btn-lg .bi .bi-download }
----
+# AliceScriptのダウンロード
+
+<div class="card text-center">
+  <div class="card-header">
+    AliceScript ADK
+  </div>
+  <div class="card-body">
+    <h5 class="card-title">Alice3.0のダウンロード</h5>
+    <p class="card-text">Windowsでも、Linuxでも、macOSでも、インストールいらず。</p>
+    <a href="https://download.wsoft.ws/WS00280" class="btn btn-primary">ダウンロード</a>
+  </div>
+  <div class="card-footer text-body-secondary">
+    AliceScript ADK 3.0
+  </div>
+</div>
 
 # AliceScriptのダウンロード
 AliceScriptには、開発環境を含めたADK版と通常版の二種類が存在します。
@@ -22,7 +32,8 @@ ADK版には、それ単体でファイルを実行したり開発したりす�
 *新機能については[AliceScriptの新機能](../features)を参照してください。
 *このソフトウェアに含まれるソフトウェアの著作権情報については[著作権情報](../about)を参照してください。
 
-*  **[AliceScriptADK 2.3(最新版,安定版)のダウンロード](https://download.wsoft.ws/WS00269)**
+*  **[AliceScriptADK 3.0(最新版,安定版)のダウンロード](https://download.wsoft.ws/WS00280)**
+*  [AliceScriptADK 2.3(安定版)のダウンロード](https://download.wsoft.ws/WS00269)
 *  [AliceScriptADK 2.2.1(安定版)のダウンロード](https://download.wsoft.ws/WS00178)
 *  [AliceScriptADK 2.0(最新版,安定版)のダウンロード](https://download.wsoft.ws/WS00139)
 *  [AliceScriptADK GM(安定版)のダウンロード](https://download.wsoft.ws/WS00003)
@@ -44,7 +55,8 @@ ADK版には、それ単体でファイルを実行したり開発したりす�
 * 新機能については[AliceScriptの新機能](../features)を参照してください。
 * このソフトウェアに含まれるソフトウェアの著作権情報については[著作権情報](../about)を参照してください。
 
-*  **[AliceSisterADK 2.3(最新版,安定版)のダウンロード](https://download.wsoft.ws/WS00270)**
+*  **[AliceScriptADK 3.0(最新版,安定版)のダウンロード](https://download.wsoft.ws/WS00280)**
+*  [AliceSisterADK 2.3(安定版)のダウンロード](https://download.wsoft.ws/WS00270)
 *  [AliceSisterADK 2.1(安定版)のダウンロード](https://download.wsoft.ws/WS00153)
 *  [AliceSisterADK 2.0(最新版,安定版)のダウンロード](https://download.wsoft.ws/WS00140)
 * [AliceSisterADK GM(最新版・安定版)のダウンロード](https://download.wsoft.ws/WS00004)
