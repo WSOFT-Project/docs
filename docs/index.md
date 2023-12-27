@@ -1,6 +1,6 @@
 ---
 title: WSOFT Docs
-summary : WSOFT documentation is here.
+summary : 製品のすべてを知り、広がる世界を探求しよう。
 disable_tol: true
 disable_tools : true
 ---
@@ -18,7 +18,7 @@ disable_tools : true
 
 <img class="img-fluid text-center" src="./media/WSOFT-Docs.svg"></img>
 
-<p>WSOFTDocsでは、ドキュメント、チュートリアル、サンプルでWSOFTの製品の使用方法について説明します。これにはユーザー、開発者、管理者向けの情報が含まれます。</p>
+<p>WSOFTDocsへようこそ。このサイトでは、さまざまなWSOFTの製品の使用方法について説明するだけでなく、<a href="https://docs.wsoft.ws/blog/">ブログ</a>を通じてWSOFTの情報を発信しています。</p>
 
 <!-- Newsカード -->
 <div class="card mb-3">
