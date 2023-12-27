@@ -9,7 +9,7 @@ order : 3
 ### AmebaOwandからWSOFTCMS、さらにWSOFTDocsへ
 2018年、WebbSailingのサポート記事提供の場として、WebSailing-Netが誕生しました。WebSailingが、NX系に移行するまでの間、21の記事がAmebaOwandによってホストされました。
 
-WSTubeの開発に際して、WSOFTは、自前でサーバーを用意し、そこで記事を提供する方式が導入されました。そこで、WSOFTはWSTubeで設計したUIを流用し、HelpEngineを開発しました。現在では、これは[オープンソース](https://github.com/taiseiue/helpengine)化されています。WSOFTは、この方式を3年以上にわたって使用し続け、その結果、200を超える記事をHelpEngineを通じて提供しました。
+WSTubeの開発に際して、WSOFTは、自前でサーバーを用意し、そこで記事を提供する方式が導入されました。WSOFTはWSTubeで設計したUIを流用し、HelpEngineを開発しました。現在では、これは[オープンソース](https://github.com/taiseiue/helpengine)化されています。WSOFTは、この方式を3年以上にわたって使用し続け、その結果、200を超える記事をHelpEngineを通じて提供しました。
 
 ![旧バージョンのWSOFTのサイトでの「WSOFTのドキュメントの WSOFT Docs への移行に関する情報」の表示](media/7.jpg)
 
@@ -57,11 +57,12 @@ WebSailingNetと一口に言っても、それに分類されるサイトは[Web
 また、当面の間AliceScriptWikiのサイトを残す方針が決まりました。現在のAliceScriptWikiのサイトは、読み取り専用となり、今後情報の更新はされません。
 
 #### 生存報告
-状況:<span class="badge bg-warning text-dark">進行中</span>
+状況:<span class="badge bg-success">完了</span>
 
 かつて常闇より出る深淵名義で連載していた生存報告の記事も、[WSOFTDocs](https://docs.wsoft.ws/)へ移行します。
 
-生存報告のWSOFTDocsへの移行は、その誕生経緯や内容を鑑み、慎重に進行しています。現在、公開が可能と判断された記事を分類し、移行を開始しました。準備が整った記事から順に[生存報告Docs](https://docs.wsoft.ws/tokoyami)で公開しています。
+生存報告のWSOFTDocsへの移行は、その誕生経緯や内容を鑑み、慎重に移行してきました。公開が可能と判断された記事は[生存報告Docs](https://docs.wsoft.ws/tokoyami)で公開しています。
+生存報告のWSOFTDocsへの移行は、完了しました。
 
 ### ご意見をお寄せください
 WSOFTはこの計画への取り組みをを継続し、WSOFTが公開するものすべてについて、より簡単に必要なコンテンツを見つけることができ、それが見やすいものであるように努力しています。[GitHub](https://github.com/WSOFT-Project/docs/issues)でみなさんのご意見をお寄せください。
