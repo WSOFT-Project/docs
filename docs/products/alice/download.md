@@ -1,10 +1,8 @@
 ---
 title: ダウンロード
 summary: この記事では、AliceScriptのダウンロード方法について説明します
-date : 2021-12-25
+date : 2023-12-25
 ---
-
-# AliceScriptのダウンロード
 
 <div class="card text-center">
   <div class="card-header">
@@ -16,9 +14,16 @@ date : 2021-12-25
     <a href="https://download.wsoft.ws/WS00280" class="btn btn-primary">ダウンロード</a>
   </div>
   <div class="card-footer text-body-secondary">
-    <a href="https://docs.wsoft.ws/products/alice/changelog/3-0/">AliceScript 3.0の新機能</a>
+    <p>バージョン 3.0.0(Losetta 0.10.3) リリース 2023年12月25日</p>
   </div>
 </div>
+
+!!!note "Alice3.0の新機能"
+  Alice3.0を使うことで、よりすばやく多機能なプログラムを作成できます。
+  このバージョンでは、開発効率、相互運用性、パフォーマンスが飛躍的に向上しました。
+  相互運用の機能を使うことでOSやその他のライブラリと直接通信できます。
+
+## その他のダウンロード
 
 AliceScriptには、開発環境を含めたADK版と通常版の二種類が存在します。
 
@@ -28,8 +33,8 @@ ADK版には、それ単体でファイルを実行したり開発したりす�
 
 ダウンロードしてインストールする前に、お使いのコンピューターに.NETCore3.1がインストールされていることを確認してください。
 
-*新機能については[AliceScriptの新機能](../features)を参照してください。
-*このソフトウェアに含まれるソフトウェアの著作権情報については[著作権情報](../about)を参照してください。
+* 新機能については[AliceScriptの新機能](../features)を参照してください。
+* このソフトウェアに含まれるソフトウェアの著作権情報については[著作権情報](../about)を参照してください。
 
 *  **[AliceScriptADK 3.0(最新版,安定版)のダウンロード](https://download.wsoft.ws/WS00280)**
 *  [AliceScriptADK 2.3(安定版)のダウンロード](https://download.wsoft.ws/WS00269)
