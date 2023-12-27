@@ -1,2 +1,4 @@
 document.getElementById("nav-docs").classList.add("active");
-setLegalLink('https://docs.wsoft.ws/legal/docs-termsofuse','使用条件');
+let a=document.getElementById('legal-link');
+a.setAttribute('href', 'https://docs.wsoft.ws/legal/docs-termsofuse');
+a.innerHTML='使用条件';
