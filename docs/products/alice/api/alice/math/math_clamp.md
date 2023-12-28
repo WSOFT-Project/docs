@@ -1,14 +1,14 @@
 ---
 title: math_clamp
-summary: 指定された最大最小値の範囲に固定される値を返します。
+summary: 指定された範囲内に数値を制約します
 ---
 
 ### 定義
-名前空間:Alice.Math / アセンブリ : Losetta.Runtime.dll / サポート: AliceScript1
+名前空間:Alice.Math / アセンブリ : Losetta.Runtime.dll / サポート: Alice2.0
 
 属性: 関数
 
-指定された最大最小値の範囲に固定される値を返します。
+指定された最大最小値の範囲内に数値を制約します
 
 ```cs title="AliceScript"
 namespace Alice.Math;

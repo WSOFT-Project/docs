@@ -12,7 +12,7 @@ summary: 指定された数値を指定した値で累乗した値を返しま�
 
 ```cs title="AliceScript"
 namespace Alice.Math;
-number math_pow(number x,number y);
+public number math_pow(number x,number y);
 ```
 
 |引数| |

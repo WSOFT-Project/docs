@@ -12,14 +12,51 @@ summary: 指定された数値を指定した小数部の桁数に丸めます�
 
 ```cs title="AliceScript"
 namespace Alice.Math;
-number math_round(number value,number digits=0);
+public number math_round(number value, number digits = 0);
 ```
 
 |引数| |
 |-|-|
 |`value`|丸め対象の数値。|
-|`digits=0`|戻り値の小数部の桁数。規定値は`0`で、これは小数を含みません。|
+|`digits`|戻り値の小数部の桁数。規定値は`0`で、これは小数を含みません。|
 
 |戻り値| |
 |-|-|
-|`number`|`value`に等しい小数部の桁数を格納する`digits`に最も近い数値。|
+|`number`|`value`に等しい小数部の桁数を格納する`digits`にもっとも近い数値。|
+
+サポート : Alice3.0
+
+指定した丸め規則を用いて指定された数値を整数に丸めます。
+
+```cs title="AliceScript"
+namespace Alice.Math;
+public number math_round(number value, bool? roundingMode = null);
+```
+
+|引数| |
+|-|-|
+|`value`|丸め対象の数値。|
+|`roundingMode`|銀行型丸めを使用する場合は`null`、0からもっとも遠い方向に丸める場合は`true`、0にもっとも近い方向に丸める場合は`false`。|
+
+|戻り値| |
+|-|-|
+|`number`|`value`に等しい小数部の桁数を格納する`digits`にもっとも近い数値。|
+
+サポート : Alice3.0
+
+指定した丸め規則を用いて指定された数値を指定した小数部の桁数に丸めます。
+
+```cs title="AliceScript"
+namespace Alice.Math;
+public number math_round(number value, number digits = 0, bool? roundingMode = null);
+```
+
+|引数| |
+|-|-|
+|`value`|丸め対象の数値。|
+|`digits`|戻り値の小数部の桁数。規定値は`0`で、これは小数を含みません。|
+|`roundingMode`|銀行型丸めを使用する場合は`null`、0からもっとも遠い方向に丸める場合は`true`、0にもっとも近い方向に丸める場合は`false`。|
+
+|戻り値| |
+|-|-|
+|`number`|`value`に等しい小数部の桁数を格納する`digits`にもっとも近い数値。|
