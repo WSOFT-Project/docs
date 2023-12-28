@@ -12,7 +12,7 @@ summary: 指定された角度のサインを返します。
 
 ```cs title="AliceScript"
 namespace Alice.Math;
-number math_sin(number value);
+public number math_sin(number value);
 ```
 
 |引数| |

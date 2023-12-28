@@ -12,7 +12,7 @@ summary: 指定された角度のハイパーポリックサインを返しま�
 
 ```cs title="AliceScript"
 namespace Alice.Math;
-number math_sinh(number value);
+public number math_sinh(number value);
 ```
 
 |引数| |

@@ -12,7 +12,7 @@ summary: 指定した数値の整数部を計算します。
 
 ```cs title="AliceScript"
 namespace Alice.Math;
-number math_truncate(number value);
+public number math_truncate(number value);
 ```
 
 |引数| |
