@@ -4,7 +4,7 @@ summary: 指定した数値の階乗を返します
 ---
 
 ### 定義
-名前空間:Alice.Math / アセンブリ : Losetta.Runtime.dll / サポート: AliceScript3.0
+名前空間:Alice.Math / アセンブリ : Losetta.Runtime.dll / サポート: Alice3.0
 
 属性: 関数
 
@@ -30,7 +30,7 @@ $$ 3! = 3 \times 2 \times 1 = 6 $$
 
 階乗の計算では、$0! = 1$と定義されています。そのため、`math_factorial(0)`は、常に`1`を返します。
 
-AliceScriptの数値システムでは、倍精度浮動小数点数を使用しているため、$n = 171$以上の値を使用するとオーバーフローが起こり、`math_PositiveInfinity`を返します。
+AliceScriptの[数値型](../../number/index.md)では、倍精度浮動小数点数を使用しているため、$n = 171$以上の値を指定した場合は常に[math_infinity](./math_infinity.md)を返します。
 
 ### 例
 次の例では、いくつかの数の階乗を計算しています。

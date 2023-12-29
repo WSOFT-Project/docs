@@ -11,7 +11,7 @@ disable_tools : true
       <div class="card-body">
         <h5 class="card-title">WebSailing <span style="color:#02a0e5;">NX</span></h5>
         <p class="card-text">Chromiumベース。昔ながらのUI。それでいて強力。</p>
-        <a href="https://download.wsoft.ws/WebSailing/NX" class="btn btn-primary btn-lg"><i class="bi bi-clock-history"></i>&nbsp;ダウンロード</a>
+        <a href="https://download.wsoft.ws/WS00300" class="btn btn-primary btn-lg"><i class="bi bi-clock-history"></i>&nbsp;ダウンロード</a>
       </div>
     </div>
   </div>
