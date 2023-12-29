@@ -5,7 +5,6 @@ author : 常闇より出る深淵
 author_url : https://twitter.com/tokoyami_lv1
 disable_tools : true
 ---
-## 生存報告Docsへようこそ
 WSOFTDocsの生存報告のサイトへようこそ。
 主に"生存報告"というワードが伝わる人向け。
 
