@@ -1,5 +1,5 @@
 ---
-title: math_copysign
+title: math_copySign
 summary: 指定された絶対値と符号の値を返します。
 ---
 
@@ -12,7 +12,7 @@ summary: 指定された絶対値と符号の値を返します。
 
 ```cs title="AliceScript"
 namespace Alice.Math;
-number math_copysign(number value,number sign);
+public number math_copySign(number value, number sign);
 ```
 
 |引数| |
@@ -26,3 +26,16 @@ number math_copysign(number value,number sign);
 
 !!!warning "実装の非互換性"
     この関数はAliceSisterでは実装されていません。LosettaやAliceScriptを使用することを検討してください。
+
+### 例
+以下に、この関数を使用したいくつかの例を示します。
+
+```cs title="AliceScript"
+using Alice.Math;
+
+math_copySign(2, -1);  //戻り値 : -2
+math_copySign(-2, 1);  //戻り値 :  2
+
+math_copySign(3, -3);  //戻り値 : -3
+math_copySign(-2, -2); //戻り値 : -2
+```
