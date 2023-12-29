@@ -26,12 +26,18 @@ number math_cbrt(number value);
 !!!warning "実装の非互換性"
     この関数はAliceSisterでは実装されていません。LosettaやAliceScriptを使用することを検討してください。
 
+### 説明
+この関数は、内部的にCランタイムを呼び出しています。
+正確な結果および有効な値の範囲は、オペレーティングシステムやアーキテクチャによって異なる可能性があります。
+
+任意の値乗根を計算する場合には、[math_pow](./math_pow.md)を使用してください。
+
 ### 例
-次の例では、$3^3$の値を取得します。
+次の例では、$27$の立方根を取得します。
 
 ```cs title="AliceScript"
 using Alice.Math;
 
-var v=3;
-print(math_cbrt(v)); // 出力例 : 27
+var value = 27;
+print(math_cbrt(value)); // 出力例 : 3
 ```
