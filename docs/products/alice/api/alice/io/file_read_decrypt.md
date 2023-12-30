@@ -1,5 +1,5 @@
 ---
-title: file_write_encrypt
+title: file_read_decrypt
 summary: 指定した暗号化されたファイルを読み取り、ファイルの内容を返します。
 date : 2023-12-16
 ---
@@ -12,7 +12,7 @@ date : 2023-12-16
 
 ```cs title="AliceScript"
 namespace Alice.IO;
-public void file_write_encrypt(string path, bool fromPackage, string password, number keySize = 128, number iterations = 1024, bool useSHA512 = false);
+public void file_read_decrypt(string path, bool fromPackage, string password, number keySize = 128, number iterations = 1024, bool useSHA512 = false);
 ```
 
 |引数| |
