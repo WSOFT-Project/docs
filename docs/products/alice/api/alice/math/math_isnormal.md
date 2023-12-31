@@ -23,9 +23,6 @@ bool math_isNormal(number value);
 |-|-|
 |`number`|`value`が正規化数であれば`true`、それ以外の場合は`false`。|
 
-!!!note "実装に関する注意"
-    この関数はAliceSisterでは実装されていません。
-
 ### 例
 次の例では、いくつかの値について、正規化された値かどうかを確認します。
 

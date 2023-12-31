@@ -37,6 +37,7 @@ public void file_move(string source,string destination,bool overwrite);
 
 !!!note "実装に関する注意"
     このオーバーロードはAliceSisterでは実装されていません。
+    それらの環境では`0x034 NOT_IMPLEMENTED`例外がスローされます。
 
 ### 説明
 この関数を使用して、ファイルの名前を変更できます。

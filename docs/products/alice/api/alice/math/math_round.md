@@ -43,6 +43,10 @@ public number math_round(number value, bool? roundingMode = null);
 |-|-|
 |`number`|`value`に等しい小数部の桁数を格納する`digits`にもっとも近い数値。|
 
+!!!note "実装に関する注意"
+    このオーバーロードはAliceSisterでは仕様が異なります。
+    詳しくは**説明**をご覧ください。
+
 サポート : Alice3.0
 
 指定した丸め規則を用いて指定された数値を指定した小数点以下の桁数に丸めます。
@@ -62,6 +66,10 @@ public number math_round(number value, number digits = 0, bool? roundingMode = n
 |-|-|
 |`number`|`value`に等しい小数部の桁数を格納する`digits`にもっとも近い数値。|
 
+!!!note "実装に関する注意"
+    このオーバーロードはAliceSisterでは仕様が異なります。
+    詳しくは**説明**をご覧ください。
+
 ### 説明
 `digits`の値は`0`から`15`以内でなければなりません。
 AliceScriptの[数値型](../../number/index.md)でサポートされる小数点以下の数値は最大15桁です。
@@ -69,6 +77,9 @@ AliceScriptの[数値型](../../number/index.md)でサポートされる小数�
 `value`の値が[math_NaN](./math_nan.md)の場合、この関数は[math_NaN](./math_nan.md)を返します。また`value`の値が[math_Infinity](./math_infinity.md)の場合、この関数も[math_Infinity](./math_infinity.md)を返し、`value`の値が[math_NegativeInfinity](./math_negativeinfinity.md)の場合、この関数も[math_NegativeInfinity](./math_negativeinfinity.md)を返します。
 
 小数部を切り上げたいときは[math_celling](./math_celling.md)を、切り捨てたいときは[math_floor](./math_floor.md)または[math_truncate](./math_truncate.md)を使用してください。
+
+AliceSisterでは、`roundingMode`が`true`の場合でも銀行型丸めを使用します。
+個の実装では0からもっとも遠い方向に丸めることはできません。
 
 ### 例
 次の例ではさまざまな方法を使って、小数点以下2桁の数値を小数点以下1桁に丸めます。

@@ -11,10 +11,10 @@ date : 2023-12-25
   <div class="card-body">
     <h5 class="card-title">Alice3.0のダウンロード</h5>
     <p class="card-text">Windowsでも、Linuxでも、macOSでも、インストールいらず。</p>
-    <a href="https://download.wsoft.ws/WS00280" class="btn btn-primary">ダウンロード</a>
+    <a href="https://download.wsoft.ws/WS00282" class="btn btn-primary">ダウンロード</a>
   </div>
   <div class="card-footer text-body-secondary">
-    <p>バージョン 3.0.0(Losetta 0.10.3) リリース 2023年12月25日</p>
+    <p>バージョン 3.0.1(Losetta 0.10.4) リリース 2023年12月31日</p>
   </div>
 </div><br/>
 

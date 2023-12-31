@@ -63,6 +63,7 @@ string Replace(string oldValue, string newValue, bool ignoreCase);
 
 !!!note "実装に関する注意"
     このオーバーロードはAliceSisterでは実装されていません。
+    それらの環境では`0x034 NOT_IMPLEMENTED`例外がスローされます。
 
 <span class="badge bg-success">対応バージョン>=Alice3.0</span>
 
@@ -84,6 +85,7 @@ string Replace(string oldValue, string newValue, bool ignoreCase, bool considerC
 
 !!!note "実装に関する注意"
     このオーバーロードはAliceSisterでは実装されていません。
+    それらの環境では`0x034 NOT_IMPLEMENTED`例外がスローされます。
 
 ### 例
 以下は、`にわにはにわにわとりがいる`という文字列を読みやすく置換します。

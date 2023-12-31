@@ -47,7 +47,7 @@ public void file_write_encrypt(string path, bytes content, string password, numb
 
 この関数で暗号化したファイルは、[file_read_decrypt](./file_read_decrypt.md)で復号できます。
 
-AliceSisterでは、`useSHA512`の値によらずハッシュアルゴリズムは`SHA1`が使用されます。
+AliceSisterでは、`useSHA512`が`true`のとき、`0x034 NOT_IMPLEMENTED`例外がスローされ、`useSHA512`が`false`のとき`SHA1`アルゴリズムを使用します。
 このため、AliceSisterとその他の実装の間で、この関数の出力するバイナリの互換性はありません。
 ### 例
 次の例では、入力したファイルをAES-256-SHA512方式で暗号化しコピーを作成する関数を作成し、`test.txt`の暗号化されたコピーを`test1.txt`に作成します。
