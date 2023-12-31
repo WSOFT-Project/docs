@@ -36,6 +36,7 @@ number random_int(number max);
 
 !!!note "実装に関する注意"
     このオーバーロードはAliceSisterでは実装されていません。
+    それらの環境では`0x034 NOT_IMPLEMENTED`例外がスローされます。
 
 暗号学的に安全な方法で、指定された範囲内のランダムな整数を返します。
 
@@ -55,6 +56,7 @@ number random_int(number min,number max);
 
 !!!note "実装に関する注意"
     このオーバーロードはAliceSisterでは実装されていません。
+    それらの環境では`0x034 NOT_IMPLEMENTED`例外がスローされます。
 
 ### 説明
 乱数を生成するには、この関数を使用することをオススメします。

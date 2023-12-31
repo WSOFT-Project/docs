@@ -41,6 +41,7 @@ bool Contains(string item,bool ignoreCase);
 
 !!!note "実装に関する注意"
     このオーバーロードはAliceSisterでは実装されていません。
+    それらの環境では`0x034 NOT_IMPLEMENTED`例外がスローされます。
 
 大文字小文字の区別と、現在のカルチャを考慮するかを指定して、現在の文字列内に指定された文字列が存在するかを示す値を取得します
 
@@ -63,6 +64,7 @@ bool Contains(string item,bool ignoreCase,bool considerCulture);
 
 !!!note "実装に関する注意"
     このオーバーロードはAliceSisterでは実装されていません。
+    それらの環境では`0x034 NOT_IMPLEMENTED`例外がスローされます。
 
 ### 例
 以下は、Hello,Worldという文字列に`,`が存在するかを検証します

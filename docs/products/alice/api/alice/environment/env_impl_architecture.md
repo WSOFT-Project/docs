@@ -22,7 +22,7 @@ string env_impl_architecture();
 ### 説明
 この関数は、[SAIM](../../../general/saim.md)のビルドターゲットアーキテクチャを取得します。
 
-実行する環境がLosettaの場合、返す文字列は以下のいずれかです。
+実行する環境がLosettaまたはAlice3.0以降のAliceScriptの場合、返す文字列は以下のいずれかです。
 
 |戻り値|該当するビルド|
 |-|-|
