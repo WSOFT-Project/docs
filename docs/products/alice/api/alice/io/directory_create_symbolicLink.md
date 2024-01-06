@@ -23,6 +23,7 @@ public void directory_create_symbolicLink(string path, string target);
 
 !!!note "実装に関する注意"
     この関数はAliceScript、AliceSisterでは実装されていません。
+    それらの環境では`0x034 NOT_IMPLEMENTED`例外がスローされます。
 
 ### 説明
 `path`には、相対パスと絶対パスのどちらを指定することもできます。

@@ -34,6 +34,19 @@ number debug_indentLevel(number indentLevel);
 |-|-|
 |`number`|インデントレベル。規定値は`0`です。|
 
+サポート : Alice3.0
+
+デバッグ出力のインデントレベルを取得または設定します。
+
+```cs title="AliceScript"
+namespace Alice.Diagnostics;
+public number debug_indentLevel { get; set; }
+```
+
+|値| |
+|-|-|
+|`number`|デバッグ出力のインデントレベル。規定値は`0`です。|
+
 ### 例
 次の例では、インデントレベルを設定し、デバッグ出力に書き込みます。
 

@@ -1,5 +1,5 @@
 ---
-title: file_write_encrypt
+title: file_read_decrypt
 summary: 指定した暗号化されたファイルを読み取り、ファイルの内容を返します。
 date : 2023-12-16
 ---
@@ -12,7 +12,7 @@ date : 2023-12-16
 
 ```cs title="AliceScript"
 namespace Alice.IO;
-public void file_write_encrypt(string path, bool fromPackage, string password, number keySize = 128, number iterations = 1024, bool useSHA512 = false);
+public void file_read_decrypt(string path, bool fromPackage, string password, number keySize = 128, number iterations = 1024, bool useSHA512 = false);
 ```
 
 |引数| |
@@ -44,9 +44,8 @@ public void file_write_encrypt(string path, bool fromPackage, string password, n
 
 この関数は、通常[file_write_encrypt](./file_write_encrypt.md)で暗号化したファイルを復号するのに使用します。
 
-AliceSisterでは、`useSHA512`の値によらずハッシュアルゴリズムは`SHA1`が使用されます。
+AliceSisterでは、`useSHA512`が`true`のとき、`0x034 NOT_IMPLEMENTED`例外がスローされ、`useSHA512`が`false`のとき`SHA1`アルゴリズムを使用します。
 このため、AliceSisterとその他の実装の間で、この関数の出力するバイナリの互換性はありません。
-
 ### 例
 次の例では、入力したファイルをAES-256-SHA512方式で復号しコピーを作成する関数を作成し、`test1.txt`の復号されたコピーを`test2.txt`に作成します。
 

@@ -1,7 +1,7 @@
 ---
 title: file_read_codePage
 summary: 指定したファイルで使用されている文字コードを判別し、それを表す数値を返します
-date : 2021-07-28
+date : 2023-10-28
 ---
 ### 定義
 名前空間:Alice.IO / アセンブリ : Losetta.Runtime.dll / サポート: Alice3.0

@@ -1,5 +1,5 @@
 ---
-title: math_isprime
+title: math_isPrime
 summary: 指定した数値が素数であるかを表す値を取得します。
 ---
 
@@ -12,7 +12,7 @@ summary: 指定した数値が素数であるかを表す値を取得します�
 
 ```cs title="AliceScript"
 namespace Alice.Math;
-bool math_isprime(number value);
+bool math_isPrime(number value);
 ```
 
 |引数| |
@@ -23,13 +23,18 @@ bool math_isprime(number value);
 |-|-|
 |`number`|`value`が素数であれば`true`、それ以外の場合は`false`。|
 
+### 説明
+素数は、`1`とその数自身のみを約数に持つ数と定義されています。
+
+`value`の値が[math_NaN](./math_nan.md)、[math_Infinity](./math_infinity.md)、[math_NegativeInfinity](./math_negativeinfinity.md)または`2`未満の数の場合、この関数は`false`を返します。
+
 ### 例
 次の例では、一桁の自然数のうち、素数のものを表示しています。
 
 ```cs title="AliceScript"
 using Alice.Math;
 
-for(number n = 0;n < 10; n++)
+for(var n = 0;n < 10; n++)
 {
     if(math_isPrime(n))
     {

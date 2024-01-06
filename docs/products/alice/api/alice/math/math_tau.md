@@ -6,18 +6,14 @@ summary: 円周と半径の比率を表す円定数を表します。
 ### 定義
 名前空間:Alice.Math / アセンブリ : Losetta.Runtime.dll / サポート: AliceScript1
 
-属性: 関数
+属性: 定数
 
 1回のターンのラジアン数である、`τ`で表される円周と半径の比率を表す円定数を返します。
 
 ```cs title="AliceScript"
 namespace Alice.Math;
-number math_tau();
+public readonly number math_tau = 6.283185307179586476925;
 ```
-
-|戻り値| |
-|-|-|
-|`number`|円周と半径の比率を表す円定数|
 
 ### 説明
 `τ`は、一般に円周率`π`の二倍です。AliceScriptでは`6.2831853071795862`が定数として定義されています。

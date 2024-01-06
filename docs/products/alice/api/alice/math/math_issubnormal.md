@@ -22,6 +22,3 @@ bool math_isSubNormal(number value);
 |戻り値| |
 |-|-|
 |`number`|`value`が非正規化数であれば`true`、それ以外の場合は`false`。|
-
-!!!note "実装に関する注意"
-    この関数はAliceSisterでは実装されていません。
