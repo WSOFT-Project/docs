@@ -7,7 +7,7 @@ disable_tools : true
 ---
 
 !!! warning "サポート終了"
-    WSOFTScriptバージョン2020LTSおよび0.07R4以降、新たなバージョンのWSOFTScriptの開発は行われません。WSOFTは、2022年6月1日に、すべてのWSOFTScriptおよびWSOFTScript.XならびにWSOFTScript.Pocketの各バージョンのサポートを終了します。
+    WSOFTScriptバージョン2020LTSおよび0.07R4以降、新たなバージョンのWSOFTScriptの開発は行われません。WSOFTは、2022年6月1日に、すべてのWSOFTScript、WSOFTScript.XならびにWSOFTScript.Pocketの各バージョンのサポートを終了します。
     詳しく知るには、[WSOFTScriptのライフサイクル](./lifecycle.md)を確認してください。
 
 ---

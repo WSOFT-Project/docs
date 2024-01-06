@@ -1,5 +1,6 @@
 ---
 title : Wikiの概要
+long_title : AliceScriptWikiの概要
 summary : この記事では、AliceScriptWikiについて説明するとともに、編集者用ページの内容を示します。
 date : 2022-02-13
 ---

@@ -32,10 +32,11 @@ WSOFTDocsのAliceScriptのサイトへようこそ。このサイトでは、Ali
     * [標準Alice実装モデル](./general/saim.md)
     * [AlicePackage](./general/alice-package.md)
 
-!!! note ".NETとの相互運用"
+!!! note "相互運用"
     ---
 
     * [基本的なAliceScriptライブラリの開発](./interop/basic.md)
+    * [ネイティブ関数の呼び出し](./interop/call-native-functions.md)
 
 !!! note "移行とアップグレード"
     ---

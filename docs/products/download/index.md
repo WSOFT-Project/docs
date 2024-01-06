@@ -1,5 +1,6 @@
 ---
-title : WSOFTダウンロードセンターの概要
+title : 概要
+long_title : WSOFTダウンロードセンターの概要
 summary : この記事では、WSOFTダウンロードセンターについて説明します。
 date : 2023-01-30
 ---

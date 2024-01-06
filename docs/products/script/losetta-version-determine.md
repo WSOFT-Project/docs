@@ -76,3 +76,5 @@ WSOFTScriptやAliceScriptのバージョンとLosettaのバージョンは一対
 |AliceScript 2.2|Losetta 0.9.18|
 |AliceScript 2.2.1|Losetta 0.9.19|
 |AliceScript 2.3|Losetta 0.9.20|
+|**AliceScript 3.0**|Losetta 0.10.3|
+|AliceScript 3.0.1|Losetta 0.10.4|
