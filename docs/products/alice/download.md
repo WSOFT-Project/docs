@@ -16,7 +16,7 @@ date : 2023-12-25
   <div class="card-footer text-body-secondary">
     <p>バージョン 3.0.1(Losetta 0.10.4) リリース 2023年12月31日</p>
   </div>
-</div><br/>
+</div><br/><br/>
 
 !!!note "Alice3.0の新機能"
     Alice3.0を使うことで、よりすばやく多機能なプログラムを作成できます。
