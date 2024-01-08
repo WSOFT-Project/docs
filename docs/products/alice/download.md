@@ -16,7 +16,7 @@ date : 2023-12-25
   <div class="card-footer text-body-secondary">
     <p>バージョン 3.0.1(Losetta 0.10.4) リリース 2023年12月31日</p>
   </div>
-</div><br/><br/>
+</div><br/>
 
 !!!note "Alice3.0の新機能"
     Alice3.0を使うことで、よりすばやく多機能なプログラムを作成できます。
@@ -37,7 +37,8 @@ ADK版には、それ単体でファイルを実行したり開発したりす�
 * 新機能については[AliceScriptの新機能](../features)を参照してください。
 * このソフトウェアに含まれるソフトウェアの著作権情報については[著作権情報](../about)を参照してください。
 
-*  **[AliceScriptADK 3.0(最新版,安定版)のダウンロード](https://download.wsoft.ws/WS00280)**
+*  **[AliceScriptADK 3.0.1(最新版,安定版)のダウンロード](https://download.wsoft.ws/WS00282)**
+*  [AliceScriptADK 3.0のダウンロード](https://download.wsoft.ws/WS00280)
 *  [AliceScriptADK 2.3(安定版)のダウンロード](https://download.wsoft.ws/WS00269)
 *  [AliceScriptADK 2.2.1(安定版)のダウンロード](https://download.wsoft.ws/WS00178)
 *  [AliceScriptADK 2.0(最新版,安定版)のダウンロード](https://download.wsoft.ws/WS00139)
@@ -60,7 +61,8 @@ ADK版には、それ単体でファイルを実行したり開発したりす�
 * 新機能については[AliceScriptの新機能](../features)を参照してください。
 * このソフトウェアに含まれるソフトウェアの著作権情報については[著作権情報](../about)を参照してください。
 
-*  **[AliceScriptADK 3.0(最新版,安定版)のダウンロード](https://download.wsoft.ws/WS00280)**
+*  **[AliceScriptADK 3.0.1(最新版,安定版)のダウンロード](https://download.wsoft.ws/WS00282)**
+*  [AliceScriptADK 3.0のダウンロード](https://download.wsoft.ws/WS00280)
 *  [AliceSisterADK 2.3(安定版)のダウンロード](https://download.wsoft.ws/WS00270)
 *  [AliceSisterADK 2.1(安定版)のダウンロード](https://download.wsoft.ws/WS00153)
 *  [AliceSisterADK 2.0(最新版,安定版)のダウンロード](https://download.wsoft.ws/WS00140)
