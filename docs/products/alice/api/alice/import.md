@@ -17,7 +17,7 @@ void import(string filename,bool isNativeLibrary = false);
 |引数| |
 |-|-|
 |`filename`| 読み込みたいライブラリのファイル名|
-|`isNativeLibrary`|ネイティブライブラリのとして読み込むかどうかを表す値。規定値は`false`です。|
+|`isNativeLibrary`|ネイティブライブラリのとして読み込む場合は`true`、AlicePackageを読み込む場合は`false`。規定値は`false`です。|
 
 ### 例
 以下は、import関数を使用して`somelib.ice`を読み込む例です。
