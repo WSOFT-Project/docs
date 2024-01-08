@@ -22,7 +22,7 @@ void foreach(Expression foreach;);
 
 ### 基本
 `foreach`文は、配列型あるいは対応しているその他の型内の要素ごとに、本文を実行します。
-次の例では、`fibNumbers`にフィボナッチ数列が定義されているので、それを列挙します。
+次の例では、`fibNumbers`に0から13までのフィボナッチ数が定義されているので、それを列挙します。
 
 ```cs title="AliceScript"
 var fibNumbers = [0, 1, 1, 2, 3, 5, 8, 13];

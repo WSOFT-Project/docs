@@ -26,7 +26,7 @@ void if(bool condition);
 次の例では、`fizz`関数に与えられた値が`3`の倍数であるときに`Fizz`を表示します。
 
 ```cs title="AliceScript"
-function fizz(number num)
+void fizz(number num)
 {
     if(num % 3 == 0)
     {
@@ -43,7 +43,7 @@ fizz(5);//出力無し
 次の例では、`buzz`関数に与えられた値が`5`の倍数であるときに`Buzz`を表示し、それ以外の場合はその数を表示します。
 
 ```cs title="AliceScript"
-function buzz(number num)
+void buzz(number num)
 {
     if(num % 3 == 0)
     {
@@ -60,10 +60,10 @@ buzz(5);//出力例:Buzz
 
 また、`if-else`文は入れ子にでき、`else if`のような形式でも使用できます。
 
-次の例では、`fizzBuzz`関数に与えられた値が`15`の倍数であるときに`FizzBuzz`を表示し、`3`の倍数であるときは`Fizz`を表示し、さらに`5`の倍数であるときには`Buzz`を表示し、それ以外の場合はその数を表示します。
+次の例では、`fizzBuzz`関数に与えられた値が`15`の倍数であるときに`FizzBuzz`を表示し、`3`の倍数であるときは`Fizz`を表示します。さらに`5`の倍数であるときには`Buzz`を表示し、それ以外の場合はその数を表示します。
 
 ```cs title="AliceScript"
-function fizzBuzz(number num)
+void fizzBuzz(number num)
 {
     if(num % 15 == 0)
     {

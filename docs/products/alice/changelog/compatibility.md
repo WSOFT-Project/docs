@@ -3,14 +3,26 @@ title : 互換性に影響を与える変更点
 summary : この記事では、AliceScriptで採用されているか、検討されている互換性に影響を与える変更点について説明します。
 ---
 AliceScriptの歴史を通じて、AliceScriptのバージョン間および異なる実装間で高いレベルの互換性を維持することに力が注がれてきました。 
-Alice2.0（およびSAIM2.0）以降のバージョンは、AliceScriptGMと比較すると新しい技術とみなすことができますが、念のためこの一覧にまとめています。
-多くの開発者は、AliceScriptの異なる実装間の互換性とともに、AliceScriptの特定の実装のバージョン間についても高いレベルの互換性を期待します。 特に、以前のバージョンのAliceScript用に書かれたコードは、AliceScriptの新しいバージョンでもシームレスに動作することを期待します。 実際、多くの開発者は、新しくリリースされたAlice.RuntimeにあるAPIが、それらのAPIが導入された初めのバージョンとも互換性があると期待します。
+Alice3.0以降のバージョンは、AliceScriptGMと比較すると新しい技術とみなすことができますが、念のためこの一覧にまとめています。
+多くの開発者は、AliceScriptの異なる実装間の互換性とともに、AliceScriptの特定の実装のバージョン間についても高いレベルの互換性を期待します。 とくに、以前のバージョンのAliceScript用に書かれたコードは、AliceScriptの新しいバージョンでもシームレスに動作することを期待します。 実際、多くの開発者は、新しくリリースされたAlice.RuntimeにあるAPIが、それらのAPIが導入された初めのバージョンとも互換性があると期待します。
 
 この記事では、AliceScriptまたはAlice.RuntimeまたはAlicePackageに対して行われた変更の詳細と、それがアプリケーションの互換性に与える影響について説明します。変更は<span class="badge bg-success">承認</span>されているか<span class="badge bg-danger">非承認</span>であるか、動作の予測や期待通りの動作の維持が不十分であると判断され、<span class="badge bg-warning text-dark">見送り</span>されているか<span class="badge bg-warning text-dark">検討</span>されているかのいずれかです。
 
 !!! note
     この記事は、AliceScriptの変更履歴として使用できるだけでなく、ライブラリ開発者はこれらの基準を使用して、複数のAliceScript実装やバージョンをターゲットとするライブラリの変更の目安になります。
 
+### Alice3.0での変更
+Alice3.0の更新内容について詳しく知るには、[AliceScript3.0の新機能](./3-0.md)を参照してください。
+
+#### `Alice.Drawing`名前空間の廃止
+<span class="badge bg-success">承認</span>
+
+Alice2.3以前のバージョンでは、WSOFTScriptとの互換性を保つ目的で`Alice.Drawing`名前空間と`Color`、`Colors`オブジェクトが実装されていました。しかし、AliceScriptではこれらのオブジェクトを使用することはないため、実装は削除されました。この変更は承認されました。[#39](https://github.com/WSOFT-Project/Losetta/issues/39)
+
+#### `GC_CollectAfterExecute`関数の廃止
+<span class="badge bg-success">承認</span>
+
+AliceScript1.0では、スコープがないことによるメモリ効率の低下を防ぐため、コードの実行完了毎にガページコレクションを行っていました。Alice2.0以降では、この機能は不要なためAlice3.0で廃止されました。この変更は承認されました。
 ### Alice2.3での変更
 Alice2.3の概要については[AliceScript2.3の新機能](./2-3.md)を参照してください。
 #### 配列同士の`+=`操作をマージから追加に変更

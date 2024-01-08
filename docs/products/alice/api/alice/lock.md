@@ -38,7 +38,7 @@ using Alice.Threading;
 
 var item = 0;
 
-task_run(delegate(){
+task_run(()=>{
     item = 1;
     delay(10000);
 });
