@@ -1,6 +1,6 @@
 ---
 title: Markdownリファレンス
-summary: この記事では、WSOFTDocsを執筆する際に必要なマークダウン記法を表します。
+summary: この記事では、WSOFTDocsを執筆する際に必要なマークダウン記法について説明します。
 date : 2022-12-01
 ---
 [Markdown](https://daringfireball.net/projects/markdown/)記法は、簡単で軽量なマークアップ言語です。WSOFTDocsでは、[Jinja](https://jinja.palletsprojects.com/)解析エンジンを介して解析されます。
@@ -157,7 +157,7 @@ public class Program
 !!! warning "注意"
     上記のサンプルでは末尾の```` ``` ````が欠落しています。（マークダウンの制約）コピペで使用する際はご注意ください。
 
-WSOFTDocsでのリンクのお作法については、[コードの埋め込み方](./include-code.md)を参照してください。
+WSOFTDocsでのコードブロックのお作法については、[コードの埋め込み方](./include-code.md)を参照してください。
 
 ### 数式
 `\$\$`で囲むことでTeX記法を用いて数式を記述できます。

@@ -33,6 +33,18 @@ WSOFTDocsは、現在進行形で開発が継続されているプロジェク�
 適切なIssueの投稿は、WSOFT Docsを改善するために役立ちます。
 提供していただく情報が詳細かつ具体的なほど、Issueは役立つものとなります。お探しだった情報を教えてください。ご使用になった検索語句をおしえてください。ガイドやドキュメントがわかりづらかった場合、どのようにするのが望ましいかお教えください。
 
+### 編集時に役立つ記事
+記事の執筆や編集前に、Markdownの書き方や、WSOFTDocsの記事執筆ガイドなどをぜひご覧ください。
+
+- [Markdownリファレンス](./markdown.md)
+- [メタデータ](./metadata.md)
+
+- [テキストの書式設定に関する指針](./text-formatting-guidelines.md)
+- [リンクの使い方](./how-to-write-links.md)
+- [コードの埋め込み方](./include-code.md)
+
+- [コントリビューター行動規範](./contributor-covenant.md)
+
 ### LantanaやMkDocsの開発に参加する
 WSOFTDocsのユーザーエクスペリエンスの大部分は、[Lantana](https://lantana.wsoft.ws/)によって提供されています。Webページのユーザーエクスペリエンスについてご意見がある場合は、[Lantanaのリポジトリ](https://github.com/WSOFT-Project/lantana)へお願いします。
 また、ドキュメントの生成システムは、[MkDocs](https://www.mkdocs.org)によって提供されています。MkDocsについても、[MkDocsのリポジトリ](https://github.com/mkdocs/mkdocs)へお願いします。
