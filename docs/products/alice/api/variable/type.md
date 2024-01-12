@@ -12,6 +12,8 @@ namespace Alice;
 public Type Type { get; }
 ```
 ### 値
+|値| |
+|-|-|
 |`Type`|変数の種類を表す[Type](../alice/interpreter/type/index.md)型のインスタンス|
 
 

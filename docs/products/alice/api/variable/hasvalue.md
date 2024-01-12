@@ -13,6 +13,8 @@ public bool HasValue { get; }
 ```
 
 ### 値
+|値| |
+|-|-|
 |`bool`|変数に有効な値が代入されている場合は`true`、`null`の場合は`false`|
 
 ### 説明
