@@ -21,7 +21,7 @@ virtual bool Equals(variable other);
 |`bool`| 二つの変数が等しければ`true`、それ以外の場合は`false`|
 
 ### 例
-以下は、二つの変数が正しいかどうかを検証する例です。
+以下は、ふたつの変数が正しいかどうかを検証する例です。
 
 ```cs title="AliceScript"
 var a = 1;

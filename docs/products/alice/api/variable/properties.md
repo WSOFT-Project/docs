@@ -8,7 +8,7 @@ summary: その変数で使用可能なプロパティ、メソッドを表す�
 その変数で使用可能なプロパティ、メソッドを表す文字列の配列を取得します
 
 ```cs title="AliceScript"
-namespace Alice;
+namespace Alice.Reflection;
 array Properties {get;}
 ```
 

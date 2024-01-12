@@ -1,6 +1,6 @@
 ---
 title: DeepClone
-summary: その変数の厳格コピー（ディープコピー）を取得します
+summary: その変数の厳格コピー（ディープコピー）を作成します。
 ---
 ### 定義
 名前空間:Alice / アセンブリ : Losetta.dll / サポート: AliceScript1

@@ -1,6 +1,6 @@
 ---
 title: Convert
-summary: その変数を指定された型に明示的に変換します。変換に失敗した場合はnullを返します
+summary: その変数を指定された型に明示的に変換します。変換に失敗した場合はnullを返します。
 ---
 ### 定義
 名前空間:Alice / アセンブリ : Losetta.dll / サポート: AliceScript1
