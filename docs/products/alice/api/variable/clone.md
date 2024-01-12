@@ -1,6 +1,6 @@
 ---
 title: Clone
-summary: その変数の簡易コピー（シャローコピー）を取得します
+summary: その変数の簡易コピー（シャローコピー）を作成します。
 ---
 ### 定義
 名前空間:Alice / アセンブリ : Losetta.dll / サポート: AliceScript1
