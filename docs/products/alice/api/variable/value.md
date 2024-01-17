@@ -13,6 +13,8 @@ public variable Value { get; }
 ```
 
 ### 値
+|値| |
+|-|-|
 |`variable`|変数に有効な値が代入されている場合、変数の表すnull非許容な値。|
 
 ### 説明
