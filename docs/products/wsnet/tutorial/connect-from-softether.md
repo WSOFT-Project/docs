@@ -6,7 +6,7 @@ date : 2022-10-05
 
 ### はじめに
 Windows環境では、SoftEtherを使用してWSNET/WANに接続できます。Windows環境では**SoftEtherを使用してWSWANに接続する**ことをオススメします。
-AndroidやiOSなど、SoftEtherがサポートされない環境では[OpenVPNを使用してWSWANに接続する](./connetct-from-openvpn.md)こともできます。
+AndroidやiOS、macOSなど、SoftEtherがサポートされない環境では[OpenVPNを使用してWSWANに接続する](./connetct-from-openvpn.md)こともできます。
 
 初めにSoftEtherダウンロードセンターから各プラットフォームのSoftEther VPNClientをダウンロードしてください。
 
@@ -29,9 +29,9 @@ SoftEtherVPNClientがインストールされている環境で**SoftEtherVPN �
 
 **接続設定名**には任意の名前を指定できます。わかりやすいものを使用してください。
 
-**ホスト名**には接続先のサーバーの名前を指定します。WSWANの場合は`net.wsoft.ws`を、WSNETの場合は`vpn.wsoft.ws`を指定します。
+**ホスト名**には接続先のサーバーである`net.wsoft.ws`を指定します。
 
-**ポート名**には接続先のサーバーのポート番号を指定します。WSWANの場合は`443`か`5223`を、WSNETの場合は`5223`を指定します。
+**ポート名**には接続先のサーバーのポート番号である`443`を指定します。
 
 **ユーザー認証**は、標準パスワード認証を使用できます。WSWANのユーザー名とパスワードを指定してください。
 
