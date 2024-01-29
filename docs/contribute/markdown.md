@@ -303,16 +303,22 @@ WSOFTDocsでのリンクのお作法については、[リンクの使い方](./
 
 ### 画像
 ```markdown title="Markdown"
-![代替テキスト](./media/1.jpg)
+![Aliceが微笑んでいる](./media/alice.jpg)
 ```
 
 結果
 
-![代替テキスト](/logo.png)
+![Aliceが微笑んでいる](./media/alice.jpg)
 
 
 ### 表
-Bootstrapの制約により、ヘッダーでは左右中央揃えが適用されません
+
+Name     | Age
+-------  | ----
+山田 太郎 | 16
+鈴木 花子 | 24
+
+ヘッダーでは左右中央揃えが適用されません。
 
 ```markdown title="Markdown"
 | Left align | Right align | Center align |
