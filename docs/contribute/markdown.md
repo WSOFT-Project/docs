@@ -303,7 +303,7 @@ WSOFTDocsでのリンクのお作法については、[リンクの使い方](./
 
 ### 画像
 ```markdown title="Markdown"
-![代替テキスト](/favicon.png)
+![代替テキスト](./media/1.jpg)
 ```
 
 結果
