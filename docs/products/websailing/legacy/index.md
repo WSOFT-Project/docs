@@ -8,4 +8,4 @@ summary: ドキュメント、チュートリアル、サンプルでWebSailingN
 
 ### 開発者向け情報
 
-="products/websailing/legacy/developper"=
+="products/websailing/legacy/developer"=

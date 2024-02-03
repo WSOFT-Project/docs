@@ -29,12 +29,12 @@ WebSailing101以降のすべてのバージョンでWebSailingの起動をカス
 !!! warning
     ConfigEditorを使用する場合は、注意が必要です。設定ファイルを誤って編集すると、ソフトウェアを再インストールする必要がある問題が発生したり、データが失われる可能性があります。非公式のソースによって提案される編集は避けてください。また、設定ファイルを編集する前にバックアップをとるとより安全です。
 ### 起動中のWebSailingの設定を編集する
-!!! note
+!!! note title="メモ"
     起動オプションを使用するため、app.wsconf/Application/Startup/UserData/EnableCustomizedStartupがTrueであることが必要です。
 1. 起動中のWebSailingの設定を編集するには、「メニュー」、「WebSailingを再起動」、「起動オプションの設定」へと進みます。
 ![起動オプションの設定](media/1.jpg)
 
-!!! warning
+!!! warning title="注意事項"
     この時、誤って「WebSailingを再起動」をクリックしないように注意します。
 1. WebSailing起動オプションが表示されたら、右下のリンク「または、スタートアップ時に使用される設定を編集します」をクリックします。
 ![または、スタートアップ時に使用される設定を編集します](media/2.jpg)
