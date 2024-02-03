@@ -5,7 +5,7 @@ date : 2022-10-15
 ---
 
 ### はじめに
-AndroidやiOS、macOSやLinux、Windowsなど、OpenVPNはさまざまなプラットフォームでサポートされています。とくにSoftEtherがサポートされていないAndroidやiOSなどの環境ではOpenVPNを使用して接続することが必要です。Windows環境では[SoftEtherを使用してWSWANに接続する](./connect-from-softether.md)ことをオススメします。
+OpenVPNはAndroidやiOS、macOSやLinux、Windowsなど、さまざまなプラットフォームでサポートされています。とくにSoftEtherがサポートされていないAndroidやiOS、macOSなどの環境ではOpenVPNを使用して接続することが必要です。Windows環境では[SoftEtherを使用してWSWANに接続する](./connect-from-softether.md)ことをオススメします。
 
 初めに各プラットフォームのOpenVPNクライアントを端末にインストールしてください。
 
@@ -24,9 +24,9 @@ AndroidやiOS、macOSやLinux、Windowsなど、OpenVPNはさまざまなプラ�
 ---
 
 ### OpenVPNアプリで設定
-ダウンロードした設定ファイル(*.ovpn)をOpenVPN Connectアプリで開きます。
+ダウンロードした設定ファイル(`*.ovpn``)をOpenVPN Connectアプリで開きます。
 
-ユーザー名にWSWANのユーザー名を設定し、SavePasswordにチェックを入れ、WSWANのパスワードを指定します。
+ユーザー名にWSWANのユーザー名を設定し、**SavePassword**にチェックを入れ、WSWANのパスワードを指定します。
 
 設定を保存したら、接続します。これでOpenVPNクライアントからWSWANに接続できました。
 
@@ -49,7 +49,12 @@ AndroidやiOS、macOSやLinux、Windowsなど、OpenVPNはさまざまなプラ�
 dev tun # ここを変更
 ```
 
-`dev tun`を`dev tap`に変更すると、OpenVPNクライアントはレイヤー2接続を行います。これは、イーサネットブリッジモードとも呼ばれます。
+!!!warning "サポートする環境"
+    この設定はAndroidとiOSでは変更できません。それらの環境でL2接続はサポートされていません。
+
+`dev tun`を`dev tap`に変更すると、OpenVPNクライアントはレイヤー2接続を行います。これは、イーサネットブリッジモードとも呼ばれていて、ブロードキャストパケットの送信が行えます。
+これにより、LAN内の対戦ゲームやWindowsのネットワーク共有が使用できるようになります。
+
 
 ##### 接続方法の変更
 設定ファイル18行目に以下の記述があります。
@@ -65,24 +70,7 @@ dev tun # ここを変更
 proto tcp # ここを変更
 ```
 
-`proto tcp`を`proto udp`に変更するとコネクションにTCPではなくUDPを使用するようになります。しかし現在、WSNET/WANサーバーはOpenVPNクライアントからのUDP接続を受け入れていません。この設定は変更しないでください。
-
-##### 接続先の変更
-設定ファイル28行目に以下の記述があります。
-
-```txt title="wsnet-wan-openvpn-config.ovpn"
-###############################################################################
-# The destination hostname / IP address, and port number of
-# the target VPN Server.
-#
-# You have to specify as 'remote <HOSTNAME> <PORT>'. You can also
-# specify the IP address instead of the hostname.
-#
-
-remote net.wsoft.ws 443 # ここを変更
-```
-
-`remote`の値を変更するとサーバーとポート番号を変更できます。WSNETのみに接続する場合は`vpn.wsoft.ws 5223`を使用してください。また、WSWANサーバーも`5223`ポートへの接続をサポートしています。
+`proto tcp`を`proto udp`に変更するとコネクションにTCPではなくUDPを使用するようになります。UDP通信が許可されている場合は、この設定を変更することでスルースプットの向上が期待できます。ファイアウォールなどで許可されていない環境では、この設定は変更できません。
 
 ##### HTTPプロキシの設定
 設定ファイル39行目に以下の記述があります。
