@@ -25,3 +25,9 @@ public class bytes
 |名前|説明|
 |---|---|
 |[Size()](../array/size.md)|その変数の持つデータ長を取得します|
+|[ToBase64()](./tobase64.md)|現在のバイナリデータを、Base64でエンコードした文字列を取得します|
+|[ToBase64(number offset, number length)](./tobase64.md)|現在のバイナリデータのうち指定した区間を、Base64でエンコードした文字列を取得します|
+|[ToBase64(bool insertLineBrakes)](./tobase64.md)|現在のバイナリデータを、改行するかどうかを指定してBase64でエンコードした文字列を取得します|
+|[ToBase64(number offset, number length, bool insertLineBrakes)](./tobase64.md)|現在のバイナリデータのうち指定した区間を、改行するかどうかを指定してBase64でエンコードした文字列を取得します|
+|[ToString(string charCode)](./tostring.md)|指定した文字コード名に対応する文字コードでエンコードした現在のバイナリデータの文字列表現を取得します|
+|[ToString(number codePage)](./tostring.md)|指定したコード番号に対応する文字コードでエンコードした現在のバイナリデータの文字列表現を取得します|
