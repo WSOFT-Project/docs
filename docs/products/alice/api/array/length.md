@@ -13,6 +13,9 @@ class Alice.Array;
 readonly number Length;
 ```
 
+### 説明
+この値の参照にかかる時間は、$O(1)$です。
+
 ### 例
 以下は、`abc`の文字数を表示します
 
