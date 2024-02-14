@@ -1,12 +1,12 @@
 ---
 title: Foreach
 long_title : array.Foreach
-summary: 現在の配列からひとつずつ要素を取り出し、与えられたデリゲートを実行します
+summary: 現在の配列の各要素について、指定されたデリゲートを実行します
 ---
 ### 定義
 名前空間:Alice / アセンブリ : Losetta.dll / サポート: AliceScript1
 
-現在の配列からひとつずつ要素を取り出し、与えられたデリゲートを実行します。デリゲートの第一引数にはその要素が渡されます。
+現在の配列の各要素について、指定されたデリゲートを実行します。デリゲートの第一引数にはその要素が渡されます。
 
 ```cs title="AliceScript"
 class Alice.Array;
@@ -22,9 +22,7 @@ void Foreach(delegate task);
 
 ```cs title="AliceScript"
 var a = [1,2,3];
-a.Foreach(delegate(item){
-    print(item);
-});
+a.Foreach(item => print(item));
 
 // 出力例
 // 1
