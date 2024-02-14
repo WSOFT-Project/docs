@@ -23,6 +23,13 @@ Alice2.3以前のバージョンでは、WSOFTScriptとの互換性を保つ目�
 <span class="badge bg-success">承認</span>
 
 AliceScript1.0では、スコープがないことによるメモリ効率の低下を防ぐため、コードの実行完了毎にガページコレクションを行っていました。Alice2.0以降では、この機能は不要なためAlice3.0で廃止されました。この変更は承認されました。
+
+#### 使用できる文字の変更
+<span class="badge bg-success">承認</span>
+
+Alice3.0では、制御文字やフォーマット文字、非文字など一部の文字を無視するようになりました。これは、Unicode標準にのっとり、他の多くの言語と同様にプログラムの可読性を高め、誤解を避けるための措置です。
+使用できない文字の厳密な定義は[Processing.cs](https://github.com/WSOFT-Project/Losetta/blob/9be6afecc1a834a32ed6a6ed30ca7d0939a8d8a0/Losetta/PreProcessing/PreProcessor.cs#L681)および[Constants.cs](https://github.com/WSOFT-Project/Losetta/blob/9be6afecc1a834a32ed6a6ed30ca7d0939a8d8a0/Losetta/Constants.cs#L183)を参照してください。この変更は承認されました。
+
 ### Alice2.3での変更
 Alice2.3の概要については[AliceScript2.3の新機能](./2-3.md)を参照してください。
 #### 配列同士の`+=`操作をマージから追加に変更

@@ -26,7 +26,7 @@ void Reverse(number index,number count);
 |`count`|反転を実行する要素の数|
 
 ### 例
-以下は、`1`、`2`、`3`と並ぶ配列を降順にソートします。
+以下は、`1`、`2`、`3`と並ぶ配列をの順序を反転させます。
 
 ```cs title="AliceScript"
 var a = [1,2,3];
