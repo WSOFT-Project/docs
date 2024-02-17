@@ -14,6 +14,7 @@ date : 2023-08-07
 ```cs title="AliceScript"
 namespace Alice;
 .command void return;
+```
 
 現在の関数の実行を終了し、呼び出し元に制御と関数の結果を返します。
 
