@@ -12,14 +12,14 @@ date : 2021-11-09
 
 ```cs title="AliceScript"
 namespace Alice;
-void print();
+public void print();
 ```
 
 指定された文字列の文字列表現を標準出力に書き込み、続けて現在の環境で使用されている改行文字を書き込みます。
 
 ```cs title="AliceScript"
 namespace Alice;
-.command void print(string text);
+public .command void print(string text);
 ```
 
 |引数| |
@@ -30,7 +30,7 @@ namespace Alice;
 
 ```cs title="AliceScript"
 namespace Alice;
-.command void print(variable value);
+public .command void print(variable value);
 ```
 
 |引数| |
@@ -41,7 +41,7 @@ namespace Alice;
 
 ```cs title="AliceScript"
 namespace Alice;
-.command void print(string format,params variable args);
+public .command void print(string format,params variable args);
 ```
 
 |引数| |
