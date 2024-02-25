@@ -491,13 +491,21 @@ Hoge();//出力:Hoge!
 次の例を参照してください。
 
 ```cs title="AliceScript"
+// 定義時には処理内容は省略できる
 virtual void Hoge2();
 
-Hoge();//これはエラー
+// スコープ内で処理内容が定義されていないためエラー
+Hoge();
 
-override void Hoge2()
+if(condition)
 {
-  print("Hoge2!");
+  override void Hoge2()
+  {
+    print("Hoge2!");
+  }
+
+  // これは問題なし
+  Hoge2();
 }
 ```
 
