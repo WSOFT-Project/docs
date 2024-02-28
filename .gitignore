@@ -367,3 +367,5 @@ site/*
 .obsidian
 
 cei
+
+.DS_Store
