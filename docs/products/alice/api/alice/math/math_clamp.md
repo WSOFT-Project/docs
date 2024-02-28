@@ -25,9 +25,6 @@ public number math_clamp(number value, number min, number max);
 |-|-|
 |`number`|`min`≤`value`≤`max`の場合は`value`が、どちらかの範囲に逸脱する場合はその範囲の最大最小値が返されます。|
 
-!!!warning "実装の非互換性"
-    この関数はAliceSisterでは実装されていません。LosettaやAliceScriptを使用することを検討してください。
-
 ### 説明
 この関数は、指定された値を範囲内に制限するために使用します。
 この関数では、以下の表にしたがって値を返します。
@@ -37,6 +34,8 @@ public number math_clamp(number value, number min, number max);
 |`value < min`|`min`|
 |`min < value < max`|`value`|
 |`max < value`|`max`|
+
+この関数はAliceSister3.0以前には実装されていません。
 
 ### 例
 以下に、この関数を使用したいくつかの例を示します。

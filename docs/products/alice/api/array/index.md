@@ -163,6 +163,7 @@ var num_ary = array(number).Activate();
 |[SequenceEqual(array other)](./sequenceequal.md)|現在の配列ともう一方の配列の要素が等しいかどうかを判定します|
 |[Size()](../array/size.md)|その変数の持つデータ長を取得します|
 |[Skip(number count)](./skip.md)|現在の配列内の先頭から指定された数の要素を取り除いた配列を取得します|
+|[SkipLast(number count)](./skiplast.md)|現在の配列内の末尾から指定された数の要素を取り除いた配列を取得します|
 |[SkipWhile(delegate condition)](./skipwhile.md)|現在の配列内の先頭から指定された条件を満たす間要素を除いた配列を取得します|
 |[Sort()](./sort.md)|現在の配列を規定の方法で並び替えます|
 |[Take(number count)](./take.md)|現在の配列内の先頭から指定された個数の要素を取得します|

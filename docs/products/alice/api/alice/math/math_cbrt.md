@@ -23,12 +23,11 @@ number math_cbrt(number value);
 |-|-|
 |`number`|`value`の立方根。|
 
-!!!warning "実装の非互換性"
-    この関数はAliceSisterでは実装されていません。LosettaやAliceScriptを使用することを検討してください。
-
 ### 説明
-この関数は、内部的にCランタイムを呼び出しています。
+LosettaとAliceScriptでのこの関数は、内部的にCランタイムを呼び出しています。
 正確な結果および有効な値の範囲は、オペレーティングシステムやアーキテクチャによって異なる可能性があります。
+
+AliceSisterでのこの関数は、[math_pow(value, 1/3)](./math_pow.md)と同じ動作をします。そのため、そのほかの実装と比較して精度が低下する可能性があります。
 
 任意の値乗根を計算する場合には、[math_pow](./math_pow.md)を使用してください。
 
