@@ -24,7 +24,7 @@ OpenVPNはAndroidやiOS、macOSやLinux、Windowsなど、さまざまなプラ�
 ---
 
 ### OpenVPNアプリで設定
-ダウンロードした設定ファイル(`*.ovpn``)をOpenVPN Connectアプリで開きます。
+ダウンロードした設定ファイル(`*.ovpn`)をOpenVPN Connectアプリで開きます。
 
 ユーザー名にWSWANのユーザー名を設定し、**SavePassword**にチェックを入れ、WSWANのパスワードを指定します。
 

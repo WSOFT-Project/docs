@@ -21,7 +21,15 @@ number math_atan(number value);
 
 |戻り値| |
 |-|-|
-|`number`|弧度法で$-\pi/2\leqq\theta\leqq\pi/2$の範囲の角度$\theta$|
+|`number`|弧度法で$-\pi/2\leqq\theta\leqq\pi/2$の範囲の角度$\theta$。ただし、`value`が[NaN](./math_isnan.md)の場合は`NaN`、また`value`が`NegativeInfinity`の場合は$-\frac{\pi}{2}$、`PositiveInfinity`の場合は$\frac{\pi}{2}$。|
 
 ### 説明
-`math_acosh()`関数は、引数として与えられた数値の逆正接（アークタンジェント）をラジアン単位で返します。
+`math_atanh()`関数は、引数として与えられた数値の逆正接（アークタンジェント）をラジアン単位で返します。
+
+この関数の正の戻り値は、x軸から反時計回りの回転角を表し、負の戻り値は時計回りの回転角を表します。
+
+この関数は、[math_atan2](./math_atan2.md)とは異なり定点のy座標を考慮しません。そのためこの関数は$- \frac{\pi}{2} \leq atan(x) \leq \frac{\pi}{2}$の値をとります。単位円中の座標が必要な場合は[math_atan2](./math_atan2.md)を使用してください。
+
+取得した弧度法でのラジアンを角度に変換するには、角度に180 / [math_pi](./math_pi.md)を乗算します。
+
+この関数は基になる C ランタイムを呼び出します。正確な結果または有効な入力範囲は、オペレーティング システムやアーキテクチャによって異なる場合があります。

@@ -39,10 +39,6 @@ bool Contains(string item,bool ignoreCase);
 |-|-|
 |`bool`| 現在の文字列内に要素が存在すれば`true`、それ以外の場合は`false`|
 
-!!!note "実装に関する注意"
-    このオーバーロードはAliceSisterでは実装されていません。
-    それらの環境では`0x034 NOT_IMPLEMENTED`例外がスローされます。
-
 大文字小文字の区別と、現在のカルチャを考慮するかを指定して、現在の文字列内に指定された文字列が存在するかを示す値を取得します
 
 <span class="badge bg-success">対応バージョン>=Alice3.0</span>
