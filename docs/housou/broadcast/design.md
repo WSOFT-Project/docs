@@ -47,4 +47,4 @@ date : 2024-03-07
 
 ### このカテゴリの内容
 
-="housou/broadcast"=
+="housou/broadcast"|[style-lite,include-index]=

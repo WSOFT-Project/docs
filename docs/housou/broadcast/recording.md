@@ -74,7 +74,6 @@ date : 2023-08-24
 
 ### 関連項目
 
-- [企画](./design.md)
-- [出演依頼](./request.md)
-- [原稿の書き方](./script.md)
+="housou/broadcast"|[style-lite,include-index]=
+
 - [ミキサー説明書](https://jp.yamaha.com/files/download/other_assets/4/1506954/mg16x_ja_om_a0.pdf)

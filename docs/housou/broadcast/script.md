@@ -221,6 +221,4 @@ M-2)  曲2
 
 ### 関連項目
 
-- [企画](./design.md)
-- [出演依頼](./request.md)
-- [収録](./recording.md)
+="housou/broadcast"|[style-lite,include-index]=

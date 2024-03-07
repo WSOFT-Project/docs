@@ -1,5 +1,6 @@
 ---
-title : 校内放送
+title : 概要
+long_title : 校内放送の概要
 date : 2023-08-24
 ---
 
@@ -47,7 +48,4 @@ date : 2023-08-24
 
 ### 関連項目
 
-- [企画](./design.md)
-- [出演依頼](./request.md)
-- [原稿の書き方](./script.md)
-- [収録](./recording.md)
+="housou/broadcast"|[style-lite,include-index]=
