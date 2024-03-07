@@ -14,14 +14,14 @@ date : 2024-03-07
 じゃあ具体的にどうすればいいのかというと、たとえばこのサイトの左上にあるWSOFTのロゴみたいに繰り返し使うロゴやジングルを作ってしまうといい。[ジングル](https://ja.wikipedia.org/wiki/%E3%82%B8%E3%83%B3%E3%82%B0%E3%83%AB_(%E3%83%A9%E3%82%B8%E3%82%AA))というのは、こんな感じに番組や企画の開始・終了時につかう短いやつのことです。([インターバルシグナル](https://ja.wikipedia.org/wiki/%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%BC%E3%83%90%E3%83%AB%E3%83%BB%E3%82%B7%E3%82%B0%E3%83%8A%E3%83%AB)ということも)
 
 <div class="img-fluid" >
-<iframe width="853" height="480" src="https://www.youtube.com/embed/bwgOBEMvzYk" title="JFN加盟FMラジオ局共通ジングル集" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/bwgOBEMvzYk" title="JFN加盟FMラジオ局共通ジングル集" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
 こういうのは別に自作のものでなくても、ほかから持ってきたものでもいいです。
 たとえば私はこの音源にタイトルコールを上乗せしてました。
 
 <div class="img-fluid" >
-<iframe width="640" height="480" src="https://www.youtube.com/embed/7KXZV6ck4ok" title="放送部ラジオジングル 氷菓(Hyouka) OST 37." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/7KXZV6ck4ok" title="放送部ラジオジングル 氷菓(Hyouka) OST 37." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
 ほかに考えられるのは、曲のイントロなどにタイトルコールを乗せるやり方。
