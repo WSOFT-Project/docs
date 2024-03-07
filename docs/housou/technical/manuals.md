@@ -5,6 +5,7 @@ date : 2024-01-15
 
 ## スタジオの機材
 細かい機材の説明や、ここに書いていないことをしたい場合は...「自分たちで読みなさいっ」
+
 |名称|メーカー|型番|説明書|
 |---|---|---|---|
 |ミキサー|YAMAHA|MG16|[ダウンロード](https://jp.yamaha.com/files/download/other_assets/4/1506954/mg16x_ja_om_a0.pdf)|
@@ -25,6 +26,7 @@ date : 2024-01-15
 
 ### ホールの機材
 **ホールの機材を使うときは必ずICT管理部に相談の上、ICTの先生の指導の下で使用すること**
+
 |名称|メーカー|型番|説明書|
 |---|---|---|---|
 |ミキサー|Panasonic|WR-D40|[ダウンロード](https://partner.connect.panasonic.com/jp-ja/products-services/lineup/WR-D40)|
