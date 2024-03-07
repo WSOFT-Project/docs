@@ -8,20 +8,20 @@ date : 2022-11-01
 
 ## 全体に関すること
 
-="housou/general"=
+="housou/general"|[include-index]=
 
 ## 校内放送
 
-="housou/broadcast"=
+="housou/broadcast"|[include-index]=
 
 ## コンテスト・大会
 
-="housou/contest"=
+="housou/contest"|[include-index]=
 
 ## 学校行事
 
-="housou/events"=
+="housou/events"|[include-index]=
 
 ## その他・付録
 
-="housou/appendix"=
+="housou/appendix"|[include-index]=
