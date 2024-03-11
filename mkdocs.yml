@@ -67,7 +67,7 @@ markdown_extensions:
           - name: mermaid
             class: mermaid
             format: !!python/name:mermaid2.fence_mermaid
-    - mdx_mermaid_precompile
+    - lantana.mermaid_precompile
     - pymdownx.snippets
     - pymdownx.critic
     - pymdownx.caret
@@ -81,5 +81,4 @@ markdown_extensions:
     - lantana.link_opennewtab
     - lantana.alerts
     - lantana.accordion
-    - lantana.mermaid_precompile
     - lantana
