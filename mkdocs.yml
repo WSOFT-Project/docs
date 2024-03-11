@@ -52,10 +52,11 @@ markdown_extensions:
     - lantana.extensions.mdx_embedly
     - lantana.extensions.mdx_wsid
     - attr_list
-    - mdx_cards
+    - lantana.cards
     - footnotes
     - pymdownx.highlight:
        anchor_linenums: true
+    - lantana.codeblock_copybtn
     - admonition
     - pymdownx.arithmatex:
        generic : true
@@ -77,4 +78,8 @@ markdown_extensions:
         custom_checkbox: true
     - pymdownx.magiclink
     - pymdownx.striphtml
-    - mdx_lantana
+    - lantana.link_opennewtab
+    - lantana.alerts
+    - lantana.accordion
+    - lantana.mermaid_precompile
+    - lantana
