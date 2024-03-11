@@ -31,22 +31,16 @@ number Add(number a,number b)
 
 関数が行う処理は、`{ }`の中に書きます。また、関数の出力にしたい値(=戻り値)は、[return](../alice/return.md)の後に書きます。
 
-<details>
-<summary>従来の方式</summary>
+??? "従来の方式"
+  Alice2.3以前のバージョンでは、以下のように`function`関数を使って記述することで関数を定義します。
 
-Alice2.3以前のバージョンでは、以下のように`function`関数を使って記述することで関数を定義します。
-
-```cs title="AliceScript"
-function Add(number a,number b)
-{
-   var c = a + b;
-   return c;
-}
-```
-
-この方法はAlice3.0以降でも使用できますが、なるべく最新の記述方法を使用することをオススメします。
-</details>
-<br/>
+  ```cs title="AliceScript"
+  function Add(number a,number b)
+  {
+    var c = a + b;
+    return c;
+  }
+  ```
 
 ## 関数の呼び出し
 定義した関数の処理を実際に実行する(=呼び出す)には、`変数 = 関数名(入力)`のように記述します。また、AliceScriptでは関数名に大文字小文字の区別はありません。

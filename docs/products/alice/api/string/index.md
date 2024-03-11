@@ -110,7 +110,7 @@ AliceScriptのエスケープ文字は`\`（バックスラッシュ、日本語
 var str = '"Hello",World'; // "Hello",World
 ```
 
-<details>
+<details class="noaccordion">
 <summary>以前のバージョンの仕様</summary>
 
 <span class="badge bg-success">対応バージョン>=Alice2.0</span>

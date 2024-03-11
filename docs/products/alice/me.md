@@ -6,7 +6,7 @@ author_url : https://matsuzen.wsoft.ws/
 date : 2021-11-13
 ---
 
-<details>
+<details class="noaccordion">
 <summary style="display : block;list-style : none;">
 <div class="alert alert-warning" role="alert">
 この項目は編集者のおふざけが多く含まれています。また、このページに書かれているほとんどの内容はAliceScriptのプログラミングに関係の無い内容です。
@@ -79,13 +79,13 @@ AliceScriptおよびAliceProjectのマスコットキャラクター兼公式ア
 
 [Lantana（キャラクター）](https://lantana.wsoft.ws/LantanaProfile/)
 
-<details>
+<details class="noaccordion">
 <summary style="display : block;list-style : none;">
 <div class="alert alert-dark" role="alert">
 この項目は書きかけの項目ですが、この項目を加筆・編集してくださる協力者は求めていません、てかそんな暇あったらもっと自分のためになることをしろ。もしもあなたがAliceたんのような暇人で、時間を持て余しているのならこの項目をユーモアの溢れる項目に変えてみろください。
 </div>
 </summary>
-<details>
+<details class="noaccordion">
 <summary style="display : block;list-style : none;">
 <div class="alert alert-light" role="alert">
 この表示もクリックしてしまったみなさん。
