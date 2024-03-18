@@ -12,7 +12,7 @@ summary: タンジェントが指定した数の商となる角度を返しま�
 
 ```cs title="AliceScript"
 namespace Alice.Math;
-number math_atan2(number y,number x);
+number math_atan2(number y, number x);
 ```
 
 |引数| |
@@ -22,7 +22,9 @@ number math_atan2(number y,number x);
 
 |戻り値| |
 |-|-|
-|`number`|弧度法で$-\frac{\pi}{2}\leqq\theta\leqq\frac{\pi}{2}$ の範囲の角度 $\theta$|
+|`number`|弧度法で$-\pi\leqq\theta\leqq\pi$ の範囲の角度 $\theta$|
 
 ### 説明
 `math_acosh()`関数は、引数として与えられた数値の逆正接（アークタンジェント）をラジアン単位で返します。
+
+戻り値の角度$\theta$は$tan(\theta) = \frac{y}{x}$のようにラジアン単位で返します。
