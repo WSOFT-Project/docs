@@ -1,12 +1,10 @@
 #!/bin/bash
 
-version= 2.9.5
 
 echo "Welcome to WSOFTDocs!"
 echo "Copyright © 2022 WSOFT All Rights Reserved."
 echo;
 echo "WSOFTDocs's build has a need to Python3,MkDocs,Lantana,CEI and its dependents."
-echo "We will installed lantana v$version"
 echo "Moreover, You can build legal docs, but documents that aren't from WSOFT shall have no legal effect."
 echo "To learn more about it, please check at https://docs.wsoft.ws/"
 
@@ -17,6 +15,7 @@ fi
 
 if !(type "mkdocs" > /dev/null 2>&1); then
     echo "MkDocs Doesn't exist! Install now."
+    version= 2.9.5
     pip3 install --no-cache-dir lantana==$version
 fi
 
