@@ -110,11 +110,10 @@ AliceScriptのエスケープ文字は`\`（バックスラッシュ、日本語
 var str = '"Hello",World'; // "Hello",World
 ```
 
-<details>
+<details class="noaccordion">
 <summary>以前のバージョンの仕様</summary>
 
 <span class="badge bg-success">対応バージョン>=Alice2.0</span>
-
 
 逐語的文字列リテラルを使用すると、ダブルクオーテーション（`"`）などをエスケープ文字なしに表現できます。この形式で文字列を表現するには文字列をシングルクオーテーション（`'`）で囲みます。逐語的文字列リテラルではエスケープ文字は、`\\`と`\'`のみ使用できます。次に例を示します。
 

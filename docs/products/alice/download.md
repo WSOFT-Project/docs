@@ -11,10 +11,10 @@ date : 2023-12-25
   <div class="card-body">
     <h5 class="card-title">Alice3.0のダウンロード</h5>
     <p class="card-text">Windowsでも、Linuxでも、macOSでも、インストールいらず。</p>
-    <a href="https://download.wsoft.ws/WS00282" class="btn btn-primary">ダウンロード</a>
+    <a href="https://download.wsoft.ws/WS00290" class="btn btn-primary">ダウンロード</a>
   </div>
   <div class="card-footer text-body-secondary">
-    <p>バージョン 3.0.1(Losetta 0.10.4) リリース 2023年12月31日</p>
+    <p>バージョン 3.0.2(Losetta 0.10.5) リリース 2024年3月6日</p>
   </div>
 </div><br/>
 
@@ -37,7 +37,8 @@ ADK版には、それ単体でファイルを実行したり開発したりす�
 * 新機能については[AliceScriptの新機能](../features)を参照してください。
 * このソフトウェアに含まれるソフトウェアの著作権情報については[著作権情報](../about)を参照してください。
 
-*  **[AliceScriptADK 3.0.1(最新版,安定版)のダウンロード](https://download.wsoft.ws/WS00282)**
+*  **[AliceScriptADK 3.0.2(最新版,安定版)のダウンロード](https://download.wsoft.ws/WS00290)**
+*  [AliceScriptADK 3.0.2のダウンロード](https://download.wsoft.ws/WS00282)
 *  [AliceScriptADK 3.0のダウンロード](https://download.wsoft.ws/WS00280)
 *  [AliceScriptADK 2.3(安定版)のダウンロード](https://download.wsoft.ws/WS00269)
 *  [AliceScriptADK 2.2.1(安定版)のダウンロード](https://download.wsoft.ws/WS00178)
@@ -61,7 +62,8 @@ ADK版には、それ単体でファイルを実行したり開発したりす�
 * 新機能については[AliceScriptの新機能](../features)を参照してください。
 * このソフトウェアに含まれるソフトウェアの著作権情報については[著作権情報](../about)を参照してください。
 
-*  **[AliceScriptADK 3.0.1(最新版,安定版)のダウンロード](https://download.wsoft.ws/WS00282)**
+*  **[AliceScriptADK 3.0.1(最新版,安定版)のダウンロード](https://download.wsoft.ws/WS00290)**
+*  [AliceScriptADK 3.0.1のダウンロード](https://download.wsoft.ws/WS00282)
 *  [AliceScriptADK 3.0のダウンロード](https://download.wsoft.ws/WS00280)
 *  [AliceSisterADK 2.3(安定版)のダウンロード](https://download.wsoft.ws/WS00270)
 *  [AliceSisterADK 2.1(安定版)のダウンロード](https://download.wsoft.ws/WS00153)

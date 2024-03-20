@@ -196,14 +196,14 @@ AliceScriptWikiでは、テンプレートを使うことによってWiki内で�
 
 これは次のように表示されます。
 
-<details>
+<details class="noaccordion">
   <summary>
     アコーディオン
   </summary>
   これはアコーディオンの本文です。このアコーディオンははじめから展開されています。
 </details>
 
-<details>
+<details class="noaccordion">
   <summary class="style-text" open="">
     スタイル無効のアコーディオン
   </summary>
