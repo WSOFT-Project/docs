@@ -15,8 +15,7 @@ fi
 
 if !(type "mkdocs" > /dev/null 2>&1); then
     echo "MkDocs Doesn't exist! Install now."
-    version= 2.9.5
-    pip3 install --no-cache-dir lantana==$version
+    pip3 install --no-cache-dir lantana==2.9.5
 fi
 
 
