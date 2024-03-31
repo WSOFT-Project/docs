@@ -40,10 +40,25 @@ Markdown拡張機能を通じて、その他の機能が追加されています
 ```
 ### WSOFTDocs以外のページへのリンク
 別のWSOFTのページにリンクする場合は、絶対URLを使用してください。
+この方法で指定したリンクは、自動的にリンクに下線が引かれ、クリックすると新規タブで開くようになります。
 
 ```md title="Markdown"
 [link text](https://wsoft.ws/)
 ```
+
+**結果**
+
+[link text](https://wsoft.ws/)
+
+リンクに下線が引かれないようにするには、`unnewtab`クラスを使用してください。
+
+```md title="Markdown"
+[WSOFT](https://wsoft.ws/){: .unnewtab }
+```
+
+**結果**
+
+[WSOFT](https://wsoft.ws/){: .unnewtab }
 
 ### サードパーティのサイトへのリンク
 記事を読みやすくするのためのもっとも良い方法は、別のサイトへのリンクを最小限に抑えることです。
