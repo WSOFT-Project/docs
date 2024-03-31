@@ -6,7 +6,7 @@ summary : イベントで使用した曲やおすすめの曲を置いておき�
 
 ## 卒部式
 ### 放送部の3年間
-卒部式のやつ。いずれの曲も*Instrumental*版を使いました。
+卒部式のやつ。いずれの曲も*Instrumental*版(カラオケ版・歌なし)を使いました。
 
 - [Due partite](https://www.youtube.com/watch?v=vtniF6nq9xI) (夏至パートで1:25~1:42使用)
 - [H](https://www.youtube.com/watch?v=vk9hT9XtGCo) (振り返り・インタビューパートで最初~2:35使用) (*[Instrumental版](https://www.musicbed.com/songs/h-instrumental/9511)*)
@@ -25,9 +25,12 @@ summary : イベントで使用した曲やおすすめの曲を置いておき�
 - [TOKYO 2020 Victory Ceremony](https://www.youtube.com/watch?v=WZ1986ZRTmE)
 
 ## 学園交差点
+ここらへんのBGMはほぼ毎回使っていました。
 
 - [団欒](https://www.youtube.com/watch?v=nwtP-pzFK3Y)
 - [放送部によるラジオテーマ](https://www.youtube.com/watch?v=mKNhVA0YviE)
+- [スケッチ(ロング・バージョン)](https://www.youtube.com/watch?v=2QAIkvi1ztE)
+- [ここまでコピペ 2016ver](https://www.youtube.com/watch?v=nCzNDMWTBIk) (*[Instrumental版](https://piapro.jp/t/aKRg)*)
 
 #### The sim redmond band
 - [Holes in the ground](https://www.youtube.com/watch?v=hk4EfgNgDrE)
