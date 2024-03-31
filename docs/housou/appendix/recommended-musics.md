@@ -27,6 +27,7 @@ summary : イベントで使用した曲やおすすめの曲を置いておき�
 ## 学園交差点
 
 - [団欒](https://www.youtube.com/watch?v=nwtP-pzFK3Y)
+- [放送部によるラジオテーマ](https://www.youtube.com/watch?v=mKNhVA0YviE)
 
 #### The sim redmond band
 - [Holes in the ground](https://www.youtube.com/watch?v=hk4EfgNgDrE)
