@@ -508,7 +508,7 @@ if(condition)
 
 <span class="badge bg-success">対応バージョン>=Alice3.0</span>
 
-関数の宣言時に`extern`キーワードを使用すると、外部で実装されている関数を宣言できます。
+関数の宣言時に`extern`キーワードを使用することで、外部で実装されている関数を宣言できます。
 `extern`は主に、相互運用機能を使用して.NETやそれ以外のコードを呼び出すときに、`#libimport`や`#netimport`指令と使用します。
 
 次の例では、.NETで定義されている[System.Console.WriteLine](https://learn.microsoft.com/en-us/dotnet/api/system.console.writeline)メソッドを使用してコンソールにメッセージを表示します。
