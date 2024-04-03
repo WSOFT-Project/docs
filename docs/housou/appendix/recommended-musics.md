@@ -4,42 +4,7 @@ date : 2024-03-05
 summary : イベントで使用した曲やおすすめの曲を置いておきます。
 ---
 
-## 卒部式
-### 放送部の3年間
-卒部式のやつ。いずれの曲も*Instrumental*版(カラオケ版・歌なし)を使いました。
-
-- [Due partite](https://www.youtube.com/watch?v=vtniF6nq9xI) (夏至パートで1:25~1:42使用)
-- [H](https://www.youtube.com/watch?v=vk9hT9XtGCo) (振り返り・インタビューパートで最初~2:35使用) (*[Instrumental版](https://www.musicbed.com/songs/h-instrumental/9511)*)
-- [Bad Kingdom](https://www.youtube.com/watch?v=3NPxqXMZq7o) (学校行事・ノキパートで最初~2:00使用) (*[Instrumental版](https://www.youtube.com/watch?v=uu4C0AGpoU4)*)
-- [Young](https://www.youtube.com/watch?v=78yb36Kw4G8) (まとめパートで2:37~最後まで使用) (*[Instrumental版](https://www.musicbed.com/songs/young-instrumental/9507)*)
-
-## 文化祭
-### プレ・オープニング
-開会式前に使ってたやつ。
-これに限らず、こういうときはアーティストのライブなんかのSE流しておけば盛り上がると思います。
-
-- [Will](https://www.youtube.com/watch?v=JvN6ZUJfKNY)
-
-もし、待機時間がそんなにない＆全員がある程度落ち着いて着席している状態で、時間を稼ぐならこんなのでもいいかも。
-
-- [Good Dreams](https://www.youtube.com/watch?v=1sQmGBIHSWc)
-
-### オープニング映像
-白黒のやつ。実際に使ったのは*Alternate Mix*のほう。
-
-- [I Guess I Should Go To Sleep](https://www.youtube.com/watch?v=_Oc7ZTfJ8Sk) (*[Alternate Mix](https://www.youtube.com/watch?v=AXejv4ja5Dk)*)
-
-一応文化祭とかで使ったオレオレリミックス版も貼っておきます。
-
-- [オレオレリミックス版](https://download.wsoft.ws/WS14153)
-
-### 表彰式
-やっぱそれっぽさとそれっぽさがあるよね。
-オリンピックの曲は盛大さがあって盛り上がること請け負い。
-
-- [TOKYO 2020 Victory Ceremony](https://www.youtube.com/watch?v=WZ1986ZRTmE)
-- [Beijing2022 victory ceremony music](https://www.youtube.com/watch?v=EWJsyNgvRjA&t=35s)
-- [得賞歌](https://www.youtube.com/watch?v=LxtChFAi-w4)
+可能な限りカッコ内でアーティスト名を併記しています。
 
 ## 学園交差点
 ここらへんのBGMはほぼ毎回使っていました。
@@ -62,10 +27,55 @@ Bilibiliのやつしか見つからなかった。これは毎回チャイムの
 - [夏空 (ロング・バージョン)](https://www.youtube.com/watch?v=LUZiCj7hH9I)
 - [夏空～エンディング・テーマ～](https://www.youtube.com/watch?v=27vggWfPYTk)
 
-#### The sim redmond band
+## 文化祭
+### プレ・オープニング
+開会式前に使ってたやつ。
+これに限らず、こういうときはアーティストのライブなんかのSE流しておけば盛り上がると思います。
+
+- [Will (BUMP OF CHIKEN)](https://www.youtube.com/watch?v=JvN6ZUJfKNY)
+
+もし、待機時間がそんなにない＆全員がある程度落ち着いて着席している状態で、時間を稼いだり、空気を変えるならこんなのでもいいかも。
+
+- [Good Dreams (Sim Redmond Band)](https://www.youtube.com/watch?v=1sQmGBIHSWc)
+- [飛行 (ヨルシカ)](https://www.youtube.com/watch?v=APjpJooQMBc)
+
+### オープニング映像
+白黒のやつ。実際に使ったのは*Alternate Mix*のほう。
+
+- [I Guess I Should Go To Sleep (Jack White)](https://www.youtube.com/watch?v=_Oc7ZTfJ8Sk) (*[Alternate Mix](https://www.youtube.com/watch?v=AXejv4ja5Dk)*)
+
+一応文化祭とかで使ったオレオレリミックス版も貼っておきます。
+
+- [オレオレリミックス版](https://download.wsoft.ws/WS14153)
+
+### 表彰式
+やっぱそれっぽさとそれっぽさがあるよね。
+オリンピックの曲は盛大さがあって盛り上がること請け負い。
+
+- [TOKYO 2020 Victory Ceremony](https://www.youtube.com/watch?v=WZ1986ZRTmE)
+- [Beijing2022 victory ceremony music](https://www.youtube.com/watch?v=EWJsyNgvRjA&t=35s)
+- [得賞歌](https://www.youtube.com/watch?v=LxtChFAi-w4)
+
+## 体育祭
+表彰式の曲は文化祭のものと共通。
+毎回その年に流行った曲を中心に流しています。
+一応使用した曲は以下のプレイリストのもの。
+
+- [R4 体育祭](https://www.youtube.com/playlist?list=PL196PbTibmECNQGiLKbOPDH45hngXVjh3)
+- [R5 体育祭](https://www.youtube.com/playlist?list=PL196PbTibmED_7mK6M8HTmihW8cLEdCy7)
+
+## 卒部式
+### 放送部の3年間
+卒部式のやつ。いずれの曲も*Instrumental*版(カラオケ版・歌なし)を使いました。
+
+- [Due partite](https://www.youtube.com/watch?v=vtniF6nq9xI) (夏至パートで1:25~1:42使用)
+- [H (Air review)](https://www.youtube.com/watch?v=vk9hT9XtGCo) (振り返り・インタビューパートで最初~2:35使用) (*[Instrumental版](https://www.musicbed.com/songs/h-instrumental/9511)*)
+- [Bad Kingdom (Moderat)](https://www.youtube.com/watch?v=3NPxqXMZq7o) (学校行事・ノキパートで最初~2:00使用) (*[Instrumental版](https://www.youtube.com/watch?v=uu4C0AGpoU4)*)
+- [Young (Air review)](https://www.youtube.com/watch?v=78yb36Kw4G8) (まとめパートで2:37~最後まで使用) (*[Instrumental版](https://www.musicbed.com/songs/young-instrumental/9507)*)
+
+## おすすめの曲
+以下は完全に私のおこのみ。
+
+### The sim redmond band
 - [Holes in the ground](https://www.youtube.com/watch?v=hk4EfgNgDrE)
 - [Glide](https://www.youtube.com/watch?v=wJSeAaMOiPE&t=8s)
-
-#### Air review
-- [Young](https://www.youtube.com/watch?v=78yb36Kw4G8)
-- [H](https://www.youtube.com/watch?v=vk9hT9XtGCo)

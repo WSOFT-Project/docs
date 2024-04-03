@@ -22,8 +22,11 @@ date : 2024-03-07
 
 <iframe class="img-fluid"  src="https://www.youtube.com/embed/7KXZV6ck4ok" title="放送部ラジオジングル 氷菓(Hyouka) OST 37." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-
 ほかに考えられるのは、曲のイントロなどにタイトルコールを乗せるやり方。
+実際学園交差点のタイトルコールはこの方式を使っています。
+使っているのは「時空かくれんぼ」という曲のイントロ。
+
+<iframe class="img-fluid"  src="https://www.youtube.com/embed/L7FMv8XT-j4" title="Jikuukakurenbo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 要するに大切なのは、放送の流れや型を最初に決めておくこと。これが企画の大切なデザインの部分です。
 
@@ -44,6 +47,18 @@ date : 2024-03-07
 ### テーマの選び方
 - 聞き手が関心や共感を持って聞いてくれる内容にすること。（例：校内で話題の人物、学校の活動や地域の取り組みだど）←何気ない出来事や話題からおもしろいテーマが浮かび上がることがあるかも
 - 社会問題など大きな問題を取り上げるときは、自分たちの暮らしや学校生活に引き付けること。（例：SDGs、SNS、コロナ対策など）
+
+### 参考にしたもの
+学園交差点は、結構既存の番組のパクリになっています。
+ラジオなんかほぼ聞いたことない私が主に参考にしたのは次の番組(動画)。
+
+- [深夜のラジオを聴き続けて放送委員になった奴](https://www.youtube.com/watch?v=l-ckB3aE2DU)
+- [Charlotteラジオ ～友利奈緒の生徒会活動日誌～](https://www.youtube.com/watch?v=ix2oJMX94bg)
+- [supernovaを科学する (BUMP LOCKS)](https://www.youtube.com/watch?v=O3JA6x3Lwg8)
+
+そもそも学園交差点っぽい企画の原案は、「深夜のラジオを聴き続けて放送委員になった奴」をみて思いつきました。「スタジオからのお知らせ」や「学園裏路地」は「Charlotteラジオ」の影響を強く受けています。
+
+使っている曲については、[使用した/おすすめの曲](../appendix/recommended-musics.md)に載せています。
 
 ### このカテゴリの内容
 
