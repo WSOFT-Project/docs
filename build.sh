@@ -10,7 +10,7 @@ echo "To learn more about it, please check at https://docs.wsoft.ws/"
 echo "If you are attempting to build on a non-x64 processor,"
 echo "change the contents of this variable."
 
-CEI_FILE_NAME = "cei-linux-x64" 
+CEI_FILE_NAME="cei-linux-x64" 
 
 echo "CEI will use $CEI_FILE_NAME"
 
