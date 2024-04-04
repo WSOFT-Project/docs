@@ -43,8 +43,9 @@ function SayHello()
 }
 ```
 
-### コミュニティへの投稿
-WSOFTDocsのすべてのドキュメントはオープンソース化されており、コミュニティのみなさんが自由に編集を提案できるように設計されています。各記事にはペンのマークの編集ボタンがあり、クリックするとGitHubのマークダウン形式のソースファイルへと移動して、コンテンツの修正や改善を求めるPullRequestを簡単に送信できます。詳細については、[共同作成ガイド](/contribute)を参照してください。
+### 技術記事の公開
+
+WSOFTDocsのすべてのドキュメントはオープンソース化しており、コミュニティのみなさんが自由に記事の編集を提案できるように設計されています。各記事にはペンのマークの編集ボタンがあり、クリックするとGitHubのマークダウン形式のソースファイルへと移動して、コンテンツの修正や改善を求めるPull Requestを簡単に送信できます。詳細については、[共同作成ガイド](../contribute/index.md+)を参照してください。
 
 WSOFTDocsを運営するために開発されたWebサイトプロジェクトである、[Lantana](https://lantana.wsoft.ws/)も[オープンソース](https://github.com/WSOFT-Project/lantana)のプロジェクトです。
 
@@ -63,6 +64,6 @@ https://docs.wsoft.ws/alice/begining-alice/
 サイトが表示されるまでの速度といった基本要素はとても重要です。WSOFTDocsのページロード時間はAliceScriptWikiと比べ最大で300%向上しており、また地域別の配信についてもCloudflareのネットワークを使用することで大幅に改善しました。さらに、クラウド上で100%動作するアーキテクチャも構築しました。
 
 ### 今後について
-WSOFTDocsの記事をぜひご覧になり、[GitHub](https://github.com/WSOFT-Project/docs/issues)へ意見をお寄せください。今後の記事では、各種コンテンツの追加計画や、WSOFTDocsへの移行状況について説明する予定です。
+WSOFTDocsの記事をぜひご覧になって、[GitHub](https://github.com/WSOFT-Project/docs/issues)へ意見をお寄せください。今後の記事では、各種コンテンツの追加計画や、WSOFTDocsへの移行状況について説明する予定です。
 
 最期までご覧いただき、ありがとうございました。これからもWSOFTDocsを、よりよいサイトへと改善します。
