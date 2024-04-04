@@ -12,7 +12,7 @@ WSOFTAdventWeek2022が終了しました。
 
 |名称|概要|
 |---|---|
-|[Alice2.0](https://docs.wsoft.ws/blog/welcome-to-advent-week-2022/)|Alice2.0では、ObjectBaseとユーザー定義クラスとの親和性が向上しました。ObjectBaseとユーザー定義クラスは相互に継承することができ、コンストラクタなどの機能もObjectBaseに実装されました。|
+|[Alice2.0](https://docs.wsoft.ws/blog/welcome-to-advent-week-2022/)|Alice2.0では、ObjectBaseとユーザー定義クラスとの親和性が向上しました。ObjectBaseとユーザー定義クラスは相互に継承することができ、コンストラクターなどの機能もObjectBaseに実装されました。|
 |[AliceScript2.0](https://docs.wsoft.ws/products/alice/download/)|Alice2.0で策定された先進的な機能をいち早く取り入れ実装しました。|
 |[AliceSister2.0](https://docs.wsoft.ws/products/alice/download/)|AliceSisterの使命は、先進的な機能を従来のアプリケーションに届ける事です。|
 |[IceBuild](https://docs.wsoft.ws/products/alice/tutorial/build/)|どの環境でもAlicePackageを簡単にビルドできます。|
@@ -28,6 +28,6 @@ WSOFTAdventWeek2022が終了しました。
 ### 完
 2022年のAdventWeekは以上です。しかし、[Discordコミュニティ](https://a.wsoft.ws/discord)に参加すれば、まだまだコミュニケーションを継続できます。
 
-WSOFTは今後も、継続的に既存のソフトウェアを更新していき、すでにあるサービスを保守していくとともに、「ないならないでいいけど、あったらちょっとうれしい」製品を作り上げていきます。WSOFTについてもっと知るには[WSOFTについて](https://wsoft.ws/About/)を、連絡を取るには[WSOFTの連絡先](https://wsoft.ws/Contact/)を参照してください。
+WSOFTは今後も、継続的に既存のソフトウェアを更新していき、すでにあるサービスを保守していくとともに「ないならないでいいけど、あったらちょっとうれしい」製品を作り上げていきます。WSOFTについてもっと知るには[WSOFTについて](https://wsoft.ws/About/)を、連絡を取るには[WSOFTの連絡先](https://wsoft.ws/Contact/)を参照してください。
 
 よいお年をお迎えください。
