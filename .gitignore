@@ -362,10 +362,9 @@ MigrationBackup/
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
 
-site/*
+site
+tmp_site
 
 .obsidian
-
-cei
 
 .DS_Store

@@ -1,12 +1,18 @@
 #!/bin/bash
 
-
 echo "Welcome to WSOFTDocs!"
 echo "Copyright © 2022 WSOFT All Rights Reserved."
 echo;
 echo "WSOFTDocs's build has a need to Python3,MkDocs,Lantana,CEI and its dependents."
 echo "Moreover, You can build legal docs, but documents that aren't from WSOFT shall have no legal effect."
 echo "To learn more about it, please check at https://docs.wsoft.ws/"
+
+echo "If you are attempting to build on a non-x64 processor,"
+echo "change the contents of this variable."
+
+CEI_FILE_NAME="cei-linux-x64" 
+
+echo "CEI will use $CEI_FILE_NAME"
 
 if !(type "pip3" > /dev/null 2>&1); then
     echo "Pypl3 Doesn't exist! Install now."
@@ -20,12 +26,11 @@ fi
 
 
 echo "Building the WSOFTDocs..."
-mkdocs build
+mkdocs build --site-dir site
 
 echo "Replacing WSOFT Common Tags..."
 
-curl -OL https://wsoft.ws/cei
-chmod +x cei
-./cei https://wsoft.ws/common/layout.html --min site
+chmod +x ./tools/cei/$CEI_FILE_NAME
+./tools/cei/$CEI_FILE_NAME https://wsoft.ws/common/layout.html --min site
 
 echo "Build completed. Please check /site directory."
