@@ -26,7 +26,7 @@ fi
 
 
 echo "Building the WSOFTDocs..."
-mkdocs build
+mkdocs build --site-dir site
 
 echo "Replacing WSOFT Common Tags..."
 

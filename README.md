@@ -6,7 +6,29 @@
 ## 実行方法
 WSOFTDocsは、https://docs.wsoft.ws/ で閲覧できます。
 
-また、ローカルで実行するには、start.batまたはstart.shを実行します。
+
+### ビルド方法
+WSOFTDocsをビルドするには以下のパッケージが必要です。
+
+- Python3
+- mkdocs
+- [Lantana](https://github.com/WSOFT-Project/lantana)
+
+このうち、Python3以外はビルドスクリプトによってインストールおよびアップデートされます。
+
+WSOFTDocsをローカル環境でビルドするには、`build.sh`または`build.bat`を実行します。
+
+x64環境以外でビルドするには、ビルドスクリプトの修正が必要です。
+それぞれのスクリプト内の、`CEI_FILE_NAME`変数の値を以下のように修正してください。
+
+|実行環境|変数の値|
+|---|---|
+|Linux x64(規定)|`cei-linux-x64`|
+|Linux Arm64|`cei-linux-arm64`|
+|Windows x64(規定)|`cei-win-x64`|
+|Windows x86|`cei-win-x86`|
+|macOS AppleSilicon|`cei-osx-arm64`|
+|macOS x64|`cei-osx-x64`|
 
 ### 依存関係
 WSOFTDocsは以下のプロジェクトを使用しており、実行の際に必要です。
