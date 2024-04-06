@@ -3,6 +3,7 @@
 /tokoyami/ https://web.archive.org/web/20240406061501/https://docs.wsoft.ws/tokoyami/3/ 301
 /products/websailing/changelog /websailing/changelog/1180 301
 /products/websailing/gl/changelog /websailing/gl/changelog/4000 301
+/products/alice/general/expression/ /products/alice/general/operators/ 301
 
 /websailing/* /products/websailing/:splat
 /alice/* /products/alice/:splat
