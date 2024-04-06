@@ -1,11 +1,10 @@
+/legal/docs-termsofuse /legal/site-terms 301
+/legal/dc-termsofuse /legal/site-terms 301
+/tokoyami/ https://web.archive.org/web/20240406061501/https://docs.wsoft.ws/tokoyami/3/ 301
+/products/websailing/changelog /websailing/changelog/1180 301
+/products/websailing/gl/changelog /websailing/gl/changelog/4000 301
+
 /websailing/* /products/websailing/:splat
 /alice/* /products/alice/:splat
 /script/* /products/script/:splat
 /download/* /products/download/:splat
-
-/products/websailing/changelog /websailing/changelog/1180 301
-/products/websailing/gl/changelog /websailing/gl/changelog/4000 301
-
-/legal/docs-termsofuse /legal/site-terms 301
-/legal/dc-termsofuse /legal/site-terms 301
-/tokoyami/ https://web.archive.org/web/20240406061501/https://docs.wsoft.ws/tokoyami/3/ 301
