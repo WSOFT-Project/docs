@@ -23,7 +23,7 @@ WSOFTDocsのAliceScriptのサイトへようこそ。このサイトでは、Ali
     ---
 
     * [文](./general/statement.md)
-    * [式](./general/expression.md)
+    * [演算子と式](./general/operators/index.md)
     * [変数](./general/variable.md)
     * [関数](./general/function.md)
     * [デリゲート](./api/delegate/index.md)
