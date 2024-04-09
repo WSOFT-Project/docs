@@ -28,7 +28,7 @@ if(str is not number)
 //出力:Hello,World
 ```
 
-## 型キャスト演算子
+## 型キャスト演算子 as
 型キャスト演算子`as`は、左辺の値を右辺の表す型に変換します。右辺は[Typeオブジェクト](../api/alice/interpreter/type/index.md)である必要があり、型変換に失敗した場合は`null`を返します。次に例を示します。
 
 ```cs title="AliceScript"
@@ -36,4 +36,23 @@ number num = 12345;
 print(num.type);//出力:NUMBER
 var str = num as string;
 print(str.type);//出力:STRING
+```
+
+## Null合体演算子 ??
+Null合体演算子`??`は、左の値が`null`ではない場合にその値を返し、それ以外の場合は右の値を評価し返します。次に例を示します。
+
+```cs title="AliceScript"
+string? v = "ABC";
+print(v ?? "Hello,World");//出力:ABC
+v = null;
+print(v ?? "Hello,World");//出力:Hello,World
+```
+
+## Null合体代入演算子 ??=
+Null合体演算子`??=`は、左の値が`null`の場合に左の変数に右の値を代入します。
+
+```cs title="AliceScript"
+string? v = null;
+v ??= "Hello";
+print(v);//出力: Hello
 ```
