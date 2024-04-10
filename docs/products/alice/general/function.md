@@ -284,7 +284,7 @@ number ReadingTime(string str)
 
 string text = "Feugiat dolores in duo sanctus clita et blandit accusam ea luptatum ea no eleifend eirmod duo in erat.";
 
-WordCount(text); // 結果 : 14.1666666667
+ReadingTime(text); // 結果 : 14.1666666667
 ```
 
 私が`text`を読むのにはだいたい14秒かかるみたいです。
@@ -333,14 +333,14 @@ void Assign(ref this value,variable other) //これはエラー
 ```cs title="AliceScript"
 string text = "This is a pen.";
 
-WordCount(text);  //通常の呼び出し方
-text.WordCount(); //拡張メソッドとして呼び出し
+ReadingTime(text);  //通常の呼び出し方
+text.ReadingTime(); //拡張メソッドとして呼び出し
 ```
 
 この性質が逆にあだとなる場合があります。たとえば、`string`型に`Add`メソッドを追加したとすると、その`Add`という名前の関数が通常の方法でも呼び出せてしまいます。この問題を回避するために、関数の定義時に`extonly`キーワードをつけると、拡張メソッド専用の関数になり、通常の呼び出し方法では呼び出せなくなります。次の例をご覧ください。
 
 ```cs title="AliceScript"
-extonly number WordCount(this string str)
+extonly number ReadingTime(this string str)
 {
   // 要は、文中の空白の数を数えている
   var words = str.Split(' ');
@@ -349,8 +349,8 @@ extonly number WordCount(this string str)
 
 string text = "This is a pen.";
 
-text.WordCount(); //これはできる
-WordCount(text);  //これはエラー
+text.ReadingTime(); //これはできる
+ReadingTime(text);  //これはエラー
 ```
 
 拡張メソッドは、そのオブジェクトのメソッドがない場合にのみ呼び出されます。拡張メソッドの呼び出しは通常の関数の呼び出し規則と同じです。
@@ -371,6 +371,7 @@ print(Add(1,2));
 戻り値の型を指定しているとき、その型以外の値を返すとエラーになります。次に例を示します。
 
 ```cs title="AliceScript"
+// シグネチャは文字列を返すと宣言されている
 string GetUserName()
 {
   return 1; // 文字列ではなく数値を返したためエラー
