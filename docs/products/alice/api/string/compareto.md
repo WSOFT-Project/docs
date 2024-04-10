@@ -12,6 +12,7 @@ date : 2021-12-09
 namespace Alice;
 number CompareTo(string item);
 ```
+
 |引数| |
 |-|-|
 |`item`|この文字列と比較する文字列|
