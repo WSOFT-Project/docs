@@ -17,50 +17,66 @@ public class array;
 また、配列には別の配列を含むこともできます。このような配列は多次元配列やジャグ配列と呼ばれます。
 
 ```cs title="AliceScript"
+// 配列を定義する
+// [1,1,2,3,5]
 var ary = [1,1,2,3,5];
 
 // 配列内の要素の個数=配列の長さを取得する
-print($"配列には、現在{ary.Length}個の要素が含まれています");// ary.Length == 5
+print($"配列の長さは{ary.Length}個");
+// 出力: 配列の長さは5個
 
 // 配列に要素を追加する
+// [1,1,2,3,5,8]
 ary.Add(8);
 
-print($"配列には、現在{ary.Length}個の要素が含まれています");// ary.Length == 6
+// 配列の長さがひとつ増えたことを確認
+print($"配列の長さは{ary.Length}個");
+// 出力: 配列の長さは6個
 
 // 配列内に1が含まれているか確認する
 if(ary.Contains(1))
 {
     print("配列には、1が含まれています");
 }
+// 出力: 配列には、1が含まれています
 
 // 配列内の2を削除する
+// [1,1,3,5,8]
 ary.Remove(2);
 
 // 配列内のすべての要素を削除する
+// []
 ary.Clear();
 
+// 配列に要素をまとめて追加
+// [3,1,2,4]
 ary.Add(3,1,2,4);
 
 // 配列内の要素についてひとつずつ取得する
 foreach(var item in ary)
 {
-    print(item);
+    write($"{item}, ");
 }
+// 出力: 3, 1, 2, 4
 
-// これも同様
-ary.Foreach(item => print(item));
+// これも同じ意味
+ary.Foreach(item => write($"{item}, "));
 
 // 配列を昇順に並べ替え
+// [1,2,3,4]
 ary.Sort();
 
 // 配列の順序を反転
+// [4,3,2,1]
 ary.Reverse();
 
 // 配列の先頭の要素を取得
-print(ary.First); // 出力:4
+print(ary.First); 
+// 出力: 4
 
 // 配列の最後の要素を取得
-print(ary.Lest); // 出力:1
+print(ary.Last); 
+// 出力: 1
 ```
 
 現在配列に存在する要素の個数を取得するには、[Length](./length.md)プロパティを使用します。
