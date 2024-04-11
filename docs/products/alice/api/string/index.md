@@ -5,7 +5,7 @@ summary: 文字列型は、テキストを一連のUTF-16文字のリストと�
 ### 定義
 名前空間:Alice / アセンブリ : Losetta.dll / サポート: AliceScript1
 
-文字列型は結合、比較、等値、加算演算子をサポートしています。 文字列型の規定値は空の文字列`""`です。また、この型の型指定修飾子は`string`です。
+文字列型は結合、[関係](../../general/operators/relational-operators.md)演算子と[文字列演算子](../../general/operators/string-operators.md)をサポートしています。 文字列型の規定値は空の文字列`""`です。また、この型の型指定修飾子は`string`です。
 
 すべてのAliceScriptに組み込まれている型はすべて文字列型への暗黙的な変換をサポートしています。文字列型に限って、明示的な変換と明示的な変換は同じ動作になります。
 
@@ -34,11 +34,22 @@ str += "!";
 print(str);
 ```
 
-- [複合書式指定](../alice/string_format.md)を使用するか、`ToString`メソッドを呼び出して変数を文字列に変換する。次の例では、数値型に対して`ToString()`メソッドを呼び出すことで文字列を生成しています。
+- 文字列補間または[複合書式指定](../alice/string_format.md)を使用する。次の例では、文字列補間を使用して`a + b`の値を出力しています。
 
 ```cs title="AliceScript"
-var a = 1;
-var str = a.ToString();
+number a = 1;
+number b = 2;
+
+string str = $"{a} + {b} = {a + b}";
+print(str);
+// 出力: 1 + 2 = 3
+```
+
+- [variable.ToString](../variable/tostring.md)メソッドを使用する。次の例では、数値型の変数`a`を`ToString`メソッドを使用して文字列に変換しています。
+
+```cs title="AliceScript"
+number a = 1;
+string str = a.ToString();
 ```
 
 #### 文字列リテラル
@@ -110,17 +121,12 @@ AliceScriptのエスケープ文字は`\`（バックスラッシュ、日本語
 var str = '"Hello",World'; // "Hello",World
 ```
 
-<details class="noaccordion">
-<summary>以前のバージョンの仕様</summary>
+??? "以前のバージョンの仕様"
+  逐語的文字列リテラルを使用すると、ダブルクオーテーション（`"`）などをエスケープ文字なしに表現できます。この形式で文字列を表現するには文字列をシングルクオーテーション（`'`）で囲みます。逐語的文字列リテラルではエスケープ文字は、`\\`と`\'`のみ使用できます。次に例を示します。
 
-<span class="badge bg-success">対応バージョン>=Alice2.0</span>
-
-逐語的文字列リテラルを使用すると、ダブルクオーテーション（`"`）などをエスケープ文字なしに表現できます。この形式で文字列を表現するには文字列をシングルクオーテーション（`'`）で囲みます。逐語的文字列リテラルではエスケープ文字は、`\\`と`\'`のみ使用できます。次に例を示します。
-
-```cs title="AliceScript"
+  ```cs title="AliceScript"
 var str = '"Hello",World'; // "Hello",World
-```
-</details>
+  ```
 
 #### 生文字列リテラル
 <span class="badge bg-success">対応バージョン>=Alice2.1</span>
