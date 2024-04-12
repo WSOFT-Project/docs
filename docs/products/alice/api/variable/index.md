@@ -13,7 +13,6 @@ public class variable;
 ```
 
 ### 説明
-AliceScriptにおいてすべてのクラスは`variable`を継承するため、`variable`を継承すると宣言する必要はありません。
 
 AliceScriptのすべてのオブジェクトは`variable`から派生しているため、このクラスで定義されているすべてのメソッドおよびプロパティは、システム内のすべてのオブジェクトで使用できます。
 

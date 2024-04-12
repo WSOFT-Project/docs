@@ -3,7 +3,7 @@ title: Markdownリファレンス
 summary: この記事では、WSOFTDocsを執筆する際に必要なマークダウン記法について説明します。
 date : 2022-12-01
 ---
-[Markdown](https://daringfireball.net/projects/markdown/)記法は、簡単で軽量なマークアップ言語です。WSOFTDocsでは、[Jinja](https://jinja.palletsprojects.com/)解析エンジンを介して解析されます。
+[Markdown](https://daringfireball.net/projects/markdown/)記法は、簡単で軽量なマークアップ言語です。WSOFTDocsでは、[Pymdown](https://facelessuser.github.io/PyMdown/)解析エンジンを介して解析されます。
 
 ### 普通のテキスト
 そのまま記述可能です。
