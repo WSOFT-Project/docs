@@ -29,7 +29,7 @@ if(str is not number)
 ```
 
 ## 型キャスト演算子 as
-型キャスト演算子`as`は、左辺の値を右辺の表す型に変換します。右辺は[Typeオブジェクト](../api/alice/interpreter/type/index.md)である必要があり、型変換に失敗した場合は`null`を返します。次に例を示します。
+型キャスト演算子`as`は、左辺の値を右辺の表す型に変換します。右辺は[Type](../api/alice/interpreter/type/index.md)オブジェクトである必要があり、型変換に失敗した場合は`null`を返します。次に例を示します。
 
 ```cs title="AliceScript"
 number num = 12345;
