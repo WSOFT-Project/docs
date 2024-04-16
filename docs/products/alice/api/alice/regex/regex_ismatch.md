@@ -30,7 +30,7 @@ public bool regex_IsMatch(string input, string pattern);
 ### 例
 次の例では、文字列がUrlかを判定します。
 
-```cs title="AliceScrtip"
+```cs title="AliceScript"
 using Alice.Regex;
 
 bool IsUrl(string text)

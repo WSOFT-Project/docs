@@ -32,7 +32,7 @@ AliceScriptの実装によっては、この関数は左かっこ`(`と左波か
 ### 例
 次の例では、`(.*)`をエスケープしています。
 
-```cs title="AliceScrtip"
+```cs title="AliceScript"
 using Alice.Regex;
 
 string str = regex_escape("(.*)");
