@@ -12,7 +12,7 @@ summary: コサインが指定した数となる角度を返します。
 
 ```cs title="AliceScript"
 namespace Alice.Math;
-number math_acos(number value);
+public number math_acos(number value);
 ```
 
 |引数| |

@@ -28,14 +28,14 @@ AliceScriptアプリケーションは、WSOFTScriptアプリケーションと�
 
 それでは早速、簡単なコンソールアプリケーションをAliceScriptで作成して、AliceScriptアプリケーションの作成方法のWSOFTScriptとの違いについて実際に見てみましょう。任意のテキストエディターで次のコードを入力してください。
 
-```js title="main.alice"
+```cs title="main.alice"
 print("Hello,World!");
 ```
 
 ファイルを保存したら、次のコマンドを入力して実行します。
 
 ```shell title="コマンドライン"
-alice {ファイル名}
+alice <ファイル名>
 ```
 
 Hello,World!と表示されれば成功です。
@@ -44,8 +44,8 @@ Hello,World!と表示されれば成功です。
 
 AliceScriptのライブラリには、AliceScript.dllに加えて、Alice.Runitime.dllがあります。これは、AliceScript.dllと同じディレクトリに配置されているときにデフォルトで読み込まれる、AliceScriptのライブラリ群です。ここに、ファイル操作などのよく使う関数やクラスが実装されています。`Alice`に所属しない名前空間の関数やクラスを使用するためには、`using`指令を使用して事前に使用することを宣言する必要があります。
 
-```js title="main.alice"
-using {読み込みたい名前空間の名前};
+```cs title="main.alice"
+using <読み込みたい名前空間の名前>;
 ```
 
 次の例では、まずWSOFTScriptを使用してHello,Worldをテキストファイルに書き込みます。
@@ -75,20 +75,20 @@ print("Hello,World!");
 
 AliceScriptには対応する指令として、`#print`指令があります。具体的には次のコードは、WSOFTScriptの上のコードと等価になります。
 
-```js title="load.alice"
+```cs title="load.alice"
 print("Hello,World!");
 #print Executing...
 ```
 
 また、WSOFTScriptでは.NETライブラリを読み込む際に`[DllImport]`を使用していました。しかし、AliceScriptではそれぞれのスクリプトで`import`関数を呼び出します。
 
-```js title="disable_output.alice"
+```cs title="disable_output.alice"
 import("ファイル名");
 ```
 
 さらに、AliceScriptの関数には、オーバーライドという概念が導入されています。この概念によって原則同じ関数を複数回定義することはできません。同じ関数を複数回定義されることが予想される場合は事前に`virtual`属性を付与することを検討してください。また、属性の付与された関数を上書きする場合には、`override`属性を付与します。次に例を示します。
 
-```js title="override_sample.alice"
+```cs title="override_sample.alice"
 function virtual Func()
     {
         print("Hello");
@@ -103,7 +103,7 @@ Func();//出力:World
 
 また、AliceScriptの関数は可変長個の引数を受け取ることができる、`params`パラメーターをサポートしています。これは、その関数に幾つでも引数を渡すことが可能であることを表しています。次に例を示します。
 
-```js title="override_sample.alice"
+```cs title="override_sample.alice"
 function Func(parms args)
     {
         print(args);
@@ -134,7 +134,7 @@ public const gconst b = 2;
 ### 繰り返し構造の違い
 AliceScriptでは、WSOFTScriptとは異なり完全なfor文とforeach文の分離が図られました。AliceScriptでは配列からひとつひとつ取り出して実行するためにfor文を使用することはできません。また、`foreach(item as array)`や、`foreach(item : array)`の形は使用できなくなりました。代わりに`foreach(item in array)`を使用してください。`array.Foreach(delegate(item));`の形も使用できます。次の例を参照してください。
 
-```js title="sample_loop.alice"
+```cs title="sample_loop.alice"
 var ary = ["a","b","c"];
 ary.Foreach(item=>
  {
@@ -147,7 +147,7 @@ ary.Foreach(item=>
 
 さらに、Alice2.2からは高度な配列操作が導入されました。たとえば、重複している可能性のある数値に変換できる文字列と数字を含む2つの配列をひとつにまとめ、なおかつ重複を除くには以下のような複雑なコードが必要でした。
 
-```js title="sample_array.wss"
+```cs title="sample_array.wss"
 import("WSOFTScript.IO");
 
 var ary1 = [0,1,"2",4,2];
@@ -214,14 +214,14 @@ AliceScriptではWSOFTScriptからいくつかの型が追加または変更さ�
 #### Bool型
 WSOFTScriptではif文やwhile文のように条件をとるステートメントには、number型の0を偽とし、非0を真としていました。trueやfalseキーワードはそれぞれ1や0を返していました。 AliceScriptでは、真または偽のいずれかを表現することのできるbool型が導入され、bool型を厳格に求めるような場面が頻繁にあります。これは、比較式が必要な場面で代入式も使用できてしまい、混乱を招く恐れがあったためです。 AliceScriptでは、trueやfalseキーワードはそれぞれbool型のtrueやfalseを返します。次に例を示します。
 
-```js title="sample_condition.alice"
+```cs title="sample_condition.alice"
 var condition = (1 == 1);
 print(condition.type);//出力例:BOOLEAN
 ```
 
 #### Type型
 AliceScriptには変数の型を表現するtype型が存在します。すべての変数はTypeプロパティを実装していて、その変数の型を表す値を取得できます。これはWSOFTScriptのTypeプロパティに似ています。しかし、WSOFTScriptのTypeプロパティはtype型ではなくstring型でその値を表す文字列表現を返します。string、number、boolキーワードなどはそれぞれの型の値を表す定数です。また、型変換演算子asを使用することでその型に変数を明示的に変換できます。次に例を示します。
-```js title="sample_type.alice"
+```cs title="sample_type.alice"
 var num = 123;
 print(num.type);//出力例:NUMBER
 var str = (num as string);
