@@ -36,7 +36,7 @@ public string regex_Match(string input, string pattern);
 using Alice.Regex;
 
 string text = "ABCDEFG";
-string trimmed = regex_Match(text);
+string trimmed = regex_Match(tex, "C*E");
 
 print(trimmed);
 //出力: CDE
