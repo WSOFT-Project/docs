@@ -32,7 +32,7 @@ Bilibiliのやつしか見つからなかった。これは毎回チャイムの
 開会式前に使ってたやつ。
 これに限らず、こういうときはアーティストのライブなんかのSE流しておけば盛り上がると思います。
 
-- [Will (BUMP OF CHIKEN)](https://www.youtube.com/watch?v=JvN6ZUJfKNY)
+- [Will / RAY (BUMP OF CHIKEN)](https://www.youtube.com/watch?v=JvN6ZUJfKNY)
 
 もし、待機時間がそんなにない＆全員がある程度落ち着いて着席している状態で、時間を稼いだり、空気を変えるならこんなのでもいいかも。
 
@@ -68,10 +68,21 @@ Bilibiliのやつしか見つからなかった。これは毎回チャイムの
 ### 放送部の3年間
 卒部式のやつ。いずれの曲も*Instrumental*版(カラオケ版・歌なし)を使いました。
 
-- [Due partite](https://www.youtube.com/watch?v=vtniF6nq9xI) (夏至パートで1:25~1:42使用)
+- [Due partite / Due partite (Colonna sonora originale)](https://www.youtube.com/watch?v=vtniF6nq9xI) (夏至パートで1:25~1:42使用)
 - [H (Air review)](https://www.youtube.com/watch?v=vk9hT9XtGCo) (振り返り・インタビューパートで最初~2:35使用) (*[Instrumental版](https://www.musicbed.com/songs/h-instrumental/9511)*)
 - [Bad Kingdom (Moderat)](https://www.youtube.com/watch?v=3NPxqXMZq7o) (学校行事・ノキパートで最初~2:00使用) (*[Instrumental版](https://www.youtube.com/watch?v=uu4C0AGpoU4)*)
 - [Young (Air review)](https://www.youtube.com/watch?v=78yb36Kw4G8) (まとめパートで2:37~最後まで使用) (*[Instrumental版](https://www.musicbed.com/songs/young-instrumental/9507)*)
+
+## 夏至
+- [いつもの風景から始まる物語 / 涼宮ハルヒの消失 Original Soundtrack](https://www.youtube.com/watch?v=tF3I7ofKn2M)
+- [朝倉涼子という女性 / 涼宮ハルヒの消失 Original Soundtrack](https://www.youtube.com/watch?v=QBfn-GleXe8)
+- [日常の先に待ち受けるもの / 涼宮ハルヒの消失 Original Soundtrack](https://www.youtube.com/watch?v=3mRCiAKDqIE)
+- [ジュ・トゥ・ヴー / 涼宮ハルヒの消失 Original Soundtrack](https://www.youtube.com/watch?v=eqqPvg-tD7Q)
+- [出口が見つからない！ / 「甘城ブリリアントパーク」オリジナル・サウンド・トラック](https://www.youtube.com/watch?v=Lx8JAcFHmRQ)
+- [神人 / 涼宮ハルヒの完奏〜コンプリートサウンドトラック〜](https://www.youtube.com/watch?v=2jNyLU1TxZk)
+- [素直な気持ち / 涼宮ハルヒの完奏〜コンプリートサウンドトラック〜](https://www.youtube.com/watch?v=2_4LHllReWA)
+- [プリンセス・ラティファ / 「甘城ブリリアントパーク」オリジナル・サウンド・トラック](https://www.youtube.com/watch?v=ji7bt4AZP_s)
+- [いつもの風景で終わる物語 / 涼宮ハルヒの消失 Original Soundtrack](https://www.youtube.com/watch?v=IXBOOF5AnFY)
 
 ## おすすめの曲
 以下は完全に私のおこのみ。
