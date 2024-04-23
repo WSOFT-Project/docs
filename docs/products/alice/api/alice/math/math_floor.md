@@ -12,7 +12,7 @@ summary: 指定した数以下の数のうち、最大の整数値を返しま�
 
 ```cs title="AliceScript"
 namespace Alice.Math;
-number math_floor(number value);
+public number math_floor(number value);
 ```
 
 |引数| |

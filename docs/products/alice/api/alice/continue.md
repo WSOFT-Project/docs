@@ -13,13 +13,13 @@ date : 2023-08-07
 
 ```cs title="AliceScript"
 namespace Alice;
-const continue;
+public const continue;
 ```
 
 ### 基本
 `continue`キーワードは、現在の処理を中止して、これを囲む`for`文、`foreach`文、`do`文、`while`文を次のループに進めます。
 
-`continue`キーワードは定数としてAliceScriptに初めから実装されています。インタプリタは、`Continue`型の変数がコード中に出現すると、無条件に次のループに進みます。
+`continue`キーワードは定数としてAliceScriptに初めから定義されています。インタプリタは、`Continue`型の変数がコード中に出現すると、無条件に次のループに進みます。
 
 次の例では、`foreach`文を使用して`3`を飛ばして`0`から`4`までをカウントします。
 

@@ -11,7 +11,7 @@ summary: 指定された文字列が正しいかどうかをハッシュ値と�
 
 ```cs title="AliceScript"
 namespace Alice.Net;
-byte[] password_verify(string password,byte[] hash,byte[] salt,int hash_size=32,int stretch_count=1000);
+public bool password_verify(string password,bytes hash,bytes salt,int hash_size=32,int stretch_count=1000);
 ```
 
 |引数| |

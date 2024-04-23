@@ -12,7 +12,7 @@ summary: 指定したデータのSHA1ハッシュ値を取得します。
 
 ```cs title="AliceScript"
 namespace Alice.Security;
-bytes sha1_GetHash(bytes data);
+public bytes sha1_GetHash(bytes data);
 ```
 
 |引数| |

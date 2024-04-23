@@ -12,7 +12,7 @@ HTMLでエンコードされた文字列をでコードされた文字列に変�
 
 ```cs title="AliceScript"
 namespace Alice.Net;
-string web_htmldecode(string text);
+public string web_htmldecode(string text);
 ```
 
 |引数| |

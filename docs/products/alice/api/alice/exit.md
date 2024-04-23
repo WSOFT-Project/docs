@@ -9,14 +9,14 @@ summary: 現在のプロセスを終了します
 
 ```cs title="AliceScript"
 namespace Alice;
-void exit();
+public void exit();
 ```
 
 終了コードを指定して、現在のプロセスを終了します
 
 ```cs title="AliceScript"
 namespace Alice;
-void exit(number exitCode);
+public void exit(number exitCode);
 ```
 
 |引数| |

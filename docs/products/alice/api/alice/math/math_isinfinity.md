@@ -12,7 +12,7 @@ summary: 指定した数値が正負どちらかの無限大であるかを示�
 
 ```cs title="AliceScript"
 namespace Alice.Math;
-bool math_isInfinity(number value);
+public bool math_isInfinity(number value);
 ```
 
 |引数| |

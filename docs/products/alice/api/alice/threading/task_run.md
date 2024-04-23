@@ -11,7 +11,7 @@ summary: 指定された処理内容を別スレッドで実行します。
 
 ```cs title="AliceScript"
 namespace Alice.Net;
-void task_run(delegate job,params variable args);
+public void task_run(delegate job,params variable args);
 ```
 
 |引数| |

@@ -13,7 +13,7 @@ date : 2023-08-07
 
 ```cs title="AliceScript"
 namespace Alice;
-void for(Expression init; Expression condition; Expression loop);
+public void for(Expression init; Expression condition; Expression loop);
 ```
 
 |引数| |

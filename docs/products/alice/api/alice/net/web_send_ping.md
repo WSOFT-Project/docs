@@ -12,7 +12,7 @@ date : 2021-08-26
 
 ```cs title="AliceScript"
 namespace Alice.Net;
-bool web_send_ping(string target,number timeout=5000);
+public bool web_send_ping(string target,number timeout=5000);
 ```
 
 |引数| |

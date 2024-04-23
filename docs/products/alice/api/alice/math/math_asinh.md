@@ -12,7 +12,7 @@ summary: 逆双曲線正弦が指定した数となる角度を返します。
 
 ```cs title="AliceScript"
 namespace Alice.Math;
-number math_asinh(number value);
+public number math_asinh(number value);
 ```
 
 |引数| |

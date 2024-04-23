@@ -12,7 +12,7 @@ summary: 指定した数値の階乗を返します
 
 ```cs title="AliceScript"
 namespace Alice.Math;
-number math_factorial(number n) requires(value >= 0);
+public number math_factorial(number n) requires(value >= 0);
 ```
 
 |引数| |

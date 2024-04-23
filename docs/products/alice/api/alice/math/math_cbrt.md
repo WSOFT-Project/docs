@@ -12,7 +12,7 @@ summary: 指定された数値の立方根を返します。
 
 ```cs title="AliceScript"
 namespace Alice.Math;
-number math_cbrt(number value);
+public number math_cbrt(number value);
 ```
 
 |引数| |

@@ -12,7 +12,7 @@ summary: 指定したデータのMD5ハッシュ値を取得します。
 
 ```cs title="AliceScript"
 namespace Alice.Security;
-bytes md5_GetHash(bytes data);
+public bytes md5_GetHash(bytes data);
 ```
 
 |引数| |

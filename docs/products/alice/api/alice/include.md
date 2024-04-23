@@ -12,7 +12,7 @@ nameに指定されたスクリプトファイルをすべて読み取り、そ�
 
 ```cs title="AliceScript"
 namespace Alice;
-variable include(string filename);
+public variable include(string filename);
 ```
 
 |引数| |

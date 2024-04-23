@@ -12,7 +12,7 @@ summary: ひとつの三項演算として丸められた、(x*y)+zを返しま�
 
 ```cs title="AliceScript"
 namespace Alice.Math;
-number math_fusedmultiplyadd(number x,number y,number z);
+public number math_fusedmultiplyadd(number x,number y,number z);
 ```
 
 |引数| |

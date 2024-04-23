@@ -11,7 +11,7 @@ summary: イベントの状態をシグナル状態に設定し、待機して�
 
 ```cs title="AliceScript"
 namespace Alice.Net;
-bool signal();
+public bool signal();
 ```
 
 |戻り値| |

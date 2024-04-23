@@ -12,7 +12,7 @@ date : 2021-12-05
 
 ```csharp title="AliceScript"
 namespace Alice;
-string string_format(string format,params variable args);
+public string string_format(string format,params variable args);
 ```
 
 |引数| |

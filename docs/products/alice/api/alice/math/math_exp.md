@@ -12,7 +12,7 @@ summary: 指定した値でeを累乗した値を返します。
 
 ```cs title="AliceScript"
 namespace Alice.Math;
-number math_exp(number value);
+public number math_exp(number value);
 ```
 
 |引数| |

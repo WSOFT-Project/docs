@@ -12,7 +12,7 @@ date : 2021-08-10
 
 ```cs title="AliceScript"
 namespace Alice.Random;
-number rand_double();
+public number rand_double();
 ```
 
 |戻り値| |

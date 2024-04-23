@@ -11,7 +11,7 @@ summary: 現在のマネージド スレッドの一意の識別子を取得し�
 
 ```cs title="AliceScript"
 namespace Alice.Net;
-number thread_id();
+public number thread_id();
 ```
 
 |戻り値| |

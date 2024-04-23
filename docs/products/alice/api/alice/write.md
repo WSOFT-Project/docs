@@ -12,7 +12,7 @@ date : 2021-11-09
 
 ```cs title="AliceScript"
 namespace Alice;
-void write(variable value);
+public void write(variable value);
 ```
 
 |引数| |
@@ -23,7 +23,7 @@ void write(variable value);
 
 ```cs title="AliceScript"
 namespace Alice;
-void write(string text);
+public void write(string text);
 ```
 
 |引数| |
@@ -34,7 +34,7 @@ void write(string text);
 
 ```cs title="AliceScript"
 namespace Alice;
-void write(string format,params variable args);
+public void write(string format,params variable args);
 ```
 
 |引数| |

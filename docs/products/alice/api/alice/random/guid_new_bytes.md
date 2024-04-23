@@ -12,7 +12,7 @@ date : 2021-08-10
 
 ```cs title="AliceScript"
 namespace Alice.Random;
-bytes guid_new_bytes();
+public bytes guid_new_bytes();
 ```
 
 |戻り値| |
