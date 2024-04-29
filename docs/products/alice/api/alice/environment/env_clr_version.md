@@ -12,7 +12,7 @@ date : 2023-08-09
 
 ```cs title="AliceScript"
 namespace Alice.Environment;
-string env_clr_version();
+public string env_clr_version();
 ```
 
 |戻り値| |

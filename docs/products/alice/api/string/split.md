@@ -32,6 +32,7 @@ array Split(string separator);
 |戻り値| |
 |-|-|
 |`array`|分割した文字列が格納されている配列|
+
 ### 例
 以下は、Hello,Worldという文字列を一文字ずつに分割します。
 
