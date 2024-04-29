@@ -8,6 +8,8 @@ summary: 逆双曲線余弦が指定した数となる角度を返します。
 
 属性: 関数
 
+#### math_acosh(number)
+
 逆双曲線余弦（ハイパーポリックコサイン）が指定した数となる角度を返します。
 
 ```cs title="AliceScript"
@@ -21,7 +23,7 @@ public number math_acosh(number value);
 
 |戻り値| |
 |-|-|
-|`number`|弧度法で$0\leqq\theta\leqq\pi$の範囲の角度$\theta$ ただし、`value`が[NaN](./math_isnan.md)の場合は`NaN`|
+|`number`|弧度法で$0\leq\theta\leq\pi$の範囲の角度$\theta$ ただし、`value`が[NaN](./math_isnan.md)の場合は`NaN`|
 
 ### 説明
 `math_acosh()`関数は、引数として与えられた数値の逆双曲線余弦（ハイパーポリックコサイン）をラジアン単位で返します。

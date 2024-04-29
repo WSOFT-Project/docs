@@ -8,11 +8,13 @@ summary: 指定された角度のタンジェントを返します。
 
 属性: 関数
 
+#### math_tan(number)
+
 指定された角度のタンジェントを返します。
 
 ```cs title="AliceScript"
 namespace Alice.Math;
-number math_tan(number value);
+public number math_tan(number value);
 ```
 
 |引数| |

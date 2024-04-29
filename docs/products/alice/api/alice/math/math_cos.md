@@ -8,6 +8,8 @@ summary: 指定された角度のコサインを返します。
 
 属性: 関数
 
+#### math_cos(number)
+
 指定された角度のコサインを返します。
 
 ```cs title="AliceScript"

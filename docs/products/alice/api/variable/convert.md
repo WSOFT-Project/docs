@@ -6,16 +6,18 @@ summary: その変数を指定された型に明示的に変換します。変�
 ### 定義
 名前空間:Alice / アセンブリ : Losetta.dll / サポート: AliceScript1
 
+#### Convert(Type type)
+
 その変数を指定された型に明示的に変換します。変換に失敗した場合は`null`を返します
 
 ```cs title="AliceScript"
 namespace Alice;
-variable Convert(type type);
+variable Convert(Type type);
 ```
 
 |引数| |
 |-|-|
-|`type`| 変換先の変数の種類を表す`type`|
+|`Type`| 変換先の変数の種類を表す`type`|
 
 |戻り値| |
 |-|-|

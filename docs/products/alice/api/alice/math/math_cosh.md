@@ -8,6 +8,8 @@ summary: 指定された角度のハイパーポリックコサインを返し�
 
 属性: 関数
 
+#### math_cosh(number)
+
 指定された角度のハイパーポリックコサインを返します。
 
 ```cs title="AliceScript"

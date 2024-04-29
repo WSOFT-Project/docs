@@ -6,6 +6,8 @@ summary: 現在のデリゲートに指定された引数を渡して非同期�
 ### 定義
 名前空間:Alice / アセンブリ : Losetta.dll / サポート: AliceScript1
 
+#### BeginInvoke(params variable)
+
 現在のデリゲートに指定された引数を渡して非同期で実行します。
 
 ```cs title="AliceScript"

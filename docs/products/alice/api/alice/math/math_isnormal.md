@@ -8,11 +8,13 @@ summary: 指定した数値が正規化数であるかを表す値を取得し�
 
 属性: 関数
 
+#### math_isNormal(number)
+
 指定した数値がゼロでなく、無限大かつ非数でないかを表す値を取得します。
 
 ```cs title="AliceScript"
 namespace Alice.Math;
-bool math_isNormal(number value);
+public bool math_isNormal(number value);
 ```
 
 |引数| |

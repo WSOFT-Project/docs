@@ -6,6 +6,8 @@ summary: 指定した文字コードでエンコードした現在のバイナ�
 ### 定義
 名前空間:Alice / アセンブリ : Losetta.dll / サポート: Alice3.0
 
+#### ToString(string)
+
 指定した文字コード名に対応する文字コードでエンコードした現在のバイナリデータの文字列表現を取得します
 
 ```cs title="AliceScript"
@@ -20,6 +22,8 @@ override string ToString(string charCode);
 |戻り値| |
 |-|-|
 |`string`| そのデータの文字列表現|
+
+#### ToString(number)
 
 指定したコード番号に対応する文字コードでエンコードした現在のバイナリデータの文字列表現を取得します
 

@@ -8,6 +8,8 @@ summary: 指定した数以下の数のうち、最大の整数値を返しま�
 
 属性: 関数
 
+#### math_floor(number)
+
 指定した数以下の数のうち、最大の整数値を返します。
 
 ```cs title="AliceScript"

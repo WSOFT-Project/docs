@@ -8,6 +8,8 @@ summary: 指定された数値の立方根を返します。
 
 属性: 関数
 
+#### math_cbrt(number)
+
 指定された数値の立方根を返します。
 
 ```cs title="AliceScript"

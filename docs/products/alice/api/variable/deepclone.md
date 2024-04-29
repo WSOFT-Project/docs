@@ -6,6 +6,8 @@ summary: その変数の厳格コピー（ディープコピー）を作成し�
 ### 定義
 名前空間:Alice / アセンブリ : Losetta.dll / サポート: AliceScript1
 
+#### DeepClone()
+
 その変数の厳格コピー（ディープコピー）を取得します
 
 ```cs title="AliceScript"

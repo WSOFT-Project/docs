@@ -8,6 +8,8 @@ summary: 指定された数以上の数のうち、最小の整数値を返し�
 
 属性: 関数
 
+#### math_celling(number)
+
 指定された数以上の数のうち、最小の整数値を返します。
 
 ```cs title="AliceScript"

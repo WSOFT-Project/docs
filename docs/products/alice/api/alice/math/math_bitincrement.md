@@ -8,6 +8,8 @@ summary: 指定された数値の次に大きい値を返します。
 
 属性: 関数
 
+#### math_bitincrement(number)
+
 指定された数値の次に大きい値を返します。
 
 ```cs title="AliceScript"

@@ -8,6 +8,8 @@ summary: タンジェントが指定した数となる角度を返します。
 
 属性: 関数
 
+#### math_atan(number)
+
 タンジェント（正接）が指定した数となる角度を返します。
 
 ```cs title="AliceScript"
@@ -21,7 +23,7 @@ public number math_atan(number value);
 
 |戻り値| |
 |-|-|
-|`number`|弧度法で$-\pi/2\leqq\theta\leqq\pi/2$の範囲の角度$\theta$。ただし、`value`が[NaN](./math_isnan.md)の場合は`NaN`、また`value`が`NegativeInfinity`の場合は$-\frac{\pi}{2}$、`PositiveInfinity`の場合は$\frac{\pi}{2}$。|
+|`number`|弧度法で$-\pi/2\leq\theta\leq\pi/2$の範囲の角度$\theta$。ただし、`value`が[NaN](./math_isnan.md)の場合は`NaN`、また`value`が`NegativeInfinity`の場合は$-\frac{\pi}{2}$、`PositiveInfinity`の場合は$\frac{\pi}{2}$。|
 
 ### 説明
 `math_atanh()`関数は、引数として与えられた数値の逆正接（アークタンジェント）をラジアン単位で返します。

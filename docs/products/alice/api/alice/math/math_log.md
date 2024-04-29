@@ -8,11 +8,13 @@ summary: 指定した数の対数を返します。
 
 属性: 関数
 
+#### math_log(number)
+
 指定した数値の自然対数を返します。
 
 ```cs title="AliceScript"
 namespace Alice.Math;
-number math_log(number value);
+public number math_log(number value);
 ```
 
 |引数| |

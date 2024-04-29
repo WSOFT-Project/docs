@@ -8,11 +8,13 @@ summary: 指定した数値が非正規化数であるかを表す値を取得�
 
 属性: 関数
 
+#### math_isSubNormal(number)
+
 指定した数値が非正規化数であるかを表す値を取得します。
 
 ```cs title="AliceScript"
 namespace Alice.Math;
-bool math_isSubNormal(number value);
+public bool math_isSubNormal(number value);
 ```
 
 |引数| |

@@ -6,6 +6,8 @@ summary: 変数に指定した値を代入します。
 ### 定義
 名前空間:Alice / アセンブリ : Losetta.Runtime.dll / サポート: Alice3.0
 
+#### Assign(variable)
+
 変数に指定した値を代入します。
 
 ```cs title="AliceScript"
