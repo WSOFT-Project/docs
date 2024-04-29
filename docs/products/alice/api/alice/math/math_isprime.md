@@ -8,11 +8,13 @@ summary: 指定した数値が素数であるかを表す値を取得します�
 
 属性: 関数
 
+#### math_isPrime(number)
+
 指定した数値が素数であるかを表す値を取得します。
 
 ```cs title="AliceScript"
 namespace Alice.Math;
-bool math_isPrime(number value);
+public bool math_isPrime(number value);
 ```
 
 |引数| |

@@ -6,6 +6,8 @@ summary: その変数の簡易コピー（シャローコピー）を作成し�
 ### 定義
 名前空間:Alice / アセンブリ : Losetta.dll / サポート: AliceScript1
 
+#### Clone()
+
 その変数の簡易コピー（シャローコピー）を取得します
 
 ```cs title="AliceScript"

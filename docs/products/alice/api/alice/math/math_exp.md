@@ -8,6 +8,8 @@ summary: 指定した値でeを累乗した値を返します。
 
 属性: 関数
 
+#### math_exp(number)
+
 指定した値で`e`を累乗した値を返します。
 
 ```cs title="AliceScript"

@@ -8,11 +8,13 @@ summary: 指定された数値の平方根を返します。
 
 属性: 関数
 
+#### math_sqrt(number)
+
 指定された数値の平方根を返します。
 
 ```cs title="AliceScript"
 namespace Alice.Math;
-number math_sqrt(number value);
+public number math_sqrt(number value);
 ```
 
 |引数| |

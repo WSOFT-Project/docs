@@ -8,6 +8,8 @@ summary: 指定された角度のサインを返します。
 
 属性: 関数
 
+#### math_sin(number)
+
 指定された角度のサインを返します。
 
 ```cs title="AliceScript"

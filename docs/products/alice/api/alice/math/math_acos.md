@@ -8,6 +8,8 @@ summary: コサインが指定した数となる角度を返します。
 
 属性: 関数
 
+#### math_acos(number)
+
 コサインが指定した数となる角度を返します。
 
 ```cs title="AliceScript"
@@ -21,7 +23,7 @@ public number math_acos(number value);
 
 |戻り値| |
 |-|-|
-|`number`|弧度法で$0\leqq\theta\leqq\pi$の範囲の角度$\theta$|
+|`number`|弧度法で$0\leq\theta\leq\pi$の範囲の角度$\theta$|
 
 ### 説明
 `math_acos()`関数は、引数として与えられた数値の逆余弦（アークコサイン）をラジアン単位で返します。

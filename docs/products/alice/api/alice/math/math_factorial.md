@@ -8,6 +8,8 @@ summary: 指定した数値の階乗を返します
 
 属性: 関数
 
+#### math_factorial(number)
+
 指定した数値の階乗を返します。
 
 ```cs title="AliceScript"

@@ -6,6 +6,8 @@ summary: その変数の文字列表現を取得します
 ### 定義
 名前空間:Alice / アセンブリ : Losetta.dll / サポート: AliceScript1
 
+#### ToString()
+
 その変数の文字列表現を取得します
 
 ```cs title="AliceScript"

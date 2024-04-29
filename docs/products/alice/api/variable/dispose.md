@@ -6,6 +6,8 @@ summary: 変数の値を破棄します。
 ### 定義
 名前空間:Alice / アセンブリ : Losetta.dll / サポート: AliceScript1
 
+#### DeepClone()
+
 変数の値を破棄し、`null`を代入します。
 
 ```cs title="AliceScript"

@@ -8,6 +8,8 @@ summary: 数値の絶対値を返します。
 
 属性: 関数
 
+#### math_abs(number)
+
 与えられた数値の絶対値を返します。
 
 ```cs title="AliceScript"

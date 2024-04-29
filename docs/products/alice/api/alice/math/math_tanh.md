@@ -8,11 +8,13 @@ summary: 指定された角度のハイパーポリックタンジェントを�
 
 属性: 関数
 
+#### math_tanh(number)
+
 指定された角度のハイパーポリックタンジェントを返します。
 
 ```cs title="AliceScript"
 namespace Alice.Math;
-number math_tanh(number value);
+public number math_tanh(number value);
 ```
 
 |引数| |

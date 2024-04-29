@@ -8,6 +8,8 @@ summary: 指定された絶対値と符号の値を返します。
 
 属性: 関数
 
+#### math_copySign(number,number)
+
 指定された絶対値と符号の値を返します。
 
 ```cs title="AliceScript"

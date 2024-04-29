@@ -8,6 +8,8 @@ summary: ひとつの三項演算として丸められた、(x*y)+zを返しま�
 
 属性: 関数
 
+#### math_fusedmultiplyadd(number,number,number)
+
 ひとつの三項演算として丸められた、(x*y)+zを返します。
 
 ```cs title="AliceScript"

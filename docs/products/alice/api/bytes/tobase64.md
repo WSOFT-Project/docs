@@ -6,6 +6,8 @@ summary: 現在のバイナリデータを、Base64でエンコードした文�
 ### 定義
 名前空間:Alice / アセンブリ : Losetta.dll / サポート: Alice3.0
 
+#### ToBase64()
+
 現在のバイナリデータを、Base64でエンコードした文字列を取得します
 
 ```cs title="AliceScript"
@@ -16,6 +18,8 @@ string ToBase64();
 |戻り値| |
 |-|-|
 |`string`| 現在のバイナリデータの内容と等価なBase64エンコードされた文字列|
+
+#### ToBase64(number,number)
 
 現在のバイナリデータのうち指定した区間を、Base64でエンコードした文字列を取得します
 
@@ -33,6 +37,8 @@ string ToBase64(number offset, number length);
 |-|-|
 |`string`| 現在のバイナリデータのうち指定した区間の内容と等価なBase64エンコードされた文字列|
 
+#### ToBase64(bool)
+
 現在のバイナリデータを、改行するかどうかを指定してBase64でエンコードした文字列を取得します
 
 ```cs title="AliceScript"
@@ -47,6 +53,8 @@ string ToBase64(bool insertLineBrakes);
 |戻り値| |
 |-|-|
 |`string`| 現在のバイナリデータの内容と等価なBase64エンコードされた文字列|
+
+#### ToBase64(number,number,bool)
 
 現在のバイナリデータのうち指定した区間を、改行するかどうかを指定してBase64でエンコードした文字列を取得します
 

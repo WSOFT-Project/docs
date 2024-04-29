@@ -8,6 +8,8 @@ summary: 指定した数値が負の無限大であるかを示す値を取得�
 
 属性: 関数
 
+#### math_isNegativeInfinity(number)
+
 指定した数値が負の無限大であるかを示す値を取得します。
 
 ```cs title="AliceScript"

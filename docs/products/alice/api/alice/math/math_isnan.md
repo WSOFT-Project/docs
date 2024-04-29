@@ -8,6 +8,8 @@ summary: 指定した数値が非数(NaN)であるかを表す値を取得しま
 
 属性: 関数
 
+#### math_isNaN(number)
+
 指定した数値が非数(NaN)であるかを表す値を取得します。
 
 ```cs title="AliceScript"

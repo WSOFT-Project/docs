@@ -8,6 +8,8 @@ summary: 指定した数値が有限であるかを表す値を取得します�
 
 属性: 関数
 
+#### math_isFinite(number)
+
 指定した数値が有限であるかを表す値を取得します。
 
 ```cs title="AliceScript"

@@ -8,17 +8,19 @@ summary: 指定された複数の数値のうち、もっとも小さい数値�
 
 属性: 関数
 
+#### math_min(number,params number)
+
 指定された複数の数値のうち、もっとも小さい数値を返します。
 
 ```cs title="AliceScript"
 namespace Alice.Math;
-number math_min(number val1,params number vals);
+public number math_min(number value,params number values);
 ```
 
 |引数| |
 |-|-|
-|`val1`|比較する整数の最初の数値。|
-|`vals`|比較する整数の残りの値。|
+|`value`|比較する整数の最初の数値。|
+|`values`|比較する整数の残りの値。|
 
 |戻り値| |
 |-|-|

@@ -8,6 +8,8 @@ summary: 指定された数値を指定した値で累乗した値を返しま�
 
 属性: 関数
 
+#### math_pow(number,number)
+
 指定された数値を指定した値で累乗した値を返します。
 
 ```cs title="AliceScript"

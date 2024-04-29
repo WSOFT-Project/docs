@@ -6,6 +6,8 @@ summary: 現在のデリゲートに指定された引数を渡して実行し�
 ### 定義
 名前空間:Alice / アセンブリ : Losetta.dll / サポート: AliceScript1
 
+#### Invoke(params variable)
+
 現在のデリゲートに指定された引数を渡して実行し、その戻り値を返します。
 
 ```cs title="AliceScript"

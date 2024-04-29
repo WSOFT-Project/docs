@@ -8,6 +8,8 @@ summary: 指定された範囲内に数値を制約します
 
 属性: 関数
 
+#### math_clamp(number,number,number)
+
 指定された最大最小値の範囲内に数値を制約します
 
 ```cs title="AliceScript"

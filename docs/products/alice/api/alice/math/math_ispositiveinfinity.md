@@ -8,11 +8,13 @@ summary: 指定した数値が正の無限大であるかを示す値を取得�
 
 属性: 関数
 
+#### math_isPositiveInfinity(number)
+
 指定した数値が正の無限大であるかを示す値を取得します。
 
 ```cs title="AliceScript"
 namespace Alice.Math;
-bool math_isPositiveInfinity(number value);
+public bool math_isPositiveInfinity(number value);
 ```
 
 |引数| |

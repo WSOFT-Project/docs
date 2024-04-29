@@ -8,6 +8,8 @@ summary: 指定した数値の整数部を取得します
 
 属性: 関数
 
+#### math_truncate(number)
+
 指定した数値の整数部を取得します。
 
 ```cs title="AliceScript"
