@@ -1,6 +1,6 @@
 ---
 title: lock
-long_title : lock 文
+long_title : lock文
 summary: リソースへの排他的なアクセスを保証します。
 ---
 ### 定義
@@ -10,7 +10,10 @@ summary: リソースへの排他的なアクセスを保証します。
 
 ```cs title="AliceScript"
 namespace Alice;
-public void lock(variable item);
+public void lock(variable item)
+{
+    //...
+}
 ```
 
 |引数| |
@@ -19,16 +22,6 @@ public void lock(variable item);
 
 ### 説明
 `lock`文は、指定した変数に対する相互排他ロックを取得し、本文を実行してからロックを解放します。ロックが保持されている間、他のスレッドはその変数へのアクセスをブロックされてロックを取得できず、ロックが解放されるまで待機します。`lock`文を使えば常に、ひとつのスレッドでのみ実行できるコードを書くことができます。
-
-`lock`ステートメントの形式は次のようになります。
-
-```cs title="AliceScript"
-lock(x)
-{
-
-}
-```
-この時、`x`は任意の変数を表します。
 
 ### 例
 次の例では、10秒間の間、メインスレッドで`item`に`2`を代入することができません。

@@ -1,5 +1,6 @@
 ---
 title: Value
+long_title: variable.Value
 summary: 変数に有効な値が代入されている場合、その値を取得します。
 ---
 ### 定義

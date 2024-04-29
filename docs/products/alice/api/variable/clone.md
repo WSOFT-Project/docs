@@ -1,5 +1,6 @@
 ---
 title: Clone
+long_title: variable.Clone
 summary: その変数の簡易コピー（シャローコピー）を作成します。
 ---
 ### 定義

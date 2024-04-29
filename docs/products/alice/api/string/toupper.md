@@ -1,5 +1,6 @@
 ---
 title: ToUpper
+long_title: string.ToUpper
 summary: 現在の文字列内の文字をすべて大文字に置換します
 date : 2021-12-09
 ---

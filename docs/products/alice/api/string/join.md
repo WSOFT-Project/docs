@@ -1,5 +1,6 @@
 ---
 title: Join
+long_title : string.Join
 summary: 指定された区切り文字を使用して文字を連結します
 ---
 ### 定義
@@ -9,7 +10,7 @@ summary: 指定された区切り文字を使用して文字を連結します
 
 ```cs title="AliceScript"
 namespace Alice;
-string Join(string split,params string item);
+string Join(string split, params string item);
 ```
 
 |引数| |
@@ -19,12 +20,15 @@ string Join(string split,params string item);
 
 |戻り値| |
 |-|-|
-|`string`|連結された文字列|
+|`string`|連結された文字列。ただし、`item`の要素が0個の場合は空の文字列|
 
 ### 例
-以下は、Joinを使用してHello,Worldを作成します
+以下は、Joinメソッドの使用例です。
 
 ```cs title="AliceScript"
-var a = "Hello";
-print(a.Join(",","World")); // 出力例 : Hello,World
+var fruits = ["apple", "orange", "grape"];
+string str = fruits.Joint(",");
+
+print(str);
+//出力: apple,orange,grape
 ```

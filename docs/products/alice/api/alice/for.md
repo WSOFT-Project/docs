@@ -13,7 +13,10 @@ date : 2023-08-07
 
 ```cs title="AliceScript"
 namespace Alice;
-public void for(Expression init; Expression condition; Expression loop);
+public void for(Expression init; Expression condition; Expression loop)
+{
+    //...
+}
 ```
 
 |引数| |
@@ -62,3 +65,13 @@ for(; true; )
 ```
 
 要素の過不足があった場合には、[0x029](../../general/exceptions/index.md)エラーが、「for文はfor(init; condition; loopStatement;)の形である必要があります」というメッセージで発生します。
+
+### 例
+次の例では、0から9までの数字をひとつずつ表示します。
+
+```cs title="AliceScript"
+for(numer n = 0; n < 10; n++)
+{
+    print(n);
+}
+```

@@ -1,5 +1,6 @@
 ---
 title: PadCenter
+long_title : string.PadCenter
 summary: 指定された文字数になるまで両側に指定された文字列を埋め込むことで、この文字列を中央寄せした新しい文字列を作成します。
 date : 2023-10-29
 ---

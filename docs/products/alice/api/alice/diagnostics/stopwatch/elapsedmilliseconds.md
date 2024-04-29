@@ -30,5 +30,5 @@ stw.Start();
 delay(3000);
 
 stw.Stop();
-print("処理にかかった時間：{0}ミリ秒",stw.ElapsedMilliSeconds);
+print("処理にかかった時間：{0}ミリ秒", stw.ElapsedMilliSeconds);
 ```

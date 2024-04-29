@@ -12,7 +12,7 @@ date : 2021-11-09
 
 ```cs title="AliceScript"
 namespace Alice.Diagnostics;
-void debug_printIf(bool condition,string text);
+void debug_printIf(bool condition, string text);
 ```
 
 |引数| |
@@ -24,7 +24,7 @@ void debug_printIf(bool condition,string text);
 
 ```cs title="AliceScript"
 namespace Alice.Diagnostics;
-void debug_printIf(bool condition,variable value);
+void debug_printIf(bool condition, variable value);
 ```
 
 |引数| |
@@ -36,7 +36,7 @@ void debug_printIf(bool condition,variable value);
 
 ```cs title="AliceScript"
 namespace Alice.Diagnostics;
-void debug_printIf(bool condition,string format,params variable args);
+void debug_printIf(bool condition, string format, params variable args);
 ```
 
 |引数| |
@@ -52,7 +52,7 @@ void debug_printIf(bool condition,string format,params variable args);
 ```cs title="AliceScript"
 using Alice.Diagnostics;
 
-debug_printIf(true,"Hello,World");
+debug_printIf(true, "Hello,World");
 ```
 
 次の例では、デバッグ出力に何も書き込みません。
@@ -60,5 +60,5 @@ debug_printIf(true,"Hello,World");
 ```cs title="AliceScript"
 using Alice.Diagnostics;
 
-debug_printIf(false,"Hello,World");
+debug_printIf(false, "Hello,World");
 ```

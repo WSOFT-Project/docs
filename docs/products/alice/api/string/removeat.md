@@ -1,5 +1,6 @@
 ---
 title: RemoveAt
+long_title: string.RemoveAt
 summary: 現在の文字列の指定したインデックスにある値を削除した文字列を取得します
 ---
 ### 定義

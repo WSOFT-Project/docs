@@ -1,5 +1,6 @@
 ---
 title: SubString
+long_title: string.SubString
 summary: 現在の文字列から指定した範囲の文字列を取得します
 ---
 ### 定義

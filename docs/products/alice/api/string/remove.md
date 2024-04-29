@@ -1,5 +1,6 @@
 ---
 title: Remove
+long_title: string.Remove
 summary: 現在の文字列から指定された値を削除した文字列を取得します
 ---
 ### 定義

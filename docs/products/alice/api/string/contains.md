@@ -1,5 +1,6 @@
 ---
 title: Contains
+long_title : string.Contains
 summary: 現在の文字列内に指定された文字列が存在するかを示す値を取得します
 date : 2021-12-09
 ---
@@ -27,7 +28,7 @@ bool Contains(string item);
 
 ```cs title="AliceScript"
 namespace Alice;
-bool Contains(string item,bool ignoreCase);
+bool Contains(string item, bool ignoreCase);
 ```
 
 |引数| |
@@ -45,7 +46,7 @@ bool Contains(string item,bool ignoreCase);
 
 ```cs title="AliceScript"
 namespace Alice;
-bool Contains(string item,bool ignoreCase,bool considerCulture);
+bool Contains(string item, bool ignoreCase, bool considerCulture);
 ```
 
 |引数| |

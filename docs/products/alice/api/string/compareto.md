@@ -1,5 +1,6 @@
 ---
 title: CompareTo
+long_title : string.CompareTo
 summary: この文字列と指定した文字列を比較して、文字列を並べ替えたときにこの文字列が前にくるか、後ろにくるか、または同じであるかを表す整数を取得します
 date : 2021-12-09
 ---

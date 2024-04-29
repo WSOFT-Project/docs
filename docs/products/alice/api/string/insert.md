@@ -1,5 +1,6 @@
 ---
 title: Insert
+long_title : string.Insert
 summary: 現在の文字列内の指定したインデックスにその値を挿入した文字列を取得します
 ---
 ### 定義
@@ -9,7 +10,7 @@ summary: 現在の文字列内の指定したインデックスにその値を�
 
 ```cs title="AliceScript"
 namespace Alice;
-string Insert(number index,string item);
+string Insert(number index, string item);
 ```
 
 |引数| |
@@ -22,7 +23,7 @@ string Insert(number index,string item);
 |`string`|実行後の文字列|
 
 ### 例
-以下は、"World"がある配列の先頭にHelloを追加します。
+以下は、Insertメソッドを使って文字列の先頭に"Hello"を追加しています。
 
 ```cs title="AliceScript"
 var a = "World";

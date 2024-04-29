@@ -1,5 +1,6 @@
 ---
 title: Convert
+long_title: variable.Convert
 summary: その変数を指定された型に明示的に変換します。変換に失敗した場合はnullを返します。
 ---
 ### 定義

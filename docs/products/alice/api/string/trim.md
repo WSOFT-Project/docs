@@ -1,5 +1,6 @@
 ---
 title: Trim
+long_title: string.Trim
 summary: 現在の文字列から指定した文字列が先頭および末尾に現れる箇所をすべて削除した文字列を取得します
 date : 2021-12-09
 ---

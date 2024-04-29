@@ -1,5 +1,6 @@
 ---
 title: EndsWith
+long_title : string.EndsWith
 summary: 現在の文字列が指定した文字列で終わるかどうかを判定します
 date : 2021-12-09
 ---
@@ -27,7 +28,7 @@ bool EndsWith(string item);
 
 ```cs title="AliceScript"
 namespace Alice;
-bool EndsWith(string item,bool ignoreCase);
+bool EndsWith(string item, bool ignoreCase);
 ```
 
 |引数| |
@@ -45,7 +46,7 @@ bool EndsWith(string item,bool ignoreCase);
 
 ```cs title="AliceScript"
 namespace Alice;
-bool EndsWith(string item,bool ignoreCase,bool considerCulture);
+bool EndsWith(string item, bool ignoreCase, bool considerCulture);
 ```
 
 |引数| |

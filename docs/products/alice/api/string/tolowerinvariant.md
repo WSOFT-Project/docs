@@ -1,5 +1,6 @@
 ---
 title: ToLowerInvariant
+long_title: string.ToLowerInvariant
 summary: インバリアント カルチャの大文字と小文字の規則を使用して、現在の文字列内の文字をすべて小文字に置換します
 ---
 ### 定義

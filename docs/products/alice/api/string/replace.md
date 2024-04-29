@@ -1,5 +1,6 @@
 ---
 title: Replace
+long_title: string.Replace
 summary: 現在の文字列内に出現する特定の文字列をすべて指定した文字列に置き換えた新しい文字列を取得します。
 date : 2021-12-09
 ---
@@ -10,7 +11,7 @@ date : 2021-12-09
 
 ```cs title="AliceScript"
 class Alice.String;
-string Replace(string oldValue,string newValue);
+string Replace(string oldValue, string newValue);
 ```
 
 |引数| |
@@ -28,7 +29,7 @@ string Replace(string oldValue,string newValue);
 
 ```cs title="AliceScript"
 class Alice.String;
-string Replace(string oldValue,string newValue,number startIndex,number length);
+string Replace(string oldValue, string newValue, number startIndex, number length);
 ```
 
 |引数| |

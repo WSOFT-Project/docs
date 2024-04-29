@@ -25,5 +25,5 @@ using Alice.Diagnostics;
 
 var stw = new StopWatch();
 
-print("ストップウォッチの精度:{0} ({1})",stw.IsHighResolution ? "高精度" : "標準精度",stw.Frequency);
+print("ストップウォッチの精度:{0} ({1})", stw.IsHighResolution ? "高精度" : "標準精度",stw.Frequency);
 ```

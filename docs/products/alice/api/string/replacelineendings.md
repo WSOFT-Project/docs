@@ -1,6 +1,7 @@
 ---
 title: ReplaceLineEndings
-summary: 現在の文字列中のすべての改行文字を指定した文字列に置換します
+long_title: string.ReplaceLineEndings
+summary: 現在の文字列中のすべての改行文字を一意な形式に正規化します。
 date : 2023-10-22
 ---
 ### 定義

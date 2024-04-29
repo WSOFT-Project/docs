@@ -12,7 +12,7 @@ date : 2021-11-09
 
 ```cs title="AliceScript"
 namespace Alice.Diagnostics;
-void debug_writeIf(bool condition,string text);
+void debug_writeIf(bool condition, string text);
 ```
 
 |引数| |
@@ -24,7 +24,7 @@ void debug_writeIf(bool condition,string text);
 
 ```cs title="AliceScript"
 namespace Alice.Diagnostics;
-void debug_writeIf(bool condition,variable value);
+void debug_writeIf(bool condition, variable value);
 ```
 
 |引数| |
@@ -36,7 +36,7 @@ void debug_writeIf(bool condition,variable value);
 
 ```cs title="AliceScript"
 namespace Alice.Diagnostics;
-void debug_writeIf(bool condition,string format,params variable args);
+void debug_writeIf(bool condition, string format,params variable args);
 ```
 
 |引数| |

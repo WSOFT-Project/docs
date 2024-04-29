@@ -13,7 +13,11 @@ date : 2023-08-07
 
 ```cs title="AliceScript"
 namespace Alice;
-public void do while(Exception condition);
+public void do
+{
+
+}
+while(Exception condition);
 ```
 
 |引数| |

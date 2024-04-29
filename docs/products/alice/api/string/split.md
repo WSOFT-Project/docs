@@ -1,5 +1,6 @@
 ---
 title: Split
+long_title: string.Split
 summary: 現在の文字列を指定した区切り文字列で分割した配列を取得します
 date : 2021-12-09
 ---

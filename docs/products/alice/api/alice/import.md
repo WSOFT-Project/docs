@@ -11,7 +11,7 @@ summary: 指定されたファイル名のライブラリを読み込みます�
 
 ```cs title="AliceScript"
 namespace Alice;
-public void import(string filename,bool isNativeLibrary = false);
+public void import(string filename, bool isNativeLibrary = false);
 ```
 
 |引数| |
