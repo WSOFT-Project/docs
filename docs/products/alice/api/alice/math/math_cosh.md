@@ -12,7 +12,7 @@ summary: 指定された角度のハイパーポリックコサインを返し�
 
 ```cs title="AliceScript"
 namespace Alice.Math;
-number math_cosh(number value);
+public number math_cosh(number value);
 ```
 
 |引数| |

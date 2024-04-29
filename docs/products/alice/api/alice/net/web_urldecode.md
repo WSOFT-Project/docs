@@ -12,7 +12,7 @@ URLエンコードされた文字列を文字列に変換します。
 
 ```cs title="AliceScript"
 namespace Alice.Net;
-string web_urldecode(string text);
+public string web_urldecode(string text);
 ```
 
 |引数| |

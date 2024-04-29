@@ -11,7 +11,7 @@ summary: ハッシュ関数のソルトとして使用できる、安全な乱�
 
 ```cs title="AliceScript"
 namespace Alice.Net;
-byte[] password_getSalt(int size=32);
+public bytes password_getSalt(int size=32);
 ```
 
 |引数| |
@@ -20,7 +20,7 @@ byte[] password_getSalt(int size=32);
 
 |戻り値| |
 |-|-|
-|`byte[]`|生成されたソルト。このとき、`return.length=size`となります。|
+|`bytes`|生成されたソルト。このとき、`return.length=size`となります。|
 
 ### 例
 次の例では、文字列をハッシュ化し保存します。

@@ -12,7 +12,7 @@ date : 2021-08-10
 
 ```cs title="AliceScript"
 namespace Alice.Random;
-bytes random_bytes(number length);
+public bytes random_bytes(number length);
 ```
 
 |引数| |

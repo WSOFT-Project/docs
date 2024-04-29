@@ -10,7 +10,7 @@ summary: リソースへの排他的なアクセスを保証します。
 
 ```cs title="AliceScript"
 namespace Alice;
-void lock(variable item);
+public void lock(variable item);
 ```
 
 |引数| |
@@ -28,7 +28,7 @@ lock(x)
 
 }
 ```
-この時、`x`は変数を表します。
+この時、`x`は任意の変数を表します。
 
 ### 例
 次の例では、10秒間の間、メインスレッドで`item`に`2`を代入することができません。

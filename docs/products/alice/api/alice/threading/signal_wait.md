@@ -11,7 +11,7 @@ summary: シグナルを受け取るまで、現在のスレッドをブロッ�
 
 ```cs title="AliceScript"
 namespace Alice.Net;
-bool signal_wait();
+public bool signal_wait();
 ```
 
 |戻り値| |

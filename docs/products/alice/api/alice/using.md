@@ -11,7 +11,7 @@ summary: 現在のスクリプトに指定された名前空間への参照を�
 
 ```cs title="AliceScript"
 namespace Alice;
-void using string spaceName;
+public void using string spaceName;
 ```
 
 |引数| |

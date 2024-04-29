@@ -13,7 +13,7 @@ date : 2023-08-10
 
 ```cs title="AliceScript"
 namespace Alice;
-variable switch(variable value);
+public variable switch(variable value);
 ```
 
 |引数| |

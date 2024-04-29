@@ -12,7 +12,7 @@ date : 2021-08-26
 
 ```cs title="AliceScript"
 namespace Alice.Net;
-bytes web_download_data(string uri);
+public bytes web_download_data(string uri);
 ```
 
 |引数| |

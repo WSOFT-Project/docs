@@ -11,7 +11,7 @@ summary: 指定したデータと対になるハッシュ値を計算します
 
 ```cs title="AliceScript"
 namespace Alice.Security;
-bytes password_hashData(bytes password,bytes salt,int hash_size=32,int stretch_count=1000);
+public bytes password_hashData(bytes password,bytes salt,int hash_size=32,int stretch_count=1000);
 ```
 
 |引数| |

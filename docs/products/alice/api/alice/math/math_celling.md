@@ -12,7 +12,7 @@ summary: 指定された数以上の数のうち、最小の整数値を返し�
 
 ```cs title="AliceScript"
 namespace Alice.Math;
-number math_celling(number value);
+public number math_celling(number value);
 ```
 
 |引数| |

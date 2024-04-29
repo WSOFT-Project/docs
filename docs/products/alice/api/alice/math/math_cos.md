@@ -12,7 +12,7 @@ summary: 指定された角度のコサインを返します。
 
 ```cs title="AliceScript"
 namespace Alice.Math;
-number math_cos(number value);
+public number math_cos(number value);
 ```
 
 |引数| |

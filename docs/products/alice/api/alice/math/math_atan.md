@@ -12,7 +12,7 @@ summary: タンジェントが指定した数となる角度を返します。
 
 ```cs title="AliceScript"
 namespace Alice.Math;
-number math_atan(number value);
+public number math_atan(number value);
 ```
 
 |引数| |

@@ -10,14 +10,14 @@ date : 2024-01-08
 
 ```cs title="AliceScript"
 namespace Alice;
-void delay();
+public void delay();
 ```
 
 指定した時間の間スレッドを中断します
 
 ```cs title="AliceScript"
 namespace Alice;
-void delay(number timeout);
+public void delay(number timeout);
 ```
 
 |引数| |

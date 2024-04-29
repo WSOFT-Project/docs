@@ -11,7 +11,7 @@ summary: 指定した文字列と対になるハッシュ値を計算します
 
 ```cs title="AliceScript"
 namespace Alice.Security;
-bytes password_hash(string password,byte[] salt,int hash_size=32,int stretch_count=1000);
+public bytes password_hash(string password,bytes salt,int hash_size=32,int stretch_count=1000);
 ```
 
 |引数| |

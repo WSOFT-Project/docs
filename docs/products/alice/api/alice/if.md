@@ -13,7 +13,7 @@ date : 2023-08-07
 
 ```cs title="AliceScript"
 namespace Alice;
-void if(bool condition);
+public void if(bool condition);
 ```
 
 |引数| |

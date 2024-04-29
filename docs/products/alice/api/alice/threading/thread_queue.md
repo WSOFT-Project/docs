@@ -11,7 +11,7 @@ summary: コードを実行するためのキューに置きます。コード�
 
 ```cs title="AliceScript"
 namespace Alice.Net;
-void thread_queue(delegate job,params variable args);
+public void thread_queue(delegate job,params variable args);
 ```
 
 |引数| |

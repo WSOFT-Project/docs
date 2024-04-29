@@ -12,7 +12,7 @@ summary: 指定した数値が非数(NaN)であるかを表す値を取得しま
 
 ```cs title="AliceScript"
 namespace Alice.Math;
-bool math_isNaN(number value);
+public bool math_isNaN(number value);
 ```
 
 |引数| |

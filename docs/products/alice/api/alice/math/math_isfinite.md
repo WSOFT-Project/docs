@@ -12,7 +12,7 @@ summary: 指定した数値が有限であるかを表す値を取得します�
 
 ```cs title="AliceScript"
 namespace Alice.Math;
-bool math_isFinite(number value);
+public bool math_isFinite(number value);
 ```
 
 |引数| |

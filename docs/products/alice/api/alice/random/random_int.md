@@ -12,7 +12,7 @@ date : 2023-08-10
 
 ```cs title="AliceScript"
 namespace Alice.Random;
-number random_int();
+public number random_int();
 ```
 
 |戻り値| |

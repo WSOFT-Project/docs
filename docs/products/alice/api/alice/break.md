@@ -13,13 +13,13 @@ date : 2023-08-07
 
 ```cs title="AliceScript"
 namespace Alice;
-const break;
+public const break;
 ```
 
 ### 基本
 `break`キーワードは、これを囲む`for`文、`foreach`文、`do`文、`while`文を終了させます。
 
-`break`キーワードは定数としてAliceScriptに初めから実装されています。インタプリタは、`Break`型の変数がコード中に出現すると、無条件に反復分の外側に制御を移動します。
+`break`キーワードは定数としてAliceScriptに初めから定義されています。インタプリタは、`Break`型の変数がコード中に出現すると、無条件に反復分の外側に制御を移動します。
 
 次の例では、`foreach`文を使用して`0`から`2`までをカウントします。
 

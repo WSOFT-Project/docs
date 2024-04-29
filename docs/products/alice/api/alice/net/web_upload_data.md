@@ -12,7 +12,7 @@ date : 2021-08-26
 
 ```cs title="AliceScript"
 namespace Alice.Net;
-byte[] web_upload_data(string uri,byte[] data);
+public bytes web_upload_data(string uri,bytes data);
 ```
 
 |引数| |
@@ -22,7 +22,7 @@ byte[] web_upload_data(string uri,byte[] data);
 
 |戻り値| |
 |-|-|
-|`byte[]`| リソースからの応答の本文|
+|`bytes`| リソースからの応答の本文|
 
 ### 例
 次の例では、`upload.bin`というファイルの内容を`http://localhost/upload`にアップロードし、サーバーからの応答を`response.bin`に保存します。

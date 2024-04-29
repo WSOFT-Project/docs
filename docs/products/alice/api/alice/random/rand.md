@@ -12,7 +12,7 @@ date : 2021-08-10
 
 ```cs title="AliceScript"
 namespace Alice.Random;
-number rand();
+public number rand();
 ```
 
 |戻り値| |
@@ -23,7 +23,7 @@ number rand();
 
 ```cs title="AliceScript"
 namespace Alice.Random;
-number rand(number max);
+public number rand(number max);
 ```
 
 |引数| |

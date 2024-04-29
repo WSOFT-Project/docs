@@ -12,7 +12,7 @@ summary: 指定したデータのSHA512ハッシュ値を取得します。
 
 ```cs title="AliceScript"
 namespace Alice.Security;
-bytes sha512_GetHash(bytes data);
+public bytes sha512_GetHash(bytes data);
 ```
 
 |引数| |

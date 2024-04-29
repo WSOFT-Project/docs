@@ -12,7 +12,7 @@ summary: 指定された数値の次に小さい値を返します。
 
 ```cs title="AliceScript"
 namespace Alice.Math;
-number math_bitdecrement(number value);
+public number math_bitdecrement(number value);
 ```
 
 |引数| |
