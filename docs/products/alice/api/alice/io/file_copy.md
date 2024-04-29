@@ -8,6 +8,8 @@ date : 2021-07-28
 
 属性: 関数
 
+#### file_copy(string,string)
+
 指定したファイルを新しい場所にコピーします。
 `destination`にすでにファイルがある場合は例外が発生します。
 
@@ -20,6 +22,8 @@ public void file_copy(string source,string destination);
 |-|-|
 |`source`|コピー元のファイルへのパス|
 |`destination`|コピー先のファイルへのパス|
+
+#### file_copy(string,string,bool)
 
 指定したファイルを別の場所にコピーします。
 `overwrite`が`false`で、かつ`destination`にすでにファイルがある場合は例外が発生します。

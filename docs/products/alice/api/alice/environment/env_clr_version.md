@@ -8,11 +8,13 @@ date : 2023-08-09
 
 属性: 関数
 
+#### env_clr_version()
+
 実行中の共通言語ランタイムのバージョンの文字列表現を取得します。
 
 ```cs title="AliceScript"
 namespace Alice.Environment;
-string env_clr_version();
+public string env_clr_version();
 ```
 
 |戻り値| |

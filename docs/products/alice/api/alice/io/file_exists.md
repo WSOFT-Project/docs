@@ -8,6 +8,8 @@ date : 2021-07-28
 
 属性: 関数
 
+#### file_exists(string)
+
 指定したファイルが存在するかどうかを確認します。
 
 ```cs title="AliceScript"

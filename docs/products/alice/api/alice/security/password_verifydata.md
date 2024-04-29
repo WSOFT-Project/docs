@@ -7,11 +7,13 @@ summary: 指定されたデータが正しいかどうかをハッシュ値と�
 
 属性: 関数
 
+#### password_verifyData(bytes,bytes,bytes,number,number)
+
 指定されたデータが正しいかどうかをハッシュ値と照合し検証します。
 
 ```cs title="AliceScript"
 namespace Alice.Net;
-public bool password_verifyData(bytes password,bytes hash,bytes salt,int hash_size=32,int stretch_count=1000);
+public bool password_verifyData(bytes password, bytes hash, bytes salt, number hash_size = 32, number stretch_count = 1000);
 ```
 
 |引数| |

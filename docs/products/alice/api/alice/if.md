@@ -13,7 +13,14 @@ date : 2023-08-07
 
 ```cs title="AliceScript"
 namespace Alice;
-public void if(bool condition);
+public void if(bool condition)
+{
+    //...
+}
+else
+{
+    //...
+}
 ```
 
 |引数| |
@@ -58,7 +65,8 @@ buzz(3);//出力例:3
 buzz(5);//出力例:Buzz
 ```
 
-また、`if-else`文は入れ子にでき、`else if`のような形式でも使用できます。
+また、`if-else`文は入れ子にでき、`else if`のように、他の式と連続して比較することもできます。
+`else if`は、`elif`に省略できます。
 
 次の例では、`fizzBuzz`関数に与えられた値が`15`の倍数であるときに`FizzBuzz`を表示し、`3`の倍数であるときは`Fizz`を表示します。さらに`5`の倍数であるときには`Buzz`を表示し、それ以外の場合はその数を表示します。
 

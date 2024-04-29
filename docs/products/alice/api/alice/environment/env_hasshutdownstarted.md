@@ -7,11 +7,13 @@ summary: 現在のアプリケーションドメインがアンロード中か�
 
 属性: 関数
 
+#### env_hasShutdownStarted()
+
 現在のアプリケーションドメインがアンロード中か、またはシステムがシャットダウン中かどうかを表す値を取得します。
 
 ```cs title="AliceScript"
 namespace Alice.Environment;
-bool env_hasShutdownStarted();
+public bool env_hasShutdownStarted();
 ```
 
 |戻り値| |

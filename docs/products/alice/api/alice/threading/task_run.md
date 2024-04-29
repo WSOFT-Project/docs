@@ -7,20 +7,22 @@ summary: 指定された処理内容を別スレッドで実行します。
 
 属性: 関数
 
+#### task_run(delegate,params variable)
+
 指定された処理内容を別スレッドで実行します。
 
 ```cs title="AliceScript"
 namespace Alice.Net;
-public void task_run(delegate job,params variable args);
+public void task_run(delegate task, params variable args);
 ```
 
 |引数| |
 |-|-|
-|`job`|実行するコードを表す`delegate`。|
-|`args`|`job`に渡す引数。
+|`task`|実行するタスクを表す[デリゲート](../../delegate/index.md)。|
+|`args`|`task`に渡す引数。|
 
 ### 例
-次の例では、タスク`job`に作成して、それを別のスレッドで実行します。
+次の例では、タスク`task`を作成して、それを別のスレッドで実行します。
 
 ```cs title="AliceScript"
 using Alice.Threading;

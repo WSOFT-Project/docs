@@ -1,5 +1,6 @@
 ---
 title: LastIndexOf
+long_title : string.LastIndexOf
 summary: 指定された文字列が現在の文字列内で最後に見つかった位置のインデックスを返します
 date : 2021-12-09
 ---

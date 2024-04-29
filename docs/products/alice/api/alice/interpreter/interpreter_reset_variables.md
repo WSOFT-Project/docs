@@ -8,11 +8,13 @@ date : 2021-09-12
 
 属性: 関数
 
+#### interpreter_reset_variables()
+
 現在インタプリタに定義されているすべてのグローバル変数の定義を解除します。
 
 ```cs title="AliceScript"
 namespace Alice.Interpreter;
-void interpreter_reset_variables();
+public void interpreter_reset_variables();
 ```
 
 ### 例

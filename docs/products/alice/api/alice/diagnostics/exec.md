@@ -9,6 +9,8 @@ date : 2023-12-30
 
 属性: 関数
 
+#### exec(string,bool,bool)
+
 ファイル名を指定して別のプロセスを開始します。
 
 ```cs title="AliceScript"
@@ -25,6 +27,8 @@ public Process exec(string fileName, bool waitForExit = true, bool useShell = fa
 |戻り値| |
 |-|-|
 |`Process`|開始したプロセスの情報を表すオブジェクト|
+
+#### exec(string,string,bool,bool)
 
 ファイル名と引数を指定して別のプロセスを開始します。
 

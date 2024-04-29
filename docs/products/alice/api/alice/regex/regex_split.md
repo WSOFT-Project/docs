@@ -8,6 +8,8 @@ summary: 指定した文字列を特定の正規表現パターンを使って�
 
 属性: 関数
 
+#### regex_Split(string,string)
+
 指定した文字列を特定の正規表現パターンを使って分割します。
 
 ```cs title="AliceScript"

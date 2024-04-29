@@ -9,6 +9,8 @@ date : 2024-01-08
 
 属性: 関数
 
+#### interop_getType(string,string,string)
+
 指定した.NETオブジェクトを表すオブジェクトを取得します
 
 ```cs title="AliceScript"

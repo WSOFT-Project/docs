@@ -8,11 +8,13 @@ date : 2021-11-19
 
 属性: 関数
 
+#### interpreter_name()
+
 実行中のインタプリタの名前を取得します。この関数によって返される値は[env_impl_name](../environment/env_impl_name.md)と同じです。
 
 ```cs title="AliceScript"
 namespace Alice.Interpreter;
-string interpreter_name();
+public string interpreter_name();
 ```
 
 |戻り値| |

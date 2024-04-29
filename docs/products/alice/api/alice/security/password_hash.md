@@ -1,17 +1,19 @@
 ---
 title: password_hash
-summary: 指定した文字列と対になるハッシュ値を計算します
+summary: 指定した文字列に対応するハッシュ値を計算します
 ---
 ### 定義
 名前空間:Alice.Security / アセンブリ : Losetta.Runtime.dll / サポート: AliceScript1
 
 属性: 関数
 
-指定した文字列と対になるハッシュ値を計算します
+#### password_hash(string,bytes,number,number)
+
+指定した文字列に対応するハッシュ値を計算します
 
 ```cs title="AliceScript"
 namespace Alice.Security;
-public bytes password_hash(string password,bytes salt,int hash_size=32,int stretch_count=1000);
+public bytes password_hash(string password, bytes salt, number hash_size = 32, number stretch_count = 1000);
 ```
 
 |引数| |

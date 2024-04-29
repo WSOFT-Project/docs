@@ -8,6 +8,8 @@ date : 2021-12-05
 
 属性: 関数
 
+#### string_format(string,params variable)
+
 与えられた複合書式指定子`format`を使用して後続の変数を成形し、その結果を出力します。
 
 ```csharp title="AliceScript"

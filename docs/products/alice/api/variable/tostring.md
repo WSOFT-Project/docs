@@ -1,5 +1,6 @@
 ---
 title: ToString
+long_title: variable.ToString
 summary: その変数の文字列表現を取得します
 ---
 ### 定義

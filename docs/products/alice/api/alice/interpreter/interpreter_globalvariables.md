@@ -8,11 +8,13 @@ date : 2021-11-19
 
 属性: 関数
 
+#### interpreter_globalVariables()
+
 現在のインタプリタに登録されているグローバル変数名を列挙します。
 
 ```cs title="AliceScript"
 namespace Alice.Interpreter;
-string[] interpreter_globalVariables();
+public string[] interpreter_globalVariables();
 ```
 
 |戻り値| |

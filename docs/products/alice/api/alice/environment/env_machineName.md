@@ -7,11 +7,13 @@ summary: ローカル コンピューターの NetBIOS 名を取得します。
 
 属性: 関数
 
+#### env_MachineName()
+
 ローカル コンピューターの NetBIOS 名を取得します。
 
 ```cs title="AliceScript"
 namespace Alice.Environment;
-string env_MachineName();
+public string env_MachineName();
 ```
 
 |戻り値| |

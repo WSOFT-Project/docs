@@ -8,6 +8,8 @@ date : 2021-08-10
 
 属性: 関数
 
+#### guid_new_bytes()
+
 新しいGUID(UUID)を生成し、その値を格納する16バイトのバイト配列を取得します。
 
 ```cs title="AliceScript"

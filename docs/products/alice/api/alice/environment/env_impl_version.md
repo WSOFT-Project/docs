@@ -8,11 +8,13 @@ date : 2023-08-09
 
 属性: 関数
 
+#### env_impl_version()
+
 [SAIM](../../../general/saim.md)の実装のバージョンを表す文字列を取得します。
 
 ```cs title="AliceScript"
 namespace Alice.Environment;
-string env_impl_version();
+public string env_impl_version();
 ```
 
 |戻り値| |

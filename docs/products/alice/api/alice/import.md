@@ -7,11 +7,13 @@ summary: 指定されたファイル名のライブラリを読み込みます�
 
 属性: 関数の区切りの空白をサポート
 
+#### import(string,bool)
+
 `filename`に有効なAlicePackageまたは.NETライブラリへのパスを指定して、ライブラリを読み込みます。
 
 ```cs title="AliceScript"
 namespace Alice;
-public void import(string filename,bool isNativeLibrary = false);
+public void import(string filename, bool isNativeLibrary = false);
 ```
 
 |引数| |

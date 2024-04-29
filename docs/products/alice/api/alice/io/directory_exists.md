@@ -9,6 +9,8 @@ date : 2021-07-28
 
 属性: 関数
 
+#### directory_exists(string)
+
 指定されたディレクトリが存在し、少なくとも読み取り権限があるかどうかを取得します。
 
 ```cs title="AliceScript"

@@ -1,5 +1,6 @@
 ---
 title: IndexOf
+long_title : string.IndexOf
 summary: 指定された文字列が現在の文字列内で最初に見つかった位置のインデックスを返します
 date : 2021-12-09
 ---
@@ -10,7 +11,7 @@ date : 2021-12-09
 
 ```cs title="AliceScript"
 namespace Alice;
-number IndexOf(string item,number startIndex=0);
+number IndexOf(string item, number startIndex = 0);
 ```
 
 |引数| |
@@ -20,6 +21,12 @@ number IndexOf(string item,number startIndex=0);
 
 !!!note "情報"
     インデックスとは、配列の最初の項目から順に`0,1,2...`と番号を割り当てたものです。たとえば、3番目の要素のインデックスは`2`です。
+
+### 説明
+インデックスとは、配列の最初の項目から順に`0,1,2...`と番号を割り当てたものです。たとえば、3番目の要素のインデックスは`2`です。`startIndex`には、0から文字列の長さまでの範囲の値を指定できます。
+
+このメソッドは、現在のカルチャを使用して検索を行います。
+このため、`item`に無視できる文字が含まれている場合、その文字を無視した検索を行います。
 
 ### 例
 以下は、Hello,Worldという文字列から`,`のインデックスを取得します。

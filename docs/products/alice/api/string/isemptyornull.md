@@ -1,5 +1,6 @@
 ---
 title: IsEmptyOrNull
+long_title : string.IsEmptyOrNull
 summary: 現在の文字列が空か、あるいはnullであるかどうかを示す値を取得します
 ---
 ### 定義

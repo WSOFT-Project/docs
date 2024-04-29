@@ -7,11 +7,13 @@ summary: プロセスの終了コードを設定します
 
 属性: 関数
 
+#### env_set_exitCode(number)
+
 プロセスの終了コードを設定します。
 
 ```cs title="AliceScript"
 namespace Alice.Environment;
-void env_set_exitCode(number exitCode);
+public void env_set_exitCode(number exitCode);
 ```
 
 |引数| |

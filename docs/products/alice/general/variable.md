@@ -31,6 +31,13 @@ variable v = "This is string";
 v = 1;
 ```
 
+変数を再代入不可能にするには、`readonly`修飾子をつけます。
+次の例では、読み取り専用の数値型の変数`x`を定義しています。
+
+```cs title="AliceScript"
+readonly number x = 0;
+```
+
 通常、変数に代入されるのは常にその値です。つまり、ある変数に式の値を代入するとその値への参照が代入されます。 通常、変数を定義する際は次の形で宣言します。
 
 ```cs title="AliceScript"

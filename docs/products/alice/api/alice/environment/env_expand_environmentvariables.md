@@ -8,11 +8,13 @@ date : 2023-08-09
 
 属性: 関数
 
+#### env_expand_environmentVariables(string)
+
 指定した文字列に埋め込まれている環境変数の名前を、その変数の値を表す文字列で置換し、置換後の文字列を返します。
 
 ```cs title="AliceScript"
 namespace Alice.Environment;
-string env_expand_environmentVariables(string text);
+public string env_expand_environmentVariables(string text);
 ```
 
 |引数| |

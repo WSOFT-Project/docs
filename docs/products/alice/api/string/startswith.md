@@ -1,5 +1,6 @@
 ---
 title: StartsWith
+long_title: string.StartsWith
 summary: 現在の文字列が指定した文字列で始まるかどうかを判定します
 date : 2021-12-09
 ---

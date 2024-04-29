@@ -8,11 +8,13 @@ date : 2023-08-09
 
 属性: 関数
 
+#### env_impl_target()
+
 [SAIM](../../../general/saim.md)のビルドターゲットOSを取得します。
 
 ```cs title="AliceScript"
 namespace Alice.Environment;
-string env_impl_target();
+public string env_impl_target();
 ```
 
 |戻り値| |

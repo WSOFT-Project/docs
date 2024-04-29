@@ -8,6 +8,8 @@ date : 2021-07-28
 
 属性: 関数
 
+#### file_read_data(string)
+
 指定したファイルを読み取り、ファイルの内容を返します。
 
 ```cs title="AliceScript"
@@ -22,6 +24,8 @@ public bytes file_read_data(string path);
 |戻り値| |
 |-|-|
 |`bytes`|ファイルの内容を格納するバイト配列|
+
+#### file_read_data(string,bool)
 
 サポート : Alice2.0
 

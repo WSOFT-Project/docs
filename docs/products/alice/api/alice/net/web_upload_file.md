@@ -8,11 +8,13 @@ date : 2021-08-26
 
 属性: 関数
 
+#### web_upload_file(string,string)
+
 指定したURIを持つリソースへローカルファイルをアップロードして応答を受け取ります。
 
 ```cs title="AliceScript"
 namespace Alice.Net;
-public bytes web_upload_file(string uri,string filename);
+public bytes web_upload_file(string uri, string filename);
 ```
 
 |引数| |

@@ -8,6 +8,8 @@ summary: 指定された正規表現に一致する箇所をすべて取得し�
 
 属性: 関数
 
+#### regex_IsMatches(string,string)
+
 指定された正規表現に一致する箇所をすべて取得します。
 
 ```cs title="AliceScript"

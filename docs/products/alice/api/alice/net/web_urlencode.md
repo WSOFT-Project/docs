@@ -8,6 +8,8 @@ date : 2021-08-26
 
 属性: 関数
 
+#### web_urlencode(string)
+
 文字列をURLエンコードされた文字列に変換します。
 
 ```cs title="AliceScript"

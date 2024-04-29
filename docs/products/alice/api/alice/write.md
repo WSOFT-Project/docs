@@ -8,6 +8,8 @@ date : 2021-11-09
 
 属性: 関数の区切りの空白をサポート
 
+#### write(variable)
+
 与えられた変数`value`の文字列表現を出力します。
 
 ```cs title="AliceScript"
@@ -19,6 +21,8 @@ public void write(variable value);
 |-|-|
 |`value`| 出力したい変数|
 
+#### write(string)
+
 与えられた文字列`text`を出力します。
 
 ```cs title="AliceScript"
@@ -29,6 +33,8 @@ public void write(string text);
 |引数| |
 |-|-|
 |`text`| 出力したい文字列|
+
+#### write(string,params variable)
 
 与えられた複合書式指定子`format`を使用して後続の変数を成形し、その結果を出力します。
 

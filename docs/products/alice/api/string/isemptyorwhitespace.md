@@ -1,5 +1,6 @@
 ---
 title: IsEmptyOrWhiteSpace
+long_title: string.IsEmptyOrWhiteSpace
 summary: 現在の文字列が空か、あるいは空白文字のみであるかどうかを示す値を取得します
 date : 2021-12-09
 ---

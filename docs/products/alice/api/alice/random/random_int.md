@@ -8,6 +8,8 @@ date : 2023-08-10
 
 属性: 関数
 
+#### random_int()
+
 暗号学的に安全な方法で、ランダムな整数を取得します。
 
 ```cs title="AliceScript"
@@ -18,6 +20,8 @@ public number random_int();
 |戻り値| |
 |-|-|
 |`number`|`-2147483648`以上`2147483647`未満の整数。|
+
+#### random_int(number)
 
 暗号学的に安全な方法で、指定された最大値より大きい`-2147483648`以上のランダムな整数を返します。
 
@@ -38,11 +42,13 @@ number random_int(number max);
     このオーバーロードはAliceSisterでは実装されていません。
     それらの環境では`0x034 NOT_IMPLEMENTED`例外がスローされます。
 
+#### random_int(number,number)
+
 暗号学的に安全な方法で、指定された範囲内のランダムな整数を返します。
 
 ```cs title="AliceScript"
 namespace Alice.Random;
-number random_int(number min,number max);
+number random_int(number min, number max);
 ```
 
 |引数| |

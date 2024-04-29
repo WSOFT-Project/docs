@@ -12,7 +12,7 @@ date : 2023-08-07
 たとえば、次の例は、2つの文を入れ子にしています。
 
 ```cs title="AliceScript"
-function Hoge(number num)
+void Hoge(number num)
 {
     if(num > 3)
     {
@@ -31,6 +31,7 @@ AliceScriptの文は、次のように分類できます。
 - ジャンプ文
 - 例外処理文
 - `lock`文
+- `readonly`文
 - 空の文
 
 ### 宣言文
@@ -146,7 +147,7 @@ function test(number num)
 
 ### lock文
 `lock`文を使用すると、一度に1つのスレッドしかコードにアクセスしないように制限できます。
-詳細については、[lock](../api/alice/lock.md)を参照してください。
+詳細については、[lock文](../api/alice/lock.md)を参照してください。
 
 次の例では、10秒間の間、メインスレッドで`item`に`2`を代入することができません。
 
@@ -162,6 +163,22 @@ task_run(delegate(){
 item = 2;
 print(item);
 ```
+
+### readonly文
+`readonly`文を使用すると、特定範囲内で変数への再代入を禁止できます。
+詳細については、[readonly文](../api/alice/readonly.md)を参照してください。
+
+次の例では、`x`を読み取り専用に設定しています。
+
+```cs title="AliceScript"
+number x = 0;
+
+readonly(x)
+{
+    x++;//ここでエラー
+}
+```
+
 
 ### 空の文
 空の文は、`{...}`または`(...)`のように関数名を使用せずにかっこで囲むか、`block`文を使用すると、空の文になります。この文はなにも実行しませんが、ブロックスコープを作成する目的などで使用できます。

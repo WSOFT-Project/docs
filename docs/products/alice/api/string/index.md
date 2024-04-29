@@ -274,3 +274,13 @@ var query = $"SELECT * FROM Table WHERE id='{id}'";
 |[TrimEnd(params string item)](./trimend.md)|現在の文字列から指定した文字列が末尾に現れる箇所をすべて削除した文字列を取得します|
 |[TrimStart()](./trimstart.md)|現在の文字列から先頭にある空白文字をすべて削除した文字列を取得します|
 |[TrimStart(params string item)](./trimstart.md)|現在の文字列から指定した文字列が先頭に現れる箇所をすべて削除した文字列を取得します|
+
+### 拡張メソッド
+#### Alice.Regex
+|名前|説明|
+|---|---|
+|[IsMatch(this string input, string pattern)](../alice/regex/ismatch.md)|指定された正規表現に一致する箇所が、指定された文字列内に見つかるかどうかを調べます|
+|[Like(this string input, string pattern)](../alice/regex/like.md)|文字列が一定のパターンと一致するかを調べます|
+|[Matches(this string input, string pattern)](../alice/regex/matches.md)|指定された正規表現に一致する箇所をすべて取得します。|
+|[ReplaceAll(this string input, string pattern, string replacement)](../alice/regex/replaceall.md)|指定した文字列内でパターンに一致する文字列を、すべて指定した文字列で置き換えます。|
+|[ReplaceFirst(this string input, string pattern, string replacement)](../alice/regex/replacefirst.md)|指定した文字列内でパターンに一致する文字列の初めに見つかった部分を、指定した文字列で置き換えます。|

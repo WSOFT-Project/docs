@@ -1,5 +1,6 @@
 ---
 title: Equals
+long_title: variable.Equals
 summary: その変数ともうひとつの変数が等しいかどうかを判断します
 ---
 ### 定義

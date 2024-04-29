@@ -8,6 +8,8 @@ date : 2021-08-26
 
 属性: 関数
 
+#### web_download_data(string)
+
 指定したURIを持つリソースを取得します。
 
 ```cs title="AliceScript"

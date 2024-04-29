@@ -9,7 +9,9 @@ date : 2023-12-30
 
 属性: 関数
 
-指定された条件が`true`となるかをテストし、`false`となる場合は例外をスローします。
+#### assert(bool)
+
+指定された条件が`true`となるかをテストし、`false`となる場合は「`アサーションが失敗しました`」という文言の例外をスローします。
 
 ```cs title="AliceScript"
 namespace Alice.Diagnostics;
@@ -19,6 +21,8 @@ public void assert(bool condition);
 |引数| |
 |-|-|
 |`condition`|`true`であると期待する値|
+
+#### assert(bool,string)
 
 指定された条件が`true`となるかをテストし、`false`となる場合は指定されたメッセージとともに例外をスローします。
 
@@ -35,5 +39,3 @@ public void assert(bool condition, string message);
 
 ### 説明
 この関数は、`condition`が`false`と評価されたときに[0x04c ASSERTION_ERROR](../../../exceptions/0x04c.md)をスローします。
-
-`message`を指定しなかった場合、「`アサーションが失敗しました`」という文言の例外をスローします。

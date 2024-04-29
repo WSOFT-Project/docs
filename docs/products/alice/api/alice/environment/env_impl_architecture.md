@@ -8,11 +8,13 @@ date : 2023-08-09
 
 属性: 関数
 
+#### env_impl_architecture()
+
 [SAIM](../../../general/saim.md)のビルドターゲットアーキテクチャを取得します。
 
 ```cs title="AliceScript"
 namespace Alice.Environment;
-string env_impl_architecture();
+public string env_impl_architecture();
 ```
 
 |戻り値| |

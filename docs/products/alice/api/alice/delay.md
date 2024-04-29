@@ -6,12 +6,16 @@ date : 2024-01-08
 ### 定義
 名前空間:Alice / アセンブリ : Losetta.Runtime.dll / サポート: AliceScript1
 
+#### delay()
+
 無期限にスレッドを中断します
 
 ```cs title="AliceScript"
 namespace Alice;
 public void delay();
 ```
+
+#### delay(number)
 
 指定した時間の間スレッドを中断します
 

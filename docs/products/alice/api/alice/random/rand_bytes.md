@@ -8,6 +8,8 @@ date : 2023-08-10
 
 属性: 関数
 
+#### rand_bytes(number)
+
 指定した長さのランダムなバイト配列を返します。
 
 ```cs title="AliceScript"

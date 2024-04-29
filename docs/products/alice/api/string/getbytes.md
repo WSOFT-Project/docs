@@ -1,5 +1,6 @@
 ---
 title: GetBytes
+long_title : string.GetBytes
 summary: 現在の文字列に含まれるすべての文字を指定された文字コードのデータにエンコードします
 date : 2023-10-22
 ---
@@ -36,16 +37,16 @@ bytes GetBytes(string charCode);
 
 ```cs title="AliceScript"
 namespace Alice;
-bytes GetBytes(number codepage);
+bytes GetBytes(number codePage);
 ```
 
 |引数| |
 |-|-|
-|`codepage`|文字列のエンコードに使用する文字コードのコードページ|
+|`codePage`|文字列のエンコードに使用する文字コードのコードページ|
 
 |戻り値| |
 |-|-|
-|`bytes`|文字列を`codepage`に対応する文字コードでエンコードした結果を格納するバイト配列|
+|`bytes`|文字列を`codePage`に対応する文字コードでエンコードした結果を格納するバイト配列|
 
 ### 例
 以下は、`Hello,World`をUTF-8形式でエンコードしたデータを取得します

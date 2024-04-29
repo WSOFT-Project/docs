@@ -8,22 +8,26 @@ date : 2021-11-19
 
 属性: 関数
 
+#### interpreter_namespaces()
+
 現在のインタプリタに登録されているグローバル関数名を列挙します。
 
 ```cs title="AliceScript"
 namespace Alice.Interpreter;
-string[] interpreter_namespaces();
+public string[] interpreter_namespaces();
 ```
 
 |戻り値| |
 |-|-|
 |`string[]`|現在のインタプリタに登録されている関数の名前を含む配列。|
 
+#### interpreter_namespaces(string)
+
 特定の名前空間に所属する関数名を列挙します。
 
 ```cs title="AliceScript"
 namespace Alice.Interpreter;
-string[] interpreter_namespaces(string spaceName);
+public string[] interpreter_namespaces(string spaceName);
 ```
 
 |引数| |

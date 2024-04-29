@@ -8,6 +8,8 @@ summary: 指定したデータのSHA1ハッシュ値を取得します。
 
 属性: 関数
 
+#### sha1_GetHash(bytes)
+
 指定したデータのSHA1ハッシュ値を取得します。
 
 ```cs title="AliceScript"

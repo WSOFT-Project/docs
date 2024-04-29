@@ -8,6 +8,8 @@ summary: 指定された正規表現に一致する箇所が、指定された�
 
 属性: 関数
 
+#### regex_IsMatch(string,string)
+
 指定された正規表現に一致する箇所が、指定された文字列内に見つかるかどうかを調べます。
 
 ```cs title="AliceScript"

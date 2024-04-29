@@ -8,11 +8,13 @@ date : 2022-01-16
 
 属性: 関数
 
+#### interpreter_append_data(variable,bool)
+
 指定したオブジェクトの文字列表現を標準データ出力に書き込みます。
 
 ```cs title="AliceScript"
 namespace Alice.Interpreter;
-bool interpreter_append_data(variable item,bool isNewLine=false);
+public bool interpreter_append_data(variable item,bool isNewLine=false);
 ```
 
 |引数| |

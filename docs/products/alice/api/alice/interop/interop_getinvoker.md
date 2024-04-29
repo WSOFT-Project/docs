@@ -9,6 +9,8 @@ date : 2023-12-30
 
 属性: 関数
 
+#### interop_getInvoker(string,string,string,array,string,bool)
+
 指定したC-Style関数に対応するデリゲートを生成します
 
 ```cs title="AliceScript"

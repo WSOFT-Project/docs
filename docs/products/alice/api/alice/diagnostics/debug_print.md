@@ -8,33 +8,39 @@ date : 2021-11-09
 
 属性: 関数
 
+#### debug_print(string)
+
 指定された文字列の文字列表現をデバッグ出力に書き込み、続けて現在の環境で使用されている改行文字を書き込みます。
 
 ```cs title="AliceScript"
 namespace Alice.Diagnostics;
-void debug_print(string text);
+public void debug_print(string text);
 ```
 
 |引数| |
 |-|-|
 |`text`| 出力したい文字列|
 
+#### debug_print(variable)
+
 指定されたオブジェクトの文字列表現をデバッグ出力に書き込み、続けて現在の環境で使用されている改行文字を書き込みます。
 
 ```cs title="AliceScript"
 namespace Alice.Diagnostics;
-void debug_print(variable value);
+public void debug_print(variable value);
 ```
 
 |引数| |
 |-|-|
 |`value`| 出力したい変数|
 
+#### debug_print(string,params variable)
+
 与えられた複合書式指定子`format`を使用して後続の変数を成形し、デバッグ出力に書き込み、続けて現在の環境で使用されている改行文字を書き込みます。
 
 ```cs title="AliceScript"
 namespace Alice.Diagnostics;
-void debug_print(string format,params variable args);
+public void debug_print(string format, params variable args);
 ```
 
 |引数| |

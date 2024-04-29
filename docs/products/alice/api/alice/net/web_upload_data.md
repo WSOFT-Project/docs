@@ -8,11 +8,13 @@ date : 2021-08-26
 
 属性: 関数
 
+#### web_upload_data(string,bytes)
+
 指定したURIを持つリソースへバイト配列をアップロードして応答を受け取ります。
 
 ```cs title="AliceScript"
 namespace Alice.Net;
-public bytes web_upload_data(string uri,bytes data);
+public bytes web_upload_data(string uri, bytes data);
 ```
 
 |引数| |

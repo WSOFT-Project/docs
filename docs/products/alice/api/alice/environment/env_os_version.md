@@ -7,11 +7,13 @@ summary: 現在のオペレーティングシステムのプラットフォー�
 
 属性: 関数
 
+#### env_os_version()
+
 現在のオペレーティングシステムのプラットフォームID、バージョン、およびServicePackが連結された文字列形式を取得します。
 
 ```cs title="AliceScript"
 namespace Alice.Environment;
-string env_os_version();
+public string env_os_version();
 ```
 
 |戻り値| |

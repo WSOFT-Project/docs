@@ -8,6 +8,8 @@ date : 2021-07-28
 
 属性: 関数
 
+#### file_delete(string)
+
 指定したファイルを削除します。
 
 ```cs title="AliceScript"

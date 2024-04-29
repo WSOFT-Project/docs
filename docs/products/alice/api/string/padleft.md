@@ -1,5 +1,6 @@
 ---
 title: PadLeft
+long_title : string.PadLeft
 summary: 指定された文字数になるまで左側に指定された文字列を埋め込むことで、この文字列を右寄せした新しい文字列を取得します
 date : 2021-12-09
 ---
@@ -10,7 +11,7 @@ date : 2021-12-09
 
 ```cs title="AliceScript"
 namespace Alice;
-string PadLeft(number totalWidth,string padding=" ");
+string PadLeft(number totalWidth, string padding=" ");
 ```
 
 |引数| |

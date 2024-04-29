@@ -8,6 +8,8 @@ date : 2021-07-28
 
 属性: 関数
 
+#### file_read_text(string)
+
 指定したファイルを読み取り、結果を文字列で返します。
 
 ```cs title="AliceScript"
@@ -22,6 +24,8 @@ public string file_read_text(string path);
 |戻り値| |
 |-|-|
 |`string`|ファイル内のすべての文字列|
+
+#### file_read_text(string,bool)
 
 サポート : Alice2.0
 
@@ -40,6 +44,8 @@ public string file_read_text(string path,bool fromPackage);
 |戻り値| |
 |-|-|
 |`string`|ファイル内のすべての文字列|
+
+#### file_read_text(string,string,bool)
 
 サポート : Alice2.0
 
@@ -60,6 +66,7 @@ public string file_read_text(string path,string charCode,bool fromPackage = fals
 |-|-|
 |`string`|ファイル内のすべての文字列|
 
+#### file_read_text(string,number,bool)
 
 サポート : Alice2.0
 
@@ -79,6 +86,7 @@ public string file_read_text(string path,number codePage,bool fromPackage = fals
 |戻り値| |
 |-|-|
 |`string`|ファイル内のすべての文字列|
+
 ### 説明
 
 `source`や`destination`には、相対パスと絶対パスのどちらを指定することもできます。

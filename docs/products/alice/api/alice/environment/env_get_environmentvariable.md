@@ -8,22 +8,26 @@ date : 2023-08-09
 
 属性: 関数
 
+#### env_get_environmentVariable()
+
 すべての環境変数の名前の配列を取得します。
 
 ```cs title="AliceScript"
 namespace Alice.Environment;
-string[] env_get_environmentVariable();
+public string[] env_get_environmentVariable();
 ```
 
 |戻り値| |
 |-|-|
 |`string`|すべての環境変数の名前の配列|
 
+#### env_get_environmentVariable(string)
+
 現在のプロセスから特定の環境変数の値を取得します。
 
 ```cs title="AliceScript"
 namespace Alice.Environment;
-string env_get_environmentVariable(string name);
+public string env_get_environmentVariable(string name);
 ```
 
 |引数| |

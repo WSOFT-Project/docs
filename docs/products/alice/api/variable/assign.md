@@ -1,5 +1,6 @@
 ---
 title: Assign
+long_title: variable.Assign
 summary: 変数に指定した値を代入します。
 ---
 ### 定義

@@ -8,11 +8,13 @@ date : 2021-11-09
 
 属性: 関数
 
+#### debug_writeIf(bool,string)
+
 条件が真であるときに、指定された文字列の文字列表現をデバッグ出力に書き込みます。
 
 ```cs title="AliceScript"
 namespace Alice.Diagnostics;
-void debug_writeIf(bool condition,string text);
+public void debug_writeIf(bool condition, string text);
 ```
 
 |引数| |
@@ -20,11 +22,13 @@ void debug_writeIf(bool condition,string text);
 |`condition`| 評価する条件。これが`true`の場合、デバッグ出力に書き込みます。|
 |`text`| 出力したい文字列|
 
+#### debug_writeIf(bool,variable)
+
 条件が真であるときに、指定されたオブジェクトの文字列表現をデバッグ出力に書き込みます。
 
 ```cs title="AliceScript"
 namespace Alice.Diagnostics;
-void debug_writeIf(bool condition,variable value);
+public void debug_writeIf(bool condition, variable value);
 ```
 
 |引数| |
@@ -32,11 +36,13 @@ void debug_writeIf(bool condition,variable value);
 |`condition`| 評価する条件。これが`true`の場合、デバッグ出力に書き込みます。|
 |`value`| 出力したい変数|
 
+#### debug_writeIf(bool,string,params variable)
+
 条件が真であるときに、与えられた複合書式指定子`format`を使用して後続の変数を成形し、デバッグ出力に書き込みます。
 
 ```cs title="AliceScript"
 namespace Alice.Diagnostics;
-void debug_writeIf(bool condition,string format,params variable args);
+public void debug_writeIf(bool condition, string format,params variable args);
 ```
 
 |引数| |

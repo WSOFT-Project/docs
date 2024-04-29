@@ -1,5 +1,6 @@
 ---
 title: DeepClone
+long_title: variable.DeepClone
 summary: その変数の厳格コピー（ディープコピー）を作成します。
 ---
 ### 定義

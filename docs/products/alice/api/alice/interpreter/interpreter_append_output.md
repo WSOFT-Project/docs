@@ -8,11 +8,13 @@ date : 2022-01-16
 
 属性: 関数
 
+#### interpreter_append_output(variable,bool)
+
 指定したオブジェクトの文字列表現を標準出力に書き込みます。[print](../print.md)関数や[write](../write.md)関数は本質的にこの関数の薄いラッパーです。
 
 ```cs title="AliceScript"
 namespace Alice.Interpreter;
-void interpreter_append_output(variable item,bool isNewLine=false);
+public void interpreter_append_output(variable item,bool isNewLine=false);
 ```
 
 |引数| |

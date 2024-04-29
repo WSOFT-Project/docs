@@ -7,11 +7,13 @@ summary: 現在のオペレーティングシステムの識別値を取得し�
 
 属性: 関数
 
+#### env_os_platform()
+
 現在のオペレーティングシステムの識別値を取得します。
 
 ```cs title="AliceScript"
 namespace Alice.Environment;
-string env_os_platform();
+public string env_os_platform();
 ```
 
 |戻り値| |

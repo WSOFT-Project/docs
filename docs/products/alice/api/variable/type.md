@@ -1,5 +1,6 @@
 ---
 title: Type
+long_title: variable.Type
 summary: その変数の種類を表すオブジェクトを取得します。
 ---
 ### 定義

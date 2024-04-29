@@ -8,6 +8,8 @@ summary: 指定したファイルまたはディレクトリを別の場所に�
 
 属性: 関数
 
+#### directory_move(string,string)
+
 指定したファイルまたはディレクトリを別の場所に移動します。
 
 ```cs title="AliceScript"

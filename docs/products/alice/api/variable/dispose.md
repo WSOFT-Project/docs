@@ -1,5 +1,6 @@
 ---
 title: Dispose
+long_title: variable.Dispose
 summary: 変数の値を破棄します。
 ---
 ### 定義
