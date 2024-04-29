@@ -9,6 +9,8 @@ date : 2023-12-30
 
 属性: 関数
 
+#### assert(bool)
+
 指定された条件が`true`となるかをテストし、`false`となる場合は「`アサーションが失敗しました`」という文言の例外をスローします。
 
 ```cs title="AliceScript"
@@ -19,6 +21,8 @@ public void assert(bool condition);
 |引数| |
 |-|-|
 |`condition`|`true`であると期待する値|
+
+#### assert(bool,string)
 
 指定された条件が`true`となるかをテストし、`false`となる場合は指定されたメッセージとともに例外をスローします。
 

@@ -7,11 +7,13 @@ summary: この環境で定義されている改行文字列を取得します�
 
 属性: 関数
 
+#### env_NewLine()
+
 この環境で定義されている改行文字列を取得します。
 
 ```cs title="AliceScript"
 namespace Alice.Environment;
-string env_NewLine();
+public string env_NewLine();
 ```
 
 |戻り値| |

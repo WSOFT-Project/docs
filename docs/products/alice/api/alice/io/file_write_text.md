@@ -8,18 +8,22 @@ date : 2021-07-28
 
 属性: 関数
 
+#### file_write_text(string,string)
+
 新しいファイルを作成し、指定された文字列を書き込みます。
 ファイルがすでに存在する場合は先頭から上書きします。
 
 ```cs title="AliceScript"
 namespace Alice.IO;
-public void file_write_text(string path,string content);
+public void file_write_text(string path, string content);
 ```
 
 |引数| |
 |-|-|
 |`path`|書き込むファイルへのパス|
 |`content`|ファイルに書き込む内容|
+
+#### file_write_text(string,string,string)
 
 サポート：Alice2.0
 
@@ -28,7 +32,7 @@ public void file_write_text(string path,string content);
 
 ```cs title="AliceScript"
 namespace Alice.IO;
-public void file_write_text(string path,string content,string charCode);
+public void file_write_text(string path, string content, string charCode);
 ```
 
 |引数| |
@@ -37,6 +41,8 @@ public void file_write_text(string path,string content,string charCode);
 |`content`|ファイルに書き込む内容|
 |`charCode`|書き込みに使用する文字コードを表す文字列|
 
+#### file_write_text(string,string,number)
+
 サポート：Alice3.0
 
 新しいファイルを作成し、指定されたコードページ番号に対応する文字コードで指定された文字列を書き込みます。
@@ -44,7 +50,7 @@ public void file_write_text(string path,string content,string charCode);
 
 ```cs title="AliceScript"
 namespace Alice.IO;
-public void file_write_text(string path,string content,number codePage);
+public void file_write_text(string path, string content, number codePage);
 ```
 
 |引数| |

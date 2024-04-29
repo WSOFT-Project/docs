@@ -9,6 +9,8 @@ date : 2023-12-16
 
 属性: 関数
 
+#### directory_create_symbolicLink(string,string)
+
 指定したパスに指定したパスへのシンボリックリンクを作成します。
 
 ```cs title="AliceScript"

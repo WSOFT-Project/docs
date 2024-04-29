@@ -8,6 +8,8 @@ date : 2021-08-10
 
 属性: 関数
 
+#### random_bytes(number)
+
 暗号学的に安全な方法で、指定した長さのランダムなバイト配列を返します。
 
 ```cs title="AliceScript"

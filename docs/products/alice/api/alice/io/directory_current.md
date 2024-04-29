@@ -9,6 +9,8 @@ date : 2021-07-28
 
 属性: 関数
 
+#### directory_current()
+
 現在の作業ディレクトリを取得します。
 
 ```cs title="AliceScript"
@@ -19,6 +21,8 @@ public string directory_current();
 |戻り値| |
 |---|---|
 |`string`|現在の作業ディレクトリへのパス。これは末尾の区切り文字(`\`または`/`)を含みません。|
+
+#### directory_current(string)
 
 現在の作業ディレクトリを指定したディレクトリに設定します。
 

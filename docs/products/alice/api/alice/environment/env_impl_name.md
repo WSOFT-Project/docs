@@ -8,11 +8,13 @@ date : 2023-08-09
 
 属性: 関数
 
+#### env_impl_name()
+
 [SAIM](../../../general/saim.md)の実装の名前を取得します。
 
 ```cs title="AliceScript"
 namespace Alice.Environment;
-string env_impl_name();
+public string env_impl_name();
 ```
 
 |戻り値| |

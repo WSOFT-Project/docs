@@ -8,11 +8,13 @@ date : 2021-11-09
 
 属性: 関数
 
+#### debug_indent()
+
 デバッグ出力の[インデントレベル](./debug_indentlevel.md)を`1`増やします。
 
 ```cs title="AliceScript"
 namespace Alice.Diagnostics;
-void debug_indent();
+public void debug_indent();
 ```
 
 ### 例

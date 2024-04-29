@@ -8,12 +8,14 @@ date : 2021-07-28
 
 属性: 関数
 
+#### file_move(string,string)
+
 指定したファイルを新しい場所に移動します。
 `destination`にすでにファイルがある場合は例外が発生します。
 
 ```cs title="AliceScript"
 namespace Alice.IO;
-public void file_move(string source,string destination);
+public void file_move(string source, string destination);
 ```
 
 |引数| |
@@ -21,12 +23,14 @@ public void file_move(string source,string destination);
 |`source`|移動元のファイルへのパス|
 |`destination`|移動先のファイルへのパス|
 
+#### file_move(string,string,bool)
+
 指定したファイルを別の場所に移動します。
 `overwrite`が`false`で、かつ`destination`にすでにファイルがある場合は例外が発生します。
 
 ```cs title="AliceScript"
 namespace Alice.IO;
-public void file_move(string source,string destination,bool overwrite);
+public void file_move(string source, string destination, bool overwrite);
 ```
 
 |引数| |

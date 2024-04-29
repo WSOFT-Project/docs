@@ -7,11 +7,13 @@ summary: 現在のプロセスに対するコマンド ライン引数を格納�
 
 属性: 関数
 
+#### env_commandLineArgs()
+
 現在のプロセスに対するコマンド ライン引数を格納している文字列配列を返します。
 
 ```cs title="AliceScript"
 namespace Alice.Environment;
-string[] env_commandLineArgs();
+public string[] env_commandLineArgs();
 ```
 
 |戻り値| |

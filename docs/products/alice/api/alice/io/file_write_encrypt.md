@@ -8,6 +8,8 @@ date : 2023-12-16
 
 属性: 関数
 
+#### file_write_encrypt(string,bytes,string,number,number,bool)
+
 新しいファイルを作成し、指定されたデータをAES-CBC方式で暗号化しながら書き込みます。
 ファイルがすでに存在する場合は先頭から上書きします。
 

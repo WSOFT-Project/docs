@@ -8,11 +8,13 @@ date : 2022-01-16
 
 属性: 関数
 
+#### interpreter_nameexists(string)
+
 特定の文字列を名前が使用されているかどうかを表す値を取得します。
 
 ```cs title="AliceScript"
 namespace Alice.Interpreter;
-bool interpreter_nameexists(string name);
+public bool interpreter_nameexists(string name);
 ```
 
 |引数| |

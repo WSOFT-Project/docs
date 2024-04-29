@@ -8,22 +8,26 @@ date : 2021-07-28
 
 属性: 関数
 
+#### gc_collectAfterExecute()
+
 スクリプトの評価が終了するたびにガページコレクションを実行するかどうかの値を取得します。
 
 ```cs title="AliceScript"
 namespace Alice.Interpreter;
-bool gc_collectAfterExecute();
+public bool gc_collectAfterExecute();
 ```
 
 |戻り値| |
 |-|-|
 |`bool`|スクリプトの評価が終了するたびにガページコレクションを実行する場合は`true`、それ以外の場合は`false`。|
 
+#### gc_collectAfterExecute()
+
 スクリプトの評価が終了するたびにガページコレクションを実行するかどうかの値を取得または設定します。
 
 ```cs title="AliceScript"
 namespace Alice.Interpreter;
-bool gc_collectAfterExecute(bool collectAfterExecute);
+public bool gc_collectAfterExecute(bool collectAfterExecute);
 ```
 
 |引数| |

@@ -8,6 +8,8 @@ summary: 指定された正規表現に最初に一致する箇所を取得し�
 
 属性: 関数
 
+#### regex_Match(string,string)
+
 指定された正規表現に最初に一致する箇所を取得します。
 
 ```cs title="AliceScript"

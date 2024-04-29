@@ -8,6 +8,8 @@ date : 2023-12-16
 
 属性: 関数
 
+#### file_read_decrypt(string,bool,string,number,number,bool)
+
 指定したファイルをAES-CBC方式で復号しながら読み取り、読み取った結果のファイルの内容を返します。
 
 ```cs title="AliceScript"

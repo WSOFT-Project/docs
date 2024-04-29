@@ -11,11 +11,13 @@ date : 2021-11-19
 !!!warning "警告"
     文字列を実行・評価することは、非常に大きなセキュリティ上の懸念を伴います。`interpreter_process`を使用すると、悪意のある者が任意のコードを実行することがあまりにも簡単になります。下記の、考慮事項を参照してください。
 
+#### interpreter_process(string,string,bool)
+
 指定された文字列をトップレベルのスクリプトとして実行・評価します。
 
 ```cs title="AliceScript"
 namespace Alice.Interpreter;
-variable interpreter_process(string script,string filename="",bool mainFile=false);
+public variable interpreter_process(string script,string filename="",bool mainFile=false);
 ```
 
 |引数| |

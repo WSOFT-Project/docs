@@ -8,11 +8,13 @@ date : 2021-11-09
 
 属性: 関数
 
+#### debug_unIndent()
+
 デバッグ出力の[インデントレベル](./debug_indentlevel.md)を`1`減らします。
 
 ```cs title="AliceScript"
 namespace Alice.Diagnostics;
-void debug_unIndent();
+public void debug_unIndent();
 ```
 
 ### 例

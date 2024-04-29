@@ -8,11 +8,13 @@ date : 2021-07-28
 
 属性: 関数
 
+#### gc_getTotalMemory(bool)
+
 現在プロセスに割り当てられられていると思われるメモリのバイト数を取得します。
 
 ```cs title="AliceScript"
 namespace Alice.Interpreter;
-number gc_getTotalMemory(bool forceFullCollection);
+public number gc_getTotalMemory(bool forceFullCollection);
 ```
 
 |引数| |

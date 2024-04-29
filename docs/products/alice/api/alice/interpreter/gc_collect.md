@@ -8,11 +8,13 @@ date : 2021-09-12
 
 属性: 関数
 
+#### gc_collect()
+
 現在の処理系に対し強制的にすべてのガページコレクションを実行するよう要請します。
 
 ```cs title="AliceScript"
 namespace Alice.Interpreter;
-void gc_collect();
+public void gc_collect();
 ```
 
 ### 例

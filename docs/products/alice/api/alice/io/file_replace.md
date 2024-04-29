@@ -8,6 +8,8 @@ date : 2023-12-10
 
 属性: 関数
 
+#### file_replace(string,string,string)
+
 指定したファイルを別のファイルの内容で置き換えます。
 
 ```cs title="AliceScript"
@@ -21,7 +23,10 @@ public void file_replace(string source,string destination,string backup);
 |`destination`|置き換えられるファイルへのパス|
 |`backup`|バックアップファイルへのパス|
 
+#### file_replace(string,string,string,bool)
+
 指定したファイルを別のファイルの内容で置き換えます。
+
 ```cs title="AliceScript"
 namespace Alice.IO;
 public void file_replace(string source,string destination,string backup,bool ignoreMetadataErrors);

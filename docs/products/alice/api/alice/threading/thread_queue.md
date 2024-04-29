@@ -7,20 +7,22 @@ summary: コードを実行するためのキューに置きます。コード�
 
 属性: 関数
 
+#### thread_queue(delegate,params variable)
+
 コードを実行するためのキューに置きます。コードは、スレッド プール スレッドが使用可能になったときに実行されます。
 
 ```cs title="AliceScript"
 namespace Alice.Net;
-public void thread_queue(delegate job,params variable args);
+public void thread_queue(delegate task,params variable args);
 ```
 
 |引数| |
 |-|-|
-|`job`|実行するコードを表す`delegate`。|
-|`args`|`job`に渡す引数。
+|`task`|実行するコードを表す[デリゲート](../../delegate/index.md)。|
+|`args`|`task`に渡す引数。|
 
 ### 例
-次の例では、タスク`job`に作成して、それを ThreadProc キューに入れ、スレッドが使用可能になったときに実行します。 このオーバーロードでは、タスク情報は指定されません。 したがって、メソッドで使用できる ThreadProc 情報は、メソッドが属するオブジェクトに限定されます。
+次の例では、タスク`task`を作成して、それを ThreadProc キューに入れ、スレッドが使用可能になったときに実行します。 このオーバーロードでは、タスク情報は指定されません。 したがって、メソッドで使用できる ThreadProc 情報は、メソッドが属するオブジェクトに限定されます。
 
 ```cs title="AliceScript"
 using Alice.Threading;

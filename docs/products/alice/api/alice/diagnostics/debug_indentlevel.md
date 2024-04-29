@@ -8,22 +8,26 @@ date : 2021-11-09
 
 属性: 関数
 
+#### debug_indentLevel()
+
 デバッグ出力のインデントレベルを取得します。
 
 ```cs title="AliceScript"
 namespace Alice.Diagnostics;
-number debug_indentLevel();
+public number debug_indentLevel();
 ```
 
 |戻り値| |
 |-|-|
 |`number`|インデントレベル。規定値は`0`です。|
 
+#### debug_indentLevel(number)
+
 デバッグ出力のインデントレベルを設定します。
 
 ```cs title="AliceScript"
 namespace Alice.Diagnostics;
-number debug_indentLevel(number indentLevel);
+public number debug_indentLevel(number indentLevel);
 ```
 
 |引数| |
@@ -33,6 +37,8 @@ number debug_indentLevel(number indentLevel);
 |戻り値| |
 |-|-|
 |`number`|インデントレベル。規定値は`0`です。|
+
+#### debug_indentLevel
 
 サポート : Alice3.0
 

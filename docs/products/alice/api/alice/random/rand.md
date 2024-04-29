@@ -8,6 +8,8 @@ date : 2021-08-10
 
 属性: 関数
 
+#### rand()
+
 `0`以上のランダムな整数を返します。
 
 ```cs title="AliceScript"
@@ -18,6 +20,8 @@ public number rand();
 |戻り値| |
 |-|-|
 |`number`|`0`以上`2147483647`未満の整数。|
+
+#### rand(number)
 
 指定された最大値より大きい`0`以上のランダムな整数を返します。
 
@@ -33,6 +37,8 @@ public number rand(number max);
 |戻り値| |
 |-|-|
 |`number`|`0`以上`max`未満の整数。|
+
+#### rand(number,number)
 
 指定された範囲内のランダムな整数を返します。
 

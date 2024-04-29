@@ -7,11 +7,13 @@ summary: 現在のプロセスが 64 ビット プロセスであるかどうか
 
 属性: 関数
 
+#### env_Is64BitProcess()
+
 現在のプロセスが 64 ビット プロセスであるかどうかを示す値を取得します。
 
 ```cs title="AliceScript"
 namespace Alice.Environment;
-bool env_Is64BitProcess();
+public bool env_Is64BitProcess();
 ```
 
 |戻り値| |

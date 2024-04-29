@@ -8,11 +8,13 @@ date : 2021-08-26
 
 属性: 関数
 
+#### web_send_ping(string,number)
+
 指定したURIを持つリソースを文字列形式でダウンロードします。
 
 ```cs title="AliceScript"
 namespace Alice.Net;
-public bool web_send_ping(string target,number timeout=5000);
+public bool web_send_ping(string target, number timeout=5000);
 ```
 
 |引数| |

@@ -8,12 +8,14 @@ date : 2021-07-28
 
 属性: 関数
 
+#### file_write_data(string,bytes)
+
 新しいファイルを作成し、指定されたデータを書き込みます。
 ファイルがすでに存在する場合は先頭から上書きします。
 
 ```cs title="AliceScript"
 namespace Alice.IO;
-public void file_write_data(string path,bytes content);
+public void file_write_data(string path, bytes content);
 ```
 
 |引数| |

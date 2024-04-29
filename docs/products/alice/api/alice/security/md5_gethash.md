@@ -8,6 +8,8 @@ summary: 指定したデータのMD5ハッシュ値を取得します。
 
 属性: 関数
 
+#### md5_GetHash(bytes)
+
 指定したデータのMD5ハッシュ値を取得します。
 
 ```cs title="AliceScript"

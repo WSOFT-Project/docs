@@ -8,11 +8,13 @@ date : 2021-11-19
 
 属性: 関数
 
+#### interpreter_getVariable(string)
+
 指定された文字列を名前としてもつ変数または定数の値を取得します。
 
 ```cs title="AliceScript"
 namespace Alice.Interpreter;
-variable interpreter_getVariable(string name);
+public variable interpreter_getVariable(string name);
 ```
 
 |引数| |

@@ -8,12 +8,16 @@ date : 2021-11-09
 
 属性: 関数の区切りの空白をサポート
 
+#### print()
+
 標準出力に現在の環境で使用されている改行文字を書き込みます。
 
 ```cs title="AliceScript"
 namespace Alice;
 public void print();
 ```
+
+#### print(string)
 
 指定された文字列の文字列表現を標準出力に書き込み、続けて現在の環境で使用されている改行文字を書き込みます。
 
@@ -26,6 +30,8 @@ public .command void print(string text);
 |-|-|
 |`text`| 出力したい文字列|
 
+#### print(variable)
+
 指定されたオブジェクトの文字列表現を標準出力に書き込み、続けて現在の環境で使用されている改行文字を書き込みます。
 
 ```cs title="AliceScript"
@@ -36,6 +42,8 @@ public .command void print(variable value);
 |引数| |
 |-|-|
 |`value`| 出力したい変数|
+
+#### print(string,params variable)
 
 与えられた複合書式指定子`format`を使用して後続の変数を成形し、その結果を出力します。
 

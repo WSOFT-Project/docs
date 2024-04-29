@@ -7,11 +7,13 @@ summary: ハッシュ関数のソルトとして使用できる、安全な乱�
 
 属性: 関数
 
+#### password_getSalt(number)
+
 ハッシュ関数のソルトとして使用できる、安全な乱数データを取得します
 
 ```cs title="AliceScript"
 namespace Alice.Net;
-public bytes password_getSalt(int size=32);
+public bytes password_getSalt(number size = 32);
 ```
 
 |引数| |

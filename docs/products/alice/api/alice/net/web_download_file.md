@@ -8,11 +8,13 @@ date : 2021-08-26
 
 属性: 関数
 
+#### web_download_file(string,string)
+
 指定したURIを持つリソースをローカルファイルにダウンロードします。
 
 ```cs title="AliceScript"
 namespace Alice.Net;
-public void web_download_file(string uri,string filename);
+public void web_download_file(string uri, string filename);
 ```
 
 |引数| |

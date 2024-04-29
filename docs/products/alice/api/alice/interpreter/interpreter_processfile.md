@@ -8,12 +8,14 @@ date : 2021-11-19
 
 属性: 関数
 
+#### interpreter_processfile(string,bool)
+
 指定されたスクリプトファイルをトップレベルのスクリプトとして実行します。
 現在のスクリプトにファイルを読み込む[include](../include.md)とは異なります。
 
 ```cs title="AliceScript"
 namespace Alice.Interpreter;
-variable interpreter_processfile(string path,bool mainFile=false);
+public variable interpreter_processfile(string path,bool mainFile=false);
 ```
 
 |引数| |

@@ -8,11 +8,13 @@ date : 2023-10-28
 
 属性: 関数
 
+#### file_read_codePage(string,bool)
+
 指定したファイルをファイルシステムまたは現在のパッケージから読み取り、ファイルで使用されている文字コードを判別し、文字コードのコードページを表す数値を返します。
 
 ```cs title="AliceScript"
 namespace Alice.IO;
-public number file_read_codePage(string path,bool fromPackage = false);
+public number file_read_codePage(string path, bool fromPackage = false);
 ```
 
 |引数| |

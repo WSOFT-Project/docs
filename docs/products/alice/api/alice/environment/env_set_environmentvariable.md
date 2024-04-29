@@ -8,11 +8,13 @@ date : 2023-08-09
 
 属性: 関数
 
+#### env_set_environmentVariable(string,string)
+
 現在のプロセスに格納されている環境変数を作成、変更、または削除します。
 
 ```cs title="AliceScript"
 namespace Alice.Environment;
-void env_set_environmentVariable(string name,string? value);
+public void env_set_environmentVariable(string name,string? value);
 ```
 
 |引数| |

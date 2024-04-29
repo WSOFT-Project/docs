@@ -8,11 +8,13 @@ date : 2021-11-19
 
 属性: 関数
 
+#### interpreter_namespaces()
+
 現在のインタプリタに登録されている名前空間名を列挙します。
 
 ```cs title="AliceScript"
 namespace Alice.Interpreter;
-string[] interpreter_namespaces();
+public string[] interpreter_namespaces();
 ```
 
 |戻り値| |

@@ -21,7 +21,7 @@ public string[] env_get_environmentVariable();
 |-|-|
 |`string`|すべての環境変数の名前の配列|
 
-#### env_get_environmentVariable(string name)
+#### env_get_environmentVariable(string)
 
 現在のプロセスから特定の環境変数の値を取得します。
 

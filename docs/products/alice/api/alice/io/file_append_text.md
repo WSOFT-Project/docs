@@ -8,6 +8,8 @@ date : 2021-07-28
 
 属性: 関数
 
+#### file_append_text(string,string)
+
 指定したファイルに、指定された文字列を追記します。
 ファイルが存在しない場合は、ファイルを作成してから書き込みます。
 
@@ -21,8 +23,9 @@ public void file_append_text(string path,string content);
 |`path`|書き込むファイルへのパス|
 |`content`|ファイルに書き込む内容|
 
-サポート：Alice2.0
+#### file_append_text(string,string,string)
 
+サポート：Alice2.0
 
 指定したファイルに、指定された文字コード名で指定された文字列を追記します。
 ファイルが存在しない場合は、ファイルを作成してから書き込みます。
@@ -37,6 +40,8 @@ public void file_append_text(string path,string content,string charCode);
 |`path`|書き込むファイルへのパス|
 |`content`|ファイルに書き込む内容|
 |`charCode`|書き込みに使用する文字コードを表す文字列|
+
+#### file_append_text(string,string,number)
 
 サポート：Alice3.0
 
@@ -53,6 +58,7 @@ public void file_append_text(string path,string content,number codePage);
 |`path`|書き込むファイルへのパス|
 |`content`|ファイルに書き込む内容|
 |`charCode`|書き込みに使用する文字コードに対応するコードページ番号|
+
 ### 説明
 
 `path`やには、相対パスと絶対パスのどちらを指定することもできます。

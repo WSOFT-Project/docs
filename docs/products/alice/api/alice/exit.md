@@ -5,12 +5,16 @@ summary: 現在のプロセスを終了します
 ### 定義
 名前空間:Alice / アセンブリ : Losetta.Runtime.dll / サポート: AliceScript1
 
+#### exit()
+
 現在のプロセスを終了します
 
 ```cs title="AliceScript"
 namespace Alice;
 public void exit();
 ```
+
+#### exit(number)
 
 現在のプロセスを終了し、オペレーティングシステムに終了コードを通知します。
 

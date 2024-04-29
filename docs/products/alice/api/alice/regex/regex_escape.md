@@ -8,6 +8,8 @@ summary: 文字列内の正規表現内で意味を持つ文字をエスケー�
 
 属性: 関数
 
+#### regex_Escape(string)
+
 文字列内の正規表現内で意味を持つ文字をエスケープします。
 
 ```cs title="AliceScript"

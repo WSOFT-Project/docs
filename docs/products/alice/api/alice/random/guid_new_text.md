@@ -8,6 +8,8 @@ date : 2021-08-10
 
 属性: 関数
 
+#### guid_new_text()
+
 新しいGUID(UUID)を生成し、その文字列表現を取得します。
 
 ```cs title="AliceScript"

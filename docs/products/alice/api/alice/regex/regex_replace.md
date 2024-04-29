@@ -8,6 +8,8 @@ summary: 指定した文字列内でパターンに一致する文字列を、�
 
 属性: 関数
 
+#### regex_Replace(string,string,string)
+
 指定した文字列内でパターンに一致する文字列を、指定した文字列で置き換えます。
 
 ```cs title="AliceScript"

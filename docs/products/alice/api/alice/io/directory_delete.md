@@ -9,6 +9,8 @@ date : 2021-07-28
 
 属性: 関数
 
+#### directory_delete(string)
+
 指定されたパスにある空のディレクトリを削除します。
 ディレクトリにファイルやディレクトリが残っている場合、例外が発生します。
 
@@ -20,6 +22,8 @@ public void directory_delete(string path);
 |引数| |
 |-|-|
 |`path`|削除するディレクトリのパス|
+
+#### directory_delete(string,bool)
 
 指定されたパスにあるディレクトリを削除します。
 `recursive`が`false`で、ディレクトリにファイルやディレクトリが残っている場合、例外が発生します。
