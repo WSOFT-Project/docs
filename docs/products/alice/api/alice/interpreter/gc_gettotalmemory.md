@@ -3,10 +3,11 @@ title: gc_getTotalMemory
 summary: 現在プロセスに割り当てられられていると思われるメモリのバイト数を取得します。
 date : 2021-07-28
 ---
-### 定義
-名前空間:Alice.Interpreter / アセンブリ : Losetta.dll / サポート: AliceScript1
 
-属性: 関数
+### 定義
+名前空間: Alice.Interpreter<br/>
+アセンブリ: Losetta.dll<br/>
+実装: [Alice.Interpreter.cs](https://github.com/WSOFT-Project/Losetta/blob/master/Losetta/NameSpaces/Alice.Interpreter.cs)
 
 #### gc_getTotalMemory(bool)
 
@@ -24,6 +25,13 @@ public number gc_getTotalMemory(bool forceFullCollection);
 |戻り値| |
 |-|-|
 |`number`|現在プロセスに割り当てられられていると思われるメモリのバイト数|
+
+???note "対応: AliceScript RC1以降"
+    |対応||
+    |---|---|
+    |AliceScript|RC1、RC2、GM、2.0、2.1、2.2、2.3、3.0|
+    |AliceSister|GM、2.0、2.1、2.2、2.3、3.0|
+    |Losetta|0.8、0.9、0.10|
 
 ### 例
 次の例では、現在プロセスに割り当てられられていると思われるメモリのバイト数を取得します。

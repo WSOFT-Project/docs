@@ -2,6 +2,7 @@
 title: env_os_platform
 summary: このスクリプトを実行しているオペレーティングシステムの識別値を取得します。
 ---
+
 ### 定義
 名前空間: Alice.Environment<br/>
 アセンブリ: Losetta.Runtime.dll<br/>
