@@ -5,13 +5,8 @@ date : 2023-12-30
 ---
 
 ### 定義
-名前空間:Alice.Diagnostics
-
+名前空間:Alice.Diagnostics<br/>
 アセンブリ : Losetta.Runtime.dll
-
-サポート: Alice3.0
-
-属性: 関数
 
 #### assert_equal(variable,variable)
 
@@ -27,7 +22,7 @@ public void assert_equal(variable expected, variable actual);
 |`expected`|このテストで期待する値|
 |`actual`|このテストの実際の値|
 
-???info "対応: Alice3.0以降"
+???note "対応: Alice3.0以降"
     |対応||
     |---|---|
     |AliceScript|3.0|
@@ -49,7 +44,7 @@ public void assert_equal(variable expected, variable actual, string message);
 |`actual`|このテストの実際の値|
 |`message`|`false`と評価されたときに発生する例外に使用するメッセージ|
 
-???info "対応: Alice3.0以降"
+???note "対応: Alice3.0以降"
     |対応||
     |---|---|
     |AliceScript|3.0|
