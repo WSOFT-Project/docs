@@ -3,9 +3,9 @@ title: env_os_version
 summary: 現在のオペレーティングシステムのプラットフォームID、バージョン、およびServicePackが連結された文字列形式を取得します。
 ---
 ### 定義
-名前空間:Alice.Environment<br/>
-アセンブリ : Losetta.Runtime.dll<br/>
-実装 : [Alice.Environment.cs](https://github.com/WSOFT-Project/Losetta/blob/master/Losetta.Runtime/Alice.Environment.cs)
+名前空間: Alice.Environment<br/>
+アセンブリ: Losetta.Runtime.dll<br/>
+実装: [Alice.Environment.cs](https://github.com/WSOFT-Project/Losetta/blob/master/Losetta.Runtime/Alice.Environment.cs)
 
 #### env_os_version()
 
@@ -26,3 +26,8 @@ public string env_os_version();
     |AliceScript|2.0、2.1、2.2、2.3、3.0|
     |AliceSister|2.0、2.1、2.2、2.3、3.0|
     |Losetta|0.9、0.10|
+
+### 説明
+この関数は、このスクリプトを実行しているOSのバージョン情報を取得します。
+
+SAIMがWindows上の互換モードで実行されている場合、この関数は正しくない値を返す可能性があります。

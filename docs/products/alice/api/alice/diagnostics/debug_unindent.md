@@ -3,9 +3,11 @@ title: debug_unIndent
 summary: デバッグ出力のインデントレベルを1減らします。
 date : 2021-11-09
 ---
+
 ### 定義
-名前空間:Alice.Diagnostics<br/>
-アセンブリ : Losetta.Runtime.dll 
+名前空間: Alice.Diagnostics<br/>
+アセンブリ: Losetta.Runtime.dll<br/>
+ソースコード: [Alice.Diagnostics.cs](https://github.com/WSOFT-Project/Losetta/blob/master/Losetta.Runtime/Alice.Diagnostics.cs)
 
 #### debug_unIndent()
 

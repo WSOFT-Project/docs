@@ -4,9 +4,9 @@ summary: SAIMの実装の名前を取得します。
 date : 2023-08-09
 ---
 ### 定義
-名前空間:Alice.Environment<br/>
-アセンブリ : Losetta.Runtime.dll<br/>
-実装 : [Alice.Environment.cs](https://github.com/WSOFT-Project/Losetta/blob/master/Losetta.Runtime/Alice.Environment.cs)
+名前空間: Alice.Environment<br/>
+アセンブリ: Losetta.Runtime.dll<br/>
+実装: [Alice.Environment.cs](https://github.com/WSOFT-Project/Losetta/blob/master/Losetta.Runtime/Alice.Environment.cs)
 
 #### env_impl_name()
 
@@ -27,6 +27,9 @@ public string env_impl_name();
     |AliceScript|2.0、2.1、2.2、2.3、3.0|
     |AliceSister|2.0、2.1、2.2、2.3、3.0|
     |Losetta|0.9、0.10|
+
+### 説明
+この関数は、現在スクリプトを実行しているSAIMの実装の名前を返します。例えば、公式ビルドのLosetta上でスクリプトが動作している場合、この関数は`Losetta`を返します。
 
 ### 例
 次の例では、[SAIM](../../../general/saim.md)の名前を表示します。

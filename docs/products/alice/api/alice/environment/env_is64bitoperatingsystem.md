@@ -1,15 +1,15 @@
 ---
 title: env_Is64BitOperatingSystem
-summary: 現在のオペレーティング システムが 64 ビットのオペレーティング システムであるかどうかを示す値を取得します。
+summary: このスクリプトを実行しているオペレーティングシステムが 64ビットOSであるかどうかを示す値を取得します。
 ---
 ### 定義
-名前空間:Alice.Environment<br/>
-アセンブリ : Losetta.Runtime.dll<br/>
-実装 : [Alice.Environment.cs](https://github.com/WSOFT-Project/Losetta/blob/master/Losetta.Runtime/Alice.Environment.cs)
+名前空間: Alice.Environment<br/>
+アセンブリ: Losetta.Runtime.dll<br/>
+実装: [Alice.Environment.cs](https://github.com/WSOFT-Project/Losetta/blob/master/Losetta.Runtime/Alice.Environment.cs)
 
 #### env_Is64BitOperatingSystem()
 
-現在のオペレーティング システムが 64 ビットのオペレーティング システムであるかどうかを示す値を取得します。
+このスクリプトを実行しているオペレーティングシステムが 64ビットOSであるかどうかを示す値を取得します。
 
 ```cs title="AliceScript"
 namespace Alice.Environment;
@@ -18,7 +18,7 @@ public bool env_Is64BitOperatingSystem();
 
 |戻り値| |
 |-|-|
-|`bool`|オペレーティング システムが 64 ビットの場合は`true`、それ以外の場合は`false`。|
+|`bool`|オペレーティング システムが64ビットの場合は`true`、それ以外の場合は`false`。|
 
 ???note "対応: Alice2.0以降"
     |対応||

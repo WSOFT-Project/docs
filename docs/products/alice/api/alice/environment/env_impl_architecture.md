@@ -4,9 +4,9 @@ summary: SAIMのビルドターゲットアーキテクチャを取得します�
 date : 2023-08-09
 ---
 ### 定義
-名前空間:Alice.Environment<br/>
-アセンブリ : Losetta.Runtime.dll<br/>
-実装 : [Alice.Environment.cs](https://github.com/WSOFT-Project/Losetta/blob/master/Losetta.Runtime/Alice.Environment.cs)
+名前空間: Alice.Environment<br/>
+アセンブリ: Losetta.Runtime.dll<br/>
+実装: [Alice.Environment.cs](https://github.com/WSOFT-Project/Losetta/blob/master/Losetta.Runtime/Alice.Environment.cs)
 
 #### env_impl_architecture()
 
@@ -40,14 +40,14 @@ public string env_impl_architecture();
 |`ARM32`|ARMアーキテクチャ向け32ビット版WindowsへのAOTビルド、ARMアーキテクチャ向け32ビット版Linuxへの単一ファイルビルド|
 |`ARM64`|ARMアーキテクチャ向け64ビット版WindowsへのAOTビルド、ARMアーキテクチャ向け64ビット版Linuxへの単一ファイルビルド|
 |`Debug`|デバッグ用のビルド|
-|`Release`|dotNET-CLR上で共通で動作するビルド|
+|`Release`|.NET-CLR上で共通で動作するビルド|
 
 実行する環境がAliceScriptあるいはAliceSisterの場合、返す文字列は以下のいずれかです。
 
 |戻り値|該当するビルド|
 |-|-|
 |`Debug`|デバッグ用のビルド|
-|`Release`|dotNET-CLR上で共通で動作するビルド|
+|`Release`|.NET-CLR上で共通で動作するビルド|
 
 ### 例
 次の例では、[SAIM](../../../general/saim.md)のビルドターゲットアーキテクチャを取得します。

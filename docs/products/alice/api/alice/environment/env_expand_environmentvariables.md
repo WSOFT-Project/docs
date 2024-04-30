@@ -4,9 +4,9 @@ summary: 指定した文字列に埋め込まれている環境変数の名前�
 date : 2023-08-09
 ---
 ### 定義
-名前空間:Alice.Environment<br/>
-アセンブリ : Losetta.Runtime.dll<br/>
-実装 : [Alice.Environment.cs](https://github.com/WSOFT-Project/Losetta/blob/master/Losetta.Runtime/Alice.Environment.cs)
+名前空間: Alice.Environment<br/>
+アセンブリ: Losetta.Runtime.dll<br/>
+実装: [Alice.Environment.cs](https://github.com/WSOFT-Project/Losetta/blob/master/Losetta.Runtime/Alice.Environment.cs)
 
 #### env_expand_environmentVariables(string)
 

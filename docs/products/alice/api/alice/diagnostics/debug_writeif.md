@@ -3,9 +3,11 @@ title: debug_writeIf
 summary: 条件が真であるときに、指定された文字列またはオブジェクトの文字列表現をデバッグ出力に書き込みます。
 date : 2021-11-09
 ---
+
 ### 定義
-名前空間:Alice.Diagnostics<br/>
-アセンブリ : Losetta.Runtime.dll
+名前空間: Alice.Diagnostics<br/>
+アセンブリ: Losetta.Runtime.dll<br/>
+ソースコード: [Alice.Diagnostics.cs](https://github.com/WSOFT-Project/Losetta/blob/master/Losetta.Runtime/Alice.Diagnostics.cs)
 
 #### debug_writeIf(bool,string)
 

@@ -5,9 +5,9 @@ date : 2024-01-08
 ---
 
 ### 定義
-名前空間:Alice.Interop / アセンブリ : Losetta.Runtime.dll / サポート: Alice3.0
-
-属性: 関数
+名前空間: Alice.Interop<br/>
+アセンブリ: Losetta.Runtime.dll<br/>
+ソースコード: [Alice.Interop.cs](https://github.com/WSOFT-Project/Losetta/blob/master/Losetta.Runtime/Alice.Interop.cs)
 
 #### interop_getType(string,string,string)
 
@@ -27,6 +27,13 @@ public Type interop_getType(string typeName, string asmName = null, string asmLo
 |戻り値| |
 |---|---|
 |[Type](../interpreter/type/index.md)|指定した.NETオブジェクトを表すインスタンス|
+
+???note "対応: Alice3.0以降"
+    |対応||
+    |---|---|
+    |AliceScript|3.0|
+    |AliceSister|3.0|
+    |Losetta|0.10|
 
 ### 説明
 この関数を使用すると、.NETオブジェクトを表す[Type](../interpreter/type/index.md)を取得できます。取得できるのは.NETのオブジェクトインスタンスではなく、.NETの型を表すオブジェクトである点にご注意ください。

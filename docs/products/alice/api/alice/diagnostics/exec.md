@@ -5,8 +5,9 @@ date : 2023-12-30
 ---
 
 ### 定義
-名前空間:Alice.Diagnostics<br/>
-アセンブリ : Losetta.Runtime.dll 
+名前空間: Alice.Diagnostics<br/>
+アセンブリ: Losetta.Runtime.dll<br/>
+ソースコード: [Alice.Diagnostics.cs](https://github.com/WSOFT-Project/Losetta/blob/master/Losetta.Runtime/Alice.Diagnostics.cs)
 
 #### exec(string,bool,bool)
 
