@@ -27,7 +27,7 @@ public void assert_equal(variable expected, variable actual);
 |`expected`|このテストで期待する値|
 |`actual`|このテストの実際の値|
 
-??? "対応: Alice3.0以降"
+???info "対応: Alice3.0以降"
     |対応||
     |---|---|
     |AliceScript|3.0|
@@ -49,7 +49,7 @@ public void assert_equal(variable expected, variable actual, string message);
 |`actual`|このテストの実際の値|
 |`message`|`false`と評価されたときに発生する例外に使用するメッセージ|
 
-??? "対応: Alice3.0以降"
+???info "対応: Alice3.0以降"
     |対応||
     |---|---|
     |AliceScript|3.0|
