@@ -5,9 +5,8 @@ date : 2023-12-30
 ---
 
 ### 定義
-名前空間:Alice.Diagnostics / アセンブリ : Losetta.Runtime.dll / サポート: Alice3.0
-
-属性: 関数
+名前空間:Alice.Diagnostics<br/>
+アセンブリ : Losetta.Runtime.dll 
 
 #### exec(string,bool,bool)
 
@@ -28,6 +27,13 @@ public Process exec(string fileName, bool waitForExit = true, bool useShell = fa
 |-|-|
 |`Process`|開始したプロセスの情報を表すオブジェクト|
 
+???note "対応: Alice3.0以降"
+    |対応||
+    |---|---|
+    |AliceScript|3.0|
+    |AliceSister|3.0|
+    |Losetta|0.10|
+
 #### exec(string,string,bool,bool)
 
 ファイル名と引数を指定して別のプロセスを開始します。
@@ -47,6 +53,13 @@ public Process exec(string fileName, string arguments, bool waitForExit = true, 
 |戻り値| |
 |-|-|
 |`Process`|開始したプロセスの情報を表すオブジェクト|
+
+???note "対応: Alice3.0以降"
+    |対応||
+    |---|---|
+    |AliceScript|3.0|
+    |AliceSister|3.0|
+    |Losetta|0.10|
 
 ### 説明
 

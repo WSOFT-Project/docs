@@ -7,8 +7,6 @@ date : 2021-11-09
 名前空間:Alice.Diagnostics<br/>
 アセンブリ : Losetta.Runtime.dll
 
-属性: 関数
-
 #### debug_writeIf(bool,string)
 
 条件が真であるときに、指定された文字列の文字列表現をデバッグ出力に書き込みます。

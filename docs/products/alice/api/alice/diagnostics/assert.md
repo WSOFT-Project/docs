@@ -8,8 +8,6 @@ date : 2023-12-30
 名前空間:Alice.Diagnostics<br/>
 アセンブリ : Losetta.Runtime.dll
 
-属性: 関数
-
 #### assert(bool)
 
 指定された条件が`true`となるかをテストし、`false`となる場合は「`アサーションが失敗しました`」という文言の例外をスローします。
