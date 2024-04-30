@@ -3,10 +3,11 @@ title: file_exists
 summary: 指定したファイルが存在するかどうかを確認します
 date : 2021-07-28
 ---
-### 定義
-名前空間:Alice.IO / アセンブリ : Losetta.Runtime.dll / サポート: AliceScript1
 
-属性: 関数
+### 定義
+名前空間: Alice.IO<br/>
+アセンブリ: Losetta.Runtime.dll<br/>
+実装: [Alice.IO.cs](https://github.com/WSOFT-Project/Losetta/blob/master/Losetta.Runtime/Alice.IO.cs)
 
 #### file_exists(string)
 
@@ -24,6 +25,13 @@ public bool file_exists(string path);
 |戻り値| |
 |-|-|
 |`bool`|`path`に既存のファイルが存在し、かつ必要なアクセス許可を持っている場合は`true`、それ以外の場合は`false`。|
+
+???note "対応: AliceScript RC1以降"
+    |対応||
+    |---|---|
+    |AliceScript|RC1、RC2、GM、2.0、2.1、2.2、2.3、3.0|
+    |AliceSister|GM、2.0、2.1、2.2、2.3、3.0|
+    |Losetta|0.8、0.9、0.10|
 
 ### 説明
 この関数は`path`にファイルが存在し、かつ必要なアクセス許可を持っている場合は`true`を返します。また、`path`が正しくないパスまたは長さが0の文字列、`null`の場合にも`false`を返します。さらに、呼び出し元が指定したファイルを読み取るためのアクセス許可を持っていない場合、例外は発生せず`false`を返します。

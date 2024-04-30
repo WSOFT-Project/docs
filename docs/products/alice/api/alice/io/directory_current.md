@@ -5,9 +5,9 @@ date : 2021-07-28
 ---
 
 ### 定義
-名前空間:Alice.IO / アセンブリ : Losetta.Runtime.dll / サポート: AliceScript1
-
-属性: 関数
+名前空間: Alice.IO<br/>
+アセンブリ: Losetta.Runtime.dll<br/>
+実装: [Alice.IO.cs](https://github.com/WSOFT-Project/Losetta/blob/master/Losetta.Runtime/Alice.IO.cs)
 
 #### directory_current()
 
@@ -21,6 +21,13 @@ public string directory_current();
 |戻り値| |
 |---|---|
 |`string`|現在の作業ディレクトリへのパス。これは末尾の区切り文字(`\`または`/`)を含みません。|
+
+???note "対応: AliceScript RC1以降"
+    |対応||
+    |---|---|
+    |AliceScript|RC1、RC2、GM、2.0、2.1、2.2、2.3、3.0|
+    |AliceSister|GM、2.0、2.1、2.2、2.3、3.0|
+    |Losetta|0.8、0.9、0.10|
 
 #### directory_current(string)
 
@@ -38,6 +45,14 @@ public string directory_current(string path);
 |戻り値| |
 |---|---|
 |`string`|現在の作業ディレクトリへのパス。これは末尾の区切り文字(`\`または`/`)を含みません。|
+
+???note "対応: AliceScript RC1以降"
+    |対応||
+    |---|---|
+    |AliceScript|RC1、RC2、GM、2.0、2.1、2.2、2.3、3.0|
+    |AliceSister|GM、2.0、2.1、2.2、2.3、3.0|
+    |Losetta|0.8、0.9、0.10|
+
 ### 説明
 アプリケーションが終了すると、作業ディレクトリはプロセス開始時の場所に戻ります。
 

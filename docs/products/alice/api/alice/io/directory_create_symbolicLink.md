@@ -31,7 +31,8 @@ public void directory_create_symbolicLink(string path, string target);
     |Losetta|0.10|
 
     この関数はAliceScript、AliceSisterでは実装されていません。
-    それらの環境では`0x034 NOT_IMPLEMENTED`例外がスローされます。
+
+    実装されていない環境では`0x034 NOT_IMPLEMENTED`例外がスローされます。
 
 ### 説明
 `path`には、相対パスと絶対パスのどちらを指定することもできます。

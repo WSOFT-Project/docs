@@ -5,9 +5,9 @@ date : 2021-07-28
 ---
 
 ### 定義
-名前空間:Alice.IO / アセンブリ : Losetta.Runtime.dll / サポート: AliceScript1
-
-属性: 関数
+名前空間: Alice.IO<br/>
+アセンブリ: Losetta.Runtime.dll<br/>
+実装: [Alice.IO.cs](https://github.com/WSOFT-Project/Losetta/blob/master/Losetta.Runtime/Alice.IO.cs)
 
 #### directory_exists(string)
 
@@ -25,6 +25,13 @@ public void directory_exists(string path);
 |戻り値| |
 |---|---|
 |`string`|指定されたパスにディレクトリが存在し、かつ有効なアクセス権限がある場合は`true`、それ以外の場合は`false`。|
+
+???note "対応: AliceScript RC1以降"
+    |対応||
+    |---|---|
+    |AliceScript|RC1、RC2、GM、2.0、2.1、2.2、2.3、3.0|
+    |AliceSister|GM、2.0、2.1、2.2、2.3、3.0|
+    |Losetta|0.8、0.9、0.10|
 
 ### 説明
 `path`には、相対パスと絶対パスのどちらを指定することもできます。

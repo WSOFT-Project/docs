@@ -3,10 +3,11 @@ title: file_read_decrypt
 summary: 指定した暗号化されたファイルを読み取り、ファイルの内容を返します。
 date : 2023-12-16
 ---
-### 定義
-名前空間:Alice.IO / アセンブリ : Losetta.Runtime.dll / サポート: Alice3.0
 
-属性: 関数
+### 定義
+名前空間: Alice.IO<br/>
+アセンブリ: Losetta.Runtime.dll<br/>
+実装: [Alice.IO.cs](https://github.com/WSOFT-Project/Losetta/blob/master/Losetta.Runtime/Alice.IO.cs)
 
 #### file_read_decrypt(string,bool,string,number,number,bool)
 
@@ -25,6 +26,13 @@ public void file_read_decrypt(string path, bool fromPackage, string password, nu
 |`keySize`|復号に使用する鍵長。この値は`128`、`192`、`256`のいずれかである必要があります。規定値は`128`です。|
 |`iterations`|ハッシュ値の計算のストレッチ回数。この値が大きいほど安全性が向上し、パフォーマンスが低下します。規定値は`1024`です。|
 |`useSHA512`|ハッシュ値の計算に`SHA512`方式を使用する場合は`true`、`SHA256`方式を使用する場合は`false`。規定値は`false`です。|
+
+???note "対応: Alice3.0以降"
+    |対応||
+    |---|---|
+    |AliceScript|3.0|
+    |AliceSister|3.0|
+    |Losetta|0.10|
 
 !!!note "実装に関する注意"
     この関数はAliceSisterでは仕様が異なります。

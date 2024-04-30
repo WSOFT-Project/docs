@@ -3,10 +3,11 @@ title: file_read_data
 summary: 指定したファイルを読み取り、ファイルの内容を返します。
 date : 2021-07-28
 ---
-### 定義
-名前空間:Alice.IO / アセンブリ : Losetta.Runtime.dll / サポート: AliceScript1
 
-属性: 関数
+### 定義
+名前空間: Alice.IO<br/>
+アセンブリ: Losetta.Runtime.dll<br/>
+実装: [Alice.IO.cs](https://github.com/WSOFT-Project/Losetta/blob/master/Losetta.Runtime/Alice.IO.cs)
 
 #### file_read_data(string)
 
@@ -25,9 +26,14 @@ public bytes file_read_data(string path);
 |-|-|
 |`bytes`|ファイルの内容を格納するバイト配列|
 
-#### file_read_data(string,bool)
+???note "対応: AliceScript RC1以降"
+    |対応||
+    |---|---|
+    |AliceScript|RC1、RC2、GM、2.0、2.1、2.2、2.3、3.0|
+    |AliceSister|GM、2.0、2.1、2.2、2.3、3.0|
+    |Losetta|0.8、0.9、0.10|
 
-サポート : Alice2.0
+#### file_read_data(string,bool)
 
 指定したファイルをファイルシステムまたは現在のパッケージから読み取り、ファイルの内容を返します。
 
@@ -44,6 +50,13 @@ public bytes file_read_data(string path,bool fromPackage);
 |戻り値| |
 |-|-|
 |`bytes`|ファイルの内容を格納するバイト配列|
+
+???note "対応: Alice2.0以降"
+    |対応||
+    |---|---|
+    |AliceScript|2.0、2.1、2.2、2.3、3.0|
+    |AliceSister|2.0、2.1、2.2、2.3、3.0|
+    |Losetta|0.9、0.10|
 
 ### 説明
 

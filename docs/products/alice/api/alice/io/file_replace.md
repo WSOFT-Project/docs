@@ -3,10 +3,11 @@ title: file_replace
 summary: 指定したファイルを別のファイルの内容で置き換えます
 date : 2023-12-10
 ---
-### 定義
-名前空間:Alice.IO / アセンブリ : Losetta.Runtime.dll / サポート: Alice3.0
 
-属性: 関数
+### 定義
+名前空間: Alice.IO<br/>
+アセンブリ: Losetta.Runtime.dll<br/>
+実装: [Alice.IO.cs](https://github.com/WSOFT-Project/Losetta/blob/master/Losetta.Runtime/Alice.IO.cs)
 
 #### file_replace(string,string,string)
 
@@ -38,6 +39,13 @@ public void file_replace(string source,string destination,string backup,bool ign
 |`destination`|置き換えられるファイルへのパス|
 |`backup`|バックアップファイルへのパス|
 |`ignoreMetadataErrors`|置き換え元のファイルから置き換え先ファイルへのマージエラーを無視する場合は`true`、それ以外の場合は`false`。|
+
+???note "対応: Alice3.0以降"
+    |対応||
+    |---|---|
+    |AliceScript|3.0|
+    |AliceSister|3.0|
+    |Losetta|0.10|
 
 ### 説明
 ファイルの置換とは、コンピューター上でファイルを別のファイルの内容で置き換える操作のことです。たとえば、`master.txt`と`edit.txt`があったとき、`edit.txt`の内容を`master.txt`で置き換えるということです。`backup`を指定すると、置換前の`master.txt`の内容を別のファイルにバックアップできます。つまりこの関数は、`master.txt`をバックアップファイルに移動してから、`edit.txt`を`master.txt`に移動するのとほぼ同じ動作をします。
