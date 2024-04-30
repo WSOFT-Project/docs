@@ -7,7 +7,7 @@ date : 2022-01-16
 ### 定義
 名前空間: Alice.Interpreter<br/>
 アセンブリ: Losetta.dll<br/>
-実装: [Alice.Interpreter.cs](https://github.com/WSOFT-Project/Losetta/blob/master/Losetta/NameSpaces/Alice.Interpreter.cs)
+ソースコード: [Alice.Interpreter.cs](https://github.com/WSOFT-Project/Losetta/blob/master/Losetta/NameSpaces/Alice.Interpreter.cs)
 
 #### interpreter_append_data(variable,bool)
 

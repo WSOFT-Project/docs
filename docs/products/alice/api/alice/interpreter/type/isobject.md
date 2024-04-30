@@ -7,7 +7,7 @@ summary: 現在の型がオブジェクトであるかどうかを表す値を�
 ### 定義
 名前空間: Alice.Interpreter<br/>
 アセンブリ: Losetta.dll<br/>
-実装: [TypeObject.cs](https://github.com/WSOFT-Project/Losetta/blob/master/Losetta/Objects/TypeObject.cs)
+ソースコード: [TypeObject.cs](https://github.com/WSOFT-Project/Losetta/blob/master/Losetta/Objects/TypeObject.cs)
 
 
 現在の型がオブジェクトであるかどうかを表す値を取得します

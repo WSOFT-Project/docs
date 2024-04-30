@@ -7,7 +7,7 @@ date : 2021-07-28
 ### 定義
 名前空間: Alice.IO<br/>
 アセンブリ: Losetta.Runtime.dll<br/>
-実装: [Alice.IO.cs](https://github.com/WSOFT-Project/Losetta/blob/master/Losetta.Runtime/Alice.IO.cs)
+ソースコード: [Alice.IO.cs](https://github.com/WSOFT-Project/Losetta/blob/master/Losetta.Runtime/Alice.IO.cs)
 
 !!!danger "注意事項"
     この関数は、時代遅れで安全ではないアルゴリズムを使用しています。

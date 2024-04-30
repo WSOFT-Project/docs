@@ -7,7 +7,7 @@ date : 2021-07-28
 ### 定義
 名前空間: Alice.IO<br/>
 アセンブリ: Losetta.Runtime.dll<br/>
-実装: [Alice.IO.cs](https://github.com/WSOFT-Project/Losetta/blob/master/Losetta.Runtime/Alice.IO.cs)
+ソースコード: [Alice.IO.cs](https://github.com/WSOFT-Project/Losetta/blob/master/Losetta.Runtime/Alice.IO.cs)
 
 #### file_move(string,string)
 
@@ -47,9 +47,16 @@ public void file_move(string source, string destination, bool overwrite);
 |`destination`|移動先のファイルへのパス|
 |`overwrite`|移動先にファイルが存在する場合に置き換える場合は`true`、それ以外の場合は`false`|
 
-!!!note "実装に関する注意"
-    このオーバーロードはAliceSisterでは実装されていません。
-    それらの環境では`0x034 NOT_IMPLEMENTED`例外がスローされます。
+???note "対応: Alice3.0以降、AliceScriptとLosettaのみ"
+    |対応||
+    |---|---|
+    |AliceScript|3.0|
+    |AliceSister|該当なし|
+    |Losetta|0.10|
+
+    この関数はAliceSisterでは実装されていません。
+
+    実装されていない環境では`0x034 NOT_IMPLEMENTED`例外がスローされます。
 
 ### 説明
 この関数を使用して、ファイルの名前を変更できます。

@@ -7,7 +7,7 @@ date : 2021-11-19
 ### 定義
 名前空間: Alice.Interpreter<br/>
 アセンブリ: Losetta.dll<br/>
-実装: [Alice.Interpreter.cs](https://github.com/WSOFT-Project/Losetta/blob/master/Losetta/NameSpaces/Alice.Interpreter.cs)
+ソースコード: [Alice.Interpreter.cs](https://github.com/WSOFT-Project/Losetta/blob/master/Losetta/NameSpaces/Alice.Interpreter.cs)
 
 !!!warning "警告"
     文字列を実行・評価することは、非常に大きなセキュリティ上の懸念を伴います。`interpreter_process`を使用すると、悪意のある者が任意のコードを実行することがあまりにも簡単になります。下記の、考慮事項を参照してください。

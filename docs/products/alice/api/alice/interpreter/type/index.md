@@ -7,7 +7,7 @@ summary: Typeクラスは、変数の型を表します
 ### 定義
 名前空間: Alice.Interpreter<br/>
 アセンブリ: Losetta.dll<br/>
-実装: [TypeObject.cs](https://github.com/WSOFT-Project/Losetta/blob/master/Losetta/Objects/TypeObject.cs)
+ソースコード: [TypeObject.cs](https://github.com/WSOFT-Project/Losetta/blob/master/Losetta/Objects/TypeObject.cs)
 
 Typeクラスは、変数の型を表します
 

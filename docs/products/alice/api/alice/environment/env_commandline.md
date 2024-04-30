@@ -5,7 +5,7 @@ summary: このプロセス用のコマンド ラインを取得します
 ### 定義
 名前空間: Alice.Environment<br/>
 アセンブリ: Losetta.Runtime.dll<br/>
-実装: [Alice.Environment.cs](https://github.com/WSOFT-Project/Losetta/blob/master/Losetta.Runtime/Alice.Environment.cs)
+ソースコード: [Alice.Environment.cs](https://github.com/WSOFT-Project/Losetta/blob/master/Losetta.Runtime/Alice.Environment.cs)
 
 #### env_commandLine()
 
