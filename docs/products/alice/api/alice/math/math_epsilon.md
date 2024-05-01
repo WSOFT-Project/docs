@@ -4,9 +4,9 @@ summary: 0より大きい最小の値を表します
 ---
 
 ### 定義
-名前空間:Alice.Math / アセンブリ : Losetta.Runtime.dll / サポート: Alice3.0
-
-属性: 定数
+名前空間: Alice.Math<br/>
+アセンブリ: Losetta.Runtime.dll<br/>
+ソースコード: [Alice.Math.cs](https://github.com/WSOFT-Project/Losetta/blob/master/Losetta.Runtime/Alice.Math.cs)
 
 0より大きい最小の値を表します。
 
@@ -14,6 +14,13 @@ summary: 0より大きい最小の値を表します
 namespace Alice.Math;
 public readonly number math_epsilon = 4.94065645841247E-324;
 ```
+
+???note "対応: Alice3.0以降"
+    |対応||
+    |---|---|
+    |AliceScript|3.0|
+    |AliceSister|3.0|
+    |Losetta|0.10|
 
 ### 説明
 この定数の値は、`0`と比較したときに`false`が返る最小の正の値を返します。

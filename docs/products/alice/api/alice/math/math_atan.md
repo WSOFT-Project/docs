@@ -4,9 +4,9 @@ summary: タンジェントが指定した数となる角度を返します。
 ---
 
 ### 定義
-名前空間:Alice.Math / アセンブリ : Losetta.Runtime.dll / サポート: AliceScript1
-
-属性: 関数
+名前空間: Alice.Math<br/>
+アセンブリ: Losetta.Runtime.dll<br/>
+ソースコード: [Alice.Math.cs](https://github.com/WSOFT-Project/Losetta/blob/master/Losetta.Runtime/Alice.Math.cs)
 
 #### math_atan(number)
 
@@ -24,6 +24,13 @@ public number math_atan(number value);
 |戻り値| |
 |-|-|
 |`number`|弧度法で$-\pi/2\leq\theta\leq\pi/2$の範囲の角度$\theta$。ただし、`value`が[NaN](./math_isnan.md)の場合は`NaN`、また`value`が`NegativeInfinity`の場合は$-\frac{\pi}{2}$、`PositiveInfinity`の場合は$\frac{\pi}{2}$。|
+
+???note "対応: AliceScript RC1以降"
+    |対応||
+    |---|---|
+    |AliceScript|RC1、RC2、GM、2.0、2.1、2.2、2.3、3.0|
+    |AliceSister|GM、2.0、2.1、2.2、2.3、3.0|
+    |Losetta|0.8、0.9、0.10|
 
 ### 説明
 `math_atanh()`関数は、引数として与えられた数値の逆正接（アークタンジェント）をラジアン単位で返します。
