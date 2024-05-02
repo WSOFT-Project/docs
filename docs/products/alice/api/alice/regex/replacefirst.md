@@ -5,9 +5,11 @@ summary: 指定した文字列内でパターンに一致する文字列の初�
 ---
 
 ### 定義
-名前空間:Alice.Regex / アセンブリ : Losetta.Runtime.dll / サポート: AliceScript3.0
+名前空間: Alice.Regex<br/>
+アセンブリ: Losetta.Runtime.dll<br/>
+ソースコード: [Alice.Regex.cs](https://github.com/WSOFT-Project/Losetta/blob/master/Losetta.Runtime/Alice.Regex.cs)
 
-属性: 関数
+#### ReplaceFirst(this string,string,string)
 
 指定した文字列内でパターンに一致する文字列の初めに見つかった部分を、指定した文字列で置き換えます。
 
@@ -25,6 +27,13 @@ public string ReplaceFirst(this string input, string pattern, string replacement
 |戻り値| |
 |-|-|
 |`string`|入力文字列の該当部分を置換文字列で置き換えた新しい文字列。ただし置換すべき部分が見つからなかった場合は入力文字列となります。|
+
+???note "対応: Alice3.0以降"
+    |対応||
+    |---|---|
+    |AliceScript|3.0|
+    |AliceSister|3.0|
+    |Losetta|0.10|
 
 ### 説明
 このメソッドは、指定した文字列内でパターンに一致する文字列の初めに見つかった部分を、指定した文字列で置き換えます。

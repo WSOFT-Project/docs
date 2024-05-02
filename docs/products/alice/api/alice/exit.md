@@ -2,8 +2,11 @@
 title: exit
 summary: 現在のプロセスを終了します
 ---
+
 ### 定義
-名前空間:Alice / アセンブリ : Losetta.Runtime.dll / サポート: AliceScript1
+名前空間: Alice<br/>
+アセンブリ: Losetta.Runtime.dll<br/>
+ソースコード: [Alice.Core.Utils.cs](https://github.com/WSOFT-Project/Losetta/blob/master/Losetta.Runtime/Core/Alice.Core.Utils.cs)
 
 #### exit()
 
@@ -26,6 +29,13 @@ public void exit(number exitCode);
 |引数| |
 |-|-|
 |`exitCode`|OSに通知する終了コード|
+
+???note "対応: AliceScript RC1以降"
+    |対応||
+    |---|---|
+    |AliceScript|RC1、RC2、GM、2.0、2.1、2.2、2.3、3.0|
+    |AliceSister|GM、2.0、2.1、2.2、2.3、3.0|
+    |Losetta|0.8、0.9、0.10|
 
 ### 説明
 処理が正常に完了したことを示すには、`exitCode`を0に指定します。

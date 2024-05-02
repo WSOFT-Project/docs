@@ -4,10 +4,11 @@ long_title : if 文
 summary: 指定された条件式が真と評価されたときに本文を実行します。
 date : 2023-08-07
 ---
-### 定義
-名前空間:Alice / アセンブリ : Losetta.Runtime.dll / サポート: AliceScript1
 
-属性: 言語構造
+### 定義
+名前空間: Alice<br/>
+アセンブリ: Losetta.Runtime.dll<br/>
+ソースコード: [Alice.Core.Flow.cs](https://github.com/WSOFT-Project/Losetta/blob/master/Losetta.Runtime/Core/Alice.Core.Flow.cs)
 
 指定された条件式が真と評価されたときに本文を実行します。
 
@@ -26,6 +27,13 @@ else
 |引数| |
 |-|-|
 |`condition`|本文を実行するかどうかを表す条件。|
+
+???note "対応: AliceScript RC1以降"
+    |対応||
+    |---|---|
+    |AliceScript|RC1、RC2、GM、2.0、2.1、2.2、2.3、3.0|
+    |AliceSister|GM、2.0、2.1、2.2、2.3、3.0|
+    |Losetta|0.8、0.9、0.10|
 
 ### 基本
 `if`文は、指定された条件式が`true`と評価されたときのみに本文を実行します。

@@ -3,8 +3,11 @@ title: delay
 summary: 指定した時間の間プログラムを中断します
 date : 2024-01-08
 ---
+
 ### 定義
-名前空間:Alice / アセンブリ : Losetta.Runtime.dll / サポート: AliceScript1
+名前空間: Alice<br/>
+アセンブリ: Losetta.Runtime.dll<br/>
+ソースコード: [Alice.Core.Utils.cs](https://github.com/WSOFT-Project/Losetta/blob/master/Losetta.Runtime/Core/Alice.Core.Utils.cs)
 
 #### delay()
 
@@ -14,6 +17,13 @@ date : 2024-01-08
 namespace Alice;
 public void delay();
 ```
+
+???note "対応: AliceScript RC1以降"
+    |対応||
+    |---|---|
+    |AliceScript|RC1、RC2、GM、2.0、2.1、2.2、2.3、3.0|
+    |AliceSister|GM、2.0、2.1、2.2、2.3、3.0|
+    |Losetta|0.8、0.9、0.10|
 
 #### delay(number)
 
@@ -27,6 +37,13 @@ public void delay(number timeout);
 |引数| |
 |-|-|
 |`timeout`|プログラムが中断される時間(ミリ秒単位)。この値を`-1`にしたとき、スレッドは無期限に中断します。また、この値を`0`にしたとき、スレッドは自らに割り当てられた時間を放棄し、実行する準備ができている同じ優先順位の他のスレッドに渡します。優先順位が同じで他に実行する準備ができているスレッドが存在しない場合は、プログラムは終了されません。|
+
+???note "対応: AliceScript RC2以降"
+    |対応||
+    |---|---|
+    |AliceScript|RC2、GM、2.0、2.1、2.2、2.3、3.0|
+    |AliceSister|GM、2.0、2.1、2.2、2.3、3.0|
+    |Losetta|0.8、0.9、0.10|
 
 ### 説明
 この関数はプログラム全体を一時的に中断するのではなく、現在のスレッドを中断します。

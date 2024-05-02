@@ -4,9 +4,9 @@ summary: 文字列内の正規表現内で意味を持つ文字をエスケー�
 ---
 
 ### 定義
-名前空間:Alice.Regex / アセンブリ : Losetta.Runtime.dll / サポート: AliceScript3.0
-
-属性: 関数
+名前空間: Alice.Regex<br/>
+アセンブリ: Losetta.Runtime.dll<br/>
+ソースコード: [Alice.Regex.cs](https://github.com/WSOFT-Project/Losetta/blob/master/Losetta.Runtime/Alice.Regex.cs)
 
 #### regex_Escape(string)
 
@@ -24,6 +24,13 @@ public string regex_Escape(string str);
 |戻り値| |
 |-|-|
 |`string`|`str`をエスケープした文字列|
+
+???note "対応: AliceScript RC1以降"
+    |対応||
+    |---|---|
+    |AliceScript|RC1、RC2、GM、2.0、2.1、2.2、2.3、3.0|
+    |AliceSister|GM、2.0、2.1、2.2、2.3、3.0|
+    |Losetta|0.8、0.9、0.10|
 
 ### 説明
 この関数は文字列を変換して、正規表現内のメタ文字を文字リテラルとして使用できるようにエスケープします。

@@ -4,9 +4,9 @@ summary: 指定された正規表現に最初に一致する箇所を取得し�
 ---
 
 ### 定義
-名前空間:Alice.Regex / アセンブリ : Losetta.Runtime.dll / サポート: AliceScript3.0
-
-属性: 関数
+名前空間: Alice.Regex<br/>
+アセンブリ: Losetta.Runtime.dll<br/>
+ソースコード: [Alice.Regex.cs](https://github.com/WSOFT-Project/Losetta/blob/master/Losetta.Runtime/Alice.Regex.cs)
 
 #### regex_Match(string,string)
 
@@ -25,6 +25,13 @@ public string regex_Match(string input, string pattern);
 |戻り値| |
 |-|-|
 |`string`|正規表現と一致する箇所が見つかった場合は一致する場所の文字列、それ以外の場合は空文字列|
+
+???note "対応: AliceScript RC1以降"
+    |対応||
+    |---|---|
+    |AliceScript|RC1、RC2、GM、2.0、2.1、2.2、2.3、3.0|
+    |AliceSister|GM、2.0、2.1、2.2、2.3、3.0|
+    |Losetta|0.8、0.9、0.10|
 
 ### 説明
 この関数は、指定された正規表現に最初に一致する箇所を取得します。

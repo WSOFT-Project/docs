@@ -3,10 +3,11 @@ title: include
 summary: スクリプトファイルを読み込み、実行します。
 date : 2021-11-09
 ---
-### 定義
-名前空間:Alice / アセンブリ : Losetta.Runtime.dll / サポート: AliceScript1
 
-属性: 関数の区切りの空白をサポート
+### 定義
+名前空間: Alice<br/>
+アセンブリ: Losetta.Runtime.dll<br/>
+ソースコード: [Alice.Core.Utils.cs](https://github.com/WSOFT-Project/Losetta/blob/master/Losetta.Runtime/Core/Alice.Core.Utils.cs)
 
 #### include(string)
 
@@ -24,6 +25,13 @@ public variable include(string filename);
 |戻り値| |
 |-|-|
 |`variable`| スクリプトを実行した結果|
+
+???note "対応: AliceScript RC1以降"
+    |対応||
+    |---|---|
+    |AliceScript|RC1、RC2、GM、2.0、2.1、2.2、2.3、3.0|
+    |AliceSister|GM、2.0、2.1、2.2、2.3、3.0|
+    |Losetta|0.8、0.9、0.10|
 
 ### 例
 以下は、main.txtからinclude関数を使用してスクリプトファイルであるscript.txtを読み込む例です。
