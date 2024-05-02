@@ -36,8 +36,6 @@ public bool Contains(string item);
 #### Contains(string,bool)
 大文字小文字を区別するかを指定して、現在の文字列内に指定された文字列が存在するかを示す値を取得します
 
-<span class="badge bg-success">対応バージョン>=Alice3.0</span>
-
 ```cs title="AliceScript"
 namespace Alice;
 public bool Contains(string item, bool ignoreCase);
@@ -52,11 +50,16 @@ public bool Contains(string item, bool ignoreCase);
 |-|-|
 |`bool`| 現在の文字列内に要素が存在すれば`true`、それ以外の場合は`false`|
 
+???note "対応: Alice3.0以降"
+    |対応||
+    |---|---|
+    |AliceScript|3.0|
+    |AliceSister|3.0|
+    |Losetta|0.10|
+
 #### Contains(string,bool,bool)
 
 大文字小文字の区別と、現在のカルチャを考慮するかを指定して、現在の文字列内に指定された文字列が存在するかを示す値を取得します
-
-<span class="badge bg-success">対応バージョン>=Alice3.0</span>
 
 ```cs title="AliceScript"
 namespace Alice;
@@ -73,9 +76,16 @@ public bool Contains(string item, bool ignoreCase, bool considerCulture);
 |-|-|
 |`bool`| 現在の文字列内に要素が存在すれば`true`、それ以外の場合は`false`|
 
-!!!note "実装に関する注意"
-    このオーバーロードはAliceSisterでは実装されていません。
-    それらの環境では`0x034 NOT_IMPLEMENTED`例外がスローされます。
+???note "対応: Alice3.0以降、AliceScriptとLosettaのみ"
+    |対応||
+    |---|---|
+    |AliceScript|3.0|
+    |AliceSister|該当なし|
+    |Losetta|0.10|
+
+    この関数はAliceSisterでは実装されていません。
+
+    実装されていない環境では`0x034 NOT_IMPLEMENTED`例外がスローされます。
 
 ### 例
 以下は、Hello,Worldという文字列に`,`が存在するかを検証します
