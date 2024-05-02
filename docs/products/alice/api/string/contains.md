@@ -4,14 +4,18 @@ long_title : string.Contains
 summary: 現在の文字列内に指定された文字列が存在するかを示す値を取得します
 date : 2021-12-09
 ---
-### 定義
-名前空間:Alice / アセンブリ : Losetta.dll / サポート: AliceScript1
 
+### 定義
+名前空間: Alice<br/>
+アセンブリ: Losetta.Runtime.dll<br/>
+ソースコード: [Alice.Core.String.cs](https://github.com/WSOFT-Project/Losetta/blob/master/Losetta.Runtime/Core/Extension/Alice.Core.String.cs)
+
+#### Contains(string)
 現在の文字列内に指定された文字列が存在するかを示す値を取得します
 
 ```cs title="AliceScript"
 namespace Alice;
-bool Contains(string item);
+public bool Contains(string item);
 ```
 
 |引数| |
@@ -22,13 +26,21 @@ bool Contains(string item);
 |-|-|
 |`bool`| 現在の文字列内に要素が存在すれば`true`、それ以外の場合は`false`|
 
+???note "対応: AliceScript RC1以降"
+    |対応||
+    |---|---|
+    |AliceScript|RC1、RC2、GM、2.0、2.1、2.2、2.3、3.0|
+    |AliceSister|GM、2.0、2.1、2.2、2.3、3.0|
+    |Losetta|0.8、0.9、0.10|
+
+#### Contains(string,bool)
 大文字小文字を区別するかを指定して、現在の文字列内に指定された文字列が存在するかを示す値を取得します
 
 <span class="badge bg-success">対応バージョン>=Alice3.0</span>
 
 ```cs title="AliceScript"
 namespace Alice;
-bool Contains(string item, bool ignoreCase);
+public bool Contains(string item, bool ignoreCase);
 ```
 
 |引数| |
@@ -40,13 +52,15 @@ bool Contains(string item, bool ignoreCase);
 |-|-|
 |`bool`| 現在の文字列内に要素が存在すれば`true`、それ以外の場合は`false`|
 
+#### Contains(string,bool,bool)
+
 大文字小文字の区別と、現在のカルチャを考慮するかを指定して、現在の文字列内に指定された文字列が存在するかを示す値を取得します
 
 <span class="badge bg-success">対応バージョン>=Alice3.0</span>
 
 ```cs title="AliceScript"
 namespace Alice;
-bool Contains(string item, bool ignoreCase, bool considerCulture);
+public bool Contains(string item, bool ignoreCase, bool considerCulture);
 ```
 
 |引数| |

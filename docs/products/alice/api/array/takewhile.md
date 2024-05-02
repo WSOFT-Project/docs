@@ -3,14 +3,19 @@ title: TakeWhile
 long_title : array.TakeWhile
 summary: 現在の配列内の先頭から指定された条件を満たす間の要素を取得します
 ---
+
 ### 定義
-名前空間:Alice / アセンブリ : Losetta.Runtime.dll / サポート: AliceScript2.2
+名前空間: Alice<br/>
+アセンブリ: Losetta.Runtime.dll<br/>
+ソースコード: [Alice.Core.Array.cs](https://github.com/WSOFT-Project/Losetta/blob/master/Losetta.Runtime/Core/Extension/Alice.Core.Array.cs)
+
+#### TakeWhile(delegate)
 
 現在の配列内の先頭から指定された条件を満たす間の要素を取得します
 
 ```cs title="AliceScript"
 class Alice.Array;
-array TakeWhile(delegate condition);
+public array TakeWhile(delegate condition);
 ```
 
 |引数| |
@@ -20,6 +25,13 @@ array TakeWhile(delegate condition);
 |戻り値| |
 |-|-|
 |`array`|先頭から`condition`を満たす間の要素を含む配列|
+
+???note "対応: Alice2.2以降"
+    |対応||
+    |---|---|
+    |AliceScript|2.2、2.3、3.0|
+    |AliceSister|2.2、2.3、3.0|
+    |Losetta|0.9、0.10|
 
 ### 例
 以下は、`1`、`2`、`3`,`4`,`0`の先頭から`4`未満の要素を取得します。

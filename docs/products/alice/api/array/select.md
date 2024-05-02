@@ -3,14 +3,19 @@ title: Select
 long_title : array.Select
 summary: 現在の配列の各要素を新しい配列に射影します
 ---
+
 ### 定義
-名前空間:Alice / アセンブリ : Losetta.Runtime.dll / サポート: AliceScript2.2
+名前空間: Alice<br/>
+アセンブリ: Losetta.Runtime.dll<br/>
+ソースコード: [Alice.Core.Array.cs](https://github.com/WSOFT-Project/Losetta/blob/master/Losetta.Runtime/Core/Extension/Alice.Core.Array.cs)
+
+#### Select(delegate)
 
 現在の配列の各要素を新しい配列に射影します
 
 ```cs title="AliceScript"
 class Alice.Array;
-array Select(delegate selector);
+public array Select(delegate selector);
 ```
 
 |引数| |
@@ -20,6 +25,13 @@ array Select(delegate selector);
 |戻り値| |
 |-|-|
 |`array`|`selector`で実行された現在の配列の射影を格納する新しい配列|
+
+???note "対応: Alice2.2以降"
+    |対応||
+    |---|---|
+    |AliceScript|2.2、2.3、3.0|
+    |AliceSister|2.2、2.3、3.0|
+    |Losetta|0.9、0.10|
 
 ### 説明
 射影とは、配列の各要素に関数を通し得た値を用いて配列を作成することです。

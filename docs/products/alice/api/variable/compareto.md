@@ -3,8 +3,11 @@ title: CompareTo
 long_title: variable.CompareTo
 summary: 変数ともう一方の値を比較し、並べ替えたとき変数が前か、後か、または同じかを判断します。
 ---
+
 ### 定義
-名前空間:Alice / アセンブリ : Losetta.Runtime.dll / サポート: Alice3.0
+名前空間: Alice<br/>
+アセンブリ: Losetta.Runtime.dll<br/>
+ソースコード: [Alice.Core.General.cs](https://github.com/WSOFT-Project/Losetta/blob/master/Losetta.Runtime/Core/Extension/Alice.Core.General.cs)
 
 #### CompareTo(variable)
 
@@ -12,7 +15,7 @@ summary: 変数ともう一方の値を比較し、並べ替えたとき変数�
 
 ```cs title="AliceScript"
 namespace Alice;
-number CompareTo(variable other);
+public number CompareTo(variable other);
 ```
 
 |引数| |
@@ -22,6 +25,13 @@ number CompareTo(variable other);
 |戻り値| |
 |---|---|
 |`number`|この変数がもう一方の値と比べてどの位置にあるかを表す値。|
+
+???note "対応: Alice3.0以降"
+    |対応||
+    |---|---|
+    |AliceScript|3.0|
+    |AliceSister|3.0|
+    |Losetta|0.10|
 
 ### 説明
 このメソッドは、変数の型ともう一方の型が同一で、かつ比較可能な場合に比較を実行します。

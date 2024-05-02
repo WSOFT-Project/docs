@@ -3,14 +3,19 @@ title: Contains
 long_title : array.Contains
 summary: 現在の配列内に指定された値が存在するかを示す値を取得します
 ---
+
 ### 定義
-名前空間:Alice / アセンブリ : Losetta.dll / サポート: AliceScript1
+名前空間: Alice<br/>
+アセンブリ: Losetta.Runtime.dll<br/>
+ソースコード: [Alice.Core.Array.cs](https://github.com/WSOFT-Project/Losetta/blob/master/Losetta.Runtime/Core/Extension/Alice.Core.Array.cs)
+
+#### Contains(variable)
 
 現在の配列内に指定された値が存在するかを示す値を取得します
 
 ```cs title="AliceScript"
 class Alice.Array;
-bool Contains(variable item);
+public bool Contains(variable item);
 ```
 
 |引数| |
@@ -20,6 +25,13 @@ bool Contains(variable item);
 |戻り値| |
 |-|-|
 |`bool`| 現在の配列内に要素が存在すれば`true`、それ以外の場合は`false`|
+
+???note "対応: AliceScript RC2以降"
+    |対応||
+    |---|---|
+    |AliceScript|RC2、GM、2.0、2.1、2.2、2.3、3.0|
+    |AliceSister|GM、2.0、2.1、2.2、2.3、3.0|
+    |Losetta|0.8、0.9、0.10|
 
 ### 例
 以下は、`1`、`2`、`3`がある配列に`3`があるかを示す値を取得します。

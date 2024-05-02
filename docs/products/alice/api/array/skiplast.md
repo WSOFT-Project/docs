@@ -3,14 +3,19 @@ title: SkipLast
 long_title : array.SkipLast
 summary: 現在の配列内の末尾から指定された数の要素を取り除いた配列を取得します
 ---
+
 ### 定義
-名前空間:Alice / アセンブリ : Losetta.Runtime.dll / サポート: AliceScript2.2
+名前空間: Alice<br/>
+アセンブリ: Losetta.Runtime.dll<br/>
+ソースコード: [Alice.Core.Array.cs](https://github.com/WSOFT-Project/Losetta/blob/master/Losetta.Runtime/Core/Extension/Alice.Core.Array.cs)
+
+#### SkipLast(number)
 
 現在の配列内の末尾から指定された数の要素を取り除いた配列を取得します
 
 ```cs title="AliceScript"
 class Alice.Array;
-array SkipLast(number count);
+public array SkipLast(number count);
 ```
 |引数| |
 |-|-|
@@ -19,6 +24,13 @@ array SkipLast(number count);
 |戻り値| |
 |-|-|
 |`array`|末尾から`count`個の要素を除いた配列|
+
+???note "対応: Alice3.0以降"
+    |対応||
+    |---|---|
+    |AliceScript|3.0|
+    |AliceSister|3.0|
+    |Losetta|0.10|
 
 ### 説明
 この関数は現在の配列の末尾から指定個数だけ取り除いた新しい配列を作成します。

@@ -4,25 +4,39 @@ long_title : string.GetBytes
 summary: 現在の文字列に含まれるすべての文字を指定された文字コードのデータにエンコードします
 date : 2023-10-22
 ---
+
 ### 定義
-名前空間:Alice / アセンブリ : Losetta.dll / サポート: AliceScript3.0
+名前空間: Alice<br/>
+アセンブリ: Losetta.Runtime.dll<br/>
+ソースコード: [Alice.Core.String.cs](https://github.com/WSOFT-Project/Losetta/blob/master/Losetta.Runtime/Core/Extension/Alice.Core.String.cs)
+
+#### GetBytes()
 
 現在の文字列に含まれるすべての文字をUTF-8文字コードのデータにエンコードします
 
 ```cs title="AliceScript"
 namespace Alice;
-bytes GetBytes();
+public bytes GetBytes();
 ```
 
 |戻り値| |
 |-|-|
 |`bytes`|文字列をUTF-8でエンコードした結果を格納するバイト配列|
 
+???note "対応: Alice3.0以降"
+    |対応||
+    |---|---|
+    |AliceScript|3.0|
+    |AliceSister|3.0|
+    |Losetta|0.10|
+
+#### GetBytes(string)
+
 現在の文字列に含まれるすべての文字を指定された名前に対応する文字コードのデータにエンコードします
 
 ```cs title="AliceScript"
 namespace Alice;
-bytes GetBytes(string charCode);
+public bytes GetBytes(string charCode);
 ```
 
 |引数| |
@@ -33,11 +47,21 @@ bytes GetBytes(string charCode);
 |-|-|
 |`bytes`|文字列を`charCode`に対応する文字コードでエンコードした結果を格納するバイト配列|
 
+???note "対応: Alice3.0以降"
+    |対応||
+    |---|---|
+    |AliceScript|3.0|
+    |AliceSister|3.0|
+    |Losetta|0.10|
+
+
+#### GetBytes(number)
+
 現在の文字列に含まれるすべての文字を指定されたコードページに対応する文字コードのデータにエンコードします
 
 ```cs title="AliceScript"
 namespace Alice;
-bytes GetBytes(number codePage);
+public bytes GetBytes(number codePage);
 ```
 
 |引数| |
@@ -47,6 +71,13 @@ bytes GetBytes(number codePage);
 |戻り値| |
 |-|-|
 |`bytes`|文字列を`codePage`に対応する文字コードでエンコードした結果を格納するバイト配列|
+
+???note "対応: Alice3.0以降"
+    |対応||
+    |---|---|
+    |AliceScript|3.0|
+    |AliceSister|3.0|
+    |Losetta|0.10|
 
 ### 例
 以下は、`Hello,World`をUTF-8形式でエンコードしたデータを取得します

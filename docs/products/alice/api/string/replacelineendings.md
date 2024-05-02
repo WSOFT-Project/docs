@@ -4,25 +4,39 @@ long_title: string.ReplaceLineEndings
 summary: 現在の文字列中のすべての改行文字を一意な形式に正規化します。
 date : 2023-10-22
 ---
+
 ### 定義
-名前空間:Alice / アセンブリ : Losetta.dll / サポート: AliceScript3.0
+名前空間: Alice<br/>
+アセンブリ: Losetta.Runtime.dll<br/>
+ソースコード: [Alice.Core.String.cs](https://github.com/WSOFT-Project/Losetta/blob/master/Losetta.Runtime/Core/Extension/Alice.Core.String.cs)
+
+#### ReplaceLineEndings()
 
 現在の文字列中のすべての改行文字を[env_newline](../alice/environment/env_newline.md)の値に置換します
 
 ```cs title="AliceScript"
 namespace Alice;
-string ReplaceLineEndings();
+public string ReplaceLineEndings();
 ```
 
 |戻り値| |
 |-|-|
 |`string`|実行した結果の文字列|
 
+???note "対応: Alice3.0以降"
+    |対応||
+    |---|---|
+    |AliceScript|3.0|
+    |AliceSister|3.0|
+    |Losetta|0.10|
+
+#### ReplaceLineEndings(string)
+
 現在の文字列中のすべての改行文字を指定した文字列に置換します
 
 ```cs title="AliceScript"
 namespace Alice;
-string ReplaceLineEndings(string replacementText);
+public string ReplaceLineEndings(string replacementText);
 ```
 
 |引数| |
@@ -32,6 +46,13 @@ string ReplaceLineEndings(string replacementText);
 |戻り値| |
 |-|-|
 |`string`|実行した結果の文字列|
+
+???note "対応: Alice3.0以降"
+    |対応||
+    |---|---|
+    |AliceScript|3.0|
+    |AliceSister|3.0|
+    |Losetta|0.10|
 
 ### 説明
 このメソッドは、文字列内のすべての改行文字列を検索し、`replacementText`または[env_newline](../alice/environment/env_newline.md)の値に置換することで、文字列内の改行文字を正規化します。また、`replacementText`に空の文字列が指定された場合、文字列内のすべての改行文字が削除されます。

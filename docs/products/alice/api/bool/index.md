@@ -3,7 +3,8 @@ title: bool
 summary: bool型は、ブール値の論理数を表します
 ---
 ### 定義
-名前空間:Alice / アセンブリ : Losetta.dll / サポート: AliceScript1
+名前空間: Alice<br/>
+アセンブリ: Losetta.dll
 
 bool型は、ブール値の論理数を表します。bool型は論理、比較、等値演算子をサポートしています。
 
@@ -14,6 +15,13 @@ bool型の有効な値はtrueかfalseのいずれかです。 それぞれの値
 namespace Alice;
 public class bool;
 ```
+
+???note "対応: AliceScript RC1以降"
+    |対応||
+    |---|---|
+    |AliceScript|RC1、RC2、GM、2.0、2.1、2.2、2.3、3.0|
+    |AliceSister|GM、2.0、2.1、2.2、2.3、3.0|
+    |Losetta|0.8、0.9、0.10|
 
 ### 説明
 bool型は、真偽値（trueまたはfalseのいずれか)を表します。bool型は、比較演算子と等値演算子の結果の型です。bool型をとるステートメント(ifやwhileなど)と三項条件演算子で条件を表す値として使用できます。

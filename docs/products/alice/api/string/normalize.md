@@ -4,19 +4,31 @@ long_title : string.Normalize
 summary: 同じ文字を表すコードポイントのすべての並びを共通の正規化された形式に文字列を変換した新しい文字列を取得します
 date : 2024-04-29
 ---
+
 ### 定義
-名前空間:Alice / アセンブリ : Losetta.dll / サポート: AliceScript1
+名前空間: Alice<br/>
+アセンブリ: Losetta.Runtime.dll<br/>
+ソースコード: [Alice.Core.String.cs](https://github.com/WSOFT-Project/Losetta/blob/master/Losetta.Runtime/Core/Extension/Alice.Core.String.cs)
+
+#### Normalize()
 
 同じ文字を表すコードポイントのすべての並びをUnicode正規形Cに文字列を変換した新しい文字列を取得します
 
 ```cs title="AliceScript"
 namespace Alice;
-string Normalize();
+public string Normalize();
 ```
 
 |戻り値| |
 |-|-|
 |`string`|正規化された文字列|
+
+???note "対応: AliceScript RC1以降"
+    |対応||
+    |---|---|
+    |AliceScript|RC1、RC2、GM、2.0、2.1、2.2、2.3、3.0|
+    |AliceSister|GM、2.0、2.1、2.2、2.3、3.0|
+    |Losetta|0.8、0.9、0.10|
 
 ### 説明
 一部のUnicode符号点は、同じ文字を表しているため、通常同等とみなされます。

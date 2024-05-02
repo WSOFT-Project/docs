@@ -3,7 +3,8 @@ title: variable
 summary: variable型は、すべての変数の値を表します。
 ---
 ### 定義
-名前空間:Alice / アセンブリ : Losetta.dll / サポート: AliceScript1
+名前空間: Alice<br/>
+アセンブリ: Losetta.dll
 
 variable型は、すべての変数の値を表します。variable型は等値演算子をサポートします。この型から文字列型にのみ暗黙的な変換をサポートします。
 
@@ -11,6 +12,13 @@ variable型は、すべての変数の値を表します。variable型は等値�
 namespace Alice;
 public class variable;
 ```
+
+???note "対応: AliceScript RC1以降"
+    |対応||
+    |---|---|
+    |AliceScript|RC1、RC2、GM、2.0、2.1、2.2、2.3、3.0|
+    |AliceSister|GM、2.0、2.1、2.2、2.3、3.0|
+    |Losetta|0.8、0.9、0.10|
 
 ### 説明
 

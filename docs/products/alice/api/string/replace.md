@@ -4,14 +4,19 @@ long_title: string.Replace
 summary: 現在の文字列内に出現する特定の文字列をすべて指定した文字列に置き換えた新しい文字列を取得します。
 date : 2021-12-09
 ---
+
 ### 定義
-名前空間:Alice / アセンブリ : Losetta.dll / サポート: AliceScript1
+名前空間: Alice<br/>
+アセンブリ: Losetta.Runtime.dll<br/>
+ソースコード: [Alice.Core.String.cs](https://github.com/WSOFT-Project/Losetta/blob/master/Losetta.Runtime/Core/Extension/Alice.Core.String.cs)
+
+#### Replace(string,string)
 
 現在の文字列内に出現する特定の文字列をすべて指定した文字列に置き換えた新しい文字列を取得します。
 
 ```cs title="AliceScript"
 class Alice.String;
-string Replace(string oldValue, string newValue);
+public string Replace(string oldValue, string newValue);
 ```
 
 |引数| |
@@ -23,13 +28,20 @@ string Replace(string oldValue, string newValue);
 |-|-|
 |`string`|実行後の文字列|
 
-現在の文字列内の一部に出現する特定の文字列をすべて指定した文字列に置き換えた新しい文字列を取得します。
+???note "対応: AliceScript RC1以降"
+    |対応||
+    |---|---|
+    |AliceScript|RC1、RC2、GM、2.0、2.1、2.2、2.3、3.0|
+    |AliceSister|GM、2.0、2.1、2.2、2.3、3.0|
+    |Losetta|0.8、0.9、0.10|
 
-<span class="badge bg-success">対応バージョン>=Alice2.3</span>
+#### Replace(string,string,number,number)
+
+現在の文字列内の一部に出現する特定の文字列をすべて指定した文字列に置き換えた新しい文字列を取得します。
 
 ```cs title="AliceScript"
 class Alice.String;
-string Replace(string oldValue, string newValue, number startIndex, number length);
+public string Replace(string oldValue, string newValue, number startIndex, number length);
 ```
 
 |引数| |
@@ -43,13 +55,20 @@ string Replace(string oldValue, string newValue, number startIndex, number lengt
 |-|-|
 |`string`|実行後の文字列|
 
-指定した一致ルールを使用して、現在の文字列内の一部に出現する特定の文字列をすべて指定した文字列に置き換えた新しい文字列を取得します。
+???note "対応: Alice2.3以降"
+    |対応||
+    |---|---|
+    |AliceScript|2.3、3.0|
+    |AliceSister|2.3、3.0|
+    |Losetta|0.9、0.10|
 
-<span class="badge bg-success">対応バージョン>=Alice3.0</span>
+#### Replace(string,string,bool)
+
+指定した一致ルールを使用して、現在の文字列内の一部に出現する特定の文字列をすべて指定した文字列に置き換えた新しい文字列を取得します。
 
 ```cs title="AliceScript"
 class Alice.String;
-string Replace(string oldValue, string newValue, bool ignoreCase);
+public string Replace(string oldValue, string newValue, bool ignoreCase);
 ```
 
 |引数| |
@@ -62,15 +81,22 @@ string Replace(string oldValue, string newValue, bool ignoreCase);
 |-|-|
 |`string`|実行後の文字列|
 
-!!!note "実装に関する注意"
-    このオーバーロードはAliceSisterでは実装されていません。
-    それらの環境では`0x034 NOT_IMPLEMENTED`例外がスローされます。
+???note "対応: Alice3.0以降、AliceScriptとLosettaのみ"
+    |対応||
+    |---|---|
+    |AliceScript|3.0|
+    |AliceSister|該当なし|
+    |Losetta|0.10|
 
-<span class="badge bg-success">対応バージョン>=Alice3.0</span>
+    この関数はAliceSisterでは実装されていません。
+
+    実装されていない環境では`0x034 NOT_IMPLEMENTED`例外がスローされます。
+
+#### Replace(string,string,bool,bool)
 
 ```cs title="AliceScript"
 class Alice.String;
-string Replace(string oldValue, string newValue, bool ignoreCase, bool considerCulture);
+public string Replace(string oldValue, string newValue, bool ignoreCase, bool considerCulture);
 ```
 
 |引数| |
@@ -84,9 +110,17 @@ string Replace(string oldValue, string newValue, bool ignoreCase, bool considerC
 |-|-|
 |`string`|実行後の文字列|
 
-!!!note "実装に関する注意"
-    このオーバーロードはAliceSisterでは実装されていません。
-    それらの環境では`0x034 NOT_IMPLEMENTED`例外がスローされます。
+
+???note "対応: Alice3.0以降、AliceScriptとLosettaのみ"
+    |対応||
+    |---|---|
+    |AliceScript|3.0|
+    |AliceSister|該当なし|
+    |Losetta|0.10|
+
+    この関数はAliceSisterでは実装されていません。
+
+    実装されていない環境では`0x034 NOT_IMPLEMENTED`例外がスローされます。
 
 ### 例
 以下は、`にわにはにわにわとりがいる`という文字列を読みやすく置換します。

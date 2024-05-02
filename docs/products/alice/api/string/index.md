@@ -3,7 +3,8 @@ title: string
 summary: 文字列型は、テキストを一連のUTF-16文字のリストとして表現します。
 ---
 ### 定義
-名前空間:Alice / アセンブリ : Losetta.dll / サポート: AliceScript1
+名前空間: Alice<br/>
+アセンブリ: Losetta.dll
 
 文字列型は結合、[関係](../../general/operators/relational-operators.md)演算子と[文字列演算子](../../general/operators/string-operators.md)をサポートしています。 文字列型の規定値は空の文字列`""`です。また、この型の型指定修飾子は`string`です。
 
@@ -13,6 +14,13 @@ summary: 文字列型は、テキストを一連のUTF-16文字のリストと�
 namespace Alice;
 public class string;
 ```
+
+???note "対応: AliceScript RC1以降"
+    |対応||
+    |---|---|
+    |AliceScript|RC1、RC2、GM、2.0、2.1、2.2、2.3、3.0|
+    |AliceSister|GM、2.0、2.1、2.2、2.3、3.0|
+    |Losetta|0.8、0.9、0.10|
 
 ### 説明
 文字列は、テキストを表すために使用される文字の配列とみなすことができます。メモリ内の`string`型の最大サイズは2GB、つまりおよそ10億文字です。

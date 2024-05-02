@@ -4,7 +4,8 @@ summary: デリゲート型は、匿名関数のように一連のステート�
 ---
 ## delegate型
 ### 定義
-名前空間:Alice / アセンブリ : Losetta.dll / サポート: AliceScript1
+名前空間: Alice<br/>
+アセンブリ: Losetta.dll
 
 デリゲートは、関数を参照する型です。デリゲート型は結合、比較、等値演算子をサポートしています。 デリゲート型の規定値は空の関数です。デリゲート型への暗黙的な変換と明示的な変換の両方はサポートされていません。この型の型指定修飾子は`delegate`です。
 
@@ -14,6 +15,13 @@ summary: デリゲート型は、匿名関数のように一連のステート�
 namespace Alice;
 public class delegate
 ```
+
+???note "対応: AliceScript RC1以降"
+    |対応||
+    |---|---|
+    |AliceScript|RC1、RC2、GM、2.0、2.1、2.2、2.3、3.0|
+    |AliceSister|GM、2.0、2.1、2.2、2.3、3.0|
+    |Losetta|0.8、0.9、0.10|
 
 ## 説明
 
