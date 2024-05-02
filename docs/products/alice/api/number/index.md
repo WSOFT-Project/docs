@@ -3,8 +3,9 @@ title: number
 summary: 数値型は実数を表します。
 ---
 
-## 定義
-名前空間:Alice / アセンブリ : Losetta.dll / サポート: AliceScript1
+### 定義
+名前空間: Alice<br/>
+アセンブリ: Losetta.dll
 
 数値型は実数を表します。数値型は[算術](../../general/operators/arithmetic-operators.md)、[関係](../../general/operators/relational-operators.md)、[ビット](../../general/operators/bitwise-operators.md)演算子をサポートしています。
 
@@ -20,6 +21,13 @@ AliceScriptの数値型では小数点以下の計算が予想通りにいかな
 namespace Alice;
 public class number;
 ```
+
+???note "対応: AliceScript RC1以降"
+    |対応||
+    |---|---|
+    |AliceScript|RC1、RC2、GM、2.0、2.1、2.2、2.3、3.0|
+    |AliceSister|GM、2.0、2.1、2.2、2.3、3.0|
+    |Losetta|0.8、0.9、0.10|
 
 ## 説明
 数値型は、${ -1.7976931348623157 \times 10^{308} }$から${1.7976931348623157 \times 10^{308} }$までの範囲の数および非数(`NaN`)をAliceScriptで表現することを表しています。この型は、惑星や銀河間の距離などの非常に大きな値から物質の分子量などの非常に小さな値まで表せる代わりに、しばしば値を不正確にを表すこともあります。

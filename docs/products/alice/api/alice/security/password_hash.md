@@ -2,10 +2,11 @@
 title: password_hash
 summary: 指定した文字列に対応するハッシュ値を計算します
 ---
-### 定義
-名前空間:Alice.Security / アセンブリ : Losetta.Runtime.dll / サポート: AliceScript1
 
-属性: 関数
+### 定義
+名前空間: Alice.Security<br/>
+アセンブリ: Losetta.Runtime.dll<br/>
+ソースコード: [Alice.Security.cs](https://github.com/WSOFT-Project/Losetta/blob/master/Losetta.Runtime/Alice.Security.cs)
 
 #### password_hash(string,bytes,number,number)
 
@@ -26,6 +27,13 @@ public bytes password_hash(string password, bytes salt, number hash_size = 32, n
 |戻り値| |
 |-|-|
 |`bytes`|ハッシュ化されたデータ|
+
+???note "対応: AliceScript RC1以降"
+    |対応||
+    |---|---|
+    |AliceScript|RC1、RC2、GM、2.0、2.1、2.2、2.3、3.0|
+    |AliceSister|GM、2.0、2.1、2.2、2.3、3.0|
+    |Losetta|0.8、0.9、0.10|
 
 ### 例
 次の例では、文字列をハッシュ化し保存します。

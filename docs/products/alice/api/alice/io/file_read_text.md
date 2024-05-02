@@ -3,10 +3,11 @@ title: file_read_text
 summary: 指定したファイルを読み取り、結果を文字列で返します。
 date : 2021-07-28
 ---
-### 定義
-名前空間:Alice.IO / アセンブリ : Losetta.Runtime.dll / サポート: AliceScript1
 
-属性: 関数
+### 定義
+名前空間: Alice.IO<br/>
+アセンブリ: Losetta.Runtime.dll<br/>
+ソースコード: [Alice.IO.cs](https://github.com/WSOFT-Project/Losetta/blob/master/Losetta.Runtime/Alice.IO.cs)
 
 #### file_read_text(string)
 
@@ -25,9 +26,14 @@ public string file_read_text(string path);
 |-|-|
 |`string`|ファイル内のすべての文字列|
 
-#### file_read_text(string,bool)
+???note "対応: AliceScript RC1以降"
+    |対応||
+    |---|---|
+    |AliceScript|RC1、RC2、GM、2.0、2.1、2.2、2.3、3.0|
+    |AliceSister|GM、2.0、2.1、2.2、2.3、3.0|
+    |Losetta|0.8、0.9、0.10|
 
-サポート : Alice2.0
+#### file_read_text(string,bool)
 
 指定したファイルをファイルシステムまたは現在のパッケージから読み取り、結果を文字列で返します。
 
@@ -45,9 +51,14 @@ public string file_read_text(string path,bool fromPackage);
 |-|-|
 |`string`|ファイル内のすべての文字列|
 
-#### file_read_text(string,string,bool)
+???note "対応: Alice2.0以降"
+    |対応||
+    |---|---|
+    |AliceScript|2.0、2.1、2.2、2.3、3.0|
+    |AliceSister|2.0、2.1、2.2、2.3、3.0|
+    |Losetta|0.9、0.10|
 
-サポート : Alice2.0
+#### file_read_text(string,string,bool)
 
 指定したファイルをファイルシステムまたは現在のパッケージから読み取り、結果を指定された文字コードで解釈した文字列を返します。
 
@@ -66,9 +77,14 @@ public string file_read_text(string path,string charCode,bool fromPackage = fals
 |-|-|
 |`string`|ファイル内のすべての文字列|
 
-#### file_read_text(string,number,bool)
+???note "対応: Alice2.0以降"
+    |対応||
+    |---|---|
+    |AliceScript|2.0、2.1、2.2、2.3、3.0|
+    |AliceSister|2.0、2.1、2.2、2.3、3.0|
+    |Losetta|0.9、0.10|
 
-サポート : Alice2.0
+#### file_read_text(string,number,bool)
 
 指定したファイルをファイルシステムまたは現在のパッケージから読み取り、結果を指定された文字コードで解釈した文字列を返します。
 
@@ -86,6 +102,13 @@ public string file_read_text(string path,number codePage,bool fromPackage = fals
 |戻り値| |
 |-|-|
 |`string`|ファイル内のすべての文字列|
+
+???note "対応: Alice2.0以降"
+    |対応||
+    |---|---|
+    |AliceScript|2.0、2.1、2.2、2.3、3.0|
+    |AliceSister|2.0、2.1、2.2、2.3、3.0|
+    |Losetta|0.9、0.10|
 
 ### 説明
 

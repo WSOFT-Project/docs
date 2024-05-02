@@ -3,7 +3,8 @@ title: bytes
 summary: bytes型は、バイナリデータ配列を表します
 ---
 ### 定義
-名前空間:Alice / アセンブリ : Losetta.dll / サポート: AliceScript1
+名前空間: Alice<br/>
+アセンブリ: Losetta.dll
 
 bytes型は、バイナリデータ配列を表します。bytes型は比較、等値演算子をサポートしています。
 
@@ -15,6 +16,13 @@ bytes型への暗黙的な変換は存在しません。また、文字列型、
 namespace Alice;
 public class bytes
 ```
+
+???note "対応: AliceScript RC1以降"
+    |対応||
+    |---|---|
+    |AliceScript|RC1、RC2、GM、2.0、2.1、2.2、2.3、3.0|
+    |AliceSister|GM、2.0、2.1、2.2、2.3、3.0|
+    |Losetta|0.8、0.9、0.10|
 
 ### プロパティ
 |名前|説明|

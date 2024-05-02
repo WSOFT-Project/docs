@@ -3,14 +3,19 @@ title: SequenceEqual
 long_title : array.SequenceEqual
 summary: 現在の配列ともう一方の配列の要素が等しいかどうかを判定します
 ---
+
 ### 定義
-名前空間:Alice / アセンブリ : Losetta.Runtime.dll / サポート: AliceScript2.2
+名前空間: Alice<br/>
+アセンブリ: Losetta.Runtime.dll<br/>
+ソースコード: [Alice.Core.Array.cs](https://github.com/WSOFT-Project/Losetta/blob/master/Losetta.Runtime/Core/Extension/Alice.Core.Array.cs)
+
+#### SequenceEqual(array)
 
 現在の配列ともう一方の配列の要素が等しいかどうかを判定します
 
 ```cs title="AliceScript"
 class Alice.Array;
-bool SequenceEqual(array other);
+public bool SequenceEqual(array other);
 ```
 
 |引数| |
@@ -20,6 +25,13 @@ bool SequenceEqual(array other);
 |戻り値| |
 |-|-|
 |`bool`| 現在の配列と比較する配列内のすべての要素が等しければ`true`、それ以外の場合は`false`|
+
+???note "対応: Alice2.2以降"
+    |対応||
+    |---|---|
+    |AliceScript|2.2、2.3、3.0|
+    |AliceSister|2.2、2.3、3.0|
+    |Losetta|0.9、0.10|
 
 ### 例
 以下は、`1`、`2`、`3`がある配列ふたつを定義し、それらが等しいことを確かめます。

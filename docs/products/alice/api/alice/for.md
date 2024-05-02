@@ -4,10 +4,11 @@ long_title : for 文
 summary: 式が真と評価される間、本文を繰り返し実行します。
 date : 2023-08-07
 ---
-### 定義
-名前空間:Alice / アセンブリ : Losetta.Runtime.dll / サポート: AliceScript1
 
-属性: 言語構造
+### 定義
+名前空間: Alice<br/>
+アセンブリ: Losetta.Runtime.dll<br/>
+ソースコード: [Alice.Core.Flow.cs](https://github.com/WSOFT-Project/Losetta/blob/master/Losetta.Runtime/Core/Alice.Core.Flow.cs)
 
 指定した論理式が`true`と評価される間、本文を繰り返し実行します。
 
@@ -24,6 +25,13 @@ public void for(Expression init; Expression condition; Expression loop)
 |`init`| ループ変数の初期化式。|
 |`condition`| ループを継続するかどうかを表す条件式。|
 |`loop`| ループ時に処理される反復式。|
+
+???note "対応: AliceScript RC1以降"
+    |対応||
+    |---|---|
+    |AliceScript|RC1、RC2、GM、2.0、2.1、2.2、2.3、3.0|
+    |AliceSister|GM、2.0、2.1、2.2、2.3、3.0|
+    |Losetta|0.8、0.9、0.10|
 
 ### 基本
 `for`文は、波かっこで囲まれたコード（これを、本文と呼びます。）を指定回数の間繰り返し実行する場合によく使用されます。

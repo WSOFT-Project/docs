@@ -4,9 +4,9 @@ summary: 扱うことができる最小値を表します
 ---
 
 ### 定義
-名前空間:Alice.Math / アセンブリ : Losetta.Runtime.dll / サポート: Alice3.0
-
-属性: 定数
+名前空間: Alice.Math<br/>
+アセンブリ: Losetta.Runtime.dll<br/>
+ソースコード: [Alice.Math.cs](https://github.com/WSOFT-Project/Losetta/blob/master/Losetta.Runtime/Alice.Math.cs)
 
 扱うことができる最小値を表します。
 
@@ -14,6 +14,13 @@ summary: 扱うことができる最小値を表します
 namespace Alice.Math;
 public readonly number math_minValue = -1.7976931348623157E+308;
 ```
+
+???note "対応: Alice3.0以降"
+    |対応||
+    |---|---|
+    |AliceScript|3.0|
+    |AliceSister|3.0|
+    |Losetta|0.10|
 
 ### 説明
 AliceScriptの数値型はIEEE754に準拠しており、扱うことのできる最小値は、${ -1.7976931348623157 \times 10^{308} }$です。

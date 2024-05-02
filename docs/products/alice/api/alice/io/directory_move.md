@@ -4,9 +4,9 @@ summary: 指定したファイルまたはディレクトリを別の場所に�
 ---
 
 ### 定義
-名前空間:Alice.IO / アセンブリ : Losetta.Runtime.dll / サポート: AliceScript1
-
-属性: 関数
+名前空間: Alice.IO<br/>
+アセンブリ: Losetta.Runtime.dll<br/>
+ソースコード: [Alice.IO.cs](https://github.com/WSOFT-Project/Losetta/blob/master/Losetta.Runtime/Alice.IO.cs)
 
 #### directory_move(string,string)
 
@@ -21,6 +21,13 @@ public void directory_move(string source, string destination);
 |-|-|
 |`source`|移動元のファイルやディレクトリへのパス|
 |`destination`|移動先のファイルやディレクトリへのパス|
+
+???note "対応: AliceScript RC1以降"
+    |対応||
+    |---|---|
+    |AliceScript|RC1、RC2、GM、2.0、2.1、2.2、2.3、3.0|
+    |AliceSister|GM、2.0、2.1、2.2、2.3、3.0|
+    |Losetta|0.8、0.9、0.10|
 
 ### 説明
 この関数を使用して、ファイルまたはディレクトリの名前を変更できます。この関数では、`destination`で指定された新しいディレクトリを作成し、`source`にある内容を再帰的に新しく作成されたディレクトリに移動します。その後、`source`を削除します。

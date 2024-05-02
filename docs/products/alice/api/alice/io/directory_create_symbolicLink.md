@@ -5,9 +5,9 @@ date : 2023-12-16
 ---
 
 ### 定義
-名前空間:Alice.IO / アセンブリ : Losetta.Runtime.dll / サポート: Alice3.0
-
-属性: 関数
+名前空間: Alice.IO<br/>
+アセンブリ: Losetta.Runtime.dll<br/>
+ソースコード: [Alice.IO.cs](https://github.com/WSOFT-Project/Losetta/blob/master/Losetta.Runtime/Alice.IO.cs)
 
 #### directory_create_symbolicLink(string,string)
 
@@ -23,9 +23,16 @@ public void directory_create_symbolicLink(string path, string target);
 |`path`|作成するシンボリックリンクのパス|
 |`path`|シンボリックリンクの宛先へのパス|
 
-!!!note "実装に関する注意"
+???note "対応: Alice3.0以降、Losettaのみ"
+    |対応||
+    |---|---|
+    |AliceScript|該当なし|
+    |AliceSister|該当なし|
+    |Losetta|0.10|
+
     この関数はAliceScript、AliceSisterでは実装されていません。
-    それらの環境では`0x034 NOT_IMPLEMENTED`例外がスローされます。
+
+    実装されていない環境では`0x034 NOT_IMPLEMENTED`例外がスローされます。
 
 ### 説明
 `path`には、相対パスと絶対パスのどちらを指定することもできます。
@@ -34,6 +41,7 @@ public void directory_create_symbolicLink(string path, string target);
 
 この関数は、ディレクトリへのシンボリックリンクを作成します。
 ファイルへのシンボリックリンクを作成することはできません。
+
 ### 例
 次の例では、`test`というディレクトリへのシンボリックリンク`link`を作成します。
 

@@ -5,9 +5,9 @@ date : 2023-12-30
 ---
 
 ### 定義
-名前空間:Alice.Diagnostics / アセンブリ : Losetta.Runtime.dll / サポート: Alice3.0
-
-属性: 関数
+名前空間: Alice.Diagnostics<br/>
+アセンブリ: Losetta.Runtime.dll<br/>
+ソースコード: [Alice.Diagnostics.cs](https://github.com/WSOFT-Project/Losetta/blob/master/Losetta.Runtime/Alice.Diagnostics.cs)
 
 #### exec(string,bool,bool)
 
@@ -27,6 +27,13 @@ public Process exec(string fileName, bool waitForExit = true, bool useShell = fa
 |戻り値| |
 |-|-|
 |`Process`|開始したプロセスの情報を表すオブジェクト|
+
+???note "対応: Alice3.0以降"
+    |対応||
+    |---|---|
+    |AliceScript|3.0|
+    |AliceSister|3.0|
+    |Losetta|0.10|
 
 #### exec(string,string,bool,bool)
 
@@ -48,9 +55,16 @@ public Process exec(string fileName, string arguments, bool waitForExit = true, 
 |-|-|
 |`Process`|開始したプロセスの情報を表すオブジェクト|
 
+???note "対応: Alice3.0以降"
+    |対応||
+    |---|---|
+    |AliceScript|3.0|
+    |AliceSister|3.0|
+    |Losetta|0.10|
+
 ### 説明
 
-!!!important "重要"
+!!!warning "重要"
     信頼できない入力値を使用してこの関数を呼び出すと、セキュリティ上のリスクが生じます。
     この関数は、信頼できる入力値のみを用いて呼び出してください。
 

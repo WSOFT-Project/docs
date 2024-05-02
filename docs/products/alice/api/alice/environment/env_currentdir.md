@@ -3,9 +3,9 @@ title: env_set_exitCode
 summary: プロセスの終了コードを設定します
 ---
 ### 定義
-名前空間:Alice.Environment / アセンブリ : Losetta.Runtime.dll / サポート: Alice2.0
-
-属性: 関数
+名前空間: Alice.Environment<br/>
+アセンブリ: Losetta.Runtime.dll<br/>
+ソースコード: [Alice.Environment.cs](https://github.com/WSOFT-Project/Losetta/blob/master/Losetta.Runtime/Alice.Environment.cs)
 
 #### env_set_exitCode(number)
 
@@ -19,6 +19,13 @@ public void env_set_exitCode(number exitCode);
 |引数| |
 |-|-|
 |`exitCode`|終了コードを格納している 32 ビット符号付き整数。 既定値は 0 (ゼロ) です。この値は、プロセスが成功して完了したことを意味します。|
+
+???note "対応: Alice2.0以降"
+    |対応||
+    |---|---|
+    |AliceScript|2.0、2.1、2.2、2.3、3.0|
+    |AliceSister|2.0、2.1、2.2、2.3、3.0|
+    |Losetta|0.9、0.10|
 
 ### 注意
 `exit`関数に戻り値を指定しなかった場合、この値が使用され、`exit(number exitcode);`で終了された場合はこの値は無視されます。`exitCode`の初期値は`0`です。

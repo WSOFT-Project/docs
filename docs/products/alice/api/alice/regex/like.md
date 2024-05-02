@@ -5,9 +5,11 @@ summary: 文字列を指定されたパターンと比較します。
 ---
 
 ### 定義
-名前空間:Alice.Regex / アセンブリ : Losetta.Runtime.dll / サポート: AliceScript3.0
+名前空間: Alice.Regex<br/>
+アセンブリ: Losetta.Runtime.dll<br/>
+ソースコード: [Alice.Regex.cs](https://github.com/WSOFT-Project/Losetta/blob/master/Losetta.Runtime/Alice.Regex.cs)
 
-属性: 関数
+#### Like(this string,string)
 
 文字列が一定のパターンと一致するかどうかを調べます。
 
@@ -24,6 +26,13 @@ public bool Like(this string input, string pattern);
 |戻り値| |
 |-|-|
 |`bool`|入力文字列が`pattern`と一致する場合は`true`、それ以外の場合は`false`|
+
+???note "対応: Alice3.0以降"
+    |対応||
+    |---|---|
+    |AliceScript|3.0|
+    |AliceSister|3.0|
+    |Losetta|0.10|
 
 ### 説明
 このメソッドは、入力文字列を`pattern`で指定されたワイルドカードを含むパターンと比較します。このメソッドで使用できるパターンと対応する正規表現と意味について示します。

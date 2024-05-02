@@ -3,14 +3,19 @@ title: Intersect
 long_title : array.Intersect
 summary: 現在の配列と指定された配列の積集合を取得します
 ---
+
 ### 定義
-名前空間:Alice / アセンブリ : Losetta.Runtime.dll / サポート: AliceScript2.2
+名前空間: Alice<br/>
+アセンブリ: Losetta.Runtime.dll<br/>
+ソースコード: [Alice.Core.Array.cs](https://github.com/WSOFT-Project/Losetta/blob/master/Losetta.Runtime/Core/Extension/Alice.Core.Array.cs)
+
+#### Intersect(array)
 
 現在の配列と指定された配列の積集合を取得します
 
 ```cs title="AliceScript"
 class Alice.Array;
-array Intersect(array other);
+public array Intersect(array other);
 ```
 
 |引数| |
@@ -21,6 +26,13 @@ array Intersect(array other);
 |-|-|
 |`array`|現在の配列と`other`の積集合|
 
+???note "対応: Alice2.2以降"
+    |対応||
+    |---|---|
+    |AliceScript|2.2、2.3、3.0|
+    |AliceSister|2.2、2.3、3.0|
+    |Losetta|0.9、0.10|
+s
 ### 例
 以下は、`1`、`2`の含まれる配列と`2`、`3`の含まれる配列の積集合を求めます。
 

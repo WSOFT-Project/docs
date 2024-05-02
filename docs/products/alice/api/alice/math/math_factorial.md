@@ -4,9 +4,9 @@ summary: 指定した数値の階乗を返します
 ---
 
 ### 定義
-名前空間:Alice.Math / アセンブリ : Losetta.Runtime.dll / サポート: Alice3.0
-
-属性: 関数
+名前空間: Alice.Math<br/>
+アセンブリ: Losetta.Runtime.dll<br/>
+ソースコード: [Alice.Math.cs](https://github.com/WSOFT-Project/Losetta/blob/master/Losetta.Runtime/Alice.Math.cs)
 
 #### math_factorial(number)
 
@@ -24,6 +24,13 @@ public number math_factorial(number n) requires(value >= 0);
 |戻り値| |
 |-|-|
 |`number`|`n`の階乗の値。|
+
+???note "対応: Alice3.0以降"
+    |対応||
+    |---|---|
+    |AliceScript|3.0|
+    |AliceSister|3.0|
+    |Losetta|0.10|
 
 ### 説明
 **階乗**は、1から`n`までのすべての整数の積です。たとえば、3の階乗は以下のように計算します。

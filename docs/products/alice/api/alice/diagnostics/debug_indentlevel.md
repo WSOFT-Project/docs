@@ -3,10 +3,11 @@ title: debug_indentLevel
 summary: デバッグ出力のインデントレベルを取得または設定します。
 date : 2021-11-09
 ---
-### 定義
-名前空間:Alice.Diagnostics / アセンブリ : Losetta.Runtime.dll / サポート: AliceScript1
 
-属性: 関数
+### 定義
+名前空間: Alice.Diagnostics<br/>
+アセンブリ: Losetta.Runtime.dll<br/>
+ソースコード: [Alice.Diagnostics.cs](https://github.com/WSOFT-Project/Losetta/blob/master/Losetta.Runtime/Alice.Diagnostics.cs)
 
 #### debug_indentLevel()
 
@@ -20,6 +21,13 @@ public number debug_indentLevel();
 |戻り値| |
 |-|-|
 |`number`|インデントレベル。規定値は`0`です。|
+
+???note "対応: AliceScript RC2以降"
+    |対応||
+    |---|---|
+    |AliceScript|RC2、GM、2.0、2.1、2.2、2.3、3.0|
+    |AliceSister|GM、2.0、2.1、2.2、2.3、3.0|
+    |Losetta|0.8、0.9、0.10|
 
 #### debug_indentLevel(number)
 
@@ -38,9 +46,14 @@ public number debug_indentLevel(number indentLevel);
 |-|-|
 |`number`|インデントレベル。規定値は`0`です。|
 
-#### debug_indentLevel
+???note "対応: AliceScript RC2以降"
+    |対応||
+    |---|---|
+    |AliceScript|RC2、GM、2.0、2.1、2.2、2.3、3.0|
+    |AliceSister|GM、2.0、2.1、2.2、2.3、3.0|
+    |Losetta|0.8、0.9、0.10|
 
-サポート : Alice3.0
+#### debug_indentLevel
 
 デバッグ出力のインデントレベルを取得または設定します。
 
@@ -52,6 +65,13 @@ public number debug_indentLevel { get; set; }
 |値| |
 |-|-|
 |`number`|デバッグ出力のインデントレベル。規定値は`0`です。|
+
+???note "対応: Alice3.0以降"
+    |対応||
+    |---|---|
+    |AliceScript|3.0|
+    |AliceSister|3.0|
+    |Losetta|0.10|
 
 ### 例
 次の例では、インデントレベルを設定し、デバッグ出力に書き込みます。

@@ -4,9 +4,9 @@ summary: 指定された正規表現に一致する箇所が、指定された�
 ---
 
 ### 定義
-名前空間:Alice.Regex / アセンブリ : Losetta.Runtime.dll / サポート: AliceScript3.0
-
-属性: 関数
+名前空間: Alice.Regex<br/>
+アセンブリ: Losetta.Runtime.dll<br/>
+ソースコード: [Alice.Regex.cs](https://github.com/WSOFT-Project/Losetta/blob/master/Losetta.Runtime/Alice.Regex.cs)
 
 #### regex_IsMatch(string,string)
 
@@ -25,6 +25,13 @@ public bool regex_IsMatch(string input, string pattern);
 |戻り値| |
 |-|-|
 |`bool`|正規表現と一致する箇所が見つかった場合は`true`、それ以外の場合は`false`|
+
+???note "対応: AliceScript RC1以降"
+    |対応||
+    |---|---|
+    |AliceScript|RC1、RC2、GM、2.0、2.1、2.2、2.3、3.0|
+    |AliceSister|GM、2.0、2.1、2.2、2.3、3.0|
+    |Losetta|0.8、0.9、0.10|
 
 ### 説明
 この関数は、文字列が正しい形かどうかを検証する場合に使用します。一般に、正規表現の検索は時間がかかる操作です。そのため、"特定の文字列から始まる"や、"特定の長さ以内"などの簡単な調査には[string.StartsWith](../../string/startswith.md)や`string.Length`を使用してください。

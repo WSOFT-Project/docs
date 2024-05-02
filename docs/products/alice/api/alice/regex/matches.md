@@ -5,9 +5,11 @@ summary: 指定された正規表現に一致する箇所をすべて取得し�
 ---
 
 ### 定義
-名前空間:Alice.Regex / アセンブリ : Losetta.Runtime.dll / サポート: AliceScript3.0
+名前空間: Alice.Regex<br/>
+アセンブリ: Losetta.Runtime.dll<br/>
+ソースコード: [Alice.Regex.cs](https://github.com/WSOFT-Project/Losetta/blob/master/Losetta.Runtime/Alice.Regex.cs)
 
-属性: 関数
+#### Matches(this string,string)
 
 指定された正規表現に一致する箇所をすべて取得します。
 
@@ -24,6 +26,13 @@ public string[] Matches(this string input, string pattern);
 |戻り値| |
 |-|-|
 |`string[]`|正規表現と一致する箇所が見つかった場合は一致する場所の文字列の配列、それ以外の場合は空の配列|
+
+???note "対応: AliceScript RC2以降"
+    |対応||
+    |---|---|
+    |AliceScript|RC2、GM、2.0、2.1、2.2、2.3、3.0|
+    |AliceSister|GM、2.0、2.1、2.2、2.3、3.0|
+    |Losetta|0.8、0.9、0.10|
 
 ### 説明
 このメソッドを呼び出すことは、[regex_matches](./regex_matches.md)を呼び出すことと同義です。

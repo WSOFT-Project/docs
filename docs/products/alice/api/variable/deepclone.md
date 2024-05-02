@@ -3,8 +3,11 @@ title: DeepClone
 long_title: variable.DeepClone
 summary: その変数の厳格コピー（ディープコピー）を作成します。
 ---
+
 ### 定義
-名前空間:Alice / アセンブリ : Losetta.dll / サポート: AliceScript1
+名前空間: Alice<br/>
+アセンブリ: Losetta.Runtime.dll<br/>
+ソースコード: [Alice.Core.General.cs](https://github.com/WSOFT-Project/Losetta/blob/master/Losetta.Runtime/Core/Extension/Alice.Core.General.cs)
 
 #### DeepClone()
 
@@ -12,12 +15,19 @@ summary: その変数の厳格コピー（ディープコピー）を作成し�
 
 ```cs title="AliceScript"
 namespace Alice;
-variable DeepClone();
+public variable DeepClone();
 ```
 
 |戻り値| |
 |-|-|
 |`variable`| その変数のインスタンスの厳格コピー|
+
+???note "対応: AliceScript RC1以降"
+    |対応||
+    |---|---|
+    |AliceScript|RC1、RC2、GM、2.0、2.1、2.2、2.3、3.0|
+    |AliceSister|GM、2.0、2.1、2.2、2.3、3.0|
+    |Losetta|0.8、0.9、0.10|
 
 ### 説明
 `Clone`メソッドによって取得できるインスタンスは、変数のディープコピーである点に注意してください。コピー先とコピー元のどちらかを変更してももう片方には反映されません。

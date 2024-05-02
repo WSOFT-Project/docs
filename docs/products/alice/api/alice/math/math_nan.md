@@ -4,9 +4,9 @@ summary: 非数の値を表します
 ---
 
 ### 定義
-名前空間:Alice.Math / アセンブリ : Losetta.Runtime.dll / サポート: Alice3.0
-
-属性: 定数
+名前空間: Alice.Math<br/>
+アセンブリ: Losetta.Runtime.dll<br/>
+ソースコード: [Alice.Math.cs](https://github.com/WSOFT-Project/Losetta/blob/master/Losetta.Runtime/Alice.Math.cs)
 
 非数(`NaN`)の値を表します。
 
@@ -14,6 +14,13 @@ summary: 非数の値を表します
 namespace Alice.Math;
 public readonly number math_NaN;
 ```
+
+???note "対応: Alice3.0以降"
+    |対応||
+    |---|---|
+    |AliceScript|3.0|
+    |AliceSister|3.0|
+    |Losetta|0.10|
 
 ### 説明
 関数や演算子は、数学演算の結果が定義されていない場合にこの値を返します。

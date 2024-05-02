@@ -4,10 +4,12 @@ long_title : return キーワード
 summary: 現在の関数の実行を終了し、呼び出し元に制御と関数の結果を返します。
 date : 2023-08-07
 ---
-### 定義
-名前空間:Alice / アセンブリ : Losetta.dll / サポート: AliceScript1
 
-属性: 定数、言語構造
+### 定義
+名前空間: Alice<br/>
+アセンブリ: Losetta.Runtime.dll<br/>
+ソースコード: [Alice.Core.Flow.cs](https://github.com/WSOFT-Project/Losetta/blob/master/Losetta.Runtime/Core/Alice.Core.Flow.cs)
+
 
 現在の関数の実行を終了し、呼び出し元に制御を返します。
 
@@ -26,6 +28,13 @@ public .command void return(variable o);
 |引数| |
 |-|-|
 |`o`| 関数の結果|
+
+???note "対応: AliceScript RC1以降"
+    |対応||
+    |---|---|
+    |AliceScript|RC1、RC2、GM、2.0、2.1、2.2、2.3、3.0|
+    |AliceSister|GM、2.0、2.1、2.2、2.3、3.0|
+    |Losetta|0.8、0.9、0.10|
 
 ### 基本
 `return`キーワードは、現在の関数の実行を終了し、呼び出し元に制御と関数の結果（存在する場合）を返します。

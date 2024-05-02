@@ -5,9 +5,9 @@ date : 2023-12-30
 ---
 
 ### 定義
-名前空間:Alice.Diagnostics / アセンブリ : Losetta.Runtime.dll / サポート: Alice3.0
-
-属性: 関数
+名前空間: Alice.Diagnostics<br/>
+アセンブリ: Losetta.Runtime.dll<br/>
+ソースコード: [Alice.Diagnostics.cs](https://github.com/WSOFT-Project/Losetta/blob/master/Losetta.Runtime/Alice.Diagnostics.cs)
 
 #### assert(bool)
 
@@ -21,6 +21,13 @@ public void assert(bool condition);
 |引数| |
 |-|-|
 |`condition`|`true`であると期待する値|
+
+???note "対応: Alice3.0以降"
+    |対応||
+    |---|---|
+    |AliceScript|3.0|
+    |AliceSister|3.0|
+    |Losetta|0.10|
 
 #### assert(bool,string)
 
@@ -36,6 +43,12 @@ public void assert(bool condition, string message);
 |`condition`|`true`であると期待する値|
 |`message`|`false`と評価されたときに発生する例外に使用するメッセージ|
 
+???note "対応: Alice3.0以降"
+    |対応||
+    |---|---|
+    |AliceScript|3.0|
+    |AliceSister|3.0|
+    |Losetta|0.10|
 
 ### 説明
 この関数は、`condition`が`false`と評価されたときに[0x04c ASSERTION_ERROR](../../../exceptions/0x04c.md)をスローします。

@@ -4,9 +4,9 @@ summary: 現在のプロセスに格納されている環境変数を作成、�
 date : 2023-08-09
 ---
 ### 定義
-名前空間:Alice.Environment / アセンブリ : Losetta.Runtime.dll / サポート: Alice2.0
-
-属性: 関数
+名前空間: Alice.Environment<br/>
+アセンブリ: Losetta.Runtime.dll<br/>
+ソースコード: [Alice.Environment.cs](https://github.com/WSOFT-Project/Losetta/blob/master/Losetta.Runtime/Alice.Environment.cs)
 
 #### env_set_environmentVariable(string,string)
 
@@ -21,6 +21,13 @@ public void env_set_environmentVariable(string name,string? value);
 |-|-|
 |`name`|作成、変更、または削除する環境変数の名前。|
 |`value`|`name`に割り当てる値。|
+
+???note "対応: Alice2.0以降"
+    |対応||
+    |---|---|
+    |AliceScript|2.0、2.1、2.2、2.3、3.0|
+    |AliceSister|2.0、2.1、2.2、2.3、3.0|
+    |Losetta|0.9、0.10|
 
 ### 説明
 この関数は、現在のプロセスに格納されている環境変数を作成、変更、または削除します。

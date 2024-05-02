@@ -3,10 +3,11 @@ title: file_write_encrypt
 summary: 指定したファイルに、指定されたデータを暗号化しながら書き込みます。
 date : 2023-12-16
 ---
-### 定義
-名前空間:Alice.IO / アセンブリ : Losetta.Runtime.dll / サポート: Alice3.0
 
-属性: 関数
+### 定義
+名前空間: Alice.IO<br/>
+アセンブリ: Losetta.Runtime.dll<br/>
+ソースコード: [Alice.IO.cs](https://github.com/WSOFT-Project/Losetta/blob/master/Losetta.Runtime/Alice.IO.cs)
 
 #### file_write_encrypt(string,bytes,string,number,number,bool)
 
@@ -27,13 +28,20 @@ public void file_write_encrypt(string path, bytes content, string password, numb
 |`iterations`|ハッシュ値の計算のストレッチ回数。この値が大きいほど安全性が向上し、パフォーマンスが低下します。規定値は`1024`です。|
 |`useSHA512`|ハッシュ値の計算に`SHA512`方式を使用する場合は`true`、`SHA256`方式を使用する場合は`false`。規定値は`false`です。|
 
+???note "対応: Alice3.0以降"
+    |対応||
+    |---|---|
+    |AliceScript|3.0|
+    |AliceSister|3.0|
+    |Losetta|0.10|
+
 !!!note "実装に関する注意"
     この関数はAliceSisterでは仕様が異なります。
     詳しくは**説明**をご覧ください。
 
 ### 説明
 
-`path`やには、相対パスと絶対パスのどちらを指定することもできます。
+`path`には、相対パスと絶対パスのどちらを指定することもできます。
 相対パスを指定した場合、カレントディレクトリからの相対パスとして解釈します。
 パスの大文字と小文字の区別は、環境およびファイルシステムに依存します。たとえば、NTFSでは大文字と小文字は区別されませんが、LFSでは大文字と小文字が区別されます。
 

@@ -4,10 +4,12 @@ long_title : switch 文
 summary: 特定の値と一致するかを判断することで実行する文を選択します。
 date : 2023-08-10
 ---
-### 定義
-名前空間:Alice / アセンブリ : Losetta.Runtime.dll / サポート: AliceScript1
 
-属性: 言語構造
+### 定義
+名前空間: Alice<br/>
+アセンブリ: Losetta.Runtime.dll<br/>
+ソースコード: [Alice.Core.Flow.cs](https://github.com/WSOFT-Project/Losetta/blob/master/Losetta.Runtime/Core/Alice.Core.Flow.cs)
+
 
 特定の値と一致するかを判断することで実行する文を選択します。
 
@@ -26,6 +28,13 @@ public variable switch(variable value)
 |戻り値| |
 |-|-|
 |`variable`|実行した文の戻り値。|
+
+???note "対応: AliceScript RC1以降"
+    |対応||
+    |---|---|
+    |AliceScript|RC1、RC2、GM、2.0、2.1、2.2、2.3、3.0|
+    |AliceSister|GM、2.0、2.1、2.2、2.3、3.0|
+    |Losetta|0.8、0.9、0.10|
 
 ### 基本
 `switch`文は、特定の値と一致するかを判断することで実行する文を実行します。

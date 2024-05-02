@@ -4,10 +4,11 @@ long_title : break キーワード
 summary: これを囲む反復文を終了させます。
 date : 2023-08-07
 ---
-### 定義
-名前空間:Alice / アセンブリ : Losetta.dll / サポート: AliceScript1
 
-属性: 定数、言語構造
+### 定義
+名前空間: Alice<br/>
+アセンブリ: Losetta.dll<br/>
+ソースコード: [Constants.cs](https://github.com/WSOFT-Project/Losetta/blob/master/Losetta/Constants.cs)
 
 これを囲む`for`文、`foreach`文、`do`文、`while`文を終了させます。
 
@@ -15,6 +16,13 @@ date : 2023-08-07
 namespace Alice;
 public const break;
 ```
+
+???note "対応: AliceScript RC1以降"
+    |対応||
+    |---|---|
+    |AliceScript|RC1、RC2、GM、2.0、2.1、2.2、2.3、3.0|
+    |AliceSister|GM、2.0、2.1、2.2、2.3、3.0|
+    |Losetta|0.8、0.9、0.10|
 
 ### 基本
 `break`キーワードは、これを囲む`for`文、`foreach`文、`do`文、`while`文を終了させます。

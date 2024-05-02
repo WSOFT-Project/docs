@@ -4,9 +4,9 @@ summary: 指定した数値が正規化数であるかを表す値を取得し�
 ---
 
 ### 定義
-名前空間:Alice.Math / アセンブリ : Losetta.Runtime.dll / サポート: AliceScript3.0
-
-属性: 関数
+名前空間: Alice.Math<br/>
+アセンブリ: Losetta.Runtime.dll<br/>
+ソースコード: [Alice.Math.cs](https://github.com/WSOFT-Project/Losetta/blob/master/Losetta.Runtime/Alice.Math.cs)
 
 #### math_isNormal(number)
 
@@ -24,6 +24,13 @@ public bool math_isNormal(number value);
 |戻り値| |
 |-|-|
 |`number`|`value`が正規化数であれば`true`、それ以外の場合は`false`。|
+
+???note "対応: Alice3.0以降"
+    |対応||
+    |---|---|
+    |AliceScript|3.0|
+    |AliceSister|3.0|
+    |Losetta|0.10|
 
 ### 例
 次の例では、いくつかの値について、正規化された値かどうかを確認します。

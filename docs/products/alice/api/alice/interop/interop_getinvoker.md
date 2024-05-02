@@ -5,9 +5,9 @@ date : 2023-12-30
 ---
 
 ### 定義
-名前空間:Alice.Interop / アセンブリ : Losetta.Runtime.dll / サポート: Alice3.0
-
-属性: 関数
+名前空間: Alice.Interop<br/>
+アセンブリ: Losetta.Runtime.dll<br/>
+ソースコード: [Alice.Interop.cs](https://github.com/WSOFT-Project/Losetta/blob/master/Losetta.Runtime/Alice.Interop.cs)
 
 #### interop_getInvoker(string,string,string,array,string,bool)
 
@@ -30,6 +30,13 @@ public delegate interop_getInvoker(string procName, string libraryName, string r
 |戻り値| |
 |---|---|
 |`delegate`|指定したC-Style関数に対応するデリゲート|
+
+???note "対応: Alice3.0以降"
+    |対応||
+    |---|---|
+    |AliceScript|3.0|
+    |AliceSister|3.0|
+    |Losetta|0.10|
 
 ### 説明
 この関数を使用すると、ネイティブ関数を一度定義することなくデリゲートに格納できます。

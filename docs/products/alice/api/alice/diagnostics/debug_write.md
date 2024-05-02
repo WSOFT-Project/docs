@@ -3,10 +3,11 @@ title: debug_write
 summary: 指定された文字列または、オブジェクトの文字列表現をデバッグ出力に書き込みます。
 date : 2021-11-09
 ---
-### 定義
-名前空間:Alice.Diagnostics / アセンブリ : Losetta.Runtime.dll / サポート: AliceScriptRC2
 
-属性: 関数
+### 定義
+名前空間: Alice.Diagnostics<br/>
+アセンブリ: Losetta.Runtime.dll<br/>
+ソースコード: [Alice.Diagnostics.cs](https://github.com/WSOFT-Project/Losetta/blob/master/Losetta.Runtime/Alice.Diagnostics.cs)
 
 #### debug_write(string)
 
@@ -21,6 +22,13 @@ public void debug_write(string text);
 |-|-|
 |`text`| 出力したい文字列|
 
+???note "対応: AliceScript RC2以降"
+    |対応||
+    |---|---|
+    |AliceScript|RC2、GM、2.0、2.1、2.2、2.3、3.0|
+    |AliceSister|GM、2.0、2.1、2.2、2.3、3.0|
+    |Losetta|0.8、0.9、0.10|
+
 #### debug_write(variable)
 
 指定されたオブジェクトの文字列表現をデバッグ出力に書き込みます。
@@ -33,6 +41,13 @@ public void debug_write(variable value);
 |引数| |
 |-|-|
 |`value`| 出力したい変数|
+
+???note "対応: AliceScript RC2以降"
+    |対応||
+    |---|---|
+    |AliceScript|RC2、GM、2.0、2.1、2.2、2.3、3.0|
+    |AliceSister|GM、2.0、2.1、2.2、2.3、3.0|
+    |Losetta|0.8、0.9、0.10|
 
 #### debug_write(string,params variable)
 
@@ -47,6 +62,13 @@ public void debug_write(string format,params variable args);
 |-|-|
 |`format`| 出力の成形に用いる複合書式指定子|
 |`params args`| `format`を使用して書き込む変数。|
+
+???note "対応: AliceScript RC2以降"
+    |対応||
+    |---|---|
+    |AliceScript|RC2、GM、2.0、2.1、2.2、2.3、3.0|
+    |AliceSister|GM、2.0、2.1、2.2、2.3、3.0|
+    |Losetta|0.8、0.9、0.10|
 
 ### 例
 次の例は、debug_write関数を使用してHello,Worldを表示するコードです。

@@ -3,10 +3,11 @@ title: rand
 summary: ランダムな整数を返します。
 date : 2021-08-10
 ---
-### 定義
-名前空間:Alice.Random / アセンブリ : Losetta.Runtime.dll / サポート: AliceScript1
 
-属性: 関数
+### 定義
+名前空間: Alice.Random<br/>
+アセンブリ: Losetta.Runtime.dll<br/>
+ソースコード: [Alice.Random.cs](https://github.com/WSOFT-Project/Losetta/blob/master/Losetta.Runtime/Alice.Random.cs)
 
 #### rand()
 
@@ -20,6 +21,13 @@ public number rand();
 |戻り値| |
 |-|-|
 |`number`|`0`以上`2147483647`未満の整数。|
+
+???note "対応: AliceScript RC1以降"
+    |対応||
+    |---|---|
+    |AliceScript|RC1、RC2、GM、2.0、2.1、2.2、2.3、3.0|
+    |AliceSister|GM、2.0、2.1、2.2、2.3、3.0|
+    |Losetta|0.8、0.9、0.10|
 
 #### rand(number)
 
@@ -38,6 +46,13 @@ public number rand(number max);
 |-|-|
 |`number`|`0`以上`max`未満の整数。|
 
+???note "対応: AliceScript RC1以降"
+    |対応||
+    |---|---|
+    |AliceScript|RC1、RC2、GM、2.0、2.1、2.2、2.3、3.0|
+    |AliceSister|GM、2.0、2.1、2.2、2.3、3.0|
+    |Losetta|0.8、0.9、0.10|
+
 #### rand(number,number)
 
 指定された範囲内のランダムな整数を返します。
@@ -55,6 +70,13 @@ number rand(number min,number max);
 |戻り値| |
 |-|-|
 |`number`|`min`以上`max`未満の整数。つまり、戻り値の範囲に`min`は含まれますが`max`は含まれません。`min`が`max`と等しい場合は、`min`が返されます。|
+
+???note "対応: AliceScript RC1以降"
+    |対応||
+    |---|---|
+    |AliceScript|RC1、RC2、GM、2.0、2.1、2.2、2.3、3.0|
+    |AliceSister|GM、2.0、2.1、2.2、2.3、3.0|
+    |Losetta|0.8、0.9、0.10|
 
 ### 説明
 この関数が生成する値は、暗号学的には安全ではありません。そのため、これを暗号や、推測できないことが期待される値として使うことはできません。

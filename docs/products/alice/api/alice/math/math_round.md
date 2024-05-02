@@ -4,9 +4,9 @@ summary: 指定された数値を指定した小数点以下の桁数に丸め�
 ---
 
 ### 定義
-名前空間:Alice.Math / アセンブリ : Losetta.Runtime.dll / サポート: AliceScript1
-
-属性: 関数
+名前空間: Alice.Math<br/>
+アセンブリ: Losetta.Runtime.dll<br/>
+ソースコード: [Alice.Math.cs](https://github.com/WSOFT-Project/Losetta/blob/master/Losetta.Runtime/Alice.Math.cs)
 
 #### math_round(number,number)
 
@@ -27,7 +27,14 @@ public number math_round(number value, number digits = 0);
 |-|-|
 |`number`|小数点以下の桁数が`digits`以下の`value`に近い数値|
 
-サポート : Alice3.0
+???note "対応: AliceScript RC1以降"
+    |対応||
+    |---|---|
+    |AliceScript|RC1、RC2、GM、2.0、2.1、2.2、2.3、3.0|
+    |AliceSister|GM、2.0、2.1、2.2、2.3、3.0|
+    |Losetta|0.8、0.9、0.10|
+
+#### math_round(number,bool)
 
 指定した丸め規則を用いて指定された数値を整数に丸めます。
 
@@ -45,11 +52,18 @@ public number math_round(number value, bool? roundingMode = null);
 |-|-|
 |`number`|`value`に等しい小数部の桁数を格納する`digits`にもっとも近い数値。|
 
+???note "対応: Alice3.0以降"
+    |対応||
+    |---|---|
+    |AliceScript|3.0|
+    |AliceSister|3.0|
+    |Losetta|0.10|
+
 !!!note "実装に関する注意"
     このオーバーロードはAliceSisterでは仕様が異なります。
     詳しくは**説明**をご覧ください。
 
-サポート : Alice3.0
+#### math_round(number,number,bool)
 
 指定した丸め規則を用いて指定された数値を指定した小数点以下の桁数に丸めます。
 
@@ -68,6 +82,13 @@ public number math_round(number value, number digits = 0, bool? roundingMode = n
 |-|-|
 |`number`|`value`に等しい小数部の桁数を格納する`digits`にもっとも近い数値。|
 
+???note "対応: Alice3.0以降"
+    |対応||
+    |---|---|
+    |AliceScript|3.0|
+    |AliceSister|3.0|
+    |Losetta|0.10|
+
 !!!note "実装に関する注意"
     このオーバーロードはAliceSisterでは仕様が異なります。
     詳しくは**説明**をご覧ください。
@@ -81,7 +102,7 @@ AliceScriptの[数値型](../../number/index.md)でサポートされる小数�
 小数部を切り上げたいときは[math_celling](./math_celling.md)を、切り捨てたいときは[math_floor](./math_floor.md)または[math_truncate](./math_truncate.md)を使用してください。
 
 AliceSisterでは、`roundingMode`が`true`の場合でも銀行型丸めを使用します。
-個の実装では0からもっとも遠い方向に丸めることはできません。
+AliceSisterでは0からもっとも遠い方向に丸めることはできません。
 
 ### 例
 次の例ではさまざまな方法を使って、小数点以下2桁の数値を小数点以下1桁に丸めます。

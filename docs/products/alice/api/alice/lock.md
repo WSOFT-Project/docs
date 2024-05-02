@@ -3,8 +3,11 @@ title: lock
 long_title : lock文
 summary: リソースへの排他的なアクセスを保証します。
 ---
+
 ### 定義
-名前空間:Alice / アセンブリ : Losetta.Runtime.dll / サポート: AliceScript1
+名前空間: Alice<br/>
+アセンブリ: Losetta.Runtime.dll<br/>
+ソースコード: [Alice.Core.Flow.cs](https://github.com/WSOFT-Project/Losetta/blob/master/Losetta.Runtime/Core/Alice.Core.Flow.cs)
 
 リソースへの排他的なアクセスを保証します。
 
@@ -19,6 +22,13 @@ public void lock(variable item)
 |引数| |
 |-|-|
 |`item`|ロックする変数|
+
+???note "対応: AliceScript RC1以降"
+    |対応||
+    |---|---|
+    |AliceScript|RC1、RC2、GM、2.0、2.1、2.2、2.3、3.0|
+    |AliceSister|GM、2.0、2.1、2.2、2.3、3.0|
+    |Losetta|0.8、0.9、0.10|
 
 ### 説明
 `lock`文は、指定した変数に対する相互排他ロックを取得し、本文を実行してからロックを解放します。ロックが保持されている間、他のスレッドはその変数へのアクセスをブロックされてロックを取得できず、ロックが解放されるまで待機します。`lock`文を使えば常に、ひとつのスレッドでのみ実行できるコードを書くことができます。

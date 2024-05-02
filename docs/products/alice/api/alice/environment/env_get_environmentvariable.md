@@ -4,9 +4,9 @@ summary: 現在のプロセスから特定の環境変数の値か、すべて�
 date : 2023-08-09
 ---
 ### 定義
-名前空間:Alice.Environment / アセンブリ : Losetta.Runtime.dll / サポート: Alice2.0
-
-属性: 関数
+名前空間: Alice.Environment<br/>
+アセンブリ: Losetta.Runtime.dll<br/>
+ソースコード: [Alice.Environment.cs](https://github.com/WSOFT-Project/Losetta/blob/master/Losetta.Runtime/Alice.Environment.cs)
 
 #### env_get_environmentVariable()
 
@@ -20,6 +20,13 @@ public string[] env_get_environmentVariable();
 |戻り値| |
 |-|-|
 |`string`|すべての環境変数の名前の配列|
+
+???note "対応: Alice2.0以降"
+    |対応||
+    |---|---|
+    |AliceScript|2.0、2.1、2.2、2.3、3.0|
+    |AliceSister|2.0、2.1、2.2、2.3、3.0|
+    |Losetta|0.9、0.10|
 
 #### env_get_environmentVariable(string)
 
@@ -37,6 +44,13 @@ public string env_get_environmentVariable(string name);
 |戻り値| |
 |-|-|
 |`string`|`name`で指定された環境変数の値。環境変数が見つからない場合は`null`|
+
+???note "対応: Alice2.0以降"
+    |対応||
+    |---|---|
+    |AliceScript|2.0、2.1、2.2、2.3、3.0|
+    |AliceSister|2.0、2.1、2.2、2.3、3.0|
+    |Losetta|0.9、0.10|
 
 ### 説明
 この関数は、現在のプロセスの環境ブロックからのみ環境変数を取得します。

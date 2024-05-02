@@ -3,10 +3,11 @@ title: file_read_charCode
 summary: 指定したファイルで使用されている文字コードを判別し、それを表す文字列を返します
 date : 2023-10-28
 ---
-### 定義
-名前空間:Alice.IO / アセンブリ : Losetta.Runtime.dll / サポート: Alice3.0
 
-属性: 関数
+### 定義
+名前空間: Alice.IO<br/>
+アセンブリ: Losetta.Runtime.dll<br/>
+ソースコード: [Alice.IO.cs](https://github.com/WSOFT-Project/Losetta/blob/master/Losetta.Runtime/Alice.IO.cs)
 
 #### file_read_charCode(string,bool)
 
@@ -25,6 +26,13 @@ public string file_read_charCode(string path, bool fromPackage = false);
 |戻り値| |
 |-|-|
 |`string`|文字コードのコードページを表す文字列|
+
+???note "対応: Alice3.0以降"
+    |対応||
+    |---|---|
+    |AliceScript|3.0|
+    |AliceSister|3.0|
+    |Losetta|0.10|
 
 ### 説明
 

@@ -3,10 +3,11 @@ title: rand_bytes
 summary: ランダムなバイト配列を返します。
 date : 2023-08-10
 ---
-### 定義
-名前空間:Alice.Random / アセンブリ : Losetta.Runtime.dll / サポート: AliceScript1
 
-属性: 関数
+### 定義
+名前空間: Alice.Random<br/>
+アセンブリ: Losetta.Runtime.dll<br/>
+ソースコード: [Alice.Random.cs](https://github.com/WSOFT-Project/Losetta/blob/master/Losetta.Runtime/Alice.Random.cs)
 
 #### rand_bytes(number)
 
@@ -25,6 +26,13 @@ public bytes rand_bytes(number length);
 |-|-|
 |`bytes`|乱数が格納される配列。|
 
+
+???note "対応: AliceScript RC1以降"
+    |対応||
+    |---|---|
+    |AliceScript|RC1、RC2、GM、2.0、2.1、2.2、2.3、3.0|
+    |AliceSister|GM、2.0、2.1、2.2、2.3、3.0|
+    |Losetta|0.8、0.9、0.10|
 
 ### 説明
 この関数が生成する値は、暗号学的には安全ではありません。そのため、これを暗号や、推測できないことが期待される値として使うことはできません。

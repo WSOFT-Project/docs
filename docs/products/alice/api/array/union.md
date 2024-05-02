@@ -3,14 +3,19 @@ title: Union
 long_title : array.Union
 summary: 現在の配列と指定された配列の和集合を取得します
 ---
+
 ### 定義
-名前空間:Alice / アセンブリ : Losetta.Runtime.dll / サポート: AliceScript2.2
+名前空間: Alice<br/>
+アセンブリ: Losetta.Runtime.dll<br/>
+ソースコード: [Alice.Core.Array.cs](https://github.com/WSOFT-Project/Losetta/blob/master/Losetta.Runtime/Core/Extension/Alice.Core.Array.cs)
+
+#### Union(array)
 
 現在の配列と指定された配列の和集合を取得します
 
 ```cs title="AliceScript"
 class Alice.Array;
-array Union(array other);
+public array Union(array other);
 ```
 
 |引数| |
@@ -20,6 +25,13 @@ array Union(array other);
 |戻り値| |
 |-|-|
 |`array`|現在の配列と`other`の和集合|
+
+???note "対応: Alice2.2以降"
+    |対応||
+    |---|---|
+    |AliceScript|2.2、2.3、3.0|
+    |AliceSister|2.2、2.3、3.0|
+    |Losetta|0.9、0.10|
 
 ### 説明
 このメソッドは、ふたつの配列から重複する要素を除外して結合します。

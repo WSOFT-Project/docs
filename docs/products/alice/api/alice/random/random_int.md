@@ -3,10 +3,11 @@ title: random_int
 summary: 暗号学的に安全な方法で、ランダムな整数を取得します。
 date : 2023-08-10
 ---
-### 定義
-名前空間:Alice.Random / アセンブリ : Losetta.Runtime.dll / サポート: Alice2.0
 
-属性: 関数
+### 定義
+名前空間: Alice.Random<br/>
+アセンブリ: Losetta.Runtime.dll<br/>
+ソースコード: [Alice.Random.cs](https://github.com/WSOFT-Project/Losetta/blob/master/Losetta.Runtime/Alice.Random.cs)
 
 #### random_int()
 
@@ -20,6 +21,13 @@ public number random_int();
 |戻り値| |
 |-|-|
 |`number`|`-2147483648`以上`2147483647`未満の整数。|
+
+???note "対応: Alice2.0以降"
+    |対応||
+    |---|---|
+    |AliceScript|2.0、2.1、2.2、2.3、3.0|
+    |AliceSister|2.0、2.1、2.2、2.3、3.0|
+    |Losetta|0.9、0.10|
 
 #### random_int(number)
 
@@ -38,9 +46,16 @@ number random_int(number max);
 |-|-|
 |`number`|`-2147483648`以上`max`未満の整数。|
 
-!!!note "実装に関する注意"
-    このオーバーロードはAliceSisterでは実装されていません。
-    それらの環境では`0x034 NOT_IMPLEMENTED`例外がスローされます。
+???note "対応: Alice2.0以降、AliceScriptとLosettaのみ"
+    |対応||
+    |---|---|
+    |AliceScript|2.0、2.1、2.2、2.3、3.0|
+    |AliceSister|該当なし|
+    |Losetta|0.9、0.10|
+
+    この関数はAliceSisterでは実装されていません。
+
+    実装されていない環境では`0x034 NOT_IMPLEMENTED`例外がスローされます。
 
 #### random_int(number,number)
 
@@ -60,9 +75,16 @@ number random_int(number min, number max);
 |-|-|
 |`number`|`min`以上`max`未満の整数。つまり、戻り値の範囲に`min`は含まれますが`max`は含まれません。`min`が`max`と等しい場合は、`min`が返されます。|
 
-!!!note "実装に関する注意"
-    このオーバーロードはAliceSisterでは実装されていません。
-    それらの環境では`0x034 NOT_IMPLEMENTED`例外がスローされます。
+???note "対応: Alice2.0以降、AliceScriptとLosettaのみ"
+    |対応||
+    |---|---|
+    |AliceScript|2.0、2.1、2.2、2.3、3.0|
+    |AliceSister|該当なし|
+    |Losetta|0.9、0.10|
+
+    この関数はAliceSisterでは実装されていません。
+
+    実装されていない環境では`0x034 NOT_IMPLEMENTED`例外がスローされます。
 
 ### 説明
 乱数を生成するには、この関数を使用することをオススメします。

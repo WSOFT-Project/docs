@@ -3,12 +3,10 @@ title: function
 summary: 関数を定義します。
 date : 2022-01-15
 ---
+
 ### 定義
-名前空間:Alice / アセンブリ : Losetta.Runtime.dll / サポート: AliceScript1
-
-属性: 関数の区切りの空白をサポート、言語構造
-
-指定された引数と処理を含む関数を定義します。
+名前空間: Alice<br/>
+アセンブリ: Losetta.dll
 
 ```cs title="AliceScript"
 namespace Alice;
@@ -22,6 +20,15 @@ public .command void function string funcName(params type args)
 |-|-|
 |`funcName`| 定義する関数の識別子。|
 |`params type args`| 定義する関数に付与する引数と型（必要な場合）|
+
+???note "対応: AliceScript RC1以降、Alice2.3まで"
+    |対応||
+    |---|---|
+    |AliceScript|RC1、RC2、GM、2.0、2.1、2.2、2.3|
+    |AliceSister|GM、2.0、2.1、2.2、2.3|
+    |Losetta|0.8、0.9|
+    
+    Alice2.3以降では`function`はキーワードとして定義されます。
 
 ### 基本
 関数は、クラスやスコープ内で修飾子（overrideやvirtualなど）とともに、関数の名前および引数を指定して宣言されます。

@@ -4,9 +4,9 @@ summary: 指定された絶対値と符号の値を返します。
 ---
 
 ### 定義
-名前空間:Alice.Math / アセンブリ : Losetta.Runtime.dll / サポート: Alice3.0
-
-属性: 関数
+名前空間: Alice.Math<br/>
+アセンブリ: Losetta.Runtime.dll<br/>
+ソースコード: [Alice.Math.cs](https://github.com/WSOFT-Project/Losetta/blob/master/Losetta.Runtime/Alice.Math.cs)
 
 #### math_copySign(number,number)
 
@@ -25,6 +25,13 @@ public number math_copySign(number value, number sign);
 |戻り値| |
 |-|-|
 |`number`|`value`の絶対値と符号`sign`の値。|
+
+???note "対応: Alice3.0以降"
+    |対応||
+    |---|---|
+    |AliceScript|3.0|
+    |AliceSister|3.0|
+    |Losetta|0.10|
 
 ### 例
 以下に、この関数を使用したいくつかの例を示します。

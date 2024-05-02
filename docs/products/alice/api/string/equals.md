@@ -4,15 +4,21 @@ long_title : string.Equals
 summary: この文字列と、指定した文字列が同一かどうかを判断します
 date : 2023-10-22
 ---
+
 ### 定義
-名前空間:Alice / アセンブリ : Losetta.dll / サポート: AliceScript3.0
+名前空間: Alice<br/>
+アセンブリ: Losetta.Runtime.dll<br/>
+ソースコード: [Alice.Core.String.cs](https://github.com/WSOFT-Project/Losetta/blob/master/Losetta.Runtime/Core/Extension/Alice.Core.String.cs)
+
+#### Equals(string)
 
 カルチャと大文字小文字を区別してこの文字列と、指定した文字列が同一かどうかを判断します
 
 ```cs title="AliceScript"
 namespace Alice;
-bool Equals(string item);
+public override bool Equals(string item);
 ```
+
 |引数| |
 |-|-|
 |`item`|この文字列と比較する文字列|
@@ -20,6 +26,15 @@ bool Equals(string item);
 |戻り値| |
 |-|-|
 |`bool`|`item`の値がこの文字列と同じ場合は`true`、それ以外の場合は`false`|
+
+???note "対応: AliceScript RC1以降"
+    |対応||
+    |---|---|
+    |AliceScript|RC1、RC2、GM、2.0、2.1、2.2、2.3、3.0|
+    |AliceSister|GM、2.0、2.1、2.2、2.3、3.0|
+    |Losetta|0.8、0.9、0.10|
+
+#### Equals(string,bool)
 
 大文字小文字を区別するかを指定して、この文字列と、指定した文字列が同一かどうかを判断します
 
@@ -36,6 +51,15 @@ bool Equals(string item,bool ignoreCase);
 |-|-|
 |`bool`|`item`の値がこの文字列と同じ場合は`true`、それ以外の場合は`false`|
 
+???note "対応: Alice3.0以降"
+    |対応||
+    |---|---|
+    |AliceScript|3.0|
+    |AliceSister|3.0|
+    |Losetta|0.10|
+
+#### Equals(string,bool,bool)
+
 大文字小文字の区別と、現在のカルチャを考慮するかを指定して、この文字列と指定した文字列が同一かどうかを判断します
 
 ```cs title="AliceScript"
@@ -51,6 +75,13 @@ bool Equals(string item, bool ignoreCase, bool considerCulture);
 |戻り値| |
 |-|-|
 |`bool`|`item`の値がこの文字列と同じ場合は`true`、それ以外の場合は`false`|
+
+???note "対応: Alice3.0以降"
+    |対応||
+    |---|---|
+    |AliceScript|3.0|
+    |AliceSister|3.0|
+    |Losetta|0.10|
 
 ### 説明
 このメソッドは既定では、カルチャを認識し、大文字小文字を区別して文字列を比較します。

@@ -3,19 +3,31 @@ title: Foreach
 long_title : array.Foreach
 summary: 現在の配列の各要素について、指定されたデリゲートを実行します
 ---
+
 ### 定義
-名前空間:Alice / アセンブリ : Losetta.dll / サポート: AliceScript1
+名前空間: Alice<br/>
+アセンブリ: Losetta.Runtime.dll<br/>
+ソースコード: [Alice.Core.Array.cs](https://github.com/WSOFT-Project/Losetta/blob/master/Losetta.Runtime/Core/Extension/Alice.Core.Array.cs)
+
+#### Foreach
 
 現在の配列の各要素について、指定されたデリゲートを実行します。デリゲートの第一引数にはその要素が渡されます。
 
 ```cs title="AliceScript"
 class Alice.Array;
-void Foreach(delegate task);
+public void Foreach(delegate predicate);
 ```
 
 |引数| |
 |-|-|
-|`task`|繰り返しを実行するデリゲート。第一引数にはその要素が渡されます。|
+|`predicate`|繰り返しを実行するデリゲート。第一引数にはその要素が渡されます。|
+
+???note "対応: Alice2.0以降"
+    |対応||
+    |---|---|
+    |AliceScript|2.0、2.1、2.2、2.3、3.0|
+    |AliceSister|2.0、2.1、2.2、2.3、3.0|
+    |Losetta|0.9、0.10|
 
 ### 例
 以下は、`1`、`2`、`3`がある配列の中身を順番に出力する例です。

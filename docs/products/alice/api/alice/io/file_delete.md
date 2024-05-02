@@ -3,10 +3,11 @@ title: file_delete
 summary: 指定したファイルを削除します
 date : 2021-07-28
 ---
-### 定義
-名前空間:Alice.IO / アセンブリ : Losetta.Runtime.dll / サポート: AliceScript1
 
-属性: 関数
+### 定義
+名前空間: Alice.IO<br/>
+アセンブリ: Losetta.Runtime.dll<br/>
+ソースコード: [Alice.IO.cs](https://github.com/WSOFT-Project/Losetta/blob/master/Losetta.Runtime/Alice.IO.cs)
 
 #### file_delete(string)
 
@@ -20,6 +21,13 @@ public void file_delete(string path);
 |引数| |
 |-|-|
 |`path`|削除するファイルへのパス|
+
+???note "対応: AliceScript RC1以降"
+    |対応||
+    |---|---|
+    |AliceScript|RC1、RC2、GM、2.0、2.1、2.2、2.3、3.0|
+    |AliceSister|GM、2.0、2.1、2.2、2.3、3.0|
+    |Losetta|0.8、0.9、0.10|
 
 ### 説明
 `path`には、相対パスと絶対パスのどちらを指定することもできます。

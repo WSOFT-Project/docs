@@ -3,8 +3,12 @@ title: ToNativeProperty
 long_title : type.ToNativeProperty
 summary: 現在の型をネイティブ型を表すオブジェクトに変換します
 ---
+
 ### 定義
-名前空間:Alice.Interpreter / アセンブリ : Losetta.dll / サポート: AliceScript2.1
+名前空間: Alice.Interpreter<br/>
+アセンブリ: Losetta.dll<br/>
+ソースコード: [TypeObject.cs](https://github.com/WSOFT-Project/Losetta/blob/master/Losetta/Objects/TypeObject.cs)
+
 
 現在の型をネイティブ型を表すオブジェクトに変換します
 
@@ -16,6 +20,13 @@ Type ToNativeProperty();
 |戻り値| |
 |-|-|
 |`variable`|ネイティブ型を表すオブジェクト|
+
+???note "対応: Alice2.1以降"
+    |対応||
+    |---|---|
+    |AliceScript|2.1、2.2、2.3、3.0|
+    |AliceSister|2.1、2.2、2.3、3.0|
+    |Losetta|0.8、0.9、0.10|
 
 ### 説明
 この関数では、文字列型などのネイティブ型を表していればそれを表すオブジェクトを、クラスなどの非ネイティブ型を表していれば`Object`を表す型を返します。

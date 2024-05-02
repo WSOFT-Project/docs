@@ -4,9 +4,9 @@ summary: 指定した数の対数を返します。
 ---
 
 ### 定義
-名前空間:Alice.Math / アセンブリ : Losetta.Runtime.dll / サポート: Alice3.0
-
-属性: 関数
+名前空間: Alice.Math<br/>
+アセンブリ: Losetta.Runtime.dll<br/>
+ソースコード: [Alice.Math.cs](https://github.com/WSOFT-Project/Losetta/blob/master/Losetta.Runtime/Alice.Math.cs)
 
 #### math_log(number)
 
@@ -25,6 +25,14 @@ public number math_log(number value);
 |-|-|
 |`number`|$\ln{value}$(または$\log_e{value}$)の値。ただし、`value`が`NaN`や負の値の場合は`NaN`、`0`の場合は`NegativeInfinity`、`PositiveInfinity`の場合は`PositiveInfinity`。|
 
+???note "対応: Alice3.0以降"
+    |対応||
+    |---|---|
+    |AliceScript|3.0|
+    |AliceSister|3.0|
+    |Losetta|0.10|
+
+#### math_log(number,number)
 
 指定した数値の指定した底での対数を返します。
 
@@ -41,6 +49,13 @@ number math_log(number value, number base);
 |戻り値| |
 |-|-|
 |`number`|$\log_{base}value$の値|
+
+???note "対応: Alice3.0以降"
+    |対応||
+    |---|---|
+    |AliceScript|3.0|
+    |AliceSister|3.0|
+    |Losetta|0.10|
 
 ### 説明
 この関数は、$\log_{base} value$の値を求めます。

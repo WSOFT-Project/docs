@@ -3,10 +3,11 @@ title: web_send_ping
 summary: 指定したコンピューターping要求を送信し、適切な応答が返って来たかどうかを表す値を取得します。
 date : 2021-08-26
 ---
-### 定義
-名前空間:Alice.Net / アセンブリ : Losetta.Runtime.dll / サポート: AliceScript1
 
-属性: 関数
+### 定義
+名前空間: Alice.Net<br/>
+アセンブリ: Losetta.Runtime.dll<br/>
+ソースコード: [Alice.Net.cs](https://github.com/WSOFT-Project/Losetta/blob/master/Losetta.Runtime/Alice.Net.cs)
 
 #### web_send_ping(string,number)
 
@@ -25,6 +26,13 @@ public bool web_send_ping(string target, number timeout=5000);
 |戻り値| |
 |-|-|
 |`bool`| コンピューターから適切な応答が返ってくればTrue、それ以外の場合はFalse。|
+
+???note "対応: AliceScript RC1以降"
+    |対応||
+    |---|---|
+    |AliceScript|RC1、RC2、GM、2.0、2.1、2.2、2.3、3.0|
+    |AliceSister|GM、2.0、2.1、2.2、2.3、3.0|
+    |Losetta|0.8、0.9、0.10|
 
 ### 例
 次の例では、`localhost`にping要求を送信し、成功したかどうかを表示します。

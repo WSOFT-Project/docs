@@ -4,9 +4,9 @@ summary: 指定した数値が素数であるかを表す値を取得します�
 ---
 
 ### 定義
-名前空間:Alice.Math / アセンブリ : Losetta.Runtime.dll / サポート: AliceScript1
-
-属性: 関数
+名前空間: Alice.Math<br/>
+アセンブリ: Losetta.Runtime.dll<br/>
+ソースコード: [Alice.Math.cs](https://github.com/WSOFT-Project/Losetta/blob/master/Losetta.Runtime/Alice.Math.cs)
 
 #### math_isPrime(number)
 
@@ -24,6 +24,13 @@ public bool math_isPrime(number value);
 |戻り値| |
 |-|-|
 |`number`|`value`が素数であれば`true`、それ以外の場合は`false`。|
+
+???note "対応: AliceScript RC1以降"
+    |対応||
+    |---|---|
+    |AliceScript|RC1、RC2、GM、2.0、2.1、2.2、2.3、3.0|
+    |AliceSister|GM、2.0、2.1、2.2、2.3、3.0|
+    |Losetta|0.8、0.9、0.10|
 
 ### 説明
 素数は、`1`とその数自身のみを約数に持つ数と定義されています。

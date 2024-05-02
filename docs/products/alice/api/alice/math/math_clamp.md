@@ -4,9 +4,9 @@ summary: 指定された範囲内に数値を制約します
 ---
 
 ### 定義
-名前空間:Alice.Math / アセンブリ : Losetta.Runtime.dll / サポート: Alice2.0
-
-属性: 関数
+名前空間: Alice.Math<br/>
+アセンブリ: Losetta.Runtime.dll<br/>
+ソースコード: [Alice.Math.cs](https://github.com/WSOFT-Project/Losetta/blob/master/Losetta.Runtime/Alice.Math.cs)
 
 #### math_clamp(number,number,number)
 
@@ -26,6 +26,13 @@ public number math_clamp(number value, number min, number max);
 |戻り値| |
 |-|-|
 |`number`|`min`≤`value`≤`max`の場合は`value`が、どちらかの範囲に逸脱する場合はその範囲の最大最小値が返されます。|
+
+???note "対応: Alice2.0以降"
+    |対応||
+    |---|---|
+    |AliceScript|2.0、2.1、2.2、2.3、3.0|
+    |AliceSister|2.0、2.1、2.2、2.3、3.0|
+    |Losetta|0.9、0.10|
 
 ### 説明
 この関数は、指定された値を範囲内に制限するために使用します。
