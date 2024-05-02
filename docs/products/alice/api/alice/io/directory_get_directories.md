@@ -1,21 +1,27 @@
 ---
-title: directory_getDirectories
+title: directory_get_directories
 summary: 指定した条件を満たすサブディレクトリへのパスのリストを返します。
+date : 2024-05-02
+draft : true
 ---
+
+!!!info "プレビュー"
+    この記事では、現在開発中のAlice vNEXTに実装される予定のAPIについて説明しています。
+    このAPIは予告なく削除および変更される可能性があります。
 
 ### 定義
 名前空間: Alice.IO<br/>
 アセンブリ: Losetta.Runtime.dll<br/>
 ソースコード: [Alice.IO.cs](https://github.com/WSOFT-Project/Losetta/blob/master/Losetta.Runtime/Alice.IO.cs)
 
-#### directory_getDirectories(string)
+#### directory_get_directories(string)
 
 指定したディレクトリ内のサブディレクトリへのパスのリストを返します。
 
 ```cs title="AliceScript"
 namespace Alice.IO;
 #obsolete "directory_get_directoriesを使用してください"
-public string[] directory_getDirectories(string path);
+public string[] directory_get_directories(string path);
 ```
 
 |引数| |
@@ -26,21 +32,21 @@ public string[] directory_getDirectories(string path);
 |-|-|
 |`string[]`|指定したディレクトリ内のサブディレクトリへのパスの配列。ただし、サブディレクトリが見つからない場合は空の配列|
 
-???note "対応: AliceScript RC1以降"
+???note "対応: 未実装"
     |対応||
     |---|---|
-    |AliceScript|RC1、RC2、GM、2.0、2.1、2.2、2.3、3.0|
-    |AliceSister|GM、2.0、2.1、2.2、2.3、3.0|
-    |Losetta|0.8、0.9、0.10|
+    |AliceScript||
+    |AliceSister||
+    |Losetta||
 
-#### directory_getDirectories(string,string)
+#### directory_get_directories(string,string)
 
 指定したディレクトリ内の指定したパターンに一致するサブディレクトリへのパスのリストを返します。
 
 ```cs title="AliceScript"
 namespace Alice.IO;
 #obsolete "directory_get_directoriesを使用してください"
-public string[] directory_getDirectories(string path, string pattern);
+public string[] directory_get_directories(string path, string pattern);
 ```
 
 |引数| |
@@ -52,21 +58,21 @@ public string[] directory_getDirectories(string path, string pattern);
 |-|-|
 |`string[]`|指定したディレクトリ内の検索パターンに一致するサブディレクトリへのパスの配列。ただし、サブディレクトリが見つからない場合は空の配列|
 
-???note "対応: AliceScript RC1以降"
+???note "対応: 未実装"
     |対応||
     |---|---|
-    |AliceScript|RC1、RC2、GM、2.0、2.1、2.2、2.3、3.0|
-    |AliceSister|GM、2.0、2.1、2.2、2.3、3.0|
-    |Losetta|0.8、0.9、0.10|
+    |AliceScript||
+    |AliceSister||
+    |Losetta||
 
-#### directory_getDirectories(string,string,bool)
+#### directory_get_directories(string,string,bool)
 
 指定したディレクトリ内の指定したパターンに一致するサブディレクトリへのパスのリストを返します。
 
 ```cs title="AliceScript"
 namespace Alice.IO;
 #obsolete "directory_get_directoriesを使用してください"
-public string[] directory_getDirectories(string path, string pattern, bool searchSubDir);
+public string[] directory_get_directories(string path, string pattern, bool searchSubDir);
 ```
 
 |引数| |
@@ -79,12 +85,12 @@ public string[] directory_getDirectories(string path, string pattern, bool searc
 |-|-|
 |`string[]`|指定したディレクトリ内の検索パターンに一致するサブディレクトリへのパスの配列。ただし、サブディレクトリが見つからない場合は空の配列|
 
-???note "対応: AliceScript RC1以降"
+???note "対応: 未実装"
     |対応||
     |---|---|
-    |AliceScript|RC1、RC2、GM、2.0、2.1、2.2、2.3、3.0|
-    |AliceSister|GM、2.0、2.1、2.2、2.3、3.0|
-    |Losetta|0.8、0.9、0.10|
+    |AliceScript||
+    |AliceSister||
+    |Losetta||
 
 ### 説明
 
@@ -108,7 +114,7 @@ public string[] directory_getDirectories(string path, string pattern, bool searc
 ```cs title="AliceScript"
 using Alice.IO;
 
-var dirs = directory_getDirectories("test");
+var dirs = directory_get_directories("test");
 print(dirs);
 ```
 
@@ -117,6 +123,6 @@ print(dirs);
 ```cs title="AliceScript"
 using Alice.IO;
 
-var dirs = directory_getDirectories("test","tmp*");
+var dirs = directory_get_directories("test","tmp*");
 print(dirs);
 ```
