@@ -35,7 +35,7 @@ public number math_acosh(number value);
 ### 説明
 `math_acosh()`関数は、引数として与えられた数値の逆双曲線余弦（ハイパーポリックコサイン）をラジアン単位で返します。
 
-この関数に入力する`value`の値は$0<value<\infin$である必要があります。
+この関数に入力する`value`の値は$0<value<\infty$である必要があります。
 
 取得した弧度法でのラジアンを角度に変換するには、角度に180 / [math_pi](./math_pi.md)を乗算します。
 

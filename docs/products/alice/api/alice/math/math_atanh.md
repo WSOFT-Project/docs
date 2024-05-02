@@ -23,7 +23,7 @@ public number math_atanh(number value);
 
 |戻り値| |
 |-|-|
-|`number`|弧度法で$-\infin < \theta < -1$ または $1<\theta < \infin$の範囲内の角度。ただし、value < -1$または$value > 1$、`value`が[NaN](./math_isnan.md)の場合は`NaN`|
+|`number`|弧度法で$-\infty < \theta < -1$ または $1<\theta < \infty$の範囲内の角度。ただし、value < -1$または$value > 1$、`value`が[NaN](./math_isnan.md)の場合は`NaN`|
 
 ???note "対応: AliceScript RC1以降"
     |対応||

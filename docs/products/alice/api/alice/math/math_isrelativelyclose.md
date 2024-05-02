@@ -48,9 +48,9 @@ public bool math_isRelativelyClose(number x, number y, number tolerance = 1E-9) 
 条件|結果
 ---|---
 $x=$`NaN`または$y=$`NaN`|等しくない(`false`)
-$x=\plusmn\infin$かつ$y\neq\plusmn\infin$|等しくない(`false`)
-$x\neq\plusmn\infin$かつ$y=\plusmn\infin$|等しくない(`false`)
-$x=\plusmn\infin$かつ$y=\plusmn\infin$|x,yが同符号の場合のみ等しい(`x==y`)
+$x=\pm\infty$かつ$y\neq\pm\infty$|等しくない(`false`)
+$x\neq\pm\infty$かつ$y=\pm\infty$|等しくない(`false`)
+$x=\pm\infty$かつ$y=\pm\infty$|x,yが同符号の場合のみ等しい(`x==y`)
 $x=y$|等しい(`true`)
 $x>y$|$x\times tolerance \geq (x - y)$
 $x<y$|$y\times tolerance \geq (y - x)$
