@@ -64,7 +64,7 @@ public Process exec(string fileName, string arguments, bool waitForExit = true, 
 
 ### 説明
 
-!!!important "重要"
+!!!warning "重要"
     信頼できない入力値を使用してこの関数を呼び出すと、セキュリティ上のリスクが生じます。
     この関数は、信頼できる入力値のみを用いて呼び出してください。
 
