@@ -20,7 +20,6 @@ draft : true
 
 ```cs title="AliceScript"
 namespace Alice.IO;
-#obsolete "directory_get_directoriesを使用してください"
 public string[] directory_get_directories(string path);
 ```
 
@@ -30,7 +29,7 @@ public string[] directory_get_directories(string path);
 
 |戻り値| |
 |-|-|
-|`string[]`|指定したディレクトリ内のサブディレクトリへのパスの配列。ただし、サブディレクトリが見つからない場合は空の配列|
+|`string[]`|指定したディレクトリ内のサブディレクトリへのパスの配列。ただし、条件に一致するサブディレクトリが見つからない場合は空の配列|
 
 ???note "対応: 未実装"
     |対応||
@@ -45,7 +44,6 @@ public string[] directory_get_directories(string path);
 
 ```cs title="AliceScript"
 namespace Alice.IO;
-#obsolete "directory_get_directoriesを使用してください"
 public string[] directory_get_directories(string path, string pattern);
 ```
 
@@ -56,7 +54,7 @@ public string[] directory_get_directories(string path, string pattern);
 
 |戻り値| |
 |-|-|
-|`string[]`|指定したディレクトリ内の検索パターンに一致するサブディレクトリへのパスの配列。ただし、サブディレクトリが見つからない場合は空の配列|
+|`string[]`|指定したディレクトリ内のサブディレクトリへのパスの配列。ただし、条件に一致するサブディレクトリが見つからない場合は空の配列|
 
 ???note "対応: 未実装"
     |対応||
@@ -71,7 +69,6 @@ public string[] directory_get_directories(string path, string pattern);
 
 ```cs title="AliceScript"
 namespace Alice.IO;
-#obsolete "directory_get_directoriesを使用してください"
 public string[] directory_get_directories(string path, string pattern, bool searchSubDir);
 ```
 
@@ -83,7 +80,7 @@ public string[] directory_get_directories(string path, string pattern, bool sear
 
 |戻り値| |
 |-|-|
-|`string[]`|指定したディレクトリ内の検索パターンに一致するサブディレクトリへのパスの配列。ただし、サブディレクトリが見つからない場合は空の配列|
+|`string[]`|指定したディレクトリ内のサブディレクトリへのパスの配列。ただし、条件に一致するサブディレクトリが見つからない場合は空の配列|
 
 ???note "対応: 未実装"
     |対応||
@@ -91,6 +88,42 @@ public string[] directory_get_directories(string path, string pattern, bool sear
     |AliceScript||
     |AliceSister||
     |Losetta||
+
+#### directory_get_directories(string,string,bool,bool,bool,bool,bool,number,number)
+
+指定したディレクトリ内の指定したパターンに一致するサブディレクトリへのパスのリストを返します。
+
+```cs title="AliceScript"
+namespace Alice.IO;
+public string[] directory_get_directories(string path, string pattern, bool searchSubDir, bool? matchCasing = null, bool matchByWin32Style = false, bool returnSpecialDirectories = false, bool ignoreInaccessible = true, number maxRecursionDepth = 2147483647, number bufferSize = 0);
+```
+
+|引数| |
+|-|-|
+|`path`|検索するディレクトリへのパス|
+|`pattern`|見つかったサブディレクトリの名前と比較するパターン。ワイルドカードを使用できますが、正規表現は使用できません|
+|`searchSubDir`|すべてのサブディレクトリを含める場合は`true`、`path`で指定されたディレクトリのみを検索する場合は`false`|
+|`matchCasing`|`pattern`を大文字と小文字を区別して比較する場合は`true`、区別しない場合は`false`、実行しているプラットフォームの規定値を使用する場合は`null`。この引数の規定値は`null`です。|
+|`matchByWin32Style`|Windowsスタイルの複雑なパターンマッチを使用する場合は`true`、それ以外の場合は`false`。この引数の規定値は`false`です。|
+|`returnSpecialDirectories`|検索結果に`.`と`..`を含める場合は`true`、それ以外の場合は`false`。この引数の規定値は`false`です。|
+|`ignoreInaccessible`|アクセスが拒否されたときに例外を発生させず検索を続ける場合は`true`、それ以外の場合は`false`。この引数の規定値は`true`です。|
+|`maxRecursionDepth`|再帰的にサブディレクトリを探索するとき、探索する最大深さ。この引数の規定値および最大値は`2147483647`です。|
+|`bufferSize`|ディレクトリの探索に使用する既定のバッファサイズ(バイト単位)。この引数の規定値は`0`です。|
+
+|戻り値| |
+|-|-|
+|`string[]`|指定したディレクトリ内のサブディレクトリへのパスの配列。ただし、条件に一致するサブディレクトリが見つからない場合は空の配列|
+
+???note "対応: 未実装、AliceScriptとLosettaのみ"
+    |対応||
+    |---|---|
+    |AliceScript||
+    |AliceSister||
+    |Losetta||
+
+    この関数はAliceSisterでは実装されていません。
+
+    実装されていない環境では`0x034 NOT_IMPLEMENTED`例外がスローされます。
 
 ### 説明
 
@@ -107,6 +140,25 @@ public string[] directory_get_directories(string path, string pattern, bool sear
 
 上記のワイルドカード以外の文字は、すべてリテラル文字です。
 たとえば、`dir_*`は`dir_`から始まるすべてのディレクトリを検索します。
+
+また、`pattern`の末尾をピリオド2つにしてはいけません。
+
+#### AliceSisterでの特殊な挙動
+
+`pattern`にアスタリスク(`*`)を使ったワイルドカードを使用し、かつ3文字の拡張子(`*.txt`など)を指定すると、この関数は、指定した拡張子で始まる拡張子を持つファイルも返します。たとえば、`*.xls`というパターンでは、`book.xls`と`book.xlsx`の両方を返します。
+
+これは、Windowsがユーザーに見える「長いファイル名」と別に8.3形式と呼ばれる「短いファイル名」を持たせていることに由来します。Windowsではファイル名が8文字を超えたり、拡張子が3文字を超えるファイルについて、通常のファイル名と別に短いファイル名を自動的に付与します。
+
+AliceSisterでのこの関数は、長いファイル名と8.3形式の短いファイル名の両方をチェックするため、8.3形式ではないファイル名に意図せずマッチしてしまう可能性があります。次の表に、AliceSisterとそれ以外の実装でマッチするファイルを示します。
+
+ディレクトリ内のファイル|検索パターン|Losettaでの戻り値|AliceSisterでの戻り値
+---|---|---|---
+file.ai、file.aif|*.ai|file.ai|file.ai
+book.xls、book.xlsx|*.xls|book.xls|book.xls、book.xlsx
+file.ai、file.aif|????.ai|file.ai|file.ai
+book.xls、book.xlsx|????.xls|book.xls|book.xls
+
+AliceScriptおよびAliceSisterでは、この問題は発生しません。
 
 ### 例
 次の例では、`test`というディレクトリ内に存在するすべてのディレクトリを表示しています。

@@ -1,7 +1,7 @@
 ---
-title: directory_get_files
-summary: 指定した条件を満たすファイルへのパスのリストを返します。
-date : 2024-05-02
+title: directory_get_entries
+summary: 指定した条件を満たすファイルおよびディレクトリへのパスのリストを返します。
+date : 2024-05-05
 draft : true
 ---
 
@@ -14,13 +14,13 @@ draft : true
 アセンブリ: Losetta.Runtime.dll<br/>
 ソースコード: [Alice.IO.cs](https://github.com/WSOFT-Project/Losetta/blob/master/Losetta.Runtime/Alice.IO.cs)
 
-#### directory_get_files(string)
+#### directory_get_entries(string)
 
-指定したディレクトリ内のファイルへのパスのリストを返します。
+指定したディレクトリ内のファイルおよびディレクトリへのパスのリストを返します。
 
 ```cs title="AliceScript"
 namespace Alice.IO;
-public string[] directory_get_files(string path);
+public string[] directory_get_entries(string path);
 ```
 
 |引数| |
@@ -29,7 +29,7 @@ public string[] directory_get_files(string path);
 
 |戻り値| |
 |-|-|
-|`string[]`|指定したディレクトリ内のファイルへのパスの配列。ただし、条件に一致するファイルが見つからない場合は空の配列。|
+|`string[]`|指定したディレクトリ内のファイルおよびディレクトリへのパスの配列。ただし、条件に一致するファイルエントリが見つからない場合は空の配列|
 
 ???note "対応: 未実装"
     |対応||
@@ -38,13 +38,13 @@ public string[] directory_get_files(string path);
     |AliceSister||
     |Losetta||
 
-#### directory_get_files(string,string)
+#### directory_get_entries(string,string)
 
-指定したディレクトリ内の指定したパターンに一致するファイルへのパスのリストを返します。
+指定したディレクトリ内の指定したパターンに一致するファイルおよびディレクトリへのパスのリストを返します。
 
 ```cs title="AliceScript"
 namespace Alice.IO;
-public string[] directory_get_files(string path, string pattern);
+public string[] directory_get_entries(string path, string pattern);
 ```
 
 |引数| |
@@ -54,7 +54,7 @@ public string[] directory_get_files(string path, string pattern);
 
 |戻り値| |
 |-|-|
-|`string[]`|指定したディレクトリ内のファイルへのパスの配列。ただし、条件に一致するファイルが見つからない場合は空の配列。|
+|`string[]`|指定したディレクトリ内のファイルおよびディレクトリへのパスの配列。ただし、条件に一致するファイルエントリが見つからない場合は空の配列|
 
 ???note "対応: 未実装"
     |対応||
@@ -63,13 +63,13 @@ public string[] directory_get_files(string path, string pattern);
     |AliceSister||
     |Losetta||
 
-#### directory_get_files(string,string,bool)
+#### directory_get_entries(string,string,bool)
 
-指定したディレクトリ内の指定したパターンに一致するファイルへのパスのリストを返します。
+指定したディレクトリ内の指定したパターンに一致するファイルおよびディレクトリへのパスのリストを返します。
 
 ```cs title="AliceScript"
 namespace Alice.IO;
-public string[] directory_get_files(string path, string pattern, bool searchSubDir);
+public string[] directory_get_entries(string path, string pattern, bool searchSubDir);
 ```
 
 |引数| |
@@ -80,7 +80,7 @@ public string[] directory_get_files(string path, string pattern, bool searchSubD
 
 |戻り値| |
 |-|-|
-|`string[]`|指定したディレクトリ内のファイルへのパスの配列。ただし、条件に一致するファイルが見つからない場合は空の配列。|
+|`string[]`|指定したディレクトリ内のファイルおよびディレクトリへのパスの配列。ただし、条件に一致するファイルエントリが見つからない場合は空の配列|
 
 ???note "対応: 未実装"
     |対応||
@@ -89,13 +89,13 @@ public string[] directory_get_files(string path, string pattern, bool searchSubD
     |AliceSister||
     |Losetta||
 
-#### directory_get_files(string,string,bool,bool,bool,bool,bool,number,number)
+#### directory_get_entries(string,string,bool,bool,bool,bool,bool,number,number)
 
-指定したディレクトリ内の指定したパターンに一致するファイルへのパスのリストを返します。
+指定したディレクトリ内の指定したパターンに一致するファイルおよびディレクトリへのパスのリストを返します。
 
 ```cs title="AliceScript"
 namespace Alice.IO;
-public string[] directory_get_files(string path, string pattern, bool searchSubDir, bool? matchCasing = null, bool matchByWin32Style = false, bool returnSpecialDirectories = false, bool ignoreInaccessible = true, number maxRecursionDepth = 2147483647, number bufferSize = 0);
+public string[] directory_get_entries(string path, string pattern, bool searchSubDir, bool? matchCasing = null, bool matchByWin32Style = false, bool returnSpecialDirectories = false, bool ignoreInaccessible = true, number maxRecursionDepth = 2147483647, number bufferSize = 0);
 ```
 
 |引数| |
@@ -112,7 +112,7 @@ public string[] directory_get_files(string path, string pattern, bool searchSubD
 
 |戻り値| |
 |-|-|
-|`string[]`|指定したディレクトリ内のファイルへのパスの配列。ただし、条件に一致するファイルが見つからない場合は空の配列。|
+|`string[]`|指定したディレクトリ内のファイルおよびディレクトリへのパスの配列。ただし、条件に一致するファイルエントリが見つからない場合は空の配列|
 
 ???note "対応: 未実装、AliceScriptとLosettaのみ"
     |対応||
@@ -159,20 +159,11 @@ book.xls、book.xlsx|????.xls|book.xls|book.xls
 AliceScriptおよびAliceSisterでは、この問題は発生しません。
 
 ### 例
-次の例では、`test`というディレクトリ内に存在するすべてのファイルを表示しています。
+次の例では、`test`というディレクトリ内に存在するすべてのファイルとディレクトリ
 
 ```cs title="AliceScript"
 using Alice.IO;
 
-var files = directory_get_Files("test");
-print(files);
-```
-
-次の例では、`test`というディレクトリ内に存在し、`.txt`で終わるすべてのファイルを表示しています。
-
-```cs title="AliceScript"
-using Alice.IO;
-
-var files = directory_get_Files("test","*.txt");
+var files = directory_get_entries("test");
 print(files);
 ```

@@ -102,6 +102,23 @@ public string[] directory_getFiles(string path, string pattern, bool searchSubDi
 上記のワイルドカード以外の文字は、すべてリテラル文字です。
 たとえば、`dir_*`は`dir_`から始まるすべてのディレクトリを検索します。
 
+#### AliceSisterでの特殊な挙動
+
+`pattern`にアスタリスク(`*`)を使ったワイルドカードを使用し、かつ3文字の拡張子(`*.txt`など)を指定すると、この関数は、指定した拡張子で始まる拡張子を持つファイルも返します。たとえば、`*.xls`というパターンでは、`book.xls`と`book.xlsx`の両方を返します。
+
+これは、Windowsがユーザーに見える「長いファイル名」と別に8.3形式と呼ばれる「短いファイル名」を持たせていることに由来します。Windowsではファイル名が8文字を超えたり、拡張子が3文字を超えるファイルについて、通常のファイル名と別に短いファイル名を自動的に付与します。
+
+AliceSisterでのこの関数は、長いファイル名と8.3形式の短いファイル名の両方をチェックするため、8.3形式ではないファイル名に意図せずマッチしてしまう可能性があります。次の表に、AliceSisterとそれ以外の実装でマッチするファイルを示します。
+
+ディレクトリ内のファイル|検索パターン|Losettaでの戻り値|AliceSisterでの戻り値
+---|---|---|---
+file.ai、file.aif|*.ai|file.ai|file.ai
+book.xls、book.xlsx|*.xls|book.xls|book.xls、book.xlsx
+file.ai、file.aif|????.ai|file.ai|file.ai
+book.xls、book.xlsx|????.xls|book.xls|book.xls
+
+AliceScriptおよびAliceSisterでは、この問題は発生しません。
+
 ### 例
 次の例では、`test`というディレクトリ内に存在するすべてのファイルを表示しています。
 
