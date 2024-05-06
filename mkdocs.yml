@@ -49,6 +49,9 @@ plugins:
         enabled: true
 
 markdown_extensions:
+    - lantana
+    - lantana.alerts2
+    - lantana.selector
     - lantana.extensions.mdx_embedly
     - lantana.extensions.mdx_wsid
     - attr_list
@@ -81,4 +84,3 @@ markdown_extensions:
     - lantana.link_opennewtab
     - lantana.alerts
     - lantana.accordion
-    - lantana
