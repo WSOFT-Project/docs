@@ -37,7 +37,7 @@ goto :end
 :mkdocs_notfound
 echo Mkdocs Doesn't exist!
 echo Now installing...
-pip3 install --no-cache-dir lantana==2.9.7
+pip3 install --no-cache-dir lantana==2.9.8.1
 goto :build
 
 :pip_notfound
