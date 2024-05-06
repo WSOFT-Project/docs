@@ -1,0 +1,1 @@
+pip3 install --no-cache-dir lantana==2.9.8.1

@@ -21,7 +21,7 @@ fi
 
 if !(type "mkdocs" > /dev/null 2>&1); then
     echo "MkDocs Doesn't exist! Install now."
-    pip3 install --no-cache-dir lantana==2.9.8.1
+    . install.sh
 fi
 
 
