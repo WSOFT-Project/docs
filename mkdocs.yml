@@ -50,7 +50,7 @@ plugins:
 
 markdown_extensions:
     - lantana
-    - lantana.alert2
+    - lantana.alerts2
     - lantana.selector
     - lantana.extensions.mdx_embedly
     - lantana.extensions.mdx_wsid
