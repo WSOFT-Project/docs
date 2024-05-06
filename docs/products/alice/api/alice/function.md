@@ -4,6 +4,10 @@ summary: 関数を定義します。
 date : 2022-01-15
 ---
 
+> [!SELECTOR] 対象バージョンを選択
+> [Alice2.3以前](./function.md)
+> [Alice3.0以降](../../general/function.md)
+
 ### 定義
 名前空間: Alice<br/>
 アセンブリ: Losetta.dll
