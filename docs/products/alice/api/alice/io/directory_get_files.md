@@ -5,9 +5,15 @@ date : 2024-05-02
 draft : true
 ---
 
-!!!info "プレビュー"
-    この記事では、現在開発中のAlice vNEXTに実装される予定のAPIについて説明しています。
-    このAPIは予告なく削除および変更される可能性があります。
+> [!IMPORTANT] プレビュー
+> この記事では、現在開発中のAlice vNEXTに実装される予定のAPIについて説明しています。
+> このAPIは予告なく削除および変更される可能性があります。
+
+> [!SELECTOR] 対象バージョンを選択
+> [Alice2.3以前](./directory_getfiles.md.md)
+> [Alice3.0以降](./directory_get_files.md)
+
+<br/>
 
 ### 定義
 名前空間: Alice.IO<br/>
