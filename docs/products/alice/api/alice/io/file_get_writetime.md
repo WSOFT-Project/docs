@@ -5,16 +5,16 @@ date : 2024-05-02
 draft : true
 ---
 
-> [!IMPORTANT] プレビュー
-> この記事では、現在開発中のAlice vNEXTに実装される予定のAPIについて説明しています。
-> このAPIは予告なく削除および変更される可能性があります。
-
 ### 定義
 名前空間: Alice.IO<br/>
 アセンブリ: Losetta.Runtime.dll<br/>
 ソースコード: [Alice.IO.cs](https://github.com/WSOFT-Project/Losetta/blob/master/Losetta.Runtime/Alice.IO.cs)
 
 #### file_get_writeTime(string)
+
+> [!IMPORTANT] プレビュー
+> この記事では、現在開発中のAlice vNEXTに実装される予定のAPIについて説明しています。
+> このAPIは予告なく削除および変更される可能性があります。
 
 指定したファイルまたはディレクトリに最後に書き込んだ日時を取得します。
 
@@ -39,6 +39,10 @@ public DateTime file_get_writeTime(string path);
     |Losetta||
 
 #### file_get_writeTime(string,bool)
+
+> [!IMPORTANT] プレビュー
+> この記事では、現在開発中のAlice vNEXTに実装される予定のAPIについて説明しています。
+> このAPIは予告なく削除および変更される可能性があります。
 
 日時をUTCで取得するか、現地時間で取得するかを指定して、指定したファイルまたはディレクトリに最後に書き込んだ日時を取得します。
 

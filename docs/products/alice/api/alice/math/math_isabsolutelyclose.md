@@ -5,16 +5,17 @@ date : 2024-05-02
 draft : true
 ---
 
-> [!IMPORTANT] プレビュー
-> この記事では、現在開発中のAlice vNEXTに実装される予定のAPIについて説明しています。
-> このAPIは予告なく削除および変更される可能性があります。
-
 ### 定義
+
 名前空間: Alice.Math<br/>
 アセンブリ: Losetta.Runtime.dll<br/>
 ソースコード: [Alice.Math.cs](https://github.com/WSOFT-Project/Losetta/blob/master/Losetta.Runtime/Alice.Math.cs)
 
 #### math_isAbsolutelyClose(number,number,number)
+
+> [!IMPORTANT] プレビュー
+> この記事では、現在開発中のAlice vNEXTに実装される予定のAPIについて説明しています。
+> このAPIは予告なく削除および変更される可能性があります。
 
 指定した2つの値が互いに近似しているどうかを表す値を取得します。
 

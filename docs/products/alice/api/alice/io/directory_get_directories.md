@@ -5,9 +5,7 @@ date : 2024-05-02
 draft : true
 ---
 
-> [!IMPORTANT] プレビュー
-> この記事では、現在開発中のAlice vNEXTに実装される予定のAPIについて説明しています。
-> このAPIは予告なく削除および変更される可能性があります。
+この関数には、古いバージョンがあります。
 
 > [!SELECTOR] 対象バージョンを選択
 > [Alice2.3以前](./directory_getdirectories.md)
@@ -21,6 +19,10 @@ draft : true
 ソースコード: [Alice.IO.cs](https://github.com/WSOFT-Project/Losetta/blob/master/Losetta.Runtime/Alice.IO.cs)
 
 #### directory_get_directories(string)
+
+> [!IMPORTANT] プレビュー
+> この記事では、現在開発中のAlice vNEXTに実装される予定のAPIについて説明しています。
+> このAPIは予告なく削除および変更される可能性があります。
 
 指定したディレクトリ内のサブディレクトリへのパスのリストを返します。
 
@@ -45,6 +47,10 @@ public string[] directory_get_directories(string path);
     |Losetta||
 
 #### directory_get_directories(string,string)
+
+> [!IMPORTANT] プレビュー
+> この記事では、現在開発中のAlice vNEXTに実装される予定のAPIについて説明しています。
+> このAPIは予告なく削除および変更される可能性があります。
 
 指定したディレクトリ内の指定したパターンに一致するサブディレクトリへのパスのリストを返します。
 
@@ -71,6 +77,10 @@ public string[] directory_get_directories(string path, string pattern);
 
 #### directory_get_directories(string,string,bool)
 
+> [!IMPORTANT] プレビュー
+> この記事では、現在開発中のAlice vNEXTに実装される予定のAPIについて説明しています。
+> このAPIは予告なく削除および変更される可能性があります。
+
 指定したディレクトリ内の指定したパターンに一致するサブディレクトリへのパスのリストを返します。
 
 ```cs title="AliceScript"
@@ -96,6 +106,10 @@ public string[] directory_get_directories(string path, string pattern, bool sear
     |Losetta||
 
 #### directory_get_directories(string,string,bool,bool,bool,bool,bool,number,number)
+
+> [!IMPORTANT] プレビュー
+> この記事では、現在開発中のAlice vNEXTに実装される予定のAPIについて説明しています。
+> このAPIは予告なく削除および変更される可能性があります。
 
 指定したディレクトリ内の指定したパターンに一致するサブディレクトリへのパスのリストを返します。
 

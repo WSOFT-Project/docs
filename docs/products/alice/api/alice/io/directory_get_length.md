@@ -5,16 +5,17 @@ date : 2024-05-02
 draft : true
 ---
 
-> [!IMPORTANT] プレビュー
-> この記事では、現在開発中のAlice vNEXTに実装される予定のAPIについて説明しています。
-> このAPIは予告なく削除および変更される可能性があります。
-
 ### 定義
+
 名前空間: Alice.IO<br/>
 アセンブリ: Losetta.Runtime.dll<br/>
 ソースコード: [Alice.IO.cs](https://github.com/WSOFT-Project/Losetta/blob/master/Losetta.Runtime/Alice.IO.cs)
 
 #### directory_get_length(string)
+
+> [!IMPORTANT] プレビュー
+> この記事では、現在開発中のAlice vNEXTに実装される予定のAPIについて説明しています。
+> このAPIは予告なく削除および変更される可能性があります。
 
 指定したディレクトリ内のファイルサイズの合計をバイト単位で取得します。
 

@@ -5,16 +5,16 @@ date : 2024-05-02
 draft : true
 ---
 
-> [!IMPORTANT] プレビュー
-> この記事では、現在開発中のAlice vNEXTに実装される予定のAPIについて説明しています。
-> このAPIは予告なく削除および変更される可能性があります。
-
 ### 定義
 名前空間: Alice.IO<br/>
 アセンブリ: Losetta.Runtime.dll<br/>
 ソースコード: [Alice.IO.cs](https://github.com/WSOFT-Project/Losetta/blob/master/Losetta.Runtime/Alice.IO.cs)
 
 #### file_set_creationTime(string,DateTime)
+
+> [!IMPORTANT] プレビュー
+> この記事では、現在開発中のAlice vNEXTに実装される予定のAPIについて説明しています。
+> このAPIは予告なく削除および変更される可能性があります。
 
 指定したファイルまたはディレクトリの作成日時を設定します。
 
@@ -36,6 +36,10 @@ public void file_set_creationTime(string path, DateTime creationTime);
     |Losetta||
 
 #### file_set_creationTime(string,DateTime,bool)
+
+> [!IMPORTANT] プレビュー
+> この記事では、現在開発中のAlice vNEXTに実装される予定のAPIについて説明しています。
+> このAPIは予告なく削除および変更される可能性があります。
 
 日時をUTCで設定するか、現地時間で設定するかを指定して、指定したファイルまたはディレクトリの作成日時を設定します。
 
