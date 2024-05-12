@@ -14,8 +14,8 @@ WebSailing NX 120以降のWebSailingでは、以下のように最新版のWebSa
 ![お知らせ](./media/6.png)
 
 ## WebSailingを最新版にアップデートする
-!!!tip "必要条件"
-    更新したいWebSailingが、[バージョン118](./1180.md)([WS276](https://download.wsoft.ws/WS00276))以前の場合は、まず[バージョン119](./1190.md)([WS277](https://download.wsoft.ws/WS00277))に手動でアップデートする必要があります。
+> [!IMPORTANT] 必要条件
+> 更新したいWebSailingが、[バージョン118](./1180.md)([WS276](https://download.wsoft.ws/WS00276))以前の場合は、まず[バージョン119](./1190.md)([WS277](https://download.wsoft.ws/WS00277))に手動でアップデートする必要があります。
 
 ### 1. 更新を確認する
 

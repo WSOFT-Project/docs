@@ -5,10 +5,6 @@ date : 2024-05-05
 draft : true
 ---
 
-!!!info "プレビュー"
-    この記事では、現在開発中のAlice vNEXTに実装される予定のAPIについて説明しています。
-    このAPIは予告なく削除および変更される可能性があります。
-
 ### 定義
 名前空間: Alice.IO<br/>
 アセンブリ: Losetta.Runtime.dll<br/>

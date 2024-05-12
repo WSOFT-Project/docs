@@ -37,9 +37,9 @@ public string path_get_fileName(string path);
 
 #### path_get_fileName(string)
 
-!!!info "プレビュー"
-    この記事では、現在開発中のAlice vNEXTに実装される予定のAPIについて説明しています。
-    このAPIは予告なく削除および変更される可能性があります。
+> [!IMPORTANT] プレビュー
+> この記事では、現在開発中のAlice vNEXTに実装される予定のAPIについて説明しています。
+> このAPIは予告なく削除および変更される可能性があります。
 
 指定したパスのファイル名を取得します。
 
