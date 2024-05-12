@@ -21,7 +21,7 @@ public number file_read_codePage(string path, bool fromPackage = false);
 |引数| |
 |-|-|
 |`path`|読み取るファイルへのパス|
-|`fromPackage`|ファイルを現在のパッケージから読み取る場合は`true`、ファイルシステムから読み取る場合は`false`。規定値は`false`です。|
+|`fromPackage`|ファイルを現在のパッケージから読み取る場合は`true`、ファイルシステムから読み取る場合は`false`。既定値は`false`です。|
 
 |戻り値| |
 |-|-|

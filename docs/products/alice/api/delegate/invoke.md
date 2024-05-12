@@ -24,7 +24,7 @@ public variable Invoke(params variable args);
 
 |戻り値| |
 |-|-|
-|`variable`|デリゲートの戻り値。規定値は`null`です。|
+|`variable`|デリゲートの戻り値。既定値は`null`です。|
 
 ???note "対応: AliceScript RC1以降"
     |対応||

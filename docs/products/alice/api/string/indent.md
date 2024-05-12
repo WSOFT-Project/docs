@@ -23,7 +23,7 @@ public string Indent(number indentLevel, string indentChar = " ");
 |引数| |
 |-|-|
 |`indentLevel`|字下げを行うレベル|
-|`padding`|字下げに使用する文字列。規定値は" "(空白文字)です。|
+|`padding`|字下げに使用する文字列。既定値は" "(空白文字)です。|
 
 |戻り値| |
 |-|-|

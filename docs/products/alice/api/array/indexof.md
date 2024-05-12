@@ -21,7 +21,7 @@ public void IndexOf(variable item,number startIndex = 0);
 |引数| |
 |-|-|
 |`item`|検索する対象の値|
-|`startIndex`|検索を開始するインデックス。規定値は`0`です。|
+|`startIndex`|検索を開始するインデックス。既定値は`0`です。|
 
 ???note "対応: AliceScript RC2以降"
     |対応||

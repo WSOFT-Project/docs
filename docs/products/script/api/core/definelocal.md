@@ -15,7 +15,7 @@ variable DefineLocal(string varName,variable item="");
 |引数| |
 |-|-|
 |`varName`|定義する変数名の文字列形式|
-|`item`|初期化に使用する値。この値は省略でき、規定値は空の文字列です。|
+|`item`|初期化に使用する値。この値は省略でき、既定値は空の文字列です。|
 
 |戻り値| |
 |-|-|

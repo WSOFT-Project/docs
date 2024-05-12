@@ -22,7 +22,7 @@ public void interpreter_append_output(variable item,bool isNewLine=false);
 |引数| |
 |-|-|
 |`item`|書き込むオブジェクト。|
-|`isNewLine`|書き込み後、標準出力に現在の環境で定義されている改行文字を書き込むかどうかを表す値。規定値は`false`です。|
+|`isNewLine`|書き込み後、標準出力に現在の環境で定義されている改行文字を書き込むかどうかを表す値。既定値は`false`です。|
 
 ???note "対応: AliceScript GM以降"
     |対応||

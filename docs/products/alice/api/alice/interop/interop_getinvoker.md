@@ -24,8 +24,8 @@ public delegate interop_getInvoker(string procName, string libraryName, string r
 |`libraryName`|対象の関数が定義されているファイル名|
 |`returnType`|関数の戻り値の型を表す文字列|
 |`parameterTypes`|関数の引数の型を表す文字列を含む配列|
-|`entryPoint`|対象の関数のエントリポイント。規定値は`null`で、これを指定した場合は`procName`が使用されます。|
-|`useUnicode`|呼び出しにUnicodeを使用する場合は`true`、ANSIを使用する場合は`false`、自動判別する場合は`null`。規定値は`null`です。|
+|`entryPoint`|対象の関数のエントリポイント。既定値は`null`で、これを指定した場合は`procName`が使用されます。|
+|`useUnicode`|呼び出しにUnicodeを使用する場合は`true`、ANSIを使用する場合は`false`、自動判別する場合は`null`。既定値は`null`です。|
 
 |戻り値| |
 |---|---|

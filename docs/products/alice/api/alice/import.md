@@ -20,7 +20,7 @@ public void import(string filename, bool isNativeLibrary = false);
 |引数| |
 |-|-|
 |`filename`| 読み込みたいライブラリのファイル名|
-|`isNativeLibrary`|ネイティブライブラリのとして読み込む場合は`true`、AlicePackageを読み込む場合は`false`。規定値は`false`です。|
+|`isNativeLibrary`|ネイティブライブラリのとして読み込む場合は`true`、AlicePackageを読み込む場合は`false`。既定値は`false`です。|
 
 ???note "対応: AliceScript RC1以降"
     |対応||
