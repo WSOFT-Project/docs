@@ -226,7 +226,8 @@ var query = $"SELECT * FROM Table WHERE id='{id}'";
 |名前|説明|
 |---|---|
 |[IsNormalized](./isnormalized.md)|現在の文字列が共通の正規化された形式であるかを示す値を取得します|
-|[Length](../array/length.md)|その変数の持つデータ長を表します|
+|[Length](./length.md)|その変数の持つデータ長を表します|
+|[LengthInTextElements](./lengthintextelements.md)|現在の文字列の文字要素の数を取得します|
 
 ### メソッド
 |名前|説明|
