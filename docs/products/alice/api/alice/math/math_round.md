@@ -21,7 +21,7 @@ public number math_round(number value, number digits = 0);
 |引数| |
 |-|-|
 |`value`|丸めたい対象の数値|
-|`digits`|戻り値の小数部の桁数。規定値は`0`で、`0`以上`15`未満の整数である必要があります|
+|`digits`|戻り値の小数部の桁数。既定値は`0`で、`0`以上`15`未満の整数である必要があります|
 
 |戻り値| |
 |-|-|
@@ -75,7 +75,7 @@ public number math_round(number value, number digits = 0, bool? roundingMode = n
 |引数| |
 |-|-|
 |`value`|丸めたい対象の数値|
-|`digits`|戻り値の小数部の桁数。規定値は`0`で、`0`以上`15`未満の整数である必要があります|
+|`digits`|戻り値の小数部の桁数。既定値は`0`で、`0`以上`15`未満の整数である必要があります|
 |`roundingMode`|銀行型丸めを使用する場合は`null`、0からもっとも遠い方向に丸める場合は`true`、0にもっとも近い方向に丸める場合は`false`。|
 
 |戻り値| |

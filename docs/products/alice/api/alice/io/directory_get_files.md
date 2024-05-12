@@ -103,12 +103,12 @@ public string[] directory_get_files(string path, string pattern, bool searchSubD
 |`path`|検索するディレクトリへのパス|
 |`pattern`|見つかったファイルの名前と比較するパターン。ワイルドカードを使用できますが、正規表現は使用できません|
 |`searchSubDir`|すべてのサブディレクトリを含める場合は`true`、`path`で指定されたディレクトリのみを検索する場合は`false`|
-|`matchCasing`|`pattern`を大文字と小文字を区別して比較する場合は`true`、区別しない場合は`false`、実行しているプラットフォームの規定値を使用する場合は`null`。この引数の規定値は`null`です。|
-|`matchByWin32Style`|Windowsスタイルの複雑なパターンマッチを使用する場合は`true`、それ以外の場合は`false`。この引数の規定値は`false`です。|
-|`returnSpecialDirectories`|検索結果に`.`と`..`を含める場合は`true`、それ以外の場合は`false`。この引数の規定値は`false`です。|
-|`ignoreInaccessible`|アクセスが拒否されたときに例外を発生させず検索を続ける場合は`true`、それ以外の場合は`false`。この引数の規定値は`true`です。|
-|`maxRecursionDepth`|再帰的にサブディレクトリを探索するとき、探索する最大深さ。この引数の規定値および最大値は`2147483647`です。|
-|`bufferSize`|ディレクトリの探索に使用する既定のバッファサイズ(バイト単位)。この引数の規定値は`0`です。|
+|`matchCasing`|`pattern`を大文字と小文字を区別して比較する場合は`true`、区別しない場合は`false`、実行しているプラットフォームの既定値を使用する場合は`null`。この引数の既定値は`null`です。|
+|`matchByWin32Style`|Windowsスタイルの複雑なパターンマッチを使用する場合は`true`、それ以外の場合は`false`。この引数の既定値は`false`です。|
+|`returnSpecialDirectories`|検索結果に`.`と`..`を含める場合は`true`、それ以外の場合は`false`。この引数の既定値は`false`です。|
+|`ignoreInaccessible`|アクセスが拒否されたときに例外を発生させず検索を続ける場合は`true`、それ以外の場合は`false`。この引数の既定値は`true`です。|
+|`maxRecursionDepth`|再帰的にサブディレクトリを探索するとき、探索する最大深さ。この引数の既定値および最大値は`2147483647`です。|
+|`bufferSize`|ディレクトリの探索に使用する既定のバッファサイズ(バイト単位)。この引数の既定値は`0`です。|
 
 |戻り値| |
 |-|-|

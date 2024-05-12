@@ -21,8 +21,8 @@ public Type interop_getType(string typeName, string asmName = null, string asmLo
 |引数| |
 |-|-|
 |`typeName`|取得するオブジェクトの完全修飾名|
-|`asmName`|取得するオブジェクトの存在するアセンブリ名。規定値は`null`です。|
-|`asmLocate`|取得するオブジェクトが存在するアセンブリへのパス。規定値は`null`です。|
+|`asmName`|取得するオブジェクトの存在するアセンブリ名。既定値は`null`です。|
+|`asmLocate`|取得するオブジェクトが存在するアセンブリへのパス。既定値は`null`です。|
 
 |戻り値| |
 |---|---|

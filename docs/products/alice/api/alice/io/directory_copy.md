@@ -22,7 +22,7 @@ public void directory_copy(string source, string destination, bool copySubDirect
 |-|-|
 |`source`|コピー元のディレクトリへのパス|
 |`destination`|コピー先のディレクトリへのパス|
-|`copySubDirectories`|コピー元のディレクトリにあるサブディレクトリもコピーする場合は`true`、それ以外の場合は`false`。規定値は`true`です。|
+|`copySubDirectories`|コピー元のディレクトリにあるサブディレクトリもコピーする場合は`true`、それ以外の場合は`false`。既定値は`true`です。|
 
 ???note "対応: Alice3.0以降"
     |対応||

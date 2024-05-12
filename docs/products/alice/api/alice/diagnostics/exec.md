@@ -21,8 +21,8 @@ public Process exec(string fileName, bool waitForExit = true, bool useShell = fa
 |引数| |
 |-|-|
 |`fileName`|開始したいプロセスの実行ファイルへのパス|
-|`waitForExit`|プロセスが終了するまで待機する場合は`true`、それ以外の場合は`false`。規定値は`true`です。|
-|`useShell`|プロセスの起動時にOSのシェルを使用する場合は`true`、それ以外の場合は`false`。規定値は`false`です。|
+|`waitForExit`|プロセスが終了するまで待機する場合は`true`、それ以外の場合は`false`。既定値は`true`です。|
+|`useShell`|プロセスの起動時にOSのシェルを使用する場合は`true`、それ以外の場合は`false`。既定値は`false`です。|
 
 |戻り値| |
 |-|-|
@@ -48,8 +48,8 @@ public Process exec(string fileName, string arguments, bool waitForExit = true, 
 |-|-|
 |`fileName`|開始したいプロセスの実行ファイルへのパス|
 |`arguments`|プロセスの起動時に使用するコマンドライン引数|
-|`waitForExit`|プロセスが終了するまで待機する場合は`true`、それ以外の場合は`false`。規定値は`true`です。|
-|`useShell`|プロセスの起動時にOSのシェルを使用する場合は`true`、それ以外の場合は`false`。規定値は`false`です。|
+|`waitForExit`|プロセスが終了するまで待機する場合は`true`、それ以外の場合は`false`。既定値は`true`です。|
+|`useShell`|プロセスの起動時にOSのシェルを使用する場合は`true`、それ以外の場合は`false`。既定値は`false`です。|
 
 |戻り値| |
 |-|-|

@@ -21,7 +21,7 @@ public bool web_send_ping(string target, number timeout=5000);
 |引数| |
 |-|-|
 |`target`| 要求の送信先となるコンピューター|
-|`timeout`| 要求がタイムアウトするまでの時間（ミリ秒）。規定値は5000です。|
+|`timeout`| 要求がタイムアウトするまでの時間（ミリ秒）。既定値は5000です。|
 
 |戻り値| |
 |-|-|

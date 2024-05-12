@@ -20,7 +20,7 @@ public number debug_indentLevel();
 
 |戻り値| |
 |-|-|
-|`number`|インデントレベル。規定値は`0`です。|
+|`number`|インデントレベル。既定値は`0`です。|
 
 ???note "対応: AliceScript RC2以降"
     |対応||
@@ -44,7 +44,7 @@ public number debug_indentLevel(number indentLevel);
 
 |戻り値| |
 |-|-|
-|`number`|インデントレベル。規定値は`0`です。|
+|`number`|インデントレベル。既定値は`0`です。|
 
 ???note "対応: AliceScript RC2以降"
     |対応||
@@ -64,7 +64,7 @@ public number debug_indentLevel { get; set; }
 
 |値| |
 |-|-|
-|`number`|デバッグ出力のインデントレベル。規定値は`0`です。|
+|`number`|デバッグ出力のインデントレベル。既定値は`0`です。|
 
 ???note "対応: Alice3.0以降"
     |対応||

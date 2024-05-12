@@ -26,7 +26,7 @@ public class bool;
 ### 説明
 bool型は、真偽値（trueまたはfalseのいずれか)を表します。bool型は、比較演算子と等値演算子の結果の型です。bool型をとるステートメント(ifやwhileなど)と三項条件演算子で条件を表す値として使用できます。
 
-bool型の規定値はfalseです。
+bool型の既定値はfalseです。
 
 #### リテラル
 AliceScriptではトップレベルスクリプトでtrueおよびfalseが定数として定義されています。これを使用して、bool型を初期化できます。
