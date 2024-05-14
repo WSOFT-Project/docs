@@ -95,11 +95,12 @@ AliceScriptのエスケープ文字は`\`（バックスラッシュ、日本語
 |`\U`|`\UHHHHHHHH`|Unicodeコードポイント（8桁）|
 |`\x`|`\UH[H][H][H]`|Unicodeコードポイント（任意桁）|
 
-!!!note "特殊文字とレンダリング"
-    ここで示した文字に限らず、すべてのUnicode文字がレンダリングされるわけではありません。たとえば`\a`は、レンダリングされず、コンソールに警告音を鳴らします。
+> [!NOTE] 特殊文字とレンダリング
+> ここで示した文字に限らず、すべてのUnicode文字がレンダリングされるわけではありません。たとえば`\a`は、レンダリングされず、コンソールに警告音を鳴らします。
 
-!!!note "文字列リテラル中で使用できない文字"
-    `\ufdd0`～`\ufddf`の範囲にある文字は、SAIMが処理に使用することがあるため、文字列リテラル中で使用できません。
+<!-- -->
+> [!NOTE] 文字列リテラル中で使用できない文字
+> `\ufdd0`～`\ufddf`の範囲にある文字は、SAIMが処理に使用することがあるため、文字列リテラル中で使用できません。
 
 また、`\u0000`のように指定することで4バイトUnicode文字コードを表現できます。
 
@@ -226,7 +227,8 @@ var query = $"SELECT * FROM Table WHERE id='{id}'";
 |名前|説明|
 |---|---|
 |[IsNormalized](./isnormalized.md)|現在の文字列が共通の正規化された形式であるかを示す値を取得します|
-|[Length](../array/length.md)|その変数の持つデータ長を表します|
+|[Length](./length.md)|その変数の持つデータ長を表します|
+|[LengthInTextElements](./lengthintextelements.md)|現在の文字列の文字要素の数を取得します|
 
 ### メソッド
 |名前|説明|
@@ -273,8 +275,13 @@ var query = $"SELECT * FROM Table WHERE id='{id}'";
 |[SubString(number start,number length)](./substring.md)|現在の文字列から指定した範囲の文字列を取得します|
 |[Size()](../array/size.md)|その変数の持つデータ長を取得します|
 |[ToLower()](./tolower.md)|現在の文字列内の文字をすべて小文字に置換します|
+|[ToLower(string? cultureName)](./tolower.md)|指定されたカルチャの規則を使用して、現在の文字列内の文字をすべて小文字に置換します。|
 |[ToLowerInvariant()](./tolowerinvariant.md)|インバリアント カルチャの大文字と小文字の規則を使用して、現在の文字列内の文字をすべて小文字に置換します|
+|[ToTitleCase()](./totitlecase.md)|現在の文字列をタイトルケースと同じ大文字小文字の組み合わせに置換します。|
+|[ToTitleCase(string? cultureName)](./totitlecase.md)|指定されたカルチャの規則を使用して、現在の文字列をタイトルケースと同じ大文字小文字の組み合わせに置換します。|
+|[ToTitleCaseInvariant()](./totitlecase.md)|カルチャを考慮せずに、現在の文字列をタイトルケースと同じ大文字小文字の組み合わせに置換します。|
 |[ToUpper()](./toupper.md)|現在の文字列内の文字をすべて大文字に置換します|
+|[ToUpper(string? cultureName)](./toupper.md)|指定されたカルチャの規則を使用して、現在の文字列内の文字をすべて大文字に置換します。|
 |[ToUpperInvariant()](./toupperinvariant.md)|インバリアント カルチャの大文字と小文字の規則を使用して、現在の文字列内の文字をすべて大文字に置換します|
 |[Trim()](./trim.md)|現在の文字列から先頭および末尾にある空白文字をすべて削除した文字列を取得します|
 |[Trim(params string item)](./trim.md)|現在の文字列から指定した文字列が先頭および末尾に現れる箇所をすべて削除した文字列を取得します|

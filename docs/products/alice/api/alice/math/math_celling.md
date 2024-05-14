@@ -1,6 +1,6 @@
 ---
 title: math_celling
-summary: 指定された数以上の数のうち、最小の整数値を返します。
+summary: 指定された数の小数点以下を切り上げた整数を取得します。
 ---
 
 ### 定義
@@ -10,7 +10,7 @@ summary: 指定された数以上の数のうち、最小の整数値を返し�
 
 #### math_celling(number)
 
-指定された数以上の数のうち、最小の整数値を返します。
+指定された数の小数点以下を切り上げた整数を取得します。
 
 ```cs title="AliceScript"
 namespace Alice.Math;
@@ -19,11 +19,11 @@ public number math_celling(number value);
 
 |引数| |
 |-|-|
-|`value`|指定された数以上の数の、指定する数値。|
+|`value`|切り上げる値|
 
 |戻り値| |
 |-|-|
-|`number`|指定された数以上のうち、最小の整数値を返します。|
+|`number`|`value`の整数部+1の値|
 
 ???note "対応: AliceScript RC1以降"
     |対応||
@@ -32,12 +32,18 @@ public number math_celling(number value);
     |AliceSister|GM、2.0、2.1、2.2、2.3、3.0|
     |Losetta|0.8、0.9、0.10|
 
+### 説明
+この関数は、指定された数以上の数のうち、最小の整数値を返します。
+この関数の行う丸め動作は、IEEE Standard 754 セクション 4 に準拠しています。これは、正の無限大に向かって丸めと呼ばれることもあります。
+
+数値を切り捨てた整数を取得したい場合は[math_floor](./math_floor.md)を、四捨五入したい場合は[math_round](./math_round.md)を使用してください。
+
 ### 例
-次の例では、`0.1`の正方向に近い整数を取得します。
+次の例では、`2.3`の小数点以下を切り上げています。
 
 ```cs title="AliceScript"
 using Alice.Math;
 
-var v=0.1;
-print(math_celling(v)); // 出力例 : 1
+var v = 2.3;
+print(math_celling(v)); // 出力例 : 3
 ```

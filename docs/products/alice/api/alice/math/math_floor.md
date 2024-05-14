@@ -1,6 +1,6 @@
 ---
 title: math_floor
-summary: 指定した数以下の数のうち、最大の整数値を返します。
+summary: 指定された数の小数点以下を切り捨てた整数を取得します。
 ---
 
 ### 定義
@@ -10,7 +10,7 @@ summary: 指定した数以下の数のうち、最大の整数値を返しま�
 
 #### math_floor(number)
 
-指定した数以下の数のうち、最大の整数値を返します。
+指定された数の小数点以下を切り捨てた整数を取得します。
 
 ```cs title="AliceScript"
 namespace Alice.Math;
