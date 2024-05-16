@@ -1,6 +1,6 @@
 ---
 title : kotlin's times
-summary : 
+summary : 今私が思ってることを書き殴っただけです。
 date : 2024-05-14
 auter : kotlin
 ---
