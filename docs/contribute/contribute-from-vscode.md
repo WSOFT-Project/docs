@@ -26,6 +26,26 @@ WSOFTDocsの記事はすべてGitHub上で管理されており、誰でも編�
 
 以上の環境を準備してください。
 
+はじめてGitをインストールして使う場合、ユーザー名とメールアドレスの設定が必要です。
+ターミナル(Windowsの場合はコマンドプロンプト)を開いて、以下のコマンドを入力します。*Your Name*にはあなたの名前を、*email@example.com*にはあなたのメールアドレスを当てはめてください。
+
+```sh title="シェル"
+git config --global user.name "Your Name"
+
+git config --global user.email "email@example.com"
+```
+
+設定したユーザー名とメールアドレスを確認するには、以下のコマンドを実行します。
+
+```sh title="シェル"
+# ユーザー名を確認する
+git config --global user.name
+# メールアドレスを確認する
+git config --global user.email
+```
+
+設定が完了したら、次のセクションに進みます。
+
 ### 1. リポジトリのクローン
 WSOFTDocsの記事をVS Codeで編集する前に、ローカルのコンピューターにdocsリポジトリをクローンする必要があります。
 
