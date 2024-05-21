@@ -2,7 +2,7 @@
 title : kotlin's times
 summary : 今私が思ってることを書き殴っただけです。
 date : 2024-05-14
-auter : kotlin
+author : kotlin
 ---
 初めてブログというものを書くので、
 Kotlinで学校関係のアプリをfirebaseを使いつつ開発したいです。そのついでで、シーザー暗号を作りたいなぁ。
