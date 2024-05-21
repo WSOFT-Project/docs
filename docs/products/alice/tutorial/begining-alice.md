@@ -14,40 +14,42 @@ AliceScriptについて詳しく知るには、[AliceScriptのツアー](../welc
 
 AliceScriptを使用したアプリの開発について説明する前に、まずAliceScriptを実行できるコンピューターを用意する必要があります。
 
-AliceScriptの実装であるLosettaは、以下の環境で動作します。
+AliceScriptの実装であるLosettaは、現代のWindowsとmacOS、多くのLinuxディストリビューションの主要なアーキテクチャで動作します。
+サポートしている動作環境の一覧は、以下の折りたたみを開いて確認してください。
 
-|OS|バージョン|アーキテクチャ|
-|---|---|---|
-|Windows|7 SP1、8.1|x64、x86|
-|Windows 10|Version 1607以降|x64、x86、ARM64|
-|Windows 11|Version 22000以降|x64、x86、ARM64|
-|Windows Server(Core含む)|2012以降|x64、x86|
-|Nano Server|Version 1809以降|x64|
-|macOS|10.15以降|x64、ARM64|
-|Alpine Linux|3.13以降|x64、ARM64、ARM32|
-|CentOS Linux|7|x64|
-|CentOS Stream Linux|8|x64|
-|Debian|10以降|x64、ARM64、ARM32|
-|Fedora|36以降|x64|
-|openSUSE|15以降|x64|
-|Oracle Linux|7以降|x64、ARM64|
-|Red Hat Enterprise Linux(RHEL)|7以降|x64、ARM64|
-|SUSE Enterprise Linux(SLES)|12 SP5以降|x64|
-|Ubuntu|16.04、18.04、20.04以降|x64、ARM64、ARM32|
+??? "動作環境の一覧"
+    |OS|バージョン|アーキテクチャ|
+    |---|---|---|
+    |Windows|7 SP1、8.1|x64、x86|
+    |Windows 10|Version 1607以降|x64、x86、ARM64|
+    |Windows 11|Version 22000以降|x64、x86、ARM64|
+    |Windows Server(Core含む)|2012以降|x64、x86|
+    |Nano Server|Version 1809以降|x64|
+    |macOS|10.15以降|x64、ARM64|
+    |Alpine Linux|3.13以降|x64、ARM64、ARM32|
+    |CentOS Linux|7|x64|
+    |CentOS Stream Linux|8|x64|
+    |Debian|10以降|x64、ARM64、ARM32|
+    |Fedora|36以降|x64|
+    |openSUSE|15以降|x64|
+    |Oracle Linux|7以降|x64、ARM64|
+    |Red Hat Enterprise Linux(RHEL)|7以降|x64、ARM64|
+    |SUSE Enterprise Linux(SLES)|12 SP5以降|x64|
+    |Ubuntu|16.04、18.04、20.04以降|x64、ARM64、ARM32|
 
-- Linuxのそのほかのディストリビューションでも、一定の要件を満たすことで動作する可能性があります。[.NET Support and Compatibility for Linux Distributions](https://github.com/dotnet/core/blob/main/linux-support.md)を参照してください。
-- macOSでは、Rosetta 2上での動作をサポートします
-- ARM版Windows 11では、x64エミュレーター上での動作をサポートします
+    - Linuxのそのほかのディストリビューションでも、一定の要件を満たすことで動作する可能性があります。[.NET Support and Compatibility for Linux Distributions](https://github.com/dotnet/core/blob/main/linux-support.md)を参照してください。
+    - macOSでは、Rosetta 2上での動作をサポートします
+    - ARM版Windows 11では、x64エミュレーター上での動作をサポートします
 
-また、[AliceSister](../general/alice-sister.md)を使用することで、以下の環境でも動作します。この場合、.NET Framework 4.5.2のインストールが必要です。
+また、以下の環境では[AliceSister](../general/alice-sister.md)を使用することで動作します。この場合、.NET Framework 4.5.2のインストールが必要です。
 
 |OS|バージョン|アーキテクチャ|
 |---|---|---|
 |Windows|8、7、Vista|x64、x86|
 |Windows Server|2008 R2 SP1、2008 SP2|x64、x86|
 
-!!!warning "非サポート環境での動作"
-    サポートされる環境以外でAliceScriptを動作させる必要がある場合、AliceSisterとMonoを導入することで動作する可能性があります。
+> [!TIP] ヒント:非サポート環境での動作
+> WSOFTでは動作をサポートできませんが、サポートされる環境以外でAliceScriptを動作させる必要がある場合、AliceSisterとMonoを導入することで動作する可能性があります。
 
 ### Losettaの導入
 サポートされる環境では、Losettaをダウンロードする必要があります。[GitHubリポジトリ](https://github.com/WSOFT-Project/Losetta/releases)から、最新のものをダウンロードするか、[WSOFTダウンロードセンター](https://download.wsoft.ws/AliceScript)から安定版をダウンロードできます。
