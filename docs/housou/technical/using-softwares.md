@@ -10,6 +10,10 @@ summary : 放送の編集などで使用していたソフトを置いておき�
 - [Cakewalk](https://www.bandlab.com/products/cakewalk?lang=ja) 学園交差点1で使用。収録した音源のノイズがひどすぎてこれとGuitar Rigでごまかしてました。Windows対応。
 - [GarageBand](https://apps.apple.com/jp/app/garageband/id408709785) 学園交差点2～3、6、8、12、14で使用。iPadで収録から編集までできる優れもの。
 - [Logic Pro(iPad用)](https://apps.apple.com/jp/app/ipad%E7%94%A8logic-pro/id1615087040) Nコン作品と上記以外の学園交差点で使用。GarageBandより触れる項目やプラグインが多く、痒い所に手が届きやすい。あとプリセットのコンプが好き。ただし毎月課金されるため注意。
+- [Logic Pro](https://www.apple.com/jp/logic-pro/)「放送部の3年間」や学園交差点15で使用。iPad版よりも使いやすい。有料。Mac限定。
+
+> [!NOTE] 学割
+> ここで紹介した*Logic Pro*と*Final Cut Pro*、*Compressor*などのApple製アプリは、学割が効くみたいです。かなり割引されるから、使えるMacがあるなら、一度確認してみるのもあり。- [学生・教職員向けPro Appバンドル](https://www.apple.com/jp-edu/shop/product/BMGE2J/A/%E5%AD%A6%E7%94%9F%E3%83%BB%E6%95%99%E8%81%B7%E5%93%A1%E5%90%91%E3%81%91pro-app%E3%83%90%E3%83%B3%E3%83%89%E3%83%AB)
 
 ## 動画編集ソフト系
 
