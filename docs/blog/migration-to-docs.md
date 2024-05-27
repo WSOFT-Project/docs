@@ -56,13 +56,5 @@ WebSailingNetと一口に言っても、それに分類されるサイトは[Web
 
 また、当面の間AliceScriptWikiのサイトを残す方針が決まりました。現在のAliceScriptWikiのサイトは、読み取り専用となり、今後情報の更新はされません。
 
-#### 生存報告
-状況:<span class="badge bg-success">完了</span>
-
-かつて常闇より出る深淵名義で連載していた生存報告の記事も、[WSOFTDocs](https://docs.wsoft.ws/)へ移行します。
-
-生存報告のWSOFTDocsへの移行は、その誕生経緯や内容を鑑み、慎重に移行してきました。公開が可能と判断された記事は[生存報告Docs](https://docs.wsoft.ws/tokoyami)で公開しています。
-生存報告のWSOFTDocsへの移行は、完了しました。
-
 ### ご意見をお寄せください
 WSOFTはこの計画への取り組みをを継続し、WSOFTが公開するものすべてについて、より簡単に必要なコンテンツを見つけることができ、それが見やすいものであるように努力しています。[GitHub](https://github.com/WSOFT-Project/docs/issues)でみなさんのご意見をお寄せください。
