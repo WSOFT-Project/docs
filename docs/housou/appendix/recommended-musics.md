@@ -74,6 +74,9 @@ Bilibiliのやつしか見つからなかった。これは毎回チャイムの
 - [Young (Air review)](https://www.youtube.com/watch?v=78yb36Kw4G8) (まとめパートで2:37~最後まで使用) (*[Instrumental版](https://www.musicbed.com/songs/young-instrumental/9507)*)
 
 ## 夏至
+いずれも使用順。
+### 本編
+
 - [いつもの風景から始まる物語 / 涼宮ハルヒの消失 Original Soundtrack](https://www.youtube.com/watch?v=tF3I7ofKn2M)
 - [朝倉涼子という女性 / 涼宮ハルヒの消失 Original Soundtrack](https://www.youtube.com/watch?v=QBfn-GleXe8)
 - [日常の先に待ち受けるもの / 涼宮ハルヒの消失 Original Soundtrack](https://www.youtube.com/watch?v=3mRCiAKDqIE)
@@ -83,6 +86,10 @@ Bilibiliのやつしか見つからなかった。これは毎回チャイムの
 - [素直な気持ち / 涼宮ハルヒの完奏〜コンプリートサウンドトラック〜](https://www.youtube.com/watch?v=2_4LHllReWA)
 - [プリンセス・ラティファ / 「甘城ブリリアントパーク」オリジナル・サウンド・トラック](https://www.youtube.com/watch?v=ji7bt4AZP_s)
 - [いつもの風景で終わる物語 / 涼宮ハルヒの消失 Original Soundtrack](https://www.youtube.com/watch?v=IXBOOF5AnFY)
+
+### 夏至 Preview
+
+- [スパークル Mover ver. / RADWIMPS](https://www.youtube.com/watch?v=tpH8TEkKQI4)
 
 ## おすすめの曲
 以下は完全に私のおこのみ。

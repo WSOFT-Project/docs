@@ -168,6 +168,7 @@ var num_ary = array(number).Activate();
 |[Remove(params variable item)](./remove.md)|現在の配列から指定された値を削除します|
 |[RemoveAt(number index)](./removeat.md)|現在の配列の指定したインデックスにある値を削除します|
 |[RemoveRange(array items)](./removerange.md)|現在の配列から指定された配列に含まれるすべての値を削除します|
+|[Repeat(number repeatCount)](./repeat.md)|現在の配列を指定回数繰り返した新しい配列を取得します|
 |[Reverse()](./reverse.md)|現在の配列の要素の順序を反転させます|
 |[Reverse(number index,number count)](./reverse.md)|現在の配列内の指定した範囲の要素の順序を反転させます|
 |[Select(delegate selector)](./select.md)|現在の配列の各要素を新しい配列に射影します|
