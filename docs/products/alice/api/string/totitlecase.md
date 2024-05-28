@@ -45,7 +45,7 @@ public string ToTitleCase(string? cultureName);
 
 |引数| |
 |-|-|
-|`cultureName`|使用するカルチャの名前。`null`を指定するとカルチャを考慮せず置換を実行します。|
+|`cultureName`|使用するカルチャの名前。`null`を指定するとカルチャに依存しない処理を行います。|
 
 |戻り値| |
 |-|-|
