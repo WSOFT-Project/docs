@@ -5,7 +5,8 @@ date : 2021-12-25
 ---
 
 ## AliceScript Docsへようこそ
-WSOFTDocsのAliceScriptのサイトへようこそ。このサイトでは、AliceScriptやAliceProjectの情報を掲載しています。
+WSOFTDocsのAliceScriptのサイトへようこそ。
+このサイトではAliceScriptの書き方、実行方法、APIリファレンスを公開しています。
 
 ---
 [ ダウンロード](./download.md){: .btn .btn-primary .btn-lg .bi .bi-download }

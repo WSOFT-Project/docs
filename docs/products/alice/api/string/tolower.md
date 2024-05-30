@@ -45,7 +45,7 @@ public string ToLower(string? cultureName);
 
 |引数| |
 |-|-|
-|`cultureName`|使用するカルチャの名前。`null`を指定するとカルチャを考慮しません。|
+|`cultureName`|使用するカルチャの名前。`null`を指定するとカルチャに依存しない処理を行います。|
 
 |戻り値| |
 |-|-|

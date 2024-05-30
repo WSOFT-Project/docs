@@ -16,16 +16,16 @@ date : 2023-10-22
 
 ```cs title="AliceScript"
 namespace Alice;
-public string Repeat(number repeatCount);
+public string Repeat(number repeats);
 ```
 
 |引数| |
 |-|-|
-|`repeatCount`|文字列を繰り返す回数|
+|`repeats`|文字列を繰り返す回数|
 
 |戻り値| |
 |-|-|
-|`array`|現在の文字列を指定回数繰り返した文字列|
+|`array`|現在の文字列を指定回数繰り返した文字列。ただし、`repeats`が0以下の場合は空の文字列。|
 
 ???note "対応: Alice3.0以降"
     |対応||

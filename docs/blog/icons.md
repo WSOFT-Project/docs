@@ -25,6 +25,18 @@ WSOFTは、トレーニング資料やドキュメントなどで、これらの
 
 #### アイコンの一覧
 
+#### WSOFTプレスキット
+
+![v2の主なロゴ](./media/WSOFT-logo.png)
+
+2022年4月4日以降使用されているWSOFTのアイコンを含むWSOFTプレスキットバージョン2です。これには、各サイズ・タイプのロゴとシグネチャ、エンブレム、壁紙とそれらの使用規定が含まれます。
+
+> [!NOTE] アイコンの更新
+> 2024年5月30日に、WSOFTのアイコンの微調整を行いました。
+> 既存のロゴを変更する必要はありませんが、できるだけ新しいロゴを使用してください。[古いバージョンはこちら](https://download.wsoft.ws/WS00174)から入手できます。
+
+[ ダウンロード](https://download.wsoft.ws/WS00296){: .btn .btn-primary .btn-lg .bi .bi-download }
+
 #### WSOFTプレスキット(v1)
 
 ![v1の主なロゴ](./media/WSOFT-Transppernennt.png)
@@ -32,14 +44,6 @@ WSOFTは、トレーニング資料やドキュメントなどで、これらの
 2022年4月4日以前に使用されていたWSOFTのアイコンを含むWSOFTプレスキットバージョン1です。これには、各サイズのロゴとデスクトップ壁紙が含まれます。
 
 [ ダウンロード](https://download.wsoft.ws/WS00173){: .btn .btn-primary .btn-lg .bi .bi-download }
-
-#### WSOFTプレスキット(v2)
-
-![v2の主なロゴ](./media/WSOFT-logo.png)
-
-2022年4月4日以降使用されているWSOFTのアイコンを含むWSOFTプレスキットバージョン2です。これには、各サイズ・タイプのロゴとエンブレム、壁紙が含まれます。
-
-[ ダウンロード](https://download.wsoft.ws/WS00174){: .btn .btn-primary .btn-lg .bi .bi-download }
 
 #### Aliceプロジェクト プレスキット
 
