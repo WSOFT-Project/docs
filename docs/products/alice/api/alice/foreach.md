@@ -1,7 +1,7 @@
 ---
 title: foreach
 long_title : foreach 文
-summary: 配列の要素を列挙し、それぞれの要素に対して本文を実行します。
+summary: 配列内の要素を列挙し、それぞれの要素を使用して反復処理を行います。
 date : 2023-08-07
 ---
 
@@ -10,11 +10,11 @@ date : 2023-08-07
 アセンブリ: Losetta.Runtime.dll<br/>
 ソースコード: [Alice.Core.Flow.cs](https://github.com/WSOFT-Project/Losetta/blob/master/Losetta.Runtime/Core/Alice.Core.Flow.cs)
 
-配列の要素を列挙し、それぞれの要素に対して本文を実行します。
+配列内の要素を列挙し、それぞれの要素を使用して反復処理を行います。
 
 ```cs title="AliceScript"
 namespace Alice;
-public void foreach(Expression foreach)
+public void foreach(Expression define in array iterator)
 {
     //...
 }
@@ -22,7 +22,8 @@ public void foreach(Expression foreach)
 
 |引数| |
 |-|-|
-|`foreach`| `foreach`式|
+|`define`|要素を代入する変数の宣言式|
+|`iterator`|反復処理を行う対象の配列|
 
 ???note "対応: AliceScript RC1以降"
     |対応||
@@ -32,7 +33,7 @@ public void foreach(Expression foreach)
     |Losetta|0.8、0.9、0.10|
 
 ### 基本
-`foreach`文は、配列型あるいは対応しているその他の型内の要素ごとに、本文を実行します。
+`foreach`文は、配列型の各要素ごとに本文を実行します。
 次の例では、`fibNumbers`に0から13までのフィボナッチ数が定義されているので、それを列挙します。
 
 ```cs title="AliceScript"

@@ -13,5 +13,5 @@ URL以下の要素はそのまま転送されるため、`wsoft.gq`の部分を`
 
 また、互換性の問題からしばらくの間は`api.wsoft.gq`へのアクセスはリダイレクトされません。
 
-!!!note "猶予期間"
-    wsoft.gqは早くても2023年10月12日、websailing-net.ddo.jpは2023年6月25日まで使用できます。また、^websailing-net.ddo.jpへのアクセスは2022年9月25日以降、wsoft.wsへ自動的にリダイレクトされます^。
+> [!NOTE] 猶予期間
+> wsoft.gqは早くても2023年10月12日、websailing-net.ddo.jpは2023年6月25日まで使用できます。また、^websailing-net.ddo.jpへのアクセスは2022年9月25日以降、wsoft.wsへ自動的にリダイレクトされます^。
