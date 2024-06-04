@@ -1,12 +1,13 @@
 ---
 title: string
+long_title : string型
 summary: 文字列型は、テキストを一連のUTF-16文字のリストとして表現します。
 ---
 ### 定義
 名前空間: Alice<br/>
 アセンブリ: Losetta.dll
 
-文字列型は結合、[関係](../../general/operators/relational-operators.md)演算子と[文字列演算子](../../general/operators/string-operators.md)をサポートしています。 文字列型の既定値は空の文字列`""`です。また、この型の型指定修飾子は`string`です。
+文字列型は、[関係](../../general/operators/relational-operators.md)演算子と[文字列演算子](../../general/operators/string-operators.md)をサポートしています。 文字列型の既定値は空の文字列`""`です。また、この型の型指定修飾子は`string`です。
 
 すべてのAliceScriptに組み込まれている型はすべて文字列型への暗黙的な変換をサポートしています。文字列型に限って、明示的な変換と明示的な変換は同じ動作になります。
 

@@ -1,12 +1,13 @@
 ---
 title: array
+long_title : array型
 summary: 配列型は、インデックスを使用してアクセスできる変数のリストを表します
 ---
 ### 定義
 名前空間: Alice<br/>
 アセンブリ: Losetta.dll
 
-配列型は、インデックスを使用してアクセスできる変数のリストを表します。配列型は、結合、比較、等値演算子をサポートしています。 配列型の既定値は空の配列`[]`です。この型はnullをとり得ます。この型の型指定修飾子は`array`です。
+配列型は、インデックスを使用してアクセスできる変数のリストを表します。配列型は、[関係演算子](../../general/operators/relational-operators.md)と[配列演算子](../../general//operators/array-expression.md)をサポートしています。 配列型の既定値は空の配列`[]`です。この型はnullをとり得ます。この型の型指定修飾子は`array`です。
 
 ```cs title="AliceScript"
 namespace Alice;
@@ -24,6 +25,12 @@ public class array;
 配列は、複数の値をひとまとめに扱うためのアプローチです。
 配列は、0個以上の変数を格納することができるオブジェクトとみなすことができます。AliceScriptにおける配列は、CやC++のようなアドレス指定可能な連続メモリ領域ではなく、ヒープに配置される一種のオブジェクトです。
 また、配列には別の配列を含むこともできます。このような配列は多次元配列やジャグ配列と呼ばれます。
+配列は[配列式](../../general/operators/array-expression.md)を使って初期化します。次の例をご覧ください。
+
+```cs title="AliceScript"
+var ary = [1, 2, 3, 4, 5];
+```
+
 次の例では、基本的な配列の使用方法を説明しています。
 
 ```cs title="AliceScript"
