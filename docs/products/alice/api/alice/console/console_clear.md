@@ -16,6 +16,7 @@ date : 2024-06-05
 ```cs title="AliceScript"
 namespace Alice.Console;
 
+@unsupportedFor("browser")
 @unsupportedFor("android")
 @unsupportedFor("ios")
 @unsupportedFor("tvos")
@@ -33,11 +34,13 @@ public void console_clear();
 
 この関数は、コンソール(またはそのエミュレーター)に対してコンソールをクリアするように依頼します。これは、MS-DOS環境で`cls`コマンドを、Unix環境で`clear`コマンドを呼び出すのと同じです。
 
+コンソールの出力がファイルにリダイレクトされている状態でこの関数を呼び出すと、例外が発生します。これを回避するためには、[try-catch文](../try-catch.md)で囲みます。
+
 ### 例
-次の例では、`main`ディレクトリを`test`ディレクトリにコピーしています。
+次の例では、コンソールをクリアします。
 
 ```cs title="AliceScript"
-using Alice.IO;
+using Alice.Console;
 
-directory_copy("main","test");
+console_clear();
 ```
