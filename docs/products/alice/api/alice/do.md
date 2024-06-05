@@ -18,7 +18,7 @@ public void do
 {
 
 }
-while(Exception condition);
+while(Expression condition);
 ```
 
 |引数| |

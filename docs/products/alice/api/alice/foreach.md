@@ -72,14 +72,14 @@ finally
 }
 ```
 
-ただし、パフォーマンス上の観点からも、配列型および文字列型は以下のようなコードに展開されます。
+ただし、パフォーマンス上の観点から、配列型および文字列型は以下のようなコードに展開されます。
 
 ```cs title="AliceScript"
 var ary = [2, 4, 6, 8, 10];
 
 for(number i = 0; i < ary.Length; i++)
 {
-    var enumerator = ary[i];
+    readonly var each_const = ary[i];
 
     print(element);
 }
