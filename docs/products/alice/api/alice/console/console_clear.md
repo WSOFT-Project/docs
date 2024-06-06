@@ -23,10 +23,10 @@ namespace Alice.Console;
 public void console_clear();
 ```
 
-???note "対応: AliceScript RC1以降"
+???note "対応: AliceScript GM以降"
     |対応||
     |---|---|
-    |AliceScript|RC1、RC2、GM、2.0、2.1、2.2、2.3、3.0|
+    |AliceScript|GM、2.0、2.1、2.2、2.3、3.0|
     |AliceSister|GM、2.0、2.1、2.2、2.3、3.0|
     |Losetta|0.8、0.9、0.10|
 
