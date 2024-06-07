@@ -3,8 +3,10 @@ title: API
 summary: WSOFTダウンロードセンターAPIは、WSOFTダウンロードセンターから提供されるリソースを他のプログラム等から呼び出し、ダウンロードや情報の取得をするためのAPIを提供します。 この記事は、WSOFTダウンロードセンターAPIを使用しようとしている技術者やソフトウェア開発者をターゲットにしています。
 date : 2022-07-06
 ---
+
 ### はじめに
 WSOFTダウンロードセンターAPIは、WSOFTダウンロードセンター内のコンテンツやその情報を取得、検索する機能を提供するWebサービスです。APIの使用には、利用規約への同意が必要です。
+
 ### 主なユースケース
 
 - ハッシュを使用したダウンロードの正当性の検証
@@ -46,8 +48,8 @@ https://download.wsoft.ws/version.json
 
 |パラメーター|説明|
 |---|---|
-|Product|プロダクト名。WSOFTダウンロードセンターの場合はWSOFTDownloadCenterが、WSOFTダウンロードセンターAPIの場合はWSOFTDownloadCenter.APIが返却されます。|
-|CodeName|コード名。現在、WSOFTダウンロードセンターの場合はchihayaが、WSOFTダウンロードセンターAPIの場合はchihayaⅡが返却されます。|
+|Product|プロダクト名。WSOFTダウンロードセンターの場合は`WSOFTDownloadCenter`が、WSOFTダウンロードセンターAPIの場合は`WSOFTDownloadCenter.API`が返却されます。|
+|CodeName|コード名。現在、WSOFTダウンロードセンターの場合は`chihaya`が、WSOFTダウンロードセンターAPIの場合は`chihayaⅡ`が返却されます。|
 |Version|バージョン番号|
 |FullName|製品の完全な名前。これは、「{Product} v{Version}({CodeName})」の形式で返却されます。|
 
@@ -119,7 +121,7 @@ https://api.wsoft.ws/download/detail
 
 |パラメーター|説明|
 |---|---|
-|Status|取得に成功すればFoundが、ダウンロードIDが見つからない場合はNotFoundが、ダウンロードキーが異なる場合はWrong_DownloadKeyが、その他の例外が発生した場合はService_Unavailableが返却されます。|
+|Status|取得に成功した場合は`Found`、ダウンロードIDが見つからない場合は`NotFound`、ダウンロードキーが異なる場合は`Wrong_DownloadKey`、その他の例外が発生した場合は`Service_Unavailable`。|
 |Request_ID|要求したダウンロードID|
 |Now|要求を受理あるいは棄却した日付と時刻|
 |Copyright|要求したコンテンツの著作権情報|
@@ -134,7 +136,7 @@ https://api.wsoft.ws/download/detail
 |Tags|要求したコンテンツに関連付けられたタグ。タグは#{TAG_TEXT}:{COLOR_CODE}の形式で返却されます。|
 |Title|要求したコンテンツのタイトル|
 |Version|要求したコンテンツのバージョン|
-|Support_Seartch|要求したコンテンツが一覧や検索に表示されるか否かを表す値。表示される場合はtrue、それ以外の場合はfalse。|
+|Support_Seartch|要求したコンテンツが一覧や検索に表示されるか否かを表す値。表示される場合は`true`、それ以外の場合は`false`。|
 |Support_Preview|要求したコンテンツがファイルのプレビューをサポートするか否かを表す値。サポートする場合はtrue、それ以外の場合はfalse。|
 
 #### 使用例
@@ -175,9 +177,9 @@ https://api.wsoft.ws/download/seartch
 
 |パラメーター|説明|
 |---|---|
-|Status|クエリに適合するコンテンツが見つかった場合はFoundが、見つからない場合はNotFoundが、ダウンロードキーが異なる場合はWrong_DownloadKeyが、その他の例外が発生した場合はService_Unavailableが返却されます。|
+|Status|クエリに適合するコンテンツがひとつ以上見つかった場合は`Found`、見つからない場合は`NotFound`、その他の例外が発生した場合は`Service_Unavailable`。|
 |Request_Query|要求したクエリ|
-|Now|要求を受理あるいは棄却した日付と時刻|
+|Now|要求を受理した日付と時刻|
 |ID|要求したクエリに適合するコンテンツのID。この項目は適合するコンテンツが見つかる限りいくつでも繰り返されます。|
 
 #### 使用例
@@ -203,6 +205,6 @@ https://api.wsoft.ws/download/seartch?query=*
 
 |パラメーター|説明|
 |---|---|
-|Status|エラーの内容。ダウンロードIDが見つからない場合はNotFoundが、ダウンロードキーが異なる場合はWrong_DownloadKeyが、その他の例外が発生した場合はService_Unavailableが返却されます。|
+|Status|エラーの内容。ダウンロードIDが見つからない場合は`NotFound`、ダウンロードキーが異なる場合は`Wrong_DownloadKey`、その他の例外が発生した場合は`Service_Unavailable`。|
 |Request_ID|要求したダウンロードID|
-|Now|要求を棄却あるいは失敗した日付と時刻|
+|Now|要求を棄却あるいは要求の受理に失敗した日付と時刻|
