@@ -13,8 +13,8 @@ WSOFTダウンロードセンターAPIは、WSOFTダウンロードセンター�
 - WSOFTダウンロードセンターからファイルを取得するアプリケーションの開発
 - 自分のコンテンツ内へのWSOFTダウンロードセンターから提供されるコンテンツの埋め込み
 
-!!! warning
-    WSOFTダウンロードセンターAPIによってコンテンツの埋め込みが可能であったとしても、コンテンツの権利者があなたのコンテンツへの埋め込みを許可するとは限りません。詳しくは、各コンテンツのページを参照するか、そのコンテンツの権利者にお問い合わせください。
+> [!WARNING]
+> WSOFTダウンロードセンターAPIによってコンテンツの埋め込みが可能であったとしても、コンテンツの権利者があなたのコンテンツへの埋め込みを許可するとは限りません。詳しくは、各コンテンツのページを参照するか、そのコンテンツの権利者にお問い合わせください。
 
 ### 使用方法
 WSOFTダウンロードセンターAPIは、以下のサーバーで運用されています。
@@ -78,9 +78,6 @@ https://api.wsoft.ws/download/resource
 https://api.wsoft.ws/download/resource?id=0
 ```
 
-!!! tip "WSOFTダウンロードセンターへのリンクとの違い"
-    WSOFTダウンロードセンターでは、コンテンツの取り扱いを指定するヘッダーである、Content-Dispositionが、ダウンロードさせることを要求するattachmentに設定されています。しかし、WSOFTダウンロードセンターAPI空の呼び出しでは、Webページのコンテンツとして扱うinlineに設定されます。他にも、ファイル名が提供されなかったり、直接ダウンロードキーを指定してダウンロードできるなどの相違点があります。
-
 ###  コンテンツの情報の取得
 GETまたはPOSTメソッドを使用して、WSOFTダウンロードセンター内にあるコンテンツの情報を取得します。
 
@@ -114,14 +111,14 @@ https://api.wsoft.ws/download/detail
   "Tags" : "{CONTENT_TAGS_TEXT}",
   "Title" : "{CONTENT_TITLE}",
   "Version" : "{CONTENT_VERSION}",
-  "Support_Seartch" : "{IS_VISIBLE_IN_SEARTCHES}"
+  "Support_search" : "{IS_VISIBLE_IN_searchES}"
   "Support_Preview" : "{IS_SUPPORT_PREVIEW}"
 }
 ```
 
 |パラメーター|説明|
 |---|---|
-|Status|取得に成功した場合は`Found`、ダウンロードIDが見つからない場合は`NotFound`、ダウンロードキーが異なる場合は`Wrong_DownloadKey`、その他の例外が発生した場合は`Service_Unavailable`。|
+|Status|取得に成功した場合は`Found`、ダウンロードIDが見つからないかキーが異なる場合は`NotFound`、ダウンロードIDの形式に問題がある場合は`BadID`、その他の例外が発生した場合は`Service_Unavailable`。|
 |Request_ID|要求したダウンロードID|
 |Now|要求を受理あるいは棄却した日付と時刻|
 |Copyright|要求したコンテンツの著作権情報|
@@ -136,7 +133,7 @@ https://api.wsoft.ws/download/detail
 |Tags|要求したコンテンツに関連付けられたタグ。タグは#{TAG_TEXT}:{COLOR_CODE}の形式で返却されます。|
 |Title|要求したコンテンツのタイトル|
 |Version|要求したコンテンツのバージョン|
-|Support_Seartch|要求したコンテンツが一覧や検索に表示されるか否かを表す値。表示される場合は`true`、それ以外の場合は`false`。|
+|Support_search|要求したコンテンツが一覧や検索に表示されるか否かを表す値。表示される場合は`true`、それ以外の場合は`false`。|
 |Support_Preview|要求したコンテンツがファイルのプレビューをサポートするか否かを表す値。サポートする場合はtrue、それ以外の場合はfalse。|
 
 #### 使用例
@@ -156,7 +153,7 @@ https://api.wsoft.ws/download/detail?id=123&feature=title
 GETまたはPOSTメソッドを使用して、WSOFTダウンロードセンター内にあるコンテンツの情報を取得します。
 
 ```url title="Url"
-https://api.wsoft.ws/download/seartch
+https://api.wsoft.ws/download/search
 ```
 
 |パラメーター|説明|
@@ -166,10 +163,10 @@ https://api.wsoft.ws/download/seartch
 #### 戻り値
 取得したコンテンツの情報がJSON形式で次のように返却されます。
 
-```json title="https://api.wsoft.ws/download/seartch"
+```json title="https://api.wsoft.ws/download/search"
 {
   "Status" : "{STATUS}",
-  "Request_Query" : "{SEARTCH_QUERY}",
+  "Request_Query" : "{Search_QUERY}",
   "Now" : "{ACCEPTED_DATETIME}",
   "ID" : "{FOUND_CONTENT_ID}"
 }
@@ -186,7 +183,7 @@ https://api.wsoft.ws/download/seartch
 次の例では、クエリ*を実行し、WSOFTダウンロードセンター内で公開されているすべての検索可能なコンテンツを取得します。
 
 ```url title="Url"
-https://api.wsoft.ws/download/seartch?query=*
+https://api.wsoft.ws/download/search?query=*
 ```
 
 ### エラー
@@ -200,8 +197,8 @@ https://api.wsoft.ws/download/seartch?query=*
 }
 ```
 
-!!! note
-    NotFoundエラーが発生した場合はHTTPステータスコード404が、それ以外の場合は200が返却されます。
+> [!NOTE]
+> NotFoundエラーが発生した場合はHTTPステータスコード404が、それ以外の場合は200が返却されます。
 
 |パラメーター|説明|
 |---|---|
