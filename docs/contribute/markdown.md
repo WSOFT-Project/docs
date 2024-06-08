@@ -3,8 +3,11 @@ title: Markdownリファレンス
 summary: この記事では、WSOFTDocsを執筆する際に使用できるマークダウン記法について説明します。
 date : 2022-12-01
 ---
+
 WSOFTDocsの記事は、すべて[Markdown](https://daringfireball.net/projects/markdown/)記法で記述します。
-WSOFTDocsではMarkdownは、[Pymdown](https://facelessuser.github.io/PyMdown/)解析エンジンを介して解析されます。
+WSOFTDocsでは、記事のMarkdownは、[Pymdown](https://facelessuser.github.io/PyMdown/)を用いてビルドしています。また、WSOFTDocsでは、このサイト内で独自に表現できるMarkdown記法も導入しています。
+
+どのエディターを使用してもMarkdownを記述できますが、[Markdown All in One 拡張機能](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)を導入した[VS Code](https://code.visualstudio.com/)で記述することをおすすすめします。
 
 ## テキスト
 テキストの装飾について詳しく知るには、[テキストの書式設定に関する指針](./text-formatting-guidelines.md)を参照してください。
@@ -639,17 +642,22 @@ QUOTE
 
 ### スニペットの埋め込み
 `--8<--`で囲い、その中にファイル名を書き込むと、そのファイルを埋め込みます。
+
 ```markdown title="Markdown"
 ;--8<--
 snippet.md
 ;--8<--
 ```
+
 ### HTMLの埋め込み
 HTMLコードは、そのまま記述することで埋め込むことができます。
+
 ```html title="Markdown"
 <h4>これはHTMLのH4タグです</h4>
 ```
-結果
+
+**結果**
+
 <h4>これはHTMLのH4タグです</h4>
 
 ### 属性の追加
@@ -657,9 +665,10 @@ HTMLコードは、そのまま記述することで埋め込むことができ�
 ```markdown title="Markdown"
 ### この要素にはqueryというIdがつきます {: #query }
 ```
-結果
+
+**結果**
 
 以下のようなHTMLが生成されます
-```html
+```html title="HTML"
 <h3 id="query">この要素にはqueryというIdがつきます</h3>
 ```
