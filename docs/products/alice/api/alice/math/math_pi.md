@@ -15,6 +15,11 @@ namespace Alice.Math;
 public readonly number math_pi = 3.14159265358979323846;
 ```
 
+### 値
+|値| |
+|-|-|
+|`number`|円周率の近似値|
+
 ???note "対応: AliceScript RC1以降"
     |対応||
     |---|---|

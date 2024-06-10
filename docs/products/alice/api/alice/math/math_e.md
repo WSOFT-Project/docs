@@ -15,6 +15,11 @@ namespace Alice.Math;
 public readonly number math_E = 2.7182818284590452354;
 ```
 
+### 値
+|値| |
+|-|-|
+|`number`|オイラー定数として定められた値|
+
 ???note "対応: AliceScript RC1以降"
     |対応||
     |---|---|
