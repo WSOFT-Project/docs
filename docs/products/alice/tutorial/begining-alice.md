@@ -4,7 +4,7 @@ summary: この記事では、AliceScriptの動作環境を構築し、お使い
 date : 2021-11-19
 ---
 ## はじめに
-AliceScriptは、軽量な.NETエコシステム上で動作するインタプリタ型のプログラミング言語です。AliceScriptはC#やPythonをルーツとしているため、C、C#、JavaScript、Pyhton、PHPのプログラマーであればすぐに使いこなすことができます。
+AliceScriptは、軽量な.NETエコシステム上で動作するインタプリタ型のプログラミング言語です。AliceScriptはC#やPythonをルーツとしているため、C、C#、JavaScript、Python、PHPのプログラマーであればすぐに使いこなすことができます。
 AliceScriptについて詳しく知るには、[AliceScriptのツアー](../welcome)を参照してください。
 
 この記事では、はじめににAliceScriptで開発を始めるために必要な作業を確認します。(すでにAliceScriptを使用している場合はこのセクションを飛ばしても構いません)。

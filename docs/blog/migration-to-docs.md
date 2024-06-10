@@ -57,4 +57,5 @@ WebSailingNetと一口に言っても、それに分類されるサイトは[Web
 また、当面の間AliceScriptWikiのサイトを残す方針が決まりました。現在のAliceScriptWikiのサイトは、読み取り専用となり、今後情報の更新はされません。
 
 ### ご意見をお寄せください
-WSOFTはこの計画への取り組みをを継続し、WSOFTが公開するものすべてについて、より簡単に必要なコンテンツを見つけることができ、それが見やすいものであるように努力しています。[GitHub](https://github.com/WSOFT-Project/docs/issues)でみなさんのご意見をお寄せください。
+
+WSOFTはこの移行にかかる取り組みを継続し、WSOFTの製品ドキュメント全てについて、よりアクセスしやすく、見やすいものであるように改善を続けています。[GitHub](https://github.com/WSOFT-Project/docs/issues)でみなさんのご意見をお寄せください。
