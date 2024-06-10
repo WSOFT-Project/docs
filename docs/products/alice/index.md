@@ -49,6 +49,8 @@ WSOFTDocsのAliceScriptのサイトへようこそ。
 !!! note "つながる"
     ---
 
+    * [AliceScriptのリポジトリ](https://github.com/WSOFT-Project/alicescript)
+    * [Losettaのリポジトリ](https://github.com/WSOFT-Project/Losetta)
     * [AliceScript公式アンバサダー](./me.md)
     * [Aliceの公式アカウント](https://twitter.com/Alice95563264)
     * [Aliceプロジェクト公式コミュニティ](https://a.wsoft.ws/discord)
