@@ -60,7 +60,7 @@ AlicePackageにデジタル署名を添付することで、そのパッケー�
     <publisher>WSOFT</publisher>
     <description>Hello,World!とだけ表示します</description>
     <script>
-     print("Hello,World!");
+      print("Hello,World!");
     </script>
     <target>any</target>
  </package>
