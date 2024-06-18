@@ -28,6 +28,7 @@ print(0.1 + 0.2 == 0.3);
 
 ### 回避策
 この問題を回避するためには、以下のような方法があります。
+
 #### 許容範囲を決めて値を比較する
 ふたつの浮動小数点数数値型数を比較するとき、たとえばそれらが等しいかを調べるときに==を使うのは危険です。両者がまったく等しい場合のみ等しいと判断するのではなく、「両者の差の絶対値がある程度であれば等しいと認める」など許容範囲を決めて比較する方が安全です。次の例は、許容範囲を定めt、`0.000001`未満の差の場合に等しいと判断します。
 
@@ -39,10 +40,10 @@ using Alice.Math;
 ///パラメータ a:一方の値
 ///         b:もう一方の値
 /// tolerance:許容できる誤差の最大の値(この数値は常に正)     
-function NumEqual(number a,number b,number tolerance)
- {
-    return (math_abs(a - b) < tolerance);
- }
+bool NumEqual(number a, number b, number tolerance)
+{
+   return math_abs(a - b) < tolerance;
+}
 
 var numA = 0.1 + 0.2;
 var numB = 0.3;
@@ -50,10 +51,24 @@ var numB = 0.3;
 var tolerance = 0.000001;
 if(NumEqual(numA,numB,tolerance))
  {
-    print("二値は等しいと認められました");
+    print("numAとnumBは等しいです。");
  }
 ```
 
+Alice4.0以降では、[math_isRelativelyClose](../api/alice/math/math_isrelativelyclose.md)関数を使用します。
+次に、この関数を使用して許容範囲を決めて値を比較する方法を示します。
+
+```cs title="AliceScript"
+using Alice.Math;
+
+var numA = 0.1 + 0.2;
+var numB = 0.3;
+
+if(math_isRelativelyClose(numA, numB))
+{
+   print("numAとnumBは等しいです。");
+}
+```
 
 #### 一度整数にした後変換する
 他には、たとえば一度整数にしてから計算する方法も考えられます。次の例では、ふたつの数を整数にすることができる数`dis ** 10`を求めて二数を整数にした後、計算を行うことで誤差を防ぎます。ただしこの場合でも、有効数字15桁以上の数は正確に扱うことができません。

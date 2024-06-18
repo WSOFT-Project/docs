@@ -15,8 +15,8 @@ Visual Studio等で、クラスライブラリプロジェクトを作成して�
 |AliceSister|.NetFramework 4.5|
 |Losetta|.NET6.0|
 
-!!!warning "適用対象"
-    AliceScript2.3以前のバージョンに対応したライブラリを開発したい場合は、[FunctionBaseを使用したAliceScriptライブラリの開発](./functionbase-basic.md)を参照してください。
+> [!WARNING] 適用対象
+> AliceScript2.3以前のバージョンに対応したライブラリを開発したい場合は、[FunctionBaseを使用したAliceScriptライブラリの開発](./functionbase-basic.md)を参照してください。
 
 ### ライブラリエントリポイントの作成
 AliceScriptによってライブラリが、.NET相互運用ライブラリであると認識されるためには、`public`かつ`AliceScript.Interop.ILibrary`が実装されている事が必要です。
