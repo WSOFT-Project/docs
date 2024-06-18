@@ -37,6 +37,8 @@ public bool math_isPrime(number value);
 
 `value`の値が[math_NaN](./math_nan.md)、[math_Infinity](./math_infinity.md)、[math_NegativeInfinity](./math_negativeinfinity.md)または`2`未満の数の場合、この関数は`false`を返します。
 
+この関数は、試し割り法を用いて`value`が素数であるか、それとも合成数であるかを判定します。この方法では、$2$から$\sqrt{value}$までの数で割れるかどうかを順々に試し、どんな数でも割れなかった場合に素数であるとみなします。この関数の計算量は$O(\sqrt{n})$です。
+
 ### 例
 次の例では、一桁の自然数のうち、素数のものを表示しています。
 

@@ -1,32 +1,34 @@
 ---
-title: read
+title: console_readLine
 summary: 標準入力から一行分の文字列を読み取ります。
-date : 2022-12-28
+date : 2024-06-12
 ---
 
 ### 定義
-名前空間: Alice<br/>
+名前空間: Alice.Console<br/>
 アセンブリ: Losetta.Runtime.dll<br/>
-ソースコード: [Alice.Core.Utils.cs](https://github.com/WSOFT-Project/Losetta/blob/master/Losetta.Runtime/Core/Alice.Core.Utils.cs)
+ソースコード: [Alice.Console.cs](https://github.com/WSOFT-Project/Losetta/blob/master/Losetta.Runtime/Alice.Console.cs)
 
-
-#### read()
+#### console_readLine()
 
 標準入力から一行分の文字列を読み取ります。
 
 ```cs title="AliceScript"
-namespace Alice;
-public string? read();
+namespace Alice.Console;
+
+@unsupportedFor("browser")
+@unsupportedFor("android")
+public string? console_readLine();
 ```
 
 |戻り値| |
-|---|---|
-|`string?`|読み取った一行分の文字列。次の行がなかった場合は`null`。|
+|-----|-|
+|`string?`|標準入力から読み取った一行分の文字列。ただし、次の行がない場合は`null`。|
 
-???note "対応: AliceScript RC1以降"
+???note "対応: AliceScript GM以降"
     |対応||
     |---|---|
-    |AliceScript|RC1、RC2、GM、2.0、2.1、2.2、2.3、3.0|
+    |AliceScript|GM、2.0、2.1、2.2、2.3、3.0|
     |AliceSister|GM、2.0、2.1、2.2、2.3、3.0|
     |Losetta|0.8、0.9、0.10|
 
@@ -54,19 +56,12 @@ This is test.
 この関数の動作は、[console_readLine](./console/console_readline.md)関数と同じです。
 
 ### 例
-次の例は、標準入力から名前を取得してあいさつする例です。
+次の例では、コンソールから一行分文字列を読み取り、そのまま出力します。
 
 ```cs title="AliceScript"
-print("こんにちは！あなたの名前を教えてください。");
-var name=read();
-print("{0}さん、こんにちは！これからよろしくね。",name);
-```
+using Alice.Console;
 
-また、[write](./write.md)関数と併用しプロンプトを表示することで、ユーザーが今何を入力すべきかを分かりやすくできます。
+string input = console_readLine();
 
-```cs title="AliceScript"
-print("こんにちは！あなたの名前を教えてください。");
-write("お名前>");
-var name=read();
-print("{0}さん、こんにちは！これからよろしくね。",name);
+print(input);
 ```
