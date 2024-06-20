@@ -12,7 +12,7 @@ AliceScriptからネイティブ関数(C-Style関数)を呼び出すことで、
 
 ```cs title="AliceScript"
 // 呼び出したい機能を含むライブラリと関数
-#libimport "user32.dll"
+@libimport "user32.dll"
 extern int MessageBox(HWND hwnd,LPCTSTR lpText,LPCTSTR lpCaption,UINT uType);
 
 // 定義した関数を呼び出す
@@ -29,7 +29,7 @@ Linuxの場合でも同様です。次の例では、`getpid()`関数を呼び�
 
 ```cs title="AliceScript"
 // 呼び出したい機能を含むライブラリと関数
-#libimport "libc.so.6"
+@libimport "libc.so.6"
 extern int getpid();
 
 // 定義した関数を呼び出す
@@ -50,7 +50,7 @@ extern bool Beep(DWORD,DWORD);
 次の例では、Win32APIの`MessageBox`関数を、AliceScriptの`MsgBox`関数として定義しています。
 
 ```cs title="AliceScript"
-#libimport "user32.dll" , "MessageBox"
+@libimport "user32.dll" , "MessageBox"
 extern int MsgBox(HWND hwnd,LPCTSTR lpText,LPCTSTR lpCaption,UINT uType);
 
 // 関数呼び出し
@@ -78,15 +78,15 @@ AliceScriptでは規定では、プラットフォームに応じて適切な文
 
 ```cs title="AliceScript"
 // ANSI形式の関数の定義
-#libimport "user32.dll" , null , false
+@libimport "user32.dll" , null , false
 extern int MessageBoxA(HWND hwnd,LPCTSTR lpText,LPCTSTR lpCaption,UINT uType);
 
 // Unicode形式の関数の定義
-#libimport "user32.dll" , null , true
+@libimport "user32.dll" , null , true
 extern int MessageBoxW(HWND hwnd,LPCWSTR lpText,LPCWSTR lpCaption,UINT uType);
 
 // プラットフォームに応じて自動選択
-#libimport "user32.dll" , null , null
+@libimport "user32.dll" , null , null
 extern int MessageBox(HWND hwnd,LPCTSTR lpText,LPCTSTR lpCaption,UINT uType);
 ```
 
