@@ -3,30 +3,22 @@ title: AliceScript ADK
 summary: AliceScript Assessment Development Kitは、AliceScriptのSDK(Software Development Kit)に相当するキットです。
 date : 2021-12-25
 ---
-## はじめに
-AliceScript評価および開発キット(AliceScriptADK)には、AliceScriptのシステム、ライブラリ、パッケージや
-その上で動作するアプリケーションやパフォーマンスをテストしたり、実際にAliceScriptの開発を体験するために必要なツールが含まれています。
-詳しくは、AliceScriptホームページを参照してください。
-https://alice.wsoft.ws
 
-## AliceScriptADKには次のツールが含まれています
+AliceScript ADKは、AliceScriptを使った開発を始めるために必要な一連のライブラリとツールのセットです。AliceScript ADKには、次のコンポーネントが含まれています。
 
-* AliceScriptインタプリタの実体であるAliceScript.dll
-* AliceScriptを実行するためのコマンドラインインタフェースであるalice.exeとそれに付随するファイルおよびライブラリ
-* AliceScriptで標準的な機能を実行するために必要な関数やオブジェクトを定義するAlice.Runtime.dll
+- AliceScript CLI(`alice`コマンド)
+- AliceScriptのインタプリタ
+- Alice.Runtime
+- IceBuild
 
-## AliceScriptADKの使い方
-Run.batをダブルクリックすると、初めからalice.txtに書き込まれているサンプルプログラムが起動します。
+## 入手
 
-alice.txtを編集することでAliceScriptの開発を行うことができます。
+AliceScriptADKは、WSOFTダウンロードセンターで配信しています。
 
-(※alice.txtはMITライセンスです。自己責任で自由に改変等を行っていただいて構いません。)
+[AliceScript ADKのダウンロード](../download.md)
 
-## AliceScript/SisterADKは以下の環境で動作します
-AliceScriptADKを使用する場合は.NETCore3.1がインストールされたx64、AMD64、ARM64、x86アーキテクチャを搭載したコンピューター
+## 使用方法
 
-AliceSisterADKを使用する場合は.NETFrameworkがインストールされたx64、AMD64、x86アーキテクチャを搭載したWindowsコンピューター
-
-ただし、Windows11/WindowsServer2022ではx86アーキテクチャはサポートされません。
-
-[AliceScriptのダウンロード](./download)
+- **AliceScript CLI**は、通常のそれと同じようにコマンドラインから呼び出すことで使用できます。
+- **AliceScriptのインタプリタ**と**Alice.Runtime**を開発中の.NETプロジェクトから参照することで、あなたのアプリケーションにAliceScriptの機能を組み込むことができます。詳しくは、[相互運用](../interop/index.md)のページをご覧ください。
+- **IceBuild**を使用すると、自分でAlicePackageをビルドできます。詳しくは、[パッケージのビルド](../tutorial/build.md)をご覧ください。
