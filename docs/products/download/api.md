@@ -152,7 +152,7 @@ https://api.wsoft.ws/download/detail?id=123&feature=title
 ```
 
 ### コンテンツの検索
-GETまたはPOSTメソッドを使用して、WSOFTダウンロードセンター内にあるコンテンツの情報を取得します。
+GETまたはPOSTメソッドを使用して、WSOFTダウンロードセンター内にあるコンテンツの情報を取得します。検索クエリについては、[検索](./search.md)のページを参照してください。
 
 ```url title="Url"
 https://api.wsoft.ws/download/search
