@@ -1,23 +1,30 @@
 ---
 title : GP2040-CEを自分でカスタマイズしてビルドする話
+summary: この記事では、自分がGP2040-CEをビルドするまでの手順を残しておこうと思います。
 date : 2024-07-01
 ---
 
 友人が去年くらいからずっと言っていたアーケードコントローラー(アケコン)について。
 自分の手に馴染むHITBoxみたいなアケコンを作ってみたいと前から言ってて、ワクワクでJLCPCBで基盤を発注する矢先、
-なんかどうも配線をミスったらしく、スタートボタンを別のGPIOピンに移せないかと相談されました。そんなこんなで今日は、GP2040-CEをカスタムビルドしました。
+なんかどうも配線をミスったらしく、スタートボタンを別のGPIOピンに移せないかと相談されました。多分ファームウェアを修正してビルドすればいけそう。そんなこんなで今日は、GP2040-CEをカスタムビルドしました。
 
 ちなみに作っていたアケコンはこんな感じ。かっこいいね。
 
 ![問題のアケコン](./media/IMG_6089.png)
 
-まぁ、カスタムビルドについて、詳細なやり方は*あん*さんがまとめてくださっているので、参考にしてください。
+GP2040-CEですが、どうやらRP2040系のマイコンでゲームコントローラーを作るためのOSSのファームウェアみたいです。
+
+- [GP2040-CE](https://gp2040-ce.info/)
+
+今回はバージョン`0.7.9`を使いました。
+
+今回の本題のカスタムビルドについて、詳細なやり方は*あん*さんがまとめてくださっているので、こちらの方が参考になります。この記事では自分がやったことを淡々と書きます。
 
 - [GP2040_CEビルド環境構築手順.pdf](https://drive.google.com/file/d/1G8ytmH70aumiljWFLk4SzniRSwA6DNNk/view)
 
 ### 環境
 
-当方の環境です。これ以外でも導入するやつを変えれば多分動くと思いますが、まぁ参考までに。
+当方の環境です。これ以外でも導入するやつを変えれば多分動くと思いますが、参考までに。
 
 - Windowsパソコン(x86_64)
 - [WaveShare RP2040-Zero](https://www.switch-science.com/products/7886)
@@ -64,24 +71,27 @@ git submodule update --init
 
 今回は、`WaveShare RP2040-Zero`をベースにしているので、`WaveShare`ディレクトリの`BoardConfig.h`を編集します。
 
-今回はGPIOの使用ピンを0->27、1->28にしたいので、その部分を下記のように書き換えます。
+今回はGPIOの使用ピンを0->27、1->28にしたいので、GPIOとボタンの対応部分を書き換えます。
+
+**書き換え前**
 
 ```c title="BoardConfig.h"
-// 書き換え前
-//
 // (略)
 #define GPIO_PIN_00 GpioAction::BUTTON_PRESS_S1     // S1     | Back   | Minus   | Select   | 9      | Coin   |
 #define GPIO_PIN_01 GpioAction::BUTTON_PRESS_S2     // S2     | Start  | Plus    | Start    | 10     | Start  |
-// 
 // (略)
+```
 
-// 書き換え後
-//
+**書き換え後**
+
+```c title="BoardConfig.h"
 // (略)
 #define GPIO_PIN_27 GpioAction::BUTTON_PRESS_S1     // S1     | Back   | Minus   | Select   | 9      | Coin   |
 #define GPIO_PIN_28 GpioAction::BUTTON_PRESS_S2     // S2     | Start  | Plus    | Start    | 10     | Start  |
 // (略)
 ```
+
+今回はしませんでしたが、もしファームレベルで他のボタンをボタンをリマップしたり、無効化したりするならここでできるそう。
 
 ### ビルド
 
@@ -99,7 +109,7 @@ cmake -G "NMake Makefiles" ..
 nmake
 ```
 
-上手くいったら、`GP2040-CE\build`の中に`*.uf2`みたいなファイルができています。
+上手くいったら、`GP2040-CE\build`の中に`*.uf2`みたいなファイルができています。これでビルドは完了。
 
 ### 書き込み
 
