@@ -4,8 +4,14 @@
 /products/websailing/changelog /websailing/changelog/1180 301
 /products/websailing/gl/changelog /websailing/gl/changelog/4000 301
 /products/alice/general/expression/ /products/alice/general/operators/ 301
+/blog/do-bots-dream-of-jekill-and-hyde https://blog.wsoft.ws/taiseiue/do-bots-dream-of-jekill-and-hyde/ 301
+/blog/gp2040-ce-custom-build https://blog.wsoft.ws/taiseiue/gp2040-ce-custom-build/ 301
+/blog/two-object-orientations https://blog.wsoft.ws/taiseiue/two-object-orientations/ 301
+/blog/zatsudan1 https://blog.wsoft.ws/zen/zatsudan1/ 301
+/blog/zatsudan2 https://blog.wsoft.ws/zen/zatsudan2/ 301
 
 /websailing/* /products/websailing/:splat
 /alice/* /products/alice/:splat
 /script/* /products/script/:splat
 /download/* /products/download/:splat
+/blog/* https://blog.wsoft.ws/wsoft/:splat

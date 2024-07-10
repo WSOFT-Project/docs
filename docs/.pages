@@ -1,6 +1,6 @@
 nav:
     - index.md
-    - blog
+    - blog: https://blog.wsoft.ws/
     - contribute
     - products
     - legal
