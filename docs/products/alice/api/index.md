@@ -3,6 +3,11 @@ title: APIブラウザー
 summary: AliceScriptAPIブラウザーへようこそ。このサイト内にはAliceScriptやAlice.Runtimeで標準で提供されている関数について解説する記事がたくさんあります。
 date : 2022-01-31
 ---
+
+## APIブラウザーへようこそ
+
+="products/alice/api"|[style-lite,include-subdir]=
+
 ### 定義
 名前空間:Alice / アセンブリ : Losetta.Runtime.dll / サポート: AliceScript1
 
