@@ -16,6 +16,7 @@ WSOFTDocsのAliceScriptのサイトへようこそ。
     ---
     
     * [AliceScriptのツアー](welcome)
+    * [Hello,World](./tutorial/hello-world.md)
     * [初めてのAliceScript](tutorial/begining-alice)
     * [APIブラウザ](./api/index.md)
     * [コーディング規約](./general/coding-style.md)
