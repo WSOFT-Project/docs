@@ -5,4 +5,4 @@ summary: Web上のリソースを取得したり、コンテンツをアップ�
 date : 2024-07-11
 ---
 
-="products/alice/api/alice/web"|[include-subdir]=
+="products/alice/api/alice/net"|[include-subdir]=
