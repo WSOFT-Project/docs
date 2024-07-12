@@ -3,6 +3,11 @@ title: directory_get_writeTime
 summary: 指定したディレクトリに最後に書き込んだ日時を取得します。
 date : 2024-05-02
 draft : true
+mt_type: function
+mt_title: directory_get_writeTime(string)
+mt_summary: 指定したディレクトリに最後に書き込んだ日時を取得します。
+mt_title: directory_get_writeTime(string,bool)
+mt_summary: 日時をUTCで取得するか、現地時間で取得するかを指定して、指定したディレクトリに最後に書き込んだ日時を取得します。
 ---
 
 ### 定義

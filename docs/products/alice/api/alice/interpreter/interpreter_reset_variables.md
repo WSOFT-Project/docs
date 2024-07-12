@@ -2,6 +2,8 @@
 title: interpreter_reset_variables
 summary: 現在インタプリタに定義されているすべてのグローバル変数の定義を解除します。
 date : 2021-09-12
+mt_type: function
+mt_title: interpreter_reset_variables()
 ---
 
 ### 定義

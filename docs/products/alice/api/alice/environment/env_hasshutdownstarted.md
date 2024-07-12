@@ -1,6 +1,8 @@
 ---
 title: env_hasShutdownStarted
 summary: 現在のアプリケーションドメインがアンロード中か、またはシステムがシャットダウン中かどうかを表す値を取得します。
+mt_type: function
+mt_title: env_hasShutdownStarted()
 ---
 ### 定義
 名前空間: Alice.Environment<br/>

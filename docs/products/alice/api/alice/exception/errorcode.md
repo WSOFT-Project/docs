@@ -2,6 +2,7 @@
 title: ErrorCode
 long_title : exception.ErrorCode
 summary: 現在の例外の種類を表すエラーコードを示す値を取得します
+mt_type: property
 ---
 ### 定義
 名前空間:Alice / アセンブリ : Losetta.dll / サポート: AliceScript2.1

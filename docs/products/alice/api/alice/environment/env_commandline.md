@@ -1,6 +1,8 @@
 ---
 title: env_commandLine
 summary: このプロセス用のコマンド ラインを取得します
+mt_type: function
+mt_title: env_commandLine()
 ---
 ### 定義
 名前空間: Alice.Environment<br/>
@@ -9,7 +11,7 @@ summary: このプロセス用のコマンド ラインを取得します
 
 #### env_commandLine()
 
-このプロセス用のコマンド ラインを取得します
+このプロセス用のコマンド ラインを取得します。
 
 ```cs title="AliceScript"
 namespace Alice.Environment;

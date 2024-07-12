@@ -1,19 +1,21 @@
 ---
-title: env_Is64BitProcess
+title: env_is64BitProcess
 summary: 現在のプロセスが64ビットプロセスであるかどうかを示す値を取得します。
+mt_type: function
+mt_title: env_is64BitProcess()
 ---
 ### 定義
 名前空間: Alice.Environment<br/>
 アセンブリ: Losetta.Runtime.dll<br/>
 ソースコード: [Alice.Environment.cs](https://github.com/WSOFT-Project/Losetta/blob/master/Losetta.Runtime/Alice.Environment.cs)
 
-#### env_Is64BitProcess()
+#### env_is64BitProcess()
 
 現在のプロセスが64ビットプロセスであるかどうかを示す値を取得します。
 
 ```cs title="AliceScript"
 namespace Alice.Environment;
-public bool env_Is64BitProcess();
+public bool env_is64BitProcess();
 ```
 
 |戻り値| |

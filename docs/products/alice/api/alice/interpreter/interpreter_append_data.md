@@ -1,7 +1,9 @@
 ---
 title: interpreter_append_output
-summary: 指定したデータを標準データ出力に書き込みます。
+summary: 指定したオブジェクトの文字列表現を標準データ出力に書き込みます。
 date : 2022-01-16
+mt_type: function
+mt_title: interpreter_append_data(variable,bool)
 ---
 
 ### 定義

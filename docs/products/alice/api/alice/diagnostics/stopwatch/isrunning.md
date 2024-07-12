@@ -2,6 +2,7 @@
 title: IsRunning
 long_title : StopWatch.IsRunning
 summary: 現在のストップウォッチが時間を計測中かどうかを表す値を取得します。
+mt_type: property
 ---
 ### 定義
 名前空間:Alice / アセンブリ : Losetta.dll / サポート: AliceScript2.1

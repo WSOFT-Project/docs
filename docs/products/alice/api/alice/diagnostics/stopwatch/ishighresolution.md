@@ -2,6 +2,7 @@
 title: IsHighResolution
 long_title : StopWatch.IsHighResolution
 summary: 現在のストップウォッチが高精度のパフォーマンスカウンターに基づいているかどうかを表す値を取得します。
+mt_type: property
 ---
 ### 定義
 名前空間:Alice / アセンブリ : Losetta.dll / サポート: AliceScript2.1

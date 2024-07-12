@@ -2,6 +2,8 @@
 title: gc_collect
 summary: 強制的にガページコレクションを行います。
 date : 2021-09-12
+mt_type: function
+mt_title: gc_collect()
 ---
 
 ### 定義

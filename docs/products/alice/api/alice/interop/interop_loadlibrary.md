@@ -2,6 +2,12 @@
 title: interop_loadLibrary
 summary: 指定した.NETのライブラリを読み込み、エントリポイントを実行します。
 date : 2024-05-02
+mt_type: function
+mt_overloads: 2
+mt_title: interop_loadLibrary(string)
+mt_summary: 指定したパスにある.NETのライブラリを読み込み、エントリポイントを実行します。
+mt_title: interop_loadLibrary(bytes)
+mt_summary: 指定したデータにある.NETのライブラリを読み込み、エントリポイントを実行します。
 ---
 
 ### 定義

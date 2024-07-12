@@ -1,6 +1,8 @@
 ---
 title: env_os_version
 summary: 現在のオペレーティングシステムのプラットフォームID、バージョン、およびServicePackが連結された文字列形式を取得します。
+mt_type: function
+mt_title: env_os_version()
 ---
 ### 定義
 名前空間: Alice.Environment<br/>

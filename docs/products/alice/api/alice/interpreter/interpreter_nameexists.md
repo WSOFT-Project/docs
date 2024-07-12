@@ -2,6 +2,8 @@
 title: interpreter_nameexists
 summary: 特定の文字列を名前が使用されているかどうかを表す値を取得します。
 date : 2022-01-16
+mt_type: function
+mt_title: interpreter_nameexists(string)
 ---
 
 ### 定義

@@ -2,6 +2,8 @@
 title: gc_getTotalMemory
 summary: 現在プロセスに割り当てられられていると思われるメモリのバイト数を取得します。
 date : 2021-07-28
+mt_type: function
+mt_title: gc_getTotalMemory(bool)
 ---
 
 ### 定義

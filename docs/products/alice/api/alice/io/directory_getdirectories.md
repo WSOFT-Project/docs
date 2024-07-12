@@ -1,6 +1,13 @@
 ---
 title: directory_getDirectories
 summary: 指定した条件を満たすサブディレクトリへのパスのリストを返します。
+mt_type: function
+mt_title: directory_getDirectories(string)
+mt_summary: 指定したディレクトリ内のサブディレクトリへのパスのリストを返します。
+mt_title: directory_getDirectories(string,string)
+mt_summary: 指定したディレクトリ内の指定したパターンに一致するサブディレクトリへのパスのリストを返します。
+mt_title: directory_getDirectories(string,string,bool)
+mt_summary: 指定したディレクトリ内の指定したパターンに一致するサブディレクトリへのパスのリストを返します。
 ---
 
 ### 定義

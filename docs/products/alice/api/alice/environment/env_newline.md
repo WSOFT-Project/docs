@@ -1,19 +1,21 @@
 ---
-title: env_NewLine
+title: env_newLine
 summary: このスクリプトを実行している環境で定義されている改行文字列を取得します。
+mt_type: function
+mt_title: env_newLine()
 ---
 ### 定義
 名前空間: Alice.Environment<br/>
 アセンブリ: Losetta.Runtime.dll<br/>
 ソースコード: [Alice.Environment.cs](https://github.com/WSOFT-Project/Losetta/blob/master/Losetta.Runtime/Alice.Environment.cs)
 
-#### env_NewLine()
+#### env_newLine()
 
 このスクリプトを実行している環境で定義されている改行文字列を取得します。
 
 ```cs title="AliceScript"
 namespace Alice.Environment;
-public string env_NewLine();
+public string env_newLine();
 ```
 
 |戻り値| |

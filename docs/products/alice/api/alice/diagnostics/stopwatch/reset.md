@@ -3,6 +3,8 @@ title: Reset
 long_title : StopWatch.Reset
 summary: ストップウォッチの計測を停止して、経過時間をゼロにリセットします。
 date : 2023-08-09
+mt_type: method
+mt_name: Reset()
 ---
 ### 定義
 名前空間:Alice.Interpreter / アセンブリ : Losetta.dll / サポート: AliceScript2.1

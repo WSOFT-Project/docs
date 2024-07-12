@@ -2,6 +2,8 @@
 title: interpreter_append_output
 summary: 指定したデータを標準出力に書き込みます。
 date : 2022-01-16
+mt_type: function
+mt_title: interpreter_append_output(variable,bool)
 ---
 
 ### 定義

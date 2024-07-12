@@ -2,6 +2,8 @@
 title: interpreter_globalVariables
 summary: 現在のインタプリタに登録されているグローバル変数名を列挙します。
 date : 2021-11-19
+mt_type: function
+mt_title: interpreter_globalVariables()
 ---
 
 ### 定義

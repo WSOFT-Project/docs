@@ -1,6 +1,8 @@
 ---
 title: env_set_exitCode
-summary: プロセスの終了コードを設定します
+summary: 現在のプロセスの終了コードを設定します。
+mt_type: function
+mt_title: env_set_exitCode(number)
 ---
 ### 定義
 名前空間: Alice.Environment<br/>
@@ -9,7 +11,7 @@ summary: プロセスの終了コードを設定します
 
 #### env_set_exitCode(number)
 
-プロセスの終了コードを設定します。
+現在のプロセスの終了コードを設定します。
 
 ```cs title="AliceScript"
 namespace Alice.Environment;

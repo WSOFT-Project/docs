@@ -2,6 +2,8 @@
 title: interpreter_processfile
 summary: 指定されたスクリプトファイルを実行します。
 date : 2021-11-19
+mt_type: function
+mt_title: interpreter_processfile(string,bool)
 ---
 
 ### 定義

@@ -2,6 +2,7 @@
 title: Namespace
 long_title : type.Namespace
 summary: 現在の型が所属する名前空間名を取得します
+mt_type: property
 ---
 
 ### 定義

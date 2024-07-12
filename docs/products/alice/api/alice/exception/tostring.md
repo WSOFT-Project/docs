@@ -2,6 +2,8 @@
 title: ToString
 long_title : exception.ToString
 summary: 現在の例外を説明する文字列表現を取得します
+mt_type: method
+mt_title: ToString()
 ---
 ### 定義
 名前空間:Alice / アセンブリ : Losetta.dll / サポート: AliceScript1

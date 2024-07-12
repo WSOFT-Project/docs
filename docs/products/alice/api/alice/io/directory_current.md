@@ -2,6 +2,12 @@
 title: directory_current
 summary: 現在の作業ディレクトリを取得または設定します。
 date : 2021-07-28
+mt_type: function
+mt_overloads: 2
+mt_title: directory_current()
+mt_summary: 現在の作業ディレクトリを取得します。
+mt_title: directory_current(string)
+mt_summary: 現在の作業ディレクトリを指定したディレクトリに設定します。
 ---
 
 ### 定義

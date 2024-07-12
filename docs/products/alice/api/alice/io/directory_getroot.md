@@ -1,6 +1,8 @@
 ---
 title: directory_getRoot
 summary: 指定したパスが所属するルートディレクトリを取得します。
+mt_type: function
+mt_title: directory_getRoot(string)
 ---
 
 ### 定義

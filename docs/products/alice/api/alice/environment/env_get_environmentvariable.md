@@ -2,6 +2,12 @@
 title: env_get_environmentVariable
 summary: 現在のプロセスから特定の環境変数の値か、すべての環境変数の名前の配列を取得します。
 date : 2023-08-09
+mt_type: function
+mt_overloads: 2
+mt_title: env_get_environmentVariable()
+mt_summary: すべての環境変数の名前の配列を取得します。
+mt_title: env_get_environmentVariable(string)
+mt_summary: 現在のプロセスから特定の環境変数の値を取得します。
 ---
 ### 定義
 名前空間: Alice.Environment<br/>

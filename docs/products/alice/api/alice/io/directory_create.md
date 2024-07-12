@@ -2,6 +2,8 @@
 title: directory_create
 summary: ディレクトリを作成します。
 date : 2021-07-28
+mt_type: function
+mt_title: directory_create(string)
 ---
 
 ### 定義

@@ -2,6 +2,8 @@
 title: ToNativeProperty
 long_title : type.ToNativeProperty
 summary: 現在の型をネイティブ型を表すオブジェクトに変換します
+mt_property: method
+mt_title: ToNativeProperty()
 ---
 
 ### 定義

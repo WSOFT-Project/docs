@@ -1,6 +1,13 @@
 ---
 title: directory_getFiles
 summary: 指定した条件を満たすファイルへのパスのリストを返します。
+mt_type: function
+mt_title: directory_getFiles(string)
+mt_summary: 指定したディレクトリ内のファイルへのパスのリストを返します。
+mt_title: directory_getFiles(string,string)
+mt_summary: 指定したディレクトリ内の指定したパターンに一致するファイルへのパスのリストを返します。
+mt_title: directory_getFiles(string,string,bool)
+mt_summary: 指定したディレクトリ内の指定したパターンに一致するファイルへのパスのリストを返します。
 ---
 
 ### 定義

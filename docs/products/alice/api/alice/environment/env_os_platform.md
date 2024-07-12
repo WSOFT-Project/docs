@@ -1,6 +1,8 @@
 ---
 title: env_os_platform
 summary: このスクリプトを実行しているオペレーティングシステムの識別値を取得します。
+mt_type: function
+mt_title: env_os_platform()
 ---
 
 ### 定義

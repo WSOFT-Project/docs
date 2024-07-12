@@ -1,6 +1,8 @@
 ---
 title: directory_getLogicalDrives
 summary: このスクリプトを実行しているコンピューターにマウントされている論理ドライブを取得します。
+mt_type: function
+mt_title: directory_getLogicalDrives()
 ---
 
 ### 定義

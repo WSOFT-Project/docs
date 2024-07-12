@@ -3,6 +3,20 @@ title: directory_get_entries
 summary: 指定した条件を満たすファイルおよびディレクトリへのパスのリストを返します。
 date : 2024-05-05
 draft : true
+mt_type: function
+mt_overloads: 4
+
+mt_title: directory_get_entries(string)
+mt_summary: 指定したディレクトリ内のファイルおよびディレクトリへのパスのリストを返します。
+
+mt_title: directory_get_entries(string,string)
+mt_summary: 指定したディレクトリ内の指定したパターンに一致するファイルおよびディレクトリへのパスのリストを返します。
+
+mt_title: directory_get_entries(string,string,bool)
+mt_summary: 指定したディレクトリ内の指定したパターンに一致するファイルおよびディレクトリへのパスのリストを返します。
+
+mt_title: directory_get_entries(string,string,bool,bool,bool,bool,bool,number,number)
+mt_summary: 指定したディレクトリ内の指定したパターンに一致するファイルおよびディレクトリへのパスのリストを返します。
 ---
 
 ### 定義

@@ -1,6 +1,8 @@
 ---
 title: directory_move
 summary: 指定したファイルまたはディレクトリを別の場所に移動します。
+mt_type: function
+mt_title: directory_move(string,string)
 ---
 
 ### 定義

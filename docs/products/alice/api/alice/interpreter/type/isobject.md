@@ -2,6 +2,7 @@
 title: IsObject
 long_title : type.IsObject
 summary: 現在の型がオブジェクトであるかどうかを表す値を取得します
+mt_type: property
 ---
 
 ### 定義

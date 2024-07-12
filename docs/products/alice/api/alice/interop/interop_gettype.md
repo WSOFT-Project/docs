@@ -2,6 +2,8 @@
 title: interop_getType
 summary: 指定した.NETオブジェクトを表すオブジェクトを取得します
 date : 2024-01-08
+mt_type: function
+mt_title: interop_getType(string,string,string)
 ---
 
 ### 定義

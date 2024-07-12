@@ -2,6 +2,8 @@
 title: env_impl_version
 summary: SAIMの実装のバージョンを表す文字列を取得します。
 date : 2023-08-09
+mt_type: function
+mt_title: env_impl_version()
 ---
 ### 定義
 名前空間: Alice.Environment<br/>
