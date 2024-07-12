@@ -2,6 +2,7 @@
 title: none
 summary: none型は、その値がnullであることを表します
 date : 2021-12-08
+mt_type: type
 ---
 ### 定義
 名前空間: Alice<br/>

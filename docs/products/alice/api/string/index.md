@@ -2,6 +2,7 @@
 title: string
 long_title : string型
 summary: 文字列型は、テキストを一連のUTF-16文字のリストとして表現します。
+mt_type: type
 ---
 ### 定義
 名前空間: Alice<br/>

@@ -1,6 +1,7 @@
 ---
 title: bool
 summary: bool型は、ブール値の論理数を表します
+mt_type: type
 ---
 ### 定義
 名前空間: Alice<br/>

@@ -1,6 +1,7 @@
 ---
 title: void
 summary: void型は、値を返さない関数の戻り値を表します。
+mt_type: type
 ---
 
 ### 定義

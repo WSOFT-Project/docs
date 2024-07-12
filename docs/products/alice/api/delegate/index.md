@@ -1,6 +1,7 @@
 ---
 title: delegate
 summary: デリゲート型は、匿名関数のように一連のステートメントのまとまりを表します。
+mt_type: type
 ---
 ## delegate型
 ### 定義

@@ -2,6 +2,7 @@
 title: array
 long_title : array型
 summary: 配列型は、インデックスを使用してアクセスできる変数のリストを表します
+mt_type: type
 ---
 ### 定義
 名前空間: Alice<br/>
