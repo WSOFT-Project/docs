@@ -12,4 +12,4 @@ mt_type: namespace
 
 ### 値
 
-=!"products/alice/api/alice/value"|[function,include-subdir]!=
+=!"products/alice/api/alice/math"|[value,include-subdir]!=
