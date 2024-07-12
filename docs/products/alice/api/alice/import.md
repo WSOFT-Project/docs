@@ -2,6 +2,13 @@
 title: import
 summary: 指定されたファイル名のライブラリを読み込みます。
 mt_type: function
+mt_overloads: 3
+mt_title: import(string)
+mt_summary: 指定されたAlicePackageを読み込みます。
+mt_title: import(string,bool)
+mt_summary: 現在のパッケージ内またはディレクトリから指定されたAlicePackageを読み込みます。
+mt_title: import(string,bool,bool)
+mt_summary: 現在のパッケージ内またはディレクトリから指定されたAlicePackageまたは.NETのライブラリを読み込みます。
 ---
 
 ### 定義

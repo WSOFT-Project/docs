@@ -3,6 +3,8 @@ title: read
 summary: 標準入力から一行分の文字列を読み取ります。
 date : 2022-12-28
 mt_type: function
+mt_title: read()
+mt_summary: 標準入力から一行分の文字列を読み取ります。
 ---
 
 ### 定義

@@ -2,7 +2,7 @@
 title: exit
 summary: 現在のプロセスを終了します
 mt_type: function
-mt_overload: 2
+mt_overloads: 2
 mt_title: exit()
 mt_summary: 現在のプロセスを終了します
 mt_title: exit(number)

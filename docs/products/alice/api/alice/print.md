@@ -3,6 +3,15 @@ title: print
 summary: 指定された文字列または、オブジェクトの文字列表現を標準出力に書き込み、続けて現在の環境で使用されている改行文字を書き込みます。
 date : 2021-11-09
 mt_type: function
+mt_overloads: 3
+mt_title: print()
+mt_summary: 標準出力に現在の環境で使用されている改行文字を書き込みます。
+mt_title: print(string)
+mt_summary: 指定された文字列を標準出力に書き込み、続けて現在の環境で使用されている改行文字を書き込みます。
+mt_title: print(variable)
+mt_summary: 指定されたオブジェクトの文字列表現を標準出力に書き込み、続けて現在の環境で使用されている改行文字を書き込みます。
+mt_title: print(string,params variable)
+mt_summary: 与えられた複合書式指定子`format`を使用して後続の変数を成形し、その結果を出力します。
 ---
 
 ### 定義
@@ -28,7 +37,7 @@ public void print();
 
 #### print(string)
 
-指定された文字列の文字列表現を標準出力に書き込み、続けて現在の環境で使用されている改行文字を書き込みます。
+指定された文字列を標準出力に書き込み、続けて現在の環境で使用されている改行文字を書き込みます。
 
 ```cs title="AliceScript"
 namespace Alice;
