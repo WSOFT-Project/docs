@@ -2,6 +2,7 @@
 title: write
 summary: 文字列または、指定されたオブジェクトの文字列表現を標準出力に書き込みます。
 date : 2021-11-09
+mt_type: function
 ---
 
 ### 定義

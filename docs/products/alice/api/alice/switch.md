@@ -3,6 +3,7 @@ title: switch
 long_title : switch 文
 summary: 特定の値と一致するかを判断することで実行する文を選択します。
 date : 2023-08-10
+mt_type: function
 ---
 
 ### 定義

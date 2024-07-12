@@ -2,6 +2,7 @@
 title: include
 summary: スクリプトファイルを読み込み、実行します。
 date : 2021-11-09
+mt_type: function
 ---
 
 ### 定義

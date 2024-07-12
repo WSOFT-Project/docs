@@ -1,6 +1,7 @@
 ---
 title: import
 summary: 指定されたファイル名のライブラリを読み込みます。
+mt_type: function
 ---
 
 ### 定義

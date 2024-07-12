@@ -2,6 +2,7 @@
 title: Exception
 long_title : Exception クラス
 summary: Exceptionクラスは、実行中に発生した例外を表します
+mt_type: class
 ---
 ### 定義
 名前空間:Alice / アセンブリ : Losetta.dll / サポート: AliceScript2.1

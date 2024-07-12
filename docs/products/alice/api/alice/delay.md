@@ -2,6 +2,7 @@
 title: delay
 summary: 指定した時間の間プログラムを中断します
 date : 2024-01-08
+mt_type: function
 ---
 
 ### 定義

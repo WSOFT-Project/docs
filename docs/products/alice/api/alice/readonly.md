@@ -2,6 +2,7 @@
 title: readonly
 long_title : readonly文
 summary: 現在の範囲内で変数を読み取り専用にします。
+mt_type: function
 ---
 
 ### 定義

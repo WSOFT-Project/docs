@@ -2,6 +2,7 @@
 title: string_format
 summary: 文字列を複合書式指定子を使用して整形して出力します。
 date : 2021-12-05
+mt_type: function
 ---
 
 ### 定義

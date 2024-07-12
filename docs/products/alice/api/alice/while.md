@@ -3,6 +3,7 @@ title: while
 long_title : while 文
 summary: 条件に応じて本文を0回以上実行します
 date : 2023-08-07
+mt_type: function
 ---
 
 ### 定義

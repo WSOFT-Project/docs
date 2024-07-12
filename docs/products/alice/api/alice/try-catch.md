@@ -3,6 +3,7 @@ title: try-catch
 long_title : try-catch 文
 summary: ブロック内で発生した例外を処理します。
 date : 2024-05-07
+mt_type: function
 ---
 
 ### 定義
