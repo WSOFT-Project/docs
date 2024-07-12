@@ -16,7 +16,7 @@ mt_type: namespace
 
 ### クラス
 
-=!"products/alice/api/alice"|[class,include-subdir]!=ß
+=!"products/alice/api/alice"|[class,include-subdir]!=
 
 ### 名前空間
 
