@@ -2,6 +2,8 @@
 title: interpreter_namespaces
 summary: 現在のインタプリタに登録されている名前空間名を列挙します。
 date : 2021-11-19
+mt_type: function
+mt_title: interpreter_namespaces()
 ---
 
 ### 定義

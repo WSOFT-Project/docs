@@ -1,6 +1,7 @@
 ---
 title: bytes
 summary: bytes型は、バイナリデータ配列を表します
+mt_type: type
 ---
 ### 定義
 名前空間: Alice<br/>

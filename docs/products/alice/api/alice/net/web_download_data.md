@@ -2,6 +2,8 @@
 title: web_download_data
 summary: 指定したURIを持つリソースを取得します
 date : 2021-08-26
+mt_type: function
+mt_title: web_download_data(string)
 ---
 
 ### 定義

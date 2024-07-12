@@ -1,6 +1,8 @@
 ---
 title: math_asinh
 summary: 逆双曲線正弦が指定した数となる角度を返します。
+mt_type: function
+mt_title: math_asinh(number)
 ---
 
 ### 定義

@@ -2,6 +2,9 @@
 title: string_format
 summary: 文字列を複合書式指定子を使用して整形して出力します。
 date : 2021-12-05
+mt_type: function
+mt_title: string_format(string,params variable)
+mt_summary: 与えられた複合書式指定子`format`を使用して後続の変数を成形し、その結果を出力します。
 ---
 
 ### 定義

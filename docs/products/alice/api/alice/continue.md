@@ -3,6 +3,7 @@ title: continue
 long_title : continue キーワード
 summary: これを囲む反復文を次のループに進めます。
 date : 2023-08-07
+mt_type: const
 ---
 
 ### 定義

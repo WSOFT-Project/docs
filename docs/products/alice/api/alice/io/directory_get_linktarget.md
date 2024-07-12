@@ -3,6 +3,8 @@ title: directory_get_linkTarget
 summary: 指定したディレクトリリンクのリンク先を取得します。
 date : 2024-05-02
 draft : true
+mt_type: function
+mt_title: directory_get_linkTarget(string,bool)
 ---
 
 ### 定義

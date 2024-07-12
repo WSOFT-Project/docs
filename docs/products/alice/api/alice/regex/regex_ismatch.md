@@ -1,6 +1,8 @@
 ---
-title: regex_IsMatch
+title: regex_isMatch
 summary: 指定された正規表現に一致する箇所が、指定された文字列内に見つかるかどうかを調べます。
+mt_type: function
+mt_title: regex_isMatch(string,string)
 ---
 
 ### 定義
@@ -8,13 +10,13 @@ summary: 指定された正規表現に一致する箇所が、指定された�
 アセンブリ: Losetta.Runtime.dll<br/>
 ソースコード: [Alice.Regex.cs](https://github.com/WSOFT-Project/Losetta/blob/master/Losetta.Runtime/Alice.Regex.cs)
 
-#### regex_IsMatch(string,string)
+#### regex_isMatch(string,string)
 
 指定された正規表現に一致する箇所が、指定された文字列内に見つかるかどうかを調べます。
 
 ```cs title="AliceScript"
 namespace Alice.Regex;
-public bool regex_IsMatch(string input, string pattern);
+public bool regex_isMatch(string input, string pattern);
 ```
 
 |引数| |

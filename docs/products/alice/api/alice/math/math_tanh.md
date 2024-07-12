@@ -1,6 +1,8 @@
 ---
 title: math_tanh
 summary: 指定された角度のハイパーポリックタンジェントを返します。
+mt_type: function
+mt_title: math_tanh(number)
 ---
 
 ### 定義

@@ -2,6 +2,13 @@
 title: random_int
 summary: 暗号学的に安全な方法で、ランダムな整数を取得します。
 date : 2023-08-10
+mt_type: function
+mt_title: random_int()
+mt_summary: 暗号学的に安全な方法で、ランダムな整数を取得します。
+mt_title: random_int(number)
+mt_summary: 暗号学的に安全な方法で、指定された最大値より大きいランダムな整数を返します。
+mt_title: random_int(number,number)
+mt_summary: 暗号学的に安全な方法で、指定された範囲内のランダムな整数を返します。
 ---
 
 ### 定義

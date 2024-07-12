@@ -1,6 +1,8 @@
 ---
 title: signal_wait
 summary: シグナルを受け取るまで、現在のスレッドをブロックします。
+mt_type: function
+mt_title: signal_wait()
 ---
 
 ### 定義

@@ -1,6 +1,8 @@
 ---
 title: password_hash
 summary: 指定した文字列に対応するハッシュ値を計算します
+mt_type: function
+mt_title: password_hash(string,bytes,number,number)
 ---
 
 ### 定義

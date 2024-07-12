@@ -1,6 +1,8 @@
 ---
-title: regex_Match
+title: regex_match
 summary: 指定された正規表現に最初に一致する箇所を取得します。
+mt_type: function
+mt_title: regex_match(string,string)
 ---
 
 ### 定義
@@ -8,13 +10,13 @@ summary: 指定された正規表現に最初に一致する箇所を取得し�
 アセンブリ: Losetta.Runtime.dll<br/>
 ソースコード: [Alice.Regex.cs](https://github.com/WSOFT-Project/Losetta/blob/master/Losetta.Runtime/Alice.Regex.cs)
 
-#### regex_Match(string,string)
+#### regex_match(string,string)
 
 指定された正規表現に最初に一致する箇所を取得します。
 
 ```cs title="AliceScript"
 namespace Alice.Regex;
-public string regex_Match(string input, string pattern);
+public string regex_match(string input, string pattern);
 ```
 
 |引数| |
@@ -45,7 +47,7 @@ public string regex_Match(string input, string pattern);
 using Alice.Regex;
 
 string text = "ABCDEFG";
-string trimmed = regex_Match(tex, "C*E");
+string trimmed = regex_match(tex, "C*E");
 
 print(trimmed);
 //出力: CDE

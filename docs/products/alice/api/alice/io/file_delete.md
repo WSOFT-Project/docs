@@ -2,6 +2,8 @@
 title: file_delete
 summary: 指定したファイルを削除します
 date : 2021-07-28
+mt_type: function
+mt_title: file_delete(string)
 ---
 
 ### 定義

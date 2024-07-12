@@ -2,6 +2,8 @@
 title: interpreter_process
 summary: 指定された文字列を実行・評価します。
 date : 2021-11-19
+mt_type: function
+mt_title: interpreter_process(string,string,bool)
 ---
 
 ### 定義

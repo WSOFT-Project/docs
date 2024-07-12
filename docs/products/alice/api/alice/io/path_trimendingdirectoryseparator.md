@@ -2,6 +2,8 @@
 title: path_trimEndingDirectorySeparator
 summary: 指定したパスの末尾にあるディレクトリの区切り文字を削除します。
 date : 2024-05-01
+mt_type: function
+mt_title: path_trimEndingDirectorySeparator(string)
 ---
 
 ### 定義

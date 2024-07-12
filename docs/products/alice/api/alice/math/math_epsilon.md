@@ -1,6 +1,7 @@
 ---
 title: math_epsilon
 summary: 0より大きい最小の値を表します
+mt_type: value
 ---
 
 ### 定義

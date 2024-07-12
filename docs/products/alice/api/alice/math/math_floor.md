@@ -1,6 +1,8 @@
 ---
 title: math_floor
 summary: 指定された数の小数点以下を切り捨てた整数を取得します。
+mt_type: function
+mt_title: math_floor(number)
 ---
 
 ### 定義

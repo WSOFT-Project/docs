@@ -1,6 +1,13 @@
 ---
 title: math_round
 summary: 指定された数値を指定した小数点以下の桁数に丸めます。
+mt_type: function
+mt_title: math_round(number,number)
+mt_summary: 指定された数値を指定した小数点以下の桁数に丸めます。
+mt_title: math_round(number,bool?)
+mt_summary: 指定した丸め規則を用いて指定された数値を整数に丸めます。
+mt_title: math_round(number,number,bool?)
+mt_summary: 指定した丸め規則を用いて指定された数値を指定した小数点以下の桁数に丸めます。
 ---
 
 ### 定義
@@ -34,7 +41,7 @@ public number math_round(number value, number digits = 0);
     |AliceSister|GM、2.0、2.1、2.2、2.3、3.0|
     |Losetta|0.8、0.9、0.10|
 
-#### math_round(number,bool)
+#### math_round(number,bool?)
 
 指定した丸め規則を用いて指定された数値を整数に丸めます。
 
@@ -63,7 +70,7 @@ public number math_round(number value, bool? roundingMode = null);
     このオーバーロードはAliceSisterでは仕様が異なります。
     詳しくは**説明**をご覧ください。
 
-#### math_round(number,number,bool)
+#### math_round(number,number,bool?)
 
 指定した丸め規則を用いて指定された数値を指定した小数点以下の桁数に丸めます。
 

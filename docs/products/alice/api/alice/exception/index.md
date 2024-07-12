@@ -2,6 +2,7 @@
 title: Exception
 long_title : Exception クラス
 summary: Exceptionクラスは、実行中に発生した例外を表します
+mt_type: class
 ---
 ### 定義
 名前空間:Alice / アセンブリ : Losetta.dll / サポート: AliceScript2.1
@@ -19,12 +20,7 @@ public class Exception;
 例外がスローされると、アプリケーションあるいは既定の例外ハンドラーによって例外が処理されます。
 
 ### プロパティ
-|名前|説明|
-|---|---|
-|[ErrorCode](./errorcode.md)|現在の例外の種類を表すエラーコードを示す値を取得します|
-|[Message](./message.md)|現在の例外を説明するメッセージを表します|
+=!"products/alice/api/alice/exception"|[property,include-subdir]!=
 
 ### メソッド
-|名前|説明|
-|---|---|
-|[ToString()](./tostring.md)|現在の例外を説明する文字列表現を取得します|
+=!"products/alice/api/alice/exception"|[method,include-subdir]!=

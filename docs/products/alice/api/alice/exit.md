@@ -1,6 +1,12 @@
 ---
 title: exit
 summary: 現在のプロセスを終了します
+mt_type: function
+mt_overloads: 2
+mt_title: exit()
+mt_summary: 現在のプロセスを終了します
+mt_title: exit(number)
+mt_summary: 現在のプロセスを終了し、オペレーティングシステムに終了コードを通知します。
 ---
 
 ### 定義

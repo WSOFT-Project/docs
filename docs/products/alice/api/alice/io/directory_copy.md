@@ -2,6 +2,8 @@
 title: directory_copy
 summary: 指定したディレクトリを別の場所にコピーします。
 date : 2024-05-01
+mt_type: function
+mt_title: directory_copy(string,string)
 ---
 
 ### 定義

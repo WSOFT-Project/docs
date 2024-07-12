@@ -2,6 +2,8 @@
 title: directory_exists
 summary: 指定されたディレクトリが存在するかを取得します。
 date : 2021-07-28
+mt_type: function
+mt_title: directory_exists(string)
 ---
 
 ### 定義

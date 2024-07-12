@@ -2,6 +2,8 @@
 title: path_isPathFullyQualified
 summary: 指定されたパスが、絶対パスかを示す値を取得します。
 date : 2024-05-01
+mt_type: function
+mt_title: path_isPathFullyQualified(string)
 ---
 
 ### 定義

@@ -1,6 +1,8 @@
 ---
 title: math_acosh
 summary: 逆双曲線余弦が指定した数となる角度を返します。
+mt_type: function
+mt_title: math_acosh(number)
 ---
 
 ### 定義

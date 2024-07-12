@@ -1,6 +1,8 @@
 ---
 title: signal
 summary: イベントの状態をシグナル状態に設定し、待機している 1 つ以上のスレッドが進行できるようにします。
+mt_type: function
+mt_title: signal()
 ---
 
 ### 定義

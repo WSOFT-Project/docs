@@ -2,6 +2,7 @@
 title: Frequency
 long_title : StopWatch.Frequency
 summary: 現在のストップウォッチの精度を取得します。
+mt_type: property
 ---
 ### 定義
 名前空間:Alice / アセンブリ : Losetta.dll / サポート: AliceScript2.1

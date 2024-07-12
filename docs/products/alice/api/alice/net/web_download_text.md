@@ -2,6 +2,8 @@
 title: web_download_text
 summary: 指定したURIを持つリソースを文字列形式でダウンロードします。
 date : 2021-08-26
+mt_type: function
+mt_title: web_download_text(string)
 ---
 
 ### 定義
@@ -9,13 +11,13 @@ date : 2021-08-26
 アセンブリ: Losetta.Runtime.dll<br/>
 ソースコード: [Alice.Net.cs](https://github.com/WSOFT-Project/Losetta/blob/master/Losetta.Runtime/Alice.Net.cs)
 
-#### web_download_data(string)
+#### web_download_text(string)
 
 指定したURIを持つリソースを文字列形式でダウンロードします。
 
 ```cs title="AliceScript"
 namespace Alice.Net;
-public string web_download_data(string uri);
+public string web_download_text(string uri);
 ```
 
 |引数| |

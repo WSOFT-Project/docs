@@ -2,6 +2,12 @@
 title: console_beep
 summary: コンソールのスピーカーからビープ音を鳴らします。
 date : 2024-06-12
+mt_type: function
+mt_overloads: 2
+mt_title: console_beep()
+mt_summary: コンソールのスピーカーからビープ音を鳴らします。
+mt_title: console_beep(number,number)
+mt_summary: コンソールのスピーカーから指定した周波数のビープ音を指定した時間鳴らします。
 ---
 
 ### 定義

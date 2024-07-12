@@ -2,6 +2,8 @@
 title: ToString
 long_title : type.ToString
 summary: 現在の型を説明する文字列表現を取得します
+mt_type: method
+mt_title: ToString()
 ---
 
 ### 定義

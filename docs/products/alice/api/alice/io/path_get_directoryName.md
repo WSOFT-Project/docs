@@ -2,6 +2,8 @@
 title: path_get_directoryName
 summary: 指定したパスのディレクトリ名を取得します。
 date : 2024-05-01
+mt_type: function
+mt_title: path_get_directoryName(string)
 ---
 
 ### 定義

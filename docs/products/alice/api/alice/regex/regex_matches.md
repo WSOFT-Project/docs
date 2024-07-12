@@ -1,6 +1,8 @@
 ---
-title: regex_Matches
+title: regex_matches
 summary: 指定された正規表現に一致する箇所をすべて取得します。
+mt_type: function
+mt_title: regex_matches(string,string)
 ---
 
 ### 定義
@@ -8,13 +10,13 @@ summary: 指定された正規表現に一致する箇所をすべて取得し�
 アセンブリ: Losetta.Runtime.dll<br/>
 ソースコード: [Alice.Regex.cs](https://github.com/WSOFT-Project/Losetta/blob/master/Losetta.Runtime/Alice.Regex.cs)
 
-#### regex_IsMatches(string,string)
+#### regex_matches(string,string)
 
 指定された正規表現に一致する箇所をすべて取得します。
 
 ```cs title="AliceScript"
 namespace Alice.Regex;
-public string[] regex_Matches(string input, string pattern);
+public string[] regex_matches(string input, string pattern);
 ```
 
 |引数| |
@@ -45,7 +47,7 @@ public string[] regex_Matches(string input, string pattern);
 using Alice.Regex;
 
 string text = "ABCDABCDABC";
-var result = regex_Matches(text,"A*B");
+var result = regex_matches(text,"A*B");
 
 foreach(string trimmed in result)
 {

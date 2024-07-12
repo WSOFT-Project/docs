@@ -1,6 +1,8 @@
 ---
 title: math_atan
 summary: タンジェントが指定した数となる角度を返します。
+mt_type: function
+mt_title: math_atan(number)
 ---
 
 ### 定義

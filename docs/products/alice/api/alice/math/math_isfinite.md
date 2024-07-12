@@ -1,6 +1,8 @@
 ---
 title: math_isFinite
 summary: 指定した数値が有限であるかを表す値を取得します。
+mt_type: function
+mt_title: math_isFinite(number)
 ---
 
 ### 定義

@@ -2,6 +2,8 @@
 title: interpreter_name
 summary: 実行中のインタプリタの名前を取得します。
 date : 2021-11-19
+mt_type: function
+mt_title: interpreter_name()
 ---
 
 ### 定義

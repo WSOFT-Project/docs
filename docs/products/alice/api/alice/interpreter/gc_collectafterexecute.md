@@ -2,6 +2,12 @@
 title: gc_collectAfterExecute
 summary: スクリプトの評価が終了するたびにガページコレクションを実行するかどうかの値を取得または設定します。
 date : 2021-07-28
+mt_type: function
+mt_overloads: 2
+mt_title: gc_collectAfterExecute()
+mt_summary: スクリプトの評価が終了するたびにガページコレクションを実行するかどうかの値を取得します。
+mt_title: gc_collectAfterExecute(bool)
+mt_summary: スクリプトの評価が終了するたびにガページコレクションを実行するかどうかの値を取得または設定します。
 ---
 
 ### 定義
@@ -29,7 +35,7 @@ public bool gc_collectAfterExecute();
     |AliceSister|GM、2.0、2.1、2.2、2.3、3.0|
     |Losetta|0.8、0.9、0.10|
 
-#### gc_collectAfterExecute()
+#### gc_collectAfterExecute(bool)
 
 スクリプトの評価が終了するたびにガページコレクションを実行するかどうかの値を取得または設定します。
 

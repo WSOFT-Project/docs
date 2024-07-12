@@ -2,6 +2,8 @@
 title: env_impl_name
 summary: SAIMの実装の名前を取得します。
 date : 2023-08-09
+mt_type: function
+mt_title: env_impl_name()
 ---
 ### 定義
 名前空間: Alice.Environment<br/>

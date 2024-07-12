@@ -2,6 +2,7 @@
 title: ElapsedTicks
 long_title : StopWatch.ElapsedTicks
 summary: 現在のインスタンスで計測された経過時間の合計をFrequency単位で取得します。
+mt_type: property
 ---
 ### 定義
 名前空間:Alice / アセンブリ : Losetta.dll / サポート: AliceScript2.1

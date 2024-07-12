@@ -3,6 +3,16 @@ title: directory_get_files
 summary: 指定した条件を満たすファイルへのパスのリストを返します。
 date : 2024-05-02
 draft : true
+mt_type: function
+mt_overloads: 4
+mt_title: directory_get_files(string)
+mt_summary: 指定したディレクトリ内のファイルへのパスのリストを返します。
+mt_title: directory_get_files(string,string)
+mt_summary: 指定したディレクトリ内の指定したパターンに一致するファイルへのパスのリストを返します。
+mt_title: directory_get_files(string,string,bool)
+mt_summary: 指定したディレクトリ内の指定したパターンに一致するファイルへのパスのリストを返します。
+mt_title: directory_get_files(string,string,bool,bool,bool,bool,bool,number,number)
+mt_summary: 指定したディレクトリ内の指定したパターンに一致するファイルへのパスのリストを返します。
 ---
 
 この関数には、古いバージョンがあります。

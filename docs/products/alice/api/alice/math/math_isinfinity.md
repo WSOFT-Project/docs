@@ -1,6 +1,8 @@
 ---
 title: math_isInfinity
 summary: 指定した数値が正負どちらかの無限大であるかを示す値を取得します。
+mt_type: function
+mt_title: math_isInfinity(number)
 ---
 
 ### 定義

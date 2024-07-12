@@ -2,6 +2,7 @@
 title: Message
 long_title : exception.Message
 summary: 現在の例外を説明するメッセージを表します
+mt_type: property
 ---
 ### 定義
 名前空間:Alice / アセンブリ : Losetta.dll / サポート: AliceScript2.1

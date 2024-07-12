@@ -2,6 +2,8 @@
 title: interop_getInvoker
 summary: 指定したC-Style関数に対応するデリゲートを生成します
 date : 2023-12-30
+mt_type: function
+mt_title: interop_getInvoker(string,string,string,array,string,bool)
 ---
 
 ### 定義

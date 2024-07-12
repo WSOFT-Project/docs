@@ -3,6 +3,20 @@ title: directory_get_directories
 summary: 指定した条件を満たすサブディレクトリへのパスのリストを返します。
 date : 2024-05-02
 draft : true
+mt_type: function
+mt_overloads: 4
+
+mt_title: directory_get_directories(string)
+mt_summary: 指定したディレクトリ内のサブディレクトリへのパスのリストを返します。
+
+mt_title: directory_get_directories(string,string)
+mt_summary: 指定したディレクトリ内の指定したパターンに一致するサブディレクトリへのパスのリストを返します。
+
+mt_title: directory_get_directories(string,string,bool)
+mt_summary: 指定したディレクトリ内の指定したパターンに一致するサブディレクトリへのパスのリストを返します。
+
+mt_title: directory_get_directories(string,string,bool,bool,bool,bool,bool,number,number)
+mt_summary: 指定したディレクトリ内の指定したパターンに一致するサブディレクトリへのパスのリストを返します。
 ---
 
 この関数には、古いバージョンがあります。

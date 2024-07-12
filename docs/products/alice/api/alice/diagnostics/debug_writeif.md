@@ -2,6 +2,14 @@
 title: debug_writeIf
 summary: 条件が真であるときに、指定された文字列またはオブジェクトの文字列表現をデバッグ出力に書き込みます。
 date : 2021-11-09
+mt_type: function
+mt_overloads: 3
+mt_title: debug_writeIf(bool,string)
+mt_summary: 条件が真であるときに、指定された文字列をデバッグ出力に書き込みます。
+mt_title: debug_writeIf(bool,variable)
+mt_summary: 条件が真であるときに、指定されたオブジェクトの文字列表現をデバッグ出力に書き込みます。
+mt_title: debug_writeIf(bool,string,params variable)
+mt_summary: 条件が真であるときに、与えられた複合書式指定子`format`を使用して後続の変数を成形し、デバッグ出力に書き込みます。
 ---
 
 ### 定義
@@ -11,7 +19,7 @@ date : 2021-11-09
 
 #### debug_writeIf(bool,string)
 
-条件が真であるときに、指定された文字列の文字列表現をデバッグ出力に書き込みます。
+条件が真であるときに、指定された文字列をデバッグ出力に書き込みます。
 
 ```cs title="AliceScript"
 namespace Alice.Diagnostics;

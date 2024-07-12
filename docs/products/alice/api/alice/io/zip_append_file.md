@@ -2,6 +2,8 @@
 title: zip_append_file
 summary: 指定したZipアーカイブにファイルを追加します。
 date : 2024-05-01
+mt_type: function
+mt_title: zip_append_file(string,string,string)
 ---
 
 ### 定義

@@ -1,6 +1,8 @@
 ---
 title: math_sin
 summary: 指定された角度のサインを返します。
+mt_type: function
+mt_title: math_sin(number)
 ---
 
 ### 定義

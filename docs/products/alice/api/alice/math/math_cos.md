@@ -1,6 +1,8 @@
 ---
 title: math_cos
 summary: 指定された角度のコサインを返します。
+mt_type: function
+mt_title: math_cos(number)
 ---
 
 ### 定義

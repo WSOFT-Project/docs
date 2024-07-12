@@ -2,6 +2,14 @@
 title: debug_print
 summary: 指定された文字列または、オブジェクトの文字列表現をデバッグ出力に書き込み、続けて現在の環境で使用されている改行文字を書き込みます。
 date : 2021-11-09
+mt_type: function
+mt_overloads: 3
+mt_title: debug_print(string)
+mt_summary: 指定された文字列をデバッグ出力に書き込み、続けて現在の環境で使用されている改行文字を書き込みます。
+mt_title: debug_print(variable)
+mt_summary: 指定されたオブジェクトの文字列表現をデバッグ出力に書き込み、続けて現在の環境で使用されている改行文字を書き込みます。
+mt_title: debug_print(string,params variable)
+mt_summary: 与えられた複合書式指定子`format`を使用して後続の変数を成形し、デバッグ出力に書き込み、続けて現在の環境で使用されている改行文字を書き込みます。
 ---
 ### 定義
 名前空間: Alice.Diagnostics<br/>
@@ -10,7 +18,7 @@ date : 2021-11-09
 
 #### debug_print(string)
 
-指定された文字列の文字列表現をデバッグ出力に書き込み、続けて現在の環境で使用されている改行文字を書き込みます。
+指定された文字列をデバッグ出力に書き込み、続けて現在の環境で使用されている改行文字を書き込みます。
 
 ```cs title="AliceScript"
 namespace Alice.Diagnostics;

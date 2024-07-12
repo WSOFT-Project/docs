@@ -2,6 +2,8 @@
 title: interpreter_getVariable
 summary: 指定された文字列を名前としてもつ変数または定数の値を取得します。
 date : 2021-11-19
+mt_type: function
+mt_title: interpreter_getVariable(string)
 ---
 
 ### 定義

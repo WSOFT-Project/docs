@@ -2,6 +2,7 @@
 title: lock
 long_title : lock文
 summary: リソースへの排他的なアクセスを保証します。
+mt_type: function
 ---
 
 ### 定義

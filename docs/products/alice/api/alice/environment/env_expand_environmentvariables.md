@@ -2,6 +2,8 @@
 title: env_expand_environmentVariables
 summary: 指定した文字列に埋め込まれている環境変数の名前を、その変数の値を表す文字列で置換し、置換後の文字列を返します。
 date : 2023-08-09
+mt_type: function
+mt_title: env_expand_environmentVariables(string)
 ---
 ### 定義
 名前空間: Alice.Environment<br/>

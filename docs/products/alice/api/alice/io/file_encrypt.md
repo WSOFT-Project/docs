@@ -2,6 +2,9 @@
 title: file_encrypt
 summary: 指定したファイルの暗号化されたコピーを別の場所に作成します。
 date : 2021-07-28
+mt_type: function
+mt_title: file_encrypt(string,string,string)
+mt_summary: 指定したファイルのAES-128-CBC-SHA-1暗号化されたコピーを別の場所に作成します。
 ---
 
 ### 定義

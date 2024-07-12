@@ -2,6 +2,8 @@
 title: path_join
 summary: 複数の文字列をひとつのパスに結合します。
 date : 2024-05-01
+mt_type: function
+mt_title: path_join(params string)
 ---
 
 ### 定義

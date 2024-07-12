@@ -2,6 +2,7 @@
 title: function
 summary: 関数を定義します。
 date : 2022-01-15
+mt_type: function
 ---
 
 ## 概要

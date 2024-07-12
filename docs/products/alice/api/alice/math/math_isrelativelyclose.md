@@ -3,6 +3,8 @@ title: math_isRelativelyClose
 summary: 指定した2つの値が互いに相対的に近似しているどうかを表す値を取得します。
 date : 2024-05-02
 draft : true
+mt_type: function
+mt_title: math_isRelativelyClose(number,number,number)
 ---
 
 ### 定義

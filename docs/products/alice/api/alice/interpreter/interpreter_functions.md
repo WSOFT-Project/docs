@@ -1,7 +1,13 @@
 ---
-title: interpreter_namespaces
+title: interpreter_functions
 summary: 現在のインタプリタに登録されている関数名を列挙します。
 date : 2021-11-19
+mt_type: function
+mt_overloads: 2
+mt_title: interpreter_functions()
+mt_summary: 現在のインタプリタに登録されているグローバル関数名を列挙します。
+mt_title: interpreter_functions(string)
+mt_summary: 特定の名前空間に所属する関数名を列挙します。
 ---
 
 ### 定義
@@ -9,18 +15,18 @@ date : 2021-11-19
 アセンブリ: Losetta.dll<br/>
 ソースコード: [Alice.Interpreter.cs](https://github.com/WSOFT-Project/Losetta/blob/master/Losetta/NameSpaces/Alice.Interpreter.cs)
 
-#### interpreter_namespaces()
+#### interpreter_functions()
 
 現在のインタプリタに登録されているグローバル関数名を列挙します。
 
 ```cs title="AliceScript"
 namespace Alice.Interpreter;
-public string[] interpreter_namespaces();
+public array interpreter_functions();
 ```
 
 |戻り値| |
 |-|-|
-|`string[]`|現在のインタプリタに登録されている関数の名前を含む配列。|
+|`array`|現在のインタプリタに登録されている関数の名前を含む配列。|
 
 ???note "対応: AliceScript RC1以降"
     |対応||
@@ -29,13 +35,13 @@ public string[] interpreter_namespaces();
     |AliceSister|GM、2.0、2.1、2.2、2.3、3.0|
     |Losetta|0.8、0.9、0.10|
 
-#### interpreter_namespaces(string)
+#### interpreter_functions(string)
 
 特定の名前空間に所属する関数名を列挙します。
 
 ```cs title="AliceScript"
 namespace Alice.Interpreter;
-public string[] interpreter_namespaces(string spaceName);
+public array interpreter_functions(string spaceName);
 ```
 
 |引数| |
@@ -44,7 +50,7 @@ public string[] interpreter_namespaces(string spaceName);
 
 |戻り値| |
 |-|-|
-|`string[]`|現在のインタプリタに登録されている関数の名前を含む配列。|
+|`array`|現在のインタプリタに登録されている関数の名前を含む配列。|
 
 ???note "対応: AliceScript RC1以降"
     |対応||

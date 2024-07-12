@@ -1,6 +1,8 @@
 ---
 title: math_copySign
 summary: 指定された絶対値と符号の値を返します。
+mt_type: function
+mt_title: math_copySign(number,number)
 ---
 
 ### 定義

@@ -1,6 +1,8 @@
 ---
 title: math_sinh
 summary: 指定された角度のハイパーポリックサインを返します。
+mt_type: function
+mt_title: math_sinh(number)
 ---
 
 ### 定義

@@ -2,6 +2,8 @@
 title: file_write_data
 summary: 指定したファイルに、指定されたデータを書き込みます。
 date : 2021-07-28
+mt_type: function
+mt_title: file_write_data(string,bytes)
 ---
 
 ### 定義

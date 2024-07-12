@@ -2,6 +2,8 @@
 title: file_read_codePage
 summary: 指定したファイルで使用されている文字コードを判別し、それを表す数値を返します
 date : 2023-10-28
+mt_type: function
+mt_title: file_read_codePage(string,bool)
 ---
 
 ### 定義

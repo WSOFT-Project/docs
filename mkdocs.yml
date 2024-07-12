@@ -56,6 +56,7 @@ markdown_extensions:
     - lantana.extensions.mdx_wsid
     - attr_list
     - lantana.cards
+    - lantana.mtables
     - footnotes
     - pymdownx.highlight:
        anchor_linenums: true

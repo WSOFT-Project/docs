@@ -1,6 +1,7 @@
 ---
 title: using
 summary: 現在のスクリプトに指定された名前空間への参照を追加します。
+mt_type: function
 ---
 
 ### 定義

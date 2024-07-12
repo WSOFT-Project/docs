@@ -2,6 +2,8 @@
 title: env_set_environmentVariable
 summary: 現在のプロセスに格納されている環境変数を作成、変更、または削除します。
 date : 2023-08-09
+mt_type: function
+mt_title: env_set_environmentVariable(string,string)
 ---
 ### 定義
 名前空間: Alice.Environment<br/>

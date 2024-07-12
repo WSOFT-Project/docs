@@ -1,6 +1,7 @@
 ---
 title: math_E
 summary: 自然対数の底を表します。
+mt_type: value
 ---
 
 ### 定義

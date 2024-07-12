@@ -2,6 +2,16 @@
 title: directory_delete
 summary: 指定されたディレクトリを削除します。
 date : 2021-07-28
+mt_type: function
+mt_overloads: 2
+
+mt_title: directory_delete(string)
+mt_summary: 指定されたパスにある空のディレクトリを削除します。
+ディレクトリにファイルやディレクトリが残っている場合、例外が発生します。
+
+mt_title: directory_delete(string,bool)
+mt_summary: 指定されたパスにあるディレクトリを削除します。
+`recursive`が`false`で、ディレクトリにファイルやディレクトリが残っている場合、例外が発生します。
 ---
 
 ### 定義

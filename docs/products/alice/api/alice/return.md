@@ -3,6 +3,7 @@ title: return
 long_title : return キーワード
 summary: 現在の関数の実行を終了し、呼び出し元に制御と関数の結果を返します。
 date : 2023-08-07
+mt_type: function
 ---
 
 ### 定義

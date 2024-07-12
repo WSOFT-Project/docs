@@ -2,6 +2,10 @@
 title: console_moveBufferArea
 summary: コンソールバッファーの特定の領域を、指定した位置にコピーします。
 date : 2024-06-06
+mt_type: function
+mt_overloads: 1
+mt_title: console_moveBufferArea(number,number,number,number,number,number)
+mt_summary: コンソールバッファーの特定の領域を、指定した位置にコピーします。
 ---
 
 ### 定義
@@ -11,7 +15,7 @@ date : 2024-06-06
 
 #### console_moveBufferArea(number,number,number,number,number,number)
 
-コンソールバッファーの特定の領域を、指定した位置にコピーします
+コンソールバッファーの特定の領域を、指定した位置にコピーします。
 
 ```cs title="AliceScript"
 namespace Alice.Console;

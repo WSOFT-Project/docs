@@ -2,6 +2,14 @@
 title: debug_write
 summary: 指定された文字列または、オブジェクトの文字列表現をデバッグ出力に書き込みます。
 date : 2021-11-09
+mt_type: function
+mt_overloads: 3
+mt_title: debug_write(string)
+mt_summary: 指定された文字列をデバッグ出力に書き込みます。
+mt_title: debug_write(variable)
+mt_summary: 指定されたオブジェクトの文字列表現をデバッグ出力に書き込みます。
+mt_title: debug_write(string,params variable)
+mt_summary: 与えられた複合書式指定子`format`を使用して後続の変数を成形し、デバッグ出力に書き込みます。
 ---
 
 ### 定義

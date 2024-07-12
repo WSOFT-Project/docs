@@ -1,6 +1,8 @@
 ---
 title: env_commandLineArgs
-summary: 現在のプロセスに対するコマンド ライン引数を格納している文字列配列を返します
+summary: 現在のプロセスに対するコマンドライン引数を格納している文字列配列を返します
+mt_type: function
+mt_title: env_commandLineArgs()
 ---
 ### 定義
 名前空間: Alice.Environment<br/>
@@ -9,7 +11,7 @@ summary: 現在のプロセスに対するコマンド ライン引数を格納�
 
 #### env_commandLineArgs()
 
-現在のプロセスに対するコマンド ライン引数を格納している文字列配列を返します。
+現在のプロセスに対するコマンドライン引数を格納している文字列配列を返します。
 
 ```cs title="AliceScript"
 namespace Alice.Environment;

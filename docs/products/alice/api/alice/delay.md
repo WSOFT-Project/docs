@@ -2,6 +2,12 @@
 title: delay
 summary: 指定した時間の間プログラムを中断します
 date : 2024-01-08
+mt_type: function
+mt_overloads: 2
+mt_title: delay()
+mt_summary: 無期限にスレッドを中断します。
+mt_title: delay(number)
+mt_summary: 指定した時間の間スレッドを中断します。
 ---
 
 ### 定義
@@ -11,7 +17,7 @@ date : 2024-01-08
 
 #### delay()
 
-無期限にスレッドを中断します
+無期限にスレッドを中断します。
 
 ```cs title="AliceScript"
 namespace Alice;
@@ -27,7 +33,7 @@ public void delay();
 
 #### delay(number)
 
-指定した時間の間スレッドを中断します
+指定した時間の間スレッドを中断します。
 
 ```cs title="AliceScript"
 namespace Alice;

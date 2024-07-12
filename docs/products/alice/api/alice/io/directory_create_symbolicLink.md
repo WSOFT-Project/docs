@@ -2,6 +2,8 @@
 title: directory_create_symbolicLink
 summary: ディレクトリへのシンボリックリンクを作成します。
 date : 2023-12-16
+mt_type: function
+mt_title: directory_create_symbolicLink(string,string)
 ---
 
 ### 定義

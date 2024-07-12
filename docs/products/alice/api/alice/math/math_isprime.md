@@ -1,6 +1,8 @@
 ---
 title: math_isPrime
 summary: 指定した数値が素数であるかを表す値を取得します。
+mt_type: function
+mt_title: math_isPrime(number)
 ---
 
 ### 定義

@@ -2,6 +2,9 @@
 title: file_write_encrypt
 summary: 指定したファイルに、指定されたデータを暗号化しながら書き込みます。
 date : 2023-12-16
+mt_type: function
+mt_title: file_write_encrypt(string,bytes,string,number,number,bool)
+mt_summary: 新しいファイルを作成し、指定されたデータをAES-CBC方式で暗号化しながら書き込みます。
 ---
 
 ### 定義

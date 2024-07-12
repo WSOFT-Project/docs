@@ -2,6 +2,8 @@
 title: file_read_charCode
 summary: 指定したファイルで使用されている文字コードを判別し、それを表す文字列を返します
 date : 2023-10-28
+mt_type: function
+mt_title: file_read_charCode(string,bool)
 ---
 
 ### 定義

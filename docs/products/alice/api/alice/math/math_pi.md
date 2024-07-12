@@ -1,6 +1,7 @@
 ---
 title: math_pi
 summary: 円周と直径の比率を表す円周率を表します。
+mt_type: value
 ---
 
 ### 定義

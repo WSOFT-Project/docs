@@ -2,6 +2,8 @@
 title: web_send_ping
 summary: 指定したコンピューターping要求を送信し、適切な応答が返って来たかどうかを表す値を取得します。
 date : 2021-08-26
+mt_type: function
+mt_title: web_send_ping(string,number)
 ---
 
 ### 定義

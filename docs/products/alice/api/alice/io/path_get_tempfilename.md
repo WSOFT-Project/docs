@@ -2,6 +2,8 @@
 title: path_get_tempFileName
 summary: ユニークな名前を持つ0バイトの一時ファイルをディスクに作成し、そのファイルの絶対パスを取得します。
 date : 2024-05-01
+mt_type: function
+mt_title: path_get_tempFileName()
 ---
 
 ### 定義

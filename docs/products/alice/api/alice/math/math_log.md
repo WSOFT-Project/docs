@@ -1,6 +1,11 @@
 ---
 title: math_log
 summary: 指定した数の対数を返します。
+mt_type: function
+mt_title: math_log(number)
+mt_summary: 指定した数値の自然対数を返します。
+mt_title: math_log(number,number)
+mt_summary: 指定した数値の指定した底での対数を返します。
 ---
 
 ### 定義

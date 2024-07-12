@@ -3,6 +3,7 @@ title: break
 long_title : break キーワード
 summary: これを囲む反復文を終了させます。
 date : 2023-08-07
+mt_type: const
 ---
 
 ### 定義

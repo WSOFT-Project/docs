@@ -1,6 +1,8 @@
 ---
 title: math_acos
 summary: コサインが指定した数となる角度を返します。
+mt_type: function
+mt_title: math_acos(number)
 ---
 
 ### 定義

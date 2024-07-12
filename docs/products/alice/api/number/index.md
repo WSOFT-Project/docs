@@ -1,6 +1,7 @@
 ---
 title: number
 summary: 数値型は実数を表します。
+mt_type: type
 ---
 
 ### 定義

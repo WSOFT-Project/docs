@@ -1,19 +1,21 @@
 ---
-title: env_MachineName
+title: env_machineName
 summary: このスクリプトを実行しているコンピューターのNetBIOS 名を取得します。
+mt_type: function
+mt_title: env_machineName()
 ---
 ### 定義
 名前空間: Alice.Environment<br/>
 アセンブリ: Losetta.Runtime.dll<br/>
 ソースコード: [Alice.Environment.cs](https://github.com/WSOFT-Project/Losetta/blob/master/Losetta.Runtime/Alice.Environment.cs)
 
-#### env_MachineName()
+#### env_machineName()
 
 このスクリプトを実行しているコンピューターのNetBIOS 名を取得します。
 
 ```cs title="AliceScript"
 namespace Alice.Environment;
-public string env_MachineName();
+public string env_machineName();
 ```
 
 |戻り値| |

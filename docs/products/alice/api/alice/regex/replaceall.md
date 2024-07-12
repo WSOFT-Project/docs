@@ -2,6 +2,8 @@
 title: ReplaceAll
 long_title : string.ReplaceAll
 summary: 指定した文字列内でパターンに一致する文字列を、すべて指定した文字列で置き換えます。
+mt_type: method
+mt_title: ReplaceAll(this string,string,string)
 ---
 
 ### 定義

@@ -2,6 +2,13 @@
 title: file_read_text
 summary: 指定したファイルを読み取り、結果を文字列で返します。
 date : 2021-07-28
+mt_type: function
+mt_title: file_read_text(string)
+mt_summary: 指定したファイルを読み取り、結果を文字列で返します。
+mt_title: file_read_text(string,bool)
+mt_summary: 指定したファイルをファイルシステムまたは現在のパッケージから読み取り、結果を文字列で返します。
+mt_title: file_read_text(string,string,bool)
+mt_summary: 指定したファイルをファイルシステムまたは現在のパッケージから読み取り、結果を指定された文字コードで解釈した文字列を返します。
 ---
 
 ### 定義

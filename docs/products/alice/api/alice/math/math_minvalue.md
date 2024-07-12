@@ -1,6 +1,7 @@
 ---
 title: math_minValue
 summary: 扱うことができる最小値を表します
+mt_type: value
 ---
 
 ### 定義

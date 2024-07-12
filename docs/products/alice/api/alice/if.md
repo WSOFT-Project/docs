@@ -3,6 +3,7 @@ title: if
 long_title : if 文
 summary: 指定された条件式が真と評価されたときに本文を実行します。
 date : 2023-08-07
+mt_type: function
 ---
 
 ### 定義

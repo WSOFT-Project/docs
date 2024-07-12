@@ -2,6 +2,7 @@
 title: Activate
 long_title : type.Activate
 summary: 指定した引数を使用して、現在の型をインスタンス化します
+mt_type: property
 ---
 ### 定義
 名前空間: Alice.Interpreter<br/>

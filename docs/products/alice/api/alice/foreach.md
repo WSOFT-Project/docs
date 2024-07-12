@@ -3,6 +3,7 @@ title: foreach
 long_title : foreach 文
 summary: 配列内の要素を列挙し、それぞれの要素を使用して反復処理を行います。
 date : 2023-08-07
+mt_type: function
 ---
 
 ### 定義

@@ -1,6 +1,8 @@
 ---
-title: math_fusedmultiplyadd
+title: math_fusedMultiplyAdd
 summary: ひとつの三項演算として丸められた、(x*y)+zを返します。
+mt_type: function
+mt_title: math_fusedMultiplyAdd(number,number,number)
 ---
 
 ### 定義
@@ -8,13 +10,13 @@ summary: ひとつの三項演算として丸められた、(x*y)+zを返しま�
 アセンブリ: Losetta.Runtime.dll<br/>
 ソースコード: [Alice.Math.cs](https://github.com/WSOFT-Project/Losetta/blob/master/Losetta.Runtime/Alice.Math.cs)
 
-#### math_fusedmultiplyadd(number,number,number)
+#### math_fusedMultiplyAdd(number,number,number)
 
 ひとつの三項演算として丸められた、(x*y)+zを返します。
 
 ```cs title="AliceScript"
 namespace Alice.Math;
-public number math_fusedmultiplyadd(number x,number y,number z);
+public number math_fusedMultiplyAdd(number x,number y,number z);
 ```
 
 |引数| |

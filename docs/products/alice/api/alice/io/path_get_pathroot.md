@@ -2,6 +2,8 @@
 title: path_get_pathRoot
 summary: 指定したパスから、ルートディレクトリを取得します。
 date : 2024-05-01
+mt_type: function
+mt_title: path_get_pathRoot(string)
 ---
 
 ### 定義

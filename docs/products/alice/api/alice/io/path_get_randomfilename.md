@@ -2,6 +2,8 @@
 title: path_get_randomFileName
 summary: ユニークな名前を持つディレクトリまたはファイル名を返します。
 date : 2024-05-01
+mt_type: function
+mt_title: path_get_randomFileName()
 ---
 
 ### 定義

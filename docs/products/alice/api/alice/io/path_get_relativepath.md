@@ -2,6 +2,8 @@
 title: path_get_relativePath
 summary: あるパスから指定したパスの相対パスを取得します。
 date : 2024-05-01
+mt_type: function
+mt_title: path_get_relativePath(string,string)
 ---
 
 ### 定義

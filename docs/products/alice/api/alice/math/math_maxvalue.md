@@ -1,6 +1,7 @@
 ---
 title: math_maxValue
 summary: 扱うことができる最大値を表します
+mt_type: value
 ---
 
 ### 定義

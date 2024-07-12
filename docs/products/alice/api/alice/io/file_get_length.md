@@ -3,6 +3,8 @@ title: file_get_length
 summary: 指定したファイルのサイズをバイト単位で取得します。
 date : 2024-05-02
 draft : true
+mt_type: function
+mt_title: file_get_length(string)
 ---
 
 ### 定義

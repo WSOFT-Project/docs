@@ -2,6 +2,8 @@
 title: interpreter_consts
 summary: 現在のインタプリタに登録されているグローバル定数名を列挙します。
 date : 2021-11-19
+mt_type: function
+mt_title: interpreter_consts()
 ---
 
 ### 定義

@@ -2,6 +2,8 @@
 title: guid_new_text
 summary: 新しいGUID(UUID)を生成し、その文字列表現を取得します。
 date : 2021-08-10
+mt_type: function
+mt_title: guid_new_text()
 ---
 
 ### 定義

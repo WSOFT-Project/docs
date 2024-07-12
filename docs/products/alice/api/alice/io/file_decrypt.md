@@ -2,6 +2,9 @@
 title: file_decrypt
 summary: 指定したファイルを復号されたコピーを別の場所に作成します。
 date : 2021-07-28
+mt_type: function
+mt_title: file_decrypt(string,string,string)
+mt_summary: 指定した暗号化されたファイルをAES-128-CBC-SHA-1復号されたコピーを別の場所に作成します。
 ---
 
 ### 定義

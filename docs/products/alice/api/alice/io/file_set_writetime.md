@@ -3,6 +3,11 @@ title: file_set_creationTime
 summary: 指定したファイルまたはディレクトリに最期に書き込んだ日時を設定します。
 date : 2024-05-02
 draft : true
+mt_type: function
+mt_title: file_set_creationTime(string,DateTime)
+mt_summary: 指定したファイルまたはディレクトリに最期に書き込んだ日時を設定します。
+mt_title: file_set_creationTime(string,DateTime,bool)
+mt_summary: 日時をUTCで設定するか、現地時間で設定するかを指定して、指定したファイルまたはディレクトリに最期に書き込んだ日時を設定します。
 ---
 
 ### 定義

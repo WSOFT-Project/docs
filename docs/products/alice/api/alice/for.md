@@ -3,6 +3,7 @@ title: for
 long_title : for 文
 summary: 式が真と評価される間、本文を繰り返し実行します。
 date : 2023-08-07
+mt_type: function
 ---
 
 ### 定義

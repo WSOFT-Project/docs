@@ -1,6 +1,8 @@
 ---
-title: md5_GetHash
+title: md5_getHash
 summary: 指定したデータのMD5ハッシュ値を取得します。
+mt_type: function
+mt_title: md5_getHash(bytes)
 ---
 
 ### 定義
@@ -8,13 +10,13 @@ summary: 指定したデータのMD5ハッシュ値を取得します。
 アセンブリ: Losetta.Runtime.dll<br/>
 ソースコード: [Alice.Security.cs](https://github.com/WSOFT-Project/Losetta/blob/master/Losetta.Runtime/Alice.Security.cs)
 
-#### md5_GetHash(bytes)
+#### md5_getHash(bytes)
 
 指定したデータのMD5ハッシュ値を取得します。
 
 ```cs title="AliceScript"
 namespace Alice.Security;
-public bytes md5_GetHash(bytes data);
+public bytes md5_getHash(bytes data);
 ```
 
 |引数| |

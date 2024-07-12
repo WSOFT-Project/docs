@@ -2,6 +2,7 @@
 title: Base
 long_title : type.Base
 summary: 現在の型の継承元のクラス名を取得します
+mt_type: property
 ---
 
 ### 定義
