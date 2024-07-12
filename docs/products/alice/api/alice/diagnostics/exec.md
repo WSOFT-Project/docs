@@ -2,6 +2,12 @@
 title: exec
 summary: 別のプロセスを開始します。
 date : 2023-12-30
+mt_type: function
+mt_overloads: 2
+mt_title: exec(string,bool,bool)
+mt_summary: ファイル名を指定して別のプロセスを開始します。
+mt_title: exec(string,string,bool,bool)
+mt_summary: ファイル名とコマンドライン引数を指定して別のプロセスを開始します。
 ---
 
 ### 定義
@@ -37,7 +43,7 @@ public Process exec(string fileName, bool waitForExit = true, bool useShell = fa
 
 #### exec(string,string,bool,bool)
 
-ファイル名と引数を指定して別のプロセスを開始します。
+ファイル名とコマンドライン引数を指定して別のプロセスを開始します。
 
 ```cs title="AliceScript"
 namespace Alice.Diagnostics;

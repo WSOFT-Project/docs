@@ -2,6 +2,12 @@
 title: debug_indentLevel
 summary: デバッグ出力のインデントレベルを取得または設定します。
 date : 2021-11-09
+mt_type: function
+mt_overloads: 2
+mt_title: debug_indentLevel()
+mt_summary: デバッグ出力のインデントレベルを取得します。
+mt_title: debug_indentLevel(number)
+mt_summary: デバッグ出力のインデントレベルを設定します。
 ---
 
 ### 定義

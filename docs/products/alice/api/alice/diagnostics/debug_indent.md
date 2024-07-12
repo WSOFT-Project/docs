@@ -2,6 +2,10 @@
 title: debug_indent
 summary: デバッグ出力のインデントレベルを1増やします。
 date : 2021-11-09
+mt_type: function
+mt_overloads: 1
+mt_title: debug_indent()
+mt_summary: デバッグ出力のインデントレベル]を`1`増やします。
 ---
 
 ### 定義

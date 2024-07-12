@@ -5,7 +5,7 @@ date : 2021-11-09
 mt_type: function
 mt_overloads: 3
 mt_title: write(string)
-mt_summary: 指定された文字列の文字列表現を標準出力に書き込みます。
+mt_summary: 指定された文字列を標準出力に書き込みます。
 mt_title: write(variable)
 mt_summary: 指定されたオブジェクトの文字列表現を標準出力に書き込みます。
 mt_title: write(string,params variable)

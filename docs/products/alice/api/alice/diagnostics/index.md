@@ -6,4 +6,11 @@ date : 2024-07-11
 mt_type: namespace
 ---
 
-="products/alice/api/alice/diagnostics"|[include-subdir]=
+
+#### 関数
+
+=!"products/alice/api/alice/diagnostics"|[function,include-subdir]!=
+
+#### クラス
+
+=!"products/alice/api/alice/diagnostics"|[class,include-subdir]!=

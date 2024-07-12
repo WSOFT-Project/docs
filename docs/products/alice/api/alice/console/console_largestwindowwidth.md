@@ -2,6 +2,7 @@
 title: console_largestWindowWidth
 summary: 現在のコンソールに一行に表示できる最大文字数を取得します。
 date : 2024-06-11
+mt_type: value
 ---
 
 ### 定義

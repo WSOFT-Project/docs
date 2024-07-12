@@ -2,6 +2,10 @@
 title: console_setCursorPosition
 summary: コンソールの中のカーソルの位置を設定します
 date : 2024-06-05
+mt_type: function
+mt_overloads: 1
+mt_title: console_setCursorPosition(number,number)
+mt_summary: コンソールの中のカーソルの位置を設定します。
 ---
 
 ### 定義
@@ -11,7 +15,7 @@ date : 2024-06-05
 
 #### console_setCursorPosition(number,number)
 
-コンソールの中のカーソルの位置を設定します
+コンソールの中のカーソルの位置を設定します。
 
 ```cs title="AliceScript"
 namespace Alice.Console;

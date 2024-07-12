@@ -6,4 +6,10 @@ date : 2024-07-11
 mt_type: namespace
 ---
 
-="products/alice/api/alice/console"|[include-subdir]=
+#### 関数
+
+=!"products/alice/api/alice/console"|[function,include-subdir]!=
+
+#### 値
+
+=!"products/alice/api/alice/console"|[value,include-subdir]!=

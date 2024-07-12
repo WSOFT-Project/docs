@@ -2,6 +2,7 @@
 title: console_largestWindowHeight
 summary: 現在のコンソールに表示できる最大行数を取得します。
 date : 2024-06-11
+mt_type: value
 ---
 
 ### 定義

@@ -2,6 +2,10 @@
 title: console_readKey
 summary: ユーザーが入力した次の文字を取得します。
 date : 2024-06-12
+mt_type: function
+mt_overloads: 1
+mt_title: console_readKey()
+mt_summary: ユーザーが入力した次の文字を取得します。
 ---
 
 ### 定義

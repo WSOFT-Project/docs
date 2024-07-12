@@ -2,6 +2,10 @@
 title: debug_unIndent
 summary: デバッグ出力のインデントレベルを1減らします。
 date : 2021-11-09
+mt_type: function
+mt_overloads: 1
+mt_title: debug_unIndent()
+mt_summary: デバッグ出力のインデントレベルを`1`減らします。
 ---
 
 ### 定義

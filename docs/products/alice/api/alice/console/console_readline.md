@@ -2,6 +2,10 @@
 title: console_readLine
 summary: 標準入力から一行分の文字列を読み取ります。
 date : 2024-06-12
+mt_type: function
+mt_overloads: 1
+mt_title: console_readLine()
+mt_summary: 標準入力から一行分の文字列を読み取ります。
 ---
 
 ### 定義

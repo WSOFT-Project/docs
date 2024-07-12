@@ -2,6 +2,10 @@
 title: console_clear
 summary: コンソールバッファーをクリアします。
 date : 2024-06-05
+mt_type: function
+mt_overloads: 1
+mt_title: console_clear()
+mt_summary: コンソールバッファーをクリアします。
 ---
 
 ### 定義

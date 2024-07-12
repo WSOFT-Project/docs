@@ -2,6 +2,7 @@
 title: console_numberLock
 summary: NumLockキーがオンかどうかを表す値を取得します。
 date : 2024-06-06
+mt_type: value
 ---
 
 ### 定義

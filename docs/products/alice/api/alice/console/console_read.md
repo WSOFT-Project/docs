@@ -2,6 +2,10 @@
 title: console_read
 summary: 標準入力から一文字読み取ります。
 date : 2024-06-12
+mt_type: function
+mt_overloads: 1
+mt_title: console_read()
+mt_summary: 標準入力から一文字読み取ります。
 ---
 
 ### 定義
