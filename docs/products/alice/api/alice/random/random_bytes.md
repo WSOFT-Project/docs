@@ -2,6 +2,8 @@
 title: random_bytes
 summary: 暗号学的に安全な方法で、ランダムなバイト配列を返します。
 date : 2021-08-10
+mt_type: function
+mt_title: random_bytes(number)
 ---
 
 ### 定義

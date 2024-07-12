@@ -2,6 +2,8 @@
 title: web_download_file
 summary: 指定したURIを持つリソースをローカルファイルにダウンロードします
 date : 2021-08-26
+mt_type: function
+mt_title: web_download_file(string,string)
 ---
 
 ### 定義

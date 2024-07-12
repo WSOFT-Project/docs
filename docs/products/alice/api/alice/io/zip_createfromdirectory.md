@@ -2,6 +2,8 @@
 title: zip_createFromDirectory
 summary: 指定したディレクトリからZipアーカイブを作成します。
 date : 2024-05-01
+mt_type: function
+mt_title: zip_createFromDirectory(string,string)
 ---
 
 ### 定義

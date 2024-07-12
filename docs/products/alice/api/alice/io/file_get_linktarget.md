@@ -3,6 +3,8 @@ title: file_get_linkTarget
 summary: 指定したファイルリンクのリンク先を取得します。
 date : 2024-05-02
 draft : true
+mt_type: function
+mt_title: file_get_linkTarget(string,bool)
 ---
 
 ### 定義

@@ -6,10 +6,10 @@ date : 2024-07-11
 mt_type: namespace
 ---
 
-#### 関数
+### 関数
 
 =!"products/alice/api/alice/interpreter"|[function,include-subdir]!=
 
-#### クラス
+### クラス
 
 =!"products/alice/api/alice/interpreter"|[class,include-subdir]!=

@@ -1,6 +1,8 @@
 ---
 title: math_tan
 summary: 指定された角度のタンジェントを返します。
+mt_type: function
+mt_title: math_tan(number)
 ---
 
 ### 定義

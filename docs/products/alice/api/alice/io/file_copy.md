@@ -2,6 +2,13 @@
 title: file_copy
 summary: 指定したファイルを別の場所にコピーします。
 date : 2021-07-28
+mt_type: function
+mt_title: file_copy(string,string)
+mt_summary: 指定したファイルを新しい場所にコピーします。
+destinationにすでにファイルがある場合は例外が発生します。
+mt_title: file_copy(string,string,bool)
+mt_summary: 指定したファイルを別の場所にコピーします。
+overwriteがfalseで、かつdestinationにすでにファイルがある場合は例外が発生します。
 ---
 
 ### 定義

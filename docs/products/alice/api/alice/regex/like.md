@@ -2,6 +2,8 @@
 title: Like
 long_title : string.Like
 summary: 文字列を指定されたパターンと比較します。
+mt_type: method
+mt_title: Like(this string,string)
 ---
 
 ### 定義

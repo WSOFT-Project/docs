@@ -1,6 +1,8 @@
 ---
-title: math_bitincrement
+title: math_bitIncrement
 summary: 指定された数値の次に大きい値を返します。
+mt_type: function
+mt_title: math_bitIncrement(number)
 ---
 
 ### 定義
@@ -8,13 +10,13 @@ summary: 指定された数値の次に大きい値を返します。
 アセンブリ: Losetta.Runtime.dll<br/>
 ソースコード: [Alice.Math.cs](https://github.com/WSOFT-Project/Losetta/blob/master/Losetta.Runtime/Alice.Math.cs)
 
-#### math_bitincrement(number)
+#### math_bitIncrement(number)
 
 指定された数値の次に大きい値を返します。
 
 ```cs title="AliceScript"
 namespace Alice.Math;
-public number math_bitincrement(number value);
+public number math_bitIncrement(number value);
 ```
 
 |引数| |

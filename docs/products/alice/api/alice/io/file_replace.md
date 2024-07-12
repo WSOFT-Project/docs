@@ -2,6 +2,11 @@
 title: file_replace
 summary: 指定したファイルを別のファイルの内容で置き換えます
 date : 2023-12-10
+mt_type: function
+mt_title: file_replace(string,string,string)
+mt_summary: 指定したファイルを別のファイルの内容で置き換えます。
+mt_title: file_replace(string,string,string,bool)
+mt_summary: 指定したファイルを別のファイルの内容で置き換えます。
 ---
 
 ### 定義

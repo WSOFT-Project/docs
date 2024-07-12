@@ -1,6 +1,8 @@
 ---
 title: math_celling
 summary: 指定された数の小数点以下を切り上げた整数を取得します。
+mt_type: function
+mt_title: math_celling(number)
 ---
 
 ### 定義

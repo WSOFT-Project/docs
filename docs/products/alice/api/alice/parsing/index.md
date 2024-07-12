@@ -6,4 +6,6 @@ date : 2024-07-11
 mt_type: namespace
 ---
 
-="products/alice/api/alice/parsing"|[include-subdir]=
+### 関数
+
+=!"products/alice/api/alice/parsing"|[function,include-subdir]!=

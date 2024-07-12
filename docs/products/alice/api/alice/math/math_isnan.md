@@ -1,6 +1,8 @@
 ---
 title: math_isNaN
 summary: 指定した数値が非数(NaN)であるかを表す値を取得します。
+mt_type: function
+mt_title: math_isNaN(number)
 ---
 
 ### 定義

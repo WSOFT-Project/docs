@@ -1,6 +1,8 @@
 ---
 title: regex_Escape
 summary: 文字列内の正規表現内で意味を持つ文字をエスケープします。
+mt_type: function
+mt_title: regex_Escape(string)
 ---
 
 ### 定義

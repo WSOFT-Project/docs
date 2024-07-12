@@ -1,6 +1,8 @@
 ---
 title: thread_queue
 summary: コードを実行するためのキューに置きます。コードは、スレッド プール スレッドが使用可能になったときに実行されます。
+mt_type: function
+mt_title: thread_queue(delegate,params variable)
 ---
 
 ### 定義

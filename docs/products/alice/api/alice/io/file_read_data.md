@@ -2,6 +2,11 @@
 title: file_read_data
 summary: 指定したファイルを読み取り、ファイルの内容を返します。
 date : 2021-07-28
+mt_type: function
+mt_title: file_read_data(string)
+mt_summary: 指定したファイルを読み取り、ファイルの内容を返します。
+mt_title: file_read_data(string,bool)
+mt_summary: 指定したファイルをファイルシステムまたは現在のパッケージから読み取り、ファイルの内容を返します。
 ---
 
 ### 定義

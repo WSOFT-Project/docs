@@ -1,6 +1,7 @@
 ---
 title: math_tau
 summary: 円周と半径の比率を表す円定数を表します。
+mt_type: value
 ---
 
 ### 定義

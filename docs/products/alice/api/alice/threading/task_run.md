@@ -1,6 +1,8 @@
 ---
 title: task_run
 summary: 指定された処理内容を別スレッドで実行します。
+mt_type: function
+mt_title: task_run(delegate,params variable)
 ---
 
 ### 定義

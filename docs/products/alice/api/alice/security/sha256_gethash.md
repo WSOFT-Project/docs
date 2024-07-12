@@ -1,6 +1,8 @@
 ---
-title: sha256_GetHash
+title: sha256_getHash
 summary: 指定したデータのSHA256ハッシュ値を取得します。
+mt_type: function
+mt_title: sha256_getHash(bytes)
 ---
 
 ### 定義
@@ -14,7 +16,7 @@ summary: 指定したデータのSHA256ハッシュ値を取得します。
 
 ```cs title="AliceScript"
 namespace Alice.Security;
-public bytes sha256_GetHash(bytes data);
+public bytes sha256_getHash(bytes data);
 ```
 
 |引数| |

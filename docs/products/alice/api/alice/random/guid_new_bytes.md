@@ -2,6 +2,8 @@
 title: guid_new_bytes
 summary: 新しいGUID(UUID)を生成し、その値を格納する16バイトのバイト配列を取得します。
 date : 2021-08-10
+mt_type: function
+mt_title: guid_new_bytes()
 ---
 
 ### 定義

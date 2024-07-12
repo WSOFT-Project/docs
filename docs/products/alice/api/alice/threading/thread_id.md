@@ -1,6 +1,8 @@
 ---
 title: thread_id
 summary: 現在のマネージド スレッドの一意の識別子を取得します。
+mt_type: function
+mt_title: thread_id()
 ---
 
 ### 定義

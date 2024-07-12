@@ -1,6 +1,8 @@
 ---
 title: math_min
 summary: 指定された複数の数値のうち、もっとも小さい数値を返します。
+mt_type: function
+mt_title: math_min(number,params number)
 ---
 
 ### 定義

@@ -1,6 +1,7 @@
 ---
 title: math_exp
 summary: 指定した値でeを累乗した値を返します。
+mt_type: value
 ---
 
 ### 定義

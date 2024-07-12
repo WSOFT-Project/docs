@@ -1,6 +1,8 @@
 ---
-title: sha1_GetHash
+title: sha1_getHash
 summary: 指定したデータのSHA1ハッシュ値を取得します。
+mt_type: function
+mt_title: sha1_getHash(bytes)
 ---
 
 ### 定義
@@ -8,13 +10,13 @@ summary: 指定したデータのSHA1ハッシュ値を取得します。
 アセンブリ: Losetta.Runtime.dll<br/>
 ソースコード: [Alice.Security.cs](https://github.com/WSOFT-Project/Losetta/blob/master/Losetta.Runtime/Alice.Security.cs)
 
-#### sha1_GetHash(bytes)
+#### sha1_getHash(bytes)
 
 指定したデータのSHA1ハッシュ値を取得します。
 
 ```cs title="AliceScript"
 namespace Alice.Security;
-public bytes sha1_GetHash(bytes data);
+public bytes sha1_getHash(bytes data);
 ```
 
 |引数| |

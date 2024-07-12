@@ -2,6 +2,13 @@
 title: rand
 summary: ランダムな整数を返します。
 date : 2021-08-10
+mt_type: function
+mt_title: rand()
+mt_summary: 0以上のランダムな整数を返します。
+mt_title: rand(number)
+mt_summary: 指定された最大値より大きい0以上のランダムな整数を返します。
+mt_title: rand(number,number)
+mt_summary: 指定された範囲内のランダムな整数を返します。
 ---
 
 ### 定義

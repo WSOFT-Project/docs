@@ -2,6 +2,8 @@
 title: path_get_extension
 summary: 指定したパスの拡張子を取得します。
 date : 2024-05-01
+mt_type: function
+mt_title: path_get_extension(string)
 ---
 
 ### 定義

@@ -1,6 +1,8 @@
 ---
 title: math_cbrt
 summary: 指定された数値の立方根を返します。
+mt_type: function
+mt_title: math_cbrt(number)
 ---
 
 ### 定義

@@ -1,6 +1,8 @@
 ---
 title: math_isNormal
 summary: 指定した数値が正規化数であるかを表す値を取得します。
+mt_type: function
+mt_title: math_isNormal(number)
 ---
 
 ### 定義

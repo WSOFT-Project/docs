@@ -2,6 +2,8 @@
 title: Matches
 long_title : string.Matches
 summary: 指定された正規表現に一致する箇所をすべて取得します。
+mt_type: method
+mt_title: Matches(this string,string)
 ---
 
 ### 定義

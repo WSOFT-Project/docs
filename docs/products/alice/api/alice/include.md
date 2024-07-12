@@ -3,7 +3,7 @@ title: include
 summary: スクリプトファイルを読み込み、実行します。
 date : 2021-11-09
 mt_type: function
-mt_name: include(string)
+mt_title: include(string)
 mt_summary: 指定されたスクリプトファイルをすべて読み取り、それをスクリプトファイルとして現在のフローで実行し、その結果を返します。
 ---
 

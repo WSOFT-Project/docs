@@ -2,6 +2,13 @@
 title: file_write_text
 summary: 指定したファイルに、指定された文字列を書き込みます。
 date : 2021-07-28
+mt_type: function
+mt_title: file_write_text(string,string)
+mt_summary: 新しいファイルを作成し、指定された文字列を書き込みます。
+mt_title: file_write_text(string,string,string)
+mt_summary: 新しいファイルを作成し、指定された文字コード名で指定された文字列を書き込みます。
+mt_title: file_write_text(string,string,number)
+mt_summary: 新しいファイルを作成し、指定されたコードページ番号に対応する文字コードで指定された文字列を書き込みます。
 ---
 
 ### 定義

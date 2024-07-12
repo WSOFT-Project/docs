@@ -2,6 +2,11 @@
 title: file_move
 summary: 指定したファイルを別の場所に移動します
 date : 2021-07-28
+mt_type: function
+mt_title: file_move(string,string)
+mt_summary: 指定したファイルを新しい場所に移動します。
+mt_title: file_move(string,string,bool)
+mt_summary: 上書きを行うかどうかを指定して、指定したファイルを別の場所に移動します。
 ---
 
 ### 定義
@@ -33,7 +38,7 @@ public void file_move(string source, string destination);
 
 #### file_move(string,string,bool)
 
-指定したファイルを別の場所に移動します。
+上書きを行うかどうかを指定して、指定したファイルを別の場所に移動します。
 `overwrite`が`false`で、かつ`destination`にすでにファイルがある場合は例外が発生します。
 
 ```cs title="AliceScript"

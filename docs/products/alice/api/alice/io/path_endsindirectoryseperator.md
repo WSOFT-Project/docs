@@ -2,6 +2,8 @@
 title: path_endsInDirectorySeparator
 summary: 指定されたパスが、ディレクトリの区切り文字で終了するかを示す値を取得します。
 date : 2024-05-01
+mt_type: function
+mt_title: path_endsInDirectorySeparator(string)
 ---
 
 ### 定義

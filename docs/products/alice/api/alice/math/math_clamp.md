@@ -1,6 +1,8 @@
 ---
 title: math_clamp
 summary: 指定された範囲内に数値を制約します
+mt_type: function
+mt_title: math_clamp(number,number,number)
 ---
 
 ### 定義

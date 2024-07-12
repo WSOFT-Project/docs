@@ -2,6 +2,8 @@
 title: path_isPathRooted
 summary: ファイルパスにルートが含まれているかを示す値を取得します。
 date : 2024-05-01
+mt_type: function
+mt_title: path_isPathRooted(string)
 ---
 
 ### 定義

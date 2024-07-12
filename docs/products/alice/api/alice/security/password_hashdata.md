@@ -1,6 +1,8 @@
 ---
 title: password_hashData
 summary: 指定したデータに対応するハッシュ値を計算します
+mt_type: function
+mt_title: password_hashData(bytes,bytes,number,number)
 ---
 
 ### 定義

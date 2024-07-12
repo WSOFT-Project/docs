@@ -2,6 +2,8 @@
 title: rand_double
 summary: 0.0以上1.0未満のランダムな浮動小数点数を取得します。
 date : 2021-08-10
+mt_type: function
+mt_title: rand_double()
 ---
 
 ### 定義

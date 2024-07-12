@@ -1,6 +1,8 @@
 ---
 title: password_verify
 summary: 指定された文字列が正しいかどうかをハッシュ値と照合し検証します。
+mt_type: function
+mt_title: password_verify(string,bytes,bytes,number,number)
 ---
 
 ### 定義

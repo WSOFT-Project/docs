@@ -2,6 +2,8 @@
 title: zip_extractToDirectory
 summary: 指定したZipアーカイブのすべてのファイルをディレクトリに展開します。
 date : 2024-05-01
+mt_type: function
+mt_title: zip_extractToDirectory(string,string)
 ---
 
 ### 定義

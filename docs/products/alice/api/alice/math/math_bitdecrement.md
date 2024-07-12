@@ -1,6 +1,8 @@
 ---
-title: math_bitdecrement
+title: math_bitDecrement
 summary: 指定された数値の次に小さい値を返します。
+mt_type: function
+mt_title: math_bitDecrement(number)
 ---
 
 ### 定義
@@ -8,13 +10,13 @@ summary: 指定された数値の次に小さい値を返します。
 アセンブリ: Losetta.Runtime.dll<br/>
 ソースコード: [Alice.Math.cs](https://github.com/WSOFT-Project/Losetta/blob/master/Losetta.Runtime/Alice.Math.cs)
 
-#### math_bitdecrement(number)
+#### math_bitDecrement(number)
 
 指定された数値の次に小さい値を返します。
 
 ```cs title="AliceScript"
 namespace Alice.Math;
-public number math_bitdecrement(number value);
+public number math_bitDecrement(number value);
 ```
 
 |引数| |

@@ -6,4 +6,6 @@ date : 2024-07-11
 mt_type: namespace
 ---
 
-="products/alice/api/alice/random"|[include-subdir]=
+### 関数
+
+=!"products/alice/api/alice/random"|[function,include-subdir]!=

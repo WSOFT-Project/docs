@@ -1,7 +1,9 @@
 ---
 title: path_changeExtension
-summary: パスが示すファイルの拡張子を変更します。
+summary: 指定されたパスの拡張子を新しいものに変更した文字列を取得します。
 date : 2024-05-01
+mt_type: function
+mt_title: path_changeExtension(string,string)
 ---
 
 ### 定義
@@ -11,7 +13,7 @@ date : 2024-05-01
 
 #### path_changeExtension(string,string)
 
-パスが示すファイルの拡張子を変更します。
+指定されたパスの拡張子を新しいものに変更した文字列を取得します。
 
 ```cs title="AliceScript"
 namespace Alice.IO;

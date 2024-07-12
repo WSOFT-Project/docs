@@ -3,6 +3,11 @@ title: file_get_creationTime
 summary: 指定したファイルまたはディレクトリの作成日時を取得します。
 date : 2024-05-02
 draft : true
+mt_type: function
+mt_title: file_get_creationTime(string)
+mt_summary: 指定したファイルまたはディレクトリの作成日時を取得します。
+mt_title: file_get_creationTime(string,bool)
+mt_summary: 日時をUTCで取得するか、現地時間で取得するかを指定して、指定したファイルまたはディレクトリの作成日時を取得します。
 ---
 
 ### 定義

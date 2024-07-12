@@ -2,6 +2,8 @@
 title: IsMatch
 long_title : string.IsMatch
 summary: 指定された正規表現に一致する箇所が、指定された文字列内に見つかるかどうかを調べます。
+mt_type: method
+mt_title: IsMatch(this string,string)
 ---
 
 ### 定義

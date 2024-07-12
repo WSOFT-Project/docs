@@ -2,6 +2,9 @@
 title: file_read_decrypt
 summary: 指定した暗号化されたファイルを読み取り、ファイルの内容を返します。
 date : 2023-12-16
+mt_type: function
+mt_title: file_read_decrypt(string,bool,string,number,number,bool)
+mt_summary: 指定したファイルをAES-CBC方式で復号しながら読み取り、読み取った結果のファイルの内容を返します。
 ---
 
 ### 定義

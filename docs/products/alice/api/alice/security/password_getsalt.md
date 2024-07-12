@@ -1,6 +1,8 @@
 ---
 title: password_getSalt
 summary: ハッシュ関数のソルトとして使用できる、安全な乱数データを取得します
+mt_type: function
+mt_title: password_getSalt(number)
 ---
 
 ### 定義

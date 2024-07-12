@@ -1,6 +1,8 @@
 ---
 title: math_pow
 summary: 指定された数値を指定した値で累乗した値を返します。
+mt_type: function
+mt_title: math_pow(number,number)
 ---
 
 ### 定義

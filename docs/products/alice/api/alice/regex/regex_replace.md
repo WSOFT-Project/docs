@@ -1,6 +1,8 @@
 ---
-title: regex_Replace
+title: regex_replace
 summary: 指定した文字列内でパターンに一致する文字列を、指定した文字列で置き換えます。
+mt_type: function
+mt_title: regex_replace(string,string,string)
 ---
 
 ### 定義
@@ -8,13 +10,13 @@ summary: 指定した文字列内でパターンに一致する文字列を、�
 アセンブリ: Losetta.Runtime.dll<br/>
 ソースコード: [Alice.Regex.cs](https://github.com/WSOFT-Project/Losetta/blob/master/Losetta.Runtime/Alice.Regex.cs)
 
-#### regex_Replace(string,string,string)
+#### regex_replace(string,string,string)
 
 指定した文字列内でパターンに一致する文字列を、指定した文字列で置き換えます。
 
 ```cs title="AliceScript"
 namespace Alice.Regex;
-public string regex_Replace(string input, string pattern, string replacement);
+public string regex_replace(string input, string pattern, string replacement);
 ```
 
 |引数| |
@@ -44,7 +46,7 @@ public string regex_Replace(string input, string pattern, string replacement);
 using Alice.Regex;
 
 string text = "ABCDEFG";
-string replaced = regex_Replace(text, "C*E", "cde");
+string replaced = regex_replace(text, "C*E", "cde");
 
 print(trimmed);
 //出力: ABcdeFG

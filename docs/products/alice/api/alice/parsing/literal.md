@@ -3,6 +3,8 @@ title: Literal
 long_title : リテラル
 summary: 文字列または実数リテラルを表します。
 date : 2023-08-07
+mt_type: function
+mt_title: Literal()
 ---
 ### 定義
 名前空間:Alice / アセンブリ : Losetta.dll / サポート: AliceScript1

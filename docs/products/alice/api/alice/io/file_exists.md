@@ -2,6 +2,8 @@
 title: file_exists
 summary: 指定したファイルが存在するかどうかを確認します
 date : 2021-07-28
+mt_type: function
+mt_title: file_exists(string)
 ---
 
 ### 定義

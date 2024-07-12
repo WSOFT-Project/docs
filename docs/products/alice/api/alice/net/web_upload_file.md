@@ -2,6 +2,8 @@
 title: web_upload_file
 summary: 指定したURIを持つリソースへローカルファイルをアップロードして応答を受け取ります。
 date : 2021-08-26
+mt_type: function
+mt_title: web_upload_file(string,string)
 ---
 
 ### 定義

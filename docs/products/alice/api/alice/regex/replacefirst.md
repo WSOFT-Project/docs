@@ -2,6 +2,8 @@
 title: ReplaceFirst
 long_title : string.ReplaceFirst
 summary: 指定した文字列内でパターンに一致する文字列の初めに見つかった部分を、指定した文字列で置き換えます。
+mt_type: method
+mt_title: ReplaceFirst(this string,string,string)
 ---
 
 ### 定義

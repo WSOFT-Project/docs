@@ -1,6 +1,8 @@
 ---
-title: regex_Split
+title: regex_split
 summary: 指定した文字列を特定の正規表現パターンを使って分割します。
+mt_type: function
+mt_title: regex_split(string,string)
 ---
 
 ### 定義
@@ -8,13 +10,13 @@ summary: 指定した文字列を特定の正規表現パターンを使って�
 アセンブリ: Losetta.Runtime.dll<br/>
 ソースコード: [Alice.Regex.cs](https://github.com/WSOFT-Project/Losetta/blob/master/Losetta.Runtime/Alice.Regex.cs)
 
-#### regex_Split(string,string)
+#### regex_split(string,string)
 
 指定した文字列を特定の正規表現パターンを使って分割します。
 
 ```cs title="AliceScript"
 namespace Alice.Regex;
-public string[] regex_Split(string input, string pattern);
+public string[] regex_split(string input, string pattern);
 ```
 
 |引数| |

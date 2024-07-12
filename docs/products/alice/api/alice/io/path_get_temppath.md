@@ -2,6 +2,8 @@
 title: path_get_tempPath
 summary: このスクリプトを実行しているユーザーの一時ディレクトリへのパスを返します。
 date : 2024-05-01
+mt_type: function
+mt_title: path_get_tempPath()
 ---
 
 ### 定義

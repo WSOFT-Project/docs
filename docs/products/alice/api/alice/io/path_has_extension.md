@@ -2,6 +2,8 @@
 title: path_has_extension
 summary: 指定されたパスが、拡張子を含んでいるかを示す値を取得します。
 date : 2024-05-01
+mt_type: function
+mt_title: path_has_extension(string)
 ---
 
 ### 定義

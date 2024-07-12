@@ -3,6 +3,11 @@ title: path_get_fileName
 summary: 指定したパスのファイル名を取得します。
 date : 2024-05-01
 draft : true
+mt_type: function
+mt_title: path_get_fileName(string)
+mt_summary: 指定したパスのファイル名を取得します。
+mt_title: path_get_fileName(string,bool)
+mt_summary: ファイル名から拡張子を取り除いて、指定したパスのファイル名を取得します。
 ---
 
 ### 定義
@@ -35,13 +40,13 @@ public string path_get_fileName(string path);
     |Losetta|0.8、0.9、0.10|
 
 
-#### path_get_fileName(string)
+#### path_get_fileName(string,bool)
 
 > [!IMPORTANT] プレビュー
 > この記事では、現在開発中のAlice vNEXTに実装される予定のAPIについて説明しています。
 > このAPIは予告なく削除および変更される可能性があります。
 
-指定したパスのファイル名を取得します。
+ファイル名から拡張子を取り除いて、指定したパスのファイル名を取得します。
 
 ```cs title="AliceScript"
 namespace Alice.IO;

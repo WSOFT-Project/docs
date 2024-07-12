@@ -1,6 +1,8 @@
 ---
 title: math_isSubNormal
 summary: 指定した数値が非正規化数であるかを表す値を取得します。
+mt_type: function
+mt_title: math_isSubNormal(number)
 ---
 
 ### 定義

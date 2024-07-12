@@ -1,6 +1,8 @@
 ---
 title: password_verifyData
 summary: 指定されたデータが正しいかどうかをハッシュ値と照合し検証します。
+mt_type: function
+mt_title: password_verifyData(bytes,bytes,bytes,number,number)
 ---
 
 ### 定義

@@ -6,6 +6,6 @@ date : 2024-07-11
 mt_type: namespace
 ---
 
-#### 関数
+### 関数
 
 =!"products/alice/api/alice/io"|[function,include-subdir]!=

@@ -1,6 +1,8 @@
 ---
 title: math_atanh
 summary: 逆双曲線正接が指定した数となる角度を返します。
+mt_type: function
+mt_title: math_atanh(number)
 ---
 
 ### 定義

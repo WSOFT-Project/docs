@@ -1,6 +1,8 @@
 ---
 title: math_truncate
 summary: 指定した数値の整数部を取得します
+mt_type: function
+mt_title: math_truncate(number)
 ---
 
 ### 定義

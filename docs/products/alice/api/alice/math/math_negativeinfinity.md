@@ -1,6 +1,7 @@
 ---
 title: math_negativeInfinity
 summary: 負の無限大を表します。
+mt_type: value
 ---
 
 ### 定義

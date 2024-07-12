@@ -1,6 +1,8 @@
 ---
 title: math_atan2
 summary: タンジェントが指定した数の商となる角度を返します。
+mt_type: function
+mt_title: math_atan2(number,number)
 ---
 
 ### 定義

@@ -1,6 +1,8 @@
 ---
 title: math_sqrt
 summary: 指定された数値の平方根を返します。
+mt_type: function
+mt_title: math_sqrt(number)
 ---
 
 ### 定義

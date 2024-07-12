@@ -2,6 +2,9 @@
 title: path_get_fileNameWithoutExtension
 summary: 指定したパスの拡張子を除くファイル名を取得します。
 date : 2024-05-01
+mt_type: function
+mt_title: path_get_fileNameWithoutExtension(string)
+mt_summary: 指定したパスの拡張子を除くファイル名を取得します。
 ---
 
 ### 定義

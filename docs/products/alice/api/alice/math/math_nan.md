@@ -1,6 +1,7 @@
 ---
 title: math_NaN
 summary: 非数の値を表します
+mt_type: value
 ---
 
 ### 定義

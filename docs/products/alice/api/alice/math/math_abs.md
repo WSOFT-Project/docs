@@ -1,6 +1,8 @@
 ---
 title: math_abs
 summary: 数値の絶対値を返します。
+mt_type: function
+mt_title: math_abs(number)
 ---
 
 ### 定義

@@ -6,4 +6,6 @@ date : 2024-07-11
 mt_type: namespace
 ---
 
-="products/alice/api/alice/threading"|[include-subdir]=
+### 関数
+
+=!"products/alice/api/alice/threading"|[function,include-subdir]!=

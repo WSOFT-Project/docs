@@ -1,6 +1,8 @@
 ---
 title: math_max
 summary: 指定された複数の数値のうち、もっとも大きい数値を返します。
+mt_type: function
+mt_title: math_max(number,params number)
 ---
 
 ### 定義

@@ -1,6 +1,8 @@
 ---
 title: math_isNegativeInfinity
 summary: 指定した数値が負の無限大であるかを示す値を取得します。
+mt_type: function
+mt_title: math_isNegativeInfinity(number)
 ---
 
 ### 定義

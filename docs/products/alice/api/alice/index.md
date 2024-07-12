@@ -6,18 +6,21 @@ date : 2024-07-11
 mt_type: namespace
 ---
 
-#### 名前空間
-
-=!"products/alice/api/alice"|[namespace,include-subdir]!=
-
-#### 関数
+### 関数
 
 =!"products/alice/api/alice"|[function,include-subdir]!=
 
-#### 定数
+### 定数
 
 =!"products/alice/api/alice"|[const,include-subdir]!=
 
-#### クラス
+### クラス
 
-=!"products/alice/api/alice"|[class,include-subdir]!=
+=!"products/alice/api/alice"|[class,include-subdir]!=ß
+
+### 名前空間
+
+=!"products/alice/api/alice"|[namespace,include-subdir]!=
+
+### 説明
+`Alice`名前空間は規定で参照されています。つまり、この名前空間直下にあるメンバーにアクセスするために`Alice`を先頭につける必要はありません。

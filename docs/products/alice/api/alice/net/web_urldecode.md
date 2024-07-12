@@ -1,7 +1,9 @@
 ---
-title: web_urldecode
+title: web_urlDecode
 summary: URLエンコードされた文字列を文字列に変換します。
 date : 2021-08-26
+mt_type: function
+mt_title: web_urlDecode(string)
 ---
 
 ### 定義
@@ -9,13 +11,13 @@ date : 2021-08-26
 アセンブリ: Losetta.Runtime.dll<br/>
 ソースコード: [Alice.Net.cs](https://github.com/WSOFT-Project/Losetta/blob/master/Losetta.Runtime/Alice.Net.cs)
 
-#### web_urldecode(string)
+#### web_urlDecode(string)
 
 URLエンコードされた文字列を文字列に変換します。
 
 ```cs title="AliceScript"
 namespace Alice.Net;
-public string web_urldecode(string text);
+public string web_urlDecode(string text);
 ```
 
 |引数| |
@@ -34,7 +36,7 @@ public string web_urldecode(string text);
     |Losetta|0.8、0.9、0.10|
 
 ### 例
-次の例では、[web_urlencode](../web_urlencode)関数を使用して文字列をHTMLエンコードし、その後[web_urldecode](../web_urldecode)関数を使用してURLデコードしたものを表示します。
+次の例では、[web_urlEncode](../web_urlencode)関数を使用して文字列をHTMLエンコードし、その後[web_urlDecode](../web_urldecode)関数を使用してURLデコードしたものを表示します。
 
 ```cs title="AliceScript"
 using Alice.Net;

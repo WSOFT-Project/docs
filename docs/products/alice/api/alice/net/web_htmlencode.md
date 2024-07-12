@@ -1,7 +1,9 @@
 ---
-title: web_htmlencode
+title: web_htmlEncode
 summary: 文字列をHTMLエンコードされた文字列に変換します。
 date : 2021-08-26
+mt_type: function
+mt_title: web_htmlEncode(string)
 ---
 
 ### 定義
@@ -9,13 +11,13 @@ date : 2021-08-26
 アセンブリ: Losetta.Runtime.dll<br/>
 ソースコード: [Alice.Net.cs](https://github.com/WSOFT-Project/Losetta/blob/master/Losetta.Runtime/Alice.Net.cs)
 
-#### web_htmlencode(string)
+#### web_htmlEncode(string)
 
 文字列をHTMLエンコードされた文字列に変換します。
 
 ```cs title="AliceScript"
 namespace Alice.Net;
-public string web_htmlencode(string text);
+public string web_htmlEncode(string text);
 ```
 
 |引数| |
@@ -34,7 +36,7 @@ public string web_htmlencode(string text);
     |Losetta|0.8、0.9、0.10|
 
 ### 例
-次の例では、[web_htmlencode](../web_htmlencode)関数を使用して文字列をHTMLエンコードし、その後[web_htmldecode](../web_htmldecode)関数を使用してHTMLデコードしたものを表示します。
+次の例では、[web_htmlEncode](../web_htmlencode)関数を使用して文字列をHTMLエンコードし、その後[web_htmlDecode](../web_htmldecode)関数を使用してHTMLデコードしたものを表示します。
 
 ```cs title="AliceScript"
 using Alice.Net;

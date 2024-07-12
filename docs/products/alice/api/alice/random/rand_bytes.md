@@ -2,6 +2,8 @@
 title: rand_bytes
 summary: ランダムなバイト配列を返します。
 date : 2023-08-10
+mt_type: function
+mt_title: rand_bytes(number)
 ---
 
 ### 定義

@@ -1,6 +1,8 @@
 ---
 title: math_factorial
 summary: 指定した数値の階乗を返します
+mt_type: function
+mt_title: math_factorial(number)
 ---
 
 ### 定義
@@ -14,7 +16,8 @@ summary: 指定した数値の階乗を返します
 
 ```cs title="AliceScript"
 namespace Alice.Math;
-public number math_factorial(number n) requires(value >= 0);
+public number math_factorial(number n) 
+  requires(value >= 0);
 ```
 
 |引数| |

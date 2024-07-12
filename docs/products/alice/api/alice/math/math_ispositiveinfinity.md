@@ -1,6 +1,8 @@
 ---
 title: math_isPositiveInfinity
 summary: 指定した数値が正の無限大であるかを示す値を取得します。
+mt_type: function
+mt_title: math_isPositiveInfinity(number)
 ---
 
 ### 定義
