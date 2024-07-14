@@ -17,13 +17,17 @@ mt_title: IndexOf(variable,number)
 
 ```cs title="AliceScript"
 class Alice.Array;
-public void IndexOf(variable item,number startIndex = 0);
+public number IndexOf(variable item,number startIndex = 0);
 ```
 
 |引数| |
 |-|-|
 |`item`|検索する対象の値|
 |`startIndex`|検索を開始するインデックス。既定値は`0`です。|
+
+|戻り値| |
+|-|-|
+|`number`|`item`が配列内で見つかった場合は、最初に見つかった場所のインデックス、見つからなかった場合は`-1`。|
 
 ???note "対応: AliceScript RC2以降"
     |対応||
