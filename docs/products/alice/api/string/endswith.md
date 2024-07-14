@@ -3,6 +3,13 @@ title: EndsWith
 long_title : string.EndsWith
 summary: 現在の文字列が指定した文字列で終わるかどうかを判定します
 date : 2021-12-09
+mt_type: method
+mt_title: EndsWith(string)
+mt_summary: 現在の文字列が指定した文字列で終わるかどうかを判定します
+mt_title: EndsWith(string,bool)
+mt_summary: 大文字小文字を区別するかを指定して、現在の文字列が指定した文字列で終わるかどうかを判定します
+mt_title: EndsWith(string,bool,bool)
+mt_summary: 大文字小文字の区別と、現在のカルチャを考慮するかを指定して、現在の文字列が指定した文字列で終わるかどうかを判定します
 ---
 
 ### 定義

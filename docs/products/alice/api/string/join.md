@@ -2,6 +2,8 @@
 title: Join
 long_title : string.Join
 summary: 指定された区切り文字を使用して文字を連結します
+mt_type: method
+mt_title: Join(string,params string)
 ---
 
 ### 定義

@@ -1,16 +1,16 @@
 ---
 title: Length
-long_title : array.Length
-summary: 現在の配列にある要素の数を表します
+long_title : bytes.Length
+summary: 現在のバイナリデータの長さを取得します
 mt_type: property
 ---
 
 ### 定義
 名前空間: Alice<br/>
 アセンブリ: Losetta.Runtime.dll<br/>
-ソースコード: [Alice.Core.Array.cs](https://github.com/WSOFT-Project/Losetta/blob/master/Losetta.Runtime/Core/Extension/Alice.Core.Array.cs)
+ソースコード: [Alice.Core.Bytes.cs](https://github.com/WSOFT-Project/Losetta/blob/master/Losetta.Runtime/Core/Extension/Alice.Core.Bytes.cs)
 
-現在の配列にある要素の数を表します
+現在のバイナリデータの長さを取得します
 
 ```cs title="AliceScript"
 class Alice.Array;

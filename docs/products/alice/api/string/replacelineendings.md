@@ -3,6 +3,11 @@ title: ReplaceLineEndings
 long_title: string.ReplaceLineEndings
 summary: 現在の文字列中のすべての改行文字を一意な形式に正規化します。
 date : 2023-10-22
+mt_type: method
+mt_title: ReplaceLineEndings()
+mt_summary: 現在の文字列中のすべての改行文字を現在の環境の改行文字に置換します。
+mt_title: ReplaceLineEndings(string)
+mt_summary: 現在の文字列中のすべての改行文字を指定した文字列に置換します。
 ---
 
 ### 定義
@@ -12,7 +17,7 @@ date : 2023-10-22
 
 #### ReplaceLineEndings()
 
-現在の文字列中のすべての改行文字を[env_newline](../alice/environment/env_newline.md)の値に置換します
+現在の文字列中のすべての改行文字を[env_newline](../alice/environment/env_newline.md)の値に置換します。
 
 ```cs title="AliceScript"
 namespace Alice;
@@ -32,7 +37,7 @@ public string ReplaceLineEndings();
 
 #### ReplaceLineEndings(string)
 
-現在の文字列中のすべての改行文字を指定した文字列に置換します
+現在の文字列中のすべての改行文字を指定した文字列に置換します。
 
 ```cs title="AliceScript"
 namespace Alice;

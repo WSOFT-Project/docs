@@ -3,6 +3,8 @@ title: Format
 long_title : string.Format
 summary: 指定された値を使用して現在の文字列を複合書式指定子としてフォーマットした文字列を取得します
 date : 2021-12-09
+mt_type: method
+mt_title: Format(params variable)
 ---
 
 ### 定義

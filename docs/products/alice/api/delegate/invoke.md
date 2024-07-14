@@ -2,6 +2,8 @@
 title: Invoke
 long_title : delegate.Invoke
 summary: 現在のデリゲートに指定された引数を渡して実行し、その戻り値を返します
+mt_type: method
+mt_title: Invoke(params variable)
 ---
 
 ### 定義
@@ -20,7 +22,7 @@ public variable Invoke(params variable args);
 
 |引数| |
 |-|-|
-|`args`|指定する引数。これは可変長個指定できます。|
+|`args`|指定する引数。これは複数個指定できます。|
 
 |戻り値| |
 |-|-|

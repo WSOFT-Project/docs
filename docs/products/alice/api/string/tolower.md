@@ -1,8 +1,13 @@
 ---
 title: ToLower
 long_title: string.ToLower
-summary: 現在の文字列内の文字をすべて小文字に置換します
+summary: 現在の文字列内の文字をすべて小文字に置換します。
 date : 2021-12-09
+mt_type: method
+mt_title: ToLower()
+mt_summary: 現在の文字列内の文字をすべて小文字に置換します。
+mt_title: ToLower(string?)
+mt_summary: 指定された地域の規則を使用して、現在の文字列内の文字をすべて小文字に置換します。
 ---
 
 ### 定義
@@ -12,7 +17,7 @@ date : 2021-12-09
 
 #### ToLower()
 
-現在の文字列内の文字をすべて小文字に置換します
+現在の文字列内の文字をすべて小文字に置換します。
 
 ```cs title="AliceScript"
 namespace Alice;
@@ -36,7 +41,7 @@ public string ToLower();
 > この記事では、現在開発中のAlice vNEXTに実装される予定のAPIについて説明しています。
 > このAPIは予告なく削除および変更される可能性があります。
 
-指定されたカルチャの規則を使用して、現在の文字列内の文字をすべて小文字に置換します。
+指定された地域の規則を使用して、現在の文字列内の文字をすべて小文字に置換します。
 
 ```cs title="AliceScript"
 namespace Alice;
@@ -45,7 +50,7 @@ public string ToLower(string? cultureName);
 
 |引数| |
 |-|-|
-|`cultureName`|使用するカルチャの名前。`null`を指定するとカルチャに依存しない処理を行います。|
+|`cultureName`|規則を使用する地域の名前。`null`を指定すると地域に依存しない処理を行います。|
 
 |戻り値| |
 |-|-|

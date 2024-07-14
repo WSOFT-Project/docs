@@ -3,6 +3,11 @@ title: TrimEnd
 long_title: string.TrimEnd
 summary: 現在の文字列から指定した文字列が末尾に現れる箇所をすべて削除した文字列を取得します
 date : 2021-12-09
+mt_type: method
+mt_title: TrimEnd()
+mt_summary: 現在の文字列から末尾にある空白文字をすべて削除した文字列を取得します
+mt_title: TrimEnd(params string)
+mt_summary: 現在の文字列から末尾にある空白文字をすべて削除した文字列を取得します
 ---
 
 ### 定義
@@ -41,7 +46,7 @@ public string TrimEnd(params string item);
 
 |引数| |
 |-|-|
-|`item`|削除する文字列。この引数は可変長個指定できます。|
+|`item`|削除する文字列。この引数は複数個指定できます。|
 
 |戻り値| |
 |-|-|

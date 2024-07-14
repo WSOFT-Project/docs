@@ -2,6 +2,8 @@
 title: SequenceEqual
 long_title : array.SequenceEqual
 summary: 現在の配列ともう一方の配列の要素が等しいかどうかを判定します
+mt_type: method
+mt_title: SequenceEqual(array)
 ---
 
 ### 定義

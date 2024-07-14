@@ -2,6 +2,11 @@
 title: SubString
 long_title: string.SubString
 summary: 現在の文字列から指定した範囲の文字列を取得します
+mt_type: method
+mt_title: SubString(number)
+mt_summary: 現在の文字列から指定した開始位置から末尾までの文字列を取得します。
+mt_title: SubString(number,number)
+mt_summary: 現在の文字列から指定した範囲の文字列を取得します。
 ---
 
 ### 定義
@@ -11,7 +16,7 @@ summary: 現在の文字列から指定した範囲の文字列を取得しま�
 s
 #### SubString(number)
 
-現在の文字列から指定した範囲の文字列を取得します
+現在の文字列から指定した開始位置から末尾までの文字列を取得します。
 
 ```cs title="AliceScript"
 namespace Alice;
@@ -35,7 +40,7 @@ public string SubString(number start);
 
 #### SubString(number,number)
 
-現在の文字列から指定した範囲の文字列を取得します
+現在の文字列から指定した範囲の文字列を取得します。
 
 ```cs title="AliceScript"
 namespace Alice;

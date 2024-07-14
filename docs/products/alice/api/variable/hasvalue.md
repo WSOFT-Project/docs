@@ -2,6 +2,7 @@
 title: HasValue
 long_title: variable.HasValue
 summary: 変数に有効な値が代入されているかを表す値を取得します。
+mt_type: property
 ---
 
 ### 定義

@@ -1,8 +1,15 @@
 ---
 title: PadLeft
 long_title : string.PadLeft
-summary: 指定された文字数になるまで左側に指定された文字を埋め込むことで、この文字列を右寄せした新しい文字列を取得します
+summary: 指定された文字数になるまで右側に指定された文字を埋め込むことで、この文字列を左寄せした新しい文字列を取得します
 date : 2021-12-09
+mt_type: method
+mt_title: PadLeft(number)
+mt_summary: 指定された文字数になるまで右側に空白文字を埋め込むことで、この文字列を左寄せした新しい文字列を取得します。
+mt_title: PadLeft(number,bool)
+mt_summary: 指定された文字数になるまで右側に空白文字を埋め込むことで、この文字列を左寄せした新しい文字列を取得します。
+mt_title: PadLeft(number,string,bool)
+mt_summary: 指定した文字数になるまで右側に指定した文字を埋め込み、必要に応じて切り詰めることで、指定した文字数内でこの文字列を左寄せした新しい文字列を取得します。
 ---
 
 ### 定義
@@ -12,7 +19,7 @@ date : 2021-12-09
 
 #### PadLeft(number)
 
-指定された文字数になるまで左側に空白文字を埋め込むことで、この文字列を右寄せした新しい文字列を取得します
+指定された文字数になるまで右側に空白文字を埋め込むことで、この文字列を左寄せした新しい文字列を取得します。
 
 ```cs title="AliceScript"
 namespace Alice;
@@ -40,7 +47,7 @@ public string PadLeft(number totalWidth);
 > この記事では、現在開発中のAlice vNEXTに実装される予定のAPIについて説明しています。
 > このAPIは予告なく削除および変更される可能性があります。
 
-指定された文字数になるまで左側に空白文字を埋め込むことで、この文字列を右寄せした新しい文字列を取得します
+指定された文字数になるまで右側に空白文字を埋め込むことで、この文字列を左寄せした新しい文字列を取得します。
 
 ```cs title="AliceScript"
 namespace Alice;
@@ -65,7 +72,7 @@ public string PadLeft(number totalWidth, bool truncate = false);
 
 #### PadLeft(number,string)
 
-指定された文字数になるまで左側に指定された文字を埋め込むことで、この文字列を右寄せした新しい文字列を取得します
+指定された文字数になるまで右側に指定した文字を埋め込むことで、この文字列を左寄せした新しい文字列を取得します。
 
 ```cs title="AliceScript"
 namespace Alice;
@@ -95,7 +102,7 @@ public string PadLeft(number totalWidth, string paddingChar, bool truncate = fal
 > この記事では、現在開発中のAlice vNEXTに実装される予定のAPIについて説明しています。
 > このAPIは予告なく削除および変更される可能性があります。
 
-指定された文字数になるまで左側に指定された文字を埋め込むことで、この文字列を右寄せした新しい文字列を取得します
+指定した文字数になるまで右側に指定した文字を埋め込み、必要に応じて切り詰めることで、指定した文字数内でこの文字列を左寄せした新しい文字列を取得します。
 
 ```cs title="AliceScript"
 namespace Alice;

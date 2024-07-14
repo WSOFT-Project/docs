@@ -2,6 +2,8 @@
 title: Equals
 long_title: variable.Equals
 summary: その変数ともうひとつの変数が等しいかどうかを判断します
+mt_type: method
+mt_title: Equals(variable)
 ---
 
 ### 定義

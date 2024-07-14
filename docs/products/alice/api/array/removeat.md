@@ -2,6 +2,8 @@
 title: RemoveAt
 long_title : array.RemoveAt
 summary: 現在の配列の指定したインデックスにある値を削除します
+mt_type: method
+mt_title: RemoveAt(number)
 ---
 
 ### 定義

@@ -2,6 +2,8 @@
 title: RemoveAt
 long_title: string.RemoveAt
 summary: 現在の文字列の指定したインデックスにある値を削除した文字列を取得します
+mt_type: method
+mt_title: RemoveAt(number)
 ---
 
 ### 定義

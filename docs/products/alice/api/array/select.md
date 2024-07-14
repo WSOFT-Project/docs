@@ -2,6 +2,8 @@
 title: Select
 long_title : array.Select
 summary: 現在の配列の各要素を新しい配列に射影します
+mt_type: method
+mt_title: Select(selector)
 ---
 
 ### 定義

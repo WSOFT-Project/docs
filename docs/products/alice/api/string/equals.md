@@ -3,6 +3,13 @@ title: Equals
 long_title : string.Equals
 summary: この文字列と、指定した文字列が同一かどうかを判断します
 date : 2023-10-22
+mt_type: method
+mt_title: Equals(string)
+mt_summary: カルチャと大文字小文字を区別してこの文字列と、指定した文字列が同一かどうかを判断します
+mt_title: Equals(string,bool)
+mt_summary: 大文字小文字を区別するかを指定して、この文字列と、指定した文字列が同一かどうかを判断します
+mt_title: Equals(string,bool,bool)
+mt_summary: 大文字小文字の区別と、現在のカルチャを考慮するかを指定して、この文字列と指定した文字列が同一かどうかを判断します
 ---
 
 ### 定義

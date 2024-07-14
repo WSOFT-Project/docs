@@ -3,6 +3,9 @@ title: SplitLines
 long_title: string.SplitLines
 summary: 現在の文字列を行単位で分割した配列を取得します
 date : 2023-10-22
+mt_type: method
+mt_title: SplitLines()
+mt_summary: 現在の文字列を行単位で分割した配列を取得します。
 ---
 
 ### 定義
@@ -12,7 +15,7 @@ date : 2023-10-22
 
 #### SplitLines()
 
-現在の文字列を行単位で分割した配列を取得します
+現在の文字列を行単位で分割した配列を取得します。
 
 ```cs title="AliceScript"
 namespace Alice;

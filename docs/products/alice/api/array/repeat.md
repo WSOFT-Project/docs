@@ -2,6 +2,8 @@
 title: Repeat
 long_title: array.Repeat
 summary: 現在の配列を指定回数繰り返した新しい配列を取得します
+mt_type: method
+mt_title: Repeat(number)
 date : 2024-05-26
 ---
 

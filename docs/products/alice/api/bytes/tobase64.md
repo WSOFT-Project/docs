@@ -2,6 +2,15 @@
 title: ToBase64
 long_title : bytes.ToBase64
 summary: 現在のバイナリデータを、Base64でエンコードした文字列を取得します
+mt_type: method
+mt_title: ToBase64()
+mt_summary: 現在のバイナリデータを、Base64でエンコードした文字列を取得します
+mt_title: ToBase64(number,number)
+mt_summary: 現在のバイナリデータのうち指定した区間を、Base64でエンコードした文字列を取得します
+mt_title: ToBase64(bool)
+mt_summary: 現在のバイナリデータを、改行するかどうかを指定してBase64でエンコードした文字列を取得します
+mt_title: ToBase64(number,number,bool)
+mt_summary: 現在のバイナリデータのうち指定した区間を、改行するかどうかを指定してBase64でエンコードした文字列を取得します
 ---
 
 ### 定義

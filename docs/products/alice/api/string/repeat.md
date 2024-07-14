@@ -3,6 +3,8 @@ title: Repeat
 long_title: string.Repeat
 summary: 現在の文字列を指定回数繰り返した文字列を取得します
 date : 2023-10-22
+mt_type: method
+mt_title: Repeat(number)
 ---
 
 ### 定義

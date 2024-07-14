@@ -3,6 +3,9 @@ title: Indent
 long_title : string.Indent
 summary: 文字列を指定されたレベルで字下げした新しい文字列を取得します
 date : 2023-10-22
+mt_type: method
+mt_title: Indent(number,string)
+mt_summary: 文字列を指定されたレベルで字下げした新しい文字列を取得します
 ---
 
 ### 定義
@@ -11,7 +14,7 @@ date : 2023-10-22
 ソースコード: [Alice.Core.String.cs](https://github.com/WSOFT-Project/Losetta/blob/master/Losetta.Runtime/Core/Extension/Alice.Core.String.cs)
 
 
-#### Indent()
+#### Indent(number,string)
 
 文字列を指定されたレベルで字下げした新しい文字列を取得します
 

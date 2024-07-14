@@ -3,6 +3,8 @@ title: Normalize
 long_title : string.Normalize
 summary: 同じ文字を表すコードポイントのすべての並びを共通の正規化された形式に文字列を変換した新しい文字列を取得します
 date : 2024-04-29
+mt_type: method
+mt_title: Normalize()
 ---
 
 ### 定義

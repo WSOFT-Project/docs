@@ -2,6 +2,8 @@
 title: Where
 long_title : array.Where
 summary: 現在の配列から指定された条件に一致する要素のみを取り出します
+mt_type: method
+mt_title: Where(delegate)
 ---
 
 ### 定義

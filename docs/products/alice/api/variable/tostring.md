@@ -2,6 +2,8 @@
 title: ToString
 long_title: variable.ToString
 summary: その変数の文字列表現を取得します
+mt_type: method
+mt_title: ToString()
 ---
 
 ### 定義

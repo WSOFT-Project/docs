@@ -1,7 +1,7 @@
 ---
 title: Size
-long_title : array.Size
-summary: 現在の配列にある要素の数を取得します
+long_title : delegate.Size
+summary: 現在のデリゲートに含まれている関数の数を取得します。
 mt_type: method
 mt_title: Size()
 ---
@@ -9,11 +9,11 @@ mt_title: Size()
 ### 定義
 名前空間: Alice<br/>
 アセンブリ: Losetta.Runtime.dll<br/>
-ソースコード: [Alice.Core.Array.cs](https://github.com/WSOFT-Project/Losetta/blob/master/Losetta.Runtime/Core/Extension/Alice.Core.Array.cs)
+ソースコード: [Alice.Core.Bytes.cs](https://github.com/WSOFT-Project/Losetta/blob/master/Losetta.Runtime/Core/Extension/Alice.Core.Bytes.cs)
 
 #### Size()
 
-現在の配列にある要素の数を取得します
+現在のデリゲートに含まれている関数の数を取得します。
 
 ```cs title="AliceScript"
 class Alice.Array;

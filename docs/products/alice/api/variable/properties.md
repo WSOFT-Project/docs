@@ -2,6 +2,7 @@
 title: Properties
 long_title: variable.Properties
 summary: その変数で使用可能なプロパティ、メソッドを表す文字列の配列を取得します
+mt_type: property
 ---
 
 ### 定義

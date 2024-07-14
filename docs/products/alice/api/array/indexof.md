@@ -2,6 +2,8 @@
 title: IndexOf
 long_title : array.IndexOf
 summary: 指定された値が現在の配列内で最初に見つかった位置のインデックスを返します
+mt_type: method
+mt_title: IndexOf(variable,number)
 ---
 
 ### 定義

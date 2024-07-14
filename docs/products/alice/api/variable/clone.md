@@ -2,6 +2,8 @@
 title: Clone
 long_title: variable.Clone
 summary: その変数の簡易コピー（シャローコピー）を作成します。
+mt_type: method
+mt_title: Clone()
 ---
 
 ### 定義

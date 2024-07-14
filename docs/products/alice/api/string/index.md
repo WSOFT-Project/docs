@@ -259,71 +259,12 @@ var query = $"SELECT * FROM Table WHERE id='{id}'";
 
 
 ### プロパティ
-|名前|説明|
-|---|---|
-|[IsNormalized](./isnormalized.md)|現在の文字列が共通の正規化された形式であるかを示す値を取得します|
-|[Length](./length.md)|その変数の持つデータ長を表します|
-|[LengthInTextElements](./lengthintextelements.md)|現在の文字列の文字要素の数を取得します|
+
+=!"products/alice/api/string"|[property,include-subdir]!=
 
 ### メソッド
-|名前|説明|
-|---|---|
-|[CompareTo(string item)](./compareto.md)|この文字列と指定した文字列を比較して、文字列を並べ替えたときにこの文字列が前にくるか、後ろにくるか、または同じであるかを表す整数を取得します|
-|[Contains(string item)](./contains.md)|現在の文字列内に指定された文字列が存在するかを示す値を取得します|
-|[Contains(string item,bool ignoreCase)](./contains.md)|大文字小文字を区別するかを指定して、現在の文字列内に指定された文字列が存在するかを示す値を取得します|
-|[Contains(string item,bool ignoreCase,bool considerCulture)](./contains.md)|大文字小文字の区別と、現在のカルチャを考慮するかを指定して、現在の文字列内に指定された文字列が存在するかを示す値を取得します|
-|[EndsWith(string item)](./endswith.md)|現在の文字列が指定した文字列で終わるかどうかを判定します|
-|[EndsWith(string item,bool ignoreCase)](./endswith.md)|大文字小文字を区別するかを指定して、現在の文字列が指定した文字列で終わるかどうかを判定します|
-|[EndsWith(string item,bool ignoreCase,bool considerCulture)](./endswith.md)|大文字小文字の区別と、現在のカルチャを考慮するかを指定して、現在の文字列が指定した文字列で終わるかどうかを判定します|
-|[Equals(string item)](./equals.md)|この文字列と、指定した文字列が同一かどうかを判断します|
-|[Equals(string item,bool ignoreCase)](./equals.md)|大文字小文字を区別するかを指定して、この文字列と、指定した文字列が同一かどうかを判断します|
-|[Equals(string item,bool ignoreCase,bool considerCulture)](./equals.md)|大文字小文字の区別と、現在のカルチャを考慮するかを指定して、この文字列と指定した文字列が同一かどうかを判断します|
-|[Format(params variable item)](./format.md)|指定された値を使用して現在の文字列を複合書式指定子としてフォーマットした文字列を取得します|
-|[GetBytes()](./getbytes.md)|現在の文字列に含まれるすべての文字をUTF-8文字コードのデータにエンコードします|
-|[GetBytes(string charCode)](./getbytes.md)|現在の文字列に含まれるすべての文字を指定された名前に対応する文字コードのデータにエンコードします|
-|[GetBytes(number codepage)](./getbytes.md)|現在の文字列に含まれるすべての文字を指定されたコードページに対応する文字コードのデータにエンコードします|
-|[Indent(number indentLevel,string indentChar=" ")](./indent.md)|文字列を指定されたレベルで字下げした新しい文字列を取得します|
-|[IndexOf(string item,number startIndex=0)](./indexof.md)|指定された文字列が現在の文字列内で最初に見つかった位置のインデックスを返します|
-|[Insert(number index,string item)](./insert.md)|現在の文字列内の指定したインデックスにその値を挿入した文字列を取得します|
-|[IsEmptyOrNull()](./isemptyornull.md)|現在の文字列が空か、あるいはnullであるかどうかを示す値を取得します|
-|[IsEmptyOrWhiteSpace()](./isemptyorwhitespace.md)|現在の文字列が空か、あるいは空白文字のみであるかどうかを示す値を取得します|
-|[Join(string split,params string item)](./join.md)|指定された区切り文字を使用して文字を連結します|
-|[LastIndexOf(string item,number startIndex=0)](./lastindexof.md)|指定された文字列が現在の文字列内で最後に見つかった位置のインデックスを返します|
-|[Normalize()](./normalize.md)|同じ文字を表すコードポイントのすべての並びを共通の正規化された形式に文字列を変換した新しい文字列を取得します|
-|[PadCenter(number totalWidth, bool padRight = false, bool truncate = false);](./padcenter.md)|指定された文字数になるまで両側に空白文字を埋め込むことで、この文字列を中央寄せした新しい文字列を作成します|
-|[PadCenter(number totalWidth, string paddingChar = " ", bool padRight = false, bool truncate = false);](./padcenter.md)|指定された文字数になるまで両側に指定された文字を埋め込むことで、この文字列を中央寄せした新しい文字列を作成します|
-|[PadLeft(number totalWidth,string padding=" ")](./padleft.md)|指定された文字数になるまで左側に指定された文字列を埋め込むことで、この文字列を右寄せした新しい文字列を取得します|
-|[PadRight(number totalWidth,string padding=" ")](./padright.md)|指定された文字数になるまで右側に指定された文字列を埋め込むことで、この文字列を左寄せした新しい文字列を取得します|
-|[Remove(params string item)](./remove.md)|現在の文字列から指定された値を削除した文字列を取得します|
-|[RemoveAt(number index)](./removeat.md)|現在の文字列の指定したインデックスにある値を削除した文字列を取得します|
-|[Repeat(number repeatCount)](./repeat.md)|現在の文字列を指定回数繰り返した文字列を取得します|
-|[Replace(string oldValue,string newValue)](./replace.md)|現在の文字列内に出現する特定の文字列をすべて指定した文字列に置き換えます|
-|[ReplaceLineEndings()](./replacelineendings.md)|現在の文字列中のすべての改行文字を[env_newline](../alice/environment/env_newline.md)の値に置換します|
-|[ReplaceLineEndings(string replacementText)](./replacelineendings.md)|現在の文字列中のすべての改行文字を指定した文字列に置換します|
-|[Split()](./split.md)|現在の文字列を一文字ずつに分割します|
-|[Split(string separator)](./split.md)|現在の文字列を指定した区切り文字列で分割した配列を取得します|
-|[SplitLines()](./splitlines.md)|現在の文字列を行単位で分割した配列を取得します|
-|[StartsWith(string item)](./startswith.md)|現在の文字列が指定した文字列で始まるかどうかを判定します|
-|[StartsWith(string item,bool ignoreCase)](./endswith.md)|大文字小文字を区別するかを指定して、現在の文字列が指定した文字列で始まるかどうかを判定します|
-|[StartsWith(string item,bool ignoreCase,bool considerCulture)](./endswith.md)|大文字小文字の区別と、現在のカルチャを考慮するかを指定して、現在の文字列が指定した文字列で始まるかどうかを判定します|
-|[SubString(number start)](./substring.md)|現在の文字列から指定した範囲の文字列を取得します|
-|[SubString(number start,number length)](./substring.md)|現在の文字列から指定した範囲の文字列を取得します|
-|[Size()](../array/size.md)|その変数の持つデータ長を取得します|
-|[ToLower()](./tolower.md)|現在の文字列内の文字をすべて小文字に置換します|
-|[ToLower(string? cultureName)](./tolower.md)|指定されたカルチャの規則を使用して、現在の文字列内の文字をすべて小文字に置換します。|
-|[ToLowerInvariant()](./tolowerinvariant.md)|インバリアント カルチャの大文字と小文字の規則を使用して、現在の文字列内の文字をすべて小文字に置換します|
-|[ToTitleCase()](./totitlecase.md)|現在の文字列をタイトルケースと同じ大文字小文字の組み合わせに置換します。|
-|[ToTitleCase(string? cultureName)](./totitlecase.md)|指定されたカルチャの規則を使用して、現在の文字列をタイトルケースと同じ大文字小文字の組み合わせに置換します。|
-|[ToTitleCaseInvariant()](./totitlecase.md)|カルチャを考慮せずに、現在の文字列をタイトルケースと同じ大文字小文字の組み合わせに置換します。|
-|[ToUpper()](./toupper.md)|現在の文字列内の文字をすべて大文字に置換します|
-|[ToUpper(string? cultureName)](./toupper.md)|指定されたカルチャの規則を使用して、現在の文字列内の文字をすべて大文字に置換します。|
-|[ToUpperInvariant()](./toupperinvariant.md)|インバリアント カルチャの大文字と小文字の規則を使用して、現在の文字列内の文字をすべて大文字に置換します|
-|[Trim()](./trim.md)|現在の文字列から先頭および末尾にある空白文字をすべて削除した文字列を取得します|
-|[Trim(params string item)](./trim.md)|現在の文字列から指定した文字列が先頭および末尾に現れる箇所をすべて削除した文字列を取得します|
-|[TrimEnd()](./trimend.md)|現在の文字列から末尾にある空白文字をすべて削除した文字列を取得します|
-|[TrimEnd(params string item)](./trimend.md)|現在の文字列から指定した文字列が末尾に現れる箇所をすべて削除した文字列を取得します|
-|[TrimStart()](./trimstart.md)|現在の文字列から先頭にある空白文字をすべて削除した文字列を取得します|
-|[TrimStart(params string item)](./trimstart.md)|現在の文字列から指定した文字列が先頭に現れる箇所をすべて削除した文字列を取得します|
+
+=!"products/alice/api/string"|[method,include-subdir]!=
 
 ### 拡張メソッド
 #### Alice.Regex

@@ -2,6 +2,8 @@
 title: Except
 long_title : array.Except
 summary: 現在の配列と指定された配列の差集合を取得します
+mt_type: method
+mt_title: Except(array)
 ---
 
 ### 定義

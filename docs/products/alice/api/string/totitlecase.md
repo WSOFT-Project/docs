@@ -1,8 +1,13 @@
 ---
 title: ToTitleCase
 long_title: string.ToTitleCase
-summary: 現在の文字列をタイトルケースと同じ大文字小文字の組み合わせに置換します。
+summary: 現在の文字列の単語の頭文字を大文字に置換します。
 date : 2024-05-12
+mt_type: method
+mt_title: ToTitleCase()
+mt_summary: 現在の文字列の単語の頭文字を大文字に置換します。
+mt_title: ToTitleCase(string?)
+mt_summary: 指定された地域の規則を使用して、現在の文字列の単語の頭文字を大文字に置換します。
 ---
 
 ### 定義
@@ -16,7 +21,7 @@ date : 2024-05-12
 
 #### ToTitleCase()
 
-現在の文字列をタイトルケースと同じ大文字小文字の組み合わせに置換します。
+現在の文字列の単語の頭文字を大文字に置換します。
 
 ```cs title="AliceScript"
 namespace Alice;
@@ -36,7 +41,7 @@ public string ToTitleCase();
 
 #### ToTitleCase(string?)
 
-指定されたカルチャの規則を使用して、現在の文字列をタイトルケースと同じ大文字小文字の組み合わせに置換します。
+指定された地域の規則を使用して、現在の文字列の単語の頭文字を大文字に置換します。
 
 ```cs title="AliceScript"
 namespace Alice;
@@ -45,7 +50,7 @@ public string ToTitleCase(string? cultureName);
 
 |引数| |
 |-|-|
-|`cultureName`|使用するカルチャの名前。`null`を指定するとカルチャに依存しない処理を行います。|
+|`cultureName`|規則を使用する地域の名前。`null`を指定すると地域に依存しない処理を行います。|
 
 |戻り値| |
 |-|-|

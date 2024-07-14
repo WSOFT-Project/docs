@@ -2,6 +2,7 @@
 title: Type
 long_title: variable.Type
 summary: その変数の種類を表すオブジェクトを取得します。
+mt_type: property
 ---
 
 ### 定義

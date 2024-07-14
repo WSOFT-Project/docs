@@ -2,6 +2,8 @@
 title: Dispose
 long_title: variable.Dispose
 summary: 変数の値を破棄します。
+mt_type: method
+mt_title: Dispose()
 ---
 
 ### 定義

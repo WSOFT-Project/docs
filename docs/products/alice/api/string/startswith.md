@@ -3,6 +3,13 @@ title: StartsWith
 long_title: string.StartsWith
 summary: 現在の文字列が指定した文字列で始まるかどうかを判定します
 date : 2021-12-09
+mt_type: method
+mt_title: StartsWith(string)
+mt_summary: 現在の文字列が指定した文字列で始まるかどうかを判定します。
+mt_title: StartsWith(string,bool)
+mt_summary: 大文字小文字を区別するかを指定して、現在の文字列が指定した文字列で始まるかどうかを判定します。
+mt_title: StartsWith(string,bool,bool)
+mt_summary: 大文字小文字の区別と、現在のカルチャを考慮するかを指定して、現在の文字列が指定した文字列で始まるかどうかを判定します。
 ---
 
 ### 定義
@@ -12,7 +19,7 @@ date : 2021-12-09
 
 #### StartsWith(string)
 
-現在の文字列が指定した文字列で始まるかどうかを判定します
+現在の文字列が指定した文字列で始まるかどうかを判定します。
 
 ```cs title="AliceScript"
 namespace Alice;
@@ -36,7 +43,7 @@ public bool StartsWith(string item);
 
 #### StartsWith(string,bool)
 
-大文字小文字を区別するかを指定して、現在の文字列が指定した文字列で始まるかどうかを判定します
+大文字小文字を区別するかを指定して、現在の文字列が指定した文字列で始まるかどうかを判定します。
 
 ```cs title="AliceScript"
 namespace Alice;
@@ -61,7 +68,7 @@ public bool StartsWith(string item, bool ignoreCase);
 
 #### StartsWith(string,bool,bool)
 
-大文字小文字の区別と、現在のカルチャを考慮するかを指定して、現在の文字列が指定した文字列で始まるかどうかを判定します
+大文字小文字の区別と、現在のカルチャを考慮するかを指定して、現在の文字列が指定した文字列で始まるかどうかを判定します。
 
 
 ```cs title="AliceScript"

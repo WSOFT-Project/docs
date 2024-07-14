@@ -2,6 +2,7 @@
 title: LengthInTextElements
 long_title : string.LengthInTextElements
 summary: 現在の文字列の文字要素の数を取得します
+mt_type: property
 ---
 
 > [!IMPORTANT] プレビュー

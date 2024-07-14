@@ -2,6 +2,8 @@
 title: Any
 long_title : array.Any
 summary: 現在の配列に含まれるいずれかの要素が条件を満たしているかどうか判定します
+mt_type: method
+mt_title: Any(delegate)
 ---
 
 ### 定義

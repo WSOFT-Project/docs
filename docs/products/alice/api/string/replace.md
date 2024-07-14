@@ -3,6 +3,15 @@ title: Replace
 long_title: string.Replace
 summary: 現在の文字列内に出現する特定の文字列をすべて指定した文字列に置き換えた新しい文字列を取得します。
 date : 2021-12-09
+mt_type: method
+mt_title: Replace(string,string)
+mt_summary: 現在の文字列内に出現する特定の文字列をすべて指定した文字列に置き換えた新しい文字列を取得します。
+mt_title: Replace(string,string,number,number)
+mt_summary: 現在の文字列内の指定した範囲に出現する特定の文字列をすべて指定した文字列に置き換えた新しい文字列を取得します。
+mt_title: Replace(string,string,bool)
+mt_summary: 指定した一致ルールを使用して、現在の文字列内に出現する特定の文字列をすべて指定した文字列に置き換えた新しい文字列を取得します。
+mt_title: Replace(string,string,bool,bool)
+mt_summary: 指定した一致ルールを使用して、現在の文字列内の指定した範囲に出現する特定の文字列をすべて指定した文字列に置き換えた新しい文字列を取得します。
 ---
 
 ### 定義
@@ -37,7 +46,7 @@ public string Replace(string oldValue, string newValue);
 
 #### Replace(string,string,number,number)
 
-現在の文字列内の一部に出現する特定の文字列をすべて指定した文字列に置き換えた新しい文字列を取得します。
+現在の文字列内の指定した範囲に出現する特定の文字列をすべて指定した文字列に置き換えた新しい文字列を取得します。
 
 ```cs title="AliceScript"
 class Alice.String;
@@ -64,7 +73,7 @@ public string Replace(string oldValue, string newValue, number startIndex, numbe
 
 #### Replace(string,string,bool)
 
-指定した一致ルールを使用して、現在の文字列内の一部に出現する特定の文字列をすべて指定した文字列に置き換えた新しい文字列を取得します。
+指定した一致ルールを使用して、現在の文字列内に出現する特定の文字列をすべて指定した文字列に置き換えた新しい文字列を取得します。
 
 ```cs title="AliceScript"
 class Alice.String;
@@ -93,6 +102,8 @@ public string Replace(string oldValue, string newValue, bool ignoreCase);
     実装されていない環境では`0x034 NOT_IMPLEMENTED`例外がスローされます。
 
 #### Replace(string,string,bool,bool)
+
+指定した一致ルールを使用して、現在の文字列内の指定した範囲に出現する特定の文字列をすべて指定した文字列に置き換えた新しい文字列を取得します。
 
 ```cs title="AliceScript"
 class Alice.String;

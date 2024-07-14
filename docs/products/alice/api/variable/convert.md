@@ -2,6 +2,8 @@
 title: Convert
 long_title: variable.Convert
 summary: その変数を指定された型に明示的に変換します。変換に失敗した場合はnullを返します。
+mt_type: method
+mt_title: Convert(Type)
 ---
 
 ### 定義
@@ -9,7 +11,7 @@ summary: その変数を指定された型に明示的に変換します。変�
 アセンブリ: Losetta.Runtime.dll<br/>
 ソースコード: [Alice.Core.General.cs](https://github.com/WSOFT-Project/Losetta/blob/master/Losetta.Runtime/Core/Extension/Alice.Core.General.cs)
 
-#### Convert(Type type)
+#### Convert(Type)
 
 その変数を指定された型に明示的に変換します。変換に失敗した場合は`null`を返します
 

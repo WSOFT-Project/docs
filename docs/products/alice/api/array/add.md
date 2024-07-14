@@ -2,6 +2,8 @@
 title: Add
 long_title : array.Add
 summary: 現在の配列の末尾に値を追加します
+mt_type: method
+mt_title: Add(variable)
 ---
 
 ### 定義
@@ -20,7 +22,7 @@ public void Add(params variable item);
 
 |引数| |
 |-|-|
-|`item`|配列の末尾に追加する変数。この引数は可変長個指定できます。|
+|`item`|配列の末尾に追加する変数。この引数は複数個指定できます。|
 
 ???note "対応: AliceScript RC2以降"
     |対応||

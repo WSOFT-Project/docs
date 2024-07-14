@@ -2,6 +2,9 @@
 title: Insert
 long_title : string.Insert
 summary: 現在の文字列内の指定したインデックスにその値を挿入した文字列を取得します
+mt_type: method
+mt_title: Insert(number,string)
+mt_summary: 現在の文字列内の指定したインデックスにその値を挿入した文字列を取得します。
 ---
 
 ### 定義
@@ -11,7 +14,7 @@ summary: 現在の文字列内の指定したインデックスにその値を�
 
 #### Insert(number,string)
 
-現在の文字列内の指定したインデックスにその値を挿入した文字列を取得します
+現在の文字列内の指定したインデックスにその値を挿入した文字列を取得します。
 
 ```cs title="AliceScript"
 namespace Alice;

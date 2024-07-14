@@ -2,6 +2,8 @@
 title: ToString
 long_title : bytes.ToString
 summary: 指定した文字コードでエンコードした現在のバイナリデータの文字列表現を取得します
+mt_type: method
+mt_title: ToString()
 ---
 
 ### 定義

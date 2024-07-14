@@ -3,6 +3,13 @@ title: Contains
 long_title : string.Contains
 summary: 現在の文字列内に指定された文字列が存在するかを示す値を取得します
 date : 2021-12-09
+mt_type: method
+mt_title: Contains(string)
+mt_summary: 現在の文字列内に指定された文字列が存在するかを示す値を取得します。
+mt_title: Contains(string,bool)
+mt_summary: 大文字小文字を区別するかを指定して、現在の文字列内に指定された文字列が存在するかを示す値を取得します。
+mt_title: Contains(string,bool,bool)
+mt_summary: 大文字小文字の区別と、現在のカルチャを考慮するかを指定して、現在の文字列内に指定された文字列が存在するかを示す値を取得します。
 ---
 
 ### 定義
@@ -11,7 +18,7 @@ date : 2021-12-09
 ソースコード: [Alice.Core.String.cs](https://github.com/WSOFT-Project/Losetta/blob/master/Losetta.Runtime/Core/Extension/Alice.Core.String.cs)
 
 #### Contains(string)
-現在の文字列内に指定された文字列が存在するかを示す値を取得します
+現在の文字列内に指定された文字列が存在するかを示す値を取得します。
 
 ```cs title="AliceScript"
 namespace Alice;
@@ -34,7 +41,7 @@ public bool Contains(string item);
     |Losetta|0.8、0.9、0.10|
 
 #### Contains(string,bool)
-大文字小文字を区別するかを指定して、現在の文字列内に指定された文字列が存在するかを示す値を取得します
+大文字小文字を区別するかを指定して、現在の文字列内に指定された文字列が存在するかを示す値を取得します。
 
 ```cs title="AliceScript"
 namespace Alice;
@@ -59,7 +66,7 @@ public bool Contains(string item, bool ignoreCase);
 
 #### Contains(string,bool,bool)
 
-大文字小文字の区別と、現在のカルチャを考慮するかを指定して、現在の文字列内に指定された文字列が存在するかを示す値を取得します
+大文字小文字の区別と、現在のカルチャを考慮するかを指定して、現在の文字列内に指定された文字列が存在するかを示す値を取得します。
 
 ```cs title="AliceScript"
 namespace Alice;

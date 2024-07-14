@@ -2,6 +2,8 @@
 title: Insert
 long_title : array.Insert
 summary: 現在の配列内の指定したインデックスにその値を挿入します
+mt_type: method
+mt_title: Insert(number,variable)
 ---
 
 ### 定義

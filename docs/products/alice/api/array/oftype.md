@@ -2,6 +2,8 @@
 title: OfType
 long_title : array.OfType
 summary: 現在の配列から指定された型の要素のみを取り出します
+mt_type: method
+mt_title: OfType(Type)
 ---
 
 ### 定義
