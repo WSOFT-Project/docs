@@ -60,12 +60,14 @@ public string ReplaceLineEndings(string replacementText);
     |Losetta|0.10|
 
 ### 説明
-このメソッドは、文字列内のすべての改行文字列を検索し、`replacementText`または[env_newline](../alice/environment/env_newline.md)の値に置換することで、文字列内の改行文字を正規化します。また、`replacementText`に空の文字列が指定された場合、文字列内のすべての改行文字が削除されます。
+このメソッドは、文字列内のすべての改行文字列を検索し、`replacementText`または[env_newLine](../alice/environment/env_newline.md)の値に置換することで、文字列内の改行文字を正規化します。また、`replacementText`に空の文字列が指定された場合、文字列内のすべての改行文字が削除されます。
 
 通信プロトコルを直接操作するようなプログラムにはこのメソッドを使用しないでください。
 多くのプロトコルの仕様では、改行文字が必要です。たとえば、HTTP/1.1(RFC8615)では、要求行、状態行、ヘッダー行がCRLFで終わる必要があります。このような要求文字列にこのメソッドを使用すると、プロトコルの設計者が意図しない動作を引き起こす可能性があります。
 
-このメソッドが改行文字として認識する文字列は、CR(U+000D)、LF(U+000A)、CRLF(U+000D U+000A)、NEL(U+0085)、LS(U+2028)、FF(U+000C)、PS(U+2029)の7つです。これは、Unicode標準のセクション5.8、推奨事項R4の表5-2に適合しています。
+このメソッドが改行文字として認識する文字列は、CR(U+000D)、LF(U+000A)、CRLF(U+000D U+000A)、NEL(U+0085)、LS(U+2028)、FF(U+000C)、PS(U+2029)の7つです。これは、[Unicode Standard Section5.8](https://www.unicode.org/versions/Unicode15.0.0/ch05.pdf) 推奨事項R4の表5-2に準拠しています。
+
+Losettaでは、このメソッドの計算量は、$O(n * r)$です。ここで、$n$は文字列の長さ、$r$は`replacementText`の長さです。
 
 ### 例
 以下は、文字列中の改行文字をすべて`\n`に統一します。
