@@ -2,6 +2,8 @@
 title: Foreach
 long_title : array.Foreach
 summary: 現在の配列の各要素について、指定されたデリゲートを実行します
+mt_type: method
+mt_title: Foreach(delegate)
 ---
 
 ### 定義

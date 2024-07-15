@@ -1,7 +1,9 @@
 ---
 title: ToLowerInvariant
 long_title: string.ToLowerInvariant
-summary: インバリアント カルチャの大文字と小文字の規則を使用して、現在の文字列内の文字をすべて小文字に置換します
+summary: 地域に依存しない規則を使用して、現在の文字列内の文字をすべて小文字に置換します。
+mt_type: method
+mt_title: ToLowerInvariant()
 ---
 
 ### 定義
@@ -11,7 +13,7 @@ summary: インバリアント カルチャの大文字と小文字の規則を�
 
 #### ToLowerInvariant()
 
-インバリアント カルチャの大文字と小文字の規則を使用して、現在の文字列内の文字をすべて小文字に置換します
+地域に依存しない規則を使用して、現在の文字列内の文字をすべて小文字に置換します。
 
 ```cs title="AliceScript"
 namespace Alice;

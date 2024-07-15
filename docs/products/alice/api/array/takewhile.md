@@ -2,6 +2,8 @@
 title: TakeWhile
 long_title : array.TakeWhile
 summary: 現在の配列内の先頭から指定された条件を満たす間の要素を取得します
+mt_type: method
+mt_title: TakeWhile(delegate)
 ---
 
 ### 定義

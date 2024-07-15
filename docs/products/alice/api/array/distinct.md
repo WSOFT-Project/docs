@@ -2,6 +2,8 @@
 title: Distinct
 long_title : array.Distinct
 summary: 現在の配列内から重複する要素を除いた新しい配列を取得します
+mt_type: method
+mt_title: Distinct()
 ---
 
 ### 定義

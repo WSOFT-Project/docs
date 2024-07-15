@@ -1,8 +1,10 @@
 ---
 title: ToTitleCaseInvariant
 long_title: string.ToTitleCaseInvariant
-summary: カルチャを考慮せずに、現在の文字列をタイトルケースと同じ大文字小文字の組み合わせに置換します。
+summary: 地域に依存しない規則を使用して、現在の文字列の単語の頭文字を大文字に置換します。
 date : 2024-05-12
+mt_type: method
+mt_title: ToTitleCaseInvariant()
 ---
 
 ### 定義
@@ -16,7 +18,7 @@ date : 2024-05-12
 
 #### ToTitleCaseInvariant()
 
-カルチャを考慮せずに、現在の文字列をタイトルケースと同じ大文字小文字の組み合わせに置換します。
+地域に依存しない規則を使用して、現在の文字列の単語の頭文字を大文字に置換します。
 
 ```cs title="AliceScript"
 namespace Alice;

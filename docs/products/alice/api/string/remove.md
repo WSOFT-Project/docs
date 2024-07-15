@@ -1,7 +1,9 @@
 ---
 title: Remove
 long_title: string.Remove
-summary: 現在の文字列から指定された値を削除した文字列を取得します
+summary: 現在の文字列から指定された値を削除した文字列を取得します。
+mt_type: method
+mt_title: Remove(params string)
 ---
 
 ### 定義
@@ -9,6 +11,7 @@ summary: 現在の文字列から指定された値を削除した文字列を�
 アセンブリ: Losetta.Runtime.dll<br/>
 ソースコード: [Alice.Core.String.cs](https://github.com/WSOFT-Project/Losetta/blob/master/Losetta.Runtime/Core/Extension/Alice.Core.String.cs)
 s
+
 #### Remove(params string)
 
 現在の文字列から指定された値を削除した文字列を取得します
@@ -20,7 +23,7 @@ public string Remove(params string item);
 
 |引数| |
 |-|-|
-|`item`|配列から削除する文字列。この引数は可変長個指定できます。|
+|`item`|配列から削除する文字列。この引数は複数個指定できます。|
 
 |戻り値| |
 |-|-|

@@ -2,6 +2,8 @@
 title: All
 long_title : array.All
 summary: 現在の配列に含まれるすべての要素が条件を満たしているかどうか判定します
+mt_type: method
+mt_title: All(delegate)
 ---
 
 ### 定義

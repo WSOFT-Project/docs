@@ -2,6 +2,11 @@
 title: Merge
 long_title : array.Merge
 summary: 現在の配列の末尾に値を追加した新しい配列を返します
+mt_type: method
+mt_title: Merge(params variable)
+mt_summary: 現在の配列の末尾に値を追加した新しい配列を返します
+mt_title: Merge(params array)
+mt_summary: 現在の配列の末尾に配列を結合した新しい配列を返します。
 ---
 
 ### 定義
@@ -20,7 +25,7 @@ public array Merge(params variable item);
 
 |引数| |
 |-|-|
-|`item`|追加する変数。この引数は可変長個指定できます。|
+|`item`|追加する変数。この引数は複数個指定できます。|
 
 |戻り値| |
 |-|-|
@@ -44,7 +49,7 @@ array Merge(params array ary);
 
 |引数| |
 |-|-|
-|`ary`|末尾で結合する配列。この引数は可変長個指定できます。|
+|`ary`|末尾で結合する配列。この引数は複数個指定できます。|
 
 |戻り値| |
 |-|-|

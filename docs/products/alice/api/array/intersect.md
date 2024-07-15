@@ -2,6 +2,8 @@
 title: Intersect
 long_title : array.Intersect
 summary: 現在の配列と指定された配列の積集合を取得します
+mt_type: method
+mt_title: Intersect(array)
 ---
 
 ### 定義
@@ -32,7 +34,7 @@ public array Intersect(array other);
     |AliceScript|2.2、2.3、3.0|
     |AliceSister|2.2、2.3、3.0|
     |Losetta|0.9、0.10|
-s
+
 ### 例
 以下は、`1`、`2`の含まれる配列と`2`、`3`の含まれる配列の積集合を求めます。
 

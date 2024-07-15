@@ -3,6 +3,9 @@ title: IndexOf
 long_title : string.IndexOf
 summary: 指定された文字列が現在の文字列内で最初に見つかった位置のインデックスを返します
 date : 2021-12-09
+mt_type: method
+mt_title: IndexOf(string,number)
+mt_summary: 指定された文字列が現在の文字列内で最初に見つかった位置のインデックスを返します。検索は、指定されたインデックスから開始され、見つからなかった場合は-1を返します。
 ---
 
 ### 定義

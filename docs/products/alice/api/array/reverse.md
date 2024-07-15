@@ -2,6 +2,11 @@
 title: Reverse
 long_title : array.Reverse
 summary: 現在の配列の要素の順序を反転させます
+mt_type: method
+mt_title: Reverse()
+mt_summary: 現在の配列の要素の順序を反転させます
+mt_title: Reverse(number,number)
+mt_summary: 現在の配列内の指定した範囲の要素の順序を反転させます
 ---
 
 ### 定義

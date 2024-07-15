@@ -3,6 +3,7 @@ title: IsNormalized
 long_title : string.IsNormalized
 summary: 現在の文字列がUnicode正規形Cであるかを示す値を取得します
 date : 2021-12-09
+mt_type: property
 ---
 
 ### 定義

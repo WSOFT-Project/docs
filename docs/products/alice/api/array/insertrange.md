@@ -2,6 +2,8 @@
 title: InsertRange
 long_title : array.InsertRange
 summary: 現在の配列内の指定したインデックスに配列に含まれるすべての要素を追加します
+mt_type: method
+mt_title: InsertRange(number,array)
 ---
 
 ### 定義

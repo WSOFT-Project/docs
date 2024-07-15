@@ -2,6 +2,8 @@
 title: AddRange
 long_title : array.AddRange
 summary: 現在の配列の末尾にその配列に含まれるすべての要素を追加します
+mt_type: method
+mt_title: AddRange(params variable)
 ---
 
 ### 定義
@@ -20,7 +22,7 @@ public void AddRange(params array items);
 
 |引数| |
 |-|-|
-|`items`|配列の末尾に追加する変数の含まれる配列。この引数は可変長個指定できます。|
+|`items`|配列の末尾に追加する変数の含まれる配列。この引数は複数個指定できます。|
 
 ???note "対応: AliceScript RC2以降"
     |対応||

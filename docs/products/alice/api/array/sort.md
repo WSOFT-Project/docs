@@ -2,6 +2,8 @@
 title: Sort
 long_title : array.Sort
 summary: 現在の配列を規定の方法で並び替えます
+mt_type: method
+mt_title: Sort()
 ---
 
 ### 定義

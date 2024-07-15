@@ -2,6 +2,8 @@
 title: Skip
 long_title : array.Skip
 summary: 現在の配列内の先頭から指定された数の要素を取り除いた配列を取得します
+mt_type: method
+mt_title: Skip(number)
 ---
 
 ### 定義

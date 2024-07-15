@@ -2,6 +2,8 @@
 title: CompareTo
 long_title: variable.CompareTo
 summary: 変数ともう一方の値を比較し、並べ替えたとき変数が前か、後か、または同じかを判断します。
+mt_type: method
+mt_title: CompareTo(variable)
 ---
 
 ### 定義

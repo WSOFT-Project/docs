@@ -1,7 +1,9 @@
 ---
 title: ToUpperInvariant
 long_title: string.ToUpperInvariant
-summary: インバリアント カルチャの大文字と小文字の規則を使用して、現在の文字列内の文字をすべて大文字に置換します
+summary: 地域に依存しない規則を使用して、現在の文字列内の文字をすべて大文字に置換します。
+mt_type: method
+mt_title: ToUpperInvariant()
 ---
 
 ### 定義

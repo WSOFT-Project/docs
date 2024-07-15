@@ -2,6 +2,8 @@
 title: Remove
 long_title : array.Remove
 summary: 現在の配列から指定された値を削除します
+mt_type: method
+mt_title: Remove(params variable)
 ---
 
 ### 定義
@@ -20,7 +22,7 @@ public void Remove(params variable item);
 
 |引数| |
 |-|-|
-|`item`|配列から削除する値。この引数は可変長個指定できます。|
+|`item`|配列から削除する値。この引数は複数個指定できます。|
 
 ???note "対応: AliceScript RC2以降"
     |対応||

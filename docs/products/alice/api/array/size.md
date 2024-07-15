@@ -2,6 +2,8 @@
 title: Size
 long_title : array.Size
 summary: 現在の配列にある要素の数を取得します
+mt_type: method
+mt_title: Size()
 ---
 
 ### 定義

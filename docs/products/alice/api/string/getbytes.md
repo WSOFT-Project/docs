@@ -3,6 +3,13 @@ title: GetBytes
 long_title : string.GetBytes
 summary: 現在の文字列に含まれるすべての文字を指定された文字コードのデータにエンコードします
 date : 2023-10-22
+mt_type: method
+mt_title: GetBytes()
+mt_summary: 現在の文字列に含まれるすべての文字をUTF-8文字コードのデータにエンコードします
+mt_title: GetBytes(string)
+mt_summary: 現在の文字列に含まれるすべての文字を指定された名前に対応する文字コードのデータにエンコードします
+mt_title: GetBytes(number)
+mt_summary: 現在の文字列に含まれるすべての文字を指定されたコードページに対応する文字コードのデータにエンコードします
 ---
 
 ### 定義

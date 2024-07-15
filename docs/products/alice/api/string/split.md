@@ -3,6 +3,11 @@ title: Split
 long_title: string.Split
 summary: 現在の文字列を指定した区切り文字列で分割した配列を取得します
 date : 2021-12-09
+mt_type: method
+mt_title: Split()
+mt_summary: 現在の文字列を一文字ずつに分割した配列を取得します。
+mt_title: Split(string)
+mt_summary: 現在の文字列を指定した区切り文字列で分割した配列を取得します。
 ---
 
 ### 定義
@@ -12,7 +17,7 @@ date : 2021-12-09
 
 #### Split()
 
-現在の文字列を一文字ずつに分割します
+現在の文字列を一文字ずつに分割した配列を取得します。
 
 ```cs title="AliceScript"
 namespace Alice;
@@ -32,7 +37,7 @@ array Split();
 
 #### Split(string)
 
-現在の文字列を指定した区切り文字列で分割した配列を取得します
+現在の文字列を指定した区切り文字列で分割した配列を取得します。
 
 ```cs title="AliceScript"
 namespace Alice;

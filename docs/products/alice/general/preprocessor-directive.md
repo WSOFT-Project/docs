@@ -33,7 +33,7 @@ print("Hello,World!");
 これは次のように実行できます。
 
 ```sh title="シェル"
-script.alice
+./script.alice
 ```
 
 ### 条件付きパース

@@ -2,6 +2,7 @@
 title: First
 long_title : array.First
 summary: 現在の配列の最初の要素を表します
+mt_type: property
 ---
 
 ### 定義

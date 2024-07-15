@@ -2,6 +2,8 @@
 title: SkipWhile
 long_title : array.SkipWhile
 summary: 現在の配列内の先頭から指定された条件を満たす間要素を除いた配列を取得します
+mt_type: method
+mt_title: SkipWhile(delegate)
 ---
 
 ### 定義

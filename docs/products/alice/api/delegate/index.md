@@ -273,16 +273,12 @@ eキーを押下すると終了します
 
 
 ### プロパティ
-|名前|説明|
-|---|---|
-|[Length](../array/length.md)|その変数の持つデータ長を表します|
+
+=!"products/alice/api/delegate"|[property,include-subdir]!=
 
 ### メソッド
-|名前|説明|
-|---|---|
-|[BeginInvoke(params variable args)](./begininvoke.md)|現在のデリゲートに指定された引数を渡して非同期で実行します|
-|[Invoke(params variable args)](./invoke.md)|現在のデリゲートに指定された引数を渡して実行し、その戻り値を返します|
-|[Size()](../array/size.md)|その変数の持つデータ長を取得します|
+
+=!"products/alice/api/delegate"|[method,include-subdir]!=
 
 ## delegate関数
 名前空間:Alice / アセンブリ : Losetta.Runtime.dll / サポート: AliceScript1

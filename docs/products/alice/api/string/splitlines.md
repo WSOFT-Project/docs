@@ -3,6 +3,9 @@ title: SplitLines
 long_title: string.SplitLines
 summary: 現在の文字列を行単位で分割した配列を取得します
 date : 2023-10-22
+mt_type: method
+mt_title: SplitLines()
+mt_summary: 現在の文字列を行単位で分割した配列を取得します。
 ---
 
 ### 定義
@@ -12,7 +15,7 @@ date : 2023-10-22
 
 #### SplitLines()
 
-現在の文字列を行単位で分割した配列を取得します
+現在の文字列を行単位で分割した配列を取得します。
 
 ```cs title="AliceScript"
 namespace Alice;
@@ -32,6 +35,8 @@ public array SplitLines();
 
 ### 説明
 この関数は、改行文字(`\n`)ごとに文字列を分割し、分割した文字列から`\r`を除去した新しい文字列を作成します。
+
+このメソッドが改行文字として認識する文字列は、CR(U+000D)、LF(U+000A)、CRLF(U+000D U+000A)、NEL(U+0085)、LS(U+2028)、FF(U+000C)、PS(U+2029)の7つです。これは、[Unicode Standard Section5.8](https://www.unicode.org/versions/Unicode15.0.0/ch05.pdf) 推奨事項R4の表5-2に準拠しています。
 
 ### 例
 以下は、複数行にわたる文字列の行数を数えています。

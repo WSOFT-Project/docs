@@ -2,6 +2,8 @@
 title: OrderBy
 long_title : array.OrderBy
 summary: 現在の配列の要素を昇順で並べ替えます
+mt_type: method
+mt_title: OrderBy()
 ---
 
 ### 定義

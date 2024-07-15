@@ -2,6 +2,8 @@
 title: Clear
 long_title : array.Clear
 summary: 現在の配列からすべての要素を削除します
+mt_type: method
+mt_title: Clear()
 ---
 
 ### 定義

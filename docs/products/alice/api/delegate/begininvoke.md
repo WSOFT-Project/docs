@@ -2,6 +2,8 @@
 title: BeginInvoke
 long_title : delegate.BeginInvoke
 summary: 現在のデリゲートに指定された引数を渡して非同期で実行します
+mt_type: method
+mt_title: BeginInvoke(params variable)
 ---
 
 ### 定義
@@ -20,7 +22,7 @@ public void BeginInvoke(params variable args);
 
 |引数| |
 |-|-|
-|`args`|指定する引数。これは可変長個指定できます。|
+|`args`|指定する引数。これは複数個指定できます。|
 
 ???note "対応: AliceScript RC1以降"
     |対応||

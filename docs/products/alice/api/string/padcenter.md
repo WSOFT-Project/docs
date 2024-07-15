@@ -3,6 +3,11 @@ title: PadCenter
 long_title : string.PadCenter
 summary: 指定された文字数になるまで両側に指定された文字を埋め込むことで、この文字列を中央寄せした新しい文字列を作成します。
 date : 2023-10-29
+mt_type: method
+mt_title: PadCenter(number,bool,bool)
+mt_summary: 指定された文字数になるまで両側に空白文字を埋め込むことで、この文字列を中央寄せした新しい文字列を作成します。
+mt_title: PadCenter(number,string,bool,bool)
+mt_summary: 指定された文字数になるまで両側に指定された文字を埋め込むことで、この文字列を中央寄せした新しい文字列を作成します。
 ---
 
 ### 定義
@@ -12,7 +17,7 @@ date : 2023-10-29
 
 #### PadCenter(number,bool,bool)
 
-指定された文字数になるまで両側に空白文字を埋め込むことで、この文字列を中央寄せした新しい文字列を作成します
+指定された文字数になるまで両側に空白文字を埋め込むことで、この文字列を中央寄せした新しい文字列を作成します。
 
 ```cs title="AliceScript"
 namespace Alice;
@@ -38,7 +43,7 @@ public string PadCenter(number totalWidth, bool padLeft = false, bool truncate =
 
 #### PadCenter(number,string,bool,bool)
 
-指定された文字数になるまで両側に指定された文字を埋め込むことで、この文字列を中央寄せした新しい文字列を作成します
+指定された文字数になるまで両側に指定された文字を埋め込むことで、この文字列を中央寄せした新しい文字列を作成します。
 
 ```cs title="AliceScript"
 namespace Alice;

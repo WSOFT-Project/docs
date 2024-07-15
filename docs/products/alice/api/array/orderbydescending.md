@@ -2,6 +2,8 @@
 title: OrderByDescending
 long_title : array.OrderByDescending
 summary: 現在の配列の要素を降順で並べ替えます
+mt_type: method
+mt_title: OrderByDescending()
 ---
 
 ### 定義

@@ -2,6 +2,8 @@
 title: Union
 long_title : array.Union
 summary: 現在の配列と指定された配列の和集合を取得します
+mt_type: method
+mt_title: Union(array)
 ---
 
 ### 定義

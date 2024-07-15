@@ -2,6 +2,7 @@
 title: Length
 long_title : string.Length
 summary: 現在の文字列の文字数を返します
+mt_type: property
 ---
 
 ### 定義

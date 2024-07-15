@@ -2,6 +2,8 @@
 title: SkipLast
 long_title : array.SkipLast
 summary: 現在の配列内の末尾から指定された数の要素を取り除いた配列を取得します
+mt_type: method
+mt_title: SkipLast(number)
 ---
 
 ### 定義
