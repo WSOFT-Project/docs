@@ -35,9 +35,6 @@ public void BinarySearch(variable item);
     |AliceSister|3.0|
     |Losetta|0.10|
 
-!!!note "情報"
-    インデックスとは、配列の最初の項目から順に`0,1,2...`と番号を割り当てたものです。たとえば、3番目の要素のインデックスは`2`です。
-
 ### 説明
 
 この関数は、二分探索アルゴリズムを使用して、指定された要素を検索し、ある場合はそのインデックスを返します。
@@ -53,9 +50,11 @@ public void BinarySearch(variable item);
 この関数の計算量は、$O(log n)$です。ここで、$n$は配列の要素数です。
 
 ### 例
-以下は、`1`、`2`、`3`がある配列から`3`のインデックスを取得します。
+以下は、数値の並びがある配列から`14`のインデックスを取得します。
 
 ```cs title="AliceScript"
-var a = [1,2,3];
-print(a.BinarySearch(3)); // 出力例 : 2
+array ary = [4, 14, 48, 24, 44, 144];
+// 初めにソートする
+ary.Sort();
+print(ary.BinarySearch(14)); // 出力例 : 1
 ```
