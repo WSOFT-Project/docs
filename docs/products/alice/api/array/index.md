@@ -134,6 +134,56 @@ if(ary2.All(x => x > 0))
 
 配列内の要素がすべて条件を満たすかどうかを判定するには、[All](./all.md)メソッドを使用します。
 
+### 統計処理
+配列に処理したい値を格納することで、簡単に統計情報を取得できます。
+以下のコードをご覧ください。
+
+```cs title="AliceScript"
+// 処理したいデータ
+array data = [8, 9, 6, 11, 3, 10, 8, 9];
+
+number max = data.Max();
+number min = data.Min();
+
+print($"データの最大値は {max} です");
+print($"データの最小値は {min} です");
+
+number mean = data.Mean();
+number median = data.Median();
+number mode = data.Mode();
+
+print($"データの平均値は {mean} です");
+print($"データの中央値は {median} です");
+print($"データの最頻値は {mode} です");
+
+number variance = data.Variance();
+number stdDev = data.StdDev();
+
+print($"データの分散は {variance} です");
+print($"データの標準偏差は {stdDev} です");
+```
+
+独自の拡張を作ることで、標準誤差も計算できます。
+
+```cs title="AliceScript"
+using Alice.Math;
+
+namespace MyExtension;
+
+public number StdError(this array data)
+{
+    // 数値型のみ計算に入れる
+    data = data.OfType(number); 
+
+    // 標準誤差の計算
+    return data.StdDev() / math_sqrt(data.Length);
+}
+
+number error = data.StdError();
+
+print($"データの標準誤差は {error} です");
+```
+
 #### 型の一意性
 
 配列型は、その初期化時に配列に含むことのできる変数の型を指定できます。型を指定するには、次のように配列を宣言します。
