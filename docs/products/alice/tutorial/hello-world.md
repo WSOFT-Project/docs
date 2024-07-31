@@ -28,7 +28,7 @@ date : 2024-07-11
 ターミナルを開いて、次のコマンドを実行します。
 
 ```sh title="シェル"
-curl -L https://alice.wsoft.ws/install.sh | sh
+curl -fsSL https://alice.wsoft.ws/install.sh | sh
 ```
 
 このコマンドは、はじめに環境に応じたAliceScriptのランタイムをお使いのコンピューターの`/usr/local/bin`ディレクトリにダウンロードします。
@@ -37,6 +37,11 @@ curl -L https://alice.wsoft.ws/install.sh | sh
 ??? "ターミナルの開き方"
     Macの場合、Launchpadを開き「ユーティリティ」フォルダー内の「ターミナル」をクリックします。
     Ubuntuの場合は、Dock内の「端末」または「Terminal」をクリックします。
+
+> [!WARNING] エラーが発生した場合
+> 「*Permission denied*」と表示されエラー発生している場合は、特権を使ってインストールする必要があります。以下のコマンドに変えてもう一度試してください。
+>
+> `curl -fsSL https://alice.wsoft.ws/install.sh | sudo sh`
 
 ## 2. 確認
 
