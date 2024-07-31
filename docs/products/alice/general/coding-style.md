@@ -68,3 +68,32 @@ bool b2 = true;
 
 bool result = b || b2;
 ```
+
+#### null許容な文脈と非許容な文脈を明確にする
+null許容な文脈と非許容な文脈を明確に分けることで、想定外のnull関連エラーを事前に防ぐことができます。まずは次のユーザーに数値を入力してもらうコードをご覧ください。
+
+```cs title="AliceScript"
+number? input = read() as number;
+
+print($"入力数値の2乗は {input ** 2} です。");
+```
+
+このコードで、右辺はnullになる可能性があります。これは、nullを返す可能性がある演算子[as](./operators/type-operators.md)を使用しているからです。null許容な値をそのまま計算に使用すると、万が一nullになった場合にエラーになります。このため、`input`をそのまま計算に使用すべきではありません。
+
+次に、より良いコードを示します。
+
+
+```cs title="AliceScript"
+number? input = read() as number;
+number num = 0;
+
+if(input.HasValue)
+{
+    num = input.Value;
+}
+
+print($"入力数値の2乗は {num ** 2} です。");
+```
+
+このコードでは、ユーザーが有効な数値を入力しなかった場合(つまり、`input`がnullである場合)に、代わりに規定値として0を使用します。
+このようにコードを書くことで、`input`はnull許容な変数、`num`はnull安全な変数だと一目でわかります。`num`を使用することでnull関連のエラーが起こることは基本的にありません。
