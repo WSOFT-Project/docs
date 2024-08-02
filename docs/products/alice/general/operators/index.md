@@ -32,6 +32,7 @@ AliceScriptで変数を定義したり代入する方法について詳しく知
 ここでの`+`は加算演算子という演算子です。
 AliceScriptにはさまざまな演算子が存在し、それらは以下のグループに大別できます。
 
+- [代入演算子](./assignment-operator.md)
 - [算術演算子](./arithmetic-operators.md)
 - [関係演算子](./relational-operators.md)
 - [論理演算子](./logical-operators.md)
