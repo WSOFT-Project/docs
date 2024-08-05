@@ -15,7 +15,7 @@ mt_title: thread_id()
 現在のマネージド スレッドの一意の識別子を取得します。
 
 ```cs title="AliceScript"
-namespace Alice.Net;
+namespace Alice.Threading;
 public number thread_id();
 ```
 

@@ -15,7 +15,7 @@ mt_title: thread_queue(delegate,params variable)
 コードを実行するためのキューに置きます。コードは、スレッド プール スレッドが使用可能になったときに実行されます。
 
 ```cs title="AliceScript"
-namespace Alice.Net;
+namespace Alice.Threading;
 public void thread_queue(delegate task,params variable args);
 ```
 

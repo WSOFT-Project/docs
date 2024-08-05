@@ -15,7 +15,7 @@ mt_title: signal_wait()
 シグナルを受け取るまで、現在のスレッドをブロックします。
 
 ```cs title="AliceScript"
-namespace Alice.Net;
+namespace Alice.Threading;
 public bool signal_wait();
 ```
 
