@@ -106,7 +106,7 @@ AliceScriptの[数値型](../../number/index.md)でサポートされる小数�
 
 `value`の値が[math_NaN](./math_nan.md)の場合、この関数は[math_NaN](./math_nan.md)を返します。また`value`の値が[math_Infinity](./math_infinity.md)の場合、この関数も[math_Infinity](./math_infinity.md)を返し、`value`の値が[math_NegativeInfinity](./math_negativeinfinity.md)の場合、この関数も[math_NegativeInfinity](./math_negativeinfinity.md)を返します。
 
-小数部を切り上げたいときは[math_celling](./math_celling.md)を、切り捨てたいときは[math_floor](./math_floor.md)または[math_truncate](./math_truncate.md)を使用してください。
+小数部を切り上げたいときは[math_ceiling](./math_ceiling.md)を、切り捨てたいときは[math_floor](./math_floor.md)または[math_truncate](./math_truncate.md)を使用してください。
 
 AliceSisterでは、`roundingMode`が`true`の場合でも銀行型丸めを使用します。
 AliceSisterでは0からもっとも遠い方向に丸めることはできません。
