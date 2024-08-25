@@ -1,10 +1,10 @@
 ---
 title: 起動時に使用される設定を構成する
-summary: この記事では、WebSailingの起動時に使用される設定ファイル(app.wsconf)を編集して、WebSailingの起動をカスタマイズする方法について説明します。
+summary: この記事では、アプリケーション構成ファイル(app.wsconf)を編集して、WebSailingの起動をカスタマイズする方法について説明します。
 date : 2022-10-29
 ---
 ## 起動時の設定の概要
-WebSailing101以降のすべてのバージョンでWebSailingの起動をカスタマイズするには、ConfigEditorを使用できます。app.wsconfは、WebSailingの実行ファイルと同じディレクトリに配置されていて、WSOFTConfig形式で保存されています。この設定ファイルには次の項目が保存されています。
+WebSailing101以降のすべてのバージョンでWebSailingの起動をカスタマイズするには、ConfigEditorを使用して ==アプリケーション構成ファイル== を編集します。アプリケーション構成ファイルは、WebSailingの実行ファイルと同じディレクトリに`app.wsconf`という名前で配置されています。設定ファイルには次の項目が保存されています。
 
 * WebSailingのユーザーデータの保存先
 * WebSailingの起動時の挙動（セーフモードなど）
@@ -15,7 +15,7 @@ WebSailing101以降のすべてのバージョンでWebSailingの起動をカス
 |パス|値の種類|内容|
 |:----|:----:|:----|
 |/Application/Startup/UserData/Directory|文字列型|ユーザーごとの作業フォルダーとして使用されるディレクトリのパス
-|/Application/Startup/UserData/EnabbleSandbox|ビット型|起動時にサンドボックス機能を有効にするか|
+|/Application/Startup/UserData/EnableSandbox|ビット型|起動時にサンドボックス機能を有効にするか|
 |/Application/Startup/UserData/EnableSafeMode|ビット型|起動時にセーフモードを有効にするか|
 |/Application/Startup/UserData/EnableRecoveryMode|ビット型|回復モードを使用可能にするか|
 |/Application/Startup/UserData/EnableCustomizedStartup|ビット型|カスタム起動を許可するか|
@@ -24,14 +24,15 @@ WebSailing101以降のすべてのバージョンでWebSailingの起動をカス
 |/Application/Log|文字列型|ログファイルのパス|
 
 ## 起動時の設定を編集する方法
-起動時の設定ファイルは、WSOFTConfig形式に準拠しているため、対応するバージョンのWSOFTConfing編集環境であれば閲覧・編集が可能です。この記事では、WebSailingで、起動時の設定を編集する方法を説明します。編集方法は、実行中のWebSailingの設定を編集するか、起動していないWebSailingの設定を編集するかで操作が変わります。
+アプリケーション構成ファイルは、WSOFTConfig形式で保存されています。この記事では、WebSailingで、そのファイルを編集する方法を説明します。編集方法は、実行中のWebSailingの設定を編集するか、起動していないWebSailingの設定を編集するかで操作が変わります。
 
 > [!CAUTION] 警告
-> ConfigEditorを使用する場合は、注意が必要です。設定ファイルを誤って編集すると、ソフトウェアを再インストールする必要がある問題が発生したり、データが失われる可能性があります。非公式のソースによって提案される編集は避けてください。また、設定ファイルを編集する前にバックアップをとるとより安全です。
+> ConfigEditorを使用する場合は注意が必要です。設定ファイルを誤って編集すると、ソフトウェアを再インストールする必要がある問題が発生したり、データが失われる可能性があります。非公式のソースによって提案される編集は避けてください。また、設定ファイルを編集する前にバックアップをとるとより安全です。
+
 ### 起動中のWebSailingの設定を編集する
 
 > [!NOTE] 必要条件
-> この手順では起動オプションを使用するため、`app.wsconf/Application/Startup/UserData/EnableCustomizedStartup`がTrueであることが必要です。
+> この手順では起動オプションを使用するため、`app.wsconf/Application/Startup/UserData/EnableCustomizedStartup`がTrueに設定されている必要があります。
 
 1. 起動中のWebSailingの設定を編集するには、「メニュー」、「WebSailingを再起動」、「起動オプションの設定」へと進みます。
 ![起動オプションの設定](media/1.jpg)
