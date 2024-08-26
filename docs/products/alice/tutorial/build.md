@@ -18,7 +18,7 @@ IceBuildは、ビルドする前にパッケージマニフェストファイル
 IceBuildを使用するには、適切なコマンドライン引数とともに、適切なディレクトリ名をicebuild.iceに渡します。たとえば、ディレクトリTestPkgからTestPkg.iceをビルドするには、次のコマンドを使用します。
 
 ```shell title="コマンドライン"
-icebuild.ice TestPkg -out:TestPkg.ice
+alice icebuild TestPkg
 ```
 IceBuildのコマンドライン引数について詳しく知るにはIceBuildコマンドラインリファレンスを参照してください。
 
