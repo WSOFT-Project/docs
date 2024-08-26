@@ -6,27 +6,6 @@ summary : イベントで使用した曲やおすすめの曲を置いておき�
 
 可能な限りカッコ内でアーティスト名を併記しています。
 
-## 学園交差点
-ここらへんのBGMはほぼ毎回使っていました。
-
-- [団欒](https://www.youtube.com/watch?v=nwtP-pzFK3Y)
-- [放送部によるラジオテーマ](https://www.youtube.com/watch?v=mKNhVA0YviE)
-- [スケッチ(ロング・バージョン)](https://www.youtube.com/watch?v=2QAIkvi1ztE)
-- [ここまでコピペ 2016ver](https://www.youtube.com/watch?v=nCzNDMWTBIk) (*[Instrumental版](https://piapro.jp/t/aKRg)*)
-
-### スタジオからのお知らせ
-Bilibiliのやつしか見つからなかった。これは毎回チャイムの音と抱き合わせで使っていました。
-
-- [ブービートラップ](https://www.bilibili.com/video/BV1PJ411k7KP/)
-
-### エンディング
-ゲストの方に感想聞いて〆るときに使ってた曲です。
-基本はロングバージョンのラスサビ(？)の部分を使用。
-長さが欲しいときや最後まで流したいときなど特別なときはエンディングテーマの方を使っていました。
-
-- [夏空 (ロング・バージョン)](https://www.youtube.com/watch?v=LUZiCj7hH9I)
-- [夏空～エンディング・テーマ～](https://www.youtube.com/watch?v=27vggWfPYTk)
-
 ## 文化祭
 ### プレ・オープニング
 開会式前に使ってたやつ。
@@ -87,9 +66,49 @@ Bilibiliのやつしか見つからなかった。これは毎回チャイムの
 - [プリンセス・ラティファ / 「甘城ブリリアントパーク」オリジナル・サウンド・トラック](https://www.youtube.com/watch?v=ji7bt4AZP_s)
 - [いつもの風景で終わる物語 / 涼宮ハルヒの消失 Original Soundtrack](https://www.youtube.com/watch?v=IXBOOF5AnFY)
 
-### 夏至 Preview
+### Preview
 
 - [スパークル Mover ver. / RADWIMPS](https://www.youtube.com/watch?v=tpH8TEkKQI4)
+
+## 学園交差点
+ここらへんのBGMはほぼ毎回使っていました。
+
+- [団欒](https://www.youtube.com/watch?v=nwtP-pzFK3Y)
+- [放送部によるラジオテーマ](https://www.youtube.com/watch?v=mKNhVA0YviE)
+- [スケッチ(ロング・バージョン)](https://www.youtube.com/watch?v=2QAIkvi1ztE)
+- [ここまでコピペ 2016ver](https://www.youtube.com/watch?v=nCzNDMWTBIk) (*[Instrumental版](https://piapro.jp/t/aKRg)*)
+
+### スタジオからのお知らせ
+Bilibiliのやつしか見つからなかった。これは毎回チャイムの音と抱き合わせで使っていました。
+
+- [ブービートラップ](https://www.bilibili.com/video/BV1PJ411k7KP/)
+
+### エンディング
+ゲストの方に感想聞いて〆るときに使ってた曲です。
+基本はロングバージョンのラスサビ(？)の部分を使用。
+長さが欲しいときや最後まで流したいときなど特別なときはエンディングテーマの方を使っていました。
+
+- [夏空 (ロング・バージョン)](https://www.youtube.com/watch?v=LUZiCj7hH9I)
+- [夏空～エンディング・テーマ～](https://www.youtube.com/watch?v=27vggWfPYTk)
+
+### 曲
+一応、参考までに各回で流した曲をあげておきます。
+
+タイトル|M-1|M-2
+---|---|---
+学園交差点1|[「Virtual Insanity」/ Jamiroquai](https://www.youtube.com/watch?v=4JkIs37a2JE&pp=ygUQdmlydHVhbCBpbnNhbml0eQ%3D%3D)|
+学園交差点2|[「ともに」/ WANIMA](https://www.youtube.com/watch?v=qag4ewos4TE&pp=ygUQ44Go44KC44GrIHdhbmltYQ%3D%3D)|
+学園交差点3|[「カナダからの手紙」/ 平尾昌晃・畑中葉子](https://www.youtube.com/watch?v=IJkvQa1VQHA)|
+学園交差点4|[「強風オールバック」/ いよわ feat.歌愛ユキ](https://www.youtube.com/watch?v=D6DVTLvOupE&pp=ygUY5by36aKo44Kq44O844Or44OQ44OD44Kv)|
+学園交差点5|「令和最新版 校歌EDMRemix 2023年版 MIX」/ matsuzen・紅組|
+学園交差点6|[「RPG」/ SEKAI NO OWARI](https://www.youtube.com/watch?v=Mi9uNu35Gmk&pp=ygUWcnBnIOS4lueVjOOBrue1guOCj-OCig%3D%3D)|
+学園交差点7|[「光」/ 宇多田ヒカル](https://www.youtube.com/watch?v=AlMdDpUWFFI&pp=ygUX5YWJIOWuh-WkmueUsOODkuOCq-ODqyA%3D)|[「銀河鉄道」/ BUMP OF CHICKEN](https://www.youtube.com/watch?v=_-OjjCZOe7I&pp=ygUR6YqA5rKz6YmE6YGTIGJ1bXA%3D)
+学園交差点 番外編|[「鱗」/ 秦基博](https://www.youtube.com/watch?v=V0xSlwow9rQ&pp=ygUD6bGX)|[「Holes in the Ground」/ The sim redmond band](https://www.youtube.com/watch?v=hk4EfgNgDrE&pp=ygUbaG9sZXMgaW4gdGhlIGdyb3VuZCByZWRtb25k)
+学園交差点8|[「愛の花」/ あいみょん](https://www.youtube.com/watch?v=JuyQQUqD64c&pp=ygUJ5oSb44Gu6Iqx)|
+学園交差点9|[「天使の翼」/ A4。](https://www.youtube.com/watch?v=Td210slURro&pp=ygUM5aSp5L2_44Gu57-8)|
+学園交差点11|[「Love me, Love you」/ Mrs. GREEN APPLE](https://www.youtube.com/watch?v=FmDBhP4apbs&pp=ygUQbG92ZSBtZSBsb3ZlIHlvdQ%3D%3D)|[「Ray livetune cover」/ kz](https://www.youtube.com/watch?v=sxXYpY9Wkuw&pp=ygUScmF5IGxpdmV0dW5lIGNvdmVy)
+学園交差点13|[「ドラえもん」/ 星野源](https://www.youtube.com/watch?v=ypRTzt1KrF8&pp=ygUZ44OJ44Op44GI44KC44KTIOaYn-mHjua6kA%3D%3D)|[「Merry Christmas」/ BUMP OF CHICKEN](https://www.youtube.com/watch?v=QJaareN2z00&pp=ygUTbWVycnljaHJpc3RtYXMgYnVtcA%3D%3D)
+学園交差点14|[Progress/ スガ シカオ](https://www.youtube.com/watch?v=Aw3l547PNP4&pp=ygUP44OX44Ot44Kw44Os44K5)|
 
 ## おすすめの曲
 以下は完全に私のおこのみ。

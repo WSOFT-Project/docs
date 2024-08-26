@@ -8,6 +8,7 @@ mt_title: ToTitleCase()
 mt_summary: 現在の文字列の単語の頭文字を大文字に置換します。
 mt_title: ToTitleCase(string?)
 mt_summary: 指定された地域の規則を使用して、現在の文字列の単語の頭文字を大文字に置換します。
+draft: true
 ---
 
 ### 定義

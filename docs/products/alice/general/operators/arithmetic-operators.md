@@ -61,7 +61,7 @@ print(--x); //出力:1
 ### 単項プラス演算子と単項マイナス演算子
 単項プラス演算子`+`ではその値が返されます。単項マイナス演算子`-`ではその値に`-1`を掛けたものが返されます。 次の例を参照してください。
 
-```cs title="JavaScript"
+```cs title="AliceScript"
 print(+1);  //出力: 1
 print(-1);  //出力:-1
 ```
@@ -70,7 +70,7 @@ print(-1);  //出力:-1
 ### 加算演算子 +
 加算演算子`+`は、それらの値の合計を計算します。
 
-```cs title="JavaScript"
+```cs title="AliceScript"
 print(1 + 1);   //出力:2
 print(2 + 3.5); //出力:5.5
 ```
@@ -87,7 +87,7 @@ print(2.3 - 1);//出力:1.3
 ### 乗算演算子 *
 乗算演算子`*`は、それらの値の積を計算します。
 
-```cs title="JavaScript"
+```cs title="AliceScript"
 print(2 * 4);  //出力:8
 print(2 * 0.5);//出力:1
 ```
@@ -95,7 +95,7 @@ print(2 * 0.5);//出力:1
 ### 除算演算子 /
 除算演算子`/`は、左の値を右の値で除算します。
 
-```cs title="JavaScript"
+```cs title="AliceScript"
 print(6 / 2); //出力:  3
 print(1 / 2); //出力:0.5
 ```
@@ -103,7 +103,7 @@ print(1 / 2); //出力:0.5
 ### べき乗演算子
 べき乗演算子`**`は、左の値の右の値乗を計算します。
 
-```cs title="JavaScript"
+```cs title="AliceScript"
 print(2 ** 3);  //出力:8
 ```
 
@@ -121,7 +121,7 @@ print(result); //出力:2
 ### 剰余演算子 %
 剰余演算子`%`は、左側の値を右がの値で除算した後の余りを計算します。
 
-```cs title="JavaScript"
+```cs title="AliceScript"
 print(3 % 2); //出力:  1
 print(6 % 2); //出力:  0(割り切れる)
 print(-0.5 % 2); //出力:-0.5

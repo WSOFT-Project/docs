@@ -15,7 +15,7 @@ mt_title: password_getSalt(number)
 ハッシュ関数のソルトとして使用できる、安全な乱数データを取得します
 
 ```cs title="AliceScript"
-namespace Alice.Net;
+namespace Alice.Security;
 public bytes password_getSalt(number size = 32);
 ```
 

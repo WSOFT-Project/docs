@@ -19,6 +19,7 @@ mt_title: SkipLast(number)
 class Alice.Array;
 public array SkipLast(number count);
 ```
+
 |引数| |
 |-|-|
 |`count`|現在の配列内の末尾から省略する要素の個数|

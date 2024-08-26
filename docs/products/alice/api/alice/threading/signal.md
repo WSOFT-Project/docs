@@ -15,7 +15,7 @@ mt_title: signal()
 イベントの状態をシグナル状態に設定し、待機している 1 つ以上のスレッドが進行できるようにします。
 
 ```cs title="AliceScript"
-namespace Alice.Net;
+namespace Alice.Threading;
 public bool signal();
 ```
 

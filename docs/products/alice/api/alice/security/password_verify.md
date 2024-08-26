@@ -15,7 +15,7 @@ mt_title: password_verify(string,bytes,bytes,number,number)
 指定された文字列が正しいかどうかをハッシュ値と照合し検証します。
 
 ```cs title="AliceScript"
-namespace Alice.Net;
+namespace Alice.Security;
 public bool password_verify(string password, bytes hash, bytes salt, number hash_size = 32, number stretch_count = 1000);
 ```
 

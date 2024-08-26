@@ -15,7 +15,7 @@ mt_title: task_run(delegate,params variable)
 指定された処理内容を別スレッドで実行します。
 
 ```cs title="AliceScript"
-namespace Alice.Net;
+namespace Alice.Threading;
 public void task_run(delegate task, params variable args);
 ```
 

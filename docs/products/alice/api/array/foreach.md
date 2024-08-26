@@ -11,7 +11,7 @@ mt_title: Foreach(delegate)
 アセンブリ: Losetta.Runtime.dll<br/>
 ソースコード: [Alice.Core.Array.cs](https://github.com/WSOFT-Project/Losetta/blob/master/Losetta.Runtime/Core/Extension/Alice.Core.Array.cs)
 
-#### Foreach
+#### Foreach(delegate)
 
 現在の配列の各要素について、指定されたデリゲートを実行します。デリゲートの第一引数にはその要素が渡されます。
 
