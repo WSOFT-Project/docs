@@ -8,7 +8,15 @@ date : 2021-12-25
 WSOFTDocsのAliceScriptのサイトへようこそ。
 このサイトではAliceScriptの書き方、実行方法、APIリファレンスを公開しています。
 
+
+### はじめる
+
 ---
+
+```sh title="シェル"
+curl https://alice.wsoft.ws/install.sh | sudo sh
+```
+
 [ ダウンロード](./download.md){: .btn .btn-primary .btn-lg .bi .bi-download }
 ---
 
