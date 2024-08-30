@@ -34,7 +34,7 @@ date : 2024-07-11
 ターミナルを開いて、次のコマンドを実行します。
 
 ```sh title="シェル"
-curl -fsSL https://alice.wsoft.ws/install.sh | sh
+curl https://alice.wsoft.ws/install.sh | sh
 ```
 
 このコマンドは、はじめに環境に応じたAliceScriptのランタイムをお使いのコンピューターの`/usr/local/bin`ディレクトリにダウンロードします。

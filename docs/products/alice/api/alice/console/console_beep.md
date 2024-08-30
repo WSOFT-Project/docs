@@ -72,3 +72,56 @@ using Alice.Console;
 
 console_beep();
 ```
+
+次の例では、Windowsのコンソールで「キラキラ星」を演奏します。
+
+```cs title="AliceScript"
+using Alice.Console;
+
+// 音符データ
+namespace Scale
+{
+    // ド(C3)
+    public const C = 131;
+    // レ(D3)
+    public const D = 147;
+    // ミ(E3)
+    public const E = 165;
+    // ファ(F3)
+    public const F = 174;
+    // ソ(G3)
+    public const G = 196;
+    // ラ(A4)
+    public const A = 220;
+    // シ(B4)
+    public const B = 247;
+}
+
+// 楽譜データ
+namespace Score
+{
+    using Scale;
+
+    // キラキラ星
+    public const KIRAKIRA_BOSHI = [C, C, G, G, A, A, G,
+                                   F, F, E, E, D, D, C,
+                                   G, G, F, F, E, E, D,
+                                   G, G, F, F, E, E, D,
+                                   C, C, G, G, A, A, G,
+                                   F, F, E, E, D, D, C];
+}
+
+// プレーヤー
+namespace Player
+{
+    public void Play(array sc, number de)
+    {
+        foreach(var note in sc)
+        {
+            console_beep(note, de);
+        }
+    }
+}
+
+Player.Play(Score.KIRAKIRA_BOSHI, 500);
+```

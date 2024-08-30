@@ -2,9 +2,9 @@
 title : 互換性に影響を与える変更点
 summary : この記事では、AliceScriptで採用されているか、検討されている互換性に影響を与える変更点について説明します。
 ---
-AliceScriptの歴史を通じて、AliceScriptのバージョン間および異なる実装間で高いレベルの互換性を維持することに力が注がれてきました。 
-Alice3.0以降のバージョンは、AliceScriptGMと比較すると新しい技術とみなすことができますが、念のためこの一覧にまとめています。
-多くの開発者は、AliceScriptの異なる実装間の互換性とともに、AliceScriptの特定の実装のバージョン間についても高いレベルの互換性を期待します。 とくに、以前のバージョンのAliceScript用に書かれたコードは、AliceScriptの新しいバージョンでもシームレスに動作することを期待します。 実際、多くの開発者は、新しくリリースされたAlice.RuntimeにあるAPIが、それらのAPIが導入された初めのバージョンとも互換性があると期待します。
+
+AliceScriptはその誕生当初から、異なるバージョンや異なる実装間でできるだけ高い互換性を維持することに注力してきました。
+多くの開発者は、AliceScriptの異なる実装間の互換性とともに、AliceScriptの特定の実装のバージョン間についても高いレベルの互換性を期待します。 とくに、以前のバージョンのAliceScript用に書かれたコードは、AliceScriptの新しいバージョンでもシームレスに動作することを期待します。 実際、多くの開発者は、新しくリリースされたAlice.RuntimeにあるAPIが、それらのAPIが導入された初めのバージョンとも互換性があることを期待します。
 
 この記事では、AliceScriptまたはAlice.RuntimeまたはAlicePackageに対して行われた変更の詳細と、それがアプリケーションの互換性に与える影響について説明します。変更は<span class="badge bg-success">承認</span>されているか<span class="badge bg-danger">非承認</span>であるか、動作の予測や期待通りの動作の維持が不十分であると判断され、<span class="badge bg-warning text-dark">見送り</span>されているか<span class="badge bg-warning text-dark">検討</span>されているかのいずれかです。
 

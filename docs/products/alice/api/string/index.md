@@ -157,6 +157,18 @@ print($"ここで{env_newLine}改行されます");
 |AliceSister|[Unicode標準、バージョン6.3.0](https://www.unicode.org/versions/Unicode6.3.0/)|
 |Losetta|[Unicode標準、バージョン13.0.0](https://www.unicode.org/versions/Unicode13.0.0/)|
 
+#### UTF-8文字列リテラル
+<span class="badge bg-success">対応バージョン>=Alice3.0</span>
+
+UTF-8文字列リテラルを使用することで、コード中で文字列をUTF-8データで表現できます。UTF-8リテラルは文字列の先頭に`u8`をつけることで表現できます。このリテラルは文字列ではなく[バイナリ型](../bytes/index.md)を表すことにご注意ください。次に例を示します。
+
+```cs title="AliceScript"
+var data = u8"あいうえお";
+
+print($"Length: {data.Length}");
+print($"Type: {data.Type}");
+```
+
 #### 逐語的文字列リテラル
 <span class="badge bg-success">対応バージョン>=Alice3.0</span>
 逐語的文字列リテラルを使用すると、ダブルクオーテーション（`"`）などをエスケープ文字なしに表現できます。この形式で文字列を表現するには文字列をシングルクオーテーション（`'`）で囲みます。逐語的文字列リテラルではエスケープ文字を使用することはできません。次に例を示します。
