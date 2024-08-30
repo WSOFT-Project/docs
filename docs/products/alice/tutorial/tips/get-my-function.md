@@ -1,6 +1,8 @@
 ---
 title : 自分自身の関数を取得する
+long_title: Tips:自分自身の関数を取得する
 summary : この記事では、StackTraceを使用して自分自身の関数を取得する方法を説明します。
+date: 2024-08-30
 ---
 
 ### 概要
@@ -12,9 +14,9 @@ AliceScript2.3から、StackTrace機能が導入されました。この機能�
 ### サンプルコード
 
 ```cs title="main.alice"
-function myFunction()
+void myFunction()
 {
-  var script = Alice.Interpreter.Interpreter_GetScript();
+  var script = Alice.Interpreter.GetScript();
   
   var func = script.StackTrace.Last;
   print(func.Name); // 出力例 : myFunction
