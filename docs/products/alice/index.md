@@ -6,8 +6,7 @@ date : 2021-12-25
 
 ## AliceScript Docsへようこそ
 WSOFTDocsのAliceScriptのサイトへようこそ。
-このサイトではAliceScriptの書き方、実行方法、APIリファレンスを公開しています。
-
+このサイトでは、AliceScriptの文法や実行方法、APIリファレンスを公開しています。
 
 ### はじめる
 
@@ -19,6 +18,27 @@ curl https://alice.wsoft.ws/install.sh | sudo sh
 
 [ ダウンロード](./download.md){: .btn .btn-primary .btn-lg .bi .bi-download }
 ---
+
+<div class="row">
+  <div class="col-sm-6 mb-3 mb-sm-0">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Special title treatment</h5>
+        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Special title treatment</h5>
+        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+  </div>
+</div>
 
 !!! note "AliceScriptの基礎"
     ---
@@ -65,3 +85,4 @@ curl https://alice.wsoft.ws/install.sh | sudo sh
     * [Aliceプロジェクト公式コミュニティ](https://a.wsoft.ws/discord)
     * [AliceScriptWiki](https://alice.wsoft.ws/)
     * [Alice in Discord](./in-discord/)
+  
