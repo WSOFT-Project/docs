@@ -12,18 +12,11 @@ WSOFTDocsのAliceScriptのサイトへようこそ。
 
 ---
 
-```sh title="シェル"
-curl https://alice.wsoft.ws/install.sh | sudo sh
-```
-
-[ ダウンロード](./download.md){: .btn .btn-primary .btn-lg .bi .bi-download }
----
-
 <div class="row">
   <div class="col-sm-6">
     <div class="card">
       <div class="card-body">
-        <h5 class="card-title">ツアー</h5>
+        <h5 class="card-title"><i class="bi bi-sign-turn-slight-right"></i> ツアー</h5>
         <p class="card-text">AliceScriptでできることや、特徴をご紹介しています。</p>
         <a href="welcome" class="btn btn-primary"><i class="bi bi-book"></i> 見てみる</a>
       </div>
@@ -32,40 +25,31 @@ curl https://alice.wsoft.ws/install.sh | sudo sh
   <div class="col-sm-6">
     <div class="card">
       <div class="card-body">
-        <h5 class="card-title">作業開始</h5>
+        <h5 class="card-title"><i class="bi bi-code"></i> 作業開始</h5>
         <p class="card-text">AliceScriptでHello,Worldを表示する簡単なアプリケーションを作成してみましょう。</p>
-        <a href="./tutorial/hello-world.md" class="btn btn-success"><i class="bi bi-play"></i> はじめる</a>
+        <a href="tutorial/hello-world/" class="btn btn-success"><i class="bi bi-play"></i> はじめる</a>
       </div>
     </div>
   </div>
   <div class="col-sm-6">
     <div class="card">
       <div class="card-body">
-        <h5 class="card-title">APIブラウザ</h5>
+        <h5 class="card-title"><i class="bi bi-compass"></i> APIブラウザ</h5>
         <p class="card-text">AliceScriptで標準で使用できる関数を一覧で紹介しています。</p>
-        <a href="./tutorial/hello-world.md" class="btn btn-primary"><i class="bi bi-book"></i> 見てみる</a>
+        <a href="api/" class="btn btn-primary"><i class="bi bi-book"></i> 見てみる</a>
       </div>
     </div>
   </div>
   <div class="col-sm-6">
     <div class="card">
       <div class="card-body">
-        <h5 class="card-title">GitHub</h5>
+        <h5 class="card-title"><i class="bi bi-github"></i> GitHub</h5>
         <p class="card-text">AliceScriptのリポジトリを覗いてみて、言語の開発に参加してみましょう。</p>
-        <a href="./tutorial/hello-world.md" class="btn btn-dark"><i class="bi bi-github"></i> 見てみる</a>
+        <a href="https://github.com/WSOFT-Project/alicescript" class="btn btn-dark"><i class="bi bi-github"></i> 見てみる</a>
       </div>
     </div>
   </div>
 </div>
-
-!!! note "AliceScriptの基礎"
-    ---
-    
-    * [AliceScriptのツアー](welcome)
-    * [Hello,World](./tutorial/hello-world.md)
-    * [初めてのAliceScript](tutorial/begining-alice)
-    * [APIブラウザ](./api/index.md)
-    * [コーディング規約](./general/coding-style.md)
 
 !!! note "主要な概念"
     ---
