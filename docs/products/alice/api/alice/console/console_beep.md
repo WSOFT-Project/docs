@@ -22,10 +22,10 @@ mt_summary: コンソールのスピーカーから指定した周波数のビ�
 ```cs title="AliceScript"
 namespace Alice.Console;
 
-@unsupportedFor("browser")
-@unsupportedFor("android")
-@unsupportedFor("ios")
-@unsupportedFor("tvos")
+@unSupportedPlatform("browser")
+@unSupportedPlatform("android")
+@unSupportedPlatform("ios")
+@unSupportedPlatform("tvos")
 public void console_beep();
 ```
 

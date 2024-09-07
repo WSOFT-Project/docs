@@ -20,10 +20,10 @@ mt_summary: コンソールバッファーをクリアします。
 ```cs title="AliceScript"
 namespace Alice.Console;
 
-@unsupportedFor("browser")
-@unsupportedFor("android")
-@unsupportedFor("ios")
-@unsupportedFor("tvos")
+@unSupportedPlatform("browser")
+@unSupportedPlatform("android")
+@unSupportedPlatform("ios")
+@unSupportedPlatform("tvos")
 public void console_clear();
 ```
 

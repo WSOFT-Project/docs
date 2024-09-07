@@ -23,18 +23,18 @@ curl https://alice.wsoft.ws/install.sh | sudo sh
   <div class="col-sm-6 mb-3 mb-sm-0">
     <div class="card">
       <div class="card-body">
-        <h5 class="card-title">Special title treatment</h5>
-        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
+        <h5 class="card-title">ツアー</h5>
+        <p class="card-text">AliceScriptについて知ってみましょう。</p>
+        <a href="welcome" class="btn btn-primary">はじめる</a>
       </div>
     </div>
   </div>
   <div class="col-sm-6">
     <div class="card">
       <div class="card-body">
-        <h5 class="card-title">Special title treatment</h5>
-        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
+        <h5 class="card-title">作業開始</h5>
+        <p class="card-text">AliceScriptでHello,Worldを表示する簡単なアプリケーションを作成してみましょう。</p>
+        <a href="./tutorial/hello-world.md" class="btn btn-primary">はじめる</a>
       </div>
     </div>
   </div>

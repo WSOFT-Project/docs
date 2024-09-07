@@ -20,8 +20,8 @@ mt_summary: 標準入力から一文字読み取ります。
 ```cs title="AliceScript"
 namespace Alice.Console;
 
-@unsupportedFor("browser")
-@unsupportedFor("android")
+@unSupportedPlatform("browser")
+@unSupportedPlatform("android")
 public number console_read();
 ```
 
