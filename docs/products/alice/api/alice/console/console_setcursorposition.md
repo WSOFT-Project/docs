@@ -20,10 +20,10 @@ mt_summary: コンソールの中のカーソルの位置を設定します。
 ```cs title="AliceScript"
 namespace Alice.Console;
 
-@unsupportedFor("browser")
-@unsupportedFor("android")
-@unsupportedFor("ios")
-@unsupportedFor("tvos")
+@unSupportedPlatform("browser")
+@unSupportedPlatform("android")
+@unSupportedPlatform("ios")
+@unSupportedPlatform("tvos")
 public void console_setCursorPosition(number left, number top);
 ```
 

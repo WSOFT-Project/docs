@@ -15,10 +15,10 @@ mt_type: value
 ```cs title="AliceScript"
 namespace Alice.Console;
 
-@unsupportedFor("browser")
-@unsupportedFor("android")
-@unsupportedFor("ios")
-@unsupportedFor("tvos")
+@unSupportedPlatform("browser")
+@unSupportedPlatform("android")
+@unSupportedPlatform("ios")
+@unSupportedPlatform("tvos")
 public readonly number console_largestWindowHeight;
 ```
 

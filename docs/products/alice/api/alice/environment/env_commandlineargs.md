@@ -29,5 +29,5 @@ public string[] env_commandLineArgs();
     |AliceSister|2.0、2.1、2.2、2.3、3.0|
     |Losetta|0.9、0.10|
 
-### 注意
+### 説明
 `alice.exe`を介してAliceScriptを実行すると、この関数の戻り値は`--args`引数の後に続く引数のリストになります。

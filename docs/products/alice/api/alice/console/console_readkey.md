@@ -20,10 +20,10 @@ mt_summary: ユーザーが入力した次の文字を取得します。
 ```cs title="AliceScript"
 namespace Alice.Console;
 
-@unsupportedFor("browser")
-@unsupportedFor("android")
-@unsupportedFor("ios")
-@unsupportedFor("tvos")
+@unSupportedPlatform("browser")
+@unSupportedPlatform("android")
+@unSupportedPlatform("ios")
+@unSupportedPlatform("tvos")
 public string console_readKey();
 ```
 
@@ -45,10 +45,10 @@ public string console_readKey();
 ```cs title="AliceScript"
 namespace Alice.Console;
 
-@unsupportedFor("browser")
-@unsupportedFor("android")
-@unsupportedFor("ios")
-@unsupportedFor("tvos")
+@unSupportedPlatform("browser")
+@unSupportedPlatform("android")
+@unSupportedPlatform("ios")
+@unSupportedPlatform("tvos")
 public string console_readKey(bool intercept);
 ```
 

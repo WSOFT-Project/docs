@@ -29,7 +29,7 @@ public void env_set_exitCode(number exitCode);
     |AliceSister|2.0、2.1、2.2、2.3、3.0|
     |Losetta|0.9、0.10|
 
-### 注意
+### 説明
 `exit`関数に戻り値を指定しなかった場合、この値が使用され、`exit(number exitcode);`で終了された場合はこの値は無視されます。`exitCode`の初期値は`0`です。
 
 !!!warning "警告"
