@@ -9,3 +9,7 @@ mt_type: namespace
 ### 関数
 
 =!"products/alice/api/alice/environment"|[function,include-subdir]!=
+
+### 値
+
+=!"products/alice/api/alice/environment"|[value,include-subdir]!=
