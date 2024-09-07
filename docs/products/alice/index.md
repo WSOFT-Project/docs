@@ -8,12 +8,12 @@ date : 2021-12-25
 WSOFTDocsのAliceScriptのサイトへようこそ。
 このサイトでは、AliceScriptの文法や実行方法、APIリファレンスを公開しています。
 
-### はじめる
+#### はじめる
 
 ---
 
 <div class="row">
-  <div class="col-sm-6">
+  <div class="col-sm-6 ">
     <div class="card">
       <div class="card-body">
         <h5 class="card-title"><i class="bi bi-sign-turn-slight-right"></i> ツアー</h5>
@@ -50,6 +50,51 @@ WSOFTDocsのAliceScriptのサイトへようこそ。
     </div>
   </div>
 </div>
+<br/>
+
+#### 学ぶ
+
+---
+
+<div class="row">
+  <div class="col-sm-6 ">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title"><i class="bi bi-braces"></i> 文</h5>
+        <p class="card-text">AliceScriptにおける文の考え方と、構文を説明しています。</p>
+        <a href="general/statement/" class="btn btn-primary"><i class="bi bi-journal-richtext"></i> 読む</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title"><i class="bi bi-calculator"></i> 演算子と式</h5>
+        <p class="card-text">AliceScriptで書ける式と、演算子を説明しています。</p>
+        <a href="general/operators/" class="btn btn-primary"><i class="bi bi-journal-richtext"></i> 読む</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title"><i class="bi bi-code"></i> 変数</h5>
+        <p class="card-text">AliceScriptでの変数の扱いについて説明しています。</p>
+        <a href="general/variable/" class="btn btn-primary"><i class="bi bi-journal-richtext"></i> 読む</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title"><i class="bi bi-code"></i> 関数</h5>
+        <p class="card-text">AliceScriptでの関数の扱いや考え方を説明しています。</p>
+        <a href="general/variable/" class="btn btn-primary"><i class="bi bi-journal-richtext"></i> 読む</a>
+      </div>
+    </div>
+  </div>
+</div>
+<br/>
 
 !!! note "主要な概念"
     ---
