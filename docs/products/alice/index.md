@@ -31,15 +31,76 @@ WSOFTDocsのAliceScriptのサイトへようこそ。
       </div>
     </div>
   </div>
+</div>
+<br/>
+
+#### 知る
+
+---
+
+<div class="row">
+  <div class="col-sm-6 ">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title"><i class="bi bi-journal-medical"></i> 基本</h5>
+        <p class="card-text">AliceScripSの基本文法や概念について説明します。</p>
+        <a href="general/" class="btn btn-primary"><i class="bi bi-book"></i> 見てみる</a>
+      </div>
+    </div>
+  </div>
   <div class="col-sm-6">
     <div class="card">
       <div class="card-body">
-        <h5 class="card-title"><i class="bi bi-compass"></i> APIブラウザ</h5>
+        <h5 class="card-title"><i class="bi bi-journal-check"></i> チュートリアル</h5>
+        <p class="card-text">特定のシナリオに沿って、AliceScriptでプログラムを作成する方法を説明します。</p>
+        <a href="tutorial/" class="btn btn-primary"><i class="bi bi-book"></i> 見てみる</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title"><i class="bi bi-lightbulb"></i> Tips</h5>
+        <p class="card-text">AliceScriptで基本的なタスクを行うための簡単なコードを紹介します。</p>
+        <a href="tutorial/tips/" class="btn btn-primary"><i class="bi bi-book"></i> 見てみる</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title"><i class="bi bi-search"></i> APIブラウザ</h5>
         <p class="card-text">AliceScriptで標準で使用できる関数を一覧で紹介しています。</p>
         <a href="api/" class="btn btn-primary"><i class="bi bi-book"></i> 見てみる</a>
       </div>
     </div>
   </div>
+  <div class="col-sm-6">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title"><i class="bi bi-bounding-box-circles"></i> 相互運用</h5>
+        <p class="card-text">AliceScriptとその他の言語で開発したプログラムとの間で連携する方法を紹介しています。</p>
+        <a href="interop/" class="btn btn-primary"><i class="bi bi-book"></i> 見てみる</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title"><i class="bi bi-exclamation-octagon"></i> 例外</h5>
+        <p class="card-text">AliceScriptでプログラミング中に発生するエラーや例外を紹介します。</p>
+        <a href="exceptions/" class="btn btn-primary"><i class="bi bi-book"></i> 見てみる</a>
+      </div>
+    </div>
+  </div>
+</div>
+<br/>
+
+#### つながる
+
+---
+
+<div class="row">
   <div class="col-sm-6">
     <div class="card">
       <div class="card-body">
@@ -49,87 +110,34 @@ WSOFTDocsのAliceScriptのサイトへようこそ。
       </div>
     </div>
   </div>
-</div>
-<br/>
 
-#### 学ぶ
-
----
-
-<div class="row">
-  <div class="col-sm-6 ">
+  <div class="col-sm-6">
     <div class="card">
       <div class="card-body">
-        <h5 class="card-title"><i class="bi bi-braces"></i> 文</h5>
-        <p class="card-text">AliceScriptにおける文の考え方と、構文を説明しています。</p>
-        <a href="general/statement/" class="btn btn-primary"><i class="bi bi-journal-richtext"></i> 読む</a>
+        <h5 class="card-title"><i class="bi bi-arrow-clockwise"></i> 新機能の一覧</h5>
+        <p class="card-text">AliceScriptの最新バージョンの新機能について説明します。</p>
+        <a href="changelog/" class="btn btn-primary"><i class="bi bi-book"></i> 見てみる</a>
       </div>
     </div>
   </div>
   <div class="col-sm-6">
     <div class="card">
       <div class="card-body">
-        <h5 class="card-title"><i class="bi bi-calculator"></i> 演算子と式</h5>
-        <p class="card-text">AliceScriptで書ける式と、演算子を説明しています。</p>
-        <a href="general/operators/" class="btn btn-primary"><i class="bi bi-journal-richtext"></i> 読む</a>
+        <h5 class="card-title"><i class="bi bi-cpu"></i> Losetta</h5>
+        <p class="card-text">AliceScriptの最新の実行環境を体験してみましょう。</p>
+        <a href="https://github.com/WSOFT-Project/Losetta" class="btn btn-dark"><i class="bi bi-github"></i> 見てみる</a>
       </div>
     </div>
   </div>
+
   <div class="col-sm-6">
     <div class="card">
       <div class="card-body">
-        <h5 class="card-title"><i class="bi bi-code"></i> 変数</h5>
-        <p class="card-text">AliceScriptでの変数の扱いについて説明しています。</p>
-        <a href="general/variable/" class="btn btn-primary"><i class="bi bi-journal-richtext"></i> 読む</a>
-      </div>
-    </div>
-  </div>
-  <div class="col-sm-6">
-    <div class="card">
-      <div class="card-body">
-        <h5 class="card-title"><i class="bi bi-code"></i> 関数</h5>
-        <p class="card-text">AliceScriptでの関数の扱いや考え方を説明しています。</p>
-        <a href="general/variable/" class="btn btn-primary"><i class="bi bi-journal-richtext"></i> 読む</a>
+        <h5 class="card-title"><i class="bi bi-discord"></i> Discord</h5>
+        <p class="card-text">AliceScriptやその他のWSOFTの作品について交流しましょう。</p>
+        <a href="https://a.wsoft.ws/discord" class="btn btn-primary"><i class="bi bi-discord"></i> 参加する</a>
       </div>
     </div>
   </div>
 </div>
 <br/>
-
-!!! note "主要な概念"
-    ---
-
-    * [文](./general/statement.md)
-    * [演算子と式](./general/operators/index.md)
-    * [変数](./general/variable.md)
-    * [関数](./general/function.md)
-    * [デリゲート](./api/delegate/index.md)
-    * [例外](./exceptions/index.md)
-    * [前処理指令](./general/preprocessor-directive.md)
-    * [標準Alice実装モデル](./general/saim.md)
-    * [AlicePackage](./general/alice-package.md)
-
-!!! note "相互運用"
-    ---
-
-    * [基本的なAliceScriptライブラリの開発](./interop/basic.md)
-    * [ネイティブ関数の呼び出し](./interop/call-native-functions.md)
-
-!!! note "移行とアップグレード"
-    ---
-    
-    * [WSOFTScriptからの移行](./tutorial/migration-from-wsoftscript.md)
-    * [破壊的変更](./changelog/compatibility.md)
-    * [Losettaを更新する](./tutorial/update.md)
-
-!!! note "つながる"
-    ---
-
-    * [AliceScriptのリポジトリ](https://github.com/WSOFT-Project/alicescript)
-    * [Losettaのリポジトリ](https://github.com/WSOFT-Project/Losetta)
-    * [AliceScript公式アンバサダー](./me.md)
-    * [Aliceの公式アカウント](https://twitter.com/Alice95563264)
-    * [Aliceプロジェクト公式コミュニティ](https://a.wsoft.ws/discord)
-    * [AliceScriptWiki](https://alice.wsoft.ws/)
-    * [Alice in Discord](./in-discord/)
-  
