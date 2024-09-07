@@ -20,12 +20,12 @@ curl https://alice.wsoft.ws/install.sh | sudo sh
 ---
 
 <div class="row">
-  <div class="col-sm-6 mb-3 mb-sm-0">
+  <div class="col-sm-6">
     <div class="card">
       <div class="card-body">
         <h5 class="card-title">ツアー</h5>
-        <p class="card-text">AliceScriptについて知ってみましょう。</p>
-        <a href="welcome" class="btn btn-primary">はじめる</a>
+        <p class="card-text">AliceScriptでできることや、特徴をご紹介しています。</p>
+        <a href="welcome" class="btn btn-primary"><i class="bi bi-book"></i> 見てみる</a>
       </div>
     </div>
   </div>
@@ -34,7 +34,25 @@ curl https://alice.wsoft.ws/install.sh | sudo sh
       <div class="card-body">
         <h5 class="card-title">作業開始</h5>
         <p class="card-text">AliceScriptでHello,Worldを表示する簡単なアプリケーションを作成してみましょう。</p>
-        <a href="./tutorial/hello-world.md" class="btn btn-primary">はじめる</a>
+        <a href="./tutorial/hello-world.md" class="btn btn-success"><i class="bi bi-play"></i> はじめる</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">APIブラウザ</h5>
+        <p class="card-text">AliceScriptで標準で使用できる関数を一覧で紹介しています。</p>
+        <a href="./tutorial/hello-world.md" class="btn btn-primary"><i class="bi bi-book"></i> 見てみる</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">GitHub</h5>
+        <p class="card-text">AliceScriptのリポジトリを覗いてみて、言語の開発に参加してみましょう。</p>
+        <a href="./tutorial/hello-world.md" class="btn btn-dark"><i class="bi bi-github"></i> 見てみる</a>
       </div>
     </div>
   </div>
