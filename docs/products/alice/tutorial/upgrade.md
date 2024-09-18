@@ -27,7 +27,7 @@ Aliceの新しいバージョンは毎年リリースされます。古いバー
 
 もしLosettaをすでに導入している場合、以下のコマンドを実行してLosettaのバージョンを更新します。
 
-```sh
+```sh title="シェル"
 $ alice update --upgrade
 ```
 
