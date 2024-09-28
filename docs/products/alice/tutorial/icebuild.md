@@ -1,16 +1,16 @@
 ---
 title: IceBuild
-summary: 
+summary: AlicePackageをビルドするために必要な、IceBuildコマンドの使用方法を説明します。
 date: 2024-07-22
 ---
 
-インストール
+## インストール
 
 ```sh title="シェル"
 alice install https://alice.wsoft.ws/icebuild.ice icebuild
 ```
 
-使い方
+## 使い方
 
 ```sh title="シェル"
 alice icebuild --args <ディレクトリ名> (オプション)
@@ -23,3 +23,10 @@ alice icebuild --args <ディレクトリ名> (オプション)
 `s`|`silent`|ビルド時にエラーのみを表示し、ログや警告を表示しません
 `out`|`target`|ビルド結果の出力先を指定します
 `c`|`control`|指定したファイルを制御コードとして埋め込みます
+
+## 使用例
+次の例では、現在のディレクトリをビルドしてAlicePackageを作成します。
+
+```sh title=""
+$ alice ibebuild .
+```
