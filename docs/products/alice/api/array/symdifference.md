@@ -33,12 +33,12 @@ public array SymDifference(array other);
 |-|-|
 |`array`|現在の配列と`other`の対称差集合|
 
-???note "対応: Alice2.2以降"
+???note "対応: 未実装"
     |対応||
     |---|---|
-    |AliceScript|2.2、2.3、3.0|
-    |AliceSister|2.2、2.3、3.0|
-    |Losetta|0.9、0.10|
+    |AliceScript||
+    |AliceSister||
+    |Losetta||
 
 ### 説明
 このメソッドは、現在の配列と`other`の対称差集合を取得します。
