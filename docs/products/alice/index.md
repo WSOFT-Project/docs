@@ -43,7 +43,7 @@ WSOFTDocsのAliceScriptのサイトへようこそ。
     <div class="card">
       <div class="card-body">
         <h5 class="card-title"><i class="bi bi-journal-medical"></i> 基本</h5>
-        <p class="card-text">AliceScripSの基本文法や概念について説明します。</p>
+        <p class="card-text">AliceScriptの基本文法や概念について説明します。</p>
         <a href="general/" class="btn btn-primary"><i class="bi bi-book"></i> 見てみる</a>
       </div>
     </div>
