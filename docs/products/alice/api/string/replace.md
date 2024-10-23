@@ -191,8 +191,6 @@ print(str);//出力例:庭にはにわ鶏がいる
 次の例では、全角および半角のカタカナとひらがなの「こんにちは」を「こんばんは」に置換します。
 
 ```cs title="AliceScript"
-using Alice.Diagnostics;
-
 string str = "こんにちは〜コンニチハ〜ｺﾝﾆﾁﾊ〜";
 
 string oldValue = "こんにちは";
@@ -207,5 +205,5 @@ print(replaced);
 
 // テスト
 string actually = "こんばんは〜こんばんは〜こんばんは〜";
-assert(replaced == actually);
+Diagnostics.assert(replaced == actually);
 ```

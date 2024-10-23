@@ -53,9 +53,12 @@ public string ReplaceAt(number index, string replacement)
 次の例では、5文字目(`index=4`)から後を"Ken"に置換しています。
 
 ```cs title="AliceScript"
+
 string str = "I'm Jon.";
 
 string newStr = str.ReplaceAt(4, "Ken");
 print(newStr);
 // 出力例: I'm Ken.
+
+Diagnostics.assert(newStr == "I'm Ken.");
 ```
