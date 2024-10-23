@@ -163,12 +163,16 @@ public bool EndsWith(string oldValue,string newValue, string cultureName, bool i
 |-|-|
 |`bool`|現在の文字列が指定した文字列で終わっていれば`true`、それ以外の場合は`false`。|
 
-???note "対応: 未実装"
+???note "対応: 未実装、Losettaのみ"
     |対応||
     |---|---|
-    |AliceScript||
-    |AliceSister||
+    |AliceScript|該当なし|
+    |AliceSister|該当なし|
     |Losetta||
+
+    この関数はAliceScriptとAliceSisterでは実装されていません。
+
+    実装されていない環境では`0x034 NOT_IMPLEMENTED`例外がスローされます。
 
 ### 例
 以下は、`にわにはにわにわとりがいる`という文字列を読みやすく置換します。
