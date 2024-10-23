@@ -178,7 +178,7 @@ public bool EndsWith(string oldValue,string newValue, string cultureName, bool i
 以下は、`にわにはにわにわとりがいる`という文字列を読みやすく置換します。
 
 ```cs title="AliceScript"
-var str = "にわにはにわにわとりがいる";
+string str = "にわにはにわにわとりがいる";
 
 //「にわとり」を「庭」に置換する
 str = str.Replace("にわとり","鶏");
@@ -186,4 +186,26 @@ str = str.Replace("にわとり","鶏");
 str = str.Replace("にわ","庭",0,2);
 
 print(str);//出力例:庭にはにわ鶏がいる
+```
+
+次の例では、全角および半角のカタカナとひらがなの「こんにちは」を「こんばんは」に置換します。
+
+```cs title="AliceScript"
+using Alice.Diagnostics;
+
+string str = "こんにちは〜コンニチハ〜ｺﾝﾆﾁﾊ〜";
+
+string oldValue = "こんにちは";
+string newValue = "こんばんは";
+
+// 全角半角とひらがなカタカナを同一視したいので、
+// ignoreWidthとignoreKanaTypeをfalseにする
+string replaced = str.Replace(oldValue, newValue, "ja-jp", false, false, false, true, true);
+
+// 置き換えた文字列を表示
+print(replaced);
+
+// テスト
+string actually = "こんばんは〜こんばんは〜こんばんは〜";
+assert(replaced == actually);
 ```
