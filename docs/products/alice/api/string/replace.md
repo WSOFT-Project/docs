@@ -145,7 +145,7 @@ public string Replace(string oldValue, string newValue, bool ignoreCase, bool co
 
 ```cs title="AliceScript"
 namespace Alice;
-public bool EndsWith(string oldValue,string newValue, string cultureName, bool ignoreCase = false, bool ignoreNonSpace = false, bool ignoreSymbols = false, bool ignoreWidth = false, bool ignoreKanaType = false);
+public bool Replace(string oldValue,string newValue, string cultureName, bool ignoreCase = false, bool ignoreNonSpace = false, bool ignoreSymbols = false, bool ignoreWidth = false, bool ignoreKanaType = false);
 ```
 
 |引数| |

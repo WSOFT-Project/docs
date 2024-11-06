@@ -10,7 +10,7 @@ mt_title: StartsWith(string,bool)
 mt_summary: 大文字小文字を区別するかを指定して、現在の文字列が指定した文字列で始まるかどうかを判定します。
 mt_title: StartsWith(string,bool,bool)
 mt_summary: 大文字小文字の区別と、現在のカルチャを考慮するかを指定して、現在の文字列が指定した文字列で始まるかどうかを判定します。
-mt_title: EndsWith(string,string,bool,bool,bool,bool,bool)
+mt_title: StartsWith(string,string,bool,bool,bool,bool,bool)
 mt_summary: カルチャの名前と文字列比較に関するオプションを指定して、現在の文字列が指定した文字列で始まるかどうかを判定します。
 ---
 
