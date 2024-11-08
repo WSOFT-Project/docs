@@ -19,6 +19,7 @@ mt_title: Take(number)
 class Alice.Array;
 public array Take(number count);
 ```
+
 |引数| |
 |-|-|
 |`count`|取得する要素の個数|

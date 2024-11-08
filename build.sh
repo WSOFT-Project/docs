@@ -24,13 +24,9 @@ if !(type "mkdocs" > /dev/null 2>&1); then
     . install.sh
 fi
 
+chmod +x ./tools/cei/$CEI_FILE_NAME
 
 echo "Building the WSOFTDocs..."
-mkdocs build --site-dir site
-
-echo "Replacing WSOFT Common Tags..."
-
-chmod +x ./tools/cei/$CEI_FILE_NAME
-./tools/cei/$CEI_FILE_NAME https://wsoft.ws/common/layout.html --min site
+mkdocs build --site-dir site && ./tools/cei/$CEI_FILE_NAME https://wsoft.ws/common/layout.html --min site
 
 echo "Build completed. Please check /site directory."

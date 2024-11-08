@@ -12,6 +12,8 @@ mt_title: Replace(string,string,bool)
 mt_summary: 指定した一致ルールを使用して、現在の文字列内に出現する特定の文字列をすべて指定した文字列に置き換えた新しい文字列を取得します。
 mt_title: Replace(string,string,bool,bool)
 mt_summary: 指定した一致ルールを使用して、現在の文字列内の指定した範囲に出現する特定の文字列をすべて指定した文字列に置き換えた新しい文字列を取得します。
+mt_title: Replace(string,string,string,bool,bool,bool,bool,bool)
+mt_summary: カルチャの名前と文字列比較に関するオプションを指定して、現在の文字列内の指定した範囲に出現する特定の文字列をすべて指定した文字列に置き換えた新しい文字列を取得します。
 ---
 
 ### 定義
@@ -133,11 +135,50 @@ public string Replace(string oldValue, string newValue, bool ignoreCase, bool co
 
     実装されていない環境では`0x034 NOT_IMPLEMENTED`例外がスローされます。
 
+#### Replace(string,string,string,bool,bool,bool,bool,bool)
+
+> [!IMPORTANT] プレビュー
+> この記事では、現在開発中のAlice vNEXTに実装される予定のAPIについて説明しています。
+> このAPIは予告なく削除および変更される可能性があります。
+
+カルチャの名前と文字列比較に関するオプションを指定して、現在の文字列内の指定した範囲に出現する特定の文字列をすべて指定した文字列に置き換えた新しい文字列を取得します。
+
+```cs title="AliceScript"
+namespace Alice;
+public bool Replace(string oldValue,string newValue, string cultureName, bool ignoreCase = false, bool ignoreNonSpace = false, bool ignoreSymbols = false, bool ignoreWidth = false, bool ignoreKanaType = false);
+```
+
+|引数| |
+|-|-|
+|`oldValue`|置換する場所の文字列|
+|`newValue`|置換後の文字列または`null`|
+|`cultureName`|文字列比較に使用するカルチャの名前。ただし、カルチャに依存しない処理を行う場合は`null`|
+|`ignoreCase`|判定時に大文字小文字を区別しない場合は`true`、区別する場合は`false`|
+|`ignoreNonSpace`|非スペーシング記号文字(`Nonspacing mark`)の有無を区別しない場合は`true`、区別する場合は`false`|
+|`ignoreSymbols`|空白や記号の有無を区別しない場合は`true`、区別する場合は`true`|
+|`ignoreWidth`|全角文字と半角文字を区別しない場合は`true`、区別する場合は`false`|
+|`ignoreKanaType`|ひらがなとカタカナを区別しない場合は`true`、区別する場合は`false`|
+
+|戻り値| |
+|-|-|
+|`bool`|現在の文字列が指定した文字列で終わっていれば`true`、それ以外の場合は`false`。|
+
+???note "対応: 未実装、Losettaのみ"
+    |対応||
+    |---|---|
+    |AliceScript|該当なし|
+    |AliceSister|該当なし|
+    |Losetta||
+
+    この関数はAliceScriptとAliceSisterでは実装されていません。
+
+    実装されていない環境では`0x034 NOT_IMPLEMENTED`例外がスローされます。
+
 ### 例
 以下は、`にわにはにわにわとりがいる`という文字列を読みやすく置換します。
 
 ```cs title="AliceScript"
-var str = "にわにはにわにわとりがいる";
+string str = "にわにはにわにわとりがいる";
 
 //「にわとり」を「庭」に置換する
 str = str.Replace("にわとり","鶏");
@@ -145,4 +186,24 @@ str = str.Replace("にわとり","鶏");
 str = str.Replace("にわ","庭",0,2);
 
 print(str);//出力例:庭にはにわ鶏がいる
+```
+
+次の例では、全角および半角のカタカナとひらがなの「こんにちは」を「こんばんは」に置換します。
+
+```cs title="AliceScript"
+string str = "こんにちは〜コンニチハ〜ｺﾝﾆﾁﾊ〜";
+
+string oldValue = "こんにちは";
+string newValue = "こんばんは";
+
+// 全角半角とひらがなカタカナを同一視したいので、
+// ignoreWidthとignoreKanaTypeをfalseにする
+string replaced = str.Replace(oldValue, newValue, "ja-jp", false, false, false, true, true);
+
+// 置き換えた文字列を表示
+print(replaced);
+
+// テスト
+string actually = "こんばんは〜こんばんは〜こんばんは〜";
+Diagnostics.assert(replaced == actually);
 ```

@@ -10,6 +10,8 @@ mt_title: StartsWith(string,bool)
 mt_summary: 大文字小文字を区別するかを指定して、現在の文字列が指定した文字列で始まるかどうかを判定します。
 mt_title: StartsWith(string,bool,bool)
 mt_summary: 大文字小文字の区別と、現在のカルチャを考慮するかを指定して、現在の文字列が指定した文字列で始まるかどうかを判定します。
+mt_title: StartsWith(string,string,bool,bool,bool,bool,bool)
+mt_summary: カルチャの名前と文字列比較に関するオプションを指定して、現在の文字列が指定した文字列で始まるかどうかを判定します。
 ---
 
 ### 定義
@@ -93,6 +95,40 @@ public bool StartsWith(string item,bool ignoreCase,bool considerCulture);
     |AliceSister|3.0|
     |Losetta|0.10|
 
+
+#### StartsWith(string,string,bool,bool,bool,bool,bool)
+
+> [!IMPORTANT] プレビュー
+> この記事では、現在開発中のAlice vNEXTに実装される予定のAPIについて説明しています。
+> このAPIは予告なく削除および変更される可能性があります。
+
+カルチャの名前と文字列比較に関するオプションを指定して、現在の文字列が指定した文字列で始まるかどうかを判定します。
+
+```cs title="AliceScript"
+namespace Alice;
+public bool StartsWith(string item, string cultureName, bool ignoreCase = false, bool ignoreNonSpace = false, bool ignoreSymbols = false, bool ignoreWidth = false, bool ignoreKanaType = false);
+```
+
+|引数| |
+|-|-|
+|`item`|判定する文字列|
+|`cultureName`|文字列比較に使用するカルチャの名前。ただし、カルチャに依存しない処理を行う場合は`null`|
+|`ignoreCase`|判定時に大文字小文字を区別しない場合は`true`、区別する場合は`false`|
+|`ignoreNonSpace`|非スペーシング記号文字(`Nonspacing mark`)の有無を区別しない場合は`true`、区別する場合は`false`|
+|`ignoreSymbols`|空白や記号の有無を区別しない場合は`true`、区別する場合は`true`|
+|`ignoreWidth`|全角文字と半角文字を区別しない場合は`true`、区別する場合は`false`|
+|`ignoreKanaType`|ひらがなとカタカナを区別しない場合は`true`、区別する場合は`false`|
+
+|戻り値| |
+|-|-|
+|`bool`|現在の文字列が指定した文字列で始まれば`true`、それ以外の場合は`false`。|
+
+???note "対応: 未実装"
+    |対応||
+    |---|---|
+    |AliceScript||
+    |AliceSister||
+    |Losetta||
 
 ### 例
 以下は、"Hello,World"が"Hello"から始まっているかどうかを判定します

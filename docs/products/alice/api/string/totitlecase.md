@@ -17,7 +17,7 @@ draft: true
 ソースコード: [Alice.Core.String.cs](https://github.com/WSOFT-Project/Losetta/blob/master/Losetta.Runtime/Core/Extension/Alice.Core.String.cs)
 
 > [!IMPORTANT] プレビュー
-> この記事では、現在開発中のAlice vNEXTに実装される予定のAPIについて説明しています。
+> この記事では、現在開発中のAlice vNEXTに実装される予定のAPI について説明しています。
 > このAPIは予告なく削除および変更される可能性があります。
 
 #### ToTitleCase()

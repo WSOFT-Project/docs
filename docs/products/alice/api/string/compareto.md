@@ -10,8 +10,8 @@ mt_title: CompareTo(string,bool)
 mt_summary: 大文字と小文字を比較するかを指定した上でこの文字列と指定した文字列を比較して、文字列を並べ替えたときにこの文字列が前にくるか、後ろにくるか、または同じであるかを表す整数を取得します。
 mt_title: CompareTo(string,bool,bool)
 mt_summary: 大文字と小文字を比較するかとカルチャを考慮するかを指定した上でこの文字列と指定した文字列を比較して、文字列を並べ替えたときにこの文字列が前にくるか、後ろにくるか、または同じであるかを表す整数を取得します。
-mt_title: CompareTo(string,bool,string)
-mt_summary: 大文字と小文字を比較するかとカルチャの名前を指定した上でこの文字列と指定した文字列を比較して、文字列を並べ替えたときにこの文字列が前にくるか、後ろにくるか、または同じであるかを表す整数を取得します。
+mt_title: CompareTo(string,string,bool,bool,bool,bool,bool)
+mt_summary: カルチャの名前と文字列比較に関するオプションを指定して、この文字列と指定した文字列を比較して文字列を並べ替えたときにこの文字列が前にくるか、後ろにくるか、または同じであるかを表す整数を取得します。
 ---
 
 ### 定義
@@ -102,24 +102,28 @@ public number CompareTo(string item, bool ignoreCase, bool considerCulture);
     |AliceSister||
     |Losetta||
 
-#### CompareTo(string,bool,string)
+#### CompareTo(string,string,bool,bool,bool,bool,bool)
 
 > [!IMPORTANT] プレビュー
 > この記事では、現在開発中のAlice vNEXTに実装される予定のAPIについて説明しています。
 > このAPIは予告なく削除および変更される可能性があります。
 
-大文字と小文字を比較するかとカルチャの名前を指定した上でこの文字列と指定した文字列を比較して、文字列を並べ替えたときにこの文字列が前にくるか、後ろにくるか、または同じであるかを表す整数を取得します。
+カルチャの名前と文字列比較に関するオプションを指定して、この文字列と指定した文字列を比較して文字列を並べ替えたときにこの文字列が前にくるか、後ろにくるか、または同じであるかを表す整数を取得します。
 
 ```cs title="AliceScript"
 namespace Alice;
-public number CompareTo(string item, bool ignoreCase, string cultureName);
+public number CompareTo(string item, string cultureName, bool ignoreCase = false, bool ignoreNonSpace = false, bool ignoreSymbols = false, bool ignoreWidth = false, bool ignoreKanaType = false);
 ```
 
 |引数| |
 |-|-|
 |`item`|この文字列と比較する文字列|
-|`ignoreCase`|比較時に大文字小文字を考慮しない場合は`true`、そうでない場合は`false`|
-|`cultureName`|使用するカルチャの名前。`null`を指定するとカルチャに依存しない処理を行います。|
+|`cultureName`|文字列比較に使用するカルチャの名前。ただし、カルチャに依存しない処理を行う場合は`null`|
+|`ignoreCase`|判定時に大文字小文字を区別しない場合は`true`、区別する場合は`false`|
+|`ignoreNonSpace`|非スペーシング記号文字(`Nonspacing mark`)の有無を区別しない場合は`true`、区別する場合は`false`|
+|`ignoreSymbols`|空白や記号の有無を区別しない場合は`true`、区別する場合は`true`|
+|`ignoreWidth`|全角文字と半角文字を区別しない場合は`true`、区別する場合は`false`|
+|`ignoreKanaType`|ひらがなとカタカナを区別しない場合は`true`、区別する場合は`false`|
 
 |戻り値| |
 |-|-|
@@ -131,6 +135,12 @@ public number CompareTo(string item, bool ignoreCase, string cultureName);
     |AliceScript||
     |AliceSister||
     |Losetta||
+
+### 説明
+このメソッドは、この文字列ともうひとつの文字列を並べ替えたときの順番を判定します。
+
+> [!WARNING] 注意事項
+> このメソッドは、文字列の並べ替えに使用するメソッドです。このメソッドをふたつの文字列が等価であるか判断するために使用しないでください。そのような目的には、[Equals](./equals.md)メソッドを使用してください。
 
 ### 例
 以下は、"Hello,World"と`Hello`のどちらが先頭にくるかを取得します
