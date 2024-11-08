@@ -1,6 +1,6 @@
 nav:
     - index.md
-    - ブログ
+    - ブログ:
         - News: https://blog.wsoft.ws/wsoft/
         - taiseiue: https://blog.wsoft.ws/taiseiue/
         - matsuzen: https://blog.wsoft.ws/zen/
