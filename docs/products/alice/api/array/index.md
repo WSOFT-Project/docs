@@ -194,6 +194,10 @@ var num_ary = array(number).Activate();
 
 デフォルトでは、配列型は必ずしも要素を含む必要も、同一の型である必要もありません。配列型への暗黙的な変換はサポートされていません。 その問題から、バイト配列を表す[bytes型](../bytes/index.md)は別に定義されています。明示的な変換を行うとき、その値を唯一の要素とする配列型に変換されます。
 
+### コンストラクター
+
+=!"products/alice/api/array"|[ctor,include-subdir]!=
+
 ### プロパティ
 
 =!"products/alice/api/array"|[property,include-subdir]!=

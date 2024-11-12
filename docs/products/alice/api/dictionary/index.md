@@ -26,4 +26,3 @@ public class string;
     |AliceSister|GM、2.0、2.1、2.2、2.3、3.0|
     |Losetta|0.8、0.9、0.10|
 
-I am 
