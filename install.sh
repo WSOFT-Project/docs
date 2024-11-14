@@ -1,1 +1,1 @@
-pip3 install --no-cache-dir lantana==2.10.0.3
+pip3 install --no-cache-dir lantana==2.10.1
