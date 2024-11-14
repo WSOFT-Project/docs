@@ -20,7 +20,7 @@ public class Exception;
 例外がスローされると、アプリケーションあるいは既定の例外ハンドラーによって例外が処理されます。
 
 ### プロパティ
-=!"products/alice/api/alice/exception"|[property,include-subdir]!=
+=!"products/alice/api/alice/exception"|[property,include-subdir,smart-jump]!=
 
 ### メソッド
-=!"products/alice/api/alice/exception"|[method,include-subdir]!=
+=!"products/alice/api/alice/exception"|[method,include-subdir,smart-jump]!=

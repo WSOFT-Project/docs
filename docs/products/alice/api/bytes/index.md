@@ -27,8 +27,8 @@ public class bytes
 
 ### プロパティ
 
-=!"products/alice/api/bytes"|[property,include-subdir]!=
+=!"products/alice/api/bytes"|[property,include-subdir,smart-jump]!=
 
 ### メソッド
 
-=!"products/alice/api/bytes"|[method,include-subdir]!=
+=!"products/alice/api/bytes"|[method,include-subdir,smart-jump]!=

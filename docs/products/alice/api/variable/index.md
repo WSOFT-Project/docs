@@ -29,8 +29,8 @@ AliceScriptのすべてのオブジェクトは`variable`から派生してい�
 
 ### プロパティ
 
-=!"products/alice/api/variable"|[property,include-subdir]!=
+=!"products/alice/api/variable"|[property,include-subdir,smart-jump]!=
 
 ### メソッド
 
-=!"products/alice/api/variable"|[method,include-subdir]!=
+=!"products/alice/api/variable"|[method,include-subdir,smart-jump]!=

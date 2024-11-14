@@ -37,8 +37,8 @@ print("処理にかかった時間：{0}ミリ秒", stw.ElapsedMilliseconds);
 
 ### プロパティ
 
-=!"products/alice/api/alice/diagnostics/stopwatch"|[property,include-subdir]!=
+=!"products/alice/api/alice/diagnostics/stopwatch"|[property,include-subdir,smart-jump]!=
 
 ### メソッド
 
-=!"products/alice/api/alice/diagnostics/stopwatch"|[method,include-subdir]!=
+=!"products/alice/api/alice/diagnostics/stopwatch"|[method,include-subdir,smart-jump]!=

@@ -274,11 +274,11 @@ eキーを押下すると終了します
 
 ### プロパティ
 
-=!"products/alice/api/delegate"|[property,include-subdir]!=
+=!"products/alice/api/delegate"|[property,include-subdir,smart-jump]!=
 
 ### メソッド
 
-=!"products/alice/api/delegate"|[method,include-subdir]!=
+=!"products/alice/api/delegate"|[method,include-subdir,smart-jump]!=
 
 ## delegate関数
 名前空間:Alice / アセンブリ : Losetta.Runtime.dll / サポート: AliceScript1

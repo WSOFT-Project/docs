@@ -196,12 +196,12 @@ var num_ary = array(number).Activate();
 
 ### コンストラクター
 
-=!"products/alice/api/array"|[ctor,include-subdir]!=
+=!"products/alice/api/array"|[ctor,include-subdir,smart-jump]!=
 
 ### プロパティ
 
-=!"products/alice/api/array"|[property,include-subdir]!=
+=!"products/alice/api/array"|[property,include-subdir,smart-jump]!=
 
 ### メソッド
 
-=!"products/alice/api/array"|[method,include-subdir]!=
+=!"products/alice/api/array"|[method,include-subdir,smart-jump]!=

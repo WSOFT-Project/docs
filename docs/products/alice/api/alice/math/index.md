@@ -8,8 +8,8 @@ mt_type: namespace
 
 ### 関数
 
-=!"products/alice/api/alice/math"|[function,include-subdir]!=
+=!"products/alice/api/alice/math"|[function,include-subdir,smart-jump]!=
 
 ### 値
 
-=!"products/alice/api/alice/math"|[value,include-subdir]!=
+=!"products/alice/api/alice/math"|[value,include-subdir,smart-jump]!=
