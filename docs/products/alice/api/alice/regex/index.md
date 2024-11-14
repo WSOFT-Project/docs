@@ -8,8 +8,8 @@ mt_type: namespace
 
 ### 関数
 
-=!"products/alice/api/alice/regex"|[function,include-subdir]!=
+=!"products/alice/api/alice/regex"|[function,include-subdir,smart-jump]!=
 
 ### 拡張メソッド
 
-=!"products/alice/api/alice/regex"|[method,include-subdir]!=
+=!"products/alice/api/alice/regex"|[method,include-subdir,smart-jump]!=

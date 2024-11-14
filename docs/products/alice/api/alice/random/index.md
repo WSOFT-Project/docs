@@ -8,4 +8,4 @@ mt_type: namespace
 
 ### 関数
 
-=!"products/alice/api/alice/random"|[function,include-subdir]!=
+=!"products/alice/api/alice/random"|[function,include-subdir,smart-jump]!=

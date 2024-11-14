@@ -9,8 +9,8 @@ date : 2022-01-31
 
 #### 名前空間
 
-=!"products/alice/api"|[namespace,include-subdir]!=
+=!"products/alice/api"|[namespace,include-subdir,smart-jump]!=
 
 #### 型
 
-=!"products/alice/api"|[type,include-subdir]!=
+=!"products/alice/api"|[type,include-subdir,smart-jump]!=

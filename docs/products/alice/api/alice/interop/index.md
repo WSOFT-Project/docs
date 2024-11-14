@@ -8,4 +8,4 @@ mt_type: namespace
 
 ### 関数
 
-=!"products/alice/api/alice/interop"|[function,include-subdir]!=
+=!"products/alice/api/alice/interop"|[function,include-subdir,smart-jump]!=

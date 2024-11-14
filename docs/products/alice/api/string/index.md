@@ -272,11 +272,11 @@ var query = $"SELECT * FROM Table WHERE id='{id}'";
 
 ### プロパティ
 
-=!"products/alice/api/string"|[property,include-subdir]!=
+=!"products/alice/api/string"|[property,include-subdir,smart-jump]!=
 
 ### メソッド
 
-=!"products/alice/api/string"|[method,include-subdir]!=
+=!"products/alice/api/string"|[method,include-subdir,smart-jump]!=
 
 ### 拡張メソッド
 #### Alice.Regex

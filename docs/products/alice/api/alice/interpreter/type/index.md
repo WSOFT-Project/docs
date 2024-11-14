@@ -29,8 +29,8 @@ public class Type;
 
 ### プロパティ
 
-=!"products/alice/api/alice/interpreter/type"|[property,include-subdir]!=
+=!"products/alice/api/alice/interpreter/type"|[property,include-subdir,smart-jump]!=
 
 ### メソッド
 
-=!"products/alice/api/alice/interpreter/type"|[method,include-subdir]!=
+=!"products/alice/api/alice/interpreter/type"|[method,include-subdir,smart-jump]!=

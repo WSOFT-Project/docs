@@ -8,8 +8,8 @@ mt_type: namespace
 
 ### 関数
 
-=!"products/alice/api/alice/diagnostics"|[function,include-subdir]!=
+=!"products/alice/api/alice/diagnostics"|[function,include-subdir,smart-jump]!=
 
 ### クラス
 
-=!"products/alice/api/alice/diagnostics"|[class,include-subdir]!=
+=!"products/alice/api/alice/diagnostics"|[class,include-subdir,smart-jump]!=
