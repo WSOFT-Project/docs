@@ -1,10 +1,13 @@
 ---
-title: コンストラクター
-long_title : Arrayコンストラクター
+title: Constructor
+long_title : Array Constructor
 summary: 配列の新しいインスタンスを初期化します
 draft: true
 mt_type: ctor
 mt_title: Array()
+mt_summary: 空で、適当な容量を持つ配列を作成します。
+mt_title: Array(type)
+mt_summary: 空で、適当な容量を持ち特定の型のみを要素に持てる配列を作成します。
 ---
 
 ### 定義
