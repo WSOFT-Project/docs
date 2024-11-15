@@ -44,7 +44,7 @@ public array Zip(params array others);
     |Losetta||
 
 
-#### Zip(params array)
+#### Zip(delegate,params array)
 
 > [!IMPORTANT] プレビュー
 > この記事では、現在開発中のAlice vNEXTに実装される予定のAPIについて説明しています。
