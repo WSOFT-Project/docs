@@ -34,6 +34,7 @@ share:
 theme: 
     name : "lantana"
     custom_dir : theme_ext/
+    locale: ja
 
 
 plugins:
