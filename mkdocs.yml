@@ -85,7 +85,7 @@ markdown_extensions:
   - pymdownx.striphtml
   - lantana.link_opennewtab:
       ignore_rules:
-        base_url: "https://wsoft.ws/"
-        subdomain_depth: 1
+        - base_url: "https://wsoft.ws/"
+          subdomain_depth: 1
   - lantana.alerts
   - lantana.accordion
