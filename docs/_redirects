@@ -15,3 +15,4 @@
 /script/* /products/script/:splat
 /download/* /products/download/:splat
 /blog/* https://blog.wsoft.ws/wsoft/:splat
+/housou/* https://housou.pages.dev/:splat
