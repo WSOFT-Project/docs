@@ -1,88 +1,91 @@
 site_name: WSOFTDocs
-header_name : Docs
-copyright : 'Copyright &copy; 2017 WSOFT All Rights reserved.'
+header_name: Docs
+copyright: "Copyright &copy; 2017 WSOFT All Rights reserved."
 
-docs_dir : 'docs'
-site_url : 'https://docs.wsoft.ws/'
+docs_dir: "docs"
+site_url: "https://docs.wsoft.ws/"
 
-repo_name : 'GitHub'
-repo_url : 'https://github.com/WSOFT-Project/docs/'
-edit_uri: 'blob/master/docs/'
-edit_uri_template: 'blob/master/docs/{path}'
-
+repo_name: "GitHub"
+repo_url: "https://github.com/WSOFT-Project/docs/"
+edit_uri: "blob/master/docs/"
+edit_uri_template: "blob/master/docs/{path}"
 
 # Docs内での検索を有効化
-visible_search : true
+visible_search: true
 
 # 印刷時にヘッダーを非表示に
-disable_header_when_printing : true
+disable_header_when_printing: true
 
 # WSOFT共通フッターを読み込んでいるため非表示
-disable_footer : true
+disable_footer: true
 
 extra_javascript:
-  - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
   - /site.js
-image : https://wsoft.ws/favicon.ico
-favicon_svg : https://wsoft.ws/favicon.svg
-language : ja
+
+image: https://wsoft.ws/favicon.ico
+favicon_svg: https://wsoft.ws/favicon.svg
+language: ja
 
 share:
-    twitter_params : '&via=WSOFT7&related=WSOFT7&hashtags=WSOFTDocs'
+  twitter_params: "&via=WSOFT7&related=WSOFT7&hashtags=WSOFTDocs"
 
-theme: 
-    name : "lantana"
-    custom_dir : theme_ext/
-    locale: ja
-
+theme:
+  name: "lantana"
+  custom_dir: theme_ext/
+  locale: ja
 
 plugins:
-    - search:
-        lang : 'ja'
-        min_search_length: 2
-    - git-revision-date
-    - awesome-pages
-    - git-authors:
-        show_email_address: true
-        count_empty_lines: true
-        fallback_to_empty: false
-        enabled: true
+  - search:
+      lang: "ja"
+      min_search_length: 2
+  - git-revision-date
+  - awesome-pages
+  - git-authors:
+      show_email_address: true
+      count_empty_lines: true
+      fallback_to_empty: false
+      enabled: true
 
 markdown_extensions:
-    - lantana
-    - lantana.alerts2
-    - lantana.selector
-    - lantana.extensions.mdx_embedly
-    - lantana.extensions.mdx_wsid
-    - attr_list
-    - lantana.cards
-    - lantana.mtables
-    - footnotes
-    - pymdownx.highlight:
-       anchor_linenums: true
-    - lantana.codeblock_copybtn
-    - admonition
-    - pymdownx.arithmatex:
-       generic : true
-    - md_in_html
-    - pymdownx.details
-    - pymdownx.superfences:
-        custom_fences:
-          - name: mermaid
-            class: mermaid
-            format: !!python/name:mermaid2.fence_mermaid
-    - lantana.mermaid_precompile
-    - pymdownx.snippets
-    - pymdownx.critic
-    - pymdownx.caret
-    - pymdownx.keys
-    - pymdownx.mark
-    - pymdownx.tilde
-    - pymdownx.tasklist:
-        custom_checkbox: true
-    - pymdownx.magiclink
-    - pymdownx.striphtml
-    - lantana.link_opennewtab
-    - lantana.alerts
-    - lantana.accordion
+  - lantana
+  - lantana.alerts2
+  - lantana.selector
+  - lantana.extensions.mdx_embedly
+  - lantana.extensions.mdx_wsid
+  - attr_list
+  - lantana.cards
+  - lantana.mtables
+  - footnotes
+  - pymdownx.highlight:
+      anchor_linenums: true
+      auto_title: true
+  - pymdownx.inlinehilite
+  - lantana.codeblock_copybtn
+  - admonition
+  - pymdownx.arithmatex:
+      generic: true
+  - md_in_html
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:mermaid2.fence_mermaid
+  - lantana.mermaid_precompile
+  - pymdownx.snippets
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.magiclink
+  - pymdownx.striphtml
+  - lantana.link_opennewtab:
+      ignore_rules:
+        base_url: "https://wsoft.ws/"
+        subdomain_depth: 1
+  - lantana.alerts
+  - lantana.accordion
