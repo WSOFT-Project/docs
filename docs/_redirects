@@ -9,6 +9,7 @@
 /blog/two-object-orientations https://blog.wsoft.ws/taiseiue/two-object-orientations/ 301
 /blog/zatsudan1 https://blog.wsoft.ws/zen/zatsudan1/ 301
 /blog/zatsudan2 https://blog.wsoft.ws/zen/zatsudan2/ 301
+/housou https://housou.pages.dev/ 301
 
 /websailing/* /products/websailing/:splat
 /alice/* /products/alice/:splat
