@@ -24,6 +24,14 @@ public class delegate
     |AliceSister|GM、2.0、2.1、2.2、2.3、3.0|
     |Losetta|0.8、0.9、0.10|
 
+### プロパティ
+
+=!"products/alice/api/delegate"|[property,include-subdir,smart-jump]!=
+
+### メソッド
+
+=!"products/alice/api/delegate"|[method,include-subdir,smart-jump]!=
+
 ## 説明
 
 ==デリゲート== は、AliceScriptにおける"匿名関数"のメカニズムです。デリゲート型は匿名関数として、その場ですぐに実行したり、変数に代入したり、関数に引数として渡すことができます。
@@ -270,15 +278,6 @@ Hello,World
 Hello,World
 eキーを押下すると終了します
 ```
-
-
-### プロパティ
-
-=!"products/alice/api/delegate"|[property,include-subdir,smart-jump]!=
-
-### メソッド
-
-=!"products/alice/api/delegate"|[method,include-subdir,smart-jump]!=
 
 ## delegate関数
 名前空間:Alice / アセンブリ : Losetta.Runtime.dll / サポート: AliceScript1
