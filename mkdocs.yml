@@ -50,6 +50,7 @@ plugins:
 markdown_extensions:
   - toc:
       slugify: !!python/name:slugify.slugify
+      separator: "-"
   - lantana
   - lantana.alerts2
   - lantana.selector
