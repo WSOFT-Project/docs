@@ -27,6 +27,7 @@ fi
 chmod +x ./tools/cei/$CEI_FILE_NAME
 
 echo "Building the WSOFTDocs..."
+export PYTHONPATH=.
 mkdocs build --site-dir site && ./tools/cei/$CEI_FILE_NAME https://wsoft.ws/common/layout.html --min site
 
 echo "Build completed. Please check /site directory."

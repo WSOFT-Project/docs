@@ -1,18 +1,21 @@
 ---
 title: array
 long_title : array型
-summary: 配列型は、インデックスを使用してアクセスできる変数のリストを表します
+summary: インデックスを使用してアクセスできる値のリストを表します
 mt_type: type
 ---
-### 定義
+
+## 定義
 名前空間: Alice<br/>
 アセンブリ: Losetta.dll
 
-配列型は、インデックスを使用してアクセスできる変数のリストを表します。配列型は、[関係演算子](../../general/operators/relational-operators.md)と[配列演算子](../../general//operators/array-expression.md)をサポートしています。 配列型の既定値は空の配列`[]`です。この型はnullをとり得ます。この型の型指定修飾子は`array`です。
+配列型は、インデックスを使用してアクセスできる値のリストを表します。配列内で検索、並べ替え、操作を行うメソッドを提供しています。
+
+この型は、[関係演算子](../../general/operators/relational-operators.md)と[配列演算子](../../general//operators/array-expression.md)を使用できます。
 
 ```cs title="AliceScript"
 namespace Alice;
-public class array;
+public type array;
 ```
 
 ???note "対応: AliceScript RC1以降"
@@ -22,7 +25,19 @@ public class array;
     |AliceSister|GM、2.0、2.1、2.2、2.3、3.0|
     |Losetta|0.8、0.9、0.10|
 
-### 説明
+### コンストラクター
+
+=!"products/alice/api/array"|[ctor,include-subdir,smart-jump]!=
+
+### プロパティ
+
+=!"products/alice/api/array"|[property,include-subdir,smart-jump]!=
+
+### メソッド
+
+=!"products/alice/api/array"|[method,include-subdir,smart-jump]!=
+
+## 説明
 配列は、複数の値をひとまとめに扱うためのアプローチです。
 配列は、0個以上の変数を格納することができるオブジェクトとみなすことができます。AliceScriptにおける配列は、CやC++のようなアドレス指定可能な連続メモリ領域ではなく、ヒープに配置される一種のオブジェクトです。
 また、配列には別の配列を含むこともできます。このような配列は多次元配列やジャグ配列と呼ばれます。
@@ -184,7 +199,7 @@ number error = data.StdError();
 print($"データの標準誤差は {error} です");
 ```
 
-#### 型の一意性
+### 型の一意性
 
 配列型は、その初期化時に配列に含むことのできる変数の型を指定できます。型を指定するには、次のように配列を宣言します。
 
@@ -193,15 +208,3 @@ var num_ary = array(number).Activate();
 ```
 
 デフォルトでは、配列型は必ずしも要素を含む必要も、同一の型である必要もありません。配列型への暗黙的な変換はサポートされていません。 その問題から、バイト配列を表す[bytes型](../bytes/index.md)は別に定義されています。明示的な変換を行うとき、その値を唯一の要素とする配列型に変換されます。
-
-### コンストラクター
-
-=!"products/alice/api/array"|[ctor,include-subdir,smart-jump]!=
-
-### プロパティ
-
-=!"products/alice/api/array"|[property,include-subdir,smart-jump]!=
-
-### メソッド
-
-=!"products/alice/api/array"|[method,include-subdir,smart-jump]!=
