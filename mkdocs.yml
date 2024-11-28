@@ -49,8 +49,7 @@ plugins:
 
 markdown_extensions:
   - toc:
-      permalink: true
-      separator: "_"
+      slugify: !!python/name:myslugify.slugify
   - lantana
   - lantana.alerts2
   - lantana.selector
