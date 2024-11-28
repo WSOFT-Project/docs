@@ -48,6 +48,9 @@ plugins:
       enabled: true
 
 markdown_extensions:
+  - toc:
+      permalink: true
+      separator: "_"
   - lantana
   - lantana.alerts2
   - lantana.selector
