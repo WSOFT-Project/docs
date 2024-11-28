@@ -1,7 +1,7 @@
 ---
 title: array
 long_title : array型
-summary: 配列型は、インデックスを使用してアクセスできる変数のリストを表します
+summary: インデックスを使用してアクセスできる値のリストを表します
 mt_type: type
 ---
 
@@ -9,11 +9,13 @@ mt_type: type
 名前空間: Alice<br/>
 アセンブリ: Losetta.dll
 
-配列型は、インデックスを使用してアクセスできる変数のリストを表します。配列型は、[関係演算子](../../general/operators/relational-operators.md)と[配列演算子](../../general//operators/array-expression.md)をサポートしています。 配列型の既定値は空の配列`[]`です。この型はnullをとり得ます。この型の型指定修飾子は`array`です。
+配列型は、インデックスを使用してアクセスできる値のリストを表します。配列内で検索、並べ替え、操作を行うメソッドを提供しています。
+
+この型は、[関係演算子](../../general/operators/relational-operators.md)と[配列演算子](../../general//operators/array-expression.md)を使用できます。
 
 ```cs title="AliceScript"
 namespace Alice;
-public class array;
+public type array;
 ```
 
 ???note "対応: AliceScript RC1以降"
