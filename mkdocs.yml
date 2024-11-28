@@ -49,7 +49,7 @@ plugins:
 
 markdown_extensions:
   - toc:
-      slugify: !!python/name:myslugify.slugify
+      slugify: !!python/name:slugify.slugify
   - lantana
   - lantana.alerts2
   - lantana.selector
