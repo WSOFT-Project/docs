@@ -1,8 +1,8 @@
 ---
-title: Type
-long_title: variable.Type
+title: GetType
+long_title: variable.GetType()
 summary: その変数の種類を表すオブジェクトを取得します。
-mt_type: property
+mt_type: method
 ---
 
 ### 定義
@@ -14,12 +14,12 @@ mt_type: property
 
 ```cs title="AliceScript"
 namespace Alice;
-public readonly Type Type;
+public readonly Type GetType();
 ```
-### 値
-|値| |
-|-|-|
-|`Type`|変数の種類を表す[Type](../alice/interpreter/type/index.md)型のインスタンス|
+
+|戻り値| |
+|---|---|
+|`number`|この変数がもう一方の値と比べてどの位置にあるかを表す値。|
 
 ???note "対応: AliceScript RC2以降"
     |対応||
@@ -33,5 +33,5 @@ public readonly Type Type;
 
 ```cs title="AliceScript"
 var a = 1;
-print(a.type == number); // 出力例 : true
+print(a.GetType() == number); // 出力例 : true
 ```
