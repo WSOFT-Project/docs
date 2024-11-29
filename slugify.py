@@ -10,6 +10,4 @@ def slugify(value, separator):
     normalized = re.sub(r'\s+', separator, normalized)
     # Replace special English grammar characters except dot (・)
     normalized = re.sub(r'[^\w\s.・-]', '', normalized)
-    # Convert to lowercase
-    normalized = normalized.lower()
     return normalized
