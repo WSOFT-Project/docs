@@ -10,7 +10,7 @@ mt_type: method
 アセンブリ: Losetta.Runtime.dll<br/>
 ソースコード: [Alice.Core.General.cs](https://github.com/WSOFT-Project/Losetta/blob/master/Losetta.Runtime/Core/Extension/Alice.Core.General.cs)
 
-その変数の種類を表す[Type](../alice/interpreter/type/index.md)型のインスタンスを取得します
+その変数の種類を表す[Type](../alice/type/index.md)型のインスタンスを取得します
 
 ```cs title="AliceScript"
 namespace Alice;
