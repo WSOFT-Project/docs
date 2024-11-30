@@ -49,7 +49,7 @@ plugins:
 
 markdown_extensions:
   - toc:
-      slugify: !!python/name:slugify.slugify
+      slugify: !!python/name:lantana.extensions.fixed_toc.slugify
       separator: "-"
   - lantana
   - lantana.alerts2
