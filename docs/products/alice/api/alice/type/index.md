@@ -6,14 +6,14 @@ mt_type: class
 ---
 
 ### 定義
-名前空間: Alice.Interpreter<br/>
+名前空間: Alice<br/>
 アセンブリ: Losetta.dll<br/>
 ソースコード: [TypeObject.cs](https://github.com/WSOFT-Project/Losetta/blob/master/Losetta/Objects/TypeObject.cs)
 
 Typeクラスは、変数の型を表します
 
 ```cs title="AliceScript"
-namespace Alice.Interpreter;
+namespace Alice;
 public class Type;
 ```
 
@@ -29,8 +29,8 @@ public class Type;
 
 ### プロパティ
 
-=!"products/alice/api/alice/interpreter/type"|[property,include-subdir,smart-jump]!=
+=!"products/alice/api/alice/type"|[property,include-subdir,smart-jump]!=
 
 ### メソッド
 
-=!"products/alice/api/alice/interpreter/type"|[method,include-subdir,smart-jump]!=
+=!"products/alice/api/alice/type"|[method,include-subdir,smart-jump]!=

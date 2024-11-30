@@ -28,7 +28,7 @@ public Type interop_getType(string typeName, string asmName = null, string asmLo
 
 |戻り値| |
 |---|---|
-|[Type](../interpreter/type/index.md)|指定した.NETオブジェクトを表すインスタンス|
+|[Type](../type/index.md)|指定した.NETオブジェクトを表すインスタンス|
 
 ???note "対応: Alice3.0以降"
     |対応||
@@ -38,7 +38,7 @@ public Type interop_getType(string typeName, string asmName = null, string asmLo
     |Losetta|0.10|
 
 ### 説明
-この関数を使用すると、.NETオブジェクトを表す[Type](../interpreter/type/index.md)を取得できます。取得できるのは.NETのオブジェクトインスタンスではなく、.NETの型を表すオブジェクトである点にご注意ください。
+この関数を使用すると、.NETオブジェクトを表す[Type](../type/index.md)を取得できます。取得できるのは.NETのオブジェクトインスタンスではなく、.NETの型を表すオブジェクトである点にご注意ください。
 
 `asmName`は、取得するオブジェクトがSAIMの実装に含まれるクラス以外の場合に指定が必要です。また、`asmLocate`は、取得するオブジェクトがまだ読み込まれていないアセンブリに存在する場合に指定が必要です。
 ### 例

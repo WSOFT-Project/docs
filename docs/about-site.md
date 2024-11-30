@@ -7,9 +7,9 @@ date : 2024-03-19
 ## はじめに
 WSOFTDocsへようこそ。「WSOFTDocs」と書いて「ダブルソフトドックス」と読みます。公式見解はそうですが、「わっふーどっくす」と読む人がいるとかいないとか。
 
-WSOFTという名前ができたのは、今から6,7年前のことで、当初はT-SOFTって名乗っていました。でも少し調べてみると、どうやら同じ名前でやっておられる方がいたそうで、迷惑になってもいけないし、ドメイン取れないしで別の名前を考えることになったんですね。当初はまだ[WebSailing](../products/websailing/index.md)しか公開していなかったので、*WebSailing Software*で「WSOFT」でいいじゃないかという話になりました。これが現在まで続く名前の由来です。「Whale Net」(現在の[WSNET](../products/wsnet/index.md))の話が出てきたのはもう少し後です。
+WSOFTという名前ができたのは、今から6,7年前のことで、当初はT-SOFTって名乗っていました。でも少し調べてみると、どうやら同じ名前でやっておられる方がいたそうで、迷惑になってもいけないし、ドメイン取れないしで別の名前を考えることになったんですね。当初はまだ[WebSailing](./products/websailing/index.md)しか公開していなかったので、*WebSailing Software*で「WSOFT」でいいじゃないかという話になりました。これが現在まで続く名前の由来です。「Whale Net」(現在の[WSNET](./products/wsnet/index.md))の話が出てきたのはもう少し後です。
 
-なんやかんやで昔はカテゴリによって、サイトが分かれていたんですが、2022年にこのサイトにまとまりました。この話は[WSOFTのドキュメントの WSOFT Docs への移行に関する情報](./migration-to-docs.md)にあります。
+なんやかんやで昔はカテゴリによって、サイトが分かれていたんですが、2022年にこのサイトにまとまりました。この話は[WSOFTのドキュメントの WSOFT Docs への移行に関する情報](https://blog.wsoft.ws/wsoft/migration-to-docs/)にあります。
 
 ## リンクについて
 当サイトへのリンクは自由です。なんなら記事のタイトル下の<i class="bi bi-share"></i>シェアボタンからUrlをSNSなんかにシェアできます。
@@ -46,11 +46,11 @@ https://docs.wsoft.ws/products/alice/general/function/?embed
     WSTubeの開発に際して、WSOFTは、自前でサーバーを用意し、そこで記事を提供する方式が導入されました。WSOFTはWSTubeで設計したUIを流用し、HelpEngineを開発しました。現在では、これはオープンソース化されています。WSOFTは、この方式を3年以上にわたって使用し続け、その結果、200を超える記事をHelpEngineを通じて提供しました。
 
 ## お願い
-誤字脱字などを見つけたら、[ドキュメントの編集](../contribute/edit-document.md)にしたがって修正していただけると幸いです。そのほか、ご意見や要望などがあれば[GitHubのIssues](https://github.com/WSOFT-Project/docs/issues)へお願いします。
+誤字脱字などを見つけたら、[ドキュメントの編集](./contribute/edit-document.md)にしたがって修正していただけると幸いです。そのほか、ご意見や要望などがあれば[GitHubのIssues](https://github.com/WSOFT-Project/docs/issues)へお願いします。
 
-また、場合によっては寄稿も受け付けています。詳細については[共同作成ガイド](../contribute/index.md)をご覧ください。
+また、場合によっては寄稿も受け付けています。詳細については[共同作成ガイド](./contribute/index.md)をご覧ください。
 
 ## ポリシーと規約
 
-- [プライバシーポリシー](../legal/privacy-policy.md)
-- [Webサイト利用規約](../legal/site-terms.md)
+- [プライバシーポリシー](./legal/privacy-policy.md)
+- [Webサイト利用規約](./legal/site-terms.md)
