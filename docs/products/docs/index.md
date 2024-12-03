@@ -7,10 +7,10 @@ date : 2024-11-09
 
 WSOFTDocsは、WSOFTの公開するソフトウェアやサービスの説明や更新情報などを公開するサイトです。WSOFTDocsは、[Lantana](https://lantana.wsoft.ws/)を使って公開しています。既存の記事や公開データのWSOFTDocsへの移行の進捗に関する情報は、[WSOFTのドキュメントのWSOFT Docsへの移行に関する情報](https://blog.wsoft.ws/wsoft/migration-to-docs/)もご覧ください。
 
-### 記事
+### ニュース
 ---
 
-="products/docs/"=
+="products/docs/news/"=
 
 ### リンク
 ---
