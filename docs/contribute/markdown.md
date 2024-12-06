@@ -154,7 +154,7 @@ AliceScriptでテキストを表示するには、`print`関数を使います�
 AliceScriptでテキストを表示するには、`print`関数を使います。
 
 #### コードのハイライト
-テキスト中のコードにシンタックスハイライトを行うには、<code>`:::language code`</code>のように先頭に言語を表す識別子を書きます。
+テキスト中のコードにシンタックスハイライトを行うには、<code>:::language code</code>のように先頭に言語を表す識別子を書きます。
 
 ```md title="Markdown"
 Pythonでモジュールを読み込むには、`:::py3 import`文を使います。
