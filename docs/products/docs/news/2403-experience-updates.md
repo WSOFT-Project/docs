@@ -32,7 +32,7 @@ Bootstrap 5.3との統合により、ダークモード時のアラートの視�
 
 ![ダークモード時の新しいアラート](./media/alart-new.png)
 
-### 今後について
+## 今後について
 新しいエクスペリエンスについて、ぜひ[GitHubのIssues](https://github.com/WSOFT-Project/docs/issues)までご意見をお寄せください。
 
 最期までご覧いただき、ありがとうございました。これからもWSOFTDocsの改善を続けていきます。
