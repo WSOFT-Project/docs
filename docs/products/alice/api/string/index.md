@@ -24,6 +24,24 @@ public class string;
     |AliceSister|GM、2.0、2.1、2.2、2.3、3.0|
     |Losetta|0.8、0.9、0.10|
 
+### プロパティ
+
+=!"products/alice/api/string"|[property,include-subdir,smart-jump]!=
+
+### メソッド
+
+=!"products/alice/api/string"|[method,include-subdir,smart-jump]!=
+
+### 拡張メソッド
+#### Alice.Regex
+|名前|説明|
+|---|---|
+|[IsMatch(this string input, string pattern)](../alice/regex/ismatch.md)|指定された正規表現に一致する箇所が、指定された文字列内に見つかるかどうかを調べます|
+|[Like(this string input, string pattern)](../alice/regex/like.md)|文字列が一定のパターンと一致するかを調べます|
+|[Matches(this string input, string pattern)](../alice/regex/matches.md)|指定された正規表現に一致する箇所をすべて取得します。|
+|[ReplaceAll(this string input, string pattern, string replacement)](../alice/regex/replaceall.md)|指定した文字列内でパターンに一致する文字列を、すべて指定した文字列で置き換えます。|
+|[ReplaceFirst(this string input, string pattern, string replacement)](../alice/regex/replacefirst.md)|指定した文字列内でパターンに一致する文字列の初めに見つかった部分を、指定した文字列で置き換えます。|
+
 ### 説明
 文字列は、テキストを表すために使用される文字の配列とみなすことができます。メモリ内の`string`型の最大サイズは2GB、つまりおよそ10億文字です。
 
@@ -268,22 +286,3 @@ var query = $"SELECT * FROM Table WHERE id='{id}'";
 ```
 
 このような半完成のSQL文があるとき、`id`が"`'; DELETE FROM Table; SELECT * FROM Table WHERE id='`"と入力された場合、このクエリを実行するとテーブルのすべてのデータが削除されます。
-
-
-### プロパティ
-
-=!"products/alice/api/string"|[property,include-subdir,smart-jump]!=
-
-### メソッド
-
-=!"products/alice/api/string"|[method,include-subdir,smart-jump]!=
-
-### 拡張メソッド
-#### Alice.Regex
-|名前|説明|
-|---|---|
-|[IsMatch(this string input, string pattern)](../alice/regex/ismatch.md)|指定された正規表現に一致する箇所が、指定された文字列内に見つかるかどうかを調べます|
-|[Like(this string input, string pattern)](../alice/regex/like.md)|文字列が一定のパターンと一致するかを調べます|
-|[Matches(this string input, string pattern)](../alice/regex/matches.md)|指定された正規表現に一致する箇所をすべて取得します。|
-|[ReplaceAll(this string input, string pattern, string replacement)](../alice/regex/replaceall.md)|指定した文字列内でパターンに一致する文字列を、すべて指定した文字列で置き換えます。|
-|[ReplaceFirst(this string input, string pattern, string replacement)](../alice/regex/replacefirst.md)|指定した文字列内でパターンに一致する文字列の初めに見つかった部分を、指定した文字列で置き換えます。|

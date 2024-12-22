@@ -18,7 +18,7 @@ disable_tools : true
 
 <img class="img-fluid text-center" src="./media/WSOFT-Docs.svg"></img>
 
-<p>WSOFTDocsへようこそ。このサイトでは、さまざまなWSOFTの製品の使用方法について説明するだけでなく、<a href="https://docs.wsoft.ws/blog/">ブログ</a>を通じてWSOFTの情報を発信しています。<a href="./blog/about-site">このサイトについて</a></p>
+<p>WSOFTDocsへようこそ。このサイトでは、さまざまなWSOFTの製品の使用方法について説明するだけでなく、<a href="https://docs.wsoft.ws/blog/">ブログ</a>を通じてWSOFTの情報を発信しています。<a href="./blog/about/about-site">このサイトについて</a></p>
 
 <!-- Newsカード -->
 <div class="card mb-3">
@@ -31,7 +31,7 @@ disable_tools : true
             <h5 class="card-title">ブログ</h5>
             <div class="card-text">
                 <p>WSOFTのチームブログを閲覧できます。</p>
-                <p>WSOFTDocsへの以降に関する情報も掲載しています。</p>
+                <p>WSOFTDocsへの移行に関する情報も掲載しています。</p>
             </div>
         </div>
     </div>

@@ -1,8 +1,8 @@
 ---
-title : WSOFTDocsのエクスペリエンスの改善
+title : 24/03 WSOFTDocsの更新情報
 summary : WSOFTDocsが使用するLantanaのバージョンを2.9.xへとアップグレードしました。これにより、サイトを開いた際のちらつきやダークモード時の視認性が向上します。
 date : 2024-03-20
-order : 5
+order : 1
 ---
 
 ## 事前レンダリング
@@ -32,7 +32,7 @@ Bootstrap 5.3との統合により、ダークモード時のアラートの視�
 
 ![ダークモード時の新しいアラート](./media/alart-new.png)
 
-### 今後について
+## 今後について
 新しいエクスペリエンスについて、ぜひ[GitHubのIssues](https://github.com/WSOFT-Project/docs/issues)までご意見をお寄せください。
 
 最期までご覧いただき、ありがとうございました。これからもWSOFTDocsの改善を続けていきます。

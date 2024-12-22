@@ -31,7 +31,7 @@ mt_summary: 指定したデータを指定したコードページ番号に対�
 
 ```cs title="AliceScript"
 class Alice.String;
-public Array();
+public String();
 ```
 
 ???note "対応: 未実装"
@@ -46,8 +46,8 @@ public Array();
 指定した文字列のコピーを作成します。
 
 ```cs title="AliceScript"
-class Alice.Array;
-public Array(string source);
+class Alice.String;
+public String(string source);
 ```
 
 |引数| |
@@ -66,8 +66,8 @@ public Array(string source);
 指定したデータをUTF-8形式でエンコードした文字列を作成します。
 
 ```cs title="AliceScript"
-class Alice.Array;
-public Array(bytes source);
+class Alice.String;
+public String(bytes source);
 ```
 
 |引数| |
@@ -86,8 +86,8 @@ public Array(bytes source);
 指定したデータを指定した文字コードでエンコードした文字列を作成します。
 
 ```cs title="AliceScript"
-class Alice.Array;
-public Array(bytes source, string charCode);
+class Alice.String;
+public String(bytes source, string charCode);
 ```
 
 |引数| |
@@ -107,8 +107,8 @@ public Array(bytes source, string charCode);
 指定したデータを指定したコードページ番号に対応する文字コードでエンコードした文字列を作成します。
 
 ```cs title="AliceScript"
-class Alice.Array;
-public Array(bytes source, number codePage);
+class Alice.String;
+public String(bytes source, number codePage);
 ```
 
 |引数| |
