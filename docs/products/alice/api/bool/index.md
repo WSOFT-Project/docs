@@ -48,7 +48,7 @@ if(condition == true)
 }
 ```
 
-### 3値ロジック
+### 3値論理
 3値ロジックを使用する必要がある場合はnull許容bool型を使用することで、true,false,nullの3値を使用できます。次に例を示します。
 
 ```cs title="AliceScript"
