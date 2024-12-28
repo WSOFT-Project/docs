@@ -10,14 +10,14 @@ mt_summary: 辞書内で、指定されたキーに関連づけられている�
 ### 定義
 名前空間: Alice<br/>
 アセンブリ: Losetta.Runtime.dll<br/>
-ソースコード: [Alice.Core.Array.cs](https://github.com/WSOFT-Project/Losetta/blob/master/Losetta.Runtime/Core/Extension/Alice.Core.Array.cs)
+ソースコード: [Alice.Core.Dictionary.cs](https://github.com/WSOFT-Project/Losetta/blob/master/Losetta.Runtime/Core/Extension/Alice.Core.Dictionary.cs)
 
 #### TryGetValue(variable,ref variable)
 
 辞書内で、指定されたキーに関連づけられている値の取得を試みます
 
 ```cs title="AliceScript"
-class Alice.Array;
+class Alice.Dictionary;
 public bool TryGetValue(variable key, ref variable value);
 ```
 

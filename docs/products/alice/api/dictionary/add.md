@@ -12,14 +12,14 @@ mt_summary: キーと値のペアを指定して、辞書に新しい項目を�
 ### 定義
 名前空間: Alice<br/>
 アセンブリ: Losetta.Runtime.dll<br/>
-ソースコード: [Alice.Core.Array.cs](https://github.com/WSOFT-Project/Losetta/blob/master/Losetta.Runtime/Core/Extension/Alice.Core.Array.cs)
+ソースコード: [Alice.Core.Dictionary.cs](https://github.com/WSOFT-Project/Losetta/blob/master/Losetta.Runtime/Core/Extension/Alice.Core.Dictionary.cs)
 
 #### Add(variable,variable)
 
 キーと値を指定して、辞書に新しい項目を追加します
 
 ```cs title="AliceScript"
-class Alice.Array;
+class Alice.Dictionary;
 public void Add(variable key, variable value);
 ```
 
@@ -40,7 +40,7 @@ public void Add(variable key, variable value);
 キーと値のペアを指定して、辞書に新しい項目を追加します
 
 ```cs title="AliceScript"
-class Alice.Array;
+class Alice.Dictionary;
 public void Add(KeyValuePair keyValuePair);
 ```
 

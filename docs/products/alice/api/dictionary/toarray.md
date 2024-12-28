@@ -9,14 +9,14 @@ mt_title: ToArray()
 ### 定義
 名前空間: Alice<br/>
 アセンブリ: Losetta.Runtime.dll<br/>
-ソースコード: [Alice.Core.Array.cs](https://github.com/WSOFT-Project/Losetta/blob/master/Losetta.Runtime/Core/Extension/Alice.Core.Array.cs)
+ソースコード: [Alice.Core.Dictionary.cs](https://github.com/WSOFT-Project/Losetta/blob/master/Losetta.Runtime/Core/Extension/Alice.Core.Dictionary.cs)
 
 #### ToArray()
 
 現在の辞書にあるキーと値のペアを新しい配列にコピーします
 
 ```cs title="AliceScript"
-class Alice.Array;
+class Alice.Dictionary;
 public array ToArray();
 ```
 
