@@ -24,12 +24,12 @@ public void Add(params variable item);
 |-|-|
 |`item`|配列の末尾に追加する変数。この引数は複数個指定できます。|
 
-???note "対応: AliceScript RC2以降"
+???note "対応: 未実装"
     |対応||
     |---|---|
-    |AliceScript|RC2、GM、2.0、2.1、2.2、2.3、3.0|
-    |AliceSister|GM、2.0、2.1、2.2、2.3、3.0|
-    |Losetta|0.8、0.9、0.10|
+    |AliceScript||
+    |AliceSister||
+    |Losetta||
 
 ### 例
 以下は、`1`、`2`、`3`がある配列に`4`を追加します。

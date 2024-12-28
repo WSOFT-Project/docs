@@ -20,6 +20,18 @@ public class dictionary;
     |AliceSister||
     |Losetta||
 
+### コンストラクター
+
+=!"products/alice/api/dictionary"|[ctor,include-subdir,smart-jump]!=
+
+### プロパティ
+
+=!"products/alice/api/dictionary"|[property,include-subdir,smart-jump]!=
+
+### メソッド
+
+=!"products/alice/api/dictionary"|[method,include-subdir,smart-jump]!=
+
 ## 説明
 Dictionary型は、キーから値を取得できるようにします。
 ディクショナリは、ハッシュテーブルのため、キーを使用した値の取得にかかる計算量はほぼ$O(1)$で高速です。
