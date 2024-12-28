@@ -1,12 +1,12 @@
 ---
-title: Add
-long_title : dictionary.Add
-summary: 辞書に新しいキーと値のペアを追加します。
+title: TryAdd
+long_title : dictionary.TryAdd
+summary: 辞書への新しいキーと値のペアの追加を試みます
 mt_type: method
-mt_title: Add(variable,variable)
-mt_summary: キーと値を指定して、辞書に新しい項目を追加します
-mt_title: Add(KeyValuePair)
-mt_summary: キーと値のペアを指定して、辞書に新しい項目を追加します
+mt_title: TryAdd(variable,variable)
+mt_summary: キーと値を指定して、辞書への新しい項目の追加を試みます
+mt_title: TryAdd(KeyValuePair)
+mt_summary: キーと値のペアを指定して、辞書への新しい項目の追加を試みます
 ---
 
 ### 定義
@@ -14,19 +14,23 @@ mt_summary: キーと値のペアを指定して、辞書に新しい項目を�
 アセンブリ: Losetta.Runtime.dll<br/>
 ソースコード: [Alice.Core.Array.cs](https://github.com/WSOFT-Project/Losetta/blob/master/Losetta.Runtime/Core/Extension/Alice.Core.Array.cs)
 
-#### Add(variable,variable)
+#### TryAdd(variable,variable)
 
-キーと値を指定して、辞書に新しい項目を追加します
+キーと値を指定して、辞書への新しい項目の追加を試みます
 
 ```cs title="AliceScript"
 class Alice.Array;
-public void Add(variable key, variable value);
+public bool TryAdd(variable key, variable value);
 ```
 
 |引数| |
 |-|-|
 |`key`|辞書に新たに追加する項目のキー|
 |`value`|辞書に新たに追加する項目の値|
+
+|戻り値| |
+|-|-|
+|`:::cs bool`|辞書に項目を追加できた場合は`true`、追加できなかった場合は`false`|
 
 ???note "対応: 未実装"
     |対応||
@@ -35,18 +39,22 @@ public void Add(variable key, variable value);
     |AliceSister||
     |Losetta||
 
-#### Add(KeyValuePair)
+#### TryAdd(KeyValuePair)
 
-キーと値のペアを指定して、辞書に新しい項目を追加します
+キーと値のペアを指定して、辞書への新しい項目の追加を試みます
 
 ```cs title="AliceScript"
 class Alice.Array;
-public void Add(KeyValuePair keyValuePair);
+public bool TryAdd(KeyValuePair keyValuePair);
 ```
 
 |引数| |
 |-|-|
 |`keyValuePair`|辞書に新たに追加する項目のキーと値を表す`KeyValuePair`型のオブジェクト|
+
+|戻り値| |
+|-|-|
+|`:::cs bool`|辞書に項目を追加できた場合は`true`、追加できなかった場合は`false`|
 
 ???note "対応: 未実装"
     |対応||
@@ -56,9 +64,9 @@ public void Add(KeyValuePair keyValuePair);
     |Losetta||
 
 ### 説明
-このメソッドは、辞書に新たに項目を追加します。
+このメソッドは、辞書への項目の追加を試みます。
 
-追加しようとした項目のキーがすでに辞書に存在する場合、このメソッドは例外をスローします。
+このメソッドは[Add](./add.md)メソッドとは異なり、追加しようとした項目のキーがすでに辞書に存在する場合、このメソッドは`false`を返します。
 
 辞書の要素数がその辞書の容量より小さい場合、このメソッドの操作にかかる計算量は$O(1)$に近づきます。
 
@@ -73,5 +81,8 @@ dictionary dict = {
     "two": 2
 };
 
-dict.Add("three", 3);
+if(dict.TryAdd("three", 3))
+{
+    print("three can append dictionary.");
+}
 ```
