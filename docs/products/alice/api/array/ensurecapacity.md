@@ -36,6 +36,10 @@ public number EnsureCapacity(number capacity);
     |AliceSister||
     |Losetta||
 
+    この関数はAliceScriptとAliceSisterでは実装されていません。
+
+    実装されていない環境では`0x034 NOT_IMPLEMENTED`例外がスローされます。
+
 ### 説明
 このメソッドは、配列の容量が、指定した値以上であることを確認します。容量が指定値に満たない場合は拡張を行い、指定値以上の場合は何もしません。
 
