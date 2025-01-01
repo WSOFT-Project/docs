@@ -29,7 +29,7 @@ public number EnsureCapacity(number capacity);
 ---|-|
 `number`|配列の新しい容量
 
-???note "対応: 未実装、AliceScriptとLosettaのみ"
+???note "対応: 未実装、Losettaのみ"
     |対応||
     |---|---|
     |AliceScript||
