@@ -56,3 +56,16 @@ foreach(var kvp in dict)
 
 ### スレッドセーフ
 Dictionary内の要素が変更されない限り、複数の場所からの読み取りをサポートします。ただし、キーと値のペアを列挙する操作はスレッドセーフではありません。(稀ですが)列挙が書き込みと競合する可能性のあるケースでは、列挙中はロックする必要があります。
+
+### 配列型との互換性
+Dictionary型は[array](../array/index.md)の特徴を持っており、対応するDictionary型のメソッドが存在しない場合は、インスタンスをKeyValuePairの配列とみなしてArray型のメソッドを使用できます。たとえば、次の例ではArray型の[Where](../array/where.md)メソッドをDictionary型に使用しています。
+
+```cs title="AliceScript"
+dictionary dict = {
+    "zero": 0,
+    "one": 1,
+    "two": 2
+};
+
+var array = dict.Where(kvp => kvp.Value > 0);
+```
