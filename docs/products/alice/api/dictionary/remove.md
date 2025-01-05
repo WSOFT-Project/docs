@@ -14,7 +14,7 @@ mt_summary: 辞書から指定したキーの項目を削除します
 
 #### Remove(variable)
 
-辞書の容量を指定した値以上に拡張します
+辞書から指定したキーの項目を削除します
 
 ```cs title="AliceScript"
 class Alice.Dictionary;
@@ -35,6 +35,10 @@ public bool Remove(variable key);
     |AliceScript||
     |AliceSister||
     |Losetta||
+
+### Remove(variable, ref variable)
+
+
 
 ### 説明
 このメソッドは、辞書から指定したキーの項目を削除します。辞書内に`key`に対応する項目がない場合でも、例外はスローされません。
