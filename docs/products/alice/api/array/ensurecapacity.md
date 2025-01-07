@@ -29,12 +29,12 @@ public number EnsureCapacity(number capacity);
 ---|-|
 `number`|配列の新しい容量
 
-???note "対応: 未実装、Losettaのみ"
+???note "対応: Alice4以降、Losettaのみ"
     |対応||
     |---|---|
-    |AliceScript||
-    |AliceSister||
-    |Losetta||
+    |AliceScript|該当なし|
+    |AliceSister|該当なし|
+    |Losetta|0.11|
 
     この関数はAliceScriptとAliceSisterでは実装されていません。
 

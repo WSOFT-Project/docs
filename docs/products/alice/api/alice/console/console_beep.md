@@ -32,9 +32,9 @@ public void console_beep();
 ???note "対応: AliceScript GM以降"
     |対応||
     |---|---|
-    |AliceScript|GM、2.0、2.1、2.2、2.3、3.0|
-    |AliceSister|GM、2.0、2.1、2.2、2.3、3.0|
-    |Losetta|0.8、0.9、0.10|
+    |AliceScript|GM、2.0、2.1、2.2、2.3、3.0、4|
+    |AliceSister|GM、2.0、2.1、2.2、2.3、3.0、4|
+    |Losetta|0.8、0.9、0.10、0.11|
 
 #### console_beep(number,number)
 
@@ -55,9 +55,9 @@ public void console_beep(number frequency, number duration);
 ???note "対応: AliceScript GM以降"
     |対応||
     |---|---|
-    |AliceScript|GM、2.0、2.1、2.2、2.3、3.0|
-    |AliceSister|GM、2.0、2.1、2.2、2.3、3.0|
-    |Losetta|0.8、0.9、0.10|
+    |AliceScript|GM、2.0、2.1、2.2、2.3、3.0、4|
+    |AliceSister|GM、2.0、2.1、2.2、2.3、3.0、4|
+    |Losetta|0.8、0.9、0.10、0.11|
 
 ### 説明
 この関数は、周波数と時間を指定しなかった場合200msの間、800Hzのビープ音を鳴らします。

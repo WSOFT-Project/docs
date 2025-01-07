@@ -29,12 +29,12 @@ public bool Remove(variable key);
 ---|-|
 `:::cs bool`|辞書に指定したキーが見つかり、正常に削除された場合は`true`、キーが見つからない場合は`false`。
 
-???note "対応: 未実装"
+???note "対応: Alice4以降"
     |対応||
     |---|---|
-    |AliceScript||
-    |AliceSister||
-    |Losetta||
+    |AliceScript|4|
+    |AliceSister|4|
+    |Losetta|0.11|
 
 ### Remove(variable, ref variable)
 
@@ -54,12 +54,12 @@ public bool Remove(variable key, ref variable value);
 ---|-|
 `:::cs bool`|辞書に指定したキーが見つかり、正常に削除された場合は`true`、キーが見つからない場合は`false`。
 
-???note "対応: 未実装"
+???note "対応: Alice4以降"
     |対応||
     |---|---|
-    |AliceScript||
-    |AliceSister||
-    |Losetta||
+    |AliceScript|4|
+    |AliceSister|4|
+    |Losetta|0.11|
 
 ### 説明
 このメソッドは、辞書から指定したキーの項目を削除します。辞書内に`key`に対応する項目がない場合でも、例外はスローされません。

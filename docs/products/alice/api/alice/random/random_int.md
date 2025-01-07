@@ -32,9 +32,9 @@ public number random_int();
 ???note "対応: Alice2.0以降"
     |対応||
     |---|---|
-    |AliceScript|2.0、2.1、2.2、2.3、3.0|
-    |AliceSister|2.0、2.1、2.2、2.3、3.0|
-    |Losetta|0.9、0.10|
+    |AliceScript|2.0、2.1、2.2、2.3、3.0、4|
+    |AliceSister|2.0、2.1、2.2、2.3、3.0、4|
+    |Losetta|0.9、0.10、0.11|
 
 #### random_int(number)
 
@@ -56,9 +56,9 @@ number random_int(number max);
 ???note "対応: Alice2.0以降、AliceScriptとLosettaのみ"
     |対応||
     |---|---|
-    |AliceScript|2.0、2.1、2.2、2.3、3.0|
+    |AliceScript|2.0、2.1、2.2、2.3、3.0、4|
     |AliceSister|該当なし|
-    |Losetta|0.9、0.10|
+    |Losetta|0.9、0.10、0.11|
 
     この関数はAliceSisterでは実装されていません。
 
@@ -85,9 +85,9 @@ number random_int(number min, number max);
 ???note "対応: Alice2.0以降、AliceScriptとLosettaのみ"
     |対応||
     |---|---|
-    |AliceScript|2.0、2.1、2.2、2.3、3.0|
+    |AliceScript|2.0、2.1、2.2、2.3、3.0、4|
     |AliceSister|該当なし|
-    |Losetta|0.9、0.10|
+    |Losetta|0.9、0.10、0.11|
 
     この関数はAliceSisterでは実装されていません。
 

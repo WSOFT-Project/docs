@@ -48,9 +48,9 @@ public void file_replace(string source,string destination,string backup,bool ign
 ???note "対応: Alice3.0以降"
     |対応||
     |---|---|
-    |AliceScript|3.0|
-    |AliceSister|3.0|
-    |Losetta|0.10|
+    |AliceScript|3.0、4|
+    |AliceSister|3.0、4|
+    |Losetta|0.10、0.11|
 
 ### 説明
 ファイルの置換とは、コンピューター上でファイルを別のファイルの内容で置き換える操作のことです。たとえば、`master.txt`と`edit.txt`があったとき、`edit.txt`の内容を`master.txt`で置き換えるということです。`backup`を指定すると、置換前の`master.txt`の内容を別のファイルにバックアップできます。つまりこの関数は、`master.txt`をバックアップファイルに移動してから、`edit.txt`を`master.txt`に移動するのとほぼ同じ動作をします。

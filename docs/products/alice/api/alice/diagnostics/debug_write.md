@@ -33,9 +33,9 @@ public void debug_write(string text);
 ???note "対応: AliceScript RC2以降"
     |対応||
     |---|---|
-    |AliceScript|RC2、GM、2.0、2.1、2.2、2.3、3.0|
-    |AliceSister|GM、2.0、2.1、2.2、2.3、3.0|
-    |Losetta|0.8、0.9、0.10|
+    |AliceScript|RC2、GM、2.0、2.1、2.2、2.3、3.0、4|
+    |AliceSister|GM、2.0、2.1、2.2、2.3、3.0、4|
+    |Losetta|0.8、0.9、0.10、0.11|
 
 #### debug_write(variable)
 
@@ -53,9 +53,9 @@ public void debug_write(variable value);
 ???note "対応: AliceScript RC2以降"
     |対応||
     |---|---|
-    |AliceScript|RC2、GM、2.0、2.1、2.2、2.3、3.0|
-    |AliceSister|GM、2.0、2.1、2.2、2.3、3.0|
-    |Losetta|0.8、0.9、0.10|
+    |AliceScript|RC2、GM、2.0、2.1、2.2、2.3、3.0、4|
+    |AliceSister|GM、2.0、2.1、2.2、2.3、3.0、4|
+    |Losetta|0.8、0.9、0.10、0.11|
 
 #### debug_write(string,params variable)
 
@@ -74,9 +74,9 @@ public void debug_write(string format,params variable args);
 ???note "対応: AliceScript RC2以降"
     |対応||
     |---|---|
-    |AliceScript|RC2、GM、2.0、2.1、2.2、2.3、3.0|
-    |AliceSister|GM、2.0、2.1、2.2、2.3、3.0|
-    |Losetta|0.8、0.9、0.10|
+    |AliceScript|RC2、GM、2.0、2.1、2.2、2.3、3.0、4|
+    |AliceSister|GM、2.0、2.1、2.2、2.3、3.0、4|
+    |Losetta|0.8、0.9、0.10、0.11|
 
 ### 例
 次の例は、debug_write関数を使用してHello,Worldを表示するコードです。

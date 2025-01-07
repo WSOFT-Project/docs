@@ -28,9 +28,9 @@ public void zip_createFromDirectory(string source, string fileName);
 ???note "対応: Alice2.0以降"
     |対応||
     |---|---|
-    |AliceScript|2.0、2.1、2.2、2.3、3.0|
-    |AliceSister|2.0、2.1、2.2、2.3、3.0|
-    |Losetta|0.9、0.10|
+    |AliceScript|2.0、2.1、2.2、2.3、3.0、4|
+    |AliceSister|2.0、2.1、2.2、2.3、3.0、4|
+    |Losetta|0.9、0.10、0.11|
 
 ### 説明
 

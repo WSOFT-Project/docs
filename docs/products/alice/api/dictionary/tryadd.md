@@ -32,12 +32,12 @@ public bool TryAdd(variable key, variable value);
 |-|-|
 |`:::cs bool`|辞書に項目を追加できた場合は`true`、追加できなかった場合は`false`|
 
-???note "対応: 未実装"
+???note "対応: Alice4以降"
     |対応||
     |---|---|
-    |AliceScript||
-    |AliceSister||
-    |Losetta||
+    |AliceScript|4|
+    |AliceSister|4|
+    |Losetta|0.11|
 
 #### TryAdd(KeyValuePair)
 
@@ -56,12 +56,12 @@ public bool TryAdd(KeyValuePair keyValuePair);
 |-|-|
 |`:::cs bool`|辞書に項目を追加できた場合は`true`、追加できなかった場合は`false`|
 
-???note "対応: 未実装"
+???note "対応: Alice4以降"
     |対応||
     |---|---|
-    |AliceScript||
-    |AliceSister||
-    |Losetta||
+    |AliceScript|4|
+    |AliceSister|4|
+    |Losetta|0.11|
 
 ### 説明
 このメソッドは、辞書への項目の追加を試みます。

@@ -19,9 +19,9 @@ public readonly number math_NaN;
 ???note "対応: Alice3.0以降"
     |対応||
     |---|---|
-    |AliceScript|3.0|
-    |AliceSister|3.0|
-    |Losetta|0.10|
+    |AliceScript|3.0、4|
+    |AliceSister|3.0、4|
+    |Losetta|0.10、0.11|
 
 ### 説明
 関数や演算子は、数学演算の結果が定義されていない場合にこの値を返します。

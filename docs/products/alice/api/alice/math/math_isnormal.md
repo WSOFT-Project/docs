@@ -30,9 +30,9 @@ public bool math_isNormal(number value);
 ???note "対応: Alice3.0以降"
     |対応||
     |---|---|
-    |AliceScript|3.0|
-    |AliceSister|3.0|
-    |Losetta|0.10|
+    |AliceScript|3.0、4|
+    |AliceSister|3.0、4|
+    |Losetta|0.10、0.11|
 
 ### 例
 次の例では、いくつかの値について、正規化された値かどうかを確認します。

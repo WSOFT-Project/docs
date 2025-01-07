@@ -8,7 +8,7 @@ mt_title: CodePointAt(number)
 mt_summary: 現在の文字列の指定した場所にある文字のUTF-16コードポイントを取得します。
 mt_title: CodePointAt(number,bool)
 mt_summary: 現在の文字列の指定した場所にある文字のコードポイントを取得します。
-draft: true
+
 ---
 
 ### 定義
@@ -16,9 +16,7 @@ draft: true
 アセンブリ: Losetta.Runtime.dll<br/>
 ソースコード: [Alice.Core.String.cs](https://github.com/WSOFT-Project/Losetta/blob/master/Losetta.Runtime/Core/Extension/Alice.Core.String.cs)
 
-> [!IMPORTANT] プレビュー
-> この記事では、現在開発中のAlice vNEXTに実装される予定のAPIについて説明しています。
-> このAPIは予告なく削除および変更される可能性があります。
+
 
 #### CodePointAt(number)
 
@@ -37,12 +35,12 @@ number CodePointAt(number index);
 |-|-|
 |`number`|指定した場所にある文字のUTF-16コードポイント|
 
-???note "対応: 未実装"
+???note "対応: Alice4以降"
     |対応||
     |---|---|
-    |AliceScript||
-    |AliceSister||
-    |Losetta||
+    |AliceScript|4|
+    |AliceSister|4|
+    |Losetta|0.11|
 
 #### CodePointAt(number,bool)
 
@@ -62,12 +60,12 @@ number CodePointAt(number index, bool utf32);
 |-|-|
 |`number`|指定した場所にある文字のUTF-16コードポイント|
 
-???note "対応: 未実装"
+???note "対応: Alice4以降"
     |対応||
     |---|---|
-    |AliceScript||
-    |AliceSister||
-    |Losetta||
+    |AliceScript|4|
+    |AliceSister|4|
+    |Losetta|0.11|
 
 ### 説明
 現在の文字列の指定した場所にある文字のコードポイントを取得します。

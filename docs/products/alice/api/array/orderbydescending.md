@@ -27,9 +27,9 @@ public array OrderByDescending();
 ???note "対応: Alice2.2以降"
     |対応||
     |---|---|
-    |AliceScript|2.2、2.3、3.0|
-    |AliceSister|2.2、2.3、3.0|
-    |Losetta|0.9、0.10|
+    |AliceScript|2.2、2.3、3.0、4|
+    |AliceSister|2.2、2.3、3.0、4|
+    |Losetta|0.9、0.10、0.11|
 
 #### OrderByDescending(delegate)
 
@@ -51,9 +51,9 @@ public array OrderByDescending(delegate source);
 ???note "対応: Alice2.2以降"
     |対応||
     |---|---|
-    |AliceScript|2.2、2.3、3.0|
-    |AliceSister|2.2、2.3、3.0|
-    |Losetta|0.9、0.10|
+    |AliceScript|2.2、2.3、3.0、4|
+    |AliceSister|2.2、2.3、3.0、4|
+    |Losetta|0.9、0.10、0.11|
 
 ### 例
 以下は、`1`、`3`、`2`、`4`のある配列を降順で並べ替えます。

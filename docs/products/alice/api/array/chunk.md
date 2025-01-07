@@ -6,7 +6,7 @@ date : 2024-08-03
 mt_type: method
 mt_title: Chunk(number)
 mt_summary: 現在の配列を指定した要素数ごとに分割した新しい配列を取得します。
-draft: true
+
 ---
 
 ### 定義
@@ -14,9 +14,7 @@ draft: true
 アセンブリ: Losetta.Runtime.dll<br/>
 ソースコード: [Alice.Core.String.cs](https://github.com/WSOFT-Project/Losetta/blob/master/Losetta.Runtime/Core/Extension/Alice.Core.String.cs)
 
-> [!IMPORTANT] プレビュー
-> この記事では、現在開発中のAlice vNEXTに実装される予定のAPIについて説明しています。
-> このAPIは予告なく削除および変更される可能性があります。
+
 
 #### Chunk(number)
 
@@ -35,12 +33,12 @@ array Chunk(number size);
 |-|-|
 |`array`|チャンクごとに分割された配列を格納する配列|
 
-???note "対応: 未実装"
+???note "対応: Alice4以降"
     |対応||
     |---|---|
-    |AliceScript||
-    |AliceSister||
-    |Losetta||
+    |AliceScript|4|
+    |AliceSister|4|
+    |Losetta|0.11|
 
 ### 説明
 このメソッドは、現在の配列を指定した要素ごとに分割した配列を作成し、取得します。

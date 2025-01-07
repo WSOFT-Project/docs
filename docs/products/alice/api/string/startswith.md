@@ -39,9 +39,9 @@ public bool StartsWith(string item);
 ???note "対応: AliceScript RC1以降"
     |対応||
     |---|---|
-    |AliceScript|RC1、RC2、GM、2.0、2.1、2.2、2.3、3.0|
-    |AliceSister|GM、2.0、2.1、2.2、2.3、3.0|
-    |Losetta|0.8、0.9、0.10|
+    |AliceScript|RC1、RC2、GM、2.0、2.1、2.2、2.3、3.0、4|
+    |AliceSister|GM、2.0、2.1、2.2、2.3、3.0、4|
+    |Losetta|0.8、0.9、0.10、0.11|
 
 #### StartsWith(string,bool)
 
@@ -64,9 +64,9 @@ public bool StartsWith(string item, bool ignoreCase);
 ???note "対応: Alice3.0以降"
     |対応||
     |---|---|
-    |AliceScript|3.0|
-    |AliceSister|3.0|
-    |Losetta|0.10|
+    |AliceScript|3.0、4|
+    |AliceSister|3.0、4|
+    |Losetta|0.10、0.11|
 
 #### StartsWith(string,bool,bool)
 
@@ -91,16 +91,14 @@ public bool StartsWith(string item,bool ignoreCase,bool considerCulture);
 ???note "対応: Alice3.0以降"
     |対応||
     |---|---|
-    |AliceScript|3.0|
-    |AliceSister|3.0|
-    |Losetta|0.10|
+    |AliceScript|3.0、4|
+    |AliceSister|3.0、4|
+    |Losetta|0.10、0.11|
 
 
 #### StartsWith(string,string,bool,bool,bool,bool,bool)
 
-> [!IMPORTANT] プレビュー
-> この記事では、現在開発中のAlice vNEXTに実装される予定のAPIについて説明しています。
-> このAPIは予告なく削除および変更される可能性があります。
+
 
 カルチャの名前と文字列比較に関するオプションを指定して、現在の文字列が指定した文字列で始まるかどうかを判定します。
 
@@ -123,12 +121,12 @@ public bool StartsWith(string item, string cultureName, bool ignoreCase = false,
 |-|-|
 |`bool`|現在の文字列が指定した文字列で始まれば`true`、それ以外の場合は`false`。|
 
-???note "対応: 未実装"
+???note "対応: Alice4以降"
     |対応||
     |---|---|
-    |AliceScript||
-    |AliceSister||
-    |Losetta||
+    |AliceScript|4|
+    |AliceSister|4|
+    |Losetta|0.11|
 
 ### 例
 以下は、"Hello,World"が"Hello"から始まっているかどうかを判定します

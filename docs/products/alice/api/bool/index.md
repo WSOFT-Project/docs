@@ -19,9 +19,9 @@ public class bool;
 ???note "対応: AliceScript RC1以降"
     |対応||
     |---|---|
-    |AliceScript|RC1、RC2、GM、2.0、2.1、2.2、2.3、3.0|
-    |AliceSister|GM、2.0、2.1、2.2、2.3、3.0|
-    |Losetta|0.8、0.9、0.10|
+    |AliceScript|RC1、RC2、GM、2.0、2.1、2.2、2.3、3.0、4|
+    |AliceSister|GM、2.0、2.1、2.2、2.3、3.0、4|
+    |Losetta|0.8、0.9、0.10、0.11|
 
 ## 説明
 bool型は、真偽値（trueまたはfalseのいずれか）を表します。bool型は、比較演算子と等値演算子の結果の型です。bool型をとるステートメント(ifやwhileなど)と三項条件演算子で条件を表す値として使用できます。

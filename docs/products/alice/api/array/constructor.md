@@ -2,7 +2,7 @@
 title: Constructor
 long_title : Array Constructor
 summary: 新しい配列を作成します
-draft: true
+
 mt_type: ctor
 mt_title: Array()
 mt_summary: 空で、適当な容量を持つ配列を作成します。
@@ -19,9 +19,7 @@ mt_summary: 指定した配列の要素のうち全てを含む新しい配列�
 アセンブリ: Losetta.Runtime.dll<br/>
 ソースコード: [Alice.Core.Array.cs](https://github.com/WSOFT-Project/Losetta/blob/master/Losetta.Runtime/Core/Extension/Alice.Core.Array.cs)
 
-> [!IMPORTANT] プレビュー
-> この記事では、現在開発中のAlice vNEXTに実装される予定のAPIについて説明しています。
-> このAPIは予告なく削除および変更される可能性があります。
+
 
 #### Array()
 
@@ -32,12 +30,12 @@ class Alice.Array;
 public Array();
 ```
 
-???note "対応: 未実装"
+???note "対応: Alice4以降"
     |対応||
     |---|---|
-    |AliceScript||
-    |AliceSister||
-    |Losetta||
+    |AliceScript|4|
+    |AliceSister|4|
+    |Losetta|0.11|
 
 #### Array(type)
 
@@ -52,12 +50,12 @@ public Array(Type type);
 |-|-|
 |`type`|要素に持てる配列を制限する型|
 
-???note "対応: 未実装"
+???note "対応: Alice4以降"
     |対応||
     |---|---|
-    |AliceScript||
-    |AliceSister||
-    |Losetta||
+    |AliceScript|4|
+    |AliceSister|4|
+    |Losetta|0.11|
 
 #### Array(number)
 
@@ -72,12 +70,12 @@ public Array(number capacity);
 |-|-|
 |`capacity`|配列の容量|
 
-???note "対応: 未実装"
+???note "対応: Alice4以降"
     |対応||
     |---|---|
-    |AliceScript||
-    |AliceSister||
-    |Losetta||
+    |AliceScript|4|
+    |AliceSister|4|
+    |Losetta|0.11|
 
 #### Array(array)
 
@@ -92,9 +90,9 @@ public Array(array source);
 |-|-|
 |`source`|配列に追加した要素を全て含む配列|
 
-???note "対応: 未実装"
+???note "対応: Alice4以降"
     |対応||
     |---|---|
-    |AliceScript||
-    |AliceSister||
-    |Losetta||
+    |AliceScript|4|
+    |AliceSister|4|
+    |Losetta|0.11|

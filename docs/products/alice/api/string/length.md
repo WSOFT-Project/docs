@@ -25,9 +25,9 @@ public readonly number Length;
 ???note "対応: AliceScript RC2以降"
     |対応||
     |---|---|
-    |AliceScript|RC2、GM、2.0、2.1、2.2、2.3、3.0|
-    |AliceSister|GM、2.0、2.1、2.2、2.3、3.0|
-    |Losetta|0.8、0.9、0.10|
+    |AliceScript|RC2、GM、2.0、2.1、2.2、2.3、3.0、4|
+    |AliceSister|GM、2.0、2.1、2.2、2.3、3.0、4|
+    |Losetta|0.8、0.9、0.10、0.11|
 
 ### 説明
 このプロパティは、Unicode文字の数ではなく、個の配列に割り当てられているUTF-16文字の数を返します。格納している文字によっては、Unicode単位での一文字でも、複数のUTF-16文字として表される可能性があるため、このプロパティは正確な値を返さない可能性があります。

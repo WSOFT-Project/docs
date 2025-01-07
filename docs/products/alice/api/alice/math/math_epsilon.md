@@ -19,9 +19,9 @@ public readonly number math_epsilon = 4.94065645841247E-324;
 ???note "対応: Alice3.0以降"
     |対応||
     |---|---|
-    |AliceScript|3.0|
-    |AliceSister|3.0|
-    |Losetta|0.10|
+    |AliceScript|3.0、4|
+    |AliceSister|3.0、4|
+    |Losetta|0.10、0.11|
 
 ### 説明
 この定数の値は、`0`と比較したときに`false`が返る最小の正の値を返します。

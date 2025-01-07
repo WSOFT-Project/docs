@@ -15,9 +15,7 @@ mt_summary: 現在の文字列の指定した場所を、指定した文字列�
 
 #### ReplaceAt(number, string)
 
-> [!IMPORTANT] プレビュー
-> この記事では、現在開発中のAlice vNEXTに実装される予定のAPIについて説明しています。
-> このAPIは予告なく削除および変更される可能性があります。
+
 
 現在の文字列の指定した場所を、指定した文字列で置き換えた新しい文字列を取得します。
 
@@ -35,12 +33,12 @@ public string ReplaceAt(number index, string replacement)
 |-|-|
 |`string`|置換された文字列。|
 
-???note "対応: 未実装"
+???note "対応: Alice4以降"
     |対応||
     |---|---|
-    |AliceScript||
-    |AliceSister||
-    |Losetta||
+    |AliceScript|4|
+    |AliceSister|4|
+    |Losetta|0.11|
 
 ### 説明
 このメソッドは、現在の文字列の指定した場所を、指定した文字列で置き換えた新しい文字列を取得します。

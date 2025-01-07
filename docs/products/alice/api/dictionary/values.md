@@ -22,12 +22,12 @@ public readonly array Values;
 |-|-|
 |`array`|辞書にある項目の値のリスト|
 
-???note "対応: 未実装"
+???note "対応: Alice4以降"
     |対応||
     |---|---|
-    |AliceScript||
-    |AliceSister||
-    |Losetta||
+    |AliceScript|4|
+    |AliceSister|4|
+    |Losetta|0.11|
 
 ### 説明
 このプロパティは、辞書にあるすべての値を返します。返ってくる値の順序は定まっていませんが、[Keys](./keys.md)プロパティと同じ順です。

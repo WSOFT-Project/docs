@@ -32,9 +32,9 @@ public variable Find(delegate match);
 ???note "対応: Alice3.0以降"
     |対応||
     |---|---|
-    |AliceScript|3.0|
-    |AliceSister|3.0|
-    |Losetta|0.10|
+    |AliceScript|3.0、4|
+    |AliceSister|3.0、4|
+    |Losetta|0.10、0.11|
 
 ### 説明
 この関数は、現在の配列に指定された条件と一致する要素を検索します。ひとつでも`match`に一致する要素が見つかったら、処理はそこで停止します。

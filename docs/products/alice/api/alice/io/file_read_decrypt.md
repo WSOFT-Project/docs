@@ -33,9 +33,9 @@ public void file_read_decrypt(string path, bool fromPackage, string password, nu
 ???note "対応: Alice3.0以降"
     |対応||
     |---|---|
-    |AliceScript|3.0|
-    |AliceSister|3.0|
-    |Losetta|0.10|
+    |AliceScript|3.0、4|
+    |AliceSister|3.0、4|
+    |Losetta|0.10、0.11|
 
 !!!note "実装に関する注意"
     この関数はAliceSisterでは仕様が異なります。

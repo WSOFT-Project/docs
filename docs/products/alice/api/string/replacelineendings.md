@@ -31,9 +31,9 @@ public string ReplaceLineEndings();
 ???note "対応: Alice3.0以降"
     |対応||
     |---|---|
-    |AliceScript|3.0|
-    |AliceSister|3.0|
-    |Losetta|0.10|
+    |AliceScript|3.0、4|
+    |AliceSister|3.0、4|
+    |Losetta|0.10、0.11|
 
 #### ReplaceLineEndings(string)
 
@@ -55,9 +55,9 @@ public string ReplaceLineEndings(string replacementText);
 ???note "対応: Alice3.0以降"
     |対応||
     |---|---|
-    |AliceScript|3.0|
-    |AliceSister|3.0|
-    |Losetta|0.10|
+    |AliceScript|3.0、4|
+    |AliceSister|3.0、4|
+    |Losetta|0.10、0.11|
 
 ### 説明
 このメソッドは、文字列内のすべての改行文字列を検索し、`replacementText`または[env_newLine](../alice/environment/env_newline.md)の値に置換することで、文字列内の改行文字を正規化します。また、`replacementText`に空の文字列が指定された場合、文字列内のすべての改行文字が削除されます。

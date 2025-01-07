@@ -31,9 +31,9 @@ public bool All(delegate condition);
 ???note "対応: Alice2.2以降"
     |対応||
     |---|---|
-    |AliceScript|2.2、2.3、3.0|
-    |AliceSister|2.2、2.3、3.0|
-    |Losetta|0.9、0.10|
+    |AliceScript|2.2、2.3、3.0、4|
+    |AliceSister|2.2、2.3、3.0、4|
+    |Losetta|0.9、0.10、0.11|
 
 ### 説明
 この関数は、現在の配列内のすべての要素が指定された条件と一致するかを判断します。このため、`condition`に一致しない要素が見つかったら、処理はそこで停止します。

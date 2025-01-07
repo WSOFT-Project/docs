@@ -30,9 +30,9 @@ public string env_expand_environmentVariables(string text);
 ???note "対応: Alice2.0以降"
     |対応||
     |---|---|
-    |AliceScript|2.0、2.1、2.2、2.3、3.0|
-    |AliceSister|2.0、2.1、2.2、2.3、3.0|
-    |Losetta|0.9、0.10|
+    |AliceScript|2.0、2.1、2.2、2.3、3.0、4|
+    |AliceSister|2.0、2.1、2.2、2.3、3.0、4|
+    |Losetta|0.9、0.10、0.11|
 
 ### 説明
 この関数は、指定した文字列に埋め込まれている環境変数の名前を、その変数の値を表す文字列で置換し、置換後の文字列全体を返します。

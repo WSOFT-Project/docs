@@ -22,12 +22,12 @@ public readonly number Length;
 |-|-|
 |`number`|辞書にある要素の数。ただし、辞書が空の場合は0。|
 
-???note "対応: 未実装"
+???note "対応: Alice4以降"
     |対応||
     |---|---|
-    |AliceScript||
-    |AliceSister||
-    |Losetta||
+    |AliceScript|4|
+    |AliceSister|4|
+    |Losetta|0.11|
 
 ### 説明
 このプロパティは、辞書内にあるキーと値のペアの数を返します。

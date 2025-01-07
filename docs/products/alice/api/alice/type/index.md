@@ -20,9 +20,9 @@ public class Type;
 ???note "対応: Alice2.1以降"
     |対応||
     |---|---|
-    |AliceScript|2.1、2.2、2.3、3.0|
-    |AliceSister|2.1、2.2、2.3、3.0|
-    |Losetta|0.8、0.9、0.10|
+    |AliceScript|2.1、2.2、2.3、3.0、4|
+    |AliceSister|2.1、2.2、2.3、3.0、4|
+    |Losetta|0.8、0.9、0.10、0.11|
 
 ### 説明
 このクラスは、AliceScriptで変数の型を表現する際に使用します。AliceScriptでは、以前は`type`型の値が使用されていましたが、AliceScript2.1から`type`クラスが使用されるようになりました。

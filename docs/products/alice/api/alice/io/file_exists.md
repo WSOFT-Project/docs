@@ -31,9 +31,9 @@ public bool file_exists(string path);
 ???note "対応: AliceScript RC1以降"
     |対応||
     |---|---|
-    |AliceScript|RC1、RC2、GM、2.0、2.1、2.2、2.3、3.0|
-    |AliceSister|GM、2.0、2.1、2.2、2.3、3.0|
-    |Losetta|0.8、0.9、0.10|
+    |AliceScript|RC1、RC2、GM、2.0、2.1、2.2、2.3、3.0、4|
+    |AliceSister|GM、2.0、2.1、2.2、2.3、3.0、4|
+    |Losetta|0.8、0.9、0.10、0.11|
 
 ### 説明
 この関数は`path`にファイルが存在し、かつ必要なアクセス許可を持っている場合は`true`を返します。また、`path`が正しくないパスまたは長さが0の文字列、`null`の場合にも`false`を返します。さらに、呼び出し元が指定したファイルを読み取るためのアクセス許可を持っていない場合、例外は発生せず`false`を返します。

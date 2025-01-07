@@ -21,12 +21,12 @@ class Alice.Dictionary;
 public void Clear();
 ```
 
-???note "対応: 未実装"
+???note "対応: Alice4以降"
     |対応||
     |---|---|
-    |AliceScript||
-    |AliceSister||
-    |Losetta||
+    |AliceScript|4|
+    |AliceSister|4|
+    |Losetta|0.11|
 
 ### 説明
 このメソッドは、辞書内のすべてのキーと値の組み合わせを削除し、それぞれの要素からオブジェクトへの参照を解放します。  

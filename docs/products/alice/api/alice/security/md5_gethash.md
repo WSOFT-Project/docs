@@ -30,9 +30,9 @@ public bytes md5_getHash(bytes data);
 ???note "対応: Alice2.2以降"
     |対応||
     |---|---|
-    |AliceScript|2.2、2.3、3.0|
-    |AliceSister|2.2、2.3、3.0|
-    |Losetta|0.9、0.10|
+    |AliceScript|2.2、2.3、3.0、4|
+    |AliceSister|2.2、2.3、3.0、4|
+    |Losetta|0.9、0.10、0.11|
 
 !!!warning "脆弱なハッシュ関数"
     MD5やSHA1などのハッシュ関数は、最新のハッシュ関数ほど耐衝突性が低くなります。安全性が必要な場合はより安全な、SHA-512、SHA256などのハッシュ関数を使用してください。

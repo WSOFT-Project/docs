@@ -2,7 +2,7 @@
 title: directory_get_writeTime
 summary: 指定したディレクトリに最後に書き込んだ日時を取得します。
 date : 2024-05-02
-draft : true
+
 mt_type: function
 mt_title: directory_get_writeTime(string)
 mt_summary: 指定したディレクトリに最後に書き込んだ日時を取得します。
@@ -17,9 +17,7 @@ mt_summary: 日時をUTCで取得するか、現地時間で取得するかを�
 
 #### directory_get_writeTime(string)
 
-> [!IMPORTANT] プレビュー
-> この記事では、現在開発中のAlice vNEXTに実装される予定のAPIについて説明しています。
-> このAPIは予告なく削除および変更される可能性があります。
+
 
 指定したディレクトリに最後に書き込んだ日時を取得します。
 
@@ -36,18 +34,16 @@ public DateTime directory_get_writeTime(string path);
 |-|-|
 |`DateTime`|ディレクトリの現地時間で表した最後に書き込んだ日時|
 
-???note "対応: 未実装"
+???note "対応: Alice4以降"
     |対応||
     |---|---|
-    |AliceScript||
-    |AliceSister||
-    |Losetta||
+    |AliceScript|4|
+    |AliceSister|4|
+    |Losetta|0.11|
 
 #### directory_get_writeTime(string,bool)
 
-> [!IMPORTANT] プレビュー
-> この記事では、現在開発中のAlice vNEXTに実装される予定のAPIについて説明しています。
-> このAPIは予告なく削除および変更される可能性があります。
+
 
 日時をUTCで取得するか、現地時間で取得するかを指定して、指定したディレクトリに最後に書き込んだ日時を取得します。
 
@@ -65,12 +61,12 @@ public DateTime directory_get_writeTime(string path, bool getByUTC);
 |-|-|
 |`DateTime`|ディレクトリの`getByUTC`で指定した方式で表した最後に書き込んだ日時|
 
-???note "対応: 未実装"
+???note "対応: Alice4以降"
     |対応||
     |---|---|
-    |AliceScript||
-    |AliceSister||
-    |Losetta||
+    |AliceScript|4|
+    |AliceSister|4|
+    |Losetta|0.11|
 
 ### 説明
 

@@ -42,9 +42,9 @@ public string Replace(string oldValue, string newValue);
 ???note "対応: AliceScript RC1以降"
     |対応||
     |---|---|
-    |AliceScript|RC1、RC2、GM、2.0、2.1、2.2、2.3、3.0|
-    |AliceSister|GM、2.0、2.1、2.2、2.3、3.0|
-    |Losetta|0.8、0.9、0.10|
+    |AliceScript|RC1、RC2、GM、2.0、2.1、2.2、2.3、3.0、4|
+    |AliceSister|GM、2.0、2.1、2.2、2.3、3.0、4|
+    |Losetta|0.8、0.9、0.10、0.11|
 
 #### Replace(string,string,number,number)
 
@@ -69,9 +69,9 @@ public string Replace(string oldValue, string newValue, number startIndex, numbe
 ???note "対応: Alice2.3以降"
     |対応||
     |---|---|
-    |AliceScript|2.3、3.0|
-    |AliceSister|2.3、3.0|
-    |Losetta|0.9、0.10|
+    |AliceScript|2.3、3.0、4|
+    |AliceSister|2.3、3.0、4|
+    |Losetta|0.9、0.10、0.11|
 
 #### Replace(string,string,bool)
 
@@ -95,9 +95,9 @@ public string Replace(string oldValue, string newValue, bool ignoreCase);
 ???note "対応: Alice3.0以降、AliceScriptとLosettaのみ"
     |対応||
     |---|---|
-    |AliceScript|3.0|
+    |AliceScript|3.0、4|
     |AliceSister|該当なし|
-    |Losetta|0.10|
+    |Losetta|0.10、0.11|
 
     この関数はAliceSisterでは実装されていません。
 
@@ -127,9 +127,9 @@ public string Replace(string oldValue, string newValue, bool ignoreCase, bool co
 ???note "対応: Alice3.0以降、AliceScriptとLosettaのみ"
     |対応||
     |---|---|
-    |AliceScript|3.0|
+    |AliceScript|3.0、4|
     |AliceSister|該当なし|
-    |Losetta|0.10|
+    |Losetta|0.10、0.11|
 
     この関数はAliceSisterでは実装されていません。
 
@@ -137,9 +137,7 @@ public string Replace(string oldValue, string newValue, bool ignoreCase, bool co
 
 #### Replace(string,string,string,bool,bool,bool,bool,bool)
 
-> [!IMPORTANT] プレビュー
-> この記事では、現在開発中のAlice vNEXTに実装される予定のAPIについて説明しています。
-> このAPIは予告なく削除および変更される可能性があります。
+
 
 カルチャの名前と文字列比較に関するオプションを指定して、現在の文字列内の指定した範囲に出現する特定の文字列をすべて指定した文字列に置き換えた新しい文字列を取得します。
 
@@ -168,7 +166,7 @@ public bool Replace(string oldValue,string newValue, string cultureName, bool ig
     |---|---|
     |AliceScript|該当なし|
     |AliceSister|該当なし|
-    |Losetta||
+    |Losetta|0.11|
 
     この関数はAliceScriptとAliceSisterでは実装されていません。
 

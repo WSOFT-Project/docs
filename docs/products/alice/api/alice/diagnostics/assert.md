@@ -31,9 +31,9 @@ public void assert(bool condition);
 ???note "対応: Alice3.0以降"
     |対応||
     |---|---|
-    |AliceScript|3.0|
-    |AliceSister|3.0|
-    |Losetta|0.10|
+    |AliceScript|3.0、4|
+    |AliceSister|3.0、4|
+    |Losetta|0.10、0.11|
 
 #### assert(bool,string)
 
@@ -52,9 +52,9 @@ public void assert(bool condition, string message);
 ???note "対応: Alice3.0以降"
     |対応||
     |---|---|
-    |AliceScript|3.0|
-    |AliceSister|3.0|
-    |Losetta|0.10|
+    |AliceScript|3.0、4|
+    |AliceSister|3.0、4|
+    |Losetta|0.10、0.11|
 
 ### 説明
 この関数は、`condition`が`false`と評価されたときに[0x04c ASSERTION_ERROR](../../../exceptions/0x04c.md)をスローします。

@@ -32,9 +32,9 @@ public void file_move(string source, string destination);
 ???note "対応: AliceScript RC1以降"
     |対応||
     |---|---|
-    |AliceScript|RC1、RC2、GM、2.0、2.1、2.2、2.3、3.0|
-    |AliceSister|GM、2.0、2.1、2.2、2.3、3.0|
-    |Losetta|0.8、0.9、0.10|
+    |AliceScript|RC1、RC2、GM、2.0、2.1、2.2、2.3、3.0、4|
+    |AliceSister|GM、2.0、2.1、2.2、2.3、3.0、4|
+    |Losetta|0.8、0.9、0.10、0.11|
 
 #### file_move(string,string,bool)
 
@@ -55,9 +55,9 @@ public void file_move(string source, string destination, bool overwrite);
 ???note "対応: Alice3.0以降、AliceScriptとLosettaのみ"
     |対応||
     |---|---|
-    |AliceScript|3.0|
+    |AliceScript|3.0、4|
     |AliceSister|該当なし|
-    |Losetta|0.10|
+    |Losetta|0.10、0.11|
 
     この関数はAliceSisterでは実装されていません。
 

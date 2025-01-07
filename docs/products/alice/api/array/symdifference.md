@@ -4,7 +4,7 @@ long_title : array.SymDifference
 summary: 現在の配列と指定された配列の対称差集合を取得します
 mt_type: method
 mt_title: SymDifference(array)
-draft: true
+
 ---
 
 ### 定義
@@ -14,9 +14,7 @@ draft: true
 
 #### SymDifference(array)
 
-> [!IMPORTANT] プレビュー
-> この記事では、現在開発中のAlice vNEXTに実装される予定のAPIについて説明しています。
-> このAPIは予告なく削除および変更される可能性があります。
+
 
 現在の配列と指定された配列の対称差集合を取得します
 
@@ -33,12 +31,12 @@ public array SymDifference(array other);
 |-|-|
 |`array`|現在の配列と`other`の対称差集合|
 
-???note "対応: 未実装"
+???note "対応: Alice4以降"
     |対応||
     |---|---|
-    |AliceScript||
-    |AliceSister||
-    |Losetta||
+    |AliceScript|4|
+    |AliceSister|4|
+    |Losetta|0.11|
 
 ### 説明
 このメソッドは、現在の配列と`other`の対称差集合を取得します。

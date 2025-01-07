@@ -31,9 +31,9 @@ public array SkipLast(number count);
 ???note "対応: Alice3.0以降"
     |対応||
     |---|---|
-    |AliceScript|3.0|
-    |AliceSister|3.0|
-    |Losetta|0.10|
+    |AliceScript|3.0、4|
+    |AliceSister|3.0、4|
+    |Losetta|0.10、0.11|
 
 ### 説明
 この関数は現在の配列の末尾から指定個数だけ取り除いた新しい配列を作成します。

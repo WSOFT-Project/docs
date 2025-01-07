@@ -2,7 +2,7 @@
 title: directory_get_directories
 summary: 指定した条件を満たすサブディレクトリへのパスのリストを返します。
 date : 2024-05-02
-draft : true
+
 mt_type: function
 mt_overloads: 4
 
@@ -34,9 +34,7 @@ mt_summary: 指定したディレクトリ内の指定したパターンに一�
 
 #### directory_get_directories(string)
 
-> [!IMPORTANT] プレビュー
-> この記事では、現在開発中のAlice vNEXTに実装される予定のAPIについて説明しています。
-> このAPIは予告なく削除および変更される可能性があります。
+
 
 指定したディレクトリ内のサブディレクトリへのパスのリストを返します。
 
@@ -53,18 +51,16 @@ public string[] directory_get_directories(string path);
 |-|-|
 |`string[]`|指定したディレクトリ内のサブディレクトリへのパスの配列。ただし、条件に一致するサブディレクトリが見つからない場合は空の配列|
 
-???note "対応: 未実装"
+???note "対応: Alice4以降"
     |対応||
     |---|---|
-    |AliceScript||
-    |AliceSister||
-    |Losetta||
+    |AliceScript|4|
+    |AliceSister|4|
+    |Losetta|0.11|
 
 #### directory_get_directories(string,string)
 
-> [!IMPORTANT] プレビュー
-> この記事では、現在開発中のAlice vNEXTに実装される予定のAPIについて説明しています。
-> このAPIは予告なく削除および変更される可能性があります。
+
 
 指定したディレクトリ内の指定したパターンに一致するサブディレクトリへのパスのリストを返します。
 
@@ -82,18 +78,16 @@ public string[] directory_get_directories(string path, string pattern);
 |-|-|
 |`string[]`|指定したディレクトリ内のサブディレクトリへのパスの配列。ただし、条件に一致するサブディレクトリが見つからない場合は空の配列|
 
-???note "対応: 未実装"
+???note "対応: Alice4以降"
     |対応||
     |---|---|
-    |AliceScript||
-    |AliceSister||
-    |Losetta||
+    |AliceScript|4|
+    |AliceSister|4|
+    |Losetta|0.11|
 
 #### directory_get_directories(string,string,bool)
 
-> [!IMPORTANT] プレビュー
-> この記事では、現在開発中のAlice vNEXTに実装される予定のAPIについて説明しています。
-> このAPIは予告なく削除および変更される可能性があります。
+
 
 指定したディレクトリ内の指定したパターンに一致するサブディレクトリへのパスのリストを返します。
 
@@ -112,18 +106,16 @@ public string[] directory_get_directories(string path, string pattern, bool sear
 |-|-|
 |`string[]`|指定したディレクトリ内のサブディレクトリへのパスの配列。ただし、条件に一致するサブディレクトリが見つからない場合は空の配列|
 
-???note "対応: 未実装"
+???note "対応: Alice4以降"
     |対応||
     |---|---|
-    |AliceScript||
-    |AliceSister||
-    |Losetta||
+    |AliceScript|4|
+    |AliceSister|4|
+    |Losetta|0.11|
 
 #### directory_get_directories(string,string,bool,bool,bool,bool,bool,number,number)
 
-> [!IMPORTANT] プレビュー
-> この記事では、現在開発中のAlice vNEXTに実装される予定のAPIについて説明しています。
-> このAPIは予告なく削除および変更される可能性があります。
+
 
 指定したディレクトリ内の指定したパターンに一致するサブディレクトリへのパスのリストを返します。
 
@@ -148,12 +140,12 @@ public string[] directory_get_directories(string path, string pattern, bool sear
 |-|-|
 |`string[]`|指定したディレクトリ内のサブディレクトリへのパスの配列。ただし、条件に一致するサブディレクトリが見つからない場合は空の配列|
 
-???note "対応: 未実装、AliceScriptとLosettaのみ"
+???note "対応: Alice4以降、AliceScriptとLosettaのみ"
     |対応||
     |---|---|
-    |AliceScript||
-    |AliceSister||
-    |Losetta||
+    |AliceScript|4|
+    |AliceSister|該当なし|
+    |Losetta|0.11|
 
     この関数はAliceSisterでは実装されていません。
 

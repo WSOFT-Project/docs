@@ -3,7 +3,7 @@ title: Median
 long_title : array.Median
 summary: 現在の配列内の要素の中央値を取得します。
 date: 2024-07-18
-draft: true
+
 mt_type: method
 mt_title: Median()
 mt_summary: 現在の配列内の各要素の中央値を取得します。
@@ -16,9 +16,7 @@ mt_summary: 現在の配列内の各要素にある値を用いて、中央値�
 アセンブリ: Losetta.Runtime.dll<br/>
 ソースコード: [Alice.Core.Array.cs](https://github.com/WSOFT-Project/Losetta/blob/master/Losetta.Runtime/Core/Extension/Alice.Core.Array.cs)
 
-> [!IMPORTANT] プレビュー
-> この記事では、現在開発中のAlice vNEXTに実装される予定のAPIについて説明しています。
-> このAPIは予告なく削除および変更される可能性があります。
+
 
 #### Median()
 
@@ -33,12 +31,12 @@ public number Median();
 |-|-|
 |`number`|配列内の各要素の中央値|
 
-???note "対応: 未実装"
+???note "対応: Alice4以降"
     |対応||
     |---|---|
-    |AliceScript||
-    |AliceSister||
-    |Losetta||
+    |AliceScript|4|
+    |AliceSister|4|
+    |Losetta|0.11|
 
 #### Median(delegate)
 
@@ -57,12 +55,12 @@ public number Median(delegate source);
 |-|-|
 |`number`|配列内の各要素の中央値|
 
-???note "対応: 未実装"
+???note "対応: Alice4以降"
     |対応||
     |---|---|
-    |AliceScript||
-    |AliceSister||
-    |Losetta||
+    |AliceScript|4|
+    |AliceSister|4|
+    |Losetta|0.11|
 
 ### 説明
 この関数は、現在の配列の各要素の中央値を取得します。`source`を指定しない場合、配列内の各要素は数値型である必要があります。

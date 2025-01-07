@@ -27,12 +27,32 @@ public void TrimExcess(number capacity);
 ---|-|
 `capacity`|設定する辞書の容量。この値は正の整数で、$2,147,483,647$以上である必要があります。
 
-???note "対応: 未実装、AliceScriptとLosettaのみ"
+???note "対応: Alice4以降、AliceScriptとLosettaのみ"
     |対応||
     |---|---|
-    |AliceScript||
-    |AliceSister||
-    |Losetta||
+    |AliceScript|4|
+    |AliceSister|該当なし|
+    |Losetta|0.11|
+
+    この関数はAliceSisterでは実装されていません。
+
+    実装されていない環境では`0x034 NOT_IMPLEMENTED`例外がスローされます。
+
+#### TrimExcess()
+
+辞書の容量を現在辞書内に存在する項目の数と同じまで減らします
+
+```cs title="AliceScript"
+class Alice.Dictionary;
+public void TrimExcess();
+```
+
+???note "対応: Alice4以降、AliceScriptとLosettaのみ"
+    |対応||
+    |---|---|
+    |AliceScript|4|
+    |AliceSister|該当なし|
+    |Losetta|0.11|
 
     この関数はAliceSisterでは実装されていません。
 

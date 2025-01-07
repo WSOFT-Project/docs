@@ -28,12 +28,12 @@ public void Add(variable key, variable value);
 |`key`|辞書に新たに追加する項目のキー|
 |`value`|辞書に新たに追加する項目の値|
 
-???note "対応: 未実装"
+???note "対応: Alice4以降"
     |対応||
     |---|---|
-    |AliceScript||
-    |AliceSister||
-    |Losetta||
+    |AliceScript|4|
+    |AliceSister|4|
+    |Losetta|0.11|
 
 #### Add(KeyValuePair)
 
@@ -48,12 +48,12 @@ public void Add(KeyValuePair keyValuePair);
 |-|-|
 |`keyValuePair`|辞書に新たに追加する項目のキーと値を表す`KeyValuePair`型のオブジェクト|
 
-???note "対応: 未実装"
+???note "対応: Alice4以降"
     |対応||
     |---|---|
-    |AliceScript||
-    |AliceSister||
-    |Losetta||
+    |AliceScript|4|
+    |AliceSister|4|
+    |Losetta|0.11|
 
 ### 説明
 このメソッドは、辞書に新たに項目を追加します。

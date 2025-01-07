@@ -33,9 +33,9 @@ public Type interop_getType(string typeName, string asmName = null, string asmLo
 ???note "対応: Alice3.0以降"
     |対応||
     |---|---|
-    |AliceScript|3.0|
-    |AliceSister|3.0|
-    |Losetta|0.10|
+    |AliceScript|3.0、4|
+    |AliceSister|3.0、4|
+    |Losetta|0.10、0.11|
 
 ### 説明
 この関数を使用すると、.NETオブジェクトを表す[Type](../type/index.md)を取得できます。取得できるのは.NETのオブジェクトインスタンスではなく、.NETの型を表すオブジェクトである点にご注意ください。

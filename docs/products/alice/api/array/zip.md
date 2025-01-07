@@ -7,7 +7,7 @@ mt_title: Zip(params array)
 mt_summary: 現在の配列と他の配列の同じ場所の要素からなる配列の配列を作成します。
 mt_title: Zip(delegate,params array)
 mt_summary: 現在の配列と他の配列の各要素に、指定した関数を適用した結果の配列を作成します。
-draft: true
+
 ---
 
 ### 定義
@@ -17,9 +17,7 @@ draft: true
 
 #### Zip(params array)
 
-> [!IMPORTANT] プレビュー
-> この記事では、現在開発中のAlice vNEXTに実装される予定のAPIについて説明しています。
-> このAPIは予告なく削除および変更される可能性があります。
+
 
 現在の配列と他の配列の同じ場所の要素からなる配列の配列を作成します。
 
@@ -36,19 +34,17 @@ public array Zip(params array others);
 |-|-|
 |`array`|現在の配列と`others`の各要素を含む配列|
 
-???note "対応: 未実装"
+???note "対応: Alice4以降"
     |対応||
     |---|---|
-    |AliceScript||
-    |AliceSister||
-    |Losetta||
+    |AliceScript|4|
+    |AliceSister|4|
+    |Losetta|0.11|
 
 
 #### Zip(delegate,params array)
 
-> [!IMPORTANT] プレビュー
-> この記事では、現在開発中のAlice vNEXTに実装される予定のAPIについて説明しています。
-> このAPIは予告なく削除および変更される可能性があります。
+
 
 現在の配列と他の配列の各要素に、指定した関数を適用した結果の配列を作成します。
 
@@ -66,12 +62,12 @@ public array Zip(delegate predicate, params array others);
 |-|-|
 |`array`|現在の配列と`others`の各要素を含む配列|
 
-???note "対応: 未実装"
+???note "対応: Alice4以降"
     |対応||
     |---|---|
-    |AliceScript||
-    |AliceSister||
-    |Losetta||
+    |AliceScript|4|
+    |AliceSister|4|
+    |Losetta|0.11|
 
 ### 説明
 このメソッドは、現在の配列と他の配列を組み合わせた新しい配列を作成します。
