@@ -2,7 +2,7 @@
 title: file_get_length
 summary: 指定したファイルのサイズをバイト単位で取得します。
 date : 2024-05-02
-draft : true
+
 mt_type: function
 mt_title: file_get_length(string)
 ---
@@ -14,9 +14,7 @@ mt_title: file_get_length(string)
 
 #### file_get_length(string)
 
-> [!IMPORTANT] プレビュー
-> この記事では、現在開発中のAlice vNEXTに実装される予定のAPIについて説明しています。
-> このAPIは予告なく削除および変更される可能性があります。
+
 
 指定したファイルのサイズをバイト単位で取得します。
 
@@ -33,12 +31,12 @@ public number file_get_length(string path);
 |-|-|
 |`number`|`path`にあるファイルのファイルサイズ|
 
-???note "対応: 未実装"
+???note "対応: Alice4以降"
     |対応||
     |---|---|
-    |AliceScript||
-    |AliceSister||
-    |Losetta||
+    |AliceScript|4|
+    |AliceSister|4|
+    |Losetta|0.11|
 
 ### 説明
 

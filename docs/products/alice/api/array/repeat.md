@@ -2,7 +2,7 @@
 title: Repeat
 long_title: array.Repeat
 summary: 現在の配列を指定回数繰り返した新しい配列を取得します
-draft: true
+
 mt_type: method
 mt_title: Repeat(number)
 date : 2024-05-26
@@ -15,9 +15,7 @@ date : 2024-05-26
 
 #### Repeat(number)
 
-> [!IMPORTANT] プレビュー
-> この記事では、現在開発中のAlice vNEXTに実装される予定のAPIについて説明しています。
-> このAPIは予告なく削除および変更される可能性があります。
+
 
 現在の配列を指定回数繰り返した新しい配列を取得します
 
@@ -34,12 +32,12 @@ public array Repeat(number repeatCount);
 |-|-|
 |`array`|現在の配列を指定回数繰り返した文字列|
 
-???note "対応: 未実装"
+???note "対応: Alice4以降"
     |対応||
     |---|---|
-    |AliceScript||
-    |AliceSister||
-    |Losetta||
+    |AliceScript|4|
+    |AliceSister|4|
+    |Losetta|0.11|
 
 ### 例
 以下は、`[1,2,3]`を3回繰り返した配列を取得しています。

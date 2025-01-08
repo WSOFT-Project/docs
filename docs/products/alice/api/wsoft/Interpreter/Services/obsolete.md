@@ -7,7 +7,7 @@ mt_title: obsolete()
 mt_summary: 関数が非推奨であることを表します。
 mt_title: obsolete(string,bool)
 mt_summary: メッセージを指定して、関数が非推奨であることを表します。
-draft: true
+
 ---
 
 ### 定義
@@ -25,12 +25,12 @@ namespace WSOFT.Interpreter.Services;
 public void obsolete();
 ```
 
-???note "対応: 未実装"
+???note "対応: Alice4以降"
     |対応||
     |---|---|
-    |AliceScript||
-    |AliceSister||
-    |Losetta||
+    |AliceScript|4|
+    |AliceSister|4|
+    |Losetta|0.11|
 
 
 #### obsolete(string,bool)
@@ -48,12 +48,12 @@ public void obsolete(bool isError, string message);
 |`isError`|この関数が呼び出されたとき例外をスローする場合は`true`、デバッグ出力に書き出す場合は`false`|
 |`message`|この関数が呼び出されたときに表示するメッセージ|
 
-???note "対応: 未実装"
+???note "対応: Alice4以降"
     |対応||
     |---|---|
-    |AliceScript||
-    |AliceSister||
-    |Losetta||
+    |AliceScript|4|
+    |AliceSister|4|
+    |Losetta|0.11|
 
 ### 例
 次の例では、今後使用して欲しくない関数にマークをつけています。

@@ -24,12 +24,12 @@ public array ToArray();
 |-|-|
 |`:::cs array`|配列の末尾に追加する変数。この引数は複数個指定できます。|
 
-???note "対応: 未実装"
+???note "対応: Alice4以降"
     |対応||
     |---|---|
-    |AliceScript||
-    |AliceSister||
-    |Losetta||
+    |AliceScript|4|
+    |AliceSister|4|
+    |Losetta|0.11|
 
 ### 例
 以下は、ある辞書を配列に変換します。

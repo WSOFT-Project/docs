@@ -32,9 +32,9 @@ public bytes web_upload_file(string uri, string filename);
 ???note "対応: AliceScript RC1以降"
     |対応||
     |---|---|
-    |AliceScript|RC1、RC2、GM、2.0、2.1、2.2、2.3、3.0|
-    |AliceSister|GM、2.0、2.1、2.2、2.3、3.0|
-    |Losetta|0.8、0.9、0.10|
+    |AliceScript|RC1、RC2、GM、2.0、2.1、2.2、2.3、3.0、4|
+    |AliceSister|GM、2.0、2.1、2.2、2.3、3.0、4|
+    |Losetta|0.8、0.9、0.10、0.11|
 
 ### 例
 次の例では、`upload.bin`というファイルの内容を`http://localhost/upload`にアップロードし、サーバーからの応答を`response.bin`に保存します。

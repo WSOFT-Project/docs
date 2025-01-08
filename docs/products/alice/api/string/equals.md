@@ -39,9 +39,9 @@ public override bool Equals(string item);
 ???note "対応: AliceScript RC1以降"
     |対応||
     |---|---|
-    |AliceScript|RC1、RC2、GM、2.0、2.1、2.2、2.3、3.0|
-    |AliceSister|GM、2.0、2.1、2.2、2.3、3.0|
-    |Losetta|0.8、0.9、0.10|
+    |AliceScript|RC1、RC2、GM、2.0、2.1、2.2、2.3、3.0、4|
+    |AliceSister|GM、2.0、2.1、2.2、2.3、3.0、4|
+    |Losetta|0.8、0.9、0.10、0.11|
 
 #### Equals(string,bool)
 
@@ -64,9 +64,9 @@ bool Equals(string item,bool ignoreCase);
 ???note "対応: Alice3.0以降"
     |対応||
     |---|---|
-    |AliceScript|3.0|
-    |AliceSister|3.0|
-    |Losetta|0.10|
+    |AliceScript|3.0、4|
+    |AliceSister|3.0、4|
+    |Losetta|0.10、0.11|
 
 #### Equals(string,bool,bool)
 
@@ -90,15 +90,13 @@ bool Equals(string item, bool ignoreCase, bool considerCulture);
 ???note "対応: Alice3.0以降"
     |対応||
     |---|---|
-    |AliceScript|3.0|
-    |AliceSister|3.0|
-    |Losetta|0.10|
+    |AliceScript|3.0、4|
+    |AliceSister|3.0、4|
+    |Losetta|0.10、0.11|
 
 #### Equals(string,string,bool,bool,bool,bool,bool)
 
-> [!IMPORTANT] プレビュー
-> この記事では、現在開発中のAlice vNEXTに実装される予定のAPIについて説明しています。
-> このAPIは予告なく削除および変更される可能性があります。
+
 
 カルチャの名前と文字列比較に関するオプションを指定して、この文字列と比較するもう一方の文字列が等価かどうか判断します。
 
@@ -121,12 +119,12 @@ bool Equals(string item, string cultureName, bool ignoreCase = false, bool ignor
 |-|-|
 |`bool`|`item`の値がこの文字列と同じ場合は`true`、それ以外の場合は`false`|
 
-???note "対応: 未実装"
+???note "対応: Alice4以降"
     |対応||
     |---|---|
-    |AliceScript||
-    |AliceSister||
-    |Losetta||
+    |AliceScript|4|
+    |AliceSister|4|
+    |Losetta|0.11|
 
 ### 説明
 このメソッドは規定では、UTF-16でエンコードされた連続する文字列の値をひとつづつ比較して、文字列を比較します。この比較は高速ですが、はじめに文字列を正規化する必要があります。

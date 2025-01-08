@@ -39,15 +39,13 @@ public number CompareTo(string item);
 ???note "対応: AliceScript RC1以降"
     |対応||
     |---|---|
-    |AliceScript|RC1、RC2、GM、2.0、2.1、2.2、2.3、3.0|
-    |AliceSister|GM、2.0、2.1、2.2、2.3、3.0|
-    |Losetta|0.8、0.9、0.10|
+    |AliceScript|RC1、RC2、GM、2.0、2.1、2.2、2.3、3.0、4|
+    |AliceSister|GM、2.0、2.1、2.2、2.3、3.0、4|
+    |Losetta|0.8、0.9、0.10、0.11|
 
 #### CompareTo(string,bool)
 
-> [!IMPORTANT] プレビュー
-> この記事では、現在開発中のAlice vNEXTに実装される予定のAPIについて説明しています。
-> このAPIは予告なく削除および変更される可能性があります。
+
 
 大文字と小文字を比較するかを指定した上でこの文字列と指定した文字列を比較して、文字列を並べ替えたときにこの文字列が前にくるか、後ろにくるか、または同じであるかを表す整数を取得します。
 
@@ -65,18 +63,16 @@ public number CompareTo(string item, bool ignoreCase);
 |-|-|
 |`number`|前の場合は`-1`、同じ場合は`0`、後ろの場合は`1`|
 
-???note "対応: 未実装"
+???note "対応: Alice4以降"
     |対応||
     |---|---|
-    |AliceScript||
-    |AliceSister||
-    |Losetta||
+    |AliceScript|4|
+    |AliceSister|4|
+    |Losetta|0.11|
 
 #### CompareTo(string,bool,bool)
 
-> [!IMPORTANT] プレビュー
-> この記事では、現在開発中のAlice vNEXTに実装される予定のAPIについて説明しています。
-> このAPIは予告なく削除および変更される可能性があります。
+
 
 大文字と小文字を比較するかとカルチャを考慮するかを指定した上でこの文字列と指定した文字列を比較して、文字列を並べ替えたときにこの文字列が前にくるか、後ろにくるか、または同じであるかを表す整数を取得します。
 
@@ -95,18 +91,16 @@ public number CompareTo(string item, bool ignoreCase, bool considerCulture);
 |-|-|
 |`number`|前の場合は`-1`、同じ場合は`0`、後ろの場合は`1`|
 
-???note "対応: 未実装"
+???note "対応: Alice4以降"
     |対応||
     |---|---|
-    |AliceScript||
-    |AliceSister||
-    |Losetta||
+    |AliceScript|4|
+    |AliceSister|4|
+    |Losetta|0.11|
 
 #### CompareTo(string,string,bool,bool,bool,bool,bool)
 
-> [!IMPORTANT] プレビュー
-> この記事では、現在開発中のAlice vNEXTに実装される予定のAPIについて説明しています。
-> このAPIは予告なく削除および変更される可能性があります。
+
 
 カルチャの名前と文字列比較に関するオプションを指定して、この文字列と指定した文字列を比較して文字列を並べ替えたときにこの文字列が前にくるか、後ろにくるか、または同じであるかを表す整数を取得します。
 
@@ -129,12 +123,12 @@ public number CompareTo(string item, string cultureName, bool ignoreCase = false
 |-|-|
 |`number`|前の場合は`-1`、同じ場合は`0`、後ろの場合は`1`|
 
-???note "対応: 未実装"
+???note "対応: Alice4以降"
     |対応||
     |---|---|
-    |AliceScript||
-    |AliceSister||
-    |Losetta||
+    |AliceScript|4|
+    |AliceSister|4|
+    |Losetta|0.11|
 
 ### 説明
 このメソッドは、この文字列ともうひとつの文字列を並べ替えたときの順番を判定します。

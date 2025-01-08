@@ -2,7 +2,7 @@
 title: reflect_get_member
 summary: 現在のスクリプトから指定された識別子に対応する値を取得します。
 date : 2024-10-03
-draft : true
+
 
 mt_type: function
 mv_overloads: 1
@@ -18,9 +18,7 @@ mt_summary: 現在のスクリプトから指定された識別子に対応す�
 
 #### reflect_get_member(string)
 
-> [!IMPORTANT] プレビュー
-> この記事では、現在開発中のAlice vNEXTに実装される予定のAPIについて説明しています。
-> このAPIは予告なく削除および変更される可能性があります。
+
 
 現在のスクリプトから指定された識別子に対応する値を取得します。
 
@@ -41,12 +39,12 @@ public variable reflect_get_member(string identifier);
 |---|---|
 |[COULDNT_FIND_VARIABLE](../../../exceptions/0x004.md)|識別子`identifier`は定義されていません|
 
-???note "対応: 未実装"
+???note "対応: Alice4以降"
     |対応||
     |---|---|
-    |AliceScript||
-    |AliceSister||
-    |Losetta||
+    |AliceScript|4|
+    |AliceSister|4|
+    |Losetta|0.11|
 
 ### 説明
 この関数は、現在のスクリプトから指定された識別子に対応する値を取得します。

@@ -31,9 +31,9 @@ public bool interpreter_nameexists(string name);
 ???note "対応: AliceScript GM以降"
     |対応||
     |---|---|
-    |AliceScript|GM、2.0、2.1、2.2、2.3、3.0|
-    |AliceSister|GM、2.0、2.1、2.2、2.3、3.0|
-    |Losetta|0.8、0.9、0.10|
+    |AliceScript|GM、2.0、2.1、2.2、2.3、3.0、4|
+    |AliceSister|GM、2.0、2.1、2.2、2.3、3.0、4|
+    |Losetta|0.8、0.9、0.10、0.11|
 
 ### 例
 次の例では、`alpha`という変数を定義して、その名前が使用されていることを確認します。

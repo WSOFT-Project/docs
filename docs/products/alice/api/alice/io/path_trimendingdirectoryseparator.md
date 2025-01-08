@@ -31,9 +31,9 @@ public string path_trimEndingDirectorySeparator(string path);
 ???note "対応: Alice3.0以降、AliceScriptとLosettaのみ"
     |対応||
     |---|---|
-    |AliceScript|3.0|
+    |AliceScript|3.0、4|
     |AliceSister|該当なし|
-    |Losetta|0.10|
+    |Losetta|0.10、0.11|
 
     この関数はAliceSisterでは実装されていません。
 

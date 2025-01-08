@@ -25,9 +25,9 @@ public number env_exitCode;
 ???note "対応: Alice3.0以降"
     |対応||
     |---|---|
-    |AliceScript|3.0|
-    |AliceSister|3.0|
-    |Losetta|0.10|
+    |AliceScript|3.0、4|
+    |AliceSister|3.0、4|
+    |Losetta|0.10、0.11|
 
 ### 説明
 このプロパティは[exit](../exit.md)関数とは異なり、終了ステータスを設定するのみで、プロセスは終了しません。

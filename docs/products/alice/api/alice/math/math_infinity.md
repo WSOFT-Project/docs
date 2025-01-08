@@ -19,9 +19,9 @@ public readonly number math_infinity;
 ???note "対応: Alice3.0以降"
     |対応||
     |---|---|
-    |AliceScript|3.0|
-    |AliceSister|3.0|
-    |Losetta|0.10|
+    |AliceScript|3.0、4|
+    |AliceSister|3.0、4|
+    |Losetta|0.10、0.11|
 
 ### 説明
 この定数の値は、正の数値を`0`で除算するか、操作の結果が正の方向にオーバーフローした場合に返ります。

@@ -32,9 +32,9 @@ public void assert_equal(variable expected, variable actual);
 ???note "対応: Alice3.0以降"
     |対応||
     |---|---|
-    |AliceScript|3.0|
-    |AliceSister|3.0|
-    |Losetta|0.10|
+    |AliceScript|3.0、4|
+    |AliceSister|3.0、4|
+    |Losetta|0.10、0.11|
 
 #### assert_equal(variable,variable,string)
 
@@ -54,9 +54,9 @@ public void assert_equal(variable expected, variable actual, string message);
 ???note "対応: Alice3.0以降"
     |対応||
     |---|---|
-    |AliceScript|3.0|
-    |AliceSister|3.0|
-    |Losetta|0.10|
+    |AliceScript|3.0、4|
+    |AliceSister|3.0、4|
+    |Losetta|0.10、0.11|
 
 ### 説明
 この関数は、`expected`が`actual`と等しくないと評価されたときに[0x04c ASSERTION_ERROR](../../../exceptions/0x04c.md)をスローします。

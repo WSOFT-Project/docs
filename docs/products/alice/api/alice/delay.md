@@ -27,9 +27,9 @@ public void delay();
 ???note "対応: AliceScript RC1以降"
     |対応||
     |---|---|
-    |AliceScript|RC1、RC2、GM、2.0、2.1、2.2、2.3、3.0|
-    |AliceSister|GM、2.0、2.1、2.2、2.3、3.0|
-    |Losetta|0.8、0.9、0.10|
+    |AliceScript|RC1、RC2、GM、2.0、2.1、2.2、2.3、3.0、4|
+    |AliceSister|GM、2.0、2.1、2.2、2.3、3.0、4|
+    |Losetta|0.8、0.9、0.10、0.11|
 
 #### delay(number)
 
@@ -47,9 +47,9 @@ public void delay(number timeout);
 ???note "対応: AliceScript RC2以降"
     |対応||
     |---|---|
-    |AliceScript|RC2、GM、2.0、2.1、2.2、2.3、3.0|
-    |AliceSister|GM、2.0、2.1、2.2、2.3、3.0|
-    |Losetta|0.8、0.9、0.10|
+    |AliceScript|RC2、GM、2.0、2.1、2.2、2.3、3.0、4|
+    |AliceSister|GM、2.0、2.1、2.2、2.3、3.0、4|
+    |Losetta|0.8、0.9、0.10、0.11|
 
 ### 説明
 この関数はプログラム全体を一時的に中断するのではなく、現在のスレッドを中断します。

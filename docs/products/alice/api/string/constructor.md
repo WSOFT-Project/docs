@@ -2,7 +2,7 @@
 title: Constructor
 long_title : String Constructor
 summary: 新しい文字列を作成します
-draft: true
+
 mt_type: ctor
 mt_title: String()
 mt_summary: 新しい空文字列を作成します。
@@ -21,9 +21,7 @@ mt_summary: 指定したデータを指定したコードページ番号に対�
 アセンブリ: Losetta.Runtime.dll<br/>
 ソースコード: [Alice.Core.String.cs](https://github.com/WSOFT-Project/Losetta/blob/master/Losetta.Runtime/Core/Extension/Alice.Core.String.cs)
 
-> [!IMPORTANT] プレビュー
-> この記事では、現在開発中のAlice vNEXTに実装される予定のAPIについて説明しています。
-> このAPIは予告なく削除および変更される可能性があります。
+
 
 #### String()
 
@@ -34,12 +32,12 @@ class Alice.String;
 public String();
 ```
 
-???note "対応: 未実装"
+???note "対応: Alice4以降"
     |対応||
     |---|---|
-    |AliceScript||
-    |AliceSister||
-    |Losetta||
+    |AliceScript|4|
+    |AliceSister|4|
+    |Losetta|0.11|
 
 #### String(string)
 
@@ -54,12 +52,12 @@ public String(string source);
 |-|-|
 |`source`|コピー元の文字列|
 
-???note "対応: 未実装"
+???note "対応: Alice4以降"
     |対応||
     |---|---|
-    |AliceScript||
-    |AliceSister||
-    |Losetta||
+    |AliceScript|4|
+    |AliceSister|4|
+    |Losetta|0.11|
 
 #### String(bytes)
 
@@ -74,12 +72,12 @@ public String(bytes source);
 |-|-|
 |`source`|UTF-8形式でエンコード可能なデータ|
 
-???note "対応: 未実装"
+???note "対応: Alice4以降"
     |対応||
     |---|---|
-    |AliceScript||
-    |AliceSister||
-    |Losetta||
+    |AliceScript|4|
+    |AliceSister|4|
+    |Losetta|0.11|
 
 #### String(bytes,string)
 
@@ -95,12 +93,12 @@ public String(bytes source, string charCode);
 |`source`|エンコード可能なデータ|
 |`charCode`|文字コードを表す文字列|
 
-???note "対応: 未実装"
+???note "対応: Alice4以降"
     |対応||
     |---|---|
-    |AliceScript||
-    |AliceSister||
-    |Losetta||
+    |AliceScript|4|
+    |AliceSister|4|
+    |Losetta|0.11|
 
 #### String(bytes,number)
 
@@ -116,9 +114,9 @@ public String(bytes source, number codePage);
 |`source`|エンコード可能なデータ|
 |`codePage`|文字コードを表すコードページ番号|
 
-???note "対応: 未実装"
+???note "対応: Alice4以降"
     |対応||
     |---|---|
-    |AliceScript||
-    |AliceSister||
-    |Losetta||
+    |AliceScript|4|
+    |AliceSister|4|
+    |Losetta|0.11|

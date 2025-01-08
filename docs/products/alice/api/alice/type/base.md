@@ -23,9 +23,9 @@ readonly string Base;
 ???note "対応: Alice2.1以降"
     |対応||
     |---|---|
-    |AliceScript|2.1、2.2、2.3、3.0|
-    |AliceSister|2.1、2.2、2.3、3.0|
-    |Losetta|0.8、0.9、0.10|
+    |AliceScript|2.1、2.2、2.3、3.0、4|
+    |AliceSister|2.1、2.2、2.3、3.0、4|
+    |Losetta|0.8、0.9、0.10、0.11|
 
 ```cs title="AliceScript"
 print(string.IsObject); // 出力例 : false

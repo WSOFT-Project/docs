@@ -33,9 +33,9 @@ public string ReplaceFirst(this string input, string pattern, string replacement
 ???note "対応: Alice3.0以降"
     |対応||
     |---|---|
-    |AliceScript|3.0|
-    |AliceSister|3.0|
-    |Losetta|0.10|
+    |AliceScript|3.0、4|
+    |AliceSister|3.0、4|
+    |Losetta|0.10、0.11|
 
 ### 説明
 このメソッドは、指定した文字列内でパターンに一致する文字列の初めに見つかった部分を、指定した文字列で置き換えます。

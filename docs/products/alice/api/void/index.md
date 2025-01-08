@@ -20,9 +20,9 @@ public class void;
 ???note "対応: Alice3.0以降"
     |対応||
     |---|---|
-    |AliceScript|3.0|
-    |AliceSister|3.0|
-    |Losetta|0.10|
+    |AliceScript|3.0、4|
+    |AliceSister|3.0、4|
+    |Losetta|0.10、0.11|
 
 AliceScriptの`void`型は、他の言語における`void`とは異なり、なんの値もとりません。
 これは、他の言語の[Unit型](https://en.wikipedia.org/wiki/Unit_type)に類似しています。

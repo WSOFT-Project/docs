@@ -32,9 +32,9 @@ public bool Like(this string input, string pattern);
 ???note "対応: Alice3.0以降"
     |対応||
     |---|---|
-    |AliceScript|3.0|
-    |AliceSister|3.0|
-    |Losetta|0.10|
+    |AliceScript|3.0、4|
+    |AliceSister|3.0、4|
+    |Losetta|0.10、0.11|
 
 ### 説明
 このメソッドは、入力文字列を`pattern`で指定されたワイルドカードを含むパターンと比較します。このメソッドで使用できるパターンと対応する正規表現と意味について示します。

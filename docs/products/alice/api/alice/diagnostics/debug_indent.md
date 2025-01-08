@@ -25,9 +25,9 @@ public void debug_indent();
 ???note "対応: AliceScript RC2以降"
     |対応||
     |---|---|
-    |AliceScript|RC2、GM、2.0、2.1、2.2、2.3、3.0|
-    |AliceSister|GM、2.0、2.1、2.2、2.3、3.0|
-    |Losetta|0.8、0.9、0.10|
+    |AliceScript|RC2、GM、2.0、2.1、2.2、2.3、3.0、4|
+    |AliceSister|GM、2.0、2.1、2.2、2.3、3.0、4|
+    |Losetta|0.8、0.9、0.10、0.11|
 
 ### 例
 次の例では、インデントレベルを設定し、デバッグ出力に書き込みます。

@@ -2,7 +2,7 @@
 title: math_isAbsolutelyClose
 summary: 指定した2つの値が互いに近似しているどうかを表す値を取得します。
 date : 2024-05-02
-draft : true
+
 mt_type: function
 mt_title: math_isAbsolutelyClose(number,number,number)
 ---
@@ -15,9 +15,7 @@ mt_title: math_isAbsolutelyClose(number,number,number)
 
 #### math_isAbsolutelyClose(number,number,number)
 
-> [!IMPORTANT] プレビュー
-> この記事では、現在開発中のAlice vNEXTに実装される予定のAPIについて説明しています。
-> このAPIは予告なく削除および変更される可能性があります。
+
 
 指定した2つの値が互いに近似しているどうかを表す値を取得します。
 
@@ -36,12 +34,12 @@ public bool math_isAbsolutelyClose(number x, number y, number tolerance) require
 |-|-|
 |`bool`|`x`と`y`が互いに近似している場合は`true`、それ以外の場合は`false`|
 
-???note "対応: 未実装"
+???note "対応: Alice4以降"
     |対応||
     |---|---|
-    |AliceScript||
-    |AliceSister||
-    |Losetta||
+    |AliceScript|4|
+    |AliceSister|4|
+    |Losetta|0.11|
 
 ### 説明
 この関数は、以下の表に従って`x`と`y`が一定の許容誤差以内で近似しているかを調べます。

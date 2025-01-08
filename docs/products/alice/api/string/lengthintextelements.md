@@ -5,9 +5,7 @@ summary: 現在の文字列の文字要素の数を取得します
 mt_type: property
 ---
 
-> [!IMPORTANT] プレビュー
-> この記事では、現在開発中のAlice vNEXTに実装される予定のAPIについて説明しています。
-> このAPIは予告なく削除および変更される可能性があります。
+
 
 ### 定義
 名前空間: Alice<br/>
@@ -26,12 +24,12 @@ public readonly number LengthInTextElements;
 |-|-|
 |`number`|現在の文字列の文字要素の数|
 
-???note "対応: 未実装"
+???note "対応: Alice4以降"
     |対応||
     |---|---|
-    |AliceScript||
-    |AliceSister||
-    |Losetta||
+    |AliceScript|4|
+    |AliceSister|4|
+    |Losetta|0.11|
 
 ### 説明
 このプロパティは、サロゲートペアや結合文字を一文字と数えて文字数を取得します。文字要素とは、およそ人に見える一文字のことです。サロゲートペアをもつ文字は、上位サロゲートと下位サロゲートを合わせて一文字と認識します。

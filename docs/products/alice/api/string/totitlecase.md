@@ -8,7 +8,7 @@ mt_title: ToTitleCase()
 mt_summary: 現在の文字列の単語の頭文字を大文字に置換します。
 mt_title: ToTitleCase(string?)
 mt_summary: 指定された地域の規則を使用して、現在の文字列の単語の頭文字を大文字に置換します。
-draft: true
+
 ---
 
 ### 定義
@@ -33,12 +33,12 @@ public string ToTitleCase();
 |-|-|
 |`string`|置換後の文字列|
 
-???note "対応: 未実装"
+???note "対応: Alice4以降"
     |対応||
     |---|---|
-    |AliceScript||
-    |AliceSister||
-    |Losetta||
+    |AliceScript|4|
+    |AliceSister|4|
+    |Losetta|0.11|
 
 #### ToTitleCase(string?)
 
@@ -57,12 +57,12 @@ public string ToTitleCase(string? cultureName);
 |-|-|
 |`string`|置換後の文字列|
 
-???note "対応: 未実装"
+???note "対応: Alice4以降"
     |対応||
     |---|---|
-    |AliceScript||
-    |AliceSister||
-    |Losetta||
+    |AliceScript|4|
+    |AliceSister|4|
+    |Losetta|0.11|
 
 ### 説明
 このメソッドは、現在の文字列をタイトルケースに置換します。

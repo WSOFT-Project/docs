@@ -2,7 +2,7 @@
 title: file_set_accessTime
 summary: 指定したファイルまたはディレクトリの最終アクセス日時を設定します。
 date : 2024-05-02
-draft : true
+
 mt_type: function
 mt_title: file_set_accessTime(string,DateTime)
 mt_summary: 指定したファイルまたはディレクトリの最終アクセス日時を設定します。
@@ -17,9 +17,7 @@ mt_summary: 日時をUTCで設定するか、現地時間で設定するかを�
 
 #### file_set_accessTime(string,DateTime)
 
-> [!IMPORTANT] プレビュー
-> この記事では、現在開発中のAlice vNEXTに実装される予定のAPIについて説明しています。
-> このAPIは予告なく削除および変更される可能性があります。
+
 
 指定したファイルまたはディレクトリの最終アクセス日時を設定します。
 
@@ -33,18 +31,16 @@ public void file_set_accessTime(string path, DateTime accessTime);
 |`path`|最終アクセス日時を設定するファイルまたはディレクトリへのパス|
 |`accessTime`|設定する最終アクセス日時。この値は現地時間とみなされます。|
 
-???note "対応: 未実装"
+???note "対応: Alice4以降"
     |対応||
     |---|---|
-    |AliceScript||
-    |AliceSister||
-    |Losetta||
+    |AliceScript|4|
+    |AliceSister|4|
+    |Losetta|0.11|
 
 #### file_set_accessTime(string,DateTime,bool)
 
-> [!IMPORTANT] プレビュー
-> この記事では、現在開発中のAlice vNEXTに実装される予定のAPIについて説明しています。
-> このAPIは予告なく削除および変更される可能性があります。
+
 
 日時をUTCで設定するか、現地時間で設定するかを指定して、指定したファイルまたはディレクトリの最終アクセス日時を設定します。
 
@@ -59,12 +55,12 @@ public DateTime file_set_accessTime(string path, DateTime accessTime, bool setBy
 |`accessTime`|設定する最終アクセス日時|
 |`setByUTC`|`accessTime`を協定世界時(UTC)とみなして設定する場合は`true`、現地時間とみなして設定する場合は`false`|
 
-???note "対応: 未実装"
+???note "対応: Alice4以降"
     |対応||
     |---|---|
-    |AliceScript||
-    |AliceSister||
-    |Losetta||
+    |AliceScript|4|
+    |AliceSister|4|
+    |Losetta|0.11|
 
 ### 説明
 

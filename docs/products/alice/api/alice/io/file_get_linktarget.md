@@ -2,7 +2,7 @@
 title: file_get_linkTarget
 summary: 指定したファイルリンクのリンク先を取得します。
 date : 2024-05-02
-draft : true
+
 mt_type: function
 mt_title: file_get_linkTarget(string,bool)
 ---
@@ -14,9 +14,7 @@ mt_title: file_get_linkTarget(string,bool)
 
 #### file_get_linkTarget(string,bool)
 
-> [!IMPORTANT] プレビュー
-> この記事では、現在開発中のAlice vNEXTに実装される予定のAPIについて説明しています。
-> このAPIは予告なく削除および変更される可能性があります。
+
 
 指定したファイルリンクのリンク先を取得します。
 
@@ -34,12 +32,12 @@ public string file_get_linkTarget(string path, bool getFinalTarget);
 |-|-|
 |`string`|`path`のリンク先へのパス。ただし、`path`がリンクではない場合は`null`。|
 
-???note "対応: 未実装"
+???note "対応: Alice4以降"
     |対応||
     |---|---|
-    |AliceScript||
-    |AliceSister||
-    |Losetta||
+    |AliceScript|4|
+    |AliceSister|4|
+    |Losetta|0.11|
 
     この関数はAliceScript、AliceSisterでは実装されていません。
 

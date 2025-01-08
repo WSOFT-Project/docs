@@ -19,9 +19,9 @@ public readonly number math_maxValue = 1.7976931348623157E+308;
 ???note "対応: Alice3.0以降"
     |対応||
     |---|---|
-    |AliceScript|3.0|
-    |AliceSister|3.0|
-    |Losetta|0.10|
+    |AliceScript|3.0、4|
+    |AliceSister|3.0、4|
+    |Losetta|0.10、0.11|
 
 ### 説明
 AliceScriptの数値型はIEEE754に準拠しており、扱うことのできる最大値は、${1.7976931348623157 \times 10^{308} }$です。

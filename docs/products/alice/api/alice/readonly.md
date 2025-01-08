@@ -27,9 +27,9 @@ public void readonly(params variable items)
 ???note "対応: Alice3.0以降"
     |対応||
     |---|---|
-    |AliceScript|3.0|
-    |AliceSister|3.0|
-    |Losetta|0.10|
+    |AliceScript|3.0、4|
+    |AliceSister|3.0、4|
+    |Losetta|0.10、0.11|
 
 ### 説明
 `readonly`文は、指定した変数を読み取り専用に設定した後、このブロックを実行し、実行完了後に変数の読み取り可否を元に戻します。"読み取り専用"とは、再代入が行えないことのみを保証します。変数の値がイミュータブルでない場合、このブロック内で変数の値が書き変わる可能性があります。

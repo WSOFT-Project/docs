@@ -30,9 +30,9 @@ public string[] env_get_environmentVariable();
 ???note "対応: Alice2.0以降"
     |対応||
     |---|---|
-    |AliceScript|2.0、2.1、2.2、2.3、3.0|
-    |AliceSister|2.0、2.1、2.2、2.3、3.0|
-    |Losetta|0.9、0.10|
+    |AliceScript|2.0、2.1、2.2、2.3、3.0、4|
+    |AliceSister|2.0、2.1、2.2、2.3、3.0、4|
+    |Losetta|0.9、0.10、0.11|
 
 #### env_get_environmentVariable(string)
 
@@ -54,9 +54,9 @@ public string env_get_environmentVariable(string name);
 ???note "対応: Alice2.0以降"
     |対応||
     |---|---|
-    |AliceScript|2.0、2.1、2.2、2.3、3.0|
-    |AliceSister|2.0、2.1、2.2、2.3、3.0|
-    |Losetta|0.9、0.10|
+    |AliceScript|2.0、2.1、2.2、2.3、3.0、4|
+    |AliceSister|2.0、2.1、2.2、2.3、3.0、4|
+    |Losetta|0.9、0.10、0.11|
 
 ### 説明
 この関数は、現在のプロセスの環境ブロックからのみ環境変数を取得します。

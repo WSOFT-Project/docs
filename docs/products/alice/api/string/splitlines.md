@@ -29,9 +29,9 @@ public array SplitLines();
 ???note "対応: Alice3.0以降"
     |対応||
     |---|---|
-    |AliceScript|3.0|
-    |AliceSister|3.0|
-    |Losetta|0.10|
+    |AliceScript|3.0、4|
+    |AliceSister|3.0、4|
+    |Losetta|0.10、0.11|
 
 ### 説明
 この関数は、改行文字(`\n`)ごとに文字列を分割し、分割した文字列から`\r`を除去した新しい文字列を作成します。

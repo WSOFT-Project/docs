@@ -36,9 +36,9 @@ public delegate interop_getInvoker(string procName, string libraryName, string r
 ???note "対応: Alice3.0以降"
     |対応||
     |---|---|
-    |AliceScript|3.0|
-    |AliceSister|3.0|
-    |Losetta|0.10|
+    |AliceScript|3.0、4|
+    |AliceSister|3.0、4|
+    |Losetta|0.10、0.11|
 
 ### 説明
 この関数を使用すると、ネイティブ関数を一度定義することなくデリゲートに格納できます。

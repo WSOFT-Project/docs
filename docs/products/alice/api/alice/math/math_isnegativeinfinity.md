@@ -30,9 +30,9 @@ public bool math_isNegativeInfinity(number value);
 ???note "対応: Alice3.0以降"
     |対応||
     |---|---|
-    |AliceScript|3.0|
-    |AliceSister|3.0|
-    |Losetta|0.10|
+    |AliceScript|3.0、4|
+    |AliceSister|3.0、4|
+    |Losetta|0.10、0.11|
 
 ### 例
 次の例では、`0`未満の数値を`0`で除算することで負の無限大になることを確認しています。

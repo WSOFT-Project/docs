@@ -33,9 +33,9 @@ public string ReplaceAll(this string input, string pattern, string replacement);
 ???note "対応: Alice3.0以降"
     |対応||
     |---|---|
-    |AliceScript|3.0|
-    |AliceSister|3.0|
-    |Losetta|0.10|
+    |AliceScript|3.0、4|
+    |AliceSister|3.0、4|
+    |Losetta|0.10、0.11|
 
 ### 説明
 このメソッドを呼び出すことは、[regex_replace](./regex_replace.md)関数を呼び出すことと同義です。

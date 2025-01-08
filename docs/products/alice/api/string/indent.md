@@ -35,9 +35,9 @@ public string Indent(number indentLevel, string indentChar = " ");
 ???note "対応: Alice3.0以降"
     |対応||
     |---|---|
-    |AliceScript|3.0|
-    |AliceSister|3.0|
-    |Losetta|0.10|
+    |AliceScript|3.0、4|
+    |AliceSister|3.0、4|
+    |Losetta|0.10、0.11|
 
 ### 説明
 このメソッドは、現在の文字列の先頭に`indentChar`を`indentLevel`個挿入した新しい文字列を返します。

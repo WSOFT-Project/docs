@@ -27,9 +27,9 @@ public void Assign(variable other);
 ???note "対応: Alice3.0以降"
     |対応||
     |---|---|
-    |AliceScript|3.0|
-    |AliceSister|3.0|
-    |Losetta|0.10|
+    |AliceScript|3.0、4|
+    |AliceSister|3.0、4|
+    |Losetta|0.10、0.11|
 
 ### 例
 以下は、数値型の変数`n`にこの関数を使用して値を代入しています。

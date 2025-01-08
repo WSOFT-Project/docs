@@ -24,9 +24,9 @@ public readonly bool HasValue;
 ???note "対応: Alice3.0以降"
     |対応||
     |---|---|
-    |AliceScript|3.0|
-    |AliceSister|3.0|
-    |Losetta|0.10|
+    |AliceScript|3.0、4|
+    |AliceSister|3.0、4|
+    |Losetta|0.10、0.11|
 
 ### 説明
 このプロパティの値が`true`の場合、[Value](./value.md)プロパティを使用してこの変数の値を取得できます。

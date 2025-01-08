@@ -30,7 +30,7 @@ public void directory_create_symbolicLink(string path, string target);
     |---|---|
     |AliceScript|該当なし|
     |AliceSister|該当なし|
-    |Losetta|0.10|
+    |Losetta|0.10、0.11|
 
     この関数はAliceScript、AliceSisterでは実装されていません。
 

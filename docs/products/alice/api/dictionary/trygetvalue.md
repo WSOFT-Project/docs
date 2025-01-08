@@ -30,12 +30,12 @@ public bool TryGetValue(variable key, ref variable value);
 |-|-|
 |`:::cs bool`|辞書内に指定された`key`が存在する場合は`true`、存在しない場合は`false`。|
 
-???note "対応: 未実装"
+???note "対応: Alice4以降"
     |対応||
     |---|---|
-    |AliceScript||
-    |AliceSister||
-    |Losetta||
+    |AliceScript|4|
+    |AliceSister|4|
+    |Losetta|0.11|
 
 ### 説明
 このメソッドは、辞書内で、指定されたキーに関連づけられている値の取得を試みます。

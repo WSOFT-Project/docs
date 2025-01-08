@@ -31,9 +31,9 @@ public array Except(array other);
 ???note "対応: Alice2.2以降"
     |対応||
     |---|---|
-    |AliceScript|2.2、2.3、3.0|
-    |AliceSister|2.2、2.3、3.0|
-    |Losetta|0.9、0.10|
+    |AliceScript|2.2、2.3、3.0、4|
+    |AliceSister|2.2、2.3、3.0、4|
+    |Losetta|0.9、0.10、0.11|
 
 ### 説明
 このメソッドは、このインスタンスには存在するが、`other`には存在しない要素を取得します。

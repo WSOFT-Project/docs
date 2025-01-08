@@ -30,9 +30,9 @@ public number IndexOf(string item, number startIndex = 0);
 ???note "対応: AliceScript RC1以降"
     |対応||
     |---|---|
-    |AliceScript|RC1、RC2、GM、2.0、2.1、2.2、2.3、3.0|
-    |AliceSister|GM、2.0、2.1、2.2、2.3、3.0|
-    |Losetta|0.8、0.9、0.10|
+    |AliceScript|RC1、RC2、GM、2.0、2.1、2.2、2.3、3.0、4|
+    |AliceSister|GM、2.0、2.1、2.2、2.3、3.0、4|
+    |Losetta|0.8、0.9、0.10、0.11|
 
 !!!note "情報"
     インデックスとは、配列の最初の項目から順に`0,1,2...`と番号を割り当てたものです。たとえば、3番目の要素のインデックスは`2`です。

@@ -33,9 +33,9 @@ public bytes password_hashData(bytes password, bytes salt, number hash_size=32, 
 ???note "対応: Alice2.0以降"
     |対応||
     |---|---|
-    |AliceScript|2.0、2.1、2.2、2.3、3.0|
-    |AliceSister|2.0、2.1、2.2、2.3、3.0|
-    |Losetta|0.9、0.10|
+    |AliceScript|2.0、2.1、2.2、2.3、3.0、4|
+    |AliceSister|2.0、2.1、2.2、2.3、3.0、4|
+    |Losetta|0.9、0.10、0.11|
 
 ### 例
 次の例では、ソルトをハッシュ化し保存します。

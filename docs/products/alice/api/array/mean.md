@@ -31,9 +31,9 @@ public number Mean();
 ???note "対応: Alice3.0以降"
     |対応||
     |---|---|
-    |AliceScript|3.0|
-    |AliceSister|3.0|
-    |Losetta|0.10|
+    |AliceScript|3.0、4|
+    |AliceSister|3.0、4|
+    |Losetta|0.10、0.11|
 
 #### Mean(delegate)
 
@@ -55,9 +55,9 @@ public number Mean(delegate source);
 ???note "対応: Alice3.0以降"
     |対応||
     |---|---|
-    |AliceScript|3.0|
-    |AliceSister|3.0|
-    |Losetta|0.10|
+    |AliceScript|3.0、4|
+    |AliceSister|3.0、4|
+    |Losetta|0.10、0.11|
 
 ### 説明
 この関数は、現在の配列の各要素の平均値を取得します。`source`を指定しない場合、配列内の各要素は数値型である必要があります。

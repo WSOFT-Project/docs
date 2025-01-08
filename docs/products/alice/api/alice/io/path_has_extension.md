@@ -31,9 +31,9 @@ public bool path_has_extension(string path);
 ???note "対応: AliceScript RC2以降"
     |対応||
     |---|---|
-    |AliceScript|RC2、GM、2.0、2.1、2.2、2.3、3.0|
-    |AliceSister|GM、2.0、2.1、2.2、2.3、3.0|
-    |Losetta|0.8、0.9、0.10|
+    |AliceScript|RC2、GM、2.0、2.1、2.2、2.3、3.0、4|
+    |AliceSister|GM、2.0、2.1、2.2、2.3、3.0、4|
+    |Losetta|0.8、0.9、0.10、0.11|
 
 ### 説明
 この関数は、指定されたパスが、拡張子を含んでいるかを示す値を取得します。

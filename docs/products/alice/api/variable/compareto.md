@@ -31,9 +31,9 @@ public number CompareTo(variable other);
 ???note "対応: Alice3.0以降"
     |対応||
     |---|---|
-    |AliceScript|3.0|
-    |AliceSister|3.0|
-    |Losetta|0.10|
+    |AliceScript|3.0、4|
+    |AliceSister|3.0、4|
+    |Losetta|0.10、0.11|
 
 ### 説明
 このメソッドは、変数の型ともう一方の型が同一で、かつ比較可能な場合に比較を実行します。

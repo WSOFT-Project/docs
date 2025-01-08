@@ -28,15 +28,13 @@ public void Sort();
 ???note "対応: Alice2.0以降"
     |対応||
     |---|---|
-    |AliceScript|2.0、2.1、2.2、2.3、3.0|
-    |AliceSister|2.0、2.1、2.2、2.3、3.0|
-    |Losetta|0.9、0.10|
+    |AliceScript|2.0、2.1、2.2、2.3、3.0、4|
+    |AliceSister|2.0、2.1、2.2、2.3、3.0、4|
+    |Losetta|0.9、0.10、0.11|
 
 #### Sort(delegate)
 
-> [!IMPORTANT] プレビュー
-> この記事では、現在開発中のAlice vNEXTに実装される予定のAPIについて説明しています。
-> このAPIは予告なく削除および変更される可能性があります。
+
 
 現在の配列の要素の順序を、指定した並べ替え規則を使用して並び替えます
 
@@ -49,18 +47,16 @@ public void Sort(delegate comparator);
 |-|-|
 |`comparator`|並び替えに使用するデリゲート|
 
-???note "対応: 未実装"
+???note "対応: Alice4以降"
     |対応||
     |---|---|
-    |AliceScript||
-    |AliceSister||
-    |Losetta||
+    |AliceScript|4|
+    |AliceSister|4|
+    |Losetta|0.11|
 
 #### Sort(number,number)
 
-> [!IMPORTANT] プレビュー
-> この記事では、現在開発中のAlice vNEXTに実装される予定のAPIについて説明しています。
-> このAPIは予告なく削除および変更される可能性があります。
+
 
 現在の配列内の指定した範囲の要素の順序を並び替えます
 
@@ -74,12 +70,12 @@ public void Sort(number index,number count);
 |`index`|並び替えを開始するインデックス|
 |`count`|並び替えを実行する要素の数|
 
-???note "対応: 未実装"
+???note "対応: Alice4以降"
     |対応||
     |---|---|
-    |AliceScript||
-    |AliceSister||
-    |Losetta||
+    |AliceScript|4|
+    |AliceSister|4|
+    |Losetta|0.11|
 
 ### 説明
 このメソッドは、イントロソートアルゴリズムを使用して、配列を並べ替えます。

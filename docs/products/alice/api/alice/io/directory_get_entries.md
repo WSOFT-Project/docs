@@ -2,7 +2,7 @@
 title: directory_get_entries
 summary: 指定した条件を満たすファイルおよびディレクトリへのパスのリストを返します。
 date : 2024-05-05
-draft : true
+
 mt_type: function
 mt_overloads: 4
 
@@ -41,12 +41,12 @@ public string[] directory_get_entries(string path);
 |-|-|
 |`string[]`|指定したディレクトリ内のファイルおよびディレクトリへのパスの配列。ただし、条件に一致するファイルエントリが見つからない場合は空の配列|
 
-???note "対応: 未実装"
+???note "対応: Alice4以降"
     |対応||
     |---|---|
-    |AliceScript||
-    |AliceSister||
-    |Losetta||
+    |AliceScript|4|
+    |AliceSister|4|
+    |Losetta|0.11|
 
 #### directory_get_entries(string,string)
 
@@ -66,12 +66,12 @@ public string[] directory_get_entries(string path, string pattern);
 |-|-|
 |`string[]`|指定したディレクトリ内のファイルおよびディレクトリへのパスの配列。ただし、条件に一致するファイルエントリが見つからない場合は空の配列|
 
-???note "対応: 未実装"
+???note "対応: Alice4以降"
     |対応||
     |---|---|
-    |AliceScript||
-    |AliceSister||
-    |Losetta||
+    |AliceScript|4|
+    |AliceSister|4|
+    |Losetta|0.11|
 
 #### directory_get_entries(string,string,bool)
 
@@ -92,12 +92,12 @@ public string[] directory_get_entries(string path, string pattern, bool searchSu
 |-|-|
 |`string[]`|指定したディレクトリ内のファイルおよびディレクトリへのパスの配列。ただし、条件に一致するファイルエントリが見つからない場合は空の配列|
 
-???note "対応: 未実装"
+???note "対応: Alice4以降"
     |対応||
     |---|---|
-    |AliceScript||
-    |AliceSister||
-    |Losetta||
+    |AliceScript|4|
+    |AliceSister|4|
+    |Losetta|0.11|
 
 #### directory_get_entries(string,string,bool,bool,bool,bool,bool,number,number)
 
@@ -124,12 +124,12 @@ public string[] directory_get_entries(string path, string pattern, bool searchSu
 |-|-|
 |`string[]`|指定したディレクトリ内のファイルおよびディレクトリへのパスの配列。ただし、条件に一致するファイルエントリが見つからない場合は空の配列|
 
-???note "対応: 未実装、AliceScriptとLosettaのみ"
+???note "対応: Alice4以降、AliceScriptとLosettaのみ"
     |対応||
     |---|---|
-    |AliceScript||
-    |AliceSister||
-    |Losetta||
+    |AliceScript|4|
+    |AliceSister|該当なし|
+    |Losetta|0.11|
 
     この関数はAliceSisterでは実装されていません。
 
