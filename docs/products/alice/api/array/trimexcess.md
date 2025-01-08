@@ -17,7 +17,7 @@ mt_summary: 配列にある要素数がしきい値未満の場合に、容量�
 配列にある要素数がしきい値未満の場合に、容量を縮小します
 
 ```cs title="AliceScript"
-class Alice.Dictionary;
+class Alice.Array;
 public void TrimExcess();
 ```
 
