@@ -47,7 +47,7 @@ public bool Like(this string input, string pattern);
 `[clist]`|`[clist]`|`clist`内の任意の一文字
 `[!clist]`|`[^clist]`|`clist`以外の任意の一文字
 
-この関数ではこの表に示した以外のパターンを表現することはできません。直接入力した正規表現パターンは、[regex_escape](./regex_escape.md)関数を使用して事前にエスケープされます。
+`pattern`には上記以外のパターンを適用することはできません。`pattern`に渡された文字列は事前に、[regex_escape](./regex_escape.md)関数を使用してエスケープされます。
 
 このメソッドによる文字列比較は、VisualBasicのLike演算子を使った比較と互換性があります。このメソッドは`pattern`を内部で正規表現に変換し実行するため、動作速度は正規表現の比較と同じかそれ以下です。
 

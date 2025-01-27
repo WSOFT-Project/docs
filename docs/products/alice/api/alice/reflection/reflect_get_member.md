@@ -18,8 +18,6 @@ mt_summary: 現在のスクリプトから指定された識別子に対応す�
 
 #### reflect_get_member(string)
 
-
-
 現在のスクリプトから指定された識別子に対応する値を取得します。
 
 ```cs title="AliceScript"
@@ -56,7 +54,7 @@ public variable reflect_get_member(string identifier);
 ### 例
 次の例では、変数`x`を定義してから文字列でその値を取得します。
 
-```cs
+```cs title="AliceScript"
 using Alice.Reflection;
 
 var x = 1234;
@@ -67,7 +65,7 @@ print(reflect_get_member("x"));
 
 次の例では、関数`func`を定義してから文字列でそのデリゲートを取得し、呼び出します。
 
-```cs
+```cs title="AliceScript"
 using Alice.Reflection;
 
 void func()
