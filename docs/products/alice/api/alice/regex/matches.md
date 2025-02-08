@@ -50,7 +50,7 @@ public string[] Matches(this string input, string pattern);
 using Alice.Regex;
 
 string text = "ABCDABCDABC";
-var result = regex_Matches(text,"A*B");
+var result = text.Matches("A*B");
 
 foreach(string trimmed in result)
 {

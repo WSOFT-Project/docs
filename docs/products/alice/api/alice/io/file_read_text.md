@@ -46,7 +46,7 @@ public string file_read_text(string path);
 
 ```cs title="AliceScript"
 namespace Alice.IO;
-public string file_read_text(string path,bool fromPackage);
+public string file_read_text(string path, bool fromPackage);
 ```
 
 |引数| |
@@ -57,6 +57,10 @@ public string file_read_text(string path,bool fromPackage);
 |戻り値| |
 |-|-|
 |`string`|ファイル内のすべての文字列|
+
+|例外| |
+|---|-|
+|[FILE_NOT_FOUND](../../../exceptions/0x01b.md)|ファイル'`filename`'が見つかりませんでした。|
 
 ???note "対応: Alice2.0以降"
     |対応||
@@ -71,7 +75,7 @@ public string file_read_text(string path,bool fromPackage);
 
 ```cs title="AliceScript"
 namespace Alice.IO;
-public string file_read_text(string path,string charCode,bool fromPackage = false);
+public string file_read_text(string path, string charCode, bool fromPackage = false);
 ```
 
 |引数| |
@@ -83,6 +87,10 @@ public string file_read_text(string path,string charCode,bool fromPackage = fals
 |戻り値| |
 |-|-|
 |`string`|ファイル内のすべての文字列|
+
+|例外| |
+|---|-|
+|[FILE_NOT_FOUND](../../../exceptions/0x01b.md)|ファイル'`filename`'が見つかりませんでした。|
 
 ???note "対応: Alice2.0以降"
     |対応||
@@ -97,7 +105,7 @@ public string file_read_text(string path,string charCode,bool fromPackage = fals
 
 ```cs title="AliceScript"
 namespace Alice.IO;
-public string file_read_text(string path,number codePage,bool fromPackage = false);
+public string file_read_text(string path, number codePage, bool fromPackage = false);
 ```
 
 |引数| |
@@ -109,6 +117,10 @@ public string file_read_text(string path,number codePage,bool fromPackage = fals
 |戻り値| |
 |-|-|
 |`string`|ファイル内のすべての文字列|
+
+|例外| |
+|---|-|
+|[FILE_NOT_FOUND](../../../exceptions/0x01b.md)|ファイル'`filename`'が見つかりませんでした。|
 
 ???note "対応: Alice2.0以降"
     |対応||
