@@ -58,4 +58,4 @@ WSOFTDocsの全ての記事は、マークダウンファイル(\*.md)で記述�
 ### プルリクエスト
 編集を保存するには、変更を提案します。 *Create a new branch for this commit and start a pull request. Learn more about pull requests.* が選択されていることを確認して、変更を提案します。これであなたの作業は完了です。
 ### 編集のレビュー
-編集は、レビュワーによって確認され、問題なければそのまま *main* ブランチに反映されます。これにより、晴れてWSOFTDocsに編集が反映されます。
+編集は、レビュワーによって確認され、問題なければそのまま *master* ブランチに反映されます。これにより、晴れてWSOFTDocsに編集が反映されます。
